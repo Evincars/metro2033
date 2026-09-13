@@ -1,0 +1,117 @@
+/* ==========================================================================
+   Metro 2033 — global base styles
+   ========================================================================== */
+@import './variables.css';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-mono);
+  font-size: 15px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Tunnel darkness: vignette + faint scanlines layered behind everything */
+body {
+  background-image:
+    radial-gradient(ellipse at center, rgba(20, 18, 14, 0) 0%, rgba(0, 0, 0, 0.75) 100%),
+    repeating-linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.015) 0px,
+      rgba(255, 255, 255, 0.015) 1px,
+      transparent 1px,
+      transparent 3px
+    );
+  background-attachment: fixed;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-amber-bright);
+  margin: 0 0 0.6em;
+}
+
+a {
+  color: var(--color-amber);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-amber-bright);
+}
+
+p {
+  color: var(--color-text-dim);
+}
+
+::selection {
+  background: var(--color-rust);
+  color: var(--color-bg);
+}
+
+/* thin rusty scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg-alt);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border-strong);
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-rust);
+}
+
+/* reusable panel look: riveted metal plate */
+.mx-panel {
+  background: linear-gradient(180deg, var(--color-panel) 0%, var(--color-panel-alt) 100%);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-panel);
+}
+
+.mx-tag {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-toxic-bright);
+  border: 1px solid var(--color-border-strong);
+  padding: 2px 8px;
+  border-radius: 2px;
+  background: rgba(92, 122, 58, 0.08);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

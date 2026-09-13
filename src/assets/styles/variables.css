@@ -1,0 +1,41 @@
+/* ==========================================================================
+   Metro 2033 — theme tokens
+   Palette inspired by tunnel darkness, rusted metal, emergency lamps
+   and the sickly glow of the Metro's makeshift lighting.
+   ========================================================================== */
+:root {
+  /* surfaces */
+  --color-bg: #0a0908;
+  --color-bg-alt: #121110;
+  --color-panel: #17150f;
+  --color-panel-alt: #1d1a13;
+  --color-border: #3a3020;
+  --color-border-strong: #5a4726;
+
+  /* accents */
+  --color-rust: #a85a24;
+  --color-amber: #e8952a;
+  --color-amber-bright: #ffb347;
+  --color-blood: #7a1f1f;
+  --color-blood-bright: #b23a3a;
+  --color-toxic: #5c7a3a;
+  --color-toxic-bright: #8bab4f;
+
+  /* text */
+  --color-text: #d9cfb6;
+  --color-text-dim: #948a72;
+  --color-text-faint: #5f5747;
+
+  /* fonts */
+  --font-display: 'Oswald', 'Arial Narrow', sans-serif;
+  --font-mono: 'Share Tech Mono', 'Courier New', monospace;
+
+  /* layout */
+  --nav-panel-width: 220px;
+  --nav-panel-width-collapsed: 64px;
+  --header-height: 64px;
+
+  --shadow-panel: 0 4px 18px rgba(0, 0, 0, 0.55);
+  --glow-amber: 0 0 8px rgba(232, 149, 42, 0.55);
+  --glow-toxic: 0 0 8px rgba(139, 171, 79, 0.4);
+}
