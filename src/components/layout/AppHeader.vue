@@ -4,6 +4,7 @@ import { useRoute } from 'vue-router'
 
 const emit = defineEmits(['toggle-nav'])
 const route = useRoute()
+const base = import.meta.env.BASE_URL
 
 const navLinks = [
   { to: '/', label: 'Surface' },
@@ -33,12 +34,14 @@ function toggleMobile() {
       <span />
     </button>
 
-    <RouterLink to="/" class="brand">
-      <span class="brand-mark">☢</span>
-      <span class="brand-text">
-        <span class="brand-title">METRO</span>
-        <span class="brand-year">2033</span>
-      </span>
+    <RouterLink to="/" class="brand" aria-label="Metro 2033 — home">
+      <img
+        class="brand-logo"
+        :src="`${base}metro2033-logo.png`"
+        alt="Metro 2033"
+        width="7331"
+        height="2759"
+      />
     </RouterLink>
 
     <nav class="primary-nav" aria-label="Primary">
@@ -140,32 +143,19 @@ function toggleMobile() {
   flex-shrink: 0;
 }
 
-.brand-mark {
-  font-size: 1.4rem;
-  color: var(--color-toxic-bright);
-  text-shadow: var(--glow-toxic);
+.brand-logo {
+  display: block;
+  height: 34px;
+  width: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 0 6px rgba(210, 59, 47, 0.35));
+  opacity: 0.95;
+  transition: opacity 0.15s ease, filter 0.15s ease;
 }
 
-.brand-text {
-  display: flex;
-  align-items: baseline;
-  gap: 0.4rem;
-  font-family: var(--font-display);
-}
-
-.brand-title {
-  font-size: 1.25rem;
-  font-weight: 600;
-  letter-spacing: 0.2em;
-  color: var(--color-text);
-}
-
-.brand-year {
-  font-size: 1.25rem;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  color: var(--color-amber-bright);
-  text-shadow: var(--glow-amber);
+.brand:hover .brand-logo {
+  opacity: 1;
+  filter: drop-shadow(0 0 10px rgba(210, 59, 47, 0.55));
 }
 
 .primary-nav {

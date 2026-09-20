@@ -1,4 +1,5 @@
 <script setup>
+import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 import { useRoute } from 'vue-router'
 
 defineProps({
@@ -18,6 +19,67 @@ const navItems = [
   { to: '/chronicles', label: 'Chronicles', code: '05', icon: '▤' },
   { to: '/about', label: 'Dossier', code: '06', icon: '✎' },
 ]
+
+/* ---- live gas-mask HUD: signal strength + radiation meter ---- */
+const RAD_WARN = 3.2 // µSv/h — air turns bad
+const RAD_HIGH = 5.0 // µSv/h — mask required
+
+const signalBars = ref(3) // 0..4
+const rad = ref(0.6) // µSv/h
+let signalTimer = null
+let radTimer = null
+
+const signalLabel = computed(() => {
+  const b = signalBars.value
+  if (b <= 0) return 'lost'
+  if (b === 1) return 'faint'
+  if (b === 2) return 'weak'
+  if (b === 3) return 'stable'
+  return 'strong'
+})
+
+const radLevel = computed(() => {
+  if (rad.value >= RAD_HIGH) return 'high'
+  if (rad.value >= RAD_WARN) return 'elevated'
+  return 'nominal'
+})
+
+const maskOn = computed(() => radLevel.value === 'high')
+
+function clamp(n, min, max) {
+  return Math.min(max, Math.max(min, n))
+}
+
+function tickSignal() {
+  // random walk with an occasional dropout, biased back toward full bars
+  const roll = Math.random()
+  let next = signalBars.value
+  if (roll < 0.12) next -= 2
+  else if (roll < 0.4) next -= 1
+  else if (roll > 0.65) next += 1
+  signalBars.value = clamp(next, 0, 4)
+  signalTimer = window.setTimeout(tickSignal, 700 + Math.random() * 900)
+}
+
+function tickRad() {
+  // drift, with rare spikes that push the reading into the danger zone
+  const spike = Math.random() < 0.14
+  const delta = spike
+    ? 1.4 + Math.random() * 2.6
+    : (Math.random() - 0.45) * 0.9
+  rad.value = Math.round(clamp(rad.value + delta, 0.2, 7.4) * 10) / 10
+  radTimer = window.setTimeout(tickRad, 1100 + Math.random() * 700)
+}
+
+onMounted(() => {
+  tickSignal()
+  tickRad()
+})
+
+onBeforeUnmount(() => {
+  window.clearTimeout(signalTimer)
+  window.clearTimeout(radTimer)
+})
 </script>
 
 <template>
@@ -37,15 +99,43 @@ const navItems = [
       </RouterLink>
     </nav>
 
-    <div class="nav-status">
-      <div class="status-row">
-        <span class="status-dot" />
-        <span class="nav-label status-text">Signal: stable</span>
+    <div class="nav-status" :class="{ 'is-alert': maskOn }">
+      <div class="status-row" :title="`Signal: ${signalLabel}`">
+        <span class="status-ico signal-ico" :data-bars="signalBars" aria-hidden="true">
+          <i /><i /><i /><i />
+        </span>
+        <span class="nav-label status-text">Signal: {{ signalLabel }}</span>
       </div>
-      <div class="status-row">
-        <span class="status-dot status-dot--toxic" />
-        <span class="nav-label status-text">Radiation: nominal</span>
+
+      <div class="status-row" :title="`Radiation: ${rad.toFixed(1)} µSv/h`">
+        <span class="status-ico rad-ico" :class="`rad-${radLevel}`" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="16" height="16">
+            <circle cx="12" cy="12" r="2.4" fill="currentColor" />
+            <path
+              fill="currentColor"
+              d="M12 1.5a10.5 10.5 0 0 1 9.09 5.25l-6.06 3.5a3.5 3.5 0 0 0-3.03-1.75V1.5z"
+            />
+            <path
+              fill="currentColor"
+              d="M21.09 18.75A10.5 10.5 0 0 1 12 24v-7a3.5 3.5 0 0 0 3.03-1.75l6.06 3.5z"
+            />
+            <path
+              fill="currentColor"
+              d="M2.91 18.75 8.97 15.25A3.5 3.5 0 0 0 12 17v7a10.5 10.5 0 0 1-9.09-5.25z"
+            />
+          </svg>
+        </span>
+        <span class="nav-label status-text">
+          Radiation: <span class="rad-value">{{ radLevel }}</span>
+        </span>
       </div>
+
+      <transition name="mask-fade">
+        <div v-if="maskOn" class="mask-warning" role="alert">
+          <span class="mask-ico" aria-hidden="true">☣</span>
+          <span class="mask-text">Put mask on</span>
+        </div>
+      </transition>
     </div>
   </aside>
 </template>
@@ -127,36 +217,156 @@ const navItems = [
 .nav-status {
   padding: 1rem;
   border-top: 1px solid var(--color-border);
+  transition: background-color 0.3s ease;
+}
+
+.nav-status.is-alert {
+  background: rgba(210, 59, 47, 0.08);
 }
 
 .status-row {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  margin-bottom: 0.4rem;
+  gap: 0.55rem;
+  margin-bottom: 0.5rem;
 }
 
 .status-row:last-child {
   margin-bottom: 0;
 }
 
-.status-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--color-amber);
-  box-shadow: var(--glow-amber);
+.status-ico {
   flex-shrink: 0;
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 18px;
+  height: 16px;
 }
 
-.status-dot--toxic {
-  background: var(--color-toxic-bright);
-  box-shadow: var(--glow-toxic);
+/* signal bars */
+.signal-ico {
+  gap: 2px;
+}
+
+.signal-ico i {
+  width: 3px;
+  background: var(--color-border-strong);
+  border-radius: 1px;
+  transition: background-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.signal-ico i:nth-child(1) { height: 25%; }
+.signal-ico i:nth-child(2) { height: 50%; }
+.signal-ico i:nth-child(3) { height: 75%; }
+.signal-ico i:nth-child(4) { height: 100%; }
+
+.signal-ico[data-bars="1"] i:nth-child(-n + 1),
+.signal-ico[data-bars="2"] i:nth-child(-n + 2),
+.signal-ico[data-bars="3"] i:nth-child(-n + 3),
+.signal-ico[data-bars="4"] i:nth-child(-n + 4) {
+  background: var(--color-signal);
+  box-shadow: 0 0 5px rgba(134, 209, 106, 0.7);
+}
+
+.signal-ico[data-bars="0"] {
+  animation: signal-search 1s steps(1, end) infinite;
+}
+
+@keyframes signal-search {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.35; }
+}
+
+/* radiation trefoil */
+.rad-ico {
+  color: var(--color-rad);
+  transition: color 0.3s ease, filter 0.3s ease;
+  animation: rad-spin 6s linear infinite;
+}
+
+.rad-ico.rad-nominal { color: var(--color-rad); filter: drop-shadow(0 0 4px rgba(134, 209, 106, 0.6)); }
+.rad-ico.rad-elevated { color: var(--color-rad-warn); filter: drop-shadow(0 0 5px rgba(255, 181, 74, 0.7)); }
+.rad-ico.rad-high {
+  color: var(--color-rad-high);
+  filter: drop-shadow(0 0 7px rgba(210, 59, 47, 0.85));
+  animation: rad-spin 6s linear infinite, rad-pulse 0.8s ease-in-out infinite;
+}
+
+@keyframes rad-spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes rad-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.55; }
+}
+
+.rad-value {
+  text-transform: uppercase;
 }
 
 .status-text {
   font-size: 0.7rem;
   color: var(--color-text-faint);
+}
+
+/* mask alert */
+.mask-warning {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.7rem;
+  padding: 0.4rem 0.5rem;
+  border: 1px solid var(--color-rad-high);
+  border-radius: 2px;
+  background: rgba(210, 59, 47, 0.12);
+  color: var(--color-rad-high);
+  box-shadow: var(--glow-red);
+  animation: mask-blink 0.9s steps(1, end) infinite;
+}
+
+.mask-ico {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.mask-text {
+  font-family: var(--font-display);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.is-collapsed .mask-text,
+.is-collapsed .status-text {
+  display: none;
+}
+
+@keyframes mask-blink {
+  0%, 60% { opacity: 1; }
+  61%, 100% { opacity: 0.4; }
+}
+
+.mask-fade-enter-active,
+.mask-fade-leave-active {
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.mask-fade-enter-from,
+.mask-fade-leave-to {
+  opacity: 0;
+  transform: translateY(-4px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rad-ico,
+  .rad-ico.rad-high,
+  .mask-warning,
+  .signal-ico[data-bars="0"] {
+    animation: none;
+  }
 }
 
 @media (min-width: 900px) {

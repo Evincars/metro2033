@@ -155,17 +155,6 @@ onBeforeUnmount(() => {
 
 <template>
   <section class="map-view">
-    <header class="map-header mx-panel">
-      <div>
-        <span class="mx-tag">Cartography module</span>
-        <h1>Metro Map</h1>
-        <p>
-          Schematic guide-map of the Moscow Metro. Tap or click a station circle
-          to pull its dossier from the archive.
-        </p>
-      </div>
-    </header>
-
     <div ref="mapFrame" class="map-frame mx-panel">
       <div ref="mapContainer" class="map-canvas" />
 
@@ -208,19 +197,6 @@ onBeforeUnmount(() => {
   flex-direction: column;
   gap: 1.25rem;
   height: 100%;
-}
-
-.map-header {
-  padding: 1.5rem 1.75rem;
-}
-
-.map-header h1 {
-  margin: 0.5rem 0;
-}
-
-.map-header p {
-  margin: 0;
-  max-width: 60ch;
 }
 
 .map-frame {
