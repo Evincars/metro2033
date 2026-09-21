@@ -1,12 +1,17 @@
 <script setup>
-import { ref } from 'vue'
+import { onMounted, ref } from 'vue'
 import AppHeader from './components/layout/AppHeader.vue'
 import NavPanel from './components/layout/NavPanel.vue'
+import { initAmbientAudio } from './composables/useAmbientAudio'
 
 const navCollapsed = ref(false)
 function toggleNav() {
   navCollapsed.value = !navCollapsed.value
 }
+
+onMounted(() => {
+  initAmbientAudio()
+})
 </script>
 
 <template>

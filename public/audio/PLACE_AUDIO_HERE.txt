@@ -1,0 +1,18 @@
+Ambient background audio for the Metro 2033 site
+================================================
+
+Drop your audio files into this folder using EXACTLY these filenames so the
+player picks them up (see src/composables/useAmbientAudio.js):
+
+  1. metro-ambient.mp3        -> looping Metro-series tunnel ambience
+  2. metro-2033-anthem.mp3    -> the track from
+                                 https://www.youtube.com/watch?v=CHVQSch7AnU
+
+The player loops through both tracks, starts on the first click/keypress
+(browsers block audio autoplay), and is controlled from the ⚙ Settings dialog
+in the top-right corner (on/off + volume, saved to localStorage).
+
+Note: the audio itself is NOT included. These tracks are copyrighted, so please
+supply a file you have the right to use (e.g. exported from a source you own).
+Other formats work too — just adjust the filenames/extensions in
+useAmbientAudio.js (mp3, ogg and m4a are widely supported).

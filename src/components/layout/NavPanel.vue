@@ -21,11 +21,12 @@ const navItems = [
 ]
 
 /* ---- live gas-mask HUD: signal strength + radiation meter ---- */
-const RAD_WARN = 3.2 // µSv/h — air turns bad
-const RAD_HIGH = 5.0 // µSv/h — mask required
+// µSv/h — post-war Moscow: tunnels sit near background, surface leaks spike hard.
+const RAD_WARN = 0.6 // elevated, air turning bad
+const RAD_HIGH = 1.0 // gas mask required
 
 const signalBars = ref(3) // 0..4
-const rad = ref(0.6) // µSv/h
+const rad = ref(0.18) // µSv/h
 let signalTimer = null
 let radTimer = null
 
@@ -62,13 +63,13 @@ function tickSignal() {
 }
 
 function tickRad() {
-  // drift, with rare spikes that push the reading into the danger zone
-  const spike = Math.random() < 0.14
-  const delta = spike
-    ? 1.4 + Math.random() * 2.6
-    : (Math.random() - 0.45) * 0.9
-  rad.value = Math.round(clamp(rad.value + delta, 0.2, 7.4) * 10) / 10
-  radTimer = window.setTimeout(tickRad, 1100 + Math.random() * 700)
+  // drift around tunnel background, with rare leaks pushing into the danger zone
+  const leak = Math.random() < 0.12
+  const delta = leak
+    ? 0.7 + Math.random() * 3.2
+    : (Math.random() - 0.52) * 0.28
+  rad.value = clamp(rad.value + delta, 0.09, 9.9)
+  radTimer = window.setTimeout(tickRad, 1400 + Math.random() * 900)
 }
 
 onMounted(() => {
@@ -99,7 +100,7 @@ onBeforeUnmount(() => {
       </RouterLink>
     </nav>
 
-    <div class="nav-status" :class="{ 'is-alert': maskOn }">
+    <div class="nav-status">
       <div class="status-row" :title="`Signal: ${signalLabel}`">
         <span class="status-ico signal-ico" :data-bars="signalBars" aria-hidden="true">
           <i /><i /><i /><i />
@@ -107,7 +108,7 @@ onBeforeUnmount(() => {
         <span class="nav-label status-text">Signal: {{ signalLabel }}</span>
       </div>
 
-      <div class="status-row" :title="`Radiation: ${rad.toFixed(1)} µSv/h`">
+      <div class="status-row" :title="`Radiation ${rad.toFixed(2)} µSv/h`">
         <span class="status-ico rad-ico" :class="`rad-${radLevel}`" aria-hidden="true">
           <svg viewBox="0 0 24 24" width="16" height="16">
             <circle cx="12" cy="12" r="2.4" fill="currentColor" />
@@ -125,17 +126,10 @@ onBeforeUnmount(() => {
             />
           </svg>
         </span>
-        <span class="nav-label status-text">
-          Radiation: <span class="rad-value">{{ radLevel }}</span>
+        <span class="nav-label status-text" :class="{ 'is-danger': maskOn }">
+          Rad: {{ rad.toFixed(2) }} µSv/h<template v-if="maskOn"> — Mask needed</template>
         </span>
       </div>
-
-      <transition name="mask-fade">
-        <div v-if="maskOn" class="mask-warning" role="alert">
-          <span class="mask-ico" aria-hidden="true">☣</span>
-          <span class="mask-text">Put mask on</span>
-        </div>
-      </transition>
     </div>
   </aside>
 </template>
@@ -217,11 +211,6 @@ onBeforeUnmount(() => {
 .nav-status {
   padding: 1rem;
   border-top: 1px solid var(--color-border);
-  transition: background-color 0.3s ease;
-}
-
-.nav-status.is-alert {
-  background: rgba(210, 59, 47, 0.08);
 }
 
 .status-row {
@@ -290,20 +279,10 @@ onBeforeUnmount(() => {
 .rad-ico.rad-high {
   color: var(--color-rad-high);
   filter: drop-shadow(0 0 7px rgba(210, 59, 47, 0.85));
-  animation: rad-spin 6s linear infinite, rad-pulse 0.8s ease-in-out infinite;
 }
 
 @keyframes rad-spin {
   to { transform: rotate(360deg); }
-}
-
-@keyframes rad-pulse {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.55; }
-}
-
-.rad-value {
-  text-transform: uppercase;
 }
 
 .status-text {
@@ -311,59 +290,17 @@ onBeforeUnmount(() => {
   color: var(--color-text-faint);
 }
 
-/* mask alert */
-.mask-warning {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-  margin-top: 0.7rem;
-  padding: 0.4rem 0.5rem;
-  border: 1px solid var(--color-rad-high);
-  border-radius: 2px;
-  background: rgba(210, 59, 47, 0.12);
+.status-text.is-danger {
   color: var(--color-rad-high);
-  box-shadow: var(--glow-red);
-  animation: mask-blink 0.9s steps(1, end) infinite;
-}
-
-.mask-ico {
-  font-size: 1rem;
-  line-height: 1;
-}
-
-.mask-text {
-  font-family: var(--font-display);
-  font-size: 0.78rem;
   font-weight: 600;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
 }
 
-.is-collapsed .mask-text,
 .is-collapsed .status-text {
   display: none;
 }
 
-@keyframes mask-blink {
-  0%, 60% { opacity: 1; }
-  61%, 100% { opacity: 0.4; }
-}
-
-.mask-fade-enter-active,
-.mask-fade-leave-active {
-  transition: opacity 0.25s ease, transform 0.25s ease;
-}
-
-.mask-fade-enter-from,
-.mask-fade-leave-to {
-  opacity: 0;
-  transform: translateY(-4px);
-}
-
 @media (prefers-reduced-motion: reduce) {
   .rad-ico,
-  .rad-ico.rad-high,
-  .mask-warning,
   .signal-ico[data-bars="0"] {
     animation: none;
   }

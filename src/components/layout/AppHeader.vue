@@ -1,6 +1,8 @@
 <script setup>
 import { ref } from 'vue'
 import { useRoute } from 'vue-router'
+import SettingsDialog from './SettingsDialog.vue'
+import { enabled as audioEnabled, playing as audioPlaying } from '../../composables/useAmbientAudio'
 
 const emit = defineEmits(['toggle-nav'])
 const route = useRoute()
@@ -19,6 +21,8 @@ const mobileOpen = ref(false)
 function toggleMobile() {
   mobileOpen.value = !mobileOpen.value
 }
+
+const settingsOpen = ref(false)
 </script>
 
 <template>
@@ -57,6 +61,17 @@ function toggleMobile() {
     </nav>
 
     <button
+      class="settings-toggle"
+      type="button"
+      aria-label="Open settings"
+      :class="{ 'audio-live': audioEnabled && audioPlaying }"
+      @click="settingsOpen = true"
+    >
+      <span class="gear" aria-hidden="true">⚙</span>
+      <span class="audio-pip" aria-hidden="true" />
+    </button>
+
+    <button
       class="burger burger-mobile"
       type="button"
       aria-label="Toggle mobile menu"
@@ -79,6 +94,8 @@ function toggleMobile() {
         {{ link.label }}
       </RouterLink>
     </nav>
+
+    <SettingsDialog v-if="settingsOpen" @close="settingsOpen = false" />
   </header>
 </template>
 
@@ -214,6 +231,58 @@ function toggleMobile() {
   border-bottom: 1px solid var(--color-border);
 }
 
+/* settings gear (top-right corner) */
+.settings-toggle {
+  position: relative;
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  background: transparent;
+  border: 1px solid var(--color-border-strong);
+  border-radius: 2px;
+  color: var(--color-steel);
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: color 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.settings-toggle:hover {
+  color: var(--color-steel-bright);
+  border-color: var(--color-steel);
+  background: rgba(133, 190, 214, 0.08);
+}
+
+.gear {
+  font-size: 1.05rem;
+  line-height: 1;
+}
+
+.settings-toggle.audio-live .gear {
+  animation: gear-turn 8s linear infinite;
+}
+
+@keyframes gear-turn {
+  to { transform: rotate(360deg); }
+}
+
+.audio-pip {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: transparent;
+}
+
+.settings-toggle.audio-live .audio-pip {
+  background: var(--color-signal);
+  box-shadow: 0 0 6px rgba(134, 209, 106, 0.85);
+}
+
 @media (min-width: 900px) {
   .primary-nav {
     display: flex;
@@ -223,6 +292,15 @@ function toggleMobile() {
   }
   .burger {
     display: flex;
+  }
+  .settings-toggle {
+    margin-left: 0.35rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .settings-toggle.audio-live .gear {
+    animation: none;
   }
 }
 </style>
