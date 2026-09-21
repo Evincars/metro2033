@@ -17,6 +17,7 @@ const tooltipPos = ref({ x: 0, y: 0 })
 const pickMode = ref(false)
 const pickedCoords = ref('')
 const isDev = import.meta.env.DEV
+const tooltipImageBroken = ref(false)
 
 // Journey path toggles.
 const showJourney = ref({ 'metro-2033': false, 'last-light': false })
@@ -75,11 +76,13 @@ function updateTooltipPosition() {
 
 async function selectStation(station) {
   const level = levelForStation(station)
+  tooltipImageBroken.value = false
   selected.value = {
     name: level ? level.title : station.name,
     subtitle: level ? station.name : 'Station dossier',
     brief: level?.brief ?? '',
     levelId: level?.id ?? null,
+    image: level?.image ?? '',
     point: station,
   }
   await nextTick()
@@ -89,11 +92,13 @@ async function selectStation(station) {
 async function selectNode(node, game) {
   const level = levelsById[node.id]
   if (!level) return
+  tooltipImageBroken.value = false
   selected.value = {
     name: level.title,
     subtitle: JOURNEY_STYLE[game]?.label ?? '',
     brief: level.brief,
     levelId: level.id,
+    image: level.image ?? '',
     point: node,
   }
   await nextTick()
@@ -254,6 +259,15 @@ onBeforeUnmount(() => {
         <button class="tooltip-close" type="button" aria-label="Close" @click="closeTooltip">×</button>
         <span class="tooltip-tag">{{ selected.subtitle }}</span>
         <h2 class="tooltip-title">{{ selected.name }}</h2>
+        <img
+          v-if="selected.image && !tooltipImageBroken"
+          class="tooltip-image"
+          :src="selected.image"
+          :alt="selected.name"
+          referrerpolicy="no-referrer"
+          @error="tooltipImageBroken = true"
+          @load="updateTooltipPosition"
+        />
         <p class="tooltip-body">
           {{ selected.brief || 'No level dossier is linked to this station yet.' }}
         </p>
@@ -382,6 +396,15 @@ onBeforeUnmount(() => {
   color: var(--color-text-dim);
 }
 
+.tooltip-image {
+  display: block;
+  width: 100%;
+  height: 110px;
+  object-fit: cover;
+  margin: 0.5rem 0 0.6rem;
+  border: 1px solid var(--color-border-strong);
+}
+
 .tooltip-link {
   font-family: var(--font-mono);
   font-size: 0.75rem;
@@ -398,7 +421,7 @@ onBeforeUnmount(() => {
 .journey-controls {
   position: absolute;
   top: 1rem;
-  left: 1rem;
+  right: 1rem;
   z-index: 600;
   display: flex;
   flex-direction: column;

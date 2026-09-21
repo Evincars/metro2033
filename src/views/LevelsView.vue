@@ -1,5 +1,5 @@
 <script setup>
-import { computed } from 'vue'
+import { computed, ref } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { marked } from 'marked'
 import { GAMES, levels, levelsById } from '../data/levels'
@@ -14,6 +14,17 @@ const activeLevel = computed(() => (activeId.value ? levelsById[activeId.value] 
 
 const renderedBody = computed(() =>
   activeLevel.value ? marked.parse(activeLevel.value.body || '') : '',
+)
+
+// Fandom blocks hot-linked images by referer; any that still fail are hidden.
+const brokenImages = ref(new Set())
+function markBroken(id) {
+  const next = new Set(brokenImages.value)
+  next.add(id)
+  brokenImages.value = next
+}
+const showImage = computed(
+  () => activeLevel.value?.image && !brokenImages.value.has(activeLevel.value.id),
 )
 
 // Group levels by game, then by chapter, preserving story order.
@@ -52,8 +63,14 @@ function backToList() {
           <p v-if="activeLevel.brief" class="detail-brief">{{ activeLevel.brief }}</p>
         </header>
 
-        <figure v-if="activeLevel.image" class="detail-figure">
-          <img :src="activeLevel.image" :alt="activeLevel.title" loading="lazy" />
+        <figure v-if="showImage" class="detail-figure">
+          <img
+            :src="activeLevel.image"
+            :alt="activeLevel.title"
+            loading="lazy"
+            referrerpolicy="no-referrer"
+            @error="markBroken(activeLevel.id)"
+          />
         </figure>
 
         <div class="markdown-body" v-html="renderedBody" />
