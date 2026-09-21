@@ -37,10 +37,10 @@ import { RouterLink } from 'vue-router'
       </article>
       <article class="mx-panel card">
         <span class="card-code">05</span>
-        <h3>Chronicles</h3>
+        <h3>Events</h3>
         <p>
-          Field notes, rumors and diary pages collected from the tunnels — the unofficial
-          record of life underground.
+          A timeline of the Metro universe, from the bombs of 2013 to the world beyond —
+          every turning point, year by year.
         </p>
       </article>
     </div>

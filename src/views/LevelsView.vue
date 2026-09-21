@@ -3,7 +3,8 @@ import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { marked } from 'marked'
 import { GAMES, levels, levelsById } from '../data/levels'
-import { fuzzyMatch, normalize } from '../utils/search'
+import { fuzzyMatch } from '../utils/search'
+import { handleInternalClick, linkify } from '../utils/wikiLinks'
 
 const route = useRoute()
 const router = useRouter()
@@ -13,46 +14,13 @@ marked.setOptions({ breaks: false, gfm: true })
 const activeId = computed(() => route.params.id ?? '')
 const activeLevel = computed(() => (activeId.value ? levelsById[activeId.value] : null))
 
-// Alias → level id, so in-article wiki links like "Riga station" can point to
-// our own dossier instead of Fandom. Metro 2033 wins ties over Last Light.
-const levelAlias = (() => {
-  const map = {}
-  for (const level of levels) {
-    const key = normalize(level.title)
-    if (key && !(key in map)) map[key] = level.id
-  }
-  return map
-})()
-
-function resolveLevel(text) {
-  const n = normalize(text)
-  for (const candidate of [n, n.replace(/station$/, ''), n.replace(/location$/, '')]) {
-    if (candidate && levelAlias[candidate]) return levelAlias[candidate]
-  }
-  return null
-}
-
-// Rewrite Fandom links whose text matches a known level to internal routes.
-function linkifyLevels(html) {
-  return html.replace(
-    /<a href="https:\/\/metrovideogame\.fandom\.com\/wiki\/[^"]*"([^>]*)>([^<]+)<\/a>/g,
-    (match, attrs, text) => {
-      const id = resolveLevel(text)
-      return id ? `<a href="/levels/${id}" data-level="${id}">${text}</a>` : match
-    },
-  )
-}
-
 const renderedBody = computed(() =>
-  activeLevel.value ? linkifyLevels(marked.parse(activeLevel.value.body || '')) : '',
+  activeLevel.value ? linkify(marked.parse(activeLevel.value.body || '')) : '',
 )
 
 // Intercept clicks on rewritten links and route within the SPA.
 function onBodyClick(event) {
-  const anchor = event.target.closest('a[data-level]')
-  if (!anchor) return
-  event.preventDefault()
-  router.push({ name: 'level-detail', params: { id: anchor.dataset.level } })
+  handleInternalClick(event, router)
 }
 
 // Fandom blocks hot-linked images by referer; any that still fail are hidden.

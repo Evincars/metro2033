@@ -26,10 +26,10 @@ const routes = [
     meta: { label: 'Factions', code: '04', leftMenu: true },
   },
   {
-    path: '/chronicles',
-    name: 'chronicles',
-    component: () => import('../views/ChroniclesView.vue'),
-    meta: { label: 'Chronicles', code: '05', leftMenu: true },
+    path: '/events',
+    name: 'events',
+    component: () => import('../views/EventsView.vue'),
+    meta: { label: 'Events', code: '05', leftMenu: true },
   },
   {
     path: '/levels',
@@ -42,6 +42,24 @@ const routes = [
     name: 'level-detail',
     component: () => import('../views/LevelsView.vue'),
     meta: { label: 'Levels', leftMenu: true },
+  },
+  {
+    path: '/locations',
+    name: 'locations',
+    component: () => import('../views/LocationsView.vue'),
+    meta: { label: 'Locations', code: '07', leftMenu: true },
+  },
+  {
+    path: '/locations/:id',
+    name: 'location-detail',
+    component: () => import('../views/LocationsView.vue'),
+    meta: { label: 'Locations', leftMenu: true },
+  },
+  {
+    path: '/metro-line/:id',
+    name: 'metro-line',
+    component: () => import('../views/MetroLineView.vue'),
+    meta: { label: 'Locations', leftMenu: true },
   },
   {
     path: '/games',
