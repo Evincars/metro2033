@@ -1,8 +1,13 @@
 <script setup>
-import { computed, nextTick, onBeforeUnmount, onMounted, ref, shallowRef } from 'vue'
+import { computed, nextTick, onBeforeUnmount, onMounted, ref, shallowRef, watch } from 'vue'
+import { useRouter } from 'vue-router'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import { MAP_IMAGE, STATION_RADIUS, stations } from '../data/stations'
+import { journeys, stationToLevel } from '../data/journey'
+import { levelsById } from '../data/levels'
+
+const router = useRouter()
 
 const mapContainer = ref(null)
 const mapFrame = ref(null)
@@ -13,13 +18,27 @@ const pickMode = ref(false)
 const pickedCoords = ref('')
 const isDev = import.meta.env.DEV
 
+// Journey path toggles.
+const showJourney = ref({ 'metro-2033': false, 'last-light': false })
+const JOURNEY_STYLE = {
+  'metro-2033': { color: '#e8952a', label: 'Metro 2033 — Artyom\u2019s journey' },
+  'last-light': { color: '#4fb0d6', label: 'Last Light — Artyom\u2019s journey' },
+}
+
 let map = null
 let resizeObserver = null
 const markers = shallowRef([])
+const journeyLayers = {}
 
 // CRS.Simple has its origin bottom-left, the image pixel grid top-left.
 const imageBounds = L.latLngBounds([0, 0], [MAP_IMAGE.height, MAP_IMAGE.width])
-const toLatLng = (station) => L.latLng(MAP_IMAGE.height - station.y, station.x)
+const toLatLng = (point) => L.latLng(MAP_IMAGE.height - point.y, point.x)
+
+// Resolve the level dossier attached to a station circle, if any.
+function levelForStation(station) {
+  const levelId = stationToLevel[station.id]
+  return levelId ? levelsById[levelId] : null
+}
 
 const tooltipStyle = computed(() => ({
   transform: `translate(${tooltipPos.value.x}px, ${tooltipPos.value.y}px)`,
@@ -36,7 +55,7 @@ function scaleMarkers() {
 
 function updateTooltipPosition() {
   if (!map || !selected.value) return
-  const point = map.latLngToContainerPoint(toLatLng(selected.value))
+  const point = map.latLngToContainerPoint(toLatLng(selected.value.point))
   const frame = mapFrame.value
   const margin = 12
   const width = tooltipEl.value?.offsetWidth ?? 260
@@ -55,9 +74,34 @@ function updateTooltipPosition() {
 }
 
 async function selectStation(station) {
-  selected.value = station
+  const level = levelForStation(station)
+  selected.value = {
+    name: level ? level.title : station.name,
+    subtitle: level ? station.name : 'Station dossier',
+    brief: level?.brief ?? '',
+    levelId: level?.id ?? null,
+    point: station,
+  }
   await nextTick()
   updateTooltipPosition()
+}
+
+async function selectNode(node, game) {
+  const level = levelsById[node.id]
+  if (!level) return
+  selected.value = {
+    name: level.title,
+    subtitle: JOURNEY_STYLE[game]?.label ?? '',
+    brief: level.brief,
+    levelId: level.id,
+    point: node,
+  }
+  await nextTick()
+  updateTooltipPosition()
+}
+
+function openDetail() {
+  if (selected.value?.levelId) router.push({ name: 'level-detail', params: { id: selected.value.levelId } })
 }
 
 function closeTooltip() {
@@ -74,6 +118,44 @@ function fitWholeMap() {
 function onKeydown(event) {
   if (event.key === 'Escape') closeTooltip()
 }
+
+function buildJourneyLayers() {
+  for (const [game, nodes] of Object.entries(journeys)) {
+    const style = JOURNEY_STYLE[game]
+    const group = L.layerGroup()
+    L.polyline(
+      nodes.map((node) => toLatLng(node)),
+      { color: style.color, weight: 3, opacity: 0.85, dashArray: '3 9', className: 'journey-line' },
+    ).addTo(group)
+    nodes.forEach((node) => {
+      const marker = L.circleMarker(toLatLng(node), {
+        radius: 7,
+        color: style.color,
+        weight: 2,
+        fillColor: '#0d0c0a',
+        fillOpacity: 0.9,
+        className: 'journey-node',
+        bubblingMouseEvents: false,
+      })
+      marker.on('click', (event) => {
+        L.DomEvent.stopPropagation(event)
+        selectNode(node, game)
+      })
+      marker.addTo(group)
+    })
+    journeyLayers[game] = group
+  }
+}
+
+function applyJourneyVisibility() {
+  for (const [game, group] of Object.entries(journeyLayers)) {
+    if (!map || !group) continue
+    if (showJourney.value[game]) group.addTo(map)
+    else map.removeLayer(group)
+  }
+}
+
+watch(showJourney, applyJourneyVisibility, { deep: true })
 
 onMounted(() => {
   map = L.map(mapContainer.value, {
@@ -113,6 +195,9 @@ onMounted(() => {
     return marker.addTo(map)
   })
   scaleMarkers()
+
+  buildJourneyLayers()
+  applyJourneyVisibility()
 
   map.on('zoom zoomend move', () => {
     scaleMarkers()
@@ -167,13 +252,26 @@ onBeforeUnmount(() => {
         :aria-label="selected.name"
       >
         <button class="tooltip-close" type="button" aria-label="Close" @click="closeTooltip">×</button>
-        <span class="tooltip-tag">Station dossier</span>
+        <span class="tooltip-tag">{{ selected.subtitle }}</span>
         <h2 class="tooltip-title">{{ selected.name }}</h2>
         <p class="tooltip-body">
-          Test content — intel on garrison, factions and trade routes will be
-          streamed here once the station archive is wired up.
+          {{ selected.brief || 'No level dossier is linked to this station yet.' }}
         </p>
-        <a class="tooltip-link" href="#" @click.prevent>see more…</a>
+        <a
+          v-if="selected.levelId"
+          class="tooltip-link"
+          href="#"
+          @click.prevent="openDetail"
+        >more detail →</a>
+      </div>
+
+      <div class="journey-controls mx-panel">
+        <span class="journey-heading">Artyom's journey</span>
+        <label v-for="(style, game) in JOURNEY_STYLE" :key="game" class="journey-toggle">
+          <input type="checkbox" v-model="showJourney[game]" />
+          <span class="journey-swatch" :style="{ backgroundColor: style.color }" />
+          <span class="journey-name">{{ style.label }}</span>
+        </label>
       </div>
 
       <button
@@ -295,6 +393,64 @@ onBeforeUnmount(() => {
 
 .tooltip-link:hover {
   color: var(--color-amber-bright);
+}
+
+.journey-controls {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: 600;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 0.7rem 0.85rem;
+  background: rgba(13, 12, 10, 0.9);
+}
+
+.journey-heading {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-text-faint);
+}
+
+.journey-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--color-text-dim);
+  cursor: pointer;
+}
+
+.journey-toggle input {
+  accent-color: var(--color-amber);
+  cursor: pointer;
+}
+
+.journey-swatch {
+  width: 14px;
+  height: 3px;
+  display: inline-block;
+}
+
+.journey-toggle:hover .journey-name {
+  color: var(--color-text);
+}
+
+.map-frame :deep(.journey-node) {
+  cursor: pointer;
+  transition: r 0.12s ease;
+}
+
+.map-frame :deep(.journey-node:hover) {
+  fill: var(--color-amber-bright);
+}
+
+.map-frame :deep(.journey-line) {
+  pointer-events: none;
 }
 
 /* Hotspots sit on top of the printed circles: invisible by default, they only

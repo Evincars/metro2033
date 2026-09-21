@@ -32,6 +32,18 @@ const routes = [
     meta: { label: 'Chronicles', code: '05', leftMenu: true },
   },
   {
+    path: '/levels',
+    name: 'levels',
+    component: () => import('../views/LevelsView.vue'),
+    meta: { label: 'Levels', code: '06', leftMenu: true },
+  },
+  {
+    path: '/levels/:id',
+    name: 'level-detail',
+    component: () => import('../views/LevelsView.vue'),
+    meta: { label: 'Levels' },
+  },
+  {
     path: '/games',
     name: 'games',
     component: () => import('../views/GamesView.vue'),

@@ -17,6 +17,7 @@ const navItems = [
   { to: '/stations', label: 'Stations', code: '03', icon: '●' },
   { to: '/factions', label: 'Factions', code: '04', icon: '⚑' },
   { to: '/chronicles', label: 'Chronicles', code: '05', icon: '▤' },
+  { to: '/levels', label: 'Levels', code: '06', icon: '◉' },
 ]
 
 /* ---- live gas-mask HUD: signal strength + radiation meter ---- */
