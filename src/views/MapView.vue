@@ -14,9 +14,6 @@ const mapFrame = ref(null)
 const tooltipEl = ref(null)
 const selected = ref(null)
 const tooltipPos = ref({ x: 0, y: 0 })
-const pickMode = ref(false)
-const pickedCoords = ref('')
-const isDev = import.meta.env.DEV
 const tooltipImageBroken = ref(false)
 
 // Journey path toggles.
@@ -209,15 +206,7 @@ onMounted(() => {
     updateTooltipPosition()
   })
 
-  map.on('click', (event) => {
-    if (!pickMode.value) {
-      closeTooltip()
-      return
-    }
-    const coords = `x: ${Math.round(event.latlng.lng)}, y: ${Math.round(MAP_IMAGE.height - event.latlng.lat)}`
-    pickedCoords.value = coords
-    navigator.clipboard?.writeText(coords).catch(() => {})
-  })
+  map.on('click', () => closeTooltip())
 
   resizeObserver = new ResizeObserver(() => {
     const wasFullyZoomedOut = map.getZoom() <= map.getMinZoom() + 0.01
@@ -288,16 +277,6 @@ onBeforeUnmount(() => {
         </label>
       </div>
 
-      <button
-        v-if="isDev"
-        class="pick-toggle"
-        type="button"
-        :class="{ active: pickMode }"
-        @click="pickMode = !pickMode"
-      >
-        {{ pickMode ? `pick: ${pickedCoords || 'click the map'}` : 'pick coords' }}
-      </button>
-
       <div class="map-overlay-note">{{ stations.length }} station hotspots online</div>
     </div>
   </section>
@@ -324,25 +303,6 @@ onBeforeUnmount(() => {
   height: 100%;
   min-height: 60vh;
   background: #06070a;
-}
-
-.pick-toggle {
-  position: absolute;
-  right: 1rem;
-  bottom: 1rem;
-  z-index: 600;
-  font-family: var(--font-mono);
-  font-size: 0.7rem;
-  color: var(--color-text-dim);
-  background: rgba(10, 9, 8, 0.85);
-  border: 1px solid var(--color-border);
-  padding: 0.35rem 0.6rem;
-  cursor: pointer;
-}
-
-.pick-toggle.active {
-  color: var(--color-amber-bright);
-  border-color: var(--color-border-strong);
 }
 
 .station-tooltip {
@@ -511,10 +471,11 @@ onBeforeUnmount(() => {
   font-family: var(--font-mono);
   font-size: 0.75rem;
   letter-spacing: 0.06em;
-  color: var(--color-text-faint);
-  background: rgba(10, 9, 8, 0.7);
-  padding: 0.35rem 0.6rem;
-  border: 1px solid var(--color-border);
+  color: var(--color-amber-bright);
+  background: rgba(6, 7, 10, 0.92);
+  padding: 0.4rem 0.7rem;
+  border: 1px solid var(--color-border-strong);
+  box-shadow: var(--glow-amber);
 }
 
 /* Recolor Leaflet chrome to match the terminal aesthetic */

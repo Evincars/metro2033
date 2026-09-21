@@ -12,7 +12,7 @@ defineProps({
 const route = useRoute()
 
 const navItems = [
-  { to: '/', label: 'VDNCh', code: '01', icon: '★' },
+  { to: '/', label: 'VDNH', code: '01', icon: '★' },
   { to: '/map', label: 'Metro Map', code: '02', icon: '◈' },
   { to: '/stations', label: 'Stations', code: '03', icon: '●' },
   { to: '/factions', label: 'Factions', code: '04', icon: '⚑' },

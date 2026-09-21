@@ -1,8 +1,9 @@
 <script setup>
-import { computed, ref } from 'vue'
+import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { marked } from 'marked'
 import { GAMES, levels, levelsById } from '../data/levels'
+import { fuzzyMatch, normalize } from '../utils/search'
 
 const route = useRoute()
 const router = useRouter()
@@ -12,9 +13,47 @@ marked.setOptions({ breaks: false, gfm: true })
 const activeId = computed(() => route.params.id ?? '')
 const activeLevel = computed(() => (activeId.value ? levelsById[activeId.value] : null))
 
+// Alias → level id, so in-article wiki links like "Riga station" can point to
+// our own dossier instead of Fandom. Metro 2033 wins ties over Last Light.
+const levelAlias = (() => {
+  const map = {}
+  for (const level of levels) {
+    const key = normalize(level.title)
+    if (key && !(key in map)) map[key] = level.id
+  }
+  return map
+})()
+
+function resolveLevel(text) {
+  const n = normalize(text)
+  for (const candidate of [n, n.replace(/station$/, ''), n.replace(/location$/, '')]) {
+    if (candidate && levelAlias[candidate]) return levelAlias[candidate]
+  }
+  return null
+}
+
+// Rewrite Fandom links whose text matches a known level to internal routes.
+function linkifyLevels(html) {
+  return html.replace(
+    /<a href="https:\/\/metrovideogame\.fandom\.com\/wiki\/[^"]*"([^>]*)>([^<]+)<\/a>/g,
+    (match, attrs, text) => {
+      const id = resolveLevel(text)
+      return id ? `<a href="/levels/${id}" data-level="${id}">${text}</a>` : match
+    },
+  )
+}
+
 const renderedBody = computed(() =>
-  activeLevel.value ? marked.parse(activeLevel.value.body || '') : '',
+  activeLevel.value ? linkifyLevels(marked.parse(activeLevel.value.body || '')) : '',
 )
+
+// Intercept clicks on rewritten links and route within the SPA.
+function onBodyClick(event) {
+  const anchor = event.target.closest('a[data-level]')
+  if (!anchor) return
+  event.preventDefault()
+  router.push({ name: 'level-detail', params: { id: anchor.dataset.level } })
+}
 
 // Fandom blocks hot-linked images by referer; any that still fail are hidden.
 const brokenImages = ref(new Set())
@@ -27,10 +66,18 @@ const showImage = computed(
   () => activeLevel.value?.image && !brokenImages.value.has(activeLevel.value.id),
 )
 
-// Group levels by game, then by chapter, preserving story order.
+// ---- List filter ----
+const search = ref('')
+const searchInput = ref(null)
+
+const filteredLevels = computed(() =>
+  search.value ? levels.filter((level) => fuzzyMatch(search.value, level.title)) : levels,
+)
+
+// Group filtered levels by game, then by chapter, preserving story order.
 const grouped = computed(() => {
   const games = {}
-  for (const level of levels) {
+  for (const level of filteredLevels.value) {
     const game = (games[level.game] ??= { ...GAMES[level.game], chapters: {} })
     const chapterKey = level.chapter || 'Levels'
     ;(game.chapters[chapterKey] ??= []).push(level)
@@ -40,6 +87,18 @@ const grouped = computed(() => {
     chapters: Object.entries(game.chapters).map(([name, items]) => ({ name, items })),
   }))
 })
+
+// Press "/" to jump into the filter (unless already typing in a field).
+function onKeydown(event) {
+  if (event.key !== '/' || activeLevel.value) return
+  const tag = document.activeElement?.tagName
+  if (tag === 'INPUT' || tag === 'TEXTAREA') return
+  event.preventDefault()
+  searchInput.value?.focus()
+}
+
+onMounted(() => window.addEventListener('keydown', onKeydown))
+onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
 
 function openLevel(id) {
   router.push({ name: 'level-detail', params: { id } })
@@ -73,7 +132,7 @@ function backToList() {
           />
         </figure>
 
-        <div class="markdown-body" v-html="renderedBody" />
+        <div class="markdown-body" v-html="renderedBody" @click="onBodyClick" />
       </article>
     </template>
 
@@ -87,6 +146,17 @@ function backToList() {
           the full dossier, or open the Metro Map to trace Artyom's journey station by station.
         </p>
       </header>
+
+      <div class="mx-panel toolbar">
+        <input
+          ref="searchInput"
+          v-model="search"
+          type="search"
+          class="search-input"
+          placeholder="Filter levels…  (press / to focus)"
+          aria-label="Filter levels"
+        />
+      </div>
 
       <div v-for="game in grouped" :key="game.id" class="game-block">
         <h2 class="game-title">{{ game.label }}</h2>
@@ -111,6 +181,12 @@ function backToList() {
         <h2>No level data loaded</h2>
         <p>Level dossiers will appear here once the campaign archive is connected.</p>
       </div>
+
+      <div v-else-if="!grouped.length" class="mx-panel empty-state">
+        <span class="empty-icon">◉</span>
+        <h2>No matches</h2>
+        <p>No level matches “{{ search }}”.</p>
+      </div>
     </template>
   </section>
 </template>
@@ -133,6 +209,30 @@ function backToList() {
 .view-header p {
   margin: 0;
   max-width: 70ch;
+}
+
+.toolbar {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 0.9rem 1.1rem;
+}
+
+.search-input {
+  flex: 1;
+  min-width: 200px;
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border-strong);
+  color: var(--color-text);
+  font-family: var(--font-mono);
+  padding: 0.55rem 0.8rem;
+  border-radius: 2px;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--color-amber);
+  box-shadow: var(--glow-amber);
 }
 
 .game-block {

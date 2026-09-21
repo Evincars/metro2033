@@ -9,11 +9,18 @@ const route = useRoute()
 const base = import.meta.env.BASE_URL
 
 const navLinks = [
-  { to: '/', label: 'VDNCh' },
+  { to: '/', label: 'VDNH' },
   { to: '/games', label: 'Games' },
   { to: '/books', label: 'Books' },
   { to: '/about', label: 'About' },
 ]
+
+// The VDNH item owns every left-menu section (Map, Stations, Levels, …), so it
+// stays active across all of them; the others match their own path.
+function isActive(link) {
+  if (link.to === '/') return !!route.meta.leftMenu
+  return route.path === link.to || route.path.startsWith(`${link.to}/`)
+}
 
 const mobileOpen = ref(false)
 function toggleMobile() {
@@ -54,7 +61,7 @@ const hasLeftMenu = computed(() => !!route.meta.leftMenu)
         :key="link.to"
         :to="link.to"
         class="nav-link"
-        :class="{ 'is-active': route.path === link.to }"
+        :class="{ 'is-active': isActive(link) }"
       >
         {{ link.label }}
       </RouterLink>
@@ -88,7 +95,7 @@ const hasLeftMenu = computed(() => !!route.meta.leftMenu)
         :key="link.to"
         :to="link.to"
         class="nav-link"
-        :class="{ 'is-active': route.path === link.to }"
+        :class="{ 'is-active': isActive(link) }"
         @click="mobileOpen = false"
       >
         {{ link.label }}

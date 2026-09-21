@@ -3,9 +3,9 @@ import { createRouter, createWebHistory } from 'vue-router'
 const routes = [
   {
     path: '/',
-    name: 'vdnch',
+    name: 'vdnh',
     component: () => import('../views/HomeView.vue'),
-    meta: { label: 'VDNCh', code: '01', leftMenu: true },
+    meta: { label: 'VDNH', code: '01', leftMenu: true },
   },
   {
     path: '/map',
@@ -41,7 +41,7 @@ const routes = [
     path: '/levels/:id',
     name: 'level-detail',
     component: () => import('../views/LevelsView.vue'),
-    meta: { label: 'Levels' },
+    meta: { label: 'Levels', leftMenu: true },
   },
   {
     path: '/games',

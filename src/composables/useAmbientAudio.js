@@ -12,8 +12,9 @@ import { ref, watch } from 'vue'
 const STORAGE_KEY = 'metro2033.audio'
 
 export const tracks = [
-  { title: 'Moscow Metro — Tunnel Ambience', src: `${import.meta.env.BASE_URL}audio/metro-ambient.mp3` },
-  { title: 'Metro 2033 — Anthem (Genso)', src: `${import.meta.env.BASE_URL}audio/metro-2033-anthem.mp3` },
+  { title: 'Metro 2033 — Main Theme', src: `${import.meta.env.BASE_URL}audio/Main-Theme.mp3` },
+  { title: 'Metro 2033 — End Credits', src: `${import.meta.env.BASE_URL}audio/End-Credits.mp3` },
+  { title: 'Metro 2033 — Ghost Tunnel', src: `${import.meta.env.BASE_URL}audio/Metro-2033-Ghost-Tunnel.mp3` },
 ]
 
 function loadSaved() {
@@ -80,6 +81,17 @@ export function nextTrack() {
   if (enabled.value) tryPlay()
 }
 
+// Auto-advance when a track ends, but stop after the last one (no loop).
+function advanceOrStop() {
+  if (currentIndex.value < tracks.length - 1) {
+    currentIndex.value += 1
+    applyTrack()
+    if (enabled.value) tryPlay()
+  } else {
+    playing.value = false
+  }
+}
+
 function armAutoplayFallback() {
   const start = () => {
     if (enabled.value) tryPlay()
@@ -109,7 +121,7 @@ export function initAmbientAudio() {
   })
   audio.addEventListener('ended', () => {
     errorStreak = 0
-    nextTrack()
+    advanceOrStop()
   })
   audio.addEventListener('error', () => {
     // Missing/unsupported file: hop to the next until we've tried them all.

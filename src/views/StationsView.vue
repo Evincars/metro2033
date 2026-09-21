@@ -1,17 +1,62 @@
 <script setup>
-import { ref } from 'vue'
+import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
+import { useRouter } from 'vue-router'
+import { stations } from '../data/stations'
+import { lines, stationLines } from '../data/stationLines'
+import { stationToLevel } from '../data/journey'
+import { fuzzyMatch } from '../utils/search'
 
-// Groundwork only: filter UI shell, wired to reactive state but with no
-// station dataset behind it yet.
+const router = useRouter()
+
 const search = ref('')
-const activeLine = ref('all')
+const searchInput = ref(null)
+const activeLine = ref('all') // 'all' | line number
+const mention = ref('all') // 'all' | 'in' | 'out'
 
-const lines = [
-  { id: 'all', label: 'All lines' },
-  { id: 'sokolnicheskaya', label: 'Line 1' },
-  { id: 'zamoskvoretskaya', label: 'Line 2' },
-  { id: 'arbatsko-pokrovskaya', label: 'Line 3' },
-]
+const lineById = Object.fromEntries(lines.map((l) => [l.id, l]))
+
+// Enrich each station with its line + in-game (has a level dossier) status.
+const rows = stations.map((station) => {
+  const levelId = stationToLevel[station.id] ?? null
+  return {
+    ...station,
+    line: stationLines[station.id] ?? null,
+    levelId,
+    inGame: !!levelId,
+  }
+})
+
+// Only show line chips that actually have stations, in line order.
+const lineChips = computed(() => lines.filter((line) => rows.some((row) => row.line === line.id)))
+
+const filtered = computed(() =>
+  rows
+    .filter((row) => (activeLine.value === 'all' ? true : row.line === activeLine.value))
+    .filter((row) => {
+      if (mention.value === 'in') return row.inGame
+      if (mention.value === 'out') return !row.inGame
+      return true
+    })
+    .filter((row) => fuzzyMatch(search.value, row.name))
+    .sort((a, b) => (a.line ?? 99) - (b.line ?? 99) || a.name.localeCompare(b.name)),
+)
+
+const inGameCount = rows.filter((row) => row.inGame).length
+
+function onKeydown(event) {
+  if (event.key !== '/') return
+  const tag = document.activeElement?.tagName
+  if (tag === 'INPUT' || tag === 'TEXTAREA') return
+  event.preventDefault()
+  searchInput.value?.focus()
+}
+
+onMounted(() => window.addEventListener('keydown', onKeydown))
+onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
+
+function openStation(row) {
+  if (row.levelId) router.push({ name: 'level-detail', params: { id: row.levelId } })
+}
 </script>
 
 <template>
@@ -19,35 +64,76 @@ const lines = [
     <header class="mx-panel view-header">
       <span class="mx-tag">Station registry</span>
       <h1>Stations</h1>
-      <p>Directory of known stations. No records loaded yet — filters are ready for data.</p>
+      <p>
+        {{ rows.length }} stations of the Moscow Metro. {{ inGameCount }} appear in the games —
+        toggle the filters below or type to search. Stations featured in a level link to their
+        dossier.
+      </p>
     </header>
 
     <div class="mx-panel toolbar">
       <input
+        ref="searchInput"
         v-model="search"
         type="search"
         class="search-input"
-        placeholder="Search stations…"
+        placeholder="Search stations…  (press / to focus)"
         aria-label="Search stations"
       />
-      <div class="line-filters">
-        <button
-          v-for="line in lines"
-          :key="line.id"
-          type="button"
-          class="chip"
-          :class="{ 'is-active': activeLine === line.id }"
-          @click="activeLine = line.id"
-        >
-          {{ line.label }}
+
+      <div class="filter-group" aria-label="In-game filter">
+        <button type="button" class="chip" :class="{ 'is-active': mention === 'all' }" @click="mention = 'all'">
+          All
+        </button>
+        <button type="button" class="chip" :class="{ 'is-active': mention === 'in' }" @click="mention = 'in'">
+          In the games
+        </button>
+        <button type="button" class="chip" :class="{ 'is-active': mention === 'out' }" @click="mention = 'out'">
+          Not featured
         </button>
       </div>
     </div>
 
-    <div class="mx-panel empty-state">
+    <div class="mx-panel line-bar">
+      <button type="button" class="chip" :class="{ 'is-active': activeLine === 'all' }" @click="activeLine = 'all'">
+        All lines
+      </button>
+      <button
+        v-for="line in lineChips"
+        :key="line.id"
+        type="button"
+        class="chip line-chip"
+        :class="{ 'is-active': activeLine === line.id }"
+        @click="activeLine = line.id"
+      >
+        <span class="line-dot" :style="{ backgroundColor: line.color }" />
+        {{ line.label }}
+      </button>
+    </div>
+
+    <ul v-if="filtered.length" class="station-grid">
+      <li v-for="row in filtered" :key="row.id">
+        <component
+          :is="row.inGame ? 'button' : 'div'"
+          class="station-card mx-panel"
+          :class="{ 'is-linked': row.inGame }"
+          @click="openStation(row)"
+        >
+          <span
+            class="line-dot"
+            :style="{ backgroundColor: lineById[row.line]?.color ?? 'var(--color-border-strong)' }"
+            :title="lineById[row.line]?.label ?? 'Unknown line'"
+          />
+          <span class="station-name">{{ row.name }}</span>
+          <span v-if="row.inGame" class="station-tag">In game →</span>
+        </component>
+      </li>
+    </ul>
+
+    <div v-else class="mx-panel empty-state">
       <span class="empty-icon">●</span>
-      <h2>No station data loaded</h2>
-      <p>Station records will appear here once the cartography dataset is connected.</p>
+      <h2>No stations match</h2>
+      <p>Try a different search term or clear the filters.</p>
     </div>
   </section>
 </template>
@@ -69,6 +155,7 @@ const lines = [
 
 .view-header p {
   margin: 0;
+  max-width: 70ch;
 }
 
 .toolbar {
@@ -96,21 +183,30 @@ const lines = [
   box-shadow: var(--glow-amber);
 }
 
-.line-filters {
+.filter-group {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.line-bar {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
+  padding: 0.9rem 1.1rem;
 }
 
 .chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
   font-family: var(--font-display);
-  font-size: 0.75rem;
-  letter-spacing: 0.06em;
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   color: var(--color-text-dim);
   background: transparent;
   border: 1px solid var(--color-border-strong);
-  padding: 0.4rem 0.8rem;
+  padding: 0.4rem 0.7rem;
   border-radius: 2px;
   cursor: pointer;
   transition: all 0.15s ease;
@@ -125,6 +221,59 @@ const lines = [
   color: var(--color-bg);
   background: var(--color-amber);
   border-color: var(--color-amber);
+}
+
+.line-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4);
+}
+
+.station-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.6rem;
+}
+
+.station-card {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  width: 100%;
+  text-align: left;
+  padding: 0.7rem 0.9rem;
+  color: var(--color-text);
+  font: inherit;
+}
+
+.station-card.is-linked {
+  cursor: pointer;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.station-card.is-linked:hover {
+  border-color: var(--color-border-strong);
+  box-shadow: var(--glow-amber);
+  transform: translateY(-1px);
+}
+
+.station-name {
+  font-size: 0.9rem;
+  flex: 1;
+  min-width: 0;
+}
+
+.station-tag {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.05em;
+  color: var(--color-amber);
+  white-space: nowrap;
 }
 
 .empty-state {
