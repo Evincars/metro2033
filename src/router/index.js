@@ -3,39 +3,51 @@ import { createRouter, createWebHistory } from 'vue-router'
 const routes = [
   {
     path: '/',
-    name: 'home',
+    name: 'vdnch',
     component: () => import('../views/HomeView.vue'),
-    meta: { label: 'Surface', code: '01', showInNav: true },
+    meta: { label: 'VDNCh', code: '01', leftMenu: true },
   },
   {
     path: '/map',
     name: 'map',
     component: () => import('../views/MapView.vue'),
-    meta: { label: 'Metro Map', code: '02', showInNav: true },
+    meta: { label: 'Metro Map', code: '02', leftMenu: true },
   },
   {
     path: '/stations',
     name: 'stations',
     component: () => import('../views/StationsView.vue'),
-    meta: { label: 'Stations', code: '03', showInNav: true },
+    meta: { label: 'Stations', code: '03', leftMenu: true },
   },
   {
     path: '/factions',
     name: 'factions',
     component: () => import('../views/FactionsView.vue'),
-    meta: { label: 'Factions', code: '04', showInNav: true },
+    meta: { label: 'Factions', code: '04', leftMenu: true },
   },
   {
     path: '/chronicles',
     name: 'chronicles',
     component: () => import('../views/ChroniclesView.vue'),
-    meta: { label: 'Chronicles', code: '05', showInNav: true },
+    meta: { label: 'Chronicles', code: '05', leftMenu: true },
+  },
+  {
+    path: '/games',
+    name: 'games',
+    component: () => import('../views/GamesView.vue'),
+    meta: { label: 'Games' },
+  },
+  {
+    path: '/books',
+    name: 'books',
+    component: () => import('../views/BooksView.vue'),
+    meta: { label: 'Books' },
   },
   {
     path: '/about',
     name: 'about',
     component: () => import('../views/AboutView.vue'),
-    meta: { label: 'Dossier', code: '06', showInNav: true },
+    meta: { label: 'About' },
   },
   {
     path: '/:pathMatch(.*)*',

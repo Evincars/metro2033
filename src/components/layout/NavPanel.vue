@@ -12,21 +12,23 @@ defineProps({
 const route = useRoute()
 
 const navItems = [
-  { to: '/', label: 'Surface', code: '01', icon: '▲' },
+  { to: '/', label: 'VDNCh', code: '01', icon: '★' },
   { to: '/map', label: 'Metro Map', code: '02', icon: '◈' },
   { to: '/stations', label: 'Stations', code: '03', icon: '●' },
   { to: '/factions', label: 'Factions', code: '04', icon: '⚑' },
   { to: '/chronicles', label: 'Chronicles', code: '05', icon: '▤' },
-  { to: '/about', label: 'Dossier', code: '06', icon: '✎' },
 ]
 
 /* ---- live gas-mask HUD: signal strength + radiation meter ---- */
-// µSv/h — post-war Moscow: tunnels sit near background, surface leaks spike hard.
-const RAD_WARN = 0.6 // elevated, air turning bad
-const RAD_HIGH = 1.0 // gas mask required
+// Dose-rate in mSv/h. Reference marks: 100 mSv significant dose, 800 mSv acute
+// effects, 1000 mSv = 1 Sv/h (radiation sickness), 8 Sv/h lethal.
+const RAD_MASK = 100 // significant dose — mask required
+const RAD_IMMEDIATE = 800 // immediate health effects
+const RAD_ACUTE = 1000 // 1 Sv/h — acute radiation sickness
+const RAD_LETHAL = 8000 // 8 Sv/h — lethal
 
 const signalBars = ref(3) // 0..4
-const rad = ref(0.18) // µSv/h
+const rad = ref(3.5) // mSv/h
 let signalTimer = null
 let radTimer = null
 
@@ -40,12 +42,38 @@ const signalLabel = computed(() => {
 })
 
 const radLevel = computed(() => {
-  if (rad.value >= RAD_HIGH) return 'high'
-  if (rad.value >= RAD_WARN) return 'elevated'
+  const r = rad.value
+  if (r >= RAD_LETHAL) return 'lethal'
+  if (r >= RAD_ACUTE) return 'critical'
+  if (r >= RAD_IMMEDIATE) return 'high'
+  if (r >= RAD_MASK) return 'elevated'
   return 'nominal'
 })
 
-const maskOn = computed(() => radLevel.value === 'high')
+const maskOn = computed(() => radLevel.value !== 'nominal')
+
+const radStatus = computed(() => {
+  switch (radLevel.value) {
+    case 'elevated':
+      return 'Mask needed'
+    case 'high':
+      return 'Immediate effects'
+    case 'critical':
+      return 'Acute radiation sickness'
+    case 'lethal':
+      return 'Lethal dose'
+    default:
+      return ''
+  }
+})
+
+const radDisplay = computed(() => {
+  const r = rad.value
+  if (r >= 1000) return `${(r / 1000).toFixed(2)} Sv/h`
+  if (r < 10) return `${r.toFixed(2)} mSv/h`
+  if (r < 100) return `${r.toFixed(1)} mSv/h`
+  return `${Math.round(r)} mSv/h`
+})
 
 function clamp(n, min, max) {
   return Math.min(max, Math.max(min, n))
@@ -63,13 +91,17 @@ function tickSignal() {
 }
 
 function tickRad() {
-  // drift around tunnel background, with rare leaks pushing into the danger zone
-  const leak = Math.random() < 0.12
-  const delta = leak
-    ? 0.7 + Math.random() * 3.2
-    : (Math.random() - 0.52) * 0.28
-  rad.value = clamp(rad.value + delta, 0.09, 9.9)
-  radTimer = window.setTimeout(tickRad, 1400 + Math.random() * 900)
+  // multiplicative random walk so the meter roams the whole mSv → Sv scale,
+  // with rare surges into radiation-sickness / lethal territory.
+  const roll = Math.random()
+  const r = rad.value
+  let next
+  if (roll < 0.07) next = r * (3 + Math.random() * 7) // hot-spot surge
+  else if (roll < 0.2) next = r * (1.4 + Math.random()) // rising
+  else if (roll > 0.62) next = r * (0.35 + Math.random() * 0.4) // decay
+  else next = r + (Math.random() - 0.5) * r * 0.4 // jitter
+  rad.value = clamp(next, 0.08, 9000)
+  radTimer = window.setTimeout(tickRad, 1500 + Math.random() * 1100)
 }
 
 onMounted(() => {
@@ -108,26 +140,17 @@ onBeforeUnmount(() => {
         <span class="nav-label status-text">Signal: {{ signalLabel }}</span>
       </div>
 
-      <div class="status-row" :title="`Radiation ${rad.toFixed(2)} µSv/h`">
+      <div class="status-row" :title="`Radiation ${radDisplay}`">
         <span class="status-ico rad-ico" :class="`rad-${radLevel}`" aria-hidden="true">
-          <svg viewBox="0 0 24 24" width="16" height="16">
-            <circle cx="12" cy="12" r="2.4" fill="currentColor" />
-            <path
-              fill="currentColor"
-              d="M12 1.5a10.5 10.5 0 0 1 9.09 5.25l-6.06 3.5a3.5 3.5 0 0 0-3.03-1.75V1.5z"
-            />
-            <path
-              fill="currentColor"
-              d="M21.09 18.75A10.5 10.5 0 0 1 12 24v-7a3.5 3.5 0 0 0 3.03-1.75l6.06 3.5z"
-            />
-            <path
-              fill="currentColor"
-              d="M2.91 18.75 8.97 15.25A3.5 3.5 0 0 0 12 17v7a10.5 10.5 0 0 1-9.09-5.25z"
-            />
+          <svg viewBox="0 0 24 24" width="18" height="18">
+            <circle cx="12" cy="12" r="3.4" fill="currentColor" />
+            <path fill="currentColor" d="M9.85 8.28 L6.7 2.82 A10.6 10.6 0 0 1 17.3 2.82 L14.15 8.28 A4.3 4.3 0 0 0 9.85 8.28 Z" />
+            <path fill="currentColor" d="M9.85 8.28 L6.7 2.82 A10.6 10.6 0 0 1 17.3 2.82 L14.15 8.28 A4.3 4.3 0 0 0 9.85 8.28 Z" transform="rotate(120 12 12)" />
+            <path fill="currentColor" d="M9.85 8.28 L6.7 2.82 A10.6 10.6 0 0 1 17.3 2.82 L14.15 8.28 A4.3 4.3 0 0 0 9.85 8.28 Z" transform="rotate(240 12 12)" />
           </svg>
         </span>
         <span class="nav-label status-text" :class="{ 'is-danger': maskOn }">
-          Rad: {{ rad.toFixed(2) }} µSv/h<template v-if="maskOn"> — Mask needed</template>
+          Rad: {{ radDisplay }}<template v-if="radStatus"> — {{ radStatus }}</template>
         </span>
       </div>
     </div>
@@ -229,8 +252,8 @@ onBeforeUnmount(() => {
   display: inline-flex;
   align-items: flex-end;
   justify-content: center;
-  width: 18px;
-  height: 16px;
+  width: 20px;
+  height: 18px;
 }
 
 /* signal bars */
@@ -269,17 +292,22 @@ onBeforeUnmount(() => {
 
 /* radiation trefoil */
 .rad-ico {
+  align-items: center;
   color: var(--color-rad);
   transition: color 0.3s ease, filter 0.3s ease;
   animation: rad-spin 6s linear infinite;
+  overflow: visible;
+}
+
+.rad-ico svg {
+  overflow: visible;
 }
 
 .rad-ico.rad-nominal { color: var(--color-rad); filter: drop-shadow(0 0 4px rgba(134, 209, 106, 0.6)); }
 .rad-ico.rad-elevated { color: var(--color-rad-warn); filter: drop-shadow(0 0 5px rgba(255, 181, 74, 0.7)); }
-.rad-ico.rad-high {
-  color: var(--color-rad-high);
-  filter: drop-shadow(0 0 7px rgba(210, 59, 47, 0.85));
-}
+.rad-ico.rad-high { color: var(--color-rad-high); filter: drop-shadow(0 0 6px rgba(210, 59, 47, 0.8)); }
+.rad-ico.rad-critical { color: #ff5140; filter: drop-shadow(0 0 8px rgba(255, 60, 45, 0.9)); }
+.rad-ico.rad-lethal { color: #ff2f1c; filter: drop-shadow(0 0 10px rgba(255, 40, 25, 1)); }
 
 @keyframes rad-spin {
   to { transform: rotate(360deg); }

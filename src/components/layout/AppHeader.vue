@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from 'vue'
+import { computed, ref } from 'vue'
 import { useRoute } from 'vue-router'
 import SettingsDialog from './SettingsDialog.vue'
 import { enabled as audioEnabled, playing as audioPlaying } from '../../composables/useAmbientAudio'
@@ -9,12 +9,10 @@ const route = useRoute()
 const base = import.meta.env.BASE_URL
 
 const navLinks = [
-  { to: '/', label: 'Surface' },
-  { to: '/map', label: 'Metro Map' },
-  { to: '/stations', label: 'Stations' },
-  { to: '/factions', label: 'Factions' },
-  { to: '/chronicles', label: 'Chronicles' },
-  { to: '/about', label: 'Dossier' },
+  { to: '/', label: 'VDNCh' },
+  { to: '/games', label: 'Games' },
+  { to: '/books', label: 'Books' },
+  { to: '/about', label: 'About' },
 ]
 
 const mobileOpen = ref(false)
@@ -23,11 +21,13 @@ function toggleMobile() {
 }
 
 const settingsOpen = ref(false)
+const hasLeftMenu = computed(() => !!route.meta.leftMenu)
 </script>
 
 <template>
   <header class="app-header">
     <button
+      v-if="hasLeftMenu"
       class="burger"
       type="button"
       aria-label="Toggle navigation panel"
@@ -165,14 +165,13 @@ const settingsOpen = ref(false)
   height: 34px;
   width: auto;
   object-fit: contain;
-  filter: drop-shadow(0 0 6px rgba(210, 59, 47, 0.35));
-  opacity: 0.95;
-  transition: opacity 0.15s ease, filter 0.15s ease;
+  filter: drop-shadow(0 0 10px rgba(210, 59, 47, 0.55));
+  opacity: 1;
+  transition: filter 0.15s ease;
 }
 
 .brand:hover .brand-logo {
-  opacity: 1;
-  filter: drop-shadow(0 0 10px rgba(210, 59, 47, 0.55));
+  filter: drop-shadow(0 0 14px rgba(210, 59, 47, 0.75));
 }
 
 .primary-nav {
@@ -287,11 +286,11 @@ const settingsOpen = ref(false)
   .primary-nav {
     display: flex;
   }
-  .burger-mobile {
-    display: none;
-  }
   .burger {
     display: flex;
+  }
+  .burger-mobile {
+    display: none;
   }
   .settings-toggle {
     margin-left: 0.35rem;
