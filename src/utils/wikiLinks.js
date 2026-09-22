@@ -3,6 +3,7 @@ import { locations } from '../data/locations'
 import { factions } from '../data/factions'
 import { characters } from '../data/characters'
 import { eventArticles } from '../data/eventArticles'
+import { books } from '../data/books'
 
 /**
  * Rewrites in-article Fandom wiki links to internal routes when they resolve to
@@ -25,6 +26,7 @@ for (const f of factions) if (f.wiki) slugToHref[decodeURIComponent(f.wiki)] = `
 for (const loc of locations) if (loc.wiki) slugToHref[decodeURIComponent(loc.wiki)] = `/locations/${loc.id}`
 for (const c of characters) if (c.wiki) slugToHref[decodeURIComponent(c.wiki)] = `/characters/${c.id}`
 for (const ev of eventArticles) if (ev.wiki) slugToHref[decodeURIComponent(ev.wiki)] = `/events/${ev.id}`
+for (const b of books) if (b.wiki) slugToHref[decodeURIComponent(b.wiki)] = `/books/${b.id}`
 
 // Normalized link text → internal href. Later entries win ties; levels win
 // last to preserve prior behaviour for shared names.
@@ -36,6 +38,7 @@ function addAlias(text, href) {
 for (const f of factions) addAlias(f.title, `/factions/${f.id}`)
 for (const c of characters) addAlias(c.title, `/characters/${c.id}`)
 for (const ev of eventArticles) addAlias(ev.title, `/events/${ev.id}`)
+for (const b of books) addAlias(b.title, `/books/${b.id}`)
 for (const loc of locations) {
   const href = `/locations/${loc.id}`
   addAlias(loc.title, href)

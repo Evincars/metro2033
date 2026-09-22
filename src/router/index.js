@@ -98,6 +98,12 @@ const routes = [
     meta: { label: 'Books' },
   },
   {
+    path: '/books/:id',
+    name: 'book-detail',
+    component: () => import('../views/BooksView.vue'),
+    meta: { label: 'Books' },
+  },
+  {
     path: '/about',
     name: 'about',
     component: () => import('../views/AboutView.vue'),

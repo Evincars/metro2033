@@ -1,55 +1,117 @@
 <script setup>
-const books = [
-  {
-    year: '2005',
-    title: 'Metro 2033',
-    author: 'Dmitry Glukhovsky',
-    blurb:
-      'The novel that started it all. Artyom journeys from VDNKh across the Metro to reach Polis and stop the mysterious Dark Ones threatening the last survivors.',
-  },
-  {
-    year: '2009',
-    title: 'Metro 2034',
-    author: 'Dmitry Glukhovsky',
-    blurb:
-      'A quieter, more literary sequel set around Sevastopolskaya — a besieged station, a silent gunman, and an old man searching for hope in the dark.',
-  },
-  {
-    year: '2015',
-    title: 'Metro 2035',
-    author: 'Dmitry Glukhovsky',
-    blurb:
-      'Artyom returns, obsessed with proving life exists beyond Moscow, in a sharp, political close to the core trilogy.',
-  },
-  {
-    year: '2009—',
-    title: 'Universe of Metro 2033',
-    author: 'Various authors',
-    blurb:
-      'A sprawling shared-world series expanding the setting far past Moscow — dozens of novels from many writers across the ruined world.',
-  },
-]
+import { computed, ref } from 'vue'
+import { useRoute, useRouter } from 'vue-router'
+import { marked } from 'marked'
+import { books, booksById } from '../data/books'
+import { handleInternalClick, linkify } from '../utils/wikiLinks'
+
+const route = useRoute()
+const router = useRouter()
+marked.setOptions({ breaks: false, gfm: true })
+
+const bgUrl = `${import.meta.env.BASE_URL}book-art/screenshot_20260922_015038-region.png`
+
+const activeId = computed(() => route.params.id ?? '')
+const activeBook = computed(() => (activeId.value ? booksById[activeId.value] : null))
+
+const renderedBody = computed(() =>
+  activeBook.value ? linkify(marked.parse(activeBook.value.body || '')) : '',
+)
+
+const brokenImages = ref(new Set())
+function markBroken(id) {
+  const next = new Set(brokenImages.value)
+  next.add(id)
+  brokenImages.value = next
+}
+const showImage = computed(
+  () => activeBook.value?.image && !brokenImages.value.has(activeBook.value.id),
+)
+
+function onBodyClick(event) {
+  handleInternalClick(event, router)
+}
+
+function openBook(id) {
+  router.push({ name: 'book-detail', params: { id } })
+}
+function backToList() {
+  router.push({ name: 'books' })
+}
 </script>
 
 <template>
   <section class="books-view">
-    <header class="mx-panel view-header">
-      <span class="mx-tag">Archive · Print</span>
-      <h1>Books</h1>
-      <p>
-        Dmitry Glukhovsky's novels and the wider Universe of Metro 2033 — the source
-        material the tunnels were built from.
-      </p>
-    </header>
+    <!-- Detail -->
+    <template v-if="activeBook">
+      <button class="back-link" type="button" @click="backToList">← All books</button>
 
-    <div class="entry-grid">
-      <article v-for="book in books" :key="book.title" class="mx-panel entry">
-        <span class="entry-year">{{ book.year }}</span>
-        <h2 class="entry-title">{{ book.title }}</h2>
-        <p class="entry-dev">{{ book.author }}</p>
-        <p class="entry-blurb">{{ book.blurb }}</p>
+      <article class="mx-panel book-detail">
+        <header class="detail-header">
+          <span class="mx-tag">{{ activeBook.year }} · {{ activeBook.author }}</span>
+          <h1>{{ activeBook.title }}</h1>
+          <p v-if="activeBook.brief" class="detail-brief">{{ activeBook.brief }}</p>
+        </header>
+
+        <figure v-if="showImage" class="detail-figure">
+          <img
+            :src="activeBook.image"
+            :alt="activeBook.title"
+            loading="lazy"
+            referrerpolicy="no-referrer"
+            @error="markBroken(activeBook.id)"
+          />
+        </figure>
+
+        <div class="markdown-body" v-html="renderedBody" @click="onBodyClick" />
+
+        <a
+          v-if="activeBook.wiki"
+          class="fandom-link"
+          :href="`https://metrovideogame.fandom.com/wiki/${activeBook.wiki}`"
+          target="_blank"
+          rel="noopener"
+        >Read the full article on Fandom ↗</a>
       </article>
-    </div>
+    </template>
+
+    <!-- List -->
+    <template v-else>
+      <header class="books-hero" :style="{ backgroundImage: `url('${bgUrl}')` }">
+        <div class="books-hero-inner">
+          <h1 class="books-title">Metro Books</h1>
+          <div class="ornament-hr" aria-hidden="true">
+            <span class="ornament-line" />
+            <span class="ornament-mark">✦</span>
+            <span class="ornament-line" />
+          </div>
+          <p class="books-subtitle">
+            Dmitry Glukhovsky's novels and the wider Universe of Metro 2033 — the source
+            material the tunnels were built from.
+          </p>
+        </div>
+      </header>
+
+      <ul class="books-grid">
+        <li v-for="book in books" :key="book.id">
+          <button class="book-card" type="button" @click="openBook(book.id)">
+            <span class="book-cover-frame">
+              <img
+                v-if="book.image"
+                class="book-cover"
+                :src="book.image"
+                :alt="book.title"
+                loading="lazy"
+                referrerpolicy="no-referrer"
+              />
+              <span v-else class="book-cover placeholder" aria-hidden="true">📖</span>
+            </span>
+            <span class="book-caption">{{ book.title }}</span>
+            <span v-if="book.author" class="book-author">{{ book.author }}</span>
+          </button>
+        </li>
+      </ul>
+    </template>
   </section>
 </template>
 
@@ -57,58 +119,234 @@ const books = [
 .books-view {
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
+  gap: 1.5rem;
 }
 
-.view-header {
-  padding: 1.5rem 1.75rem;
+/* ---- METRO BOOKS hero ---- */
+.books-hero {
+  position: relative;
+  border: 1px solid var(--color-border-strong);
+  background-color: #0a0d0f;
+  background-size: cover;
+  background-position: center;
+  box-shadow: var(--shadow-panel);
+  padding: 3rem 1.5rem 3.25rem;
+  overflow: hidden;
 }
 
-.view-header h1 {
-  margin: 0.5rem 0;
+.books-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(6, 9, 11, 0.78), rgba(6, 9, 11, 0.86));
+  z-index: 0;
 }
 
-.view-header p {
+.books-hero-inner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.books-title {
+  margin: 0;
+  font-family: 'Cinzel', 'Times New Roman', serif;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  color: #ece7dc;
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.8);
+}
+
+.ornament-hr {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  width: min(420px, 80%);
+}
+
+.ornament-line {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--color-border-strong) 25%,
+    var(--color-steel) 50%,
+    var(--color-border-strong) 75%,
+    transparent
+  );
+}
+
+.ornament-mark {
+  color: var(--color-amber);
+  font-size: 0.8rem;
+  text-shadow: var(--glow-amber);
+}
+
+.books-subtitle {
   margin: 0;
   max-width: 60ch;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--color-text-dim);
 }
 
-.entry-grid {
+/* ---- cover grid ---- */
+.books-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
   display: grid;
-  gap: 1.25rem;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
 }
 
-.entry {
-  position: relative;
-  padding: 1.5rem 1.5rem 1.4rem;
+.book-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
+  width: 100%;
+  padding: 0.5rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--color-text);
 }
 
-.entry-year {
+.book-cover-frame {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  border: 1px solid var(--color-border-strong);
+  background: rgba(0, 0, 0, 0.4);
+  box-shadow: var(--shadow-panel);
+  overflow: hidden;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.book-card:hover .book-cover-frame {
+  transform: translateY(-4px);
+  border-color: var(--color-amber);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.7), var(--glow-amber);
+}
+
+.book-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.book-cover.placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  color: var(--color-text-faint);
+}
+
+.book-caption {
+  font-family: 'Cinzel', 'Times New Roman', serif;
+  font-style: italic;
+  font-size: 1.05rem;
+  color: var(--color-amber);
+  text-align: center;
+}
+
+.book-author {
   font-family: var(--font-mono);
-  font-size: 0.75rem;
-  letter-spacing: 0.1em;
-  color: var(--color-steel);
-}
-
-.entry-title {
-  margin: 0.35rem 0 0.15rem;
-  font-size: 1.15rem;
-}
-
-.entry-dev {
-  margin: 0 0 0.7rem;
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
+  font-size: 0.68rem;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--color-text-faint);
 }
 
-.entry-blurb {
+/* ---- detail ---- */
+.back-link {
+  align-self: flex-start;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  color: var(--color-amber);
+  background: transparent;
+  border: 1px solid var(--color-border-strong);
+  padding: 0.4rem 0.8rem;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.back-link:hover {
+  color: var(--color-amber-bright);
+  box-shadow: var(--glow-amber);
+}
+
+.book-detail {
+  padding: 1.75rem 2rem;
+}
+
+.detail-header h1 {
+  margin: 0.5rem 0;
+  font-family: 'Cinzel', 'Times New Roman', serif;
+  letter-spacing: 0.06em;
+  font-size: 1.7rem;
+}
+
+.detail-brief {
   margin: 0;
-  font-size: 0.85rem;
-  line-height: 1.5;
+  font-size: 0.95rem;
   color: var(--color-text-dim);
+  max-width: 72ch;
+}
+
+.detail-figure {
+  margin: 1.25rem 0;
+  max-width: 240px;
+}
+
+.detail-figure img {
+  max-width: 100%;
+  border: 1px solid var(--color-border-strong);
+  box-shadow: var(--shadow-panel);
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.markdown-body {
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--color-text);
+  max-width: 78ch;
+}
+
+.markdown-body :deep(blockquote) {
+  margin: 1rem 0;
+  padding-left: 1rem;
+  border-left: 2px solid var(--color-amber);
+  color: var(--color-text-dim);
+  font-style: italic;
+}
+
+.markdown-body :deep(a) {
+  color: var(--color-amber);
+}
+
+.markdown-body :deep(a[data-internal]) {
+  color: var(--color-amber-bright);
+  border-bottom: 1px dashed currentColor;
+  text-decoration: none;
+}
+
+.fandom-link {
+  display: inline-block;
+  margin-top: 1.25rem;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--color-amber);
 }
 </style>
