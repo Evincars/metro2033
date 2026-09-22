@@ -1,10 +1,12 @@
 import { levels } from '../data/levels'
 import { locations } from '../data/locations'
+import { factions } from '../data/factions'
+import { characters } from '../data/characters'
 
 /**
  * Rewrites in-article Fandom wiki links to internal routes when they resolve to
- * a level dossier or a location page. Locations are matched primarily by their
- * source wiki slug (stored in frontmatter), and both are matched by link text.
+ * a level, location, faction or character we host. Matching is primarily by the
+ * source wiki slug (stored in frontmatter), with a link-text fallback.
  */
 
 function normalize(str) {
@@ -15,18 +17,22 @@ function normalize(str) {
     .replace(/[^a-z0-9]/g, '')
 }
 
-// Wiki slug (decoded) → internal href, for confident location matching.
+// Wiki slug (decoded) → internal href. Locations override factions on shared
+// slugs (e.g. Polis_(Location)); characters use their own distinct slugs.
 const slugToHref = {}
-for (const loc of locations) {
-  if (loc.wiki) slugToHref[decodeURIComponent(loc.wiki)] = `/locations/${loc.id}`
-}
+for (const f of factions) if (f.wiki) slugToHref[decodeURIComponent(f.wiki)] = `/factions/${f.id}`
+for (const loc of locations) if (loc.wiki) slugToHref[decodeURIComponent(loc.wiki)] = `/locations/${loc.id}`
+for (const c of characters) if (c.wiki) slugToHref[decodeURIComponent(c.wiki)] = `/characters/${c.id}`
 
-// Normalized link text → internal href. Levels are added last so they win ties.
+// Normalized link text → internal href. Later entries win ties; levels win
+// last to preserve prior behaviour for shared names.
 const textToHref = {}
 function addAlias(text, href) {
   const key = normalize(text)
   if (key) textToHref[key] = href
 }
+for (const f of factions) addAlias(f.title, `/factions/${f.id}`)
+for (const c of characters) addAlias(c.title, `/characters/${c.id}`)
 for (const loc of locations) {
   const href = `/locations/${loc.id}`
   addAlias(loc.title, href)

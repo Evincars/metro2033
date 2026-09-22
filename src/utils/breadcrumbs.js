@@ -1,6 +1,7 @@
 import { levelsById } from '../data/levels'
 import { locationsById, metroLineById } from '../data/locations'
 import { factionsById } from '../data/factions'
+import { charactersById } from '../data/characters'
 
 // The left-menu section each route belongs to (label + list route).
 const SECTION = {
@@ -11,6 +12,7 @@ const SECTION = {
   events: { label: 'Events', to: '/events' },
   levels: { label: 'Levels', to: '/levels' },
   locations: { label: 'Locations', to: '/locations' },
+  characters: { label: 'Characters', to: '/characters' },
   games: { label: 'Games', to: '/games' },
   books: { label: 'Books', to: '/books' },
   about: { label: 'About', to: '/about' },
@@ -31,6 +33,8 @@ export function getBreadcrumbs(route) {
       return [SECTION.locations, { label: metroLineById[String(id)]?.label ?? 'Metro line' }]
     case 'faction-detail':
       return [SECTION.factions, { label: factionsById[id]?.title ?? 'Faction' }]
+    case 'character-detail':
+      return [SECTION.characters, { label: charactersById[id]?.title ?? 'Character' }]
     default:
       return SECTION[route.name] ? [SECTION[route.name]] : []
   }

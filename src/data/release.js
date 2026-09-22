@@ -10,6 +10,7 @@ export const releases = [
       'New Levels archive — every Metro 2033 and Last Light mission with full dossiers and image previews.',
       'New Events timeline — the whole Metro chronology, year by year, with expandable eras.',
       'New Locations page — post-apocalyptic Moscow landmarks plus all twelve Moscow Metro lines.',
+      'New Factions and Characters archives — full dossiers for every faction and the Metro 2033 / Last Light cast, cross-linked throughout.',
       'Interactive Metro Map — station tooltips, Artyom\u2019s journey overlays, and one-click travel to level and location dossiers.',
       'Stations registry with line filters and an "in the games" toggle.',
       'Breadcrumbs, a release-notes panel, and ambient soundtrack playback.',

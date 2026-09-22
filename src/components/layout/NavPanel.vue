@@ -23,6 +23,7 @@ const navItems = [
   { to: '/events', label: 'Events', code: '05', icon: '▤' },
   { to: '/levels', label: 'Levels', code: '06', icon: '◉' },
   { to: '/locations', label: 'Locations', code: '07', icon: '⌖' },
+  { to: '/characters', label: 'Characters', code: '08', icon: '☻' },
 ]
 
 /* ---- live gas-mask HUD: signal strength + radiation meter ---- */

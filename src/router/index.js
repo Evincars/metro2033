@@ -68,6 +68,18 @@ const routes = [
     meta: { label: 'Locations', leftMenu: true },
   },
   {
+    path: '/characters',
+    name: 'characters',
+    component: () => import('../views/CharactersView.vue'),
+    meta: { label: 'Characters', code: '08', leftMenu: true },
+  },
+  {
+    path: '/characters/:id',
+    name: 'character-detail',
+    component: () => import('../views/CharactersView.vue'),
+    meta: { label: 'Characters', leftMenu: true },
+  },
+  {
     path: '/games',
     name: 'games',
     component: () => import('../views/GamesView.vue'),
