@@ -24,11 +24,20 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* Tunnel darkness: the metro tunnel photo anchored to the bottom-right corner,
-   the rest of the viewport filled with the dark base colour. A diagonal wash
-   keeps top-left content legible while the tunnel stays visible bottom-right. */
+/* Tunnel darkness: the metro tunnel photo covers the whole viewport (anchored
+   bottom-right so the lit tunnel stays in view), so no image edge ever shows.
+   A diagonal wash keeps top-left content legible. It lives on a fixed layer
+   instead of `background-attachment: fixed`, which mobile Safari ignores. */
 body {
   background-color: #05070a;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
   background-image:
     linear-gradient(135deg, rgba(5, 7, 9, 0.93) 0%, rgba(5, 7, 9, 0.6) 46%, rgba(5, 7, 9, 0.22) 100%),
     repeating-linear-gradient(
@@ -41,8 +50,7 @@ body {
     url('/book-art/footer.jpg');
   background-repeat: no-repeat, repeat, no-repeat;
   background-position: center, top left, right bottom;
-  background-size: cover, auto, auto;
-  background-attachment: fixed, scroll, fixed;
+  background-size: cover, auto, cover;
 }
 
 h1,

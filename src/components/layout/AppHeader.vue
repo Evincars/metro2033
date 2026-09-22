@@ -5,6 +5,7 @@ import SettingsDialog from './SettingsDialog.vue'
 import ReleaseNotesDialog from './ReleaseNotesDialog.vue'
 import { APP_VERSION } from '../../data/release'
 import { enabled as audioEnabled, playing as audioPlaying } from '../../composables/useAmbientAudio'
+import { logoStyle } from '../../composables/useLogoStyle'
 
 const emit = defineEmits(['toggle-nav'])
 const route = useRoute()
@@ -49,7 +50,15 @@ const hasLeftMenu = computed(() => !!route.meta.leftMenu)
     </button>
 
     <RouterLink to="/" class="brand" aria-label="Metro 2033 — home">
+      <span
+        v-if="logoStyle === 'universe'"
+        class="brand-shield"
+        :style="{ backgroundImage: `url('${base}book-art/logotype_main.png')` }"
+        role="img"
+        aria-label="Metro 2033"
+      />
       <img
+        v-else
         class="brand-logo"
         :src="`${base}metro2033-logo.png`"
         alt="Metro 2033"
@@ -77,8 +86,7 @@ const hasLeftMenu = computed(() => !!route.meta.leftMenu)
       title="Release notes"
       @click="notesOpen = true"
     >
-      <span class="notes-glyph" aria-hidden="true">✦</span>
-      <span class="notes-badge">{{ APP_VERSION }}</span>
+      <span class="notes-badge">v{{ APP_VERSION }}</span>
     </button>
 
     <button
@@ -154,8 +162,10 @@ const hasLeftMenu = computed(() => !!route.meta.leftMenu)
   20%, 22%, 55% { opacity: 0.45; }
 }
 
+/* On mobile/tablet both burgers show: the left one opens the section drawer,
+   the right one the primary nav. */
 .burger {
-  display: none;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 4px;
@@ -194,6 +204,22 @@ const hasLeftMenu = computed(() => !!route.meta.leftMenu)
 
 .brand:hover .brand-logo {
   filter: drop-shadow(0 0 14px rgba(210, 59, 47, 0.75));
+}
+
+/* Original shield logo: a two-frame sprite (191×142 each), the right frame is
+   the hover state. */
+.brand-shield {
+  display: block;
+  height: 52px;
+  aspect-ratio: 191 / 142;
+  background-repeat: no-repeat;
+  background-size: 200% 100%;
+  background-position: left center;
+}
+
+.brand:hover .brand-shield,
+.brand:focus-visible .brand-shield {
+  background-position: right center;
 }
 
 .primary-nav {
@@ -276,11 +302,6 @@ const hasLeftMenu = computed(() => !!route.meta.leftMenu)
   background: rgba(232, 149, 42, 0.08);
 }
 
-.notes-glyph {
-  font-size: 0.95rem;
-  line-height: 1;
-}
-
 .notes-badge {
   font-family: var(--font-mono);
   font-size: 0.7rem;
@@ -339,9 +360,6 @@ const hasLeftMenu = computed(() => !!route.meta.leftMenu)
 
 @media (min-width: 900px) {
   .primary-nav {
-    display: flex;
-  }
-  .burger {
     display: flex;
   }
   .burger-mobile {

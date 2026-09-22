@@ -11,7 +11,7 @@ const route = useRoute()
 const router = useRouter()
 marked.setOptions({ breaks: false, gfm: true })
 
-const bannerUrl = `${import.meta.env.BASE_URL}book-art/footer.jpg`
+const bannerUrl = `${import.meta.env.BASE_URL}book-art/map.jpg`
 
 const activeId = computed(() => route.params.id ?? '')
 const activeGame = computed(() => (activeId.value ? gamesById[activeId.value] : null))
@@ -165,13 +165,16 @@ function backToList() {
   max-width: 72ch;
 }
 
-/* ---- footer.jpg tunnel banner (list header) ---- */
+/* ---- map.jpg banner (list header) ----
+   The old paper map sits under the header, framed on its left (western
+   Russia / Moscow). A dark wash keeps the copy legible and fades the map out
+   towards the right and bottom edges. */
 .games-banner {
   position: relative;
   border: 1px solid var(--color-border-strong);
   background-color: #05070a;
   background-size: cover;
-  background-position: center right;
+  background-position: 3% 35%;
   box-shadow: var(--shadow-panel);
   overflow: hidden;
   padding: 2.25rem 1.75rem 2.5rem;
@@ -181,7 +184,9 @@ function backToList() {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, rgba(5, 7, 10, 0.94) 30%, rgba(5, 7, 10, 0.35) 100%);
+  background:
+    linear-gradient(180deg, rgba(5, 7, 10, 0) 55%, rgba(5, 7, 10, 0.75) 100%),
+    linear-gradient(90deg, rgba(5, 7, 10, 0.4) 0%, rgba(5, 7, 10, 0.55) 50%, #05070a 100%);
   z-index: 0;
 }
 
@@ -197,9 +202,14 @@ function backToList() {
   letter-spacing: 0.08em;
 }
 
+.games-banner-inner h1,
+.games-banner-inner p {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
+}
+
 .games-banner-inner p {
   margin: 0;
-  color: var(--color-text-dim);
+  color: var(--color-text);
 }
 
 /* ---- list grid ---- */

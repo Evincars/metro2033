@@ -2,6 +2,7 @@
 import { onBeforeUnmount, onMounted } from 'vue'
 import { useAmbientAudio } from '../../composables/useAmbientAudio'
 import { APP_VERSION } from '../../data/release'
+import { logoStyle } from '../../composables/useLogoStyle'
 
 const emit = defineEmits(['close'])
 const { enabled, volume, playing, blocked, currentTitle, nextTrack } = useAmbientAudio()
@@ -84,6 +85,28 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
           </p>
         </section>
 
+        <section class="settings-group settings-group--spaced">
+          <div class="group-label">Appearance</div>
+
+          <label class="toggle-row">
+            <span class="toggle-text">Classic Metro 2033 logo</span>
+            <button
+              class="switch"
+              type="button"
+              role="switch"
+              :aria-checked="logoStyle === 'classic'"
+              :class="{ 'is-on': logoStyle === 'classic' }"
+              @click="logoStyle = logoStyle === 'classic' ? 'universe' : 'classic'"
+            >
+              <span class="switch-knob" />
+            </button>
+          </label>
+
+          <p class="settings-hint">
+            Off shows the original Universe of Metro 2033 shield.
+          </p>
+        </section>
+
         <footer class="settings-foot">
           <span class="mx-tag">Metro Terminal</span>
           <span class="settings-version">version {{ APP_VERSION }}</span>
@@ -163,6 +186,12 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
   display: flex;
   flex-direction: column;
   gap: 0.85rem;
+}
+
+.settings-group--spaced {
+  margin-top: 1.1rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--color-border);
 }
 
 .group-label {

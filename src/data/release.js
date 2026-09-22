@@ -1,7 +1,20 @@
-export const APP_VERSION = '0.2'
+export const APP_VERSION = '0.3'
 
 /** Newest first. Shown in the release-notes dialog. */
 export const releases = [
+  {
+    version: '0.3',
+    date: '2026-09-22',
+    title: 'Paper & Steel',
+    notes: [
+      'New Books library — Dmitry Glukhovsky\u2019s Metro novels plus the wider Universe of Metro 2033 series.',
+      'New Games archive — every Metro title with a full dossier and image gallery.',
+      'Dark Metro Map redraw, with every Kievskaya platform linked to its station dossier.',
+      'Original "Universe of Metro 2033" shield logo in the header, switchable back to the classic wordmark in Settings.',
+      'Tunnel backdrop now fills the whole screen; parchment notes and the Games banner were reworked for legibility.',
+      'The section menu can now be opened on tablets and phones.',
+    ],
+  },
   {
     version: '0.2',
     date: '2026-09-22',

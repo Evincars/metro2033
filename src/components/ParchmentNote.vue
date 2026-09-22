@@ -61,8 +61,10 @@ const base = import.meta.env.BASE_URL
   text-shadow: 0 1px 0 rgba(255, 250, 235, 0.55);
 }
 
+/* Override the global light `p` colour — it vanishes on the paper. */
 .parchment-body :deep(p) {
   margin: 0 0 0.6rem;
+  color: inherit;
 }
 
 .parchment-body :deep(p:last-child) {
