@@ -1,8 +1,15 @@
 <script setup>
+import { onMounted } from 'vue'
 import { RouterLink } from 'vue-router'
 import DisqusThread from '../components/DisqusThread.vue'
 
 const base = import.meta.env.BASE_URL
+
+// count.js (index.html) scans for #disqus_thread links once on page load; after
+// an in-app navigation back here, ask it to rescan so the count fills in.
+onMounted(() => {
+  window.DISQUSWIDGETS?.getCount({ reset: true })
+})
 const heroBg = `${base}book-art/main_men_1.jpg`
 const leftEdge = `${base}book-art/main_left.jpg`
 const rightEdge = `${base}book-art/main_right.jpg`
@@ -36,6 +43,7 @@ const destinations = [
         <div class="hero-actions">
           <RouterLink to="/map" class="btn btn-primary">Open Metro Map</RouterLink>
           <RouterLink to="/stations" class="btn btn-ghost">Browse Stations</RouterLink>
+          <a href="#disqus_thread" class="btn btn-ghost" data-disqus-identifier="vdnh-home">Comments</a>
         </div>
       </div>
     </div>
