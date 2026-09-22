@@ -38,6 +38,12 @@ const routes = [
     meta: { label: 'Events', code: '05', leftMenu: true },
   },
   {
+    path: '/events/:id',
+    name: 'event-detail',
+    component: () => import('../views/EventsView.vue'),
+    meta: { label: 'Events', leftMenu: true },
+  },
+  {
     path: '/levels',
     name: 'levels',
     component: () => import('../views/LevelsView.vue'),

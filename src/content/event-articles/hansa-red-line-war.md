@@ -1,0 +1,36 @@
+---
+id: hansa-red-line-war
+title: Hansa - Red Line War
+order: 3
+image: https://static.wikia.nocookie.net/metro2033/images/d/d1/Red_Line_Soldiers.jpg/revision/latest?cb=20190902072802
+brief: The first major conventional war in the Moscow Metro, fought between the communist Red Line and a coalition led by Hanza.
+wiki: Hansa_-_Red_Line_War
+---
+
+# Hansa - Red Line War
+
+The Hansa - Red Line War was a conflict in the [Moscow Metro](https://metrovideogame.fandom.com/wiki/Moscow_Metro) not long after the [Great War of 2013](https://metrovideogame.fandom.com/wiki/World_War_III), involving the [Red Line](https://metrovideogame.fandom.com/wiki/Red_Line) and a coalition led by the [Hanseatic League](https://metrovideogame.fandom.com/wiki/Hanza).
+
+## Prelude
+
+The war started as a consequence of the Sokol Line Revolution: many communist sympathisers in the metro gathered at Preobrazhenskaya Ploshchhad station and formed a pseudo-socialist government. Soon afterwards, the station next to Preobrazhenskaya learned of the optimistic revolution and joined it. Then, the station on the other side of the tunnel voluntarily joined and so on until most of the Sokol Line had fallen under the red banner. As a result, the Sokol Line was officially renamed as "the Red Line" as it was already popularly known.
+
+The revolution, however, remained confined to the Sokol Line since stations outside the line (especially the [Hanseatic stations](https://metrovideogame.fandom.com/wiki/Hanza)) were unwilling to submit to Stalinist ideals. Furthermore, Hanza desired to unite the northern and southern arcs of its territory separated by the Red Line. Speakers and agitators of the Red Line were arrested and sent back into the totalitarian faction's territory. In response, the Red Line's leadership decided to spread the revolution throughout the [Moscow Metro](https://metrovideogame.fandom.com/wiki/Post-Apocalyptic_Metro_System)'s entirety, by any means necessary.
+
+## The War
+
+The Red Line mobilized an army to take over the surrounding stations. However, the easy victory that the Stalinist leadership hoped to achieve remained elusive. Hanza, the [Arbat Confederation](https://metrovideogame.fandom.com/wiki/Arbat_Confederation), and other opposing stations joined together to form the Anti-Communist Coalition. The Coalition stopped the Red Line advance but was unable to break the Red Line's defences. The war bogged down into a stalemate lasting for almost a year and a half. Much fighting occurred: massive army operations, instances of encirclement, breaching encirclement, attacks, counterattacks, and more reprisal attacks, guerrilla excursions, and the continuing fortification of stations. Numerous atrocities were committed by both sides including the killing of prisoners, the massacring of civilians, and the utilization of [flamethrowers](https://metrovideogame.fandom.com/wiki/Flamethrower). On occasion one side managed to take a station only to be pushed out the next day, resuming the stalemate. The war exhausted precious resources and drained the metro of its best manpower. Those who survived quickly grew weary of the conflict.
+
+As the war progressed, the Red Line leadership dropped its goal of spreading revolution to the entire metro and instead set their sights on capturing the Revolution Square from the Coalition. The Revolution Square was the station closest to the Red Square and the Lenin Mausoleum on the surface. Since these monuments held great symbolic value for the Stalinists, the station's defenders were determined to fight the Reds down to the last man. Gathering a force at Okhotnyi Ryad, now renamed Prospect Marx, the Reds attacked Revolution Square which was heavily fortified. The Battle of Revolution Square became one of the bloodiest incidents in the entire war and was the scene of many heroic actions. Men who had taken several bullets to the chest kept on fighting and soldiers voluntarily strapped grenades to their bodies to take out enemy gun positions. In the end, however the determined Red assault was fruitless and the Coalition continued to hold Revolution Square.
+
+In the same manner, the Coalition's attempts to take Lenin Library to cut the Red Line in half were equally unsuccessful and fruitless. Despite concerted attacks, the Coalition ultimately could not penetrate the Stalinist defences at Lenin Library.
+
+## Peace Treaty
+
+The long-lasting war posed a major problem for both sides. The populace on both sides had grown tired of the endless struggle and started to voice dissent. Furthermore, desertion spread through the ranks of both armies. All too often, military confrontations resulted in both sides laying down their arms and deserting together. The patriotic fervour that characterised pseudo-socialist revolution slowly faded, weakening the Red Line Government's grip over its citizens. Likewise, trade between stations ground to a halt since caravan routes had been disrupted diminishing Hanza's wealth and influence. The politicians, who found themselves losing support from both their populace and army, had to act quickly if they wanted to stay in power.
+
+In great secrecy, at a neutral station, Comrade Moskvin of the Red Line, Prime Minister [Rusakov](https://metrovideogame.fandom.com/wiki/Rusakov) of Hanza, and Head of the [Arbat Confederation](https://metrovideogame.fandom.com/wiki/Arbat_Confederation) Kolpakov drafted and signed a peace treaty. Under its terms, the Arbat Confederation gave the Revolution Square to the [Red Line](https://metrovideogame.fandom.com/wiki/Red_Line), and in turn the Red Line gave the Lenin Library to the Arbat Confederation. Additionally, [Hanza](https://metrovideogame.fandom.com/wiki/Hanza) would allow other factions to travel through its territory. The signing of the peace accords was no small achievement since the Confederation lost most of its influence in the north-west and the Red Line was cut in half. In the end, Hanza received the best terms from the peace treaty since the accords allowed them to secure the entire central ring of stations and dominate the majority of the metro's caravan trade.
+
+## Aftermath
+
+Both sides claimed that their leaders had made an extraordinary diplomatic feat and that they were the victors. The Arbat Confederation was severely weakened by the war, and at the time of Metro 2033 the Arbat Confederation had declined into a mere satellite state of Hanza. The flames of the Red Line revolution were exhausted. The Red Line leadership consolidated their power over what was left of the faction, and it became a police state under the desperate authoritarian leadership. The true victor of the war was Hanza since the peace treaty's territory swap required all factions to travel through Hanza's stations for trade and long distance travel. Hanza was able to achieve their goal of closing the ring and uniting the northern and the southern arcs of their territory. Ultimately Hanza would become the richest, largest, and most powerful faction in the metro. Some time after the war a fascist faction took over Chekhovskaya, Pushkinskaya, and Tverskaya - forming the [Fourth Reich](https://metrovideogame.fandom.com/wiki/Fourth_Reich) to oppose the Red Line and cleanse the metro of non-native Russians.
