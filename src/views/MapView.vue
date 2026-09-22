@@ -6,6 +6,7 @@ import 'leaflet/dist/leaflet.css'
 import { MAP_IMAGE, STATION_RADIUS, stations } from '../data/stations'
 import { journeys, stationToLevel } from '../data/journey'
 import { levelsById } from '../data/levels'
+import { locationsById, stationToLocation } from '../data/locations'
 
 const router = useRouter()
 
@@ -36,6 +37,12 @@ const toLatLng = (point) => L.latLng(MAP_IMAGE.height - point.y, point.x)
 function levelForStation(station) {
   const levelId = stationToLevel[station.id]
   return levelId ? levelsById[levelId] : null
+}
+
+// Fall back to a location dossier for station circles without a level.
+function locationForStation(station) {
+  const locationId = stationToLocation[station.id]
+  return locationId ? locationsById[locationId] : null
 }
 
 const tooltipStyle = computed(() => ({
@@ -73,13 +80,16 @@ function updateTooltipPosition() {
 
 async function selectStation(station) {
   const level = levelForStation(station)
+  const location = level ? null : locationForStation(station)
+  const entry = level || location
   tooltipImageBroken.value = false
   selected.value = {
-    name: level ? level.title : station.name,
-    subtitle: level ? station.name : 'Station dossier',
-    brief: level?.brief ?? '',
-    levelId: level?.id ?? null,
-    image: level?.image ?? '',
+    name: entry ? entry.title : station.name,
+    subtitle: level ? station.name : location ? `${station.name} · location` : 'Station dossier',
+    brief: entry?.brief ?? '',
+    image: entry?.image ?? '',
+    detailName: level ? 'level-detail' : location ? 'location-detail' : null,
+    detailId: entry?.id ?? null,
     point: station,
   }
   await nextTick()
@@ -94,8 +104,9 @@ async function selectNode(node, game) {
     name: level.title,
     subtitle: JOURNEY_STYLE[game]?.label ?? '',
     brief: level.brief,
-    levelId: level.id,
     image: level.image ?? '',
+    detailName: 'level-detail',
+    detailId: level.id,
     point: node,
   }
   await nextTick()
@@ -103,7 +114,9 @@ async function selectNode(node, game) {
 }
 
 function openDetail() {
-  if (selected.value?.levelId) router.push({ name: 'level-detail', params: { id: selected.value.levelId } })
+  if (selected.value?.detailName && selected.value?.detailId) {
+    router.push({ name: selected.value.detailName, params: { id: selected.value.detailId } })
+  }
 }
 
 function closeTooltip() {
@@ -261,7 +274,7 @@ onBeforeUnmount(() => {
           {{ selected.brief || 'No level dossier is linked to this station yet.' }}
         </p>
         <a
-          v-if="selected.levelId"
+          v-if="selected.detailName"
           class="tooltip-link"
           href="#"
           @click.prevent="openDetail"

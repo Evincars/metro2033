@@ -69,6 +69,7 @@ function openStation(row) {
         toggle the filters below or type to search. Stations featured in a level link to their
         dossier.
       </p>
+      <RouterLink to="/map" class="map-cta">◈ Open the Metro Map</RouterLink>
     </header>
 
     <div class="mx-panel toolbar">
@@ -156,6 +157,29 @@ function openStation(row) {
 .view-header p {
   margin: 0;
   max-width: 70ch;
+}
+
+.map-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 1rem;
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-bg);
+  background: var(--color-amber);
+  border: 1px solid var(--color-amber);
+  padding: 0.55rem 1.1rem;
+  border-radius: 2px;
+  box-shadow: var(--glow-amber);
+  transition: filter 0.15s ease, transform 0.15s ease;
+}
+
+.map-cta:hover {
+  filter: brightness(1.12);
+  transform: translateY(-1px);
 }
 
 .toolbar {

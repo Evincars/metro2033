@@ -1,6 +1,7 @@
 <script setup>
 import { onBeforeUnmount, onMounted } from 'vue'
 import { useAmbientAudio } from '../../composables/useAmbientAudio'
+import { APP_VERSION } from '../../data/release'
 
 const emit = defineEmits(['close'])
 const { enabled, volume, playing, blocked, currentTitle, nextTrack } = useAmbientAudio()
@@ -79,10 +80,14 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
           </div>
 
           <p class="settings-hint">
-            Place your tracks in <code>public/audio/</code> as
-            <code>metro-ambient.mp3</code> and <code>metro-2033-anthem.mp3</code>.
+            Three Metro tracks play once through, in order — no loop.
           </p>
         </section>
+
+        <footer class="settings-foot">
+          <span class="mx-tag">Metro Terminal</span>
+          <span class="settings-version">version {{ APP_VERSION }}</span>
+        </footer>
       </div>
     </div>
   </Teleport>
@@ -115,6 +120,21 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
   flex-direction: column;
   gap: 0.35rem;
   margin-bottom: 1rem;
+}
+
+.settings-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.1rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--color-border-strong);
+}
+
+.settings-version {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-amber);
 }
 
 .settings-title {

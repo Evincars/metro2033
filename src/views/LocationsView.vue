@@ -3,6 +3,7 @@ import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { marked } from 'marked'
 import { LOCATION_CATEGORIES, locations, locationsById, metroLines } from '../data/locations'
+import { locationGallery } from '../data/locationGallery'
 import { fuzzyMatch } from '../utils/search'
 import { handleInternalClick, linkify } from '../utils/wikiLinks'
 
@@ -31,6 +32,27 @@ function onBodyClick(event) {
   handleInternalClick(event, router)
 }
 
+// ---- Gallery + lightbox ----
+const gallery = computed(() =>
+  activeLocation.value ? (locationGallery[activeLocation.value.id] ?? []) : [],
+)
+const lightbox = ref(-1)
+function openLightbox(i) {
+  lightbox.value = i
+}
+function closeLightbox() {
+  lightbox.value = -1
+}
+function prevImg() {
+  lightbox.value = lightbox.value > 0 ? lightbox.value - 1 : gallery.value.length - 1
+}
+function nextImg() {
+  lightbox.value = lightbox.value < gallery.value.length - 1 ? lightbox.value + 1 : 0
+}
+function onThumbError(event) {
+  event.target.closest('.thumb')?.remove()
+}
+
 // ---- List filter ----
 const search = ref('')
 const searchInput = ref(null)
@@ -51,6 +73,12 @@ const filteredLines = computed(() =>
 )
 
 function onKeydown(event) {
+  if (lightbox.value >= 0) {
+    if (event.key === 'Escape') closeLightbox()
+    else if (event.key === 'ArrowLeft') prevImg()
+    else if (event.key === 'ArrowRight') nextImg()
+    return
+  }
   if (event.key !== '/' || activeLocation.value) return
   const tag = document.activeElement?.tagName
   if (tag === 'INPUT' || tag === 'TEXTAREA') return
@@ -97,6 +125,27 @@ function backToList() {
 
         <div class="markdown-body" v-html="renderedBody" @click="onBodyClick" />
 
+        <section v-if="gallery.length" class="gallery">
+          <h2 class="gallery-title">Gallery</h2>
+          <div class="thumbs">
+            <button
+              v-for="(src, i) in gallery"
+              :key="i"
+              type="button"
+              class="thumb"
+              @click="openLightbox(i)"
+            >
+              <img
+                :src="src"
+                :alt="`${activeLocation.title} — ${i + 1}`"
+                loading="lazy"
+                referrerpolicy="no-referrer"
+                @error="onThumbError"
+              />
+            </button>
+          </div>
+        </section>
+
         <a
           v-if="activeLocation.wiki"
           class="fandom-link"
@@ -105,6 +154,21 @@ function backToList() {
           rel="noopener"
         >Read the full article on Fandom ↗</a>
       </article>
+
+      <Teleport to="body">
+        <div v-if="lightbox >= 0" class="lightbox" @click.self="closeLightbox">
+          <button class="lb-close" type="button" aria-label="Close" @click="closeLightbox">×</button>
+          <button class="lb-nav prev" type="button" aria-label="Previous" @click="prevImg">‹</button>
+          <img
+            class="lb-img"
+            :src="gallery[lightbox]"
+            :alt="activeLocation.title"
+            referrerpolicy="no-referrer"
+          />
+          <button class="lb-nav next" type="button" aria-label="Next" @click="nextImg">›</button>
+          <div class="lb-count">{{ lightbox + 1 }} / {{ gallery.length }}</div>
+        </div>
+      </Teleport>
     </template>
 
     <!-- List -->
@@ -117,6 +181,7 @@ function backToList() {
           the Moscow Metro. Open a line to see its stations — those featured in the games link to
           their dossier.
         </p>
+        <RouterLink to="/map" class="map-cta">◈ Open the Metro Map</RouterLink>
       </header>
 
       <div class="mx-panel toolbar">
@@ -184,6 +249,29 @@ function backToList() {
 .view-header p {
   margin: 0;
   max-width: 72ch;
+}
+
+.map-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 1rem;
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-bg);
+  background: var(--color-amber);
+  border: 1px solid var(--color-amber);
+  padding: 0.55rem 1.1rem;
+  border-radius: 2px;
+  box-shadow: var(--glow-amber);
+  transition: filter 0.15s ease, transform 0.15s ease;
+}
+
+.map-cta:hover {
+  filter: brightness(1.12);
+  transform: translateY(-1px);
 }
 
 .toolbar {
@@ -386,6 +474,47 @@ function backToList() {
   color: var(--color-amber);
 }
 
+.gallery {
+  margin-top: 1.5rem;
+}
+
+.gallery-title {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  color: var(--color-amber-bright);
+  margin: 0 0 0.7rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--color-border-strong);
+}
+
+.thumbs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 0.5rem;
+}
+
+.thumb {
+  padding: 0;
+  border: 1px solid var(--color-border);
+  background: #06070a;
+  cursor: pointer;
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.thumb:hover {
+  border-color: var(--color-amber);
+  box-shadow: var(--glow-amber);
+}
+
+.thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 .empty-state {
   text-align: center;
   padding: 3rem 1.5rem;
@@ -394,5 +523,78 @@ function backToList() {
 .empty-icon {
   font-size: 2rem;
   color: var(--color-text-faint);
+}
+
+/* Lightbox */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 4000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(3, 4, 6, 0.92);
+  backdrop-filter: blur(3px);
+}
+
+.lb-img {
+  max-width: 90vw;
+  max-height: 86vh;
+  object-fit: contain;
+  border: 1px solid var(--color-border-strong);
+  box-shadow: var(--shadow-panel), var(--glow-amber);
+}
+
+.lb-close {
+  position: absolute;
+  top: 1rem;
+  right: 1.2rem;
+  background: none;
+  border: none;
+  color: var(--color-text);
+  font-size: 2rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.lb-close:hover {
+  color: var(--color-amber-bright);
+}
+
+.lb-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 64px;
+  background: rgba(13, 12, 10, 0.7);
+  border: 1px solid var(--color-border-strong);
+  color: var(--color-amber);
+  font-size: 2rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.lb-nav:hover {
+  color: var(--color-amber-bright);
+  border-color: var(--color-amber);
+}
+
+.lb-nav.prev {
+  left: 1rem;
+}
+
+.lb-nav.next {
+  right: 1rem;
+}
+
+.lb-count {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--color-text-dim);
 }
 </style>

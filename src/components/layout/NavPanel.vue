@@ -1,6 +1,7 @@
 <script setup>
 import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 import { useRoute } from 'vue-router'
+import { sectionPath } from '../../utils/breadcrumbs'
 
 defineProps({
   collapsed: {
@@ -10,6 +11,9 @@ defineProps({
 })
 
 const route = useRoute()
+
+// Highlight the section the current route belongs to (detail pages included).
+const activeSection = computed(() => sectionPath(route))
 
 const navItems = [
   { to: '/', label: 'VDNH', code: '01', icon: '★' },
@@ -125,7 +129,7 @@ onBeforeUnmount(() => {
         :key="item.to"
         :to="item.to"
         class="nav-item"
-        :class="{ 'is-active': route.path === item.to }"
+        :class="{ 'is-active': activeSection === item.to }"
         :title="item.label"
       >
         <span class="nav-code">{{ item.code }}</span>

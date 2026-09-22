@@ -4,6 +4,7 @@ import { useRoute } from 'vue-router'
 import AppHeader from './components/layout/AppHeader.vue'
 import NavPanel from './components/layout/NavPanel.vue'
 import { initAmbientAudio } from './composables/useAmbientAudio'
+import { getBreadcrumbs } from './utils/breadcrumbs'
 
 const route = useRoute()
 const navCollapsed = ref(false)
@@ -12,6 +13,7 @@ function toggleNav() {
 }
 
 const showNav = computed(() => !!route.meta.leftMenu)
+const crumbs = computed(() => getBreadcrumbs(route))
 
 onMounted(() => {
   initAmbientAudio()
@@ -24,6 +26,17 @@ onMounted(() => {
     <div class="app-body">
       <NavPanel v-if="showNav" :collapsed="navCollapsed" />
       <main class="app-main" :class="{ 'is-wide': !showNav }">
+        <nav v-if="crumbs.length" class="breadcrumbs" aria-label="Breadcrumb">
+          <template v-for="(crumb, i) in crumbs" :key="i">
+            <RouterLink
+              v-if="crumb.to && i < crumbs.length - 1"
+              :to="crumb.to"
+              class="crumb"
+            >{{ crumb.label }}</RouterLink>
+            <span v-else class="crumb is-current" aria-current="page">{{ crumb.label }}</span>
+            <span v-if="i < crumbs.length - 1" class="crumb-sep" aria-hidden="true">/</span>
+          </template>
+        </nav>
         <RouterView />
       </main>
     </div>
@@ -46,6 +59,34 @@ onMounted(() => {
   flex: 1;
   min-width: 0;
   padding: 1.5rem;
+}
+
+.breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.1rem;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+}
+
+.crumb {
+  color: var(--color-text-dim);
+  text-decoration: none;
+}
+
+.crumb:hover {
+  color: var(--color-amber-bright);
+}
+
+.crumb.is-current {
+  color: var(--color-amber);
+}
+
+.crumb-sep {
+  color: var(--color-text-faint);
 }
 
 .app-main.is-wide {

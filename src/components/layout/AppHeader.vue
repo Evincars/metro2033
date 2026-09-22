@@ -2,6 +2,8 @@
 import { computed, ref } from 'vue'
 import { useRoute } from 'vue-router'
 import SettingsDialog from './SettingsDialog.vue'
+import ReleaseNotesDialog from './ReleaseNotesDialog.vue'
+import { APP_VERSION } from '../../data/release'
 import { enabled as audioEnabled, playing as audioPlaying } from '../../composables/useAmbientAudio'
 
 const emit = defineEmits(['toggle-nav'])
@@ -28,6 +30,7 @@ function toggleMobile() {
 }
 
 const settingsOpen = ref(false)
+const notesOpen = ref(false)
 const hasLeftMenu = computed(() => !!route.meta.leftMenu)
 </script>
 
@@ -68,6 +71,17 @@ const hasLeftMenu = computed(() => !!route.meta.leftMenu)
     </nav>
 
     <button
+      class="notes-toggle"
+      type="button"
+      aria-label="Release notes"
+      title="Release notes"
+      @click="notesOpen = true"
+    >
+      <span class="notes-glyph" aria-hidden="true">✦</span>
+      <span class="notes-badge">{{ APP_VERSION }}</span>
+    </button>
+
+    <button
       class="settings-toggle"
       type="button"
       aria-label="Open settings"
@@ -103,6 +117,7 @@ const hasLeftMenu = computed(() => !!route.meta.leftMenu)
     </nav>
 
     <SettingsDialog v-if="settingsOpen" @close="settingsOpen = false" />
+    <ReleaseNotesDialog v-if="notesOpen" @close="notesOpen = false" />
   </header>
 </template>
 
@@ -237,10 +252,43 @@ const hasLeftMenu = computed(() => !!route.meta.leftMenu)
   border-bottom: 1px solid var(--color-border);
 }
 
-/* settings gear (top-right corner) */
-.settings-toggle {
+/* release notes + settings buttons (top-right corner) */
+.notes-toggle {
   position: relative;
   margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  height: 34px;
+  padding: 0 0.5rem;
+  background: transparent;
+  border: 1px solid var(--color-border-strong);
+  border-radius: 2px;
+  color: var(--color-amber);
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: color 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.notes-toggle:hover {
+  color: var(--color-amber-bright);
+  border-color: var(--color-amber);
+  background: rgba(232, 149, 42, 0.08);
+}
+
+.notes-glyph {
+  font-size: 0.95rem;
+  line-height: 1;
+}
+
+.notes-badge {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.03em;
+}
+
+.settings-toggle {
+  position: relative;
   display: inline-flex;
   align-items: center;
   justify-content: center;

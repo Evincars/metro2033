@@ -26,6 +26,12 @@ const routes = [
     meta: { label: 'Factions', code: '04', leftMenu: true },
   },
   {
+    path: '/factions/:id',
+    name: 'faction-detail',
+    component: () => import('../views/FactionsView.vue'),
+    meta: { label: 'Factions', leftMenu: true },
+  },
+  {
     path: '/events',
     name: 'events',
     component: () => import('../views/EventsView.vue'),

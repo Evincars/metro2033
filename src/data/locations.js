@@ -105,3 +105,37 @@ export const metroLines = lineMeta
   .filter((line) => line.stations.length)
 
 export const metroLineById = Object.fromEntries(metroLines.map((line) => [String(line.id), line]))
+
+/**
+ * Map a real station circle → a location dossier, so map tooltips have content
+ * even where no gameplay level is tied to the station.
+ */
+export const stationToLocation = {
+  alekseevskaya: 'alexeyevskaya',
+  kievskaya: 'kievskaya',
+  paveletskaya: 'paveletskaya',
+  'paveletskaya-2': 'hole-station',
+  sevastopolskaya: 'sevastopolskaya',
+  smolenskaya: 'smolenskaya',
+  tretyakovskaya: 'venice',
+  turgenevskaya: 'cursed-station',
+  vdnkh: 'vdnkh',
+  'kitay-gorod': 'kitay-gorod',
+  'kuznetsky-most': 'armory-station',
+  oktyabrskaya: 'oktyabrskaya',
+  'prospekt-mira': 'market-station',
+  polezhaevskaya: 'polezhayevskaya',
+  polyanka: 'polyanka',
+  teatralnaya: 'theatre-station',
+  timiryazevskaya: 'timiryazevskaya',
+  tulskaya: 'tulskaya',
+  lubyanka: 'lubyanka',
+  'nakhimovsky-prospekt': 'nakhimovsky-prospekt',
+  'park-pobedy': 'park-pobedy',
+  'ploshchad-revolyutsii': 'ploshchad-revolutsii',
+  sukharevskaya: 'dry-station',
+  'vorobyovy-gory': 'vorobyovy-gory',
+  rizhskaya: 'rizhskaya-riga',
+  arbatskaya: 'polis',
+}
+
