@@ -4,17 +4,24 @@ import { useRoute, useRouter } from 'vue-router'
 import { marked } from 'marked'
 import { games, gamesById } from '../data/games'
 import { handleInternalClick, linkify } from '../utils/wikiLinks'
+import { extractGallery } from '../utils/markdownGallery'
+import ImageGallery from '../components/ImageGallery.vue'
 
 const route = useRoute()
 const router = useRouter()
 marked.setOptions({ breaks: false, gfm: true })
 
+const bannerUrl = `${import.meta.env.BASE_URL}book-art/footer.jpg`
+
 const activeId = computed(() => route.params.id ?? '')
 const activeGame = computed(() => (activeId.value ? gamesById[activeId.value] : null))
 
-const renderedBody = computed(() =>
-  activeGame.value ? linkify(marked.parse(activeGame.value.body || '')) : '',
-)
+// Split the article body: prose is rendered inline, images become a gallery.
+const parsed = computed(() => {
+  if (!activeGame.value) return { html: '', images: [] }
+  const { body, images } = extractGallery(activeGame.value.body || '')
+  return { html: linkify(marked.parse(body)), images }
+})
 
 const metaLine = computed(() => {
   const g = activeGame.value
@@ -83,7 +90,9 @@ function backToList() {
           />
         </figure>
 
-        <div class="markdown-body" v-html="renderedBody" @click="onBodyClick" />
+        <div class="markdown-body" v-html="parsed.html" @click="onBodyClick" />
+
+        <ImageGallery :images="parsed.images" title="Screenshots & art" />
 
         <a
           v-if="activeGame.wiki"
@@ -97,14 +106,16 @@ function backToList() {
 
     <!-- List -->
     <template v-else>
-      <header class="mx-panel view-header">
-        <span class="mx-tag">Archive · Interactive</span>
-        <h1>Games</h1>
-        <p>
-          The Metro series — 4A Games' adaptations of Dmitry Glukhovsky's novels, from the
-          claustrophobic tunnels of Moscow to the open wastes beyond. Select a title for the
-          full dossier.
-        </p>
+      <header class="games-banner" :style="{ backgroundImage: `url('${bannerUrl}')` }">
+        <div class="games-banner-inner">
+          <span class="mx-tag">Archive · Interactive</span>
+          <h1>Games</h1>
+          <p>
+            The Metro series — 4A Games' adaptations of Dmitry Glukhovsky's novels, from the
+            claustrophobic tunnels of Moscow to the open wastes beyond. Select a title for the
+            full dossier.
+          </p>
+        </div>
       </header>
 
       <ul class="games-grid">
@@ -152,6 +163,43 @@ function backToList() {
 .view-header p {
   margin: 0;
   max-width: 72ch;
+}
+
+/* ---- footer.jpg tunnel banner (list header) ---- */
+.games-banner {
+  position: relative;
+  border: 1px solid var(--color-border-strong);
+  background-color: #05070a;
+  background-size: cover;
+  background-position: center right;
+  box-shadow: var(--shadow-panel);
+  overflow: hidden;
+  padding: 2.25rem 1.75rem 2.5rem;
+}
+
+.games-banner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(5, 7, 10, 0.94) 30%, rgba(5, 7, 10, 0.35) 100%);
+  z-index: 0;
+}
+
+.games-banner-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 72ch;
+}
+
+.games-banner-inner h1 {
+  margin: 0.5rem 0;
+  font-family: 'Cinzel', 'Times New Roman', serif;
+  letter-spacing: 0.08em;
+}
+
+.games-banner-inner p {
+  margin: 0;
+  color: var(--color-text-dim);
 }
 
 /* ---- list grid ---- */

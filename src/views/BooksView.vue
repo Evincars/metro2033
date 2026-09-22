@@ -4,12 +4,14 @@ import { useRoute, useRouter } from 'vue-router'
 import { marked } from 'marked'
 import { booksById, coreBooks, universeBooks } from '../data/books'
 import { handleInternalClick, linkify } from '../utils/wikiLinks'
+import ParchmentNote from '../components/ParchmentNote.vue'
 
 const route = useRoute()
 const router = useRouter()
 marked.setOptions({ breaks: false, gfm: true })
 
-const bgUrl = `${import.meta.env.BASE_URL}book-art/screenshot_20260922_015038-region.png`
+const bgUrl = `${import.meta.env.BASE_URL}book-art/books_top.jpg`
+const bookIcon = `${import.meta.env.BASE_URL}book-art/book.png`
 
 const activeId = computed(() => route.params.id ?? '')
 const activeBook = computed(() => (activeId.value ? booksById[activeId.value] : null))
@@ -84,6 +86,7 @@ function backToList() {
     <template v-else>
       <header class="books-hero" :style="{ backgroundImage: `url('${bgUrl}')` }">
         <div class="books-hero-inner">
+          <img class="books-emblem" :src="bookIcon" alt="" aria-hidden="true" />
           <h1 class="books-title">Metro Books</h1>
           <div class="ornament-hr" aria-hidden="true">
             <span class="ornament-line" />
@@ -96,6 +99,16 @@ function backToList() {
           </p>
         </div>
       </header>
+
+      <ParchmentNote label="From the archive">
+        <p>
+          “Life was tough in the Metro. Everyone lived in constant fear — of the mutants
+          gnawing at the tunnels, of the dark that pressed against the last electric lights,
+          of the neighbours across the platform. And yet the survivors read, and wrote, and
+          remembered — because a story was the one thing the radiation could not touch.”
+        </p>
+        <cite>— Recovered notebook, VDNKh</cite>
+      </ParchmentNote>
 
       <ul class="books-grid">
         <li v-for="book in coreBooks" :key="book.id">
@@ -168,7 +181,7 @@ function backToList() {
   border: 1px solid var(--color-border-strong);
   background-color: #0a0d0f;
   background-size: cover;
-  background-position: center;
+  background-position: center 22%;
   box-shadow: var(--shadow-panel);
   padding: 3rem 1.5rem 3.25rem;
   overflow: hidden;
@@ -178,7 +191,7 @@ function backToList() {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(6, 9, 11, 0.78), rgba(6, 9, 11, 0.86));
+  background: linear-gradient(180deg, rgba(6, 9, 11, 0.72), rgba(6, 9, 11, 0.9));
   z-index: 0;
 }
 
@@ -190,6 +203,13 @@ function backToList() {
   align-items: center;
   text-align: center;
   gap: 1rem;
+}
+
+.books-emblem {
+  width: 58px;
+  height: auto;
+  filter: drop-shadow(0 3px 8px rgba(0, 0, 0, 0.7));
+  opacity: 0.95;
 }
 
 .books-title {
