@@ -153,40 +153,6 @@ const destinations = [
   flex-wrap: wrap;
 }
 
-.btn {
-  font-family: var(--font-display);
-  font-size: 0.85rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  padding: 0.75rem 1.4rem;
-  border-radius: 2px;
-  border: 1px solid var(--color-border-strong);
-  transition: all 0.15s ease;
-}
-
-.btn-primary {
-  background: var(--color-rust);
-  border-color: var(--color-rust);
-  color: var(--color-bg);
-}
-
-.btn-primary:hover {
-  background: var(--color-amber);
-  border-color: var(--color-amber);
-  color: var(--color-bg);
-  box-shadow: var(--glow-amber);
-}
-
-.btn-ghost {
-  color: var(--color-text);
-  background: transparent;
-}
-
-.btn-ghost:hover {
-  border-color: var(--color-amber);
-  color: var(--color-amber-bright);
-}
-
 .crossroad {
   display: flex;
   flex-direction: column;
