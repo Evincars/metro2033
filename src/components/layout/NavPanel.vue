@@ -4,7 +4,7 @@ import { useRoute } from 'vue-router'
 import { sectionPath } from '../../utils/breadcrumbs'
 import { logoStyle } from '../../composables/useLogoStyle'
 
-defineProps({
+const props = defineProps({
   collapsed: {
     type: Boolean,
     default: false,
@@ -16,6 +16,18 @@ defineProps({
 })
 
 const route = useRoute()
+
+// Collapsed menu: show the item's label in a tooltip to the right on hover.
+// It is teleported to <body> because the panel clips its overflow.
+const hoverTip = ref(null)
+function showTip(event, label) {
+  if (!props.collapsed) return
+  const rect = event.currentTarget.getBoundingClientRect()
+  hoverTip.value = { label, x: rect.right + 10, y: rect.top + rect.height / 2 }
+}
+function hideTip() {
+  hoverTip.value = null
+}
 
 // Highlight the section the current route belongs to (detail pages included).
 const activeSection = computed(() => sectionPath(route))
@@ -136,7 +148,12 @@ onBeforeUnmount(() => {
         :to="item.to"
         class="nav-item"
         :class="{ 'is-active': activeSection === item.to }"
-        :title="item.label"
+        :aria-label="collapsed ? item.label : undefined"
+        @mouseenter="showTip($event, item.label)"
+        @mouseleave="hideTip"
+        @focus="showTip($event, item.label)"
+        @blur="hideTip"
+        @click="hideTip"
       >
         <span class="nav-code">{{ item.code }}</span>
         <span class="nav-icon">{{ item.icon }}</span>
@@ -145,14 +162,22 @@ onBeforeUnmount(() => {
     </nav>
 
     <div class="nav-status">
-      <div class="status-row" :title="`Signal: ${signalLabel}`">
+      <div
+        class="status-row"
+        @mouseenter="showTip($event, `Signal: ${signalLabel}`)"
+        @mouseleave="hideTip"
+      >
         <span class="status-ico signal-ico" :data-bars="signalBars" aria-hidden="true">
           <i /><i /><i /><i />
         </span>
         <span class="nav-label status-text">Signal: {{ signalLabel }}</span>
       </div>
 
-      <div class="status-row" :title="`Radiation ${radDisplay}`">
+      <div
+        class="status-row"
+        @mouseenter="showTip($event, `Rad: ${radDisplay}${radStatus ? ` — ${radStatus}` : ''}`)"
+        @mouseleave="hideTip"
+      >
         <span class="status-ico rad-ico" :class="`rad-${radLevel}`" aria-hidden="true">
           <svg viewBox="0 0 24 24" width="18" height="18">
             <circle cx="12" cy="12" r="3.4" fill="currentColor" />
@@ -166,6 +191,17 @@ onBeforeUnmount(() => {
         </span>
       </div>
     </div>
+
+    <Teleport to="body">
+      <div
+        v-if="hoverTip && collapsed"
+        class="nav-tip"
+        role="tooltip"
+        :style="{ left: `${hoverTip.x}px`, top: `${hoverTip.y}px` }"
+      >
+        {{ hoverTip.label }}
+      </div>
+    </Teleport>
   </aside>
 </template>
 
@@ -252,6 +288,37 @@ onBeforeUnmount(() => {
 
 .is-collapsed .nav-label {
   display: none;
+}
+
+.nav-tip {
+  position: fixed;
+  z-index: 2000;
+  transform: translateY(-50%);
+  padding: 0.35rem 0.6rem;
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: var(--color-amber-bright);
+  background: var(--color-panel);
+  border: 1px solid var(--color-border-strong);
+  box-shadow: var(--shadow-panel), var(--glow-amber);
+  pointer-events: none;
+}
+
+/* little arrow pointing back at the menu item */
+.nav-tip::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -5px;
+  width: 8px;
+  height: 8px;
+  background: var(--color-panel);
+  border-left: 1px solid var(--color-border-strong);
+  border-bottom: 1px solid var(--color-border-strong);
+  transform: translateY(-50%) rotate(45deg);
 }
 
 .nav-status {

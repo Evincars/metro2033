@@ -7,12 +7,6 @@ import { logoStyle } from '../../composables/useLogoStyle'
 const emit = defineEmits(['close'])
 const { enabled, volume, playing, blocked, currentTitle, nextTrack } = useAmbientAudio()
 
-const base = import.meta.env.BASE_URL
-const logoOptions = [
-  { id: 'universe', label: 'Universe shield', src: `${base}book-art/logotype_main.png` },
-  { id: 'classic', label: 'Classic wordmark', src: `${base}metro2033-logo.png` },
-]
-
 const volumePercent = (val) => Math.round(val * 100)
 
 function onVolumeInput(event) {
@@ -92,25 +86,23 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
         <section class="settings-group settings-group--spaced">
           <div class="group-label">Appearance</div>
 
-          <div class="logo-picker" role="radiogroup" aria-label="Top bar logo">
+          <label class="toggle-row">
+            <span class="toggle-text">Original Metro 2033 logo</span>
             <button
-              v-for="opt in logoOptions"
-              :key="opt.id"
-              class="logo-option"
+              class="switch"
               type="button"
-              role="radio"
-              :aria-checked="logoStyle === opt.id"
-              :class="{ 'is-active': logoStyle === opt.id }"
-              @click="logoStyle = opt.id"
+              role="switch"
+              :aria-checked="logoStyle === 'universe'"
+              :class="{ 'is-on': logoStyle === 'universe' }"
+              @click="logoStyle = logoStyle === 'universe' ? 'classic' : 'universe'"
             >
-              <span
-                class="logo-preview"
-                :class="`logo-preview--${opt.id}`"
-                :style="{ backgroundImage: `url('${opt.src}')` }"
-              />
-              <span class="logo-label">{{ opt.label }}</span>
+              <span class="switch-knob" />
             </button>
-          </div>
+          </label>
+
+          <p class="settings-hint">
+            On: the original "Вселенная Метро 2033" shield. Off: the Metro 2033 wordmark.
+          </p>
         </section>
 
         <footer class="settings-foot">
@@ -187,60 +179,6 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
   margin-top: 1.1rem;
   padding-top: 0.9rem;
   border-top: 1px solid var(--color-border);
-}
-
-.logo-picker {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.6rem;
-}
-
-.logo-option {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.45rem;
-  padding: 0.6rem 0.5rem 0.5rem;
-  background: rgba(0, 0, 0, 0.25);
-  border: 1px solid var(--color-border);
-  border-radius: 2px;
-  cursor: pointer;
-  transition: border-color 0.15s ease, box-shadow 0.15s ease;
-}
-
-.logo-option:hover {
-  border-color: var(--color-border-strong);
-}
-
-.logo-option.is-active {
-  border-color: var(--color-amber);
-  box-shadow: var(--glow-amber);
-}
-
-.logo-preview {
-  display: block;
-  width: 100%;
-  height: 56px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-}
-
-/* The shield sprite holds two frames — preview only the left one. */
-.logo-preview--universe {
-  width: 75px;
-  background-size: 200% 100%;
-  background-position: left center;
-}
-
-.logo-label {
-  font-family: var(--font-mono);
-  font-size: 0.7rem;
-  color: var(--color-text-dim);
-}
-
-.logo-option.is-active .logo-label {
-  color: var(--color-amber-bright);
 }
 
 .group-label {
