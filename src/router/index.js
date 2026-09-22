@@ -92,6 +92,12 @@ const routes = [
     meta: { label: 'Games' },
   },
   {
+    path: '/games/:id',
+    name: 'game-detail',
+    component: () => import('../views/GamesView.vue'),
+    meta: { label: 'Games' },
+  },
+  {
     path: '/books',
     name: 'books',
     component: () => import('../views/BooksView.vue'),

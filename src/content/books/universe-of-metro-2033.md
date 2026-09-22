@@ -4,7 +4,7 @@ title: Universe of Metro 2033
 order: 4
 category: Core
 author: Various authors
-year: 2009—
+year: "2009—"
 image: book-art/covers/universe-metro-2033.webp
 brief: "The Universe of Metro 2033 (Russian: Вселенная Метро 2033) is a long-running series of post-apocalyptic short stories, novellas, and novels, spanning a variety of genres. The works are written by…"
 wiki: Universe_of_Metro_2033_(Book_Series)
@@ -21,9 +21,9 @@ It enjoys great popularity in Russia (where a new title is released each month) 
 
 One way of judging which countries are the most interested in the series is by looking at the statistics of the official Russian website for the Universe. Looking at its live stats, the top 5 countries with the most visits (from most frequent to least) are the [Russian Federation](https://metrovideogame.fandom.com/wiki/Russia), [Ukraine](https://metrovideogame.fandom.com/wiki/Ukraine), [Belarus](https://metrovideogame.fandom.com/wiki/Belarus), [Kazakhstan](https://metrovideogame.fandom.com/wiki/Kazakhstan), and [Poland](https://metrovideogame.fandom.com/wiki/Poland).
 
-=<u>Italy</u>=
+## Italy
 
-## The Roots of Heaven
+## [The Roots of Heaven](https://metrovideogame.fandom.com/wiki/The_Roots_of_Heaven_(Novel))
 
 **Author(s):** [Tullio Avoledo](https://metrovideogame.fandom.com/wiki/Tullio_Avoledo)
 
@@ -35,7 +35,7 @@ One way of judging which countries are the most interested in the series is by l
 
 **Continued by:** [The Children's Crusade](https://metrovideogame.fandom.com/wiki/The_Children's_Crusade)
 
-## The Children's Crusade
+## [The Children's Crusade](https://metrovideogame.fandom.com/wiki/The_Children's_Crusade)
 
 **Author(s):** [Tullio Avoledo](https://metrovideogame.fandom.com/wiki/Tullio_Avoledo)
 
@@ -47,9 +47,9 @@ One way of judging which countries are the most interested in the series is by l
 
 **Continued by:** [The Conclave of Darkness](https://metrovideogame.fandom.com/wiki/The_Conclave_of_Darkness)
 
-=<u>Poland</u>=
+## Poland
 
-## Achromatopsia
+## [Achromatopsia](https://metrovideogame.fandom.com/wiki/Achromatopsia_(Novel))
 
 **Author(s):** Artur Chmielewski
 
@@ -61,7 +61,7 @@ One way of judging which countries are the most interested in the series is by l
 
 **Continued by:** N/A
 
-## The Promised District
+## [The Promised District](https://metrovideogame.fandom.com/wiki/The_Promised_District_(Novel))
 
 **Author(s):** Paweł Majka
 
@@ -73,7 +73,7 @@ One way of judging which countries are the most interested in the series is by l
 
 **Continued by:** [The Promised Human](https://metrovideogame.fandom.com/wiki/The_Promised_Human_(Novel))
 
-## The Promised Human
+## [The Promised Human](https://metrovideogame.fandom.com/wiki/The_Promised_Human_(Novel))
 
 **Author(s):** Paweł Majka
 
@@ -85,7 +85,7 @@ One way of judging which countries are the most interested in the series is by l
 
 **Continued by:** N/A
 
-## The Abyss
+## [The Abyss](https://metrovideogame.fandom.com/wiki/The_Abyss_(Novel))
 
 **Author(s):** [Robert J. Szmidt](https://metrovideogame.fandom.com/wiki/Robert_J._Szmidt)
 
@@ -97,7 +97,7 @@ One way of judging which countries are the most interested in the series is by l
 
 **Continued by:** [The Tower](https://metrovideogame.fandom.com/wiki/The_Tower_(Novel))
 
-## The Tower
+## [The Tower](https://metrovideogame.fandom.com/wiki/The_Tower_(Novel))
 
 **Author(s):** [Robert J. Szmidt](https://metrovideogame.fandom.com/wiki/Robert_J._Szmidt)
 
@@ -109,7 +109,7 @@ One way of judging which countries are the most interested in the series is by l
 
 **Continued by:** [The Giant](https://metrovideogame.fandom.com/wiki/The_Giant)
 
-## In the Firelight
+## [In the Firelight](https://metrovideogame.fandom.com/wiki/In_the_Firelight_(Novel))
 
 **Author(s):** 12 Polish writers
 
@@ -121,7 +121,7 @@ One way of judging which countries are the most interested in the series is by l
 
 **Continued by:** N/A
 
-## Whispers of the Fallen
+## [Whispers of the Fallen](https://metrovideogame.fandom.com/wiki/Whispers_of_the_Fallen_(Novel))
 
 **Author(s):** 8 Polish writers
 
@@ -133,7 +133,7 @@ One way of judging which countries are the most interested in the series is by l
 
 **Continued by:** N/A
 
-## Echo of an Extinguished World
+## [Echo of an Extinguished World](https://metrovideogame.fandom.com/wiki/Echo_of_an_Extinguished_World_(Novel))
 
 **Author(s):** 14 Polish writers
 
@@ -145,7 +145,7 @@ One way of judging which countries are the most interested in the series is by l
 
 **Continued by:** N/A
 
-## In Ruins
+## [In Ruins](https://metrovideogame.fandom.com/wiki/In_Ruins_(Novel))
 
 **Author(s):** 12 Polish writers
 
@@ -157,7 +157,7 @@ One way of judging which countries are the most interested in the series is by l
 
 **Continued by:** N/A
 
-=<u>France</u>=
+## France
 
 ## Rive Gauche
 
@@ -195,9 +195,9 @@ One way of judging which countries are the most interested in the series is by l
 
 **Continued by:** N/A
 
-=<u>United Kingdom</u>=
+## United Kingdom
 
-## Britain
+## [Britain](https://metrovideogame.fandom.com/wiki/Britain)
 
 - Main article: term=[Britain](https://metrovideogame.fandom.com/wiki/Britain)*
 
@@ -211,8 +211,8 @@ One way of judging which countries are the most interested in the series is by l
 
 **Continued by:** N/A
 
-=<u>Russia</u>=
-## Dark Tunnels
+## Russia
+## [Dark Tunnels](https://metrovideogame.fandom.com/wiki/Dark_Tunnels_(Novel))
 
 **Author(s):** Сергей Антонов (Sergei Antonov)
 
@@ -224,7 +224,7 @@ One way of judging which countries are the most interested in the series is by l
 
 **Continued by:** [In the Interest of the Revolution](https://metrovideogame.fandom.com/wiki/In_the_Interest_of_the_Revolution)
 
-## Piter
+## [Piter](https://metrovideogame.fandom.com/wiki/Piter_(Novel))
 
 **Author(s):** Шимун Врочек ([Shimun Vrochek](https://metrovideogame.fandom.com/wiki/Shimun_Vrochek))
 
@@ -236,7 +236,7 @@ One way of judging which countries are the most interested in the series is by l
 
 **Continued by:** [Piter: The War](https://metrovideogame.fandom.com/wiki/Piter:_The_War)
 
-## Towards the Light
+## [Towards the Light](https://metrovideogame.fandom.com/wiki/Towards_the_Light_(Novel))
 
 **Author(s):** Андрей Дьяков (Andrey Dyakov)
 
@@ -248,7 +248,7 @@ One way of judging which countries are the most interested in the series is by l
 
 **Continued by:** [Into the Darkness](https://metrovideogame.fandom.com/wiki/Into_the_Darkness_(Novel))
 
-## Into the Darkness
+## [Into the Darkness](https://metrovideogame.fandom.com/wiki/Into_the_Darkness_(Novel))
 
 **Author(s):** Андрей Дьяков (Andrey Dyakov)
 
@@ -260,7 +260,7 @@ One way of judging which countries are the most interested in the series is by l
 
 **Continued by:** [Beyond the Horizon](https://metrovideogame.fandom.com/wiki/Beyond_the_Horizon_(Novel))
 
-## Beyond the Horizon
+## [Beyond the Horizon](https://metrovideogame.fandom.com/wiki/Beyond_the_Horizon_(Novel))
 
 **Author(s):** Андрей Дьяков (Andrey Dyakov)
 
@@ -272,7 +272,7 @@ One way of judging which countries are the most interested in the series is by l
 
 **Continued by:** N/A
 
-## Heritage of the Ancestors
+## [Heritage of the Ancestors](https://metrovideogame.fandom.com/wiki/Heritage_of_the_Ancestors_(Novel))
 
 **Author(s):** Сурен Цормудян (Suren Tsormudian)
 
@@ -284,7 +284,7 @@ One way of judging which countries are the most interested in the series is by l
 
 **Continued by:** [The Edge of the Earth. Lost Paradise (spin-off)](https://metrovideogame.fandom.com/wiki/The_Edge_of_the_Earth)
 
-## The Right to Use Force
+## [The Right to Use Force](https://metrovideogame.fandom.com/wiki/The_Right_to_Use_Force_(Novel))
 
 **Author(s):** Денис Шабалов (Denis Shabalov)
 
@@ -296,7 +296,7 @@ One way of judging which countries are the most interested in the series is by l
 
 **Continued by:** [The Right to Life](https://metrovideogame.fandom.com/wiki/The_Right_to_Life_(Novel))
 
-## The Right to Life
+## [The Right to Life](https://metrovideogame.fandom.com/wiki/The_Right_to_Life_(Novel))
 
 **Author(s):** Денис Шабалов (Denis Shabalov)
 
@@ -309,7 +309,7 @@ One way of judging which countries are the most interested in the series is by l
 
 **Continued by:** [The Right to Revenge](https://metrovideogame.fandom.com/wiki/The_Right_to_Revenge_(Novel))
 
-## The Right to Revenge
+## [The Right to Revenge](https://metrovideogame.fandom.com/wiki/The_Right_to_Revenge_(Novel))
 
 **Author(s):** Денис Шабалов (Denis Shabalov)
 
@@ -321,7 +321,7 @@ One way of judging which countries are the most interested in the series is by l
 
 **Continued by:** N/A
 
-## Murancha
+## [Murancha](https://metrovideogame.fandom.com/wiki/Murancha_(Novel))
 
 **Author(s):** Руслан Мельников (Ruslan Melnikov)
 
@@ -333,7 +333,7 @@ One way of judging which countries are the most interested in the series is by l
 
 **Continued by:** [From the Depths](https://metrovideogame.fandom.com/wiki/From_the_Depths)
 
-## Hunger
+## [Hunger](https://metrovideogame.fandom.com/wiki/Hunger_(novel))
 
 **Author:** Сергей Москвин (Sergey Moskvin)
 
@@ -345,7 +345,7 @@ One way of judging which countries are the most interested in the series is by l
 
 **Continued by:** [To See the Sun](https://metrovideogame.fandom.com/wiki/To_See_the_Sun_(Novel)) (spin-off)
 
-## To See the Sun
+## [To See the Sun](https://metrovideogame.fandom.com/wiki/To_See_the_Sun_(Novel))
 
 - Main article: term = [To See the Sun](https://metrovideogame.fandom.com/wiki/To_See_the_Sun_(Novel))*
 
@@ -359,7 +359,7 @@ One way of judging which countries are the most interested in the series is by l
 
 **Continued by:** N/A
 
-## Leshy Never Die
+## [Leshy Never Die](https://metrovideogame.fandom.com/wiki/Leshy_Never_Die)
 
 - Main article: term = [Leshy Never Die](https://metrovideogame.fandom.com/wiki/Leshy_Never_Die)*
 
@@ -373,7 +373,7 @@ One way of judging which countries are the most interested in the series is by l
 
 **Continued by:** N/A
 
-## Ouroboros
+## [Ouroboros](https://metrovideogame.fandom.com/wiki/Ouroboros)
 
 - Main article: term = [Ouroboros](https://metrovideogame.fandom.com/wiki/Ouroboros)*
 
@@ -385,7 +385,7 @@ One way of judging which countries are the most interested in the series is by l
 
 **Continued by:** N/A
 
-## Unburied
+## [Unburied](https://metrovideogame.fandom.com/wiki/Unburied)
 
 - Main article: term = [Unburied](https://metrovideogame.fandom.com/wiki/Unburied)*
 
@@ -397,57 +397,57 @@ One way of judging which countries are the most interested in the series is by l
 
 **Continued by:** [Rubylovka](https://metrovideogame.fandom.com/wiki/Rublyovka)
 
-=<u>The Rest</u>=
+## The Rest
 Many other books have also been published under the Universe of Metro 2033 banner since the launch of Dmitry Glukhovsky's project in 2009, but information about most of them is scarce. The titles of some of these are:
 
-**<big>A</big>**
+**A**
 - [A Palace for Slaves](https://metrovideogame.fandom.com/wiki/A_Palace_for_Slaves)
 - Abode of Dreams
 - [Arkaim](https://metrovideogame.fandom.com/wiki/Arkaim_(novel))
 - Arkaim-2
 - [At the Edge of the Abyss](https://metrovideogame.fandom.com/wiki/At_the_Edge_of_the_Abyss)
-**<big>B</big>**
+**B**
 - [Below Hell](https://metrovideogame.fandom.com/wiki/Below_Hell)
 - Bezymyanka
 - [Blindmen](https://metrovideogame.fandom.com/wiki/Blindmen)
 - [Born to Crawl](https://metrovideogame.fandom.com/wiki/Born_to_crawl)
-**<big>C</big>**
+**C**
 - Cat and Mouse
 - [Countdown](https://metrovideogame.fandom.com/wiki/Countdown)
 - [Crimea](https://metrovideogame.fandom.com/wiki/Crimea)
 - [Crimea-2](https://metrovideogame.fandom.com/wiki/Crimea-2)
 - [Crimea-3](https://metrovideogame.fandom.com/wiki/Crimea-3)
 - [Crossroads of Fate](https://metrovideogame.fandom.com/wiki/Crossroads_of_Fate)
-**<big>D</big>**
+**D**
 - [Daughter of the Heavenly Spirit](https://metrovideogame.fandom.com/wiki/Daughter_of_the_Heavenly_Spirit)
 - Dark Target
 - [Death of the Octane Gods](https://metrovideogame.fandom.com/wiki/Death_of_the_Octane_Gods)
 - Dusk at the End of the Tunnel
-**<big>E</big>**
+**E**
 - [Edge of Humanity](https://metrovideogame.fandom.com/wiki/Edge_of_Humanity)
 - Exit by Force
-**<big>F</big>**
+**F**
 - [Flying Away](https://metrovideogame.fandom.com/wiki/Flying_Away)
 - [From the Depths](https://metrovideogame.fandom.com/wiki/From_the_Depths)
-**<big>G</big>**
+**G**
 - [Ghost Station](https://metrovideogame.fandom.com/wiki/Ghost_Station)
 - [Guardian Demon](https://metrovideogame.fandom.com/wiki/Guardian_Demon)
-<big>**I**</big>
+**I**
 - [Icy Captivity](https://metrovideogame.fandom.com/wiki/Icy_Captivity)
 - [In the Interest of the Revolution](https://metrovideogame.fandom.com/wiki/In_the_Interest_of_the_Revolution)
 - [Isolation](https://metrovideogame.fandom.com/wiki/Isolation)
-<big>**K**</big>
+**K**
 - Kingdom of Rats
-<big>**M**</big>
+**M**
 - [Marmoreal Paradise](https://metrovideogame.fandom.com/wiki/Marmoreal_Paradise)
 - [Muos](https://metrovideogame.fandom.com/wiki/Muos)
 - [Mutant](https://metrovideogame.fandom.com/wiki/Mutant_(novel))
-**<big>N</big>**
+**N**
 
 - [Nobody](https://metrovideogame.fandom.com/wiki/Nobody)
 - [Nomad](https://metrovideogame.fandom.com/wiki/Nomad)
 
-<big>**P**</big>
+**P**
 
 - [Parad-alle](https://metrovideogame.fandom.com/wiki/Parad-alle)
 - Paramedics
@@ -455,19 +455,19 @@ Many other books have also been published under the Universe of Metro 2033 banne
 - [Pythia-2](https://metrovideogame.fandom.com/wiki/Pythia-2)
 - Pythia-3
 
-<big>**R**</big>
+**R**
 
 - [Road Signs](https://metrovideogame.fandom.com/wiki/Road_Signs)
 - [Rublyovka](https://metrovideogame.fandom.com/wiki/Rublyovka)
 - [Rublyovka-2](https://metrovideogame.fandom.com/wiki/Rublyovka-2)
 - [Rublyovka-3](https://metrovideogame.fandom.com/wiki/Rublyovka-3)
 
-<big>**S**</big>
+**S**
 
 - [Siege of Paradise](https://metrovideogame.fandom.com/wiki/Siege_of_Paradise)
 - [Sisters of Sorrow](https://metrovideogame.fandom.com/wiki/Sisters_of_Sorrow)
 
-<big>**T**</big>
+**T**
 
 - [The Apostate](https://metrovideogame.fandom.com/wiki/The_Apostate)
 - The Bad Side of Peace
@@ -492,14 +492,13 @@ Many other books have also been published under the Universe of Metro 2033 banne
 - [Towards the Distant Blue Sea](https://metrovideogame.fandom.com/wiki/Towards_the_Distant_Blue_Sea)
 - Track Marks
 
-<big>**W**</big>
+**W**
 
 - [War of the Moles](https://metrovideogame.fandom.com/wiki/War_of_Moles)
 - [White Leopard](https://metrovideogame.fandom.com/wiki/White_Leopard)
 
-=<u>Map of Moscow</u>=
+## Map of Moscow
 
-=<u>Gallery</u>=
 ## Authors
 
 ## Others

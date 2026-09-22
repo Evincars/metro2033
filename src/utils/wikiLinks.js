@@ -4,6 +4,7 @@ import { factions } from '../data/factions'
 import { characters } from '../data/characters'
 import { eventArticles } from '../data/eventArticles'
 import { books } from '../data/books'
+import { games } from '../data/games'
 
 /**
  * Rewrites in-article Fandom wiki links to internal routes when they resolve to
@@ -27,6 +28,17 @@ for (const loc of locations) if (loc.wiki) slugToHref[decodeURIComponent(loc.wik
 for (const c of characters) if (c.wiki) slugToHref[decodeURIComponent(c.wiki)] = `/characters/${c.id}`
 for (const ev of eventArticles) if (ev.wiki) slugToHref[decodeURIComponent(ev.wiki)] = `/events/${ev.id}`
 for (const b of books) if (b.wiki) slugToHref[decodeURIComponent(b.wiki)] = `/books/${b.id}`
+for (const g of games) if (g.wiki) slugToHref[decodeURIComponent(g.wiki)] = `/games/${g.id}`
+// Common alternate slugs used in-article for the games.
+Object.assign(slugToHref, {
+  'Metro 2033 (Videogame)': '/games/metro-2033',
+  'Metro 2033 (Video Game)': '/games/metro-2033',
+  'Metro: Last Light': '/games/metro-last-light',
+  'Metro Last Light': '/games/metro-last-light',
+  'Metro 2033 Redux': '/games/metro-redux',
+  'Metro Last Light Redux': '/games/metro-redux',
+  'Metro Video Game Series': '/games',
+})
 
 // Normalized link text → internal href. Later entries win ties; levels win
 // last to preserve prior behaviour for shared names.
@@ -39,6 +51,8 @@ for (const f of factions) addAlias(f.title, `/factions/${f.id}`)
 for (const c of characters) addAlias(c.title, `/characters/${c.id}`)
 for (const ev of eventArticles) addAlias(ev.title, `/events/${ev.id}`)
 for (const b of books) addAlias(b.title, `/books/${b.id}`)
+// Game titles, except "Metro 2033" which collides with the novel (books win).
+for (const g of games) if (g.id !== 'metro-2033') addAlias(g.title, `/games/${g.id}`)
 for (const loc of locations) {
   const href = `/locations/${loc.id}`
   addAlias(loc.title, href)
@@ -60,13 +74,17 @@ function resolveByText(text) {
 }
 
 export function linkify(html) {
-  return html.replace(
+  const internal = html.replace(
     /<a href="https:\/\/metrovideogame\.fandom\.com\/wiki\/([^"]*)"([^>]*)>([^<]+)<\/a>/g,
     (match, slug, attrs, text) => {
       const bySlug = slugToHref[decodeURIComponent(slug)]
       const href = bySlug || resolveByText(text)
       return href ? `<a href="${href}" data-internal>${text}</a>` : match
     },
+  )
+  // Remaining external links open in a new tab so users never leave the SPA.
+  return internal.replace(/<a (?![^>]*data-internal)href="https?:\/\/[^>]*>/g, (tag) =>
+    /target=/.test(tag) ? tag : tag.replace(/^<a /, '<a target="_blank" rel="noopener" '),
   )
 }
 

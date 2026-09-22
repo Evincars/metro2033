@@ -37,7 +37,7 @@ onMounted(() => {
             <span v-if="i < crumbs.length - 1" class="crumb-sep" aria-hidden="true">/</span>
           </template>
         </nav>
-        <RouterView />
+        <RouterView :key="route.path" />
       </main>
     </div>
   </div>
