@@ -11,7 +11,7 @@
  */
 
 export const MAP_IMAGE = {
-  url: `${import.meta.env.BASE_URL}metro-map-original.webp`,
+  url: `${import.meta.env.BASE_URL}metro-map-dark.webp`,
   width: 2222,
   height: 2900,
 }
