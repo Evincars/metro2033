@@ -7,6 +7,12 @@ import { logoStyle } from '../../composables/useLogoStyle'
 const emit = defineEmits(['close'])
 const { enabled, volume, playing, blocked, currentTitle, nextTrack } = useAmbientAudio()
 
+const base = import.meta.env.BASE_URL
+const logoOptions = [
+  { id: 'universe', label: 'Universe shield', src: `${base}book-art/logotype_main.png` },
+  { id: 'classic', label: 'Classic wordmark', src: `${base}metro2033-logo.png` },
+]
+
 const volumePercent = (val) => Math.round(val * 100)
 
 function onVolumeInput(event) {
@@ -31,8 +37,6 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
         aria-label="Settings"
       >
         <header class="settings-head">
-          <span class="mx-tag">System</span>
-          <h2 class="settings-title">Settings</h2>
           <button class="settings-close" type="button" aria-label="Close" @click="emit('close')">×</button>
         </header>
 
@@ -88,23 +92,25 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
         <section class="settings-group settings-group--spaced">
           <div class="group-label">Appearance</div>
 
-          <label class="toggle-row">
-            <span class="toggle-text">Classic Metro 2033 logo</span>
+          <div class="logo-picker" role="radiogroup" aria-label="Top bar logo">
             <button
-              class="switch"
+              v-for="opt in logoOptions"
+              :key="opt.id"
+              class="logo-option"
               type="button"
-              role="switch"
-              :aria-checked="logoStyle === 'classic'"
-              :class="{ 'is-on': logoStyle === 'classic' }"
-              @click="logoStyle = logoStyle === 'classic' ? 'universe' : 'classic'"
+              role="radio"
+              :aria-checked="logoStyle === opt.id"
+              :class="{ 'is-active': logoStyle === opt.id }"
+              @click="logoStyle = opt.id"
             >
-              <span class="switch-knob" />
+              <span
+                class="logo-preview"
+                :class="`logo-preview--${opt.id}`"
+                :style="{ backgroundImage: `url('${opt.src}')` }"
+              />
+              <span class="logo-label">{{ opt.label }}</span>
             </button>
-          </label>
-
-          <p class="settings-hint">
-            Off shows the original Universe of Metro 2033 shield.
-          </p>
+          </div>
         </section>
 
         <footer class="settings-foot">
@@ -138,11 +144,9 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
 }
 
 .settings-head {
-  position: relative;
   display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
-  margin-bottom: 1rem;
+  justify-content: flex-end;
+  margin: -0.4rem -0.3rem 0.2rem 0;
 }
 
 .settings-foot {
@@ -160,16 +164,7 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
   color: var(--color-amber);
 }
 
-.settings-title {
-  margin: 0;
-  font-size: 1.15rem;
-  color: var(--color-steel-bright);
-}
-
 .settings-close {
-  position: absolute;
-  top: -0.2rem;
-  right: -0.2rem;
   background: none;
   border: none;
   color: var(--color-text-faint);
@@ -192,6 +187,60 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
   margin-top: 1.1rem;
   padding-top: 0.9rem;
   border-top: 1px solid var(--color-border);
+}
+
+.logo-picker {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.6rem;
+}
+
+.logo-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.6rem 0.5rem 0.5rem;
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-border);
+  border-radius: 2px;
+  cursor: pointer;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.logo-option:hover {
+  border-color: var(--color-border-strong);
+}
+
+.logo-option.is-active {
+  border-color: var(--color-amber);
+  box-shadow: var(--glow-amber);
+}
+
+.logo-preview {
+  display: block;
+  width: 100%;
+  height: 56px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+/* The shield sprite holds two frames — preview only the left one. */
+.logo-preview--universe {
+  width: 75px;
+  background-size: 200% 100%;
+  background-position: left center;
+}
+
+.logo-label {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--color-text-dim);
+}
+
+.logo-option.is-active .logo-label {
+  color: var(--color-amber-bright);
 }
 
 .group-label {

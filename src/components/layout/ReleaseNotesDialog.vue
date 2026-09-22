@@ -17,8 +17,6 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
     <div class="notes-backdrop" @click.self="emit('close')">
       <div class="notes-dialog mx-panel" role="dialog" aria-modal="true" aria-label="Release notes">
         <header class="notes-head">
-          <span class="mx-tag">Field log</span>
-          <h2 class="notes-title">Release notes</h2>
           <span class="version-badge">version {{ APP_VERSION }}</span>
           <button class="notes-close" type="button" aria-label="Close" @click="emit('close')">×</button>
         </header>
@@ -68,31 +66,29 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  align-items: baseline;
+  align-items: center;
   gap: 0.5rem;
   margin-bottom: 1rem;
 }
 
-.notes-title {
-  margin: 0;
-  font-family: var(--font-display);
-  font-size: 1.2rem;
-  color: var(--color-text);
-}
-
 .version-badge {
+  display: inline-flex;
+  align-items: center;
+  height: 1.4rem;
+  line-height: 1;
   font-family: var(--font-mono);
   font-size: 0.75rem;
   color: var(--color-bg);
   background: var(--color-amber);
-  padding: 0.15rem 0.5rem;
+  padding: 0 0.5rem;
   border-radius: 2px;
   box-shadow: var(--glow-amber);
 }
 
 .notes-close {
   position: absolute;
-  top: -0.2rem;
+  top: 50%;
+  transform: translateY(-50%);
   right: -0.2rem;
   background: none;
   border: none;

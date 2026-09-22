@@ -40,7 +40,7 @@ const destinations = [
     </div>
 
     <div class="crossroad">
-      <h2 class="crossroad-title">Where to, stalker?</h2>
+      <h2 class="crossroad-title">Where to, ranger?</h2>
       <div class="grid">
         <RouterLink v-for="d in destinations" :key="d.to" :to="d.to" class="mx-panel card">
           <span class="card-code">{{ d.code }}</span>

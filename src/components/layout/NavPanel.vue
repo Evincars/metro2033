@@ -2,6 +2,7 @@
 import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 import { useRoute } from 'vue-router'
 import { sectionPath } from '../../utils/breadcrumbs'
+import { logoStyle } from '../../composables/useLogoStyle'
 
 defineProps({
   collapsed: {
@@ -128,7 +129,7 @@ onBeforeUnmount(() => {
 
 <template>
   <aside class="nav-panel" :class="{ 'is-collapsed': collapsed, 'is-open': open }">
-    <nav class="nav-list" aria-label="Sections">
+    <nav class="nav-list" :class="{ 'under-shield': logoStyle === 'universe' }" aria-label="Sections">
       <RouterLink
         v-for="item in navItems"
         :key="item.to"
@@ -198,6 +199,11 @@ onBeforeUnmount(() => {
   display: flex;
   flex-direction: column;
   padding: 1rem 0;
+}
+
+/* Leave room for the header's shield logo, which hangs over the menu top. */
+.nav-list.under-shield {
+  padding-top: 2.4rem;
 }
 
 .nav-item {

@@ -96,7 +96,12 @@ const hasLeftMenu = computed(() => !!route.meta.leftMenu)
       :class="{ 'audio-live': audioEnabled && audioPlaying }"
       @click="settingsOpen = true"
     >
-      <span class="gear" aria-hidden="true">⚙</span>
+      <svg class="gear" viewBox="0 0 24 24" aria-hidden="true">
+        <path
+          fill="currentColor"
+          d="M19.14 12.94a7.4 7.4 0 0 0 0-1.88l2.03-1.58a.5.5 0 0 0 .12-.64l-1.92-3.32a.5.5 0 0 0-.6-.22l-2.39.96a7.03 7.03 0 0 0-1.63-.94l-.36-2.54a.5.5 0 0 0-.5-.42h-3.84a.5.5 0 0 0-.5.42l-.36 2.54c-.59.24-1.13.56-1.63.94l-2.39-.96a.5.5 0 0 0-.6.22L2.71 8.84a.5.5 0 0 0 .12.64l2.03 1.58a7.4 7.4 0 0 0 0 1.88l-2.03 1.58a.5.5 0 0 0-.12.64l1.92 3.32c.13.22.39.3.6.22l2.39-.96c.5.38 1.04.7 1.63.94l.36 2.54c.04.24.25.42.5.42h3.84c.25 0 .46-.18.5-.42l.36-2.54c.59-.24 1.13-.56 1.63-.94l2.39.96c.22.08.47 0 .6-.22l1.92-3.32a.5.5 0 0 0-.12-.64l-2.03-1.58ZM12 15.6a3.6 3.6 0 1 1 0-7.2 3.6 3.6 0 0 1 0 7.2Z"
+        />
+      </svg>
       <span class="audio-pip" aria-hidden="true" />
     </button>
 
@@ -207,10 +212,19 @@ const hasLeftMenu = computed(() => !!route.meta.leftMenu)
 }
 
 /* Original shield logo: a two-frame sprite (191×142 each), the right frame is
-   the hover state. */
+   the hover state. It hangs below the header so its bottom edge overlaps the
+   left menu. */
+.brand:has(.brand-shield) {
+  align-self: flex-start;
+  margin-top: 6px;
+  position: relative;
+  z-index: 1;
+}
+
 .brand-shield {
   display: block;
-  height: 52px;
+  height: 92px;
+  filter: drop-shadow(0 6px 10px rgba(0, 0, 0, 0.7));
   aspect-ratio: 191 / 142;
   background-repeat: no-repeat;
   background-size: 200% 100%;
@@ -303,8 +317,10 @@ const hasLeftMenu = computed(() => !!route.meta.leftMenu)
 }
 
 .notes-badge {
+  display: block;
   font-family: var(--font-mono);
-  font-size: 0.7rem;
+  font-size: 0.75rem;
+  line-height: 1;
   letter-spacing: 0.03em;
 }
 
@@ -331,8 +347,9 @@ const hasLeftMenu = computed(() => !!route.meta.leftMenu)
 }
 
 .gear {
-  font-size: 1.05rem;
-  line-height: 1;
+  display: block;
+  width: 18px;
+  height: 18px;
 }
 
 .settings-toggle.audio-live .gear {
@@ -356,6 +373,12 @@ const hasLeftMenu = computed(() => !!route.meta.leftMenu)
 .settings-toggle.audio-live .audio-pip {
   background: var(--color-signal);
   box-shadow: 0 0 6px rgba(134, 209, 106, 0.85);
+}
+
+@media (max-width: 899px) {
+  .brand-shield {
+    height: 70px;
+  }
 }
 
 @media (min-width: 900px) {
