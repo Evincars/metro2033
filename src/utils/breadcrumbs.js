@@ -28,6 +28,8 @@ const SECTION = {
 export function getBreadcrumbs(route) {
   const id = route.params.id
   switch (route.name) {
+    case 'map':
+      return []
     case 'level-detail':
       return [SECTION.levels, { label: levelsById[id]?.title ?? 'Level' }]
     case 'location-detail':

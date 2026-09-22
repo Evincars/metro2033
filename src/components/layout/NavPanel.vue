@@ -8,6 +8,10 @@ defineProps({
     type: Boolean,
     default: false,
   },
+  open: {
+    type: Boolean,
+    default: false,
+  },
 })
 
 const route = useRoute()
@@ -123,7 +127,7 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <aside class="nav-panel" :class="{ 'is-collapsed': collapsed }">
+  <aside class="nav-panel" :class="{ 'is-collapsed': collapsed, 'is-open': open }">
     <nav class="nav-list" aria-label="Sections">
       <RouterLink
         v-for="item in navItems"
@@ -166,22 +170,28 @@ onBeforeUnmount(() => {
 
 <style scoped>
 .nav-panel {
-  position: sticky;
+  position: fixed;
   top: var(--header-height);
+  left: 0;
   height: calc(100vh - var(--header-height));
   width: var(--nav-panel-width);
+  max-width: 82vw;
+  z-index: 1500;
   flex-shrink: 0;
-  display: none;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   background: linear-gradient(180deg, var(--color-panel) 0%, var(--color-bg-alt) 100%);
   border-right: 1px solid var(--color-border);
-  transition: width 0.2s ease;
-  overflow: hidden;
+  box-shadow: 10px 0 28px rgba(0, 0, 0, 0.6);
+  overflow-y: auto;
+  transform: translateX(-100%);
+  transition: transform 0.25s ease;
 }
 
-.nav-panel.is-collapsed {
-  width: var(--nav-panel-width-collapsed);
+/* Mobile: slide the drawer in when opened. */
+.nav-panel.is-open {
+  transform: translateX(0);
 }
 
 .nav-list {
@@ -343,7 +353,17 @@ onBeforeUnmount(() => {
 
 @media (min-width: 900px) {
   .nav-panel {
-    display: flex;
+    position: sticky;
+    max-width: none;
+    z-index: auto;
+    box-shadow: none;
+    overflow: hidden;
+    transform: none;
+    transition: width 0.2s ease;
+  }
+
+  .nav-panel.is-collapsed {
+    width: var(--nav-panel-width-collapsed);
   }
 }
 </style>

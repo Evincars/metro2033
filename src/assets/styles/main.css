@@ -24,10 +24,13 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* Tunnel darkness: the metro tunnel photo, dimmed under a vignette + scanlines */
+/* Tunnel darkness: the metro tunnel photo anchored to the bottom-right corner,
+   the rest of the viewport filled with the dark base colour. A diagonal wash
+   keeps top-left content legible while the tunnel stays visible bottom-right. */
 body {
+  background-color: #05070a;
   background-image:
-    radial-gradient(ellipse at center, rgba(20, 18, 14, 0) 0%, rgba(0, 0, 0, 0.72) 100%),
+    linear-gradient(135deg, rgba(5, 7, 9, 0.93) 0%, rgba(5, 7, 9, 0.6) 46%, rgba(5, 7, 9, 0.22) 100%),
     repeating-linear-gradient(
       to bottom,
       rgba(255, 255, 255, 0.015) 0px,
@@ -35,12 +38,11 @@ body {
       transparent 1px,
       transparent 3px
     ),
-    linear-gradient(rgba(6, 8, 10, 0.86), rgba(4, 6, 8, 0.94)),
     url('/book-art/footer.jpg');
-  background-repeat: no-repeat, repeat, no-repeat, no-repeat;
-  background-position: center, top left, center, center bottom;
-  background-size: cover, auto, cover, cover;
-  background-attachment: fixed;
+  background-repeat: no-repeat, repeat, no-repeat;
+  background-position: center, top left, right bottom;
+  background-size: cover, auto, auto;
+  background-attachment: fixed, scroll, fixed;
 }
 
 h1,

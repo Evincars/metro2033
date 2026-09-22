@@ -5,6 +5,18 @@ const base = import.meta.env.BASE_URL
 const heroBg = `${base}book-art/main_men_1.jpg`
 const leftEdge = `${base}book-art/main_left.jpg`
 const rightEdge = `${base}book-art/main_right.jpg`
+
+const destinations = [
+  { to: '/map', code: '02', icon: '◈', title: 'Metro Map', text: 'A living, zoomable map of the tunnels — every station, line and interchange.' },
+  { to: '/stations', code: '03', icon: '●', title: 'Stations', text: 'Dossiers on the platforms the survivors call home, from VDNKh to Polis.' },
+  { to: '/factions', code: '04', icon: '⚑', title: 'Factions', text: 'Rangers, Hansa, the Red Line, the Reich — who holds each stretch of track.' },
+  { to: '/events', code: '05', icon: '▤', title: 'Events', text: 'A timeline of the Metro universe, from the bombs of 2013 to the world beyond.' },
+  { to: '/levels', code: '06', icon: '◉', title: 'Levels', text: "Walkthrough-grade notes on every chapter of Artyom's journey." },
+  { to: '/locations', code: '07', icon: '⌖', title: 'Locations', text: 'Surface ruins, secret lines and landmarks above and below the city.' },
+  { to: '/characters', code: '08', icon: '☻', title: 'Characters', text: 'The people of the Metro — allies, rivals and legends of the dark.' },
+  { to: '/games', code: '★', icon: '🎮', title: 'Games', text: "4A Games' shooters, from the first tunnels to the open wastes of Exodus." },
+  { to: '/books', code: '★', icon: '📖', title: 'Books', text: "Glukhovsky's novels and the sprawling Universe of Metro 2033." },
+]
 </script>
 
 <template>
@@ -27,31 +39,17 @@ const rightEdge = `${base}book-art/main_right.jpg`
       </div>
     </div>
 
-    <div class="grid">
-      <article class="mx-panel card">
-        <span class="card-code">02</span>
-        <h3>Cartography</h3>
-        <p>
-          A living map of the tunnels — line by line, station by station — charted from
-          survivor reports and Ranger patrol logs.
-        </p>
-      </article>
-      <article class="mx-panel card">
-        <span class="card-code">04</span>
-        <h3>Factions</h3>
-        <p>
-          Rangers, Hansa merchants, Red Line zealots, Reich patrols — know who holds each
-          station before you step off the platform.
-        </p>
-      </article>
-      <article class="mx-panel card">
-        <span class="card-code">05</span>
-        <h3>Events</h3>
-        <p>
-          A timeline of the Metro universe, from the bombs of 2013 to the world beyond —
-          every turning point, year by year.
-        </p>
-      </article>
+    <div class="crossroad">
+      <h2 class="crossroad-title">Where to, stalker?</h2>
+      <div class="grid">
+        <RouterLink v-for="d in destinations" :key="d.to" :to="d.to" class="mx-panel card">
+          <span class="card-code">{{ d.code }}</span>
+          <span class="card-icon" aria-hidden="true">{{ d.icon }}</span>
+          <h3>{{ d.title }}</h3>
+          <p>{{ d.text }}</p>
+          <span class="card-go" aria-hidden="true">Enter →</span>
+        </RouterLink>
+      </div>
     </div>
   </section>
 </template>
@@ -178,6 +176,21 @@ const rightEdge = `${base}book-art/main_right.jpg`
   color: var(--color-amber-bright);
 }
 
+.crossroad {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.crossroad-title {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  color: var(--color-amber-bright);
+  margin: 0.25rem 0 0;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--color-border-strong);
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -186,7 +199,39 @@ const rightEdge = `${base}book-art/main_right.jpg`
 
 .card {
   position: relative;
+  display: block;
   padding: 1.5rem;
+  color: var(--color-text);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.card:hover {
+  border-color: var(--color-amber);
+  box-shadow: var(--glow-amber);
+  transform: translateY(-2px);
+}
+
+.card-icon {
+  display: block;
+  font-size: 1.4rem;
+  color: var(--color-toxic-bright);
+  margin-bottom: 0.4rem;
+}
+
+.card-go {
+  display: inline-block;
+  margin-top: 0.8rem;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-amber);
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+
+.card:hover .card-go {
+  opacity: 1;
 }
 
 .card-code {

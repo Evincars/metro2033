@@ -113,6 +113,8 @@ export const metroLineById = Object.fromEntries(metroLines.map((line) => [String
 export const stationToLocation = {
   alekseevskaya: 'alexeyevskaya',
   kievskaya: 'kievskaya',
+  'kievskaya-2': 'kievskaya',
+  'kievskaya-3': 'kievskaya',
   paveletskaya: 'paveletskaya',
   'paveletskaya-2': 'hole-station',
   sevastopolskaya: 'sevastopolskaya',

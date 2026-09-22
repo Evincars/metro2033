@@ -24,13 +24,25 @@ const base = import.meta.env.BASE_URL
   background-color: #cdb283;
   background-size: cover;
   background-position: center top;
-  color: #2a1f14;
+  color: #241a0e;
   padding: 1.6rem 1.9rem 1.8rem;
   box-shadow: var(--shadow-panel), inset 0 0 60px rgba(60, 40, 18, 0.35);
   font-family: 'Cinzel', 'Times New Roman', serif;
 }
 
+/* Lighten the paper behind the text so the quote stays legible over the
+   torn/darkened areas of the texture. */
+.parchment::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(226, 210, 176, 0.62), rgba(214, 196, 158, 0.72));
+  mix-blend-mode: screen;
+  pointer-events: none;
+}
+
 .parchment-label {
+  position: relative;
   display: inline-block;
   font-family: var(--font-mono);
   font-size: 0.66rem;
@@ -41,9 +53,12 @@ const base = import.meta.env.BASE_URL
 }
 
 .parchment-body {
+  position: relative;
   font-size: 1.02rem;
+  font-weight: 500;
   line-height: 1.7;
-  text-shadow: 0 1px 0 rgba(255, 248, 230, 0.35);
+  color: #241a0e;
+  text-shadow: 0 1px 0 rgba(255, 250, 235, 0.55);
 }
 
 .parchment-body :deep(p) {

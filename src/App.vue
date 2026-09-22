@@ -1,5 +1,5 @@
 <script setup>
-import { computed, onMounted, ref } from 'vue'
+import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import AppHeader from './components/layout/AppHeader.vue'
 import NavPanel from './components/layout/NavPanel.vue'
@@ -7,16 +7,35 @@ import { initAmbientAudio } from './composables/useAmbientAudio'
 import { getBreadcrumbs } from './utils/breadcrumbs'
 
 const route = useRoute()
-const navCollapsed = ref(false)
+const navCollapsed = ref(false) // desktop: collapse the sidebar to icons
+const navOpen = ref(false) // mobile: slide the sidebar in as a drawer
+
+const mobileMql = window.matchMedia('(max-width: 899px)')
+const isMobile = ref(mobileMql.matches)
+function onMqlChange(event) {
+  isMobile.value = event.matches
+  if (!event.matches) navOpen.value = false
+}
+
 function toggleNav() {
-  navCollapsed.value = !navCollapsed.value
+  if (isMobile.value) navOpen.value = !navOpen.value
+  else navCollapsed.value = !navCollapsed.value
 }
 
 const showNav = computed(() => !!route.meta.leftMenu)
 const crumbs = computed(() => getBreadcrumbs(route))
 
+// Close the mobile drawer whenever the route changes.
+watch(() => route.fullPath, () => {
+  navOpen.value = false
+})
+
 onMounted(() => {
   initAmbientAudio()
+  mobileMql.addEventListener('change', onMqlChange)
+})
+onBeforeUnmount(() => {
+  mobileMql.removeEventListener('change', onMqlChange)
 })
 </script>
 
@@ -24,7 +43,8 @@ onMounted(() => {
   <div class="app-shell">
     <AppHeader @toggle-nav="toggleNav" />
     <div class="app-body">
-      <NavPanel v-if="showNav" :collapsed="navCollapsed" />
+      <NavPanel v-if="showNav" :collapsed="navCollapsed" :open="navOpen" />
+      <div v-if="showNav && navOpen" class="nav-backdrop" @click="navOpen = false" />
       <main class="app-main" :class="{ 'is-wide': !showNav }">
         <nav v-if="crumbs.length" class="breadcrumbs" aria-label="Breadcrumb">
           <template v-for="(crumb, i) in crumbs" :key="i">
@@ -53,6 +73,20 @@ onMounted(() => {
 .app-body {
   flex: 1;
   display: flex;
+}
+
+.nav-backdrop {
+  position: fixed;
+  inset: var(--header-height) 0 0 0;
+  background: rgba(2, 3, 5, 0.6);
+  backdrop-filter: blur(1px);
+  z-index: 1400;
+}
+
+@media (min-width: 900px) {
+  .nav-backdrop {
+    display: none;
+  }
 }
 
 .app-main {
