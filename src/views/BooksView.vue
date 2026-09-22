@@ -2,7 +2,7 @@
 import { computed, ref } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { marked } from 'marked'
-import { books, booksById } from '../data/books'
+import { booksById, coreBooks, universeBooks } from '../data/books'
 import { handleInternalClick, linkify } from '../utils/wikiLinks'
 
 const route = useRoute()
@@ -48,8 +48,13 @@ function backToList() {
 
       <article class="mx-panel book-detail">
         <header class="detail-header">
-          <span class="mx-tag">{{ activeBook.year }} · {{ activeBook.author }}</span>
+          <span class="mx-tag">{{ [activeBook.year, activeBook.author].filter(Boolean).join(' · ') }}</span>
           <h1>{{ activeBook.title }}</h1>
+          <p v-if="activeBook.setIn || activeBook.country" class="detail-meta">
+            <span v-if="activeBook.setIn">Set in {{ activeBook.setIn }}</span>
+            <span v-if="activeBook.setIn && activeBook.country"> · </span>
+            <span v-if="activeBook.country">{{ activeBook.country }}</span>
+          </p>
           <p v-if="activeBook.brief" class="detail-brief">{{ activeBook.brief }}</p>
         </header>
 
@@ -93,7 +98,7 @@ function backToList() {
       </header>
 
       <ul class="books-grid">
-        <li v-for="book in books" :key="book.id">
+        <li v-for="book in coreBooks" :key="book.id">
           <button class="book-card" type="button" @click="openBook(book.id)">
             <span class="book-cover-frame">
               <img
@@ -111,6 +116,41 @@ function backToList() {
           </button>
         </li>
       </ul>
+
+      <section v-if="universeBooks.length" class="universe-section">
+        <div class="universe-heading">
+          <h2>Universe of Metro 2033</h2>
+          <div class="ornament-hr small" aria-hidden="true">
+            <span class="ornament-line" />
+            <span class="ornament-mark">✦</span>
+            <span class="ornament-line" />
+          </div>
+          <p>
+            Dozens of shared-world novels by many authors, expanding the ruined world far
+            beyond Moscow.
+          </p>
+        </div>
+
+        <ul class="books-grid universe-grid">
+          <li v-for="book in universeBooks" :key="book.id">
+            <button class="book-card" type="button" @click="openBook(book.id)">
+              <span class="book-cover-frame">
+                <img
+                  v-if="book.image"
+                  class="book-cover"
+                  :src="book.image"
+                  :alt="book.title"
+                  loading="lazy"
+                  referrerpolicy="no-referrer"
+                />
+                <span v-else class="book-cover placeholder" aria-hidden="true">📖</span>
+              </span>
+              <span class="book-caption small">{{ book.title }}</span>
+              <span v-if="book.author" class="book-author">{{ book.author }}</span>
+            </button>
+          </li>
+        </ul>
+      </section>
     </template>
   </section>
 </template>
@@ -266,6 +306,61 @@ function backToList() {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--color-text-faint);
+}
+
+/* ---- Universe section ---- */
+.universe-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+.universe-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.6rem;
+}
+
+.universe-heading h2 {
+  margin: 0;
+  font-family: 'Cinzel', 'Times New Roman', serif;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: clamp(1.2rem, 2.5vw, 1.7rem);
+  color: #ece7dc;
+}
+
+.universe-heading p {
+  margin: 0;
+  max-width: 60ch;
+  font-size: 0.85rem;
+  color: var(--color-text-dim);
+}
+
+.ornament-hr.small {
+  width: min(320px, 70%);
+}
+
+.universe-grid {
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 1.1rem;
+}
+
+.book-caption.small {
+  font-size: 0.9rem;
+  font-style: normal;
+}
+
+.detail-meta {
+  margin: 0 0 0.4rem;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  color: var(--color-steel);
 }
 
 /* ---- detail ---- */

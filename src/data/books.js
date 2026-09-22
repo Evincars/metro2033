@@ -2,7 +2,8 @@ import { parseFrontmatter } from '../utils/frontmatter'
 
 /**
  * Book dossiers from `src/content/books/*.md`. Frontmatter:
- *   id, title, order, author, year, image, brief, wiki.
+ *   id, title, order, category, author, year, setIn, country, image, brief, wiki.
+ * `category` is 'Core' (the trilogy + Universe overview) or 'Universe'.
  * Local `image` paths (not starting with http) are resolved against BASE_URL.
  */
 
@@ -25,8 +26,11 @@ export const books = Object.values(files)
       id: meta.id,
       title: meta.title ?? meta.id,
       order: Number(meta.order ?? 0),
+      category: meta.category || 'Universe',
       author: meta.author || '',
       year: meta.year || '',
+      setIn: meta.setIn || '',
+      country: meta.country || '',
       image: resolveImage(meta.image),
       brief: meta.brief || '',
       wiki: meta.wiki || '',
@@ -37,3 +41,6 @@ export const books = Object.values(files)
   .sort((a, b) => a.order - b.order || a.title.localeCompare(b.title))
 
 export const booksById = Object.fromEntries(books.map((b) => [b.id, b]))
+
+export const coreBooks = books.filter((b) => b.category === 'Core')
+export const universeBooks = books.filter((b) => b.category === 'Universe')
