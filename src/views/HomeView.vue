@@ -1,5 +1,6 @@
 <script setup>
 import { RouterLink } from 'vue-router'
+import DisqusThread from '../components/DisqusThread.vue'
 
 const base = import.meta.env.BASE_URL
 const heroBg = `${base}book-art/main_men_1.jpg`
@@ -51,6 +52,8 @@ const destinations = [
         </RouterLink>
       </div>
     </div>
+
+    <DisqusThread identifier="vdnh-home" title="VDNKh — Metro Universe" />
   </section>
 </template>
 
