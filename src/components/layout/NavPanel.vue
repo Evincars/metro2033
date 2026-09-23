@@ -3,6 +3,7 @@ import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 import { useRoute } from 'vue-router'
 import { sectionPath } from '../../utils/breadcrumbs'
 import { logoStyle } from '../../composables/useLogoStyle'
+import { t } from '../../i18n'
 
 const props = defineProps({
   collapsed: {
@@ -33,14 +34,14 @@ function hideTip() {
 const activeSection = computed(() => sectionPath(route))
 
 const navItems = [
-  { to: '/', label: 'VDNH', code: '01', icon: '★' },
-  { to: '/map', label: 'Metro Map', code: '02', icon: '◈' },
-  { to: '/stations', label: 'Stations', code: '03', icon: '●' },
-  { to: '/factions', label: 'Factions', code: '04', icon: '⚑' },
-  { to: '/events', label: 'Events', code: '05', icon: '▤' },
-  { to: '/levels', label: 'Levels', code: '06', icon: '◉' },
-  { to: '/locations', label: 'Locations', code: '07', icon: '⌖' },
-  { to: '/characters', label: 'Characters', code: '08', icon: '☻' },
+  { to: '/', labelKey: 'nav.vdnh', code: '01', icon: '★' },
+  { to: '/map', labelKey: 'nav.metroMap', code: '02', icon: '◈' },
+  { to: '/stations', labelKey: 'nav.stations', code: '03', icon: '●' },
+  { to: '/factions', labelKey: 'nav.factions', code: '04', icon: '⚑' },
+  { to: '/events', labelKey: 'nav.events', code: '05', icon: '▤' },
+  { to: '/levels', labelKey: 'nav.levels', code: '06', icon: '◉' },
+  { to: '/locations', labelKey: 'nav.locations', code: '07', icon: '⌖' },
+  { to: '/characters', labelKey: 'nav.characters', code: '08', icon: '☻' },
 ]
 
 /* ---- live gas-mask HUD: signal strength + radiation meter ---- */
@@ -58,11 +59,11 @@ let radTimer = null
 
 const signalLabel = computed(() => {
   const b = signalBars.value
-  if (b <= 0) return 'lost'
-  if (b === 1) return 'faint'
-  if (b === 2) return 'weak'
-  if (b === 3) return 'stable'
-  return 'strong'
+  if (b <= 0) return t('status.lost')
+  if (b === 1) return t('status.faint')
+  if (b === 2) return t('status.weak')
+  if (b === 3) return t('status.stable')
+  return t('status.strong')
 })
 
 const radLevel = computed(() => {
@@ -79,13 +80,13 @@ const maskOn = computed(() => radLevel.value !== 'nominal')
 const radStatus = computed(() => {
   switch (radLevel.value) {
     case 'elevated':
-      return 'Mask needed'
+      return t('status.maskNeeded')
     case 'high':
-      return 'Immediate effects'
+      return t('status.immediateEffects')
     case 'critical':
-      return 'Acute radiation sickness'
+      return t('status.acuteRadiation')
     case 'lethal':
-      return 'Lethal dose'
+      return t('status.lethalDose')
     default:
       return ''
   }
@@ -148,8 +149,8 @@ onBeforeUnmount(() => {
         :to="item.to"
         class="nav-item"
         :class="{ 'is-active': activeSection === item.to }"
-        :aria-label="collapsed ? item.label : undefined"
-        @mouseenter="showTip($event, item.label)"
+        :aria-label="collapsed ? t(item.labelKey) : undefined"
+        @mouseenter="showTip($event, t(item.labelKey))"
         @mouseleave="hideTip"
         @focus="showTip($event, item.label)"
         @blur="hideTip"
@@ -157,25 +158,25 @@ onBeforeUnmount(() => {
       >
         <span class="nav-code">{{ item.code }}</span>
         <span class="nav-icon">{{ item.icon }}</span>
-        <span class="nav-label">{{ item.label }}</span>
+        <span class="nav-label">{{ t(item.labelKey) }}</span>
       </RouterLink>
     </nav>
 
     <div class="nav-status">
       <div
         class="status-row"
-        @mouseenter="showTip($event, `Signal: ${signalLabel}`)"
+        @mouseenter="showTip($event, `${t('status.signal')}: ${signalLabel}`)"
         @mouseleave="hideTip"
       >
         <span class="status-ico signal-ico" :data-bars="signalBars" aria-hidden="true">
           <i /><i /><i /><i />
         </span>
-        <span class="nav-label status-text">Signal: {{ signalLabel }}</span>
+        <span class="nav-label status-text">{{ t('status.signal') }}: {{ signalLabel }}</span>
       </div>
 
       <div
         class="status-row"
-        @mouseenter="showTip($event, `Rad: ${radDisplay}${radStatus ? ` — ${radStatus}` : ''}`)"
+        @mouseenter="showTip($event, `${t('status.rad')}: ${radDisplay}${radStatus ? ` — ${radStatus}` : ''}`)"
         @mouseleave="hideTip"
       >
         <span class="status-ico rad-ico" :class="`rad-${radLevel}`" aria-hidden="true">
@@ -187,7 +188,7 @@ onBeforeUnmount(() => {
           </svg>
         </span>
         <span class="nav-label status-text" :class="{ 'is-danger': maskOn }">
-          Rad: {{ radDisplay }}<template v-if="radStatus"> — {{ radStatus }}</template>
+          {{ t('status.rad') }}: {{ radDisplay }}<template v-if="radStatus"> — {{ radStatus }}</template>
         </span>
       </div>
     </div>

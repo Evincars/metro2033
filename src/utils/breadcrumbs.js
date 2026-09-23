@@ -5,20 +5,20 @@ import { charactersById } from '../data/characters'
 import { eventArticlesById } from '../data/eventArticles'
 import { booksById } from '../data/books'
 import { gamesById } from '../data/games'
+import { t } from '../i18n'
 
-// The left-menu section each route belongs to (label + list route).
 const SECTION = {
-  vdnh: { label: 'VDNH', to: '/' },
-  map: { label: 'Metro Map', to: '/map' },
-  stations: { label: 'Stations', to: '/stations' },
-  factions: { label: 'Factions', to: '/factions' },
-  events: { label: 'Events', to: '/events' },
-  levels: { label: 'Levels', to: '/levels' },
-  locations: { label: 'Locations', to: '/locations' },
-  characters: { label: 'Characters', to: '/characters' },
-  games: { label: 'Games', to: '/games' },
-  books: { label: 'Books', to: '/books' },
-  about: { label: 'About', to: '/about' },
+  vdnh: { label: t('nav.vdnh'), to: '/' },
+  map: { label: t('nav.metroMap'), to: '/map' },
+  stations: { label: t('nav.stations'), to: '/stations' },
+  factions: { label: t('nav.factions'), to: '/factions' },
+  events: { label: t('nav.events'), to: '/events' },
+  levels: { label: t('nav.levels'), to: '/levels' },
+  locations: { label: t('nav.locations'), to: '/locations' },
+  characters: { label: t('nav.characters'), to: '/characters' },
+  games: { label: t('nav.games'), to: '/games' },
+  books: { label: t('nav.books'), to: '/books' },
+  about: { label: t('nav.about'), to: '/about' },
 }
 
 /**
@@ -31,21 +31,21 @@ export function getBreadcrumbs(route) {
     case 'map':
       return []
     case 'level-detail':
-      return [SECTION.levels, { label: levelsById[id]?.title ?? 'Level' }]
+      return [SECTION.levels, { label: levelsById[id]?.title ?? t('breadcrumb.level') }]
     case 'location-detail':
-      return [SECTION.locations, { label: locationsById[id]?.title ?? 'Location' }]
+      return [SECTION.locations, { label: locationsById[id]?.title ?? t('breadcrumb.location') }]
     case 'metro-line':
-      return [SECTION.locations, { label: metroLineById[String(id)]?.label ?? 'Metro line' }]
+      return [SECTION.locations, { label: metroLineById[String(id)]?.label ?? t('breadcrumb.metroLine') }]
     case 'faction-detail':
-      return [SECTION.factions, { label: factionsById[id]?.title ?? 'Faction' }]
+      return [SECTION.factions, { label: factionsById[id]?.title ?? t('breadcrumb.faction') }]
     case 'character-detail':
-      return [SECTION.characters, { label: charactersById[id]?.title ?? 'Character' }]
+      return [SECTION.characters, { label: charactersById[id]?.title ?? t('breadcrumb.character') }]
     case 'event-detail':
-      return [SECTION.events, { label: eventArticlesById[id]?.title ?? 'Event' }]
+      return [SECTION.events, { label: eventArticlesById[id]?.title ?? t('breadcrumb.event') }]
     case 'book-detail':
-      return [SECTION.books, { label: booksById[id]?.title ?? 'Book' }]
+      return [SECTION.books, { label: booksById[id]?.title ?? t('breadcrumb.book') }]
     case 'game-detail':
-      return [SECTION.games, { label: gamesById[id]?.title ?? 'Game' }]
+      return [SECTION.games, { label: gamesById[id]?.title ?? t('breadcrumb.game') }]
     default:
       return SECTION[route.name] ? [SECTION[route.name]] : []
   }

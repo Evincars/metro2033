@@ -1,15 +1,11 @@
 import { parseFrontmatter } from '../utils/frontmatter'
+import { resolveFiles } from '../i18n/content'
 
-/**
- * Timeline eras loaded from `src/content/events/*.md`. Frontmatter:
- *   id, year (display label), order, label (short caption).
- */
+const enFiles = import.meta.glob('../content/events/*.md', { query: '?raw', import: 'default', eager: true })
+const ruFiles = import.meta.glob('../content/ru/events/*.md', { query: '?raw', import: 'default', eager: true })
+const ukFiles = import.meta.glob('../content/uk/events/*.md', { query: '?raw', import: 'default', eager: true })
 
-const files = import.meta.glob('../content/events/*.md', {
-  query: '?raw',
-  import: 'default',
-  eager: true,
-})
+const files = resolveFiles(enFiles, ruFiles, ukFiles)
 
 export const events = Object.values(files)
   .map((raw) => {

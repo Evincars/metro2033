@@ -1,33 +1,35 @@
 <script setup>
+import { t } from '../i18n'
+
 const REPO = 'https://github.com/Evincars/metro2033'
 
 const author = {
   name: 'Dmitry Glukhovsky',
-  role: 'Author of the Metro universe',
-  text: 'The man who sent humanity underground. His novels Metro 2033, 2034 and 2035 built the whole world — the stations, the factions, the fear in the tunnels — that everything here grew from.',
+  role: t('about.authorRole'),
+  text: t('about.authorText'),
   href: 'https://www.glukhovsky.com/books',
-  cta: 'His books',
+  cta: t('about.authorCta'),
 }
 
 const credits = [
   {
     name: '4A Games',
-    role: 'Game studio',
-    text: 'The incredible studio that turned the novels into the games — and gave the Metro its sound, its light and its unforgettable atmosphere.',
+    role: t('about.studioRole'),
+    text: t('about.studioText'),
     href: 'https://www.4a-games.com.mt/',
     cta: '4a-games.com.mt',
   },
   {
     name: 'Metro Wiki',
-    role: 'Fandom community',
-    text: 'The people behind nearly all the texts and photos in these archives. An amazing, meticulous site — go and give them a visit.',
+    role: t('about.wikiRole'),
+    text: t('about.wikiText'),
     href: 'https://metrovideogame.fandom.com/wiki/Metro_Wiki',
     cta: 'metrovideogame.fandom.com',
   },
   {
     name: 'Me',
-    role: 'Creator of this terminal',
-    text: 'I built and maintain this fan project. More about me and my other work on my site.',
+    role: t('about.creatorRole'),
+    text: t('about.creatorText'),
     href: 'https://lasak.netlify.app/',
     cta: 'lasak.netlify.app',
   },
@@ -37,22 +39,12 @@ const credits = [
 <template>
   <section class="about-view">
     <header class="mx-panel view-header">
-      <span class="mx-tag">Dossier</span>
-      <h1>About</h1>
+      <span class="mx-tag">{{ t('about.tag') }}</span>
+      <h1>{{ t('about.title') }}</h1>
       <div class="intro">
-        <p>
-          I first went down into the Metro back in 2010, and it was simply awesome. Its dark,
-          heavy atmosphere is unlike anything else — and I have loved it ever since.
-        </p>
-        <p>
-          The Metro has also helped me through hard times in my personal life. Building this
-          place is, in a way, my therapy — and my way of giving something back to the
-          community that has given me so much.
-        </p>
-        <p>
-          This is an unofficial, fan-made companion to the Metro 2033 universe. None of it
-          would have been possible without the people below.
-        </p>
+        <p>{{ t('about.intro1') }}</p>
+        <p>{{ t('about.intro2') }}</p>
+        <p>{{ t('about.intro3') }}</p>
       </div>
     </header>
 
@@ -82,7 +74,7 @@ const credits = [
     </section>
 
     <div class="mx-panel stack-panel">
-      <h2>Stack &amp; contributing</h2>
+      <h2>{{ t('about.stackTitle') }}</h2>
       <ul>
         <li>Vue 3 + Vite</li>
         <li>Vue Router 4</li>
@@ -90,15 +82,11 @@ const credits = [
         <li>Marked (markdown dossiers)</li>
         <li>Firebase Hosting, Disqus comments</li>
       </ul>
-      <p class="contribute">
-        The whole project is open source and anybody can contribute — fix a typo, add a
-        dossier, improve the map. Open a pull request, or if something is broken, raise a
-        bug in the issues.
-      </p>
+      <p class="contribute">{{ t('about.contribute') }}</p>
       <div class="repo-links">
-        <a class="btn btn-primary" :href="REPO" target="_blank" rel="noopener">GitHub repository ↗</a>
-        <a class="btn btn-ghost" :href="`${REPO}/pulls`" target="_blank" rel="noopener">Create a PR ↗</a>
-        <a class="btn btn-ghost" :href="`${REPO}/issues/new`" target="_blank" rel="noopener">Report a bug ↗</a>
+        <a class="btn btn-primary" :href="REPO" target="_blank" rel="noopener">{{ t('about.githubRepo') }}</a>
+        <a class="btn btn-ghost" :href="`${REPO}/pulls`" target="_blank" rel="noopener">{{ t('about.createPr') }}</a>
+        <a class="btn btn-ghost" :href="`${REPO}/issues/new`" target="_blank" rel="noopener">{{ t('about.reportBug') }}</a>
       </div>
     </div>
   </section>

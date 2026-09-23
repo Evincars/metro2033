@@ -1,15 +1,11 @@
 import { parseFrontmatter } from '../utils/frontmatter'
+import { resolveFiles } from '../i18n/content'
 
-/**
- * Faction dossiers loaded from `src/content/factions/*.md`. Frontmatter:
- *   id, title, order, tag (short territory/label), image, brief.
- */
+const enFiles = import.meta.glob('../content/factions/*.md', { query: '?raw', import: 'default', eager: true })
+const ruFiles = import.meta.glob('../content/ru/factions/*.md', { query: '?raw', import: 'default', eager: true })
+const ukFiles = import.meta.glob('../content/uk/factions/*.md', { query: '?raw', import: 'default', eager: true })
 
-const files = import.meta.glob('../content/factions/*.md', {
-  query: '?raw',
-  import: 'default',
-  eager: true,
-})
+const files = resolveFiles(enFiles, ruFiles, ukFiles)
 
 export const factions = Object.values(files)
   .map((raw) => {

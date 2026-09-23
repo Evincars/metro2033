@@ -5,6 +5,7 @@ import { marked } from 'marked'
 import { booksById, coreBooks, universeBooks } from '../data/books'
 import { handleInternalClick, linkify } from '../utils/wikiLinks'
 import ParchmentNote from '../components/ParchmentNote.vue'
+import { t } from '../i18n'
 
 const route = useRoute()
 const router = useRouter()
@@ -46,14 +47,14 @@ function backToList() {
   <section class="books-view">
     <!-- Detail -->
     <template v-if="activeBook">
-      <button class="back-link" type="button" @click="backToList">← All books</button>
+      <button class="back-link" type="button" @click="backToList">{{ t('books.backToList') }}</button>
 
       <article class="mx-panel book-detail">
         <header class="detail-header">
           <span class="mx-tag">{{ [activeBook.year, activeBook.author].filter(Boolean).join(' · ') }}</span>
           <h1>{{ activeBook.title }}</h1>
           <p v-if="activeBook.setIn || activeBook.country" class="detail-meta">
-            <span v-if="activeBook.setIn">Set in {{ activeBook.setIn }}</span>
+            <span v-if="activeBook.setIn">{{ t('books.setIn') }} {{ activeBook.setIn }}</span>
             <span v-if="activeBook.setIn && activeBook.country"> · </span>
             <span v-if="activeBook.country">{{ activeBook.country }}</span>
           </p>
@@ -78,7 +79,7 @@ function backToList() {
           :href="`https://metrovideogame.fandom.com/wiki/${activeBook.wiki}`"
           target="_blank"
           rel="noopener"
-        >Read the full article on Fandom ↗</a>
+        >{{ t('books.fandomLink') }}</a>
       </article>
     </template>
 
@@ -87,27 +88,23 @@ function backToList() {
       <header class="books-hero" :style="{ backgroundImage: `url('${bgUrl}')` }">
         <div class="books-hero-inner">
           <img class="books-emblem" :src="bookIcon" alt="" aria-hidden="true" />
-          <h1 class="books-title">Metro Books</h1>
+          <h1 class="books-title">{{ t('books.heroTitle') }}</h1>
           <div class="ornament-hr" aria-hidden="true">
             <span class="ornament-line" />
             <span class="ornament-mark">✦</span>
             <span class="ornament-line" />
           </div>
           <p class="books-subtitle">
-            Dmitry Glukhovsky's novels and the wider Universe of Metro 2033 — the source
-            material the tunnels were built from.
+            {{ t('books.subtitle') }}
           </p>
         </div>
       </header>
 
-      <ParchmentNote label="From the archive">
+      <ParchmentNote :label="t('books.parchmentLabel')">
         <p>
-          “Life was tough in the Metro. Everyone lived in constant fear — of the mutants
-          gnawing at the tunnels, of the dark that pressed against the last electric lights,
-          of the neighbours across the platform. And yet the survivors read, and wrote, and
-          remembered — because a story was the one thing the radiation could not touch.”
+          {{ t('books.parchmentQuote') }}
         </p>
-        <cite>— Recovered notebook, VDNKh</cite>
+        <cite>{{ t('books.parchmentCite') }}</cite>
       </ParchmentNote>
 
       <ul class="books-grid">
@@ -132,15 +129,14 @@ function backToList() {
 
       <section v-if="universeBooks.length" class="universe-section">
         <div class="universe-heading">
-          <h2>Universe of Metro 2033</h2>
+          <h2>{{ t('books.universeTitle') }}</h2>
           <div class="ornament-hr small" aria-hidden="true">
             <span class="ornament-line" />
             <span class="ornament-mark">✦</span>
             <span class="ornament-line" />
           </div>
           <p>
-            Dozens of shared-world novels by many authors, expanding the ruined world far
-            beyond Moscow.
+            {{ t('books.universeDesc') }}
           </p>
         </div>
 

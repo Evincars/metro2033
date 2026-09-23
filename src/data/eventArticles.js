@@ -1,16 +1,11 @@
 import { parseFrontmatter } from '../utils/frontmatter'
+import { resolveFiles } from '../i18n/content'
 
-/**
- * Named event articles (Battle for D6, World War III, …) from
- * `src/content/event-articles/*.md`. These are distinct from the year-by-year
- * timeline eras in `events.js`. Frontmatter: id, title, order, image, brief, wiki.
- */
+const enFiles = import.meta.glob('../content/event-articles/*.md', { query: '?raw', import: 'default', eager: true })
+const ruFiles = import.meta.glob('../content/ru/event-articles/*.md', { query: '?raw', import: 'default', eager: true })
+const ukFiles = import.meta.glob('../content/uk/event-articles/*.md', { query: '?raw', import: 'default', eager: true })
 
-const files = import.meta.glob('../content/event-articles/*.md', {
-  query: '?raw',
-  import: 'default',
-  eager: true,
-})
+const files = resolveFiles(enFiles, ruFiles, ukFiles)
 
 export const eventArticles = Object.values(files)
   .map((raw) => {

@@ -5,12 +5,13 @@ import { marked } from 'marked'
 import { factions, factionsById } from '../data/factions'
 import { fuzzyMatch } from '../utils/search'
 import { handleInternalClick, linkify } from '../utils/wikiLinks'
+import { t } from '../i18n'
 
 const route = useRoute()
 const router = useRouter()
 marked.setOptions({ breaks: false, gfm: true })
 
-const CATEGORY_LABELS = { Major: 'Major factions', Minor: 'Minor factions', Other: 'Other groups' }
+const CATEGORY_LABELS = { Major: t('factions.catMajor'), Minor: t('factions.catMinor'), Other: t('factions.catOther') }
 
 const activeId = computed(() => route.params.id ?? '')
 const activeFaction = computed(() => (activeId.value ? factionsById[activeId.value] : null))
@@ -73,7 +74,7 @@ function backToList() {
   <section class="factions-view">
     <!-- Detail -->
     <template v-if="activeFaction">
-      <button class="back-link" type="button" @click="backToList">← All factions</button>
+      <button class="back-link" type="button" @click="backToList">{{ t('factions.backToList') }}</button>
 
       <article class="mx-panel faction-detail">
         <header class="detail-header">
@@ -100,18 +101,17 @@ function backToList() {
           :href="`https://metrovideogame.fandom.com/wiki/${activeFaction.wiki}`"
           target="_blank"
           rel="noopener"
-        >Read the full article on Fandom ↗</a>
+        >{{ t('factions.fandomLink') }}</a>
       </article>
     </template>
 
     <!-- List -->
     <template v-else>
       <header class="mx-panel view-header">
-        <span class="mx-tag">Faction dossier</span>
-        <h1>Factions</h1>
+        <span class="mx-tag">{{ t('factions.tag') }}</span>
+        <h1>{{ t('factions.title') }}</h1>
         <p>
-          The powers that carved up the tunnels — from the great blocs of Hanza, the Red Line and
-          the Reich to the cults and outposts between them. Select a faction for the full dossier.
+          {{ t('factions.description') }}
         </p>
       </header>
 
@@ -121,7 +121,7 @@ function backToList() {
           v-model="search"
           type="search"
           class="search-input"
-          placeholder="Filter factions…  (press / to focus)"
+          :placeholder="t('factions.searchPlaceholder')"
           aria-label="Filter factions"
         />
       </div>
@@ -152,8 +152,8 @@ function backToList() {
 
       <div v-if="!grouped.length" class="mx-panel empty-state">
         <span class="empty-icon">⚑</span>
-        <h2>No matches</h2>
-        <p>No faction matches “{{ search }}”.</p>
+        <h2>{{ t('factions.noMatches') }}</h2>
+        <p>{{ t('factions.noMatchesText') }} “{{ search }}”.</p>
       </div>
     </template>
   </section>

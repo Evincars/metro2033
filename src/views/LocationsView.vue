@@ -2,6 +2,7 @@
 import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { marked } from 'marked'
+import { t } from '../i18n'
 import { LOCATION_CATEGORIES, locations, locationsById, metroLines } from '../data/locations'
 import { locationGallery } from '../data/locationGallery'
 import { fuzzyMatch } from '../utils/search'
@@ -104,11 +105,11 @@ function backToList() {
   <section class="locations-view">
     <!-- Detail -->
     <template v-if="activeLocation">
-      <button class="back-link" type="button" @click="backToList">← All locations</button>
+      <button class="back-link" type="button" @click="backToList">{{ t('locations.backToList') }}</button>
 
       <article class="mx-panel location-detail">
         <header class="detail-header">
-          <span class="mx-tag">{{ activeLocation.category }} location</span>
+          <span class="mx-tag">{{ activeLocation.category }} {{ t('locations.locationSuffix') }}</span>
           <h1>{{ activeLocation.title }}</h1>
           <p v-if="activeLocation.brief" class="detail-brief">{{ activeLocation.brief }}</p>
         </header>
@@ -126,7 +127,7 @@ function backToList() {
         <div class="markdown-body" v-html="renderedBody" @click="onBodyClick" />
 
         <section v-if="gallery.length" class="gallery">
-          <h2 class="gallery-title">Gallery</h2>
+          <h2 class="gallery-title">{{ t('locations.gallery') }}</h2>
           <div class="thumbs">
             <button
               v-for="(src, i) in gallery"
@@ -152,7 +153,7 @@ function backToList() {
           :href="`https://metrovideogame.fandom.com/wiki/${activeLocation.wiki}`"
           target="_blank"
           rel="noopener"
-        >Read the full article on Fandom ↗</a>
+        >{{ t('locations.fandomLink') }}</a>
       </article>
 
       <Teleport to="body">
@@ -174,14 +175,10 @@ function backToList() {
     <!-- List -->
     <template v-else>
       <header class="mx-panel view-header">
-        <span class="mx-tag">Cartography</span>
-        <h1>Locations</h1>
-        <p>
-          The stations, outposts and landmarks of post-apocalyptic Moscow, plus the twelve lines of
-          the Moscow Metro. Open a line to see its stations — those featured in the games link to
-          their dossier.
-        </p>
-        <RouterLink to="/map" class="map-cta">◈ Open the Metro Map</RouterLink>
+        <span class="mx-tag">{{ t('locations.tag') }}</span>
+        <h1>{{ t('locations.title') }}</h1>
+        <p>{{ t('locations.description') }}</p>
+        <RouterLink to="/map" class="map-cta">{{ t('locations.openMap') }}</RouterLink>
       </header>
 
       <div class="mx-panel toolbar">
@@ -190,13 +187,13 @@ function backToList() {
           v-model="search"
           type="search"
           class="search-input"
-          placeholder="Filter locations & lines…  (press / to focus)"
+          :placeholder="t('locations.searchPlaceholder')"
           aria-label="Filter locations"
         />
       </div>
 
       <div v-for="group in groupedLocations" :key="group.category" class="cat-block">
-        <h2 class="cat-title">{{ group.category }} locations</h2>
+        <h2 class="cat-title">{{ group.category }} {{ t('locations.locationsSuffix') }}</h2>
         <ul class="loc-grid">
           <li v-for="loc in group.items" :key="loc.id">
             <button class="loc-card mx-panel" type="button" @click="openLocation(loc.id)">
@@ -208,14 +205,14 @@ function backToList() {
       </div>
 
       <div v-if="filteredLines.length" class="cat-block">
-        <h2 class="cat-title">Moscow Metro — lines</h2>
+        <h2 class="cat-title">{{ t('locations.metroLines') }}</h2>
         <ul class="line-grid">
           <li v-for="line in filteredLines" :key="line.id">
             <button class="line-card mx-panel" type="button" @click="openLine(line.id)">
               <span class="line-dot" :style="{ backgroundColor: line.color }" />
               <span class="line-meta">
                 <span class="line-name">{{ line.label }}</span>
-                <span class="line-count">{{ line.stations.length }} stations</span>
+                <span class="line-count">{{ t('locations.stationsTpl').replace('{count}', line.stations.length) }}</span>
               </span>
             </button>
           </li>
@@ -224,8 +221,8 @@ function backToList() {
 
       <div v-if="!groupedLocations.length && !filteredLines.length" class="mx-panel empty-state">
         <span class="empty-icon">⌖</span>
-        <h2>No matches</h2>
-        <p>No location or line matches “{{ search }}”.</p>
+        <h2>{{ t('locations.noMatches') }}</h2>
+        <p>{{ t('locations.noMatchesText') }} “{{ search }}”.</p>
       </div>
     </template>
   </section>

@@ -1,18 +1,11 @@
 import { parseFrontmatter } from '../utils/frontmatter'
+import { resolveFiles } from '../i18n/content'
 
-/**
- * Game dossiers from `src/content/games/*.md`. Frontmatter:
- *   id, title, order, developer, publisher, year, released, genre, platforms,
- *   image, brief, wiki.
- * Local `image` paths (not starting with http) are resolved against BASE_URL.
- * In-body images use absolute `/game-art/...` paths.
- */
+const enFiles = import.meta.glob('../content/games/*.md', { query: '?raw', import: 'default', eager: true })
+const ruFiles = import.meta.glob('../content/ru/games/*.md', { query: '?raw', import: 'default', eager: true })
+const ukFiles = import.meta.glob('../content/uk/games/*.md', { query: '?raw', import: 'default', eager: true })
 
-const files = import.meta.glob('../content/games/*.md', {
-  query: '?raw',
-  import: 'default',
-  eager: true,
-})
+const files = resolveFiles(enFiles, ruFiles, ukFiles)
 
 function resolveImage(src) {
   if (!src) return ''

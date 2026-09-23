@@ -5,6 +5,7 @@ import { stations } from '../data/stations'
 import { lines, stationLines } from '../data/stationLines'
 import { stationToLevel } from '../data/journey'
 import { fuzzyMatch } from '../utils/search'
+import { t } from '../i18n'
 
 const router = useRouter()
 
@@ -62,14 +63,10 @@ function openStation(row) {
 <template>
   <section class="stations-view">
     <header class="mx-panel view-header">
-      <span class="mx-tag">Station registry</span>
-      <h1>Stations</h1>
-      <p>
-        {{ rows.length }} stations of the Moscow Metro. {{ inGameCount }} appear in the games —
-        toggle the filters below or type to search. Stations featured in a level link to their
-        dossier.
-      </p>
-      <RouterLink to="/map" class="map-cta">◈ Open the Metro Map</RouterLink>
+      <span class="mx-tag">{{ t('stations.tag') }}</span>
+      <h1>{{ t('stations.title') }}</h1>
+      <p>{{ t('stations.descriptionTpl').replace('{total}', rows.length).replace('{inGame}', inGameCount) }}</p>
+      <RouterLink to="/map" class="map-cta">{{ t('stations.openMap') }}</RouterLink>
     </header>
 
     <div class="mx-panel toolbar">
@@ -78,26 +75,26 @@ function openStation(row) {
         v-model="search"
         type="search"
         class="search-input"
-        placeholder="Search stations…  (press / to focus)"
+        :placeholder="t('stations.searchPlaceholder')"
         aria-label="Search stations"
       />
 
       <div class="filter-group" aria-label="In-game filter">
         <button type="button" class="chip" :class="{ 'is-active': mention === 'all' }" @click="mention = 'all'">
-          All
+          {{ t('stations.all') }}
         </button>
         <button type="button" class="chip" :class="{ 'is-active': mention === 'in' }" @click="mention = 'in'">
-          In the games
+          {{ t('stations.inTheGames') }}
         </button>
         <button type="button" class="chip" :class="{ 'is-active': mention === 'out' }" @click="mention = 'out'">
-          Not featured
+          {{ t('stations.notFeatured') }}
         </button>
       </div>
     </div>
 
     <div class="mx-panel line-bar">
       <button type="button" class="chip" :class="{ 'is-active': activeLine === 'all' }" @click="activeLine = 'all'">
-        All lines
+        {{ t('stations.allLines') }}
       </button>
       <button
         v-for="line in lineChips"
@@ -126,15 +123,15 @@ function openStation(row) {
             :title="lineById[row.line]?.label ?? 'Unknown line'"
           />
           <span class="station-name">{{ row.name }}</span>
-          <span v-if="row.inGame" class="station-tag">In game →</span>
+          <span v-if="row.inGame" class="station-tag">{{ t('stations.inGame') }}</span>
         </component>
       </li>
     </ul>
 
     <div v-else class="mx-panel empty-state">
       <span class="empty-icon">●</span>
-      <h2>No stations match</h2>
-      <p>Try a different search term or clear the filters.</p>
+      <h2>{{ t('stations.noMatch') }}</h2>
+      <p>{{ t('stations.noMatchHint') }}</p>
     </div>
   </section>
 </template>

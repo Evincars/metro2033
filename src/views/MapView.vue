@@ -3,6 +3,7 @@ import { computed, nextTick, onBeforeUnmount, onMounted, ref, shallowRef, watch 
 import { useRouter } from 'vue-router'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
+import { t } from '../i18n'
 import { MAP_IMAGE, STATION_RADIUS, stations } from '../data/stations'
 import { journeys, stationToLevel } from '../data/journey'
 import { levelsById } from '../data/levels'
@@ -20,8 +21,8 @@ const tooltipImageBroken = ref(false)
 // Journey path toggles.
 const showJourney = ref({ 'metro-2033': false, 'last-light': false })
 const JOURNEY_STYLE = {
-  'metro-2033': { color: '#e8952a', label: 'Metro 2033 — Artyom\u2019s journey' },
-  'last-light': { color: '#4fb0d6', label: 'Last Light — Artyom\u2019s journey' },
+  'metro-2033': { color: '#e8952a', label: t('map.journey2033') },
+  'last-light': { color: '#4fb0d6', label: t('map.journeyLL') },
 }
 
 let map = null
@@ -85,7 +86,7 @@ async function selectStation(station) {
   tooltipImageBroken.value = false
   selected.value = {
     name: entry ? entry.title : station.name,
-    subtitle: level ? station.name : location ? `${station.name} · location` : 'Station dossier',
+    subtitle: level ? station.name : location ? `${station.name} · ${t('map.locationSuffix')}` : t('map.stationDossier'),
     brief: entry?.brief ?? '',
     image: entry?.image ?? '',
     detailName: level ? 'level-detail' : location ? 'location-detail' : null,
@@ -271,18 +272,18 @@ onBeforeUnmount(() => {
           @load="updateTooltipPosition"
         />
         <p class="tooltip-body">
-          {{ selected.brief || 'No level dossier is linked to this station yet.' }}
+          {{ selected.brief || t('map.noDossier') }}
         </p>
         <a
           v-if="selected.detailName"
           class="tooltip-link"
           href="#"
           @click.prevent="openDetail"
-        >more detail →</a>
+        >{{ t('map.moreDetail') }}</a>
       </div>
 
       <div class="journey-controls mx-panel">
-        <span class="journey-heading">Artyom's journey</span>
+        <span class="journey-heading">{{ t('map.journeyHeading') }}</span>
         <label v-for="(style, game) in JOURNEY_STYLE" :key="game" class="journey-toggle">
           <input type="checkbox" v-model="showJourney[game]" />
           <span class="journey-swatch" :style="{ backgroundColor: style.color }" />
@@ -290,7 +291,7 @@ onBeforeUnmount(() => {
         </label>
       </div>
 
-      <div class="map-overlay-note">{{ stations.length }} station hotspots online</div>
+      <div class="map-overlay-note">{{ stations.length }} {{ t('map.hotspotsOnline') }}</div>
     </div>
   </section>
 </template>

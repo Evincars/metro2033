@@ -6,6 +6,7 @@ import { games, gamesById } from '../data/games'
 import { handleInternalClick, linkify } from '../utils/wikiLinks'
 import { extractGallery } from '../utils/markdownGallery'
 import ImageGallery from '../components/ImageGallery.vue'
+import { t } from '../i18n'
 
 const route = useRoute()
 const router = useRouter()
@@ -55,7 +56,7 @@ function backToList() {
   <section class="games-view">
     <!-- Detail -->
     <template v-if="activeGame">
-      <button class="back-link" type="button" @click="backToList">← All games</button>
+      <button class="back-link" type="button" @click="backToList">{{ t('games.backToList') }}</button>
 
       <article class="mx-panel game-detail">
         <header class="detail-header">
@@ -63,19 +64,19 @@ function backToList() {
           <h1>{{ activeGame.title }}</h1>
           <dl class="detail-facts">
             <template v-if="activeGame.developer">
-              <dt>Developer</dt><dd>{{ activeGame.developer }}</dd>
+              <dt>{{ t('games.developer') }}</dt><dd>{{ activeGame.developer }}</dd>
             </template>
             <template v-if="activeGame.publisher">
-              <dt>Publisher</dt><dd>{{ activeGame.publisher }}</dd>
+              <dt>{{ t('games.publisher') }}</dt><dd>{{ activeGame.publisher }}</dd>
             </template>
             <template v-if="activeGame.genre">
-              <dt>Genre</dt><dd>{{ activeGame.genre }}</dd>
+              <dt>{{ t('games.genre') }}</dt><dd>{{ activeGame.genre }}</dd>
             </template>
             <template v-if="activeGame.platforms">
-              <dt>Platforms</dt><dd>{{ activeGame.platforms }}</dd>
+              <dt>{{ t('games.platforms') }}</dt><dd>{{ activeGame.platforms }}</dd>
             </template>
             <template v-if="activeGame.released">
-              <dt>Released</dt><dd>{{ activeGame.released }}</dd>
+              <dt>{{ t('games.released') }}</dt><dd>{{ activeGame.released }}</dd>
             </template>
           </dl>
         </header>
@@ -92,7 +93,7 @@ function backToList() {
 
         <div class="markdown-body" v-html="parsed.html" @click="onBodyClick" />
 
-        <ImageGallery :images="parsed.images" title="Screenshots & art" />
+        <ImageGallery :images="parsed.images" :title="t('games.screenshots')" />
 
         <a
           v-if="activeGame.wiki"
@@ -100,7 +101,7 @@ function backToList() {
           :href="`https://metrovideogame.fandom.com/wiki/${activeGame.wiki}`"
           target="_blank"
           rel="noopener"
-        >Read the full article on Fandom ↗</a>
+        >{{ t('games.fandomLink') }}</a>
       </article>
     </template>
 
@@ -108,13 +109,9 @@ function backToList() {
     <template v-else>
       <header class="games-banner" :style="{ backgroundImage: `url('${bannerUrl}')` }">
         <div class="games-banner-inner">
-          <span class="mx-tag">Archive · Interactive</span>
-          <h1>Games</h1>
-          <p>
-            The Metro series — 4A Games' adaptations of Dmitry Glukhovsky's novels, from the
-            claustrophobic tunnels of Moscow to the open wastes beyond. Select a title for the
-            full dossier.
-          </p>
+          <span class="mx-tag">{{ t('games.tag') }}</span>
+          <h1>{{ t('games.title') }}</h1>
+          <p>{{ t('games.description') }}</p>
         </div>
       </header>
 

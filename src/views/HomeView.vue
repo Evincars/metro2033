@@ -2,6 +2,7 @@
 import { onMounted } from 'vue'
 import { RouterLink } from 'vue-router'
 import DisqusThread from '../components/DisqusThread.vue'
+import { t } from '../i18n'
 
 const base = import.meta.env.BASE_URL
 
@@ -15,15 +16,15 @@ const leftEdge = `${base}book-art/main_left.jpg`
 const rightEdge = `${base}book-art/main_right.jpg`
 
 const destinations = [
-  { to: '/map', code: '02', icon: '◈', title: 'Metro Map', text: 'A living, zoomable map of the tunnels — every station, line and interchange.' },
-  { to: '/stations', code: '03', icon: '●', title: 'Stations', text: 'Dossiers on the platforms the survivors call home, from VDNKh to Polis.' },
-  { to: '/factions', code: '04', icon: '⚑', title: 'Factions', text: 'Rangers, Hansa, the Red Line, the Reich — who holds each stretch of track.' },
-  { to: '/events', code: '05', icon: '▤', title: 'Events', text: 'A timeline of the Metro universe, from the bombs of 2013 to the world beyond.' },
-  { to: '/levels', code: '06', icon: '◉', title: 'Levels', text: "Walkthrough-grade notes on every chapter of Artyom's journey." },
-  { to: '/locations', code: '07', icon: '⌖', title: 'Locations', text: 'Surface ruins, secret lines and landmarks above and below the city.' },
-  { to: '/characters', code: '08', icon: '☻', title: 'Characters', text: 'The people of the Metro — allies, rivals and legends of the dark.' },
-  { to: '/games', code: '★', icon: '🎮', title: 'Games', text: "4A Games' shooters, from the first tunnels to the open wastes of Exodus." },
-  { to: '/books', code: '★', icon: '📖', title: 'Books', text: "Glukhovsky's novels and the sprawling Universe of Metro 2033." },
+  { to: '/map', code: '02', icon: '◈', titleKey: 'nav.metroMap', textKey: 'home.dest.metroMap' },
+  { to: '/stations', code: '03', icon: '●', titleKey: 'nav.stations', textKey: 'home.dest.stations' },
+  { to: '/factions', code: '04', icon: '⚑', titleKey: 'nav.factions', textKey: 'home.dest.factions' },
+  { to: '/events', code: '05', icon: '▤', titleKey: 'nav.events', textKey: 'home.dest.events' },
+  { to: '/levels', code: '06', icon: '◉', titleKey: 'nav.levels', textKey: 'home.dest.levels' },
+  { to: '/locations', code: '07', icon: '⌖', titleKey: 'nav.locations', textKey: 'home.dest.locations' },
+  { to: '/characters', code: '08', icon: '☻', titleKey: 'nav.characters', textKey: 'home.dest.characters' },
+  { to: '/games', code: '★', icon: '🎮', titleKey: 'nav.games', textKey: 'home.dest.games' },
+  { to: '/books', code: '★', icon: '📖', titleKey: 'nav.books', textKey: 'home.dest.books' },
 ]
 </script>
 
@@ -33,30 +34,26 @@ const destinations = [
       <span class="hero-frame left" :style="{ backgroundImage: `url('${leftEdge}')` }" aria-hidden="true" />
       <span class="hero-frame right" :style="{ backgroundImage: `url('${rightEdge}')` }" aria-hidden="true" />
       <div class="hero-inner">
-        <span class="mx-tag">Line 1 · VDNKh — Exhibition</span>
-        <h1>Life goes on,<br />even at the end of the world.</h1>
-        <p class="lede">
-          The surface is dead. Below, in the tunnels of the Moscow Metro, the last survivors
-          huddle around their fires — trading, fighting, praying that whatever is left up there
-          never finds a way down here.
-        </p>
+        <span class="mx-tag">{{ t('home.tag') }}</span>
+        <h1 v-html="t('home.heading')"></h1>
+        <p class="lede">{{ t('home.lede') }}</p>
         <div class="hero-actions">
-          <RouterLink to="/map" class="btn btn-primary">Open Metro Map</RouterLink>
-          <RouterLink to="/stations" class="btn btn-ghost">Browse Stations</RouterLink>
-          <a href="#disqus_thread" class="btn btn-ghost" data-disqus-identifier="vdnh-home">Comments</a>
+          <RouterLink to="/map" class="btn btn-primary">{{ t('home.openMap') }}</RouterLink>
+          <RouterLink to="/stations" class="btn btn-ghost">{{ t('home.browseStations') }}</RouterLink>
+          <a href="#disqus_thread" class="btn btn-ghost" data-disqus-identifier="vdnh-home">{{ t('home.comments') }}</a>
         </div>
       </div>
     </div>
 
     <div class="crossroad">
-      <h2 class="crossroad-title">Where to, ranger?</h2>
+      <h2 class="crossroad-title">{{ t('home.crossroadTitle') }}</h2>
       <div class="grid">
         <RouterLink v-for="d in destinations" :key="d.to" :to="d.to" class="mx-panel card">
           <span class="card-code">{{ d.code }}</span>
           <span class="card-icon" aria-hidden="true">{{ d.icon }}</span>
-          <h3>{{ d.title }}</h3>
-          <p>{{ d.text }}</p>
-          <span class="card-go" aria-hidden="true">Enter →</span>
+          <h3>{{ t(d.titleKey) }}</h3>
+          <p>{{ t(d.textKey) }}</p>
+          <span class="card-go" aria-hidden="true">{{ t('home.enter') }}</span>
         </RouterLink>
       </div>
     </div>

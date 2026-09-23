@@ -1,6 +1,7 @@
 <script setup>
 import { onBeforeUnmount, onMounted } from 'vue'
 import { APP_VERSION, releases } from '../../data/release'
+import { t } from '../../i18n'
 
 const emit = defineEmits(['close'])
 
@@ -15,7 +16,7 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
 <template>
   <Teleport to="body">
     <div class="notes-backdrop" @click.self="emit('close')">
-      <div class="notes-dialog mx-panel" role="dialog" aria-modal="true" aria-label="Release notes">
+      <div class="notes-dialog mx-panel" role="dialog" aria-modal="true" :aria-label="t('releaseNotes.title')">
         <header class="notes-head">
           <span class="version-badge">version {{ APP_VERSION }}</span>
           <button class="notes-close" type="button" aria-label="Close" @click="emit('close')">×</button>

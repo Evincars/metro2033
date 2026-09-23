@@ -6,16 +6,17 @@ import ReleaseNotesDialog from './ReleaseNotesDialog.vue'
 import { APP_VERSION } from '../../data/release'
 import { enabled as audioEnabled, playing as audioPlaying } from '../../composables/useAmbientAudio'
 import { logoStyle } from '../../composables/useLogoStyle'
+import { t, locale, LOCALES, setLocale } from '../../i18n'
 
 const emit = defineEmits(['toggle-nav'])
 const route = useRoute()
 const base = import.meta.env.BASE_URL
 
 const navLinks = [
-  { to: '/', label: 'VDNH' },
-  { to: '/games', label: 'Games' },
-  { to: '/books', label: 'Books' },
-  { to: '/about', label: 'About' },
+  { to: '/', labelKey: 'nav.vdnh' },
+  { to: '/games', labelKey: 'nav.games' },
+  { to: '/books', labelKey: 'nav.books' },
+  { to: '/about', labelKey: 'nav.about' },
 ]
 
 // The VDNH item owns every left-menu section (Map, Stations, Levels, …), so it
@@ -75,9 +76,20 @@ const hasLeftMenu = computed(() => !!route.meta.leftMenu)
         class="nav-link"
         :class="{ 'is-active': isActive(link) }"
       >
-        {{ link.label }}
+        {{ t(link.labelKey) }}
       </RouterLink>
     </nav>
+
+    <div class="lang-switcher" aria-label="Language">
+      <button
+        v-for="loc in LOCALES"
+        :key="loc.code"
+        type="button"
+        class="lang-btn"
+        :class="{ 'is-active': locale === loc.code }"
+        @click="setLocale(loc.code)"
+      >{{ loc.label }}</button>
+    </div>
 
     <button
       class="notes-toggle"
@@ -125,8 +137,18 @@ const hasLeftMenu = computed(() => !!route.meta.leftMenu)
         :class="{ 'is-active': isActive(link) }"
         @click="mobileOpen = false"
       >
-        {{ link.label }}
+        {{ t(link.labelKey) }}
       </RouterLink>
+      <div class="mobile-lang">
+        <button
+          v-for="loc in LOCALES"
+          :key="loc.code"
+          type="button"
+          class="lang-btn"
+          :class="{ 'is-active': locale === loc.code }"
+          @click="setLocale(loc.code)"
+        >{{ loc.label }}</button>
+      </div>
     </nav>
 
     <SettingsDialog v-if="settingsOpen" @close="settingsOpen = false" />
@@ -292,6 +314,46 @@ const hasLeftMenu = computed(() => !!route.meta.leftMenu)
   border-bottom: 1px solid var(--color-border);
 }
 
+.lang-switcher {
+  display: none;
+  align-items: center;
+  gap: 2px;
+  margin-left: auto;
+}
+
+.lang-btn {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  padding: 0.25rem 0.45rem;
+  background: transparent;
+  border: 1px solid var(--color-border-strong);
+  border-radius: 2px;
+  color: var(--color-text-dim);
+  cursor: pointer;
+  transition: color 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.lang-btn:hover {
+  color: var(--color-amber-bright);
+  border-color: var(--color-amber);
+  background: rgba(232, 149, 42, 0.08);
+}
+
+.lang-btn.is-active {
+  color: var(--color-amber-bright);
+  border-color: var(--color-amber);
+  background: rgba(232, 149, 42, 0.12);
+}
+
+.mobile-lang {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0.75rem 1.25rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
 /* release notes + settings buttons (top-right corner) */
 .notes-toggle {
   position: relative;
@@ -384,6 +446,10 @@ const hasLeftMenu = computed(() => !!route.meta.leftMenu)
 @media (min-width: 900px) {
   .primary-nav {
     display: flex;
+  }
+  .lang-switcher {
+    display: flex;
+    margin-left: 0;
   }
   .burger-mobile {
     display: none;

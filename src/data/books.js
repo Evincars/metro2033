@@ -1,17 +1,11 @@
 import { parseFrontmatter } from '../utils/frontmatter'
+import { resolveFiles } from '../i18n/content'
 
-/**
- * Book dossiers from `src/content/books/*.md`. Frontmatter:
- *   id, title, order, category, author, year, setIn, country, image, brief, wiki.
- * `category` is 'Core' (the trilogy + Universe overview) or 'Universe'.
- * Local `image` paths (not starting with http) are resolved against BASE_URL.
- */
+const enFiles = import.meta.glob('../content/books/*.md', { query: '?raw', import: 'default', eager: true })
+const ruFiles = import.meta.glob('../content/ru/books/*.md', { query: '?raw', import: 'default', eager: true })
+const ukFiles = import.meta.glob('../content/uk/books/*.md', { query: '?raw', import: 'default', eager: true })
 
-const files = import.meta.glob('../content/books/*.md', {
-  query: '?raw',
-  import: 'default',
-  eager: true,
-})
+const files = resolveFiles(enFiles, ruFiles, ukFiles)
 
 function resolveImage(src) {
   if (!src) return ''

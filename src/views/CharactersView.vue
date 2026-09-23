@@ -5,16 +5,17 @@ import { marked } from 'marked'
 import { CHARACTER_GROUPS, characters, charactersById } from '../data/characters'
 import { fuzzyMatch } from '../utils/search'
 import { handleInternalClick, linkify } from '../utils/wikiLinks'
+import { t } from '../i18n'
 
 const route = useRoute()
 const router = useRouter()
 marked.setOptions({ breaks: false, gfm: true })
 
 const GROUP_LABELS = {
-  Rangers: 'Rangers of the Order',
-  Associated: 'Associated characters',
-  Notable: 'Other notable characters',
-  'Last Light': 'Metro: Last Light',
+  Rangers: t('characters.groupRangers'),
+  Associated: t('characters.groupAssociated'),
+  Notable: t('characters.groupNotable'),
+  'Last Light': t('characters.groupLastLight'),
 }
 
 const activeId = computed(() => route.params.id ?? '')
@@ -76,7 +77,7 @@ function backToList() {
   <section class="characters-view">
     <!-- Detail -->
     <template v-if="activeCharacter">
-      <button class="back-link" type="button" @click="backToList">← All characters</button>
+      <button class="back-link" type="button" @click="backToList">{{ t('characters.backToList') }}</button>
 
       <article class="mx-panel character-detail">
         <header class="detail-header">
@@ -103,18 +104,17 @@ function backToList() {
           :href="`https://metrovideogame.fandom.com/wiki/${activeCharacter.wiki}`"
           target="_blank"
           rel="noopener"
-        >Read the full article on Fandom ↗</a>
+        >{{ t('characters.fandomLink') }}</a>
       </article>
     </template>
 
     <!-- List -->
     <template v-else>
       <header class="mx-panel view-header">
-        <span class="mx-tag">Dramatis personae</span>
-        <h1>Characters</h1>
+        <span class="mx-tag">{{ t('characters.tag') }}</span>
+        <h1>{{ t('characters.title') }}</h1>
         <p>
-          The people of the Metro — Rangers, allies, and the faces met along Artyom's journey
-          through Metro 2033 and Last Light. Select a name for the full dossier.
+          {{ t('characters.description') }}
         </p>
       </header>
 
@@ -124,7 +124,7 @@ function backToList() {
           v-model="search"
           type="search"
           class="search-input"
-          placeholder="Filter characters…  (press / to focus)"
+          :placeholder="t('characters.searchPlaceholder')"
           aria-label="Filter characters"
         />
       </div>
@@ -154,8 +154,8 @@ function backToList() {
 
       <div v-if="!grouped.length" class="mx-panel empty-state">
         <span class="empty-icon">☻</span>
-        <h2>No matches</h2>
-        <p>No character matches “{{ search }}”.</p>
+        <h2>{{ t('characters.noMatches') }}</h2>
+        <p>{{ t('characters.noMatchesText') }} “{{ search }}”.</p>
       </div>
     </template>
   </section>

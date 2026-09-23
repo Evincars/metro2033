@@ -2,6 +2,7 @@
 import { computed } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { metroLineById } from '../data/locations'
+import { t } from '../i18n'
 
 const route = useRoute()
 const router = useRouter()
@@ -20,18 +21,18 @@ const inGameCount = computed(() => (line.value?.stations.filter((s) => s.levelId
 
 <template>
   <section class="line-view">
-    <button class="back-link" type="button" @click="back">← All locations</button>
+    <button class="back-link" type="button" @click="back">{{ t('locations.backToList') }}</button>
 
     <template v-if="line">
       <header class="mx-panel view-header">
         <span class="line-badge">
           <span class="line-dot" :style="{ backgroundColor: line.color }" />
-          <span class="mx-tag">Moscow Metro line</span>
+          <span class="mx-tag">{{ t('metroLine.tag') }}</span>
         </span>
         <h1>{{ line.label }}</h1>
         <p v-if="line.blurb" class="line-blurb">{{ line.blurb }}</p>
         <p class="line-stats">
-          {{ line.stations.length }} stations · {{ inGameCount }} featured in the games
+          {{ t('metroLine.statsTpl').replace('{total}', line.stations.length).replace('{inGame}', inGameCount) }}
         </p>
         <a
           v-if="line.slug"
@@ -39,7 +40,7 @@ const inGameCount = computed(() => (line.value?.stations.filter((s) => s.levelId
           :href="`https://metrovideogame.fandom.com/wiki/${line.slug}`"
           target="_blank"
           rel="noopener"
-        >Read about this line on Fandom ↗</a>
+        >{{ t('metroLine.fandomLink') }}</a>
       </header>
 
       <ul class="station-list mx-panel" :style="{ '--line-color': line.color }">
@@ -56,7 +57,7 @@ const inGameCount = computed(() => (line.value?.stations.filter((s) => s.levelId
           >
             <span class="node" />
             <span class="station-name">{{ station.name }}</span>
-            <span v-if="station.levelId" class="station-tag">In game →</span>
+            <span v-if="station.levelId" class="station-tag">{{ t('stations.inGame') }}</span>
           </component>
         </li>
       </ul>
@@ -64,8 +65,8 @@ const inGameCount = computed(() => (line.value?.stations.filter((s) => s.levelId
 
     <div v-else class="mx-panel empty-state">
       <span class="empty-icon">⌖</span>
-      <h2>Unknown line</h2>
-      <p>No metro line matches this address.</p>
+      <h2>{{ t('metroLine.unknownTitle') }}</h2>
+      <p>{{ t('metroLine.unknownText') }}</p>
     </div>
   </section>
 </template>

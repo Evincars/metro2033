@@ -3,6 +3,7 @@ import { onBeforeUnmount, onMounted } from 'vue'
 import { useAmbientAudio } from '../../composables/useAmbientAudio'
 import { APP_VERSION } from '../../data/release'
 import { logoStyle } from '../../composables/useLogoStyle'
+import { t } from '../../i18n'
 
 const emit = defineEmits(['close'])
 const { enabled, volume, playing, blocked, currentTitle, nextTrack } = useAmbientAudio()
@@ -35,10 +36,10 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
         </header>
 
         <section class="settings-group">
-          <div class="group-label">Ambient audio</div>
+          <div class="group-label">{{ t('settings.ambientAudio') }}</div>
 
           <label class="toggle-row">
-            <span class="toggle-text">Play tunnel ambience</span>
+            <span class="toggle-text">{{ t('settings.playAmbience') }}</span>
             <button
               class="switch"
               type="button"
@@ -70,24 +71,24 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
           <div class="now-playing">
             <span class="np-dot" :class="{ 'is-live': playing }" />
             <span class="np-text">
-              <template v-if="playing">Now playing — {{ currentTitle }}</template>
-              <template v-else-if="blocked && enabled">Tap anywhere to start audio…</template>
-              <template v-else-if="enabled">Loading…</template>
-              <template v-else>Audio muted</template>
+              <template v-if="playing">{{ t('settings.nowPlaying') }} — {{ currentTitle }}</template>
+              <template v-else-if="blocked && enabled">{{ t('settings.tapToStart') }}</template>
+              <template v-else-if="enabled">{{ t('settings.loading') }}</template>
+              <template v-else>{{ t('settings.audioMuted') }}</template>
             </span>
-            <button class="np-skip" type="button" :disabled="!enabled" @click="nextTrack">skip ⏭</button>
+            <button class="np-skip" type="button" :disabled="!enabled" @click="nextTrack">{{ t('settings.skip') }}</button>
           </div>
 
           <p class="settings-hint">
-            Three Metro tracks play once through, in order — no loop.
+            {{ t('settings.audioHint') }}
           </p>
         </section>
 
         <section class="settings-group settings-group--spaced">
-          <div class="group-label">Appearance</div>
+          <div class="group-label">{{ t('settings.appearance') }}</div>
 
           <label class="toggle-row">
-            <span class="toggle-text">Original Metro 2033 logo</span>
+            <span class="toggle-text">{{ t('settings.originalLogo') }}</span>
             <button
               class="switch"
               type="button"
@@ -101,13 +102,13 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
           </label>
 
           <p class="settings-hint">
-            On: the original "Вселенная Метро 2033" shield. Off: the Metro 2033 wordmark.
+            {{ t('settings.logoHint') }}
           </p>
         </section>
 
         <footer class="settings-foot">
-          <span class="mx-tag">Metro Terminal</span>
-          <span class="settings-version">version {{ APP_VERSION }}</span>
+          <span class="mx-tag">{{ t('settings.metroTerminal') }}</span>
+          <span class="settings-version">{{ t('settings.version') }} {{ APP_VERSION }}</span>
         </footer>
       </div>
     </div>

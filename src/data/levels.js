@@ -15,11 +15,13 @@
  *   # Full article body in Markdown…
  */
 
-const files = import.meta.glob('../content/levels/**/*.md', {
-  query: '?raw',
-  import: 'default',
-  eager: true,
-})
+import { resolveFiles } from '../i18n/content'
+
+const enFiles = import.meta.glob('../content/levels/**/*.md', { query: '?raw', import: 'default', eager: true })
+const ruFiles = import.meta.glob('../content/ru/levels/**/*.md', { query: '?raw', import: 'default', eager: true })
+const ukFiles = import.meta.glob('../content/uk/levels/**/*.md', { query: '?raw', import: 'default', eager: true })
+
+const files = resolveFiles(enFiles, ruFiles, ukFiles)
 
 function parseFrontmatter(raw) {
   const match = /^---\n([\s\S]*?)\n---\n?([\s\S]*)$/.exec(raw)

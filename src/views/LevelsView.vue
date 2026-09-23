@@ -2,6 +2,7 @@
 import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { marked } from 'marked'
+import { t } from '../i18n'
 import { GAMES, levels, levelsById } from '../data/levels'
 import { fuzzyMatch } from '../utils/search'
 import { handleInternalClick, linkify } from '../utils/wikiLinks'
@@ -81,7 +82,7 @@ function backToList() {
   <section class="levels-view">
     <!-- Detail page -->
     <template v-if="activeLevel">
-      <button class="back-link" type="button" @click="backToList">← All levels</button>
+      <button class="back-link" type="button" @click="backToList">{{ t('levels.backToList') }}</button>
 
       <article class="mx-panel level-detail">
         <header class="detail-header">
@@ -107,12 +108,9 @@ function backToList() {
     <!-- List page -->
     <template v-else>
       <header class="mx-panel view-header">
-        <span class="mx-tag">Campaign archive</span>
-        <h1>Levels</h1>
-        <p>
-          Every mission of Metro 2033 and Metro: Last Light, in story order. Select a level for
-          the full dossier, or open the Metro Map to trace Artyom's journey station by station.
-        </p>
+        <span class="mx-tag">{{ t('levels.tag') }}</span>
+        <h1>{{ t('levels.title') }}</h1>
+        <p>{{ t('levels.description') }}</p>
       </header>
 
       <div class="mx-panel toolbar">
@@ -121,7 +119,7 @@ function backToList() {
           v-model="search"
           type="search"
           class="search-input"
-          placeholder="Filter levels…  (press / to focus)"
+          :placeholder="t('levels.searchPlaceholder')"
           aria-label="Filter levels"
         />
       </div>
@@ -146,14 +144,14 @@ function backToList() {
 
       <div v-if="!levels.length" class="mx-panel empty-state">
         <span class="empty-icon">◉</span>
-        <h2>No level data loaded</h2>
-        <p>Level dossiers will appear here once the campaign archive is connected.</p>
+        <h2>{{ t('levels.noDataTitle') }}</h2>
+        <p>{{ t('levels.noDataText') }}</p>
       </div>
 
       <div v-else-if="!grouped.length" class="mx-panel empty-state">
         <span class="empty-icon">◉</span>
-        <h2>No matches</h2>
-        <p>No level matches “{{ search }}”.</p>
+        <h2>{{ t('levels.noMatches') }}</h2>
+        <p>{{ t('levels.noMatchesText') }} “{{ search }}”.</p>
       </div>
     </template>
   </section>

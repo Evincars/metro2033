@@ -6,6 +6,7 @@ import { events } from '../data/events'
 import { eventArticles, eventArticlesById } from '../data/eventArticles'
 import { eventGallery } from '../data/eventGallery'
 import { handleInternalClick, linkify } from '../utils/wikiLinks'
+import { t } from '../i18n'
 
 const route = useRoute()
 const router = useRouter()
@@ -78,11 +79,11 @@ function backToEvents() {
   <section class="events-view">
     <!-- Event article detail -->
     <template v-if="activeEvent">
-      <button class="back-link" type="button" @click="backToEvents">← All events</button>
+      <button class="back-link" type="button" @click="backToEvents">{{ t('events.backToList') }}</button>
 
       <article class="mx-panel event-detail">
         <header class="detail-header">
-          <span class="mx-tag">Notable event</span>
+          <span class="mx-tag">{{ t('events.notableTag') }}</span>
           <h1>{{ activeEvent.title }}</h1>
           <p v-if="activeEvent.brief" class="detail-brief">{{ activeEvent.brief }}</p>
         </header>
@@ -100,7 +101,7 @@ function backToEvents() {
         <div class="markdown-body" v-html="renderedArticle" @click="onBodyClick" />
 
         <section v-if="gallery.length" class="gallery">
-          <h2 class="gallery-title">Gallery</h2>
+          <h2 class="gallery-title">{{ t('events.gallery') }}</h2>
           <div class="thumbs">
             <button
               v-for="(src, i) in gallery"
@@ -120,7 +121,7 @@ function backToEvents() {
           :href="`https://metrovideogame.fandom.com/wiki/${activeEvent.wiki}`"
           target="_blank"
           rel="noopener"
-        >Read the full article on Fandom ↗</a>
+        >{{ t('events.fandomLink') }}</a>
       </article>
 
       <Teleport to="body">
@@ -137,15 +138,12 @@ function backToEvents() {
     <!-- Timeline + notable events (list view) -->
     <template v-else>
       <header class="mx-panel view-header">
-        <span class="mx-tag">Timeline</span>
-        <h1>Events</h1>
-        <p>
-          A chronology of the Metro universe, from the bombs of 2013 to the world beyond. Select a
-          year to expand its events; links lead to the levels and locations involved.
-        </p>
+        <span class="mx-tag">{{ t('events.tag') }}</span>
+        <h1>{{ t('events.title') }}</h1>
+        <p>{{ t('events.description') }}</p>
         <div class="header-actions">
-          <button type="button" class="ghost-btn" @click="expandAll">Expand all</button>
-          <button type="button" class="ghost-btn" @click="collapseAll">Collapse all</button>
+          <button type="button" class="ghost-btn" @click="expandAll">{{ t('events.expandAll') }}</button>
+          <button type="button" class="ghost-btn" @click="collapseAll">{{ t('events.collapseAll') }}</button>
         </div>
       </header>
 
@@ -162,10 +160,8 @@ function backToEvents() {
       </ol>
 
       <div class="notable">
-        <h2 class="notable-title">Notable events</h2>
-        <p class="notable-sub">
-          The turning points of the Metro saga, each with its own dossier.
-        </p>
+        <h2 class="notable-title">{{ t('events.notableTitle') }}</h2>
+        <p class="notable-sub">{{ t('events.notableSub') }}</p>
         <ul class="event-grid">
           <li v-for="ev in eventArticles" :key="ev.id">
             <button class="event-card mx-panel" type="button" @click="openEvent(ev.id)">

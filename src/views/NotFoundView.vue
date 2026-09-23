@@ -1,13 +1,14 @@
 <script setup>
 import { RouterLink } from 'vue-router'
+import { t } from '../i18n'
 </script>
 
 <template>
   <section class="not-found mx-panel">
-    <span class="mx-tag">Error</span>
-    <h1>Tunnel collapsed</h1>
-    <p>This passage doesn't lead anywhere. Turn back before the air runs out.</p>
-    <RouterLink to="/" class="btn-back">Return to Surface</RouterLink>
+    <span class="mx-tag">{{ t('notFound.tag') }}</span>
+    <h1>{{ t('notFound.title') }}</h1>
+    <p>{{ t('notFound.text') }}</p>
+    <RouterLink to="/" class="btn-back">{{ t('notFound.back') }}</RouterLink>
   </section>
 </template>
 

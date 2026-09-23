@@ -1,15 +1,14 @@
 import { parseFrontmatter } from '../utils/frontmatter'
+import { resolveFiles } from '../i18n/content'
 import { lines as lineMeta, stationLines } from './stationLines'
 import { stations } from './stations'
 import { stationToLevel } from './journey'
 
-/* ---------------- Post-apocalyptic Moscow locations (markdown) ---------------- */
+const enFiles = import.meta.glob('../content/locations/*.md', { query: '?raw', import: 'default', eager: true })
+const ruFiles = import.meta.glob('../content/ru/locations/*.md', { query: '?raw', import: 'default', eager: true })
+const ukFiles = import.meta.glob('../content/uk/locations/*.md', { query: '?raw', import: 'default', eager: true })
 
-const files = import.meta.glob('../content/locations/*.md', {
-  query: '?raw',
-  import: 'default',
-  eager: true,
-})
+const files = resolveFiles(enFiles, ruFiles, ukFiles)
 
 export const LOCATION_CATEGORIES = ['Friendly', 'Neutral', 'Hostile', 'Other']
 
