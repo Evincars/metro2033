@@ -316,7 +316,7 @@ onBeforeUnmount(() => {
   width: 100%;
   height: 100%;
   min-height: 60vh;
-  background: #06070a;
+  background: #1a2028;
 }
 
 .station-tooltip {
@@ -465,7 +465,7 @@ onBeforeUnmount(() => {
 }
 
 .map-frame :deep(.leaflet-container) {
-  background: #06070a;
+  background: #1a2028;
   font-family: var(--font-mono);
 }
 
