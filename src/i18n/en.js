@@ -39,6 +39,7 @@ export default {
   'home.openMap': 'Open Metro Map',
   'home.browseStations': 'Browse Stations',
   'home.comments': 'Comments',
+  'home.metro2039': 'Metro 2039',
   'home.crossroadTitle': 'Where to, ranger?',
   'home.enter': 'Enter →',
   'home.dest.metroMap': 'A living, zoomable map of the tunnels — every station, line and interchange.',

@@ -228,8 +228,7 @@ const credits = [
 .repo-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.8rem;
+  gap: 0.5rem;
   margin-top: 1rem;
-  padding-left: 22px;
 }
 </style>

@@ -34,6 +34,7 @@ export default {
   'home.openMap': 'Открыть карту метро',
   'home.browseStations': 'Обзор станций',
   'home.comments': 'Комментарии',
+  'home.metro2039': 'Метро 2039',
   'home.crossroadTitle': 'Куда дальше, рейнджер?',
   'home.enter': 'Войти →',
   'home.dest.metroMap': 'Живая масштабируемая карта тоннелей — каждая станция, линия и пересадка.',

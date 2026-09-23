@@ -6,6 +6,7 @@ import { logoStyle } from '../../composables/useLogoStyle'
 import { t } from '../../i18n'
 
 const emit = defineEmits(['close'])
+const base = import.meta.env.BASE_URL
 const { enabled, volume, playing, blocked, currentTitle, nextTrack } = useAmbientAudio()
 
 const volumePercent = (val) => Math.round(val * 100)
@@ -32,7 +33,9 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
         aria-label="Settings"
       >
         <header class="settings-head">
-          <button class="settings-close" type="button" aria-label="Close" @click="emit('close')">×</button>
+          <button class="settings-close" type="button" aria-label="Close" @click="emit('close')">
+            <img :src="`${base}metro2039-imgs/close-x.svg`" width="16" height="16" alt="" />
+          </button>
         </header>
 
         <section class="settings-group">
@@ -158,16 +161,31 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
 }
 
 .settings-close {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
   background: none;
-  border: none;
-  color: var(--color-text-faint);
-  font-size: 1.4rem;
-  line-height: 1;
+  border: 1px solid var(--color-border-strong);
+  border-radius: 2px;
   cursor: pointer;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.settings-close img {
+  display: block;
+  filter: brightness(0) invert(0.6);
+  transition: filter 0.15s ease;
 }
 
 .settings-close:hover {
-  color: var(--color-steel-bright);
+  border-color: var(--color-steel);
+  background: rgba(133, 190, 214, 0.08);
+}
+
+.settings-close:hover img {
+  filter: brightness(0) invert(0.85);
 }
 
 .settings-group {

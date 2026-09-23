@@ -179,6 +179,8 @@ p {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   padding: 0.7rem 1.2rem;
+  margin-left: 22px;
+  margin-right: 22px;
   background: #f5b700;
   border: none;
   border-radius: 0;
@@ -199,30 +201,21 @@ p {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   pointer-events: none;
-  transition: background-image 0.15s ease;
 }
 
 .btn-metro::before {
   right: 100%;
-  background-image: url('/metro2039-imgs/btn-left.svg');
+  background-image: url('/metro2039-imgs/btn-left-hover.svg');
 }
 
 .btn-metro::after {
   left: 100%;
-  background-image: url('/metro2039-imgs/btn-right.svg');
+  background-image: url('/metro2039-imgs/btn-right-hover.svg');
 }
 
 .btn-metro:hover {
   background: #ffcc00;
   color: #000;
-}
-
-.btn-metro:hover::before {
-  background-image: url('/metro2039-imgs/btn-left-hover.svg');
-}
-
-.btn-metro:hover::after {
-  background-image: url('/metro2039-imgs/btn-right-hover.svg');
 }
 
 /* Film-grain overlay utility */

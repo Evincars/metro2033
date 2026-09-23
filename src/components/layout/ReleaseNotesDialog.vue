@@ -4,6 +4,7 @@ import { APP_VERSION, releases } from '../../data/release'
 import { t } from '../../i18n'
 
 const emit = defineEmits(['close'])
+const base = import.meta.env.BASE_URL
 
 function onKeydown(event) {
   if (event.key === 'Escape') emit('close')
@@ -19,7 +20,9 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
       <div class="notes-dialog mx-panel" role="dialog" aria-modal="true" :aria-label="t('releaseNotes.title')">
         <header class="notes-head">
           <span class="version-badge">version {{ APP_VERSION }}</span>
-          <button class="notes-close" type="button" aria-label="Close" @click="emit('close')">×</button>
+          <button class="notes-close" type="button" aria-label="Close" @click="emit('close')">
+            <img :src="`${base}metro2039-imgs/close-x.svg`" width="16" height="16" alt="" />
+          </button>
         </header>
 
         <div class="notes-scroll">
@@ -91,16 +94,31 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
   top: 50%;
   transform: translateY(-50%);
   right: -0.2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
   background: none;
-  border: none;
-  color: var(--color-text-faint);
-  font-size: 1.3rem;
-  line-height: 1;
+  border: 1px solid var(--color-border-strong);
+  border-radius: 2px;
   cursor: pointer;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.notes-close img {
+  display: block;
+  filter: brightness(0) invert(0.6);
+  transition: filter 0.15s ease;
 }
 
 .notes-close:hover {
-  color: var(--color-amber-bright);
+  border-color: var(--color-amber);
+  background: rgba(232, 149, 42, 0.08);
+}
+
+.notes-close:hover img {
+  filter: brightness(0) invert(0.85);
 }
 
 .notes-scroll {

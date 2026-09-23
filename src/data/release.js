@@ -13,6 +13,8 @@ export const releases = [
       'Original "Universe of Metro 2033" shield logo in the header, switchable back to the classic wordmark in Settings.',
       'Tunnel backdrop now fills the whole screen; parchment notes and the Games banner were reworked for legibility.',
       'The section menu can now be opened on tablets and phones.',
+      'Full Russian and Ukrainian translations — every UI string and all 242 dossier pages translated, with a language switcher in the top menu.',
+      'Metro 2039 visual refresh — Metrotype display font, theme-aware favicons, torn-edge gold buttons, film grain and bleed transitions from the official Metro 2039 site.',
     ],
   },
   {
