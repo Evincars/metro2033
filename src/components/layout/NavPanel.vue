@@ -281,7 +281,7 @@ onBeforeUnmount(() => {
 }
 
 .nav-label {
-  font-family: var(--font-display);
+  font-family: var(--font-metro);
   font-size: 0.82rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;

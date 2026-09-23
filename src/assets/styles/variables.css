@@ -3,6 +3,14 @@
    Cold Moscow-tunnel steel and concrete, lit by dim sodium lamps, the toxic
    green of a radiation meter and the signal red of the Order.
    ========================================================================== */
+@font-face {
+  font-family: 'Metrotype';
+  src: url('/metro2039-imgs/metro2039type.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   /* surfaces — cold concrete & steel instead of warm rust */
   --color-bg: #070a0c;
@@ -37,6 +45,7 @@
   --color-text-faint: #566169;
 
   /* fonts */
+  --font-metro: 'Metrotype', 'Oswald', 'Arial Narrow', sans-serif;
   --font-display: 'Oswald', 'Arial Narrow', sans-serif;
   --font-mono: 'Share Tech Mono', 'Courier New', monospace;
 

@@ -14,6 +14,7 @@ onMounted(() => {
 const heroBg = `${base}book-art/main_men_1.jpg`
 const leftEdge = `${base}book-art/main_left.jpg`
 const rightEdge = `${base}book-art/main_right.jpg`
+const hero2039 = `${base}metro2039-imgs/hero-2039.png`
 
 const destinations = [
   { to: '/map', code: '02', icon: '◈', titleKey: 'nav.metroMap', textKey: 'home.dest.metroMap' },
@@ -42,6 +43,14 @@ const destinations = [
           <RouterLink to="/stations" class="btn btn-ghost">{{ t('home.browseStations') }}</RouterLink>
           <a href="#disqus_thread" class="btn btn-ghost" data-disqus-identifier="vdnh-home">{{ t('home.comments') }}</a>
         </div>
+      </div>
+    </div>
+
+    <div class="hero-2039 grain-overlay" :style="{ backgroundImage: `url('${hero2039}')` }">
+      <span class="bleed-top" aria-hidden="true" />
+      <span class="bleed-bottom" aria-hidden="true" />
+      <div class="hero-2039-inner">
+        <img class="logo-2039" :src="`${base}metro2039-imgs/metro2039-logo.svg`" alt="Metro 2039" />
       </div>
     </div>
 
@@ -130,6 +139,7 @@ const destinations = [
 }
 
 .hero h1 {
+  font-family: var(--font-metro);
   font-size: clamp(1.6rem, 4vw, 2.6rem);
   margin: 0.9rem 0 1rem;
   color: var(--color-text);
@@ -157,7 +167,7 @@ const destinations = [
 }
 
 .crossroad-title {
-  font-family: var(--font-display);
+  font-family: var(--font-metro);
   font-size: 1.15rem;
   color: var(--color-amber-bright);
   margin: 0.25rem 0 0;
@@ -225,5 +235,50 @@ const destinations = [
 .card p {
   font-size: 0.9rem;
   margin: 0;
+}
+
+/* Metro 2039 cinematic banner */
+.hero-2039 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 320px;
+  background-color: #0a0d10;
+  background-size: cover;
+  background-position: center 30%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.hero-2039::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(0deg, rgba(4, 6, 8, 0.7) 0%, transparent 40%, transparent 60%, rgba(4, 6, 8, 0.7) 100%),
+    radial-gradient(ellipse at center, transparent 30%, rgba(4, 6, 8, 0.5) 100%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.hero-2039-inner {
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  padding: 3rem 1.5rem;
+}
+
+.logo-2039 {
+  display: block;
+  width: clamp(180px, 40vw, 360px);
+  height: auto;
+  filter: drop-shadow(0 4px 24px rgba(0, 0, 0, 0.8));
+}
+
+@media (min-width: 768px) {
+  .hero-2039 {
+    min-height: 400px;
+  }
 }
 </style>

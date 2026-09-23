@@ -59,7 +59,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-display);
+  font-family: var(--font-metro);
   text-transform: uppercase;
   letter-spacing: 0.06em;
   color: var(--color-amber-bright);
@@ -165,4 +165,98 @@ p {
 .btn-ghost:hover {
   border-color: var(--color-amber);
   color: var(--color-amber-bright);
+}
+
+/* Metro 2039 styled button — gold bar with torn-edge SVG wings */
+.btn-metro {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-metro);
+  font-size: 1.15rem;
+  line-height: 1;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 0.7rem 1.2rem;
+  background: #f5b700;
+  border: none;
+  border-radius: 0;
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color 0.15s ease;
+}
+
+.btn-metro::before,
+.btn-metro::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 22px;
+  height: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  transition: background-image 0.15s ease;
+}
+
+.btn-metro::before {
+  right: 100%;
+  background-image: url('/metro2039-imgs/btn-left.svg');
+}
+
+.btn-metro::after {
+  left: 100%;
+  background-image: url('/metro2039-imgs/btn-right.svg');
+}
+
+.btn-metro:hover {
+  background: #ffcc00;
+  color: #000;
+}
+
+.btn-metro:hover::before {
+  background-image: url('/metro2039-imgs/btn-left-hover.svg');
+}
+
+.btn-metro:hover::after {
+  background-image: url('/metro2039-imgs/btn-right-hover.svg');
+}
+
+/* Film-grain overlay utility */
+.grain-overlay::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url('/metro2039-imgs/grain-texture.png');
+  background-repeat: repeat;
+  opacity: 0.06;
+  pointer-events: none;
+  z-index: 4;
+  mix-blend-mode: overlay;
+}
+
+/* Bleed transition edges */
+.bleed-top,
+.bleed-bottom {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.bleed-top {
+  top: -1px;
+  background-image: url('/metro2039-imgs/bleed-in-black.png');
+}
+
+.bleed-bottom {
+  bottom: -1px;
+  background-image: url('/metro2039-imgs/bleed-out-black.png');
 }

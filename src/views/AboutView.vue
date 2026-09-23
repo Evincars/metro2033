@@ -84,9 +84,9 @@ const credits = [
       </ul>
       <p class="contribute">{{ t('about.contribute') }}</p>
       <div class="repo-links">
-        <a class="btn btn-primary" :href="REPO" target="_blank" rel="noopener">{{ t('about.githubRepo') }}</a>
-        <a class="btn btn-ghost" :href="`${REPO}/pulls`" target="_blank" rel="noopener">{{ t('about.createPr') }}</a>
-        <a class="btn btn-ghost" :href="`${REPO}/issues/new`" target="_blank" rel="noopener">{{ t('about.reportBug') }}</a>
+        <a class="btn-metro" :href="REPO" target="_blank" rel="noopener">{{ t('about.githubRepo') }}</a>
+        <a class="btn-metro" :href="`${REPO}/pulls`" target="_blank" rel="noopener">{{ t('about.createPr') }}</a>
+        <a class="btn-metro" :href="`${REPO}/issues/new`" target="_blank" rel="noopener">{{ t('about.reportBug') }}</a>
       </div>
     </div>
   </section>
@@ -228,7 +228,8 @@ const credits = [
 .repo-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.6rem;
+  gap: 1.8rem;
   margin-top: 1rem;
+  padding-left: 22px;
 }
 </style>

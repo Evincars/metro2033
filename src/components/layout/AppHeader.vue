@@ -267,7 +267,7 @@ const hasLeftMenu = computed(() => !!route.meta.leftMenu)
 
 .nav-link {
   position: relative;
-  font-family: var(--font-display);
+  font-family: var(--font-metro);
   font-size: 0.85rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
