@@ -11,12 +11,9 @@ appearances: Metro Exodus
 
 # Snake
 
-Though largely unchanged by radiation, some snakes have developed bug-like legs and pincers on their tails. These mutations give them a disturbing, chimeric appearance that blends reptilian and arthropod features.
+## Overview
+Not much unlike dogs, deer, and frogs, snakes seem to have survived World War III with few noticeable mutations. This could be due to the fact they always preferred rural areas and regions not as densely populated by humans such as larger towns or cities, which were more often targeted using biochemical warfare. However, unlike those other creatures, some species of snakes in the world of Metro 2033 have developed several leg-like appendages as well as other features.
 
-## Behavior
+From a gameplay standpoint, large dark-coloured snakes with what appear to pincers on their tails can attack and poison Artyom on the Caspian Sea level of the game *Metro Exodus*. In the Sam's Story DLC, Sam explores the flooded and extremely humid ruins of Vladivostok; there he encounters smaller green-coloured snakes that often lay in wait for prey among carcasses of fallen humans. When looting these bodies, the snake then attacks Sam by trying to bite into his arm, and if the player fails a subsequent quick time event, they bite into Sam's neck killing him instantly. Bodies occupied by snakes will often shake as the player approaches them, and the snake can be killed without triggering the quick time event by meleeing the body before looting it.
 
-Mutant snakes retain much of their original hunting behavior but are more aggressive than their pre-war ancestors. The addition of legs allows them to move faster and the tail pincers provide an additional means of grasping prey.
-
-## Appearances
-
-- **Metro Exodus** — Found in the Caspian desert region.
+## Gallery

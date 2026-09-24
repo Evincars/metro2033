@@ -11,14 +11,11 @@ appearances: Metro Exodus
 
 # Nettle
 
-Inside the terminal and under the port in the Volga area are bushes containing poison gas. Both locations suggest some chemical or biological research, which may or may not have been related to their origin.
+## Overview
+These plants grow in various places in Russia and Central Asia, including the areas surrounding the Volga river, the valley in Kazakhstan, and parts of Vladivostok. They resemble a dried bush, but have distinctive red glowing sacks, in which spores are stored. It usually grows in damp and irradiated places, as well as on the corpses of mutants, animals and people.
 
-These mutated plants release clouds of toxic gas when disturbed, creating hazardous areas that require a gas mask to traverse.
+When a living creature gets too close to the plant, it releases the content of its sacks, which seems to be poisonous/corrosive (as the player character takes damage when being explosed to the cloud) and also swings its branches outwards with enough force to fracture gas mask lenses. Once in this discharged state, the plant is no longer dangerous.
 
-## Behavior
-
-Nettles release their toxic payload when something moves through or near them. The gas dissipates slowly, creating persistent hazard zones.
-
-## Appearances
-
-- **Metro Exodus** — Found in the Volga level.
+## Trivia
+- Krest uses the Nettle to create the cigarettes that he smokes. This suggests that the plant contains nicotine or other alkaloids.
+- If one approaches a nettle carefully, it can be harvested for chemical resources, which also stops it from attacking.
