@@ -3,7 +3,7 @@ id: damned-souls
 title: Damned Souls
 group: Supernatural Phenomena
 order: 41
-image:
+image: /mutant-imgs/damned-souls.png
 brief: Malevolent dead that cannot move on and drag down anyone they can reach.
 wiki: damned-souls
 appearances: Metro 2033 (Novel)

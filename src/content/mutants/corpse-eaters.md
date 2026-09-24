@@ -22,4 +22,3 @@ The Corpse Eaters are encountered by Hunter and Homer at Nakhimovsky Prospekt. A
 ## Trivia
 - Corpse Eaters make an appearance in the Metro 2033 board game as one of the mutant threat cards even though they are not a significant threat to humans.
 
-## Gallery

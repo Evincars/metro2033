@@ -19,7 +19,6 @@ Any weapon can easily dispatch an amoebae with a single hit, yet the quickest an
 
 In D6, the pores can be shot from the second floor before descending down to the third. Consequently Artyom can run around the inner edges of the pit to get to the end of the path and fight his way backwards back to Miller. If Artyom is fast enough, Miller will not be triggered to go beyond a few steps from the elevator until he comes within a small distance of him, allowing him time to deal with the amoebas at his own pace. Doing either of these is almost mandatory when playing on the ranger difficulties.
 
-## Related Achievements
 
 ## In the Novel
 Amoebae don't appear in the book. During the second to last chapter of the book, Artyom witnesses dark, grey leather balls as tall as himself, rolling around the surface of VDNKh. These could possibly be some form of amoeba. The location, however, is also the "nest" of a demon, so the balls may be its eggs.
@@ -33,4 +32,3 @@ There is also a kind of semi-sentient "sludge" inhabiting the basement and under
 - Amoebae generally only spawn if the player moves; the faster the movement the more amoebae will appear.
 - The Amoeba bear a striking resemblance to *Valonia ventricosa*, one of the real world's largest single cell organisms and may be the result of a mutation in the algae. However, in *Redux*, they no longer bear this resemblance quite as strikingly being replaced with models that have strange fleshy tones to them.
 
-## Gallery

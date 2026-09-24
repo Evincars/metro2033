@@ -72,7 +72,6 @@ For some time they continue to exist in a dream, growing and learning from the o
 
 There were Dark Ones in D6! Khan had hypothesized that they were created artificially before the war. Created as what? Soldiers immune to radiation and having no need for voice communication? Could be so... But then God probably decided to breathe souls into them..."
 
-## Related Achievements
 
 ## Trivia
 - "Homo Novus" means "new man" in Latin.

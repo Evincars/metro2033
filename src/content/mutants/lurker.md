@@ -40,10 +40,6 @@ Lurkers will rarely appear out from a burrow the player character is looking at,
 
 As a final note, there are no places in the game where lurkers spawn indefinitely. Even in the first area of "Child", they will eventually stop spawning (Artyom will need to kill somewhere in between 20 and 40 of them, however).
 
-## Related Achievements/Trophies
-### Metro 2033
-
-### Metro 2033 Redux
 
 ## Trivia
 - Kikimora, (sometimes anglicized as "Kikimore") the name used in the Russian translation, comes from Slavic mythology. The Kikimora is described as a small humpbacked woman, with a thin body and small bird-like head. Creatures with the same name also appear in another game series by a Slavic studio, CD Projekt, namely in the *Witcher* series (they appear in both *The Witcher* and the *The Witcher 3: Wild Hunt*, as well as in the *Wiedźmin* book series by Andrzej Sapkowski, on which the games are based upon/are continuation of).
@@ -57,8 +53,3 @@ As a final note, there are no places in the game where lurkers spawn indefinitel
 - Lurkers are, very likely, on the lower ends of the post-apocalyptic world's food-chain. Despite their enlarged size and intelligence, they are presumably hunted by every predator on the surface such as demons, watchmen, elder/adult shrimp, and even nosalis. They are elusive scavengers, more prone to flee rather than attack. Additionally, the fact that lurkers tend to be an underground dwelling species, it is likely lurkers come to the surface only when necessary.
 - While infiltrating the Munai-Bailer oil rig in *Metro Exodus*, Artyom will encounter several dead lurkers and spiderbugs. Upon closer inspection the lurker corpses are those of Last Light's lurkers, rather than Exodus' lurkers. This might suggests a differentiation on lurkers (as different breeds/variants/subspecies) or could be an oversight.
 
-## Gallery
-
-### In game
-
-### Models

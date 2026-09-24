@@ -3,7 +3,7 @@ id: darkness
 title: Darkness
 group: Supernatural Phenomena
 order: 42
-image:
+image: /mutant-imgs/darkness.png
 brief: Ill-defined patches of ghost-related darkness that renders electric light useless.
 wiki: darkness
 appearances: Metro Last Light, Metro Exodus

@@ -21,4 +21,3 @@ Extremely territorial, possibly disease ridden, and noticeably famished, these v
 ## Metro Exodus
 Wolves are encountered in the Taiga level, after Artyom passes through a Pirate camp and ziplines across the gorge into the woods. The wolves hunt the deer in the area, while also getting chased off by the Forest Master. While they will attack Artyom if he gets too close, they are relatively easily avoided. After Artyom gets through this section, the wolves are not seen again.
 
-## Gallery

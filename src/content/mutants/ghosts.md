@@ -83,4 +83,3 @@ Ghosts appear in "The Volga" and "The Dead City" levels. They are first found in
 - In *Metro 2033*, the screen starts turning grey upon getting closer to a ghost, a good indicator to that a ghost is near.
 - During the level "Ghosts" in *Metro 2033*, one will see a child ghost, being killed by what appears to be a nosalis ghost. This suggests that the nosalis died shortly after killing the child.
 
-## Gallery

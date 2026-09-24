@@ -71,10 +71,6 @@ If one does not wish to chance losing their throwing knives due to possibly miss
 ## In the Novel
 Librarians are one of the enemies Artyom actually encounters face to face in the book. They quickly attack Artyom, Melnik, Ten, and Daniel when they enter the main hall of the library. They are described identically to their appearance in the game (however, the game model lacks the pointed ears). Black librarians, or any other variation, however, are not encountered. Librarians are depicted as quasi-sentient creatures that hunt and move in packs of two or more individuals. Also, they are intelligent enough to imitate human speech with frightening accuracy, though whether they understand what they are saying or not is unknown. This could suggest that librarians were ordinary human beings before the destruction of Moscow, and that the severe irradiation of the city drastically mutated them. Later, Daniel is killed by a librarian sticking its claw through his stomach from behind. When Daniel then talks, the librarian mimics the words, and then starts mixing them and tells Artyom to "go away"—suggesting librarians retain a high level of intelligence. Librarians are also fond of growing huge plants as a form of agriculture in the novel, again suggesting high-intelligence. Unlike the game, librarians also venture outside into the Library courtyard but still they go no further than this.
 
-## Related Achievements/Trophies
-### Metro 2033
-
-### Metro 2033 Redux
 
 ## Trivia
 - Another notable, perhaps intelligent, action performed by a librarian was placing ammo near a hole in the wall as a trap. If Artyom attempted to grab the ammo, it would grab Artyom through the wall and attempt to kill him. This can be avoided by not grabbing the ammo before going to the other side of the wall. The librarian will retreat after he reaches the other side of the wall, and the ammo can be looted.
@@ -87,4 +83,3 @@ Librarians are one of the enemies Artyom actually encounters face to face in the
 - If librarians did in fact mutate from gorillas, it's rather odd that staring them down is effective. In fact, this is one of the few ways one can incur the wrath of normally peaceful gorillas, since they consider this a challenge.
 - It is likely that they are called "Librarians" as homage to Terry Pratchett and his *Discworld* series. In it, there is a character called the Librarian who is just a wizard transformed into an orangutan. He is the librarian of the wizard's university, mostly guarding its library and is extremely protective of its books. *Metro 2033* author Dmitry Glukhovsky was a fan of fantasy books when he was younger and mentioned Pratchett's works as some of the fantasy books he had.
 
-## Gallery

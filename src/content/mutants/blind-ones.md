@@ -32,9 +32,6 @@ There seems to be some inconsistency regarding the Blind Ones and their weakness
 <blockquote>"I'll find you...soon."</blockquote>
 <blockquote>"What noise? What thing?"</blockquote>
 
-## Related Achievements/Trophies
-
-### The Two Colonels
 
 ## Gallery
 

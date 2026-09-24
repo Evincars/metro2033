@@ -52,4 +52,3 @@ Additionally during the Novosibirsk level, when Artyom is inside the institute, 
 - The anomalies of both the Metro Series and the *S.T.A.L.K.E.R.* series are derived from the anomalies of *Roadside Picnic*. Both Metro 2033's Dark Star anomalies and the *S.T.A.L.K.E.R.* Electro and Tesla anomalies were inspired by the "комариная плешь" anomalies in *Roadside Picnic*. In fact, the Dark Star very closely resembles a Tesla.
 - During the level "Anomaly", Khan tells Artyom to *"Try to get a better understanding of things before you make your judgement."* Though the parallels to the game's ending are clear, this line is also possibly referring to Khan's alleged journeys to Sevastopolskaya and the "end of the dead line" theorized in the novel. 
 
-## Gallery

@@ -24,7 +24,6 @@ After taking some damage, or destroying all pillars in the first area, the Rhino
 
 It's a good strategy to use claymore mines against the Rhino, since they deal tremendous damage and are rather easy to use against an enemy that keeps charging the player. On Ranger Basic and Ranger Hardcore, the second part of the fight can be ended with a single claymore mine.
 
-## Related Achievements
 
 ## Trivia
 - In the Theatre Station, Artyom can overhear children likening these creatures to elephants, which an elderly man seems to agree with, saying that there used to be elephants at the zoo right before the war.
@@ -32,8 +31,3 @@ It's a good strategy to use claymore mines against the Rhino, since they deal tr
 - <span style="line-height:21px;text-align:justify;">Curiously, the Rhino appears to have multiple teats, indicating that Nosalis are mammals, and suckle milk from their brood mother. It's unknown whether there is only the one Rhino (which Artyom kills) or many.</span>
 - It's possible that they're derived from the Rhino Mouse, a unique species of mice that are afflicted with range of skin or nail disorders cause by glandular problems causing them to be very thick skinned and resistant to the elements. If this is the case, it could mean that all Nosalis are, in fact, derived from the Rhino Mouse. The explanation of the Flying Nosalis would be then that the radiation caused the separate gene pools of mice and bats to be able to integrate.
 
-## Gallery
-
-### In game
-
-### Models and arts

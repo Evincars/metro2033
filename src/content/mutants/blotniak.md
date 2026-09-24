@@ -30,4 +30,3 @@ Squawking, murmuring, and other similarly sounding noises are the primary means 
 - Due to their mutated similarities to humans, błotniaki could be compared to the humanimals, but in their intelligence they more closely resemble the librarians and the Dark Ones.
 - The błotniak bears some resemblance to the topielec or utopiec, an evil underwater spirit in Slavonic mythology. They have appeared in Polish video games from the Wiedźmin (Witcher) series. Another inspiration for this creature could have been the vodyanoi or vodnik, a different water spirit from the Slavic mythos.
 
-## Gallery

@@ -3,7 +3,7 @@ id: river-of-fate
 title: River of Fate
 group: Supernatural Phenomena
 order: 46
-image:
+image: /mutant-imgs/river-of-fate.png
 brief: An anomalous flow of water said to change the destiny of those who enter it.
 wiki: river-of-fate
 appearances: Metro 2033 (Novel)

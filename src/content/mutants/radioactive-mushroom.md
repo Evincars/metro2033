@@ -32,4 +32,3 @@ In *Metro: Last Light*, these mushrooms no longer give off radioactivity, so peo
 - A similar or perhaps even the same species of mushroom is found in parts of Kraków, Poland - as we find out in *The Promised Human*.
 - In *Metro Exodus*, these mushrooms seem to point out a more tactical or stealthier way to your intended destination.
 
-## Gallery

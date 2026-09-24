@@ -67,7 +67,6 @@ In *The Two Colonels* DLC, Khlebnikov also encounters nosalises in large numbers
 
 From a tactical standpoint, nosalises retain much of their abilities, damage, speed and phenomenal combos from *Metro: Last Light*. When they sense Artyom or Khlebnikov, they will let out their trademark "howls", which also might act as calls to arms, because many more will immediately swarm the area. These mutants are as deadly as ever and two or three of them attacking at the same time can bring down a human in seconds even on Normal difficulty. When Artyom and Miller fight the nosalises together, one can use almost any weapon because Miller will make short work of most of them. When going against them alone, the best weapons to counter them are the Shambler and the Tikhar, especially the Volt Driver variant which Miller hands to Artyom during the last level. Both of these weapons would benefit greatly from expanded magazines as nosalises attack in their typical large groups. Automatic weapons with high damage like the Kalash and Bulldog are also good enough as long as headshots are taken. If going for body shots, these two automatic rifles deal subpar damage to nosalises and this might prove disastrous when many of them attack. In *The Two Colonels* DLC, Khlebnikov only has a flamethrower at his disposal when fighting them. This weapon is very effective against nosalises as not only it brings down their health rapidly, it also makes them run away in pain instead of fighting back. It is advised to install the latest pump mechanism on the flamethrower, which prevents it from losing pressure and, thus, doesn't require the user to increase it at a critical time. The largest magazine is also very welcome as the nosalises attack in large numbers (larger than in the base game)..
 
-## Related Achievements
 
 ## Trivia
 - The Russian name for the nosalis translates as "nose" (Russian "nosach" - the one with a big or spectacular nose) or sometimes "ghoul" and "vampire" (Russian "upyr").
@@ -76,8 +75,3 @@ From a tactical standpoint, nosalises retain much of their abilities, damage, sp
     - One event has a nosalis pounce on top of the Artyom, and he will stab it in the side of the neck.
     - The second quick-time event is where it will knock Artyom to the ground. He will get his knife out, stab it through its lower lip and then through the top of its skull, before finishing it with a stab to the neck, forcing it off of him.
 
-## Gallery
-
-### In game
-
-### Models and arts

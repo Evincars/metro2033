@@ -40,8 +40,10 @@ The bear is a much more dangerous foe compared to it's previous iteration, since
 
 ## Related Achievements/Trophies
 ### Metro: Last Light
+- **Forest Guardian** (Silver Trophy / 20G) — Save the Bear from the Watchmen after the fight. [View on Fandom wiki](https://metrovideogame.fandom.com/wiki/Forest_Guardian)
 
 ### Metro Exodus
+- **Master of the Forest** (Bronze Trophy / 15G) — Stand your ground against the Bear at the first encounter. [View on Fandom wiki](https://metrovideogame.fandom.com/wiki/Master_of_the_Forest)
 
 ## Trivia
 ### Metro: Last Light
@@ -53,8 +55,3 @@ The bear is a much more dangerous foe compared to it's previous iteration, since
 - The bear cub's roars are slightly distorted roars of real-life bear cubs.
     - Said bear cubs also seem to be much less mutated than the mother bear. Their teeth and maw are not as crooked as the mother, and they sport fewer tumors and muscles, though all this might change as they grow older. It must also be noted that these bear cubs act relatively normal by pre-war standards: despite being obviously larger than present-day bear cubs, these juveniles act much like them. The cubs will play around with objects (in this case rolling a barrel around) and call for their mother when threatened.
 
-## Gallery
-
-### In game
-
-### Models and arts

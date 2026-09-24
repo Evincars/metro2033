@@ -3,6 +3,7 @@ import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { marked } from 'marked'
 import { CREATURE_CATEGORIES, MUTANT_GROUPS, mutants, mutantsById } from '../data/mutants'
+import galleryManifest from '../data/galleryManifest.json'
 import { fuzzyMatch } from '../utils/search'
 import { handleInternalClick, linkify } from '../utils/wikiLinks'
 import { t } from '../i18n'
@@ -83,6 +84,17 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
 function openMutant(id) {
   router.push({ name: 'mutant-detail', params: { id } })
 }
+const galleryImages = computed(() => {
+  if (!activeId.value) return []
+  return galleryManifest[activeId.value] || []
+})
+
+const lightboxIdx = ref(-1)
+function openLightbox(i) { lightboxIdx.value = i }
+function closeLightbox() { lightboxIdx.value = -1 }
+function prevImage() { if (lightboxIdx.value > 0) lightboxIdx.value-- }
+function nextImage() { if (lightboxIdx.value < galleryImages.value.length - 1) lightboxIdx.value++ }
+
 function backToList() {
   router.push({ name: 'mutants' })
 }
@@ -115,6 +127,30 @@ function backToList() {
         </figure>
 
         <div class="markdown-body" v-html="renderedBody" @click="onBodyClick" />
+
+        <section v-if="galleryImages.length" class="gallery-section">
+          <h2 class="gallery-title">Gallery</h2>
+          <div class="gallery-grid">
+            <button
+              v-for="(src, i) in galleryImages"
+              :key="src"
+              class="gallery-thumb"
+              type="button"
+              @click="openLightbox(i)"
+            >
+              <img :src="src" :alt="`${activeMutant.title} screenshot ${i + 1}`" loading="lazy" referrerpolicy="no-referrer" />
+            </button>
+          </div>
+        </section>
+
+        <Teleport to="body">
+          <div v-if="lightboxIdx >= 0" class="lightbox-overlay" @click.self="closeLightbox">
+            <button class="lightbox-close" @click="closeLightbox">&times;</button>
+            <button v-if="lightboxIdx > 0" class="lightbox-nav lightbox-prev" @click="prevImage">&lsaquo;</button>
+            <img class="lightbox-img" :src="galleryImages[lightboxIdx]" :alt="activeMutant.title" />
+            <button v-if="lightboxIdx < galleryImages.length - 1" class="lightbox-nav lightbox-next" @click="nextImage">&rsaquo;</button>
+          </div>
+        </Teleport>
 
         <a
           v-if="activeMutant.wiki"
@@ -483,6 +519,103 @@ function backToList() {
   color: var(--color-amber-bright);
 }
 
+/* Gallery */
+.gallery-section {
+  margin-top: 1.5rem;
+}
+
+.gallery-title {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  color: var(--color-amber-bright);
+  margin: 0 0 0.7rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--color-border-strong);
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 0.5rem;
+}
+
+.gallery-thumb {
+  cursor: pointer;
+  border: 1px solid var(--color-border);
+  background: rgba(0, 0, 0, 0.25);
+  padding: 0;
+  overflow: hidden;
+  aspect-ratio: 16 / 10;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.gallery-thumb:hover {
+  border-color: var(--color-amber);
+  box-shadow: var(--glow-amber);
+}
+
+.gallery-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Lightbox */
+.lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox-img {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+  border: 1px solid var(--color-border-strong);
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 1rem;
+  right: 1.2rem;
+  font-size: 2rem;
+  color: var(--color-text);
+  background: none;
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+  z-index: 1;
+}
+
+.lightbox-close:hover {
+  color: var(--color-amber-bright);
+}
+
+.lightbox-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 3rem;
+  color: var(--color-text);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  z-index: 1;
+}
+
+.lightbox-nav:hover {
+  color: var(--color-amber-bright);
+}
+
+.lightbox-prev { left: 1rem; }
+.lightbox-next { right: 1rem; }
+
 @media (max-width: 600px) {
   .navbox-row {
     flex-direction: column;
@@ -491,6 +624,10 @@ function backToList() {
 
   .navbox-group {
     width: auto;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   }
 }
 </style>

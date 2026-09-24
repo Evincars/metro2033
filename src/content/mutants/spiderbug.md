@@ -60,4 +60,3 @@ The appearance of both types of spiders emerging from the same type of egg is mo
 - Spiderbugs resemble Leapers from Insomniac's *Resistance* franchise. They also utilize the same attack strategy of rushing the enemy in large numbers. 
 - The male spiderbug, especially in *Metro 2033 Redux*, are very visually similar to a real, common Australian spider (though much larger and able to use their tail). 
 
-## Gallery

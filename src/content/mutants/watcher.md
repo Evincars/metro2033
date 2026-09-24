@@ -55,8 +55,3 @@ Watchers are not mentioned by name in the book, but are encountered by Artyom du
 
 ## Videos
 
-## Gallery
-
-### In game
-
-### Models
