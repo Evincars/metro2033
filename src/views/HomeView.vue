@@ -23,6 +23,7 @@ const destinations = [
   { to: '/levels', code: '06', icon: '◉', titleKey: 'nav.levels', textKey: 'home.dest.levels' },
   { to: '/locations', code: '07', icon: '⌖', titleKey: 'nav.locations', textKey: 'home.dest.locations' },
   { to: '/characters', code: '08', icon: '☻', titleKey: 'nav.characters', textKey: 'home.dest.characters' },
+  { to: '/mutants', code: '09', icon: '☣', titleKey: 'nav.mutants', textKey: 'home.dest.mutants' },
   { to: '/games', code: '★', icon: '🎮', titleKey: 'nav.games', textKey: 'home.dest.games' },
   { to: '/books', code: '★', icon: '📖', titleKey: 'nav.books', textKey: 'home.dest.books' },
 ]

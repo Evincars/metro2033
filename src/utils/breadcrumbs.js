@@ -2,6 +2,7 @@ import { levelsById } from '../data/levels'
 import { locationsById, metroLineById } from '../data/locations'
 import { factionsById } from '../data/factions'
 import { charactersById } from '../data/characters'
+import { mutantsById } from '../data/mutants'
 import { eventArticlesById } from '../data/eventArticles'
 import { booksById } from '../data/books'
 import { gamesById } from '../data/games'
@@ -16,6 +17,7 @@ const SECTION = {
   levels: { label: t('nav.levels'), to: '/levels' },
   locations: { label: t('nav.locations'), to: '/locations' },
   characters: { label: t('nav.characters'), to: '/characters' },
+  mutants: { label: t('nav.mutants'), to: '/mutants' },
   games: { label: t('nav.games'), to: '/games' },
   books: { label: t('nav.books'), to: '/books' },
   about: { label: t('nav.about'), to: '/about' },
@@ -40,6 +42,8 @@ export function getBreadcrumbs(route) {
       return [SECTION.factions, { label: factionsById[id]?.title ?? t('breadcrumb.faction') }]
     case 'character-detail':
       return [SECTION.characters, { label: charactersById[id]?.title ?? t('breadcrumb.character') }]
+    case 'mutant-detail':
+      return [SECTION.mutants, { label: mutantsById[id]?.title ?? t('breadcrumb.mutant') }]
     case 'event-detail':
       return [SECTION.events, { label: eventArticlesById[id]?.title ?? t('breadcrumb.event') }]
     case 'book-detail':

@@ -18,6 +18,7 @@ export default {
   'nav.levels': 'Levels',
   'nav.locations': 'Locations',
   'nav.characters': 'Characters',
+  'nav.mutants': 'Mutants',
 
   // NavPanel status
   'status.signal': 'Signal',
@@ -49,6 +50,7 @@ export default {
   'home.dest.levels': "Walkthrough-grade notes on every chapter of Artyom's journey.",
   'home.dest.locations': 'Surface ruins, secret lines and landmarks above and below the city.',
   'home.dest.characters': 'The people of the Metro — allies, rivals and legends of the dark.',
+  'home.dest.mutants': 'The creatures of the tunnels and the surface — mutants, beasts and supernatural horrors.',
   'home.dest.games': "4A Games' shooters, from the first tunnels to the open wastes of Exodus.",
   'home.dest.books': "Glukhovsky's novels and the sprawling Universe of Metro 2033.",
 
@@ -111,6 +113,27 @@ export default {
   'characters.groupAssociated': 'Associated characters',
   'characters.groupNotable': 'Other notable characters',
   'characters.groupLastLight': 'Metro: Last Light',
+
+  // Mutants
+  'mutants.backToList': '← All mutants',
+  'mutants.fandomLink': 'Read the full article on Fandom ↗',
+  'mutants.tag': 'Bestiary',
+  'mutants.title': 'Mutants',
+  'mutants.description': 'The creatures born from radiation and the supernatural terrors of the tunnels. Nosalises, Demons, Dark Ones and worse — every species catalogued by the survivors of the Metro.',
+  'mutants.searchPlaceholder': 'Filter mutants…  (press / to focus)',
+  'mutants.noMatches': 'No matches',
+  'mutants.noMatchesText': 'No mutant matches',
+  'mutants.appearances': 'Appearances',
+  'mutants.groupMutantAnimals': 'Mutant Animals',
+  'mutants.groupPlantMutants': 'Plant Mutants',
+  'mutants.groupSupernatural': 'Supernatural Phenomena',
+  'mutants.creaturesTitle': 'Creatures of the Metro Series',
+  'mutants.groupTerrestrial': 'Terrestrial Animals',
+  'mutants.groupAvian': 'Avian Animals',
+  'mutants.groupAquatic': 'Aquatic Animals',
+  'mutants.groupPlantLife': 'Plant Life Forms',
+  'mutants.groupHumanoids': 'Humanoids',
+  'mutants.groupSupernaturalPhenomena': 'Supernatural Phenomena',
 
   // Factions
   'factions.backToList': '← All factions',
@@ -230,4 +253,5 @@ export default {
   'breadcrumb.event': 'Event',
   'breadcrumb.book': 'Book',
   'breadcrumb.game': 'Game',
+  'breadcrumb.mutant': 'Mutant',
 }

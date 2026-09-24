@@ -15,6 +15,7 @@ export default {
   'nav.levels': 'Рівні',
   'nav.locations': 'Локації',
   'nav.characters': 'Персонажі',
+  'nav.mutants': 'Мутанти',
 
   'status.signal': 'Сигнал',
   'status.rad': 'Рад',
@@ -44,6 +45,7 @@ export default {
   'home.dest.levels': 'Детальні нотатки до кожного розділу подорожі Артема.',
   'home.dest.locations': 'Руїни на поверхні, таємні лінії та визначні місця над і під містом.',
   'home.dest.characters': 'Люди Метро — союзники, суперники та легенди темряви.',
+  'home.dest.mutants': 'Істоти тунелів та поверхні — мутанти, звірі та надприродні жахіття.',
   'home.dest.games': 'Шутери від 4A Games — від перших тунелів до відкритих пустищ «Вихід».',
   'home.dest.books': 'Романи Глуховського та масштабний «Всесвіт Метро 2033».',
 
@@ -102,6 +104,26 @@ export default {
   'characters.groupAssociated': 'Пов\'язані персонажі',
   'characters.groupNotable': 'Інші важливі персонажі',
   'characters.groupLastLight': 'Метро: Промінь надії',
+
+  'mutants.backToList': '← Усі мутанти',
+  'mutants.fandomLink': 'Читати повну статтю на Fandom ↗',
+  'mutants.tag': 'Бестіарій',
+  'mutants.title': 'Мутанти',
+  'mutants.description': 'Істоти, народжені радіацією, та надприродні жахи тунелів. Носачі, Демони, Темні та ще гірше — кожен вид, каталогізований вцілілими Метро.',
+  'mutants.searchPlaceholder': 'Фільтр мутантів…  (натисніть / для пошуку)',
+  'mutants.noMatches': 'Немає збігів',
+  'mutants.noMatchesText': 'Жоден мутант не відповідає',
+  'mutants.appearances': 'Появи',
+  'mutants.groupMutantAnimals': 'Мутовані тварини',
+  'mutants.groupPlantMutants': 'Мутовані рослини',
+  'mutants.groupSupernatural': 'Надприродні явища',
+  'mutants.creaturesTitle': 'Істоти серії Метро',
+  'mutants.groupTerrestrial': 'Наземні тварини',
+  'mutants.groupAvian': 'Птахи',
+  'mutants.groupAquatic': 'Водні тварини',
+  'mutants.groupPlantLife': 'Рослини',
+  'mutants.groupHumanoids': 'Гуманоїди',
+  'mutants.groupSupernaturalPhenomena': 'Надприродні явища',
 
   'factions.backToList': '← Усі фракції',
   'factions.fandomLink': 'Читати повну статтю на Fandom ↗',
@@ -210,4 +232,5 @@ export default {
   'breadcrumb.event': 'Подія',
   'breadcrumb.book': 'Книга',
   'breadcrumb.game': 'Гра',
+  'breadcrumb.mutant': 'Мутант',
 }

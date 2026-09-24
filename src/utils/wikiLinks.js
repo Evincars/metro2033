@@ -2,6 +2,7 @@ import { levels } from '../data/levels'
 import { locations } from '../data/locations'
 import { factions } from '../data/factions'
 import { characters } from '../data/characters'
+import { mutants } from '../data/mutants'
 import { eventArticles } from '../data/eventArticles'
 import { books } from '../data/books'
 import { games } from '../data/games'
@@ -26,6 +27,7 @@ const slugToHref = {}
 for (const f of factions) if (f.wiki) slugToHref[decodeURIComponent(f.wiki)] = `/factions/${f.id}`
 for (const loc of locations) if (loc.wiki) slugToHref[decodeURIComponent(loc.wiki)] = `/locations/${loc.id}`
 for (const c of characters) if (c.wiki) slugToHref[decodeURIComponent(c.wiki)] = `/characters/${c.id}`
+for (const m of mutants) if (m.wiki) slugToHref[decodeURIComponent(m.wiki)] = `/mutants/${m.id}`
 for (const ev of eventArticles) if (ev.wiki) slugToHref[decodeURIComponent(ev.wiki)] = `/events/${ev.id}`
 for (const b of books) if (b.wiki) slugToHref[decodeURIComponent(b.wiki)] = `/books/${b.id}`
 for (const g of games) if (g.wiki) slugToHref[decodeURIComponent(g.wiki)] = `/games/${g.id}`
@@ -49,6 +51,7 @@ function addAlias(text, href) {
 }
 for (const f of factions) addAlias(f.title, `/factions/${f.id}`)
 for (const c of characters) addAlias(c.title, `/characters/${c.id}`)
+for (const m of mutants) addAlias(m.title, `/mutants/${m.id}`)
 for (const ev of eventArticles) addAlias(ev.title, `/events/${ev.id}`)
 for (const b of books) addAlias(b.title, `/books/${b.id}`)
 // Game titles, except "Metro 2033" which collides with the novel (books win).

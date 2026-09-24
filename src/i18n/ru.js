@@ -15,6 +15,7 @@ export default {
   'nav.levels': 'Уровни',
   'nav.locations': 'Локации',
   'nav.characters': 'Персонажи',
+  'nav.mutants': 'Мутанты',
 
   'status.signal': 'Сигнал',
   'status.rad': 'Рад',
@@ -44,6 +45,7 @@ export default {
   'home.dest.levels': 'Подробные заметки по каждой главе путешествия Артёма.',
   'home.dest.locations': 'Руины на поверхности, тайные линии и достопримечательности над и под городом.',
   'home.dest.characters': 'Люди Метро — союзники, соперники и легенды тьмы.',
+  'home.dest.mutants': 'Существа тоннелей и поверхности — мутанты, звери и сверхъестественные ужасы.',
   'home.dest.games': 'Шутеры от 4A Games — от первых тоннелей до открытых пустошей «Исхода».',
   'home.dest.books': 'Романы Глуховского и обширная «Вселенная Метро 2033».',
 
@@ -102,6 +104,26 @@ export default {
   'characters.groupAssociated': 'Связанные персонажи',
   'characters.groupNotable': 'Другие важные персонажи',
   'characters.groupLastLight': 'Метро: Луч надежды',
+
+  'mutants.backToList': '← Все мутанты',
+  'mutants.fandomLink': 'Читать полную статью на Fandom ↗',
+  'mutants.tag': 'Бестиарий',
+  'mutants.title': 'Мутанты',
+  'mutants.description': 'Существа, рождённые радиацией, и сверхъестественные ужасы тоннелей. Носачи, Демоны, Тёмные и ещё хуже — каждый вид, каталогизированный выжившими Метро.',
+  'mutants.searchPlaceholder': 'Фильтр мутантов…  (нажмите / для поиска)',
+  'mutants.noMatches': 'Нет совпадений',
+  'mutants.noMatchesText': 'Ни один мутант не соответствует',
+  'mutants.appearances': 'Появления',
+  'mutants.groupMutantAnimals': 'Мутировавшие животные',
+  'mutants.groupPlantMutants': 'Мутировавшие растения',
+  'mutants.groupSupernatural': 'Сверхъестественные явления',
+  'mutants.creaturesTitle': 'Существа серии Метро',
+  'mutants.groupTerrestrial': 'Наземные животные',
+  'mutants.groupAvian': 'Птицы',
+  'mutants.groupAquatic': 'Водные животные',
+  'mutants.groupPlantLife': 'Растения',
+  'mutants.groupHumanoids': 'Гуманоиды',
+  'mutants.groupSupernaturalPhenomena': 'Сверхъестественные явления',
 
   'factions.backToList': '← Все фракции',
   'factions.fandomLink': 'Читать полную статью на Fandom ↗',
@@ -210,4 +232,5 @@ export default {
   'breadcrumb.event': 'Событие',
   'breadcrumb.book': 'Книга',
   'breadcrumb.game': 'Игра',
+  'breadcrumb.mutant': 'Мутант',
 }
