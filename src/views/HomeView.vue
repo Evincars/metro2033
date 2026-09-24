@@ -147,10 +147,9 @@ const destinations = [
 
 .hero-actions {
   display: flex;
-  gap: 2.2rem;
+  gap: 0.6rem;
   margin-top: 1.5rem;
   flex-wrap: wrap;
-  padding-left: 2rem;
 }
 
 .crossroad {

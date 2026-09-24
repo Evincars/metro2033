@@ -179,7 +179,9 @@ p {
   line-height: 1.15rem;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  padding: 0.8rem 0.4rem;
+  padding: 0.8rem 0;
+  margin-left: 2.2rem;
+  margin-right: 2.2rem;
   background: #f5b700;
   border: none;
   border-radius: 0;
