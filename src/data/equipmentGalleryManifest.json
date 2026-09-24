@@ -1,0 +1,212 @@
+{
+  "ammunition": [
+    "/equipment-imgs/gallery/ammunition/0.44.png",
+    "/equipment-imgs/gallery/ammunition/12x70.png",
+    "/equipment-imgs/gallery/ammunition/5_45.png",
+    "/equipment-imgs/gallery/ammunition/Strely.png"
+  ],
+  "armor": [
+    "/equipment-imgs/gallery/armor/CarrierVestMetroExodus.png",
+    "/equipment-imgs/gallery/armor/Default_armor1.jpg",
+    "/equipment-imgs/gallery/armor/Default_armor2.jpg",
+    "/equipment-imgs/gallery/armor/Default_armor3.jpg",
+    "/equipment-imgs/gallery/armor/Default_armor_fix.jpg",
+    "/equipment-imgs/gallery/armor/Default_armor_fix2.jpg",
+    "/equipment-imgs/gallery/armor/Heavy_armor1.jpg",
+    "/equipment-imgs/gallery/armor/MLL_Armor_Red_Helmet.jpg",
+    "/equipment-imgs/gallery/armor/MLL_hazard_suit.jpg",
+    "/equipment-imgs/gallery/armor/MLL_heavy_suit.jpg",
+    "/equipment-imgs/gallery/armor/MLL_ranger_vest.jpg",
+    "/equipment-imgs/gallery/armor/Metro2033_2014-05-01_19-00-12-95.jpg",
+    "/equipment-imgs/gallery/armor/Metro2033_2014-05-01_19-00-23-35.jpg",
+    "/equipment-imgs/gallery/armor/Stealth_armor1.jpg",
+    "/equipment-imgs/gallery/armor/Stealth_armor_0001.jpg"
+  ],
+  "artyoms-bracer": [
+    "/equipment-imgs/gallery/artyoms-bracer/ArtyomBracerFront.png",
+    "/equipment-imgs/gallery/artyoms-bracer/Ilya-tolmachev-wristlet-1.jpg",
+    "/equipment-imgs/gallery/artyoms-bracer/Ilya-tolmachev-wristlet-2.jpg",
+    "/equipment-imgs/gallery/artyoms-bracer/WorkbenchMetroExodus.png"
+  ],
+  "artyoms-map": [
+    "/equipment-imgs/gallery/artyoms-map/20190519002607_1.jpg",
+    "/equipment-imgs/gallery/artyoms-map/ME_Map_Caspian.jpeg",
+    "/equipment-imgs/gallery/artyoms-map/ME_Map_Novosibirsk.jpg",
+    "/equipment-imgs/gallery/artyoms-map/ME_Map_Taiga.jpg"
+  ],
+  "attachments": [
+    "/equipment-imgs/gallery/attachments/ATT_IRNV.png",
+    "/equipment-imgs/gallery/attachments/ATT_collimator.png",
+    "/equipment-imgs/gallery/attachments/ATT_supressor.png",
+    "/equipment-imgs/gallery/attachments/LaserSightBastard.png",
+    "/equipment-imgs/gallery/attachments/Revolver_barrel_1.png",
+    "/equipment-imgs/gallery/attachments/Revolver_stock_optics_silencer_1.png",
+    "/equipment-imgs/gallery/attachments/Uboinik_bayonet_1.png"
+  ],
+  "backpack": [
+    "/equipment-imgs/gallery/backpack/KalashModsMetroExodus.png",
+    "/equipment-imgs/gallery/backpack/ME_Render_Backpack.png",
+    "/equipment-imgs/gallery/backpack/PlecakMetroExodus.png",
+    "/equipment-imgs/gallery/backpack/ZipZippetyZipZip.png"
+  ],
+  "binoculars": [
+    "/equipment-imgs/gallery/binoculars/Binoculars2MetroExodus.png",
+    "/equipment-imgs/gallery/binoculars/BinocularsMetroExodus.png",
+    "/equipment-imgs/gallery/binoculars/Exodus_-_flaga.jpg"
+  ],
+  "crafting": [
+    "/equipment-imgs/gallery/crafting/CarrierVestMetroExodus.png",
+    "/equipment-imgs/gallery/crafting/Exodus_Workbench_Render.png"
+  ],
+  "decoy": [
+    "/equipment-imgs/gallery/decoy/ME_Decoy_Crafting.jpg"
+  ],
+  "electrical-equipment": [
+    "/equipment-imgs/gallery/electrical-equipment/Electrical_Battery_Controller.png",
+    "/equipment-imgs/gallery/electrical-equipment/Electrical_Bright_Flashlight.png",
+    "/equipment-imgs/gallery/electrical-equipment/Electrical_Default.png",
+    "/equipment-imgs/gallery/electrical-equipment/Electrical_NVD_Amplifier.png",
+    "/equipment-imgs/gallery/electrical-equipment/Exodus_Electrical_Equipment.png"
+  ],
+  "filters": [
+    "/equipment-imgs/gallery/filters/2033_Render_Filters.png",
+    "/equipment-imgs/gallery/filters/LL_Render_Filters.png"
+  ],
+  "flashlight": [
+    "/equipment-imgs/gallery/flashlight/2012-02-26_00008.jpg",
+    "/equipment-imgs/gallery/flashlight/2012-02-26_00009.jpg",
+    "/equipment-imgs/gallery/flashlight/2012-02-26_00010.jpg",
+    "/equipment-imgs/gallery/flashlight/2012-02-26_00011.jpg",
+    "/equipment-imgs/gallery/flashlight/2012-02-26_00012.jpg",
+    "/equipment-imgs/gallery/flashlight/Arty.jpg",
+    "/equipment-imgs/gallery/flashlight/MetroLL_2013-07-29_15-13-23-87.jpg",
+    "/equipment-imgs/gallery/flashlight/MetroLL_2013-07-29_15-13-38-04.jpg",
+    "/equipment-imgs/gallery/flashlight/MetroLL_2013-07-29_15-13-44-43.jpg",
+    "/equipment-imgs/gallery/flashlight/MetroLL_2013-07-29_15-14-13-86.jpg",
+    "/equipment-imgs/gallery/flashlight/MetroLL_2013-07-29_15-14-18-32.jpg"
+  ],
+  "gas-mask": [
+    "/equipment-imgs/gallery/gas-mask/2014-07-14_00001.jpg",
+    "/equipment-imgs/gallery/gas-mask/2014-07-26_00001.jpg",
+    "/equipment-imgs/gallery/gas-mask/2014-07-26_00002.jpg",
+    "/equipment-imgs/gallery/gas-mask/2014-07-26_00004.jpg",
+    "/equipment-imgs/gallery/gas-mask/20180208_004648.JPG",
+    "/equipment-imgs/gallery/gas-mask/2033_Render_Gas_Mask.png",
+    "/equipment-imgs/gallery/gas-mask/Bandit_Respirator.jpg",
+    "/equipment-imgs/gallery/gas-mask/Bildota_0007.jpg",
+    "/equipment-imgs/gallery/gas-mask/DuctTapeMetroExodus.png",
+    "/equipment-imgs/gallery/gas-mask/Exodus_-_zdejmowanie_maski.jpg",
+    "/equipment-imgs/gallery/gas-mask/Gasmask_Default.png",
+    "/equipment-imgs/gallery/gas-mask/Gasmask_Filter_Upgrade.png",
+    "/equipment-imgs/gallery/gas-mask/Gasmask_Reinforced_Glass.png",
+    "/equipment-imgs/gallery/gas-mask/Gasmask_Reinforced_Helmet.png",
+    "/equipment-imgs/gallery/gas-mask/Library_alpha_0002.jpg",
+    "/equipment-imgs/gallery/gas-mask/M10m-gas-mask-filterbig.jpg",
+    "/equipment-imgs/gallery/gas-mask/MaskOnMetroExodus.png",
+    "/equipment-imgs/gallery/gas-mask/Maska_Przeciwgazowa_M10.jpg",
+    "/equipment-imgs/gallery/gas-mask/Maska_Przeciwgazowa_M10__Czarna_.jpg",
+    "/equipment-imgs/gallery/gas-mask/Maska_Przeciwgazowa_PMK__Czarne_Szkie_ka_.JPG",
+    "/equipment-imgs/gallery/gas-mask/Maska_Przeciwgazowa__GP-5_.jpg",
+    "/equipment-imgs/gallery/gas-mask/Maska_Przeciwgazowa__Hanza_1_.jpg",
+    "/equipment-imgs/gallery/gas-mask/Maska_Przeciwgazowa__Hanza_2_.jpg",
+    "/equipment-imgs/gallery/gas-mask/Maska_Przeciwgazowa__Hanza_3_.jpg",
+    "/equipment-imgs/gallery/gas-mask/Maska_Przeciwgazowa__Hanza_5_.jpg",
+    "/equipment-imgs/gallery/gas-mask/Maska_Przeciwgazowa__Hanza_6_.jpg",
+    "/equipment-imgs/gallery/gas-mask/Maska_Przeciwgazowa__Popularna_.jpg",
+    "/equipment-imgs/gallery/gas-mask/Maska_Przeciwgazowa__Respirator___Papacha_.jpg",
+    "/equipment-imgs/gallery/gas-mask/Maska_Przeciwgazowa__Stalker_1_.jpg",
+    "/equipment-imgs/gallery/gas-mask/Maska_Przeciwgazowa__Stalker_2_.jpg",
+    "/equipment-imgs/gallery/gas-mask/Maska_Przeciwgazowa__Zakon_Spartan_1_.jpg",
+    "/equipment-imgs/gallery/gas-mask/Maska_Przeciwgazowa__Zakon_Spartan_2_.jpg",
+    "/equipment-imgs/gallery/gas-mask/Maska_przeciwgazowa_Reich__M33R_.jpg",
+    "/equipment-imgs/gallery/gas-mask/Nazi_0001_M2033.jpg",
+    "/equipment-imgs/gallery/gas-mask/Nazi_0002_M2033.jpg",
+    "/equipment-imgs/gallery/gas-mask/Nazi_0003_M2033.jpg",
+    "/equipment-imgs/gallery/gas-mask/Nazi_0005_M2033.jpg",
+    "/equipment-imgs/gallery/gas-mask/Ppm-88.jpg",
+    "/equipment-imgs/gallery/gas-mask/Protivogaz.png",
+    "/equipment-imgs/gallery/gas-mask/ProtivogazRear.png",
+    "/equipment-imgs/gallery/gas-mask/Reich_soldier.jpg",
+    "/equipment-imgs/gallery/gas-mask/Respirator__M33R_.jpg",
+    "/equipment-imgs/gallery/gas-mask/SpartanHelmetMetroExodus.png",
+    "/equipment-imgs/gallery/gas-mask/________-_he_my_stalkerskie.jpg"
+  ],
+  "geiger-counter": [
+    "/equipment-imgs/gallery/geiger-counter/Exodus_Geiger_Counter.png"
+  ],
+  "grenade": [
+    "/equipment-imgs/gallery/grenade/Ach-Ka-Boom_.jpg",
+    "/equipment-imgs/gallery/grenade/Grenade_flare_unused_M2033.png",
+    "/equipment-imgs/gallery/grenade/Grenade_isometric_M2033.png",
+    "/equipment-imgs/gallery/grenade/LL_Render_Grenade.png",
+    "/equipment-imgs/gallery/grenade/ME_Diary_Grenade.jpg",
+    "/equipment-imgs/gallery/grenade/MLL_Stickey.jpg",
+    "/equipment-imgs/gallery/grenade/SticksLikeABlur.jpg",
+    "/equipment-imgs/gallery/grenade/Weaponsmith.jpg"
+  ],
+  "lighter": [
+    "/equipment-imgs/gallery/lighter/2033_Render_Lighter.png",
+    "/equipment-imgs/gallery/lighter/Exodus_-_zapalniczka.jpg",
+    "/equipment-imgs/gallery/lighter/ME_Diary_Lighter.jpg",
+    "/equipment-imgs/gallery/lighter/Metro_tablet.jpg",
+    "/equipment-imgs/gallery/lighter/Zapalniczka.jpg"
+  ],
+  "medkit": [
+    "/equipment-imgs/gallery/medkit/Exodus_medkit.jpg",
+    "/equipment-imgs/gallery/medkit/ME_Render_Medkit.png",
+    "/equipment-imgs/gallery/medkit/Medkit_M2033.jpg",
+    "/equipment-imgs/gallery/medkit/Medkit_instruction.jpg"
+  ],
+  "metro-made-watch": [
+    "/equipment-imgs/gallery/metro-made-watch/Artyom_watch_MLL.png",
+    "/equipment-imgs/gallery/metro-made-watch/Exodus_-_zegarek__sam_.jpg",
+    "/equipment-imgs/gallery/metro-made-watch/New_Watch.png"
+  ],
+  "military-grade-rounds": [
+    "/equipment-imgs/gallery/military-grade-rounds/Ach-Generous.jpg",
+    "/equipment-imgs/gallery/military-grade-rounds/Ach-Realist2.jpg",
+    "/equipment-imgs/gallery/military-grade-rounds/Ach-Scrooge.jpg",
+    "/equipment-imgs/gallery/military-grade-rounds/Ach-Sher.jpg",
+    "/equipment-imgs/gallery/military-grade-rounds/Ammo_5.45_gold2.png"
+  ],
+  "night-vision-goggles": [
+    "/equipment-imgs/gallery/night-vision-goggles/FrontlineStealth.jpg",
+    "/equipment-imgs/gallery/night-vision-goggles/Metro2033_2013-01-18_22-23-07-77.png",
+    "/equipment-imgs/gallery/night-vision-goggles/Noktowizja__MLL_.jpg"
+  ],
+  "radioprotector": [
+    "/equipment-imgs/gallery/radioprotector/ME_Radioprotector_Label.jpg",
+    "/equipment-imgs/gallery/radioprotector/ME_Render_Radioprotector.png",
+    "/equipment-imgs/gallery/radioprotector/ME_Render_Radioprotector_Box.png",
+    "/equipment-imgs/gallery/radioprotector/ME_Screenshot_Broken_Green_Stuff_Injector.jpg",
+    "/equipment-imgs/gallery/radioprotector/ME_Screenshot_Green_Stuff.jpg",
+    "/equipment-imgs/gallery/radioprotector/ME_Screenshot_Radioprotector_Stockpile.jpg"
+  ],
+  "throwing-knives": [
+    "/equipment-imgs/gallery/throwing-knives/2033_Render_Throwing_Knives.png",
+    "/equipment-imgs/gallery/throwing-knives/Ach-Ninja.jpg",
+    "/equipment-imgs/gallery/throwing-knives/LL_Render_Throwing_Knives.png",
+    "/equipment-imgs/gallery/throwing-knives/Metro2033_2013-01-14_19-09-12-20.png",
+    "/equipment-imgs/gallery/throwing-knives/Weaponsmith.jpg"
+  ],
+  "traps": [
+    "/equipment-imgs/gallery/traps/Ach-Soft_Touch.jpg",
+    "/equipment-imgs/gallery/traps/Trap_spiked_log.jpg",
+    "/equipment-imgs/gallery/traps/Trap_tripwire_canister.jpg",
+    "/equipment-imgs/gallery/traps/Trap_tripwire_pipebomb.jpg"
+  ],
+  "universal-charger": [
+    "/equipment-imgs/gallery/universal-charger/74308553_1_644x461_prodam-elektromotor-mun-2-odessa.jpg",
+    "/equipment-imgs/gallery/universal-charger/Diary-charger.jpg",
+    "/equipment-imgs/gallery/universal-charger/Universal_Charger_Render.png",
+    "/equipment-imgs/gallery/universal-charger/Universal_charger_100_.jpg"
+  ],
+  "universal-detector": [
+    "/equipment-imgs/gallery/universal-detector/Universal_Detector.png"
+  ],
+  "workbench": [
+    "/equipment-imgs/gallery/workbench/CarrierVestMetroExodus.png",
+    "/equipment-imgs/gallery/workbench/Exodus_Workbench_Render.png",
+    "/equipment-imgs/gallery/workbench/SpartanHelmetMetroExodus.png"
+  ]
+}

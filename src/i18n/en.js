@@ -19,6 +19,7 @@ export default {
   'nav.locations': 'Locations',
   'nav.characters': 'Characters',
   'nav.mutants': 'Mutants',
+  'nav.equipment': 'Equipment',
 
   // NavPanel status
   'status.signal': 'Signal',
@@ -51,6 +52,7 @@ export default {
   'home.dest.locations': 'Surface ruins, secret lines and landmarks above and below the city.',
   'home.dest.characters': 'The people of the Metro — allies, rivals and legends of the dark.',
   'home.dest.mutants': 'The creatures of the tunnels and the surface — mutants, beasts and supernatural horrors.',
+  'home.dest.equipment': 'Gas masks, filters, flashlights and every tool a ranger needs to survive the Metro.',
   'home.dest.games': "4A Games' shooters, from the first tunnels to the open wastes of Exodus.",
   'home.dest.books': "Glukhovsky's novels and the sprawling Universe of Metro 2033.",
 
@@ -134,6 +136,23 @@ export default {
   'mutants.groupPlantLife': 'Plant Life Forms',
   'mutants.groupHumanoids': 'Humanoids',
   'mutants.groupSupernaturalPhenomena': 'Supernatural Phenomena',
+
+  // Equipment
+  'equipment.backToList': '← All equipment',
+  'equipment.fandomLink': 'Read the full article on Fandom ↗',
+  'equipment.tag': 'Ranger loadout',
+  'equipment.title': 'Equipment',
+  'equipment.description': 'Every tool, gadget and piece of gear at a ranger\'s disposal — from gas masks and filters to night vision goggles and the universal charger. Select an item for the full dossier.',
+  'equipment.searchPlaceholder': 'Filter equipment…  (press / to focus)',
+  'equipment.noMatches': 'No matches',
+  'equipment.noMatchesText': 'No equipment matches',
+  'equipment.appearances': 'Appearances',
+  'equipment.groupDrugsConsumables': 'Drugs & Consumables',
+  'equipment.groupSuitArmor': 'Suit & Armor',
+  'equipment.groupToolsGadgets': 'Tools & Gadgets',
+  'equipment.groupThrowables': 'Throwables & Explosives',
+  'equipment.groupOther': 'Other',
+  'equipment.navboxTitle': 'Equipment Available in Metro Games',
 
   // Factions
   'factions.backToList': '← All factions',
@@ -254,4 +273,5 @@ export default {
   'breadcrumb.book': 'Book',
   'breadcrumb.game': 'Game',
   'breadcrumb.mutant': 'Mutant',
+  'breadcrumb.equipment': 'Equipment',
 }

@@ -98,6 +98,18 @@ const routes = [
     meta: { label: 'Mutants', leftMenu: true },
   },
   {
+    path: '/equipment',
+    name: 'equipment',
+    component: () => import('../views/EquipmentView.vue'),
+    meta: { label: 'Equipment', code: '10', leftMenu: true },
+  },
+  {
+    path: '/equipment/:id',
+    name: 'equipment-detail',
+    component: () => import('../views/EquipmentView.vue'),
+    meta: { label: 'Equipment', leftMenu: true },
+  },
+  {
     path: '/games',
     name: 'games',
     component: () => import('../views/GamesView.vue'),

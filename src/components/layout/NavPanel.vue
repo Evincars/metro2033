@@ -43,6 +43,7 @@ const navItems = [
   { to: '/locations', labelKey: 'nav.locations', code: '07', icon: '⌖' },
   { to: '/characters', labelKey: 'nav.characters', code: '08', icon: '☻' },
   { to: '/mutants', labelKey: 'nav.mutants', code: '09', icon: '☣' },
+  { to: '/equipment', labelKey: 'nav.equipment', code: '10', icon: '⚙' },
 ]
 
 /* ---- live gas-mask HUD: signal strength + radiation meter ---- */
