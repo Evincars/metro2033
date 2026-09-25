@@ -4,6 +4,7 @@ import { factionsById } from '../data/factions'
 import { charactersById } from '../data/characters'
 import { mutantsById } from '../data/mutants'
 import { equipmentById } from '../data/equipment'
+import { weaponsById } from '../data/weapons'
 import { eventArticlesById } from '../data/eventArticles'
 import { booksById } from '../data/books'
 import { gamesById } from '../data/games'
@@ -20,6 +21,7 @@ const SECTION = {
   characters: { label: t('nav.characters'), to: '/characters' },
   mutants: { label: t('nav.mutants'), to: '/mutants' },
   equipment: { label: t('nav.equipment'), to: '/equipment' },
+  weapons: { label: t('nav.weapons'), to: '/weapons' },
   games: { label: t('nav.games'), to: '/games' },
   books: { label: t('nav.books'), to: '/books' },
   about: { label: t('nav.about'), to: '/about' },
@@ -48,6 +50,8 @@ export function getBreadcrumbs(route) {
       return [SECTION.mutants, { label: mutantsById[id]?.title ?? t('breadcrumb.mutant') }]
     case 'equipment-detail':
       return [SECTION.equipment, { label: equipmentById[id]?.title ?? t('breadcrumb.equipment') }]
+    case 'weapon-detail':
+      return [SECTION.weapons, { label: weaponsById[id]?.title ?? t('breadcrumb.weapon') }]
     case 'event-detail':
       return [SECTION.events, { label: eventArticlesById[id]?.title ?? t('breadcrumb.event') }]
     case 'book-detail':

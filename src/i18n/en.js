@@ -20,6 +20,7 @@ export default {
   'nav.characters': 'Characters',
   'nav.mutants': 'Mutants',
   'nav.equipment': 'Equipment',
+  'nav.weapons': 'Weapons',
 
   // NavPanel status
   'status.signal': 'Signal',
@@ -53,6 +54,7 @@ export default {
   'home.dest.characters': 'The people of the Metro — allies, rivals and legends of the dark.',
   'home.dest.mutants': 'The creatures of the tunnels and the surface — mutants, beasts and supernatural horrors.',
   'home.dest.equipment': 'Gas masks, filters, flashlights and every tool a ranger needs to survive the Metro.',
+  'home.dest.weapons': 'Every firearm from the makeshift Bastard to the pre-war Kalash — the full Metro arsenal.',
   'home.dest.games': "4A Games' shooters, from the first tunnels to the open wastes of Exodus.",
   'home.dest.books': "Glukhovsky's novels and the sprawling Universe of Metro 2033.",
 
@@ -136,6 +138,27 @@ export default {
   'mutants.groupPlantLife': 'Plant Life Forms',
   'mutants.groupHumanoids': 'Humanoids',
   'mutants.groupSupernaturalPhenomena': 'Supernatural Phenomena',
+
+  // Weapons
+  'weapons.backToList': '← All weapons',
+  'weapons.fandomLink': 'Read the full article on Fandom ↗',
+  'weapons.tag': 'Arsenal',
+  'weapons.title': 'Weapons',
+  'weapons.description': 'Every weapon in the Metro universe — from crude metro-made firearms to sophisticated pre-war rifles. Select a weapon for the full dossier.',
+  'weapons.searchPlaceholder': 'Filter weapons…  (press / to focus)',
+  'weapons.noMatches': 'No matches',
+  'weapons.noMatchesText': 'No weapon matches',
+  'weapons.appearances': 'Appearances',
+  'weapons.groupMelee': 'Melee',
+  'weapons.groupHandguns': 'Handguns',
+  'weapons.groupAssaultRifles': 'Assault Rifles',
+  'weapons.groupSniperRifles': 'Sniper Rifles',
+  'weapons.groupShotguns': 'Shotguns',
+  'weapons.groupPneumatic': 'Pneumatic Weapons',
+  'weapons.groupHeavy': 'Heavy Weapons',
+  'weapons.groupThrowables': 'Throwables & Explosives',
+  'weapons.groupEmplacement': 'Emplacement Weapons',
+  'weapons.navboxTitle': 'Weapons of the Metro Series',
 
   // Equipment
   'equipment.backToList': '← All equipment',
@@ -274,4 +297,5 @@ export default {
   'breadcrumb.game': 'Game',
   'breadcrumb.mutant': 'Mutant',
   'breadcrumb.equipment': 'Equipment',
+  'breadcrumb.weapon': 'Weapon',
 }
