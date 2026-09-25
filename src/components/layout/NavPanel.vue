@@ -45,6 +45,8 @@ const navItems = [
   { to: '/mutants', labelKey: 'nav.mutants', code: '09', icon: '☣' },
   { to: '/equipment', labelKey: 'nav.equipment', code: '10', icon: '⚙' },
   { to: '/weapons', labelKey: 'nav.weapons', code: '11', icon: '⚔' },
+  { to: '/ammunition', labelKey: 'nav.ammunition', code: '12', icon: '🔩' },
+  { to: '/vehicles', labelKey: 'nav.vehicles', code: '13', icon: '🚂' },
 ]
 
 /* ---- live gas-mask HUD: signal strength + radiation meter ---- */

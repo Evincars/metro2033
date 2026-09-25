@@ -61,7 +61,7 @@ const search = ref('')
 const searchInput = ref(null)
 
 const filtered = computed(() =>
-  search.value ? equipment.filter((e) => fuzzyMatch(search.value, e.title)) : weapons,
+  search.value ? weapons.filter((e) => fuzzyMatch(search.value, e.title)) : weapons,
 )
 
 const grouped = computed(() =>
@@ -102,7 +102,7 @@ onMounted(() => window.addEventListener('keydown', onKeydown))
 onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
 
 function openItem(id) {
-  router.push({ name: 'weapons-detail', params: { id } })
+  router.push({ name: 'weapon-detail', params: { id } })
 }
 function backToList() {
   router.push({ name: 'weapons' })

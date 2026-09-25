@@ -26,6 +26,8 @@ const destinations = [
   { to: '/mutants', code: '09', icon: '☣', titleKey: 'nav.mutants', textKey: 'home.dest.mutants' },
   { to: '/equipment', code: '10', icon: '⚙', titleKey: 'nav.equipment', textKey: 'home.dest.equipment' },
   { to: '/weapons', code: '11', icon: '⚔', titleKey: 'nav.weapons', textKey: 'home.dest.weapons' },
+  { to: '/ammunition', code: '12', icon: '🔩', titleKey: 'nav.ammunition', textKey: 'home.dest.ammunition' },
+  { to: '/vehicles', code: '13', icon: '🚂', titleKey: 'nav.vehicles', textKey: 'home.dest.vehicles' },
   { to: '/games', code: '★', icon: '🎮', titleKey: 'nav.games', textKey: 'home.dest.games' },
   { to: '/books', code: '★', icon: '📖', titleKey: 'nav.books', textKey: 'home.dest.books' },
 ]

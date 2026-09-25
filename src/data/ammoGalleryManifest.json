@@ -1,0 +1,36 @@
+{
+  "12-7x108mm": [
+    "/ammo-imgs/gallery/12-7x108mm/12-7x108mm.png",
+    "/ammo-imgs/gallery/12-7x108mm/20331.jpg",
+    "/ammo-imgs/gallery/12-7x108mm/machinegun.jpg"
+  ],
+  "12x70-buckshot": [
+    "/ammo-imgs/gallery/12x70-buckshot/shotgunammoexoduscrafting.jpg"
+  ],
+  "12x70-dragonbreath": [
+    "/ammo-imgs/gallery/12x70-dragonbreath/mll-dragonsbreath.jpg"
+  ],
+  "44-magnum": [
+    "/ammo-imgs/gallery/44-magnum/crafting-magnum-exodus.jpg"
+  ],
+  "44-magnum-ap-incendiary": [
+    "/ammo-imgs/gallery/44-magnum-ap-incendiary/mll-45acp.jpg"
+  ],
+  "arrows": [
+    "/ammo-imgs/gallery/arrows/bolt-ammo-exodus-crafting.jpg",
+    "/ammo-imgs/gallery/arrows/ilya-tolmachev-helsing-6.jpg"
+  ],
+  "explosive-bolts": [
+    "/ammo-imgs/gallery/explosive-bolts/explosive-bolts-crafting.jpg",
+    "/ammo-imgs/gallery/explosive-bolts/ilya-tolmachev-helsing-6.jpg"
+  ],
+  "fuel": [
+    "/ammo-imgs/gallery/fuel/fuel1.png",
+    "/ammo-imgs/gallery/fuel/fuel2.png",
+    "/ammo-imgs/gallery/fuel/fuel3.png",
+    "/ammo-imgs/gallery/fuel/merenderfuel.png"
+  ],
+  "incendiary-capsules": [
+    "/ammo-imgs/gallery/incendiary-capsules/incendiarycapsulecrafting.jpg"
+  ]
+}

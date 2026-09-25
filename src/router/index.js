@@ -122,6 +122,30 @@ const routes = [
     meta: { label: 'Weapons', leftMenu: true },
   },
   {
+    path: '/ammunition',
+    name: 'ammunition',
+    component: () => import('../views/AmmunitionView.vue'),
+    meta: { label: 'Ammunition', code: '12', leftMenu: true },
+  },
+  {
+    path: '/ammunition/:id',
+    name: 'ammo-detail',
+    component: () => import('../views/AmmunitionView.vue'),
+    meta: { label: 'Ammunition', leftMenu: true },
+  },
+  {
+    path: '/vehicles',
+    name: 'vehicles',
+    component: () => import('../views/VehiclesView.vue'),
+    meta: { label: 'Vehicles', code: '13', leftMenu: true },
+  },
+  {
+    path: '/vehicles/:id',
+    name: 'vehicle-detail',
+    component: () => import('../views/VehiclesView.vue'),
+    meta: { label: 'Vehicles', leftMenu: true },
+  },
+  {
     path: '/games',
     name: 'games',
     component: () => import('../views/GamesView.vue'),
