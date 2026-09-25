@@ -3,7 +3,7 @@ id: sergei
 title: Sergei
 group: Notable
 order: 35
-image: https://static.wikia.nocookie.net/metro2033/images/3/3f/2011-10-03_00004.jpg/revision/latest?cb=20111004031103
+image: /character-imgs/sergei.jpg
 brief: Sergei is Sasha's uncle who died defending his nephew during the mutant attack on Hole Station.
 wiki: Sergei
 ---

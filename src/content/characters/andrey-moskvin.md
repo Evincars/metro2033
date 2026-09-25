@@ -3,7 +3,7 @@ id: andrey-moskvin
 title: Andrey Moskvin
 group: Last Light
 order: 40
-image: https://static.wikia.nocookie.net/metro2033/images/5/55/MLL_Red_Andrey.png/revision/latest?cb=20170223012426
+image: /character-imgs/andrey-moskvin.png
 brief: A former and well-loved leader of the Red Line who was poisoned by his jealous brother Maxim at Korbut's urging
 wiki: Andrey_Moskvin
 ---

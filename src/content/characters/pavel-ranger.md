@@ -3,7 +3,7 @@ id: pavel-ranger
 title: Pavel (Ranger)
 group: Rangers
 order: 5
-image: https://static.wikia.nocookie.net/metro2033/images/0/0b/Pavel_M2033.jpg/revision/latest?cb=20110813130059
+image: /character-imgs/pavel-ranger.jpg
 brief: A veteran Ranger who guides Artyom past Nazi territory and sacrifices himself to save him
 wiki: Pavel_(Ranger)
 ---

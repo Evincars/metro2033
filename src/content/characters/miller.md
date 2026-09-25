@@ -3,7 +3,7 @@ id: miller
 title: Miller
 group: Rangers
 order: 2
-image: https://static.wikia.nocookie.net/metro2033/images/7/73/MillerMetroExodus.png/revision/latest?cb=20230411203246
+image: /character-imgs/miller.png
 brief: A veteran Stalker and former GRU Colonel who commands the post-apocalyptic Spartan Rangers
 wiki: Miller
 ---

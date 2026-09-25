@@ -3,7 +3,7 @@ id: nikki
 title: Nikki
 group: Notable
 order: 24
-image: https://static.wikia.nocookie.net/metro2033/images/8/8c/Pic.jpg/revision/latest?cb=20250620030429
+image: /character-imgs/nikki.jpg
 brief: A con-artist at Riga station who robs Artyom after luring him to her room
 wiki: Nikki
 ---

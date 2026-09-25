@@ -3,7 +3,7 @@ id: mike
 title: Mike
 group: Notable
 order: 28
-image: https://static.wikia.nocookie.net/metro2033/images/9/93/Mike_M2033.jpg/revision/latest?cb=20110811162147
+image: /character-imgs/mike.jpg
 brief: Mike is a corrupt Hanza guard at Market Station who arranges illegal passage for a price.
 wiki: Mike
 ---

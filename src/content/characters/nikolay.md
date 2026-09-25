@@ -3,7 +3,7 @@ id: nikolay
 title: Nikolay
 group: Notable
 order: 19
-image: https://static.wikia.nocookie.net/metro2033/images/d/d2/000Nikolay.jpg/revision/latest?cb=20110810180427
+image: /character-imgs/nikolay.jpg
 brief: A fearful resident of Exhibition station briefly seen in the level Hunter
 wiki: Nikolay
 ---

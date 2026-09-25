@@ -277,6 +277,7 @@ export default {
   'map.journey2033': 'Метро 2033 — путешествие Артёма',
   'map.journeyLL': 'Луч надежды — путешествие Артёма',
   'map.hotspotsOnline': 'активных точек на карте',
+  'map.characters': 'Персонажи',
 
   'metroLine.tag': 'Линия Московского метро',
   'metroLine.statsTpl': '{total} станций · {inGame} встречаются в играх',

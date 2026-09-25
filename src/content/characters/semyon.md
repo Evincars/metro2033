@@ -3,7 +3,7 @@ id: semyon
 title: Semyon
 group: Notable
 order: 25
-image: https://static.wikia.nocookie.net/metro2033/images/3/37/000MarketMandS.jpg/revision/latest?cb=20110807001719
+image: /character-imgs/semyon.jpg
 brief: A Market Station gate guard who mans the machine-gun cart in the level Lost Catacombs
 wiki: Semyon
 ---

@@ -3,7 +3,7 @@ id: eugine
 title: Eugine
 group: Associated
 order: 13
-image: https://static.wikia.nocookie.net/metro2033/images/6/60/Eugene_M2033.jpg/revision/latest?cb=20110810193032
+image: /character-imgs/eugine.jpg
 brief: A citizen of Exhibition and a friend of Artyom who accompanies him on the caravan to Riga
 wiki: Eugine
 ---

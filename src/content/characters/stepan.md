@@ -3,7 +3,7 @@ id: stepan
 title: Stepan
 group: Rangers
 order: 7
-image: https://static.wikia.nocookie.net/metro2033/images/8/84/Stepan_M2033.jpg/revision/latest?cb=20110810205312
+image: /character-imgs/stepan.jpg
 brief: A veteran Spartan Ranger and former military radio operator who escorts Artyom toward D6
 wiki: Stepan_(Metro_2033)
 ---

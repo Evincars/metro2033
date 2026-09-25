@@ -3,7 +3,7 @@ id: boris-ranger
 title: Boris (Ranger)
 group: Rangers
 order: 6
-image: https://static.wikia.nocookie.net/metro2033/images/b/b5/Boris_M2033.jpg/revision/latest?cb=20110810195147
+image: /character-imgs/boris-ranger.jpg
 brief: A Spartan Ranger and railcar driver who sacrifices himself to save Artyom on the way to D6
 wiki: Boris_(Ranger)
 ---

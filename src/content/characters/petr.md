@@ -3,7 +3,7 @@ id: petr
 title: Petr
 group: Notable
 order: 20
-image: https://static.wikia.nocookie.net/metro2033/images/6/6f/Petro.jpg/revision/latest?cb=20111111215419
+image: /character-imgs/petr.jpg
 brief: A guard at Exhibition station who watches the hospital door in the level Hunter
 wiki: Petr_(Exhibition)
 ---

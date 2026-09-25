@@ -3,7 +3,7 @@ id: fuhrer
 title: Führer
 group: Notable
 order: 36
-image: https://static.wikia.nocookie.net/metro2033/images/5/52/MLL_Fuher_Profile.jpg/revision/latest?cb=20140209040329
+image: /character-imgs/fuhrer.jpg
 brief: The Führer is the elusive leader of the Fourth Reich whose real name is revealed as Yevgeniy Petrovich.
 wiki: Führer
 ---

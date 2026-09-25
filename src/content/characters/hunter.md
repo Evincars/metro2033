@@ -3,7 +3,7 @@ id: hunter
 title: Hunter
 group: Rangers
 order: 4
-image: https://static.wikia.nocookie.net/metro2033/images/f/fb/Hunter_M2033.jpg/revision/latest?cb=20110810183106
+image: /character-imgs/hunter.jpg
 brief: An elite Ranger whose disappearance sets Artyom on his mission to save the Metro
 wiki: Hunter_(Ranger)
 ---

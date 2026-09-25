@@ -3,7 +3,7 @@ id: boris-exhibition
 title: Boris (Exhibition)
 group: Associated
 order: 14
-image: https://static.wikia.nocookie.net/metro2033/images/2/2c/ExhibitionsBoris.jpg/revision/latest?cb=20100616180756
+image: /character-imgs/boris-exhibition.jpg
 brief: A seasoned caravaneer and trader from Exhibition who drives the railcar to Riga
 wiki: Boris_(Exhibition)
 ---

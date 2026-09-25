@@ -3,7 +3,7 @@ id: boss
 title: Boss
 group: Notable
 order: 27
-image: https://static.wikia.nocookie.net/metro2033/images/a/ad/000Mike.jpg/revision/latest?cb=20110807001749
+image: /character-imgs/boss.jpg
 brief: A Hanza checkpoint guard at Market Station who takes a bribe from Bourbon
 wiki: Boss
 ---

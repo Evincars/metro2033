@@ -3,7 +3,7 @@ id: pavel-exhibition
 title: Pavel (Exhibition)
 group: Notable
 order: 22
-image: https://static.wikia.nocookie.net/metro2033/images/7/71/Pavel_Exhibition.jpg/revision/latest?cb=20110924105848
+image: /character-imgs/pavel-exhibition.jpg
 brief: The cheerful armorer of Exhibition station who equips Artyom before his journey
 wiki: Pavel_(Exhibition)
 ---

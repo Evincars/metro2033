@@ -3,7 +3,7 @@ id: mikhalych
 title: Mikhalych
 group: Notable
 order: 26
-image: https://static.wikia.nocookie.net/metro2033/images/3/37/000MarketMandS.jpg/revision/latest?cb=20110807001719
+image: /character-imgs/mikhalych.jpg
 brief: A Hansa gate guard at Market Station seen in the level Lost Catacombs
 wiki: Mikhalych
 ---

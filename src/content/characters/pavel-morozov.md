@@ -3,7 +3,7 @@ id: pavel-morozov
 title: Pavel Morozov
 group: Last Light
 order: 37
-image: https://static.wikia.nocookie.net/metro2033/images/3/30/MLL_Pavel_Profile.jpg/revision/latest?cb=20130518013059
+image: /character-imgs/pavel-morozov.jpg
 brief: A Red Line major and the secondary antagonist of Metro Last Light who befriends then betrays Artyom
 wiki: Pavel_Morozov
 ---

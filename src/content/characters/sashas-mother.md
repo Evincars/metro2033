@@ -3,7 +3,7 @@ id: sashas-mother
 title: Sasha's Mother
 group: Notable
 order: 34
-image: https://static.wikia.nocookie.net/metro2033/images/8/84/SashasMom.jpg/revision/latest?cb=20260328213855
+image: /character-imgs/sashas-mother.jpg
 brief: Sasha's Mother is a Hole Station Massacre survivor who rewards Artyom for rescuing her son.
 wiki: Sasha's_Mother
 ---

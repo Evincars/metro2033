@@ -3,7 +3,7 @@ id: bourbon
 title: Bourbon
 group: Associated
 order: 15
-image: https://static.wikia.nocookie.net/metro2033/images/d/d4/Bourbon_M2033.jpg/revision/latest?cb=20110810211516
+image: /character-imgs/bourbon.jpg
 brief: A trader drifter and survivor with a shady past who becomes one of Artyom's companions and mentors early in Metro 2033
 wiki: Bourbon
 ---

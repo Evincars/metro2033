@@ -3,7 +3,7 @@ id: igor
 title: Igor
 group: Notable
 order: 30
-image: https://static.wikia.nocookie.net/metro2033/images/c/cb/000MarketLastGuard.jpg/revision/latest?cb=20110807001653
+image: /character-imgs/igor.jpg
 brief: Igor is the head of a security checkpoint at Market Station who works directly under Mike.
 wiki: Igor
 ---

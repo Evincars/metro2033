@@ -3,7 +3,7 @@ id: vitali
 title: Vitali
 group: Notable
 order: 29
-image: https://static.wikia.nocookie.net/metro2033/images/c/cd/MLLVitali.png/revision/latest?cb=20170216015027
+image: /character-imgs/vitali.png
 brief: Vitali is a childhood friend of Artyom from VDNKh who died before 2033 and appears only in flashbacks.
 wiki: Vitali
 ---

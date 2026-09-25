@@ -3,7 +3,7 @@ id: peter
 title: Peter
 group: Notable
 order: 23
-image: https://static.wikia.nocookie.net/metro2033/images/1/13/Peter.jpg/revision/latest?cb=20110810214750
+image: /character-imgs/peter.jpg
 brief: An Exhibition guard who warns Artyom's caravan of a collapsed tunnel in the level Chase
 wiki: Peter_(Chase)
 ---

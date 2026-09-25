@@ -3,7 +3,7 @@ id: czeslav-korbut
 title: Czeslav Korbut
 group: Last Light
 order: 39
-image: https://static.wikia.nocookie.net/metro2033/images/1/16/Korbut_MLL.jpg/revision/latest?cb=20130526193706
+image: /character-imgs/czeslav-korbut.jpg
 brief: The manipulative head of Red Line intelligence and main antagonist of Metro Last Light who plots to seize D6 and conquer the Metro
 wiki: Czeslav_Korbut
 ---

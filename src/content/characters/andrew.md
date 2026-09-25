@@ -3,7 +3,7 @@ id: andrew
 title: Andrew
 group: Notable
 order: 31
-image: https://static.wikia.nocookie.net/metro2033/images/d/de/Andrew_M2033.jpg/revision/latest?cb=20110813130705
+image: /character-imgs/andrew.jpg
 brief: Andrew the Blacksmith is a skilled engineer and Ranger associate who helps refugees escape the Red Line.
 wiki: Andrew
 ---

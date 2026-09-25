@@ -3,7 +3,7 @@ id: baby-dark-one
 title: Baby Dark One
 group: Last Light
 order: 38
-image: https://static.wikia.nocookie.net/metro2033/images/5/5f/Dark_one_MLL.jpg/revision/latest?cb=20130811224302
+image: /character-imgs/baby-dark-one.jpg
 brief: The presumed last surviving Dark One and a telepathic ally to Artyom throughout Metro Last Light
 wiki: Baby_Dark_One
 ---

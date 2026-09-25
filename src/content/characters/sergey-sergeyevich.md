@@ -3,7 +3,7 @@ id: sergey-sergeyevich
 title: Sergey Sergeyevich
 group: Notable
 order: 32
-image: https://static.wikia.nocookie.net/metro2033/images/f/fe/Sergey_Sergeyevich.jpg/revision/latest?cb=20191119092631
+image: /character-imgs/sergey-sergeyevich.jpg
 brief: Sergey Sergeyevich is a Red Line officer at Armory Station who recruits a child into his fighting force.
 wiki: Sergey_Sergeyevich
 ---

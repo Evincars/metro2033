@@ -294,6 +294,7 @@ export default {
   'map.journey2033': "Metro 2033 — Artyom's journey",
   'map.journeyLL': "Last Light — Artyom's journey",
   'map.hotspotsOnline': 'station hotspots online',
+  'map.characters': 'Characters',
 
   // Metro line detail
   'metroLine.tag': 'Moscow Metro line',

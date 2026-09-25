@@ -3,7 +3,7 @@ id: alex
 title: Alex
 group: Associated
 order: 12
-image: https://static.wikia.nocookie.net/metro2033/images/5/5b/Alex_M2033.jpg/revision/latest?cb=20110810181322
+image: /character-imgs/alex.jpg
 brief: Artyom's adoptive father and mentor and a high ranking official who heads Exhibition by 2033
 wiki: Alex
 ---

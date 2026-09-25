@@ -3,7 +3,7 @@ id: ulman
 title: Ulman
 group: Rangers
 order: 3
-image: https://static.wikia.nocookie.net/metro2033/images/0/09/MLL_Ulman.jpg/revision/latest?cb=20130731145225
+image: /character-imgs/ulman.jpg
 brief: A wisecracking, stealth-specialist Ranger who repeatedly saves Artyom throughout his journey
 wiki: Ulman
 ---

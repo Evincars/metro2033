@@ -3,7 +3,7 @@ id: komarov
 title: Komarov
 group: Associated
 order: 17
-image: https://static.wikia.nocookie.net/metro2033/images/d/db/Komarov_Metro2033.jpg/revision/latest?cb=20110820140332
+image: /character-imgs/komarov.jpg
 brief: The commander of the Children of the Underground who dies defending Hole Station and entrusts Artyom with a final message for Polis
 wiki: Komarov
 ---

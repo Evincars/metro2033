@@ -3,7 +3,7 @@ id: krasnov
 title: Krasnov
 group: Rangers
 order: 10
-image: https://static.wikia.nocookie.net/metro2033/images/e/ee/Krasnov_Metro2033.jpg/revision/latest?cb=20110823181511
+image: /character-imgs/krasnov.jpg
 brief: A Ranger captain stationed at Polis who briefly meets Artyom and Ulman on their arrival
 wiki: Krasnov
 ---

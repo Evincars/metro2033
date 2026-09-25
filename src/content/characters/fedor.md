@@ -3,7 +3,7 @@ id: fedor
 title: Fedor
 group: Last Light
 order: 41
-image: https://static.wikia.nocookie.net/metro2033/images/b/bd/MLL_Fedor.jpg/revision/latest?cb=20130523225234
+image: /character-imgs/fedor.jpg
 brief: A fisherman of Venice who ferries Artyom through the flooded tunnels and saves him from nosalises and shrimp
 wiki: Fedor
 ---

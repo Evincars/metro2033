@@ -3,7 +3,7 @@ id: artyom
 title: Artyom
 group: Rangers
 order: 1
-image: https://static.wikia.nocookie.net/metro2033/images/7/71/ME_Render_Artyom_from_Metro_Atlas.png/revision/latest?cb=20200517084342
+image: /character-imgs/artyom.png
 brief: A VDNKh-raised Ranger and the silent protagonist of the Metro video game trilogy
 wiki: Artyom
 ---

@@ -3,7 +3,7 @@ id: danila
 title: Danila
 group: Rangers
 order: 9
-image: https://static.wikia.nocookie.net/metro2033/images/d/da/Danila_metro2033.jpg/revision/latest?cb=20110823214938
+image: /character-imgs/danila.jpg
 brief: A young joking Ranger from Polis who escorts Artyom and Miller to the Great Library
 wiki: Danila
 ---

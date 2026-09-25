@@ -3,7 +3,7 @@ id: khan
 title: Khan
 group: Associated
 order: 16
-image: https://static.wikia.nocookie.net/metro2033/images/7/7d/MLL_khan.jpg/revision/latest?cb=20130731150431
+image: /character-imgs/khan.jpg
 brief: A wandering soldier philosopher and mystic who believes himself the reincarnation of Genghis Khan and guides Artyom through the Metro's supernatural dangers
 wiki: Khan_(Character)
 ---

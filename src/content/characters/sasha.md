@@ -3,7 +3,7 @@ id: sasha
 title: Sasha
 group: Associated
 order: 18
-image: https://static.wikia.nocookie.net/metro2033/images/e/e8/Sasha_Metro2033.jpg/revision/latest?cb=20260328213043
+image: /character-imgs/sasha.jpg
 brief: A young boy from Hole Station whom Artyom escorts home after finding him beside his dead uncle
 wiki: Sasha_(Metro_2033)
 ---

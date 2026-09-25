@@ -3,7 +3,7 @@ id: kirill
 title: Kirill
 group: Notable
 order: 21
-image: https://static.wikia.nocookie.net/metro2033/images/8/8f/Kirill_Metro2033.jpg/revision/latest?cb=20110820151431
+image: /character-imgs/kirill.jpg
 brief: A veteran guard of Exhibition station and soldier of the VDNKh Commonwealth
 wiki: Kirill
 ---

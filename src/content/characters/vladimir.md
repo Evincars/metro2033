@@ -3,7 +3,7 @@ id: vladimir
 title: Vladimir
 group: Rangers
 order: 8
-image: https://static.wikia.nocookie.net/metro2033/images/f/fe/MLL_Vladamir.png/revision/latest?cb=20130821233419
+image: /character-imgs/vladimir.png
 brief: The Spartan Rangers' technician who operates D6's missile guidance systems
 wiki: Vladimir
 ---

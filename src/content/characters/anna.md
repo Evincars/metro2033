@@ -3,7 +3,7 @@ id: anna
 title: Anna
 group: Rangers
 order: 11
-image: https://static.wikia.nocookie.net/metro2033/images/0/0d/AnnaMetroExodus.png/revision/latest?cb=20180610205451
+image: /character-imgs/anna.png
 brief: The Rangers' top sniper and Miller's daughter who becomes Artyom's partner and wife
 wiki: Anna
 ---
