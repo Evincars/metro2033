@@ -146,6 +146,30 @@ const routes = [
     meta: { label: 'Vehicles', leftMenu: true },
   },
   {
+    path: '/achievements',
+    name: 'achievements',
+    component: () => import('../views/AchievementsView.vue'),
+    meta: { label: 'Achievements', code: '14', leftMenu: true },
+  },
+  {
+    path: '/achievements/:id',
+    name: 'achievement-detail',
+    component: () => import('../views/AchievementsView.vue'),
+    meta: { label: 'Achievements', leftMenu: true },
+  },
+  {
+    path: '/endings',
+    name: 'endings',
+    component: () => import('../views/EndingsView.vue'),
+    meta: { label: 'Endings', code: '15', leftMenu: true },
+  },
+  {
+    path: '/endings/:id',
+    name: 'ending-detail',
+    component: () => import('../views/EndingsView.vue'),
+    meta: { label: 'Endings', leftMenu: true },
+  },
+  {
     path: '/games',
     name: 'games',
     component: () => import('../views/GamesView.vue'),

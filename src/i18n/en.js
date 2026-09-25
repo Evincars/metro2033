@@ -23,6 +23,8 @@ export default {
   'nav.weapons': 'Weapons',
   'nav.ammunition': 'Ammunition',
   'nav.vehicles': 'Vehicles',
+  'nav.achievements': 'Achievements',
+  'nav.endings': 'Endings',
 
   // NavPanel status
   'status.signal': 'Signal',
@@ -59,6 +61,8 @@ export default {
   'home.dest.weapons': 'Every firearm from the makeshift Bastard to the pre-war Kalash — the full Metro arsenal.',
   'home.dest.ammunition': 'Every round, shell, bolt and fuel canister — the full ammo manifest of the Metro.',
   'home.dest.vehicles': 'Railcars, armoured trains, tanks and boats — every machine that moves through the Metro and beyond.',
+  'home.dest.achievements': 'Every achievement and trophy across Metro 2033, Last Light, Redux and Exodus — tracked and catalogued.',
+  'home.dest.endings': 'The moral choices that decide the fate of the Metro — every ending, good and bad, with video.',
   'home.dest.games': "4A Games' shooters, from the first tunnels to the open wastes of Exodus.",
   'home.dest.books': "Glukhovsky's novels and the sprawling Universe of Metro 2033.",
 
@@ -337,4 +341,37 @@ export default {
   'breadcrumb.weapon': 'Weapon',
   'breadcrumb.ammo': 'Ammunition',
   'breadcrumb.vehicle': 'Vehicle',
+  'breadcrumb.achievement': 'Achievement',
+  'breadcrumb.ending': 'Ending',
+
+  // Achievements
+  'achievements.backToList': '← All achievements',
+  'achievements.fandomLink': 'Read the full article on Fandom ↗',
+  'achievements.tag': 'Trophy Case',
+  'achievements.title': 'Achievements & Trophies',
+  'achievements.description': 'Every achievement and trophy across the Metro series — from Metro 2033 to Exodus and all DLC. 284 challenges catalogued with icons, scores and descriptions.',
+  'achievements.searchPlaceholder': 'Filter achievements…  (press / to focus)',
+  'achievements.noMatches': 'No matches',
+  'achievements.noMatchesText': 'No achievement matches',
+  'achievements.groupM2033': 'Metro 2033',
+  'achievements.groupMLL': 'Metro: Last Light',
+  'achievements.groupM2033R': 'Metro 2033 Redux',
+  'achievements.groupMLLR': 'Metro: Last Light Redux',
+  'achievements.groupME': 'Metro Exodus',
+
+  // Endings
+  'endings.backToList': '← All endings',
+  'endings.fandomLink': 'Read the full article on Fandom ↗',
+  'endings.tag': 'Moral Compass',
+  'endings.title': 'Endings',
+  'endings.description': 'The fate of the Metro hangs on your choices. Two endings for each game — one where hope survives, one where it does not.',
+  'endings.appearances': 'Appearances',
+  'endings.video': 'Video',
+  'endings.good': 'Good ending',
+  'endings.bad': 'Bad ending',
+  'endings.hasVideo': 'Video available',
+  'endings.overviewTitle': 'About the endings',
+  'endings.groupM2033': 'Metro 2033',
+  'endings.groupMLL': 'Metro: Last Light',
+  'endings.groupME': 'Metro Exodus',
 }

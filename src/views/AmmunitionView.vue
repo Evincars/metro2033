@@ -28,13 +28,6 @@ const CATEGORY_LABELS = {
   specialAmmo: t('ammo.groupSpecial'),
 }
 
-const GROUP_ICONS = {
-  'Rifle Rounds': '🔩',
-  'Pistol Rounds': '🔫',
-  'Shotgun Shells': '💥',
-  'Pneumatic Ammo': '🎯',
-  'Special Ammo': '⚡',
-}
 
 const activeId = computed(() => route.params.id ?? '')
 const activeItem = computed(() => (activeId.value ? ammunitionById[activeId.value] : null))
@@ -68,7 +61,6 @@ const grouped = computed(() =>
   AMMO_GROUPS.map((group) => ({
     group,
     label: GROUP_LABELS[group],
-    icon: GROUP_ICONS[group],
     items: filtered.value.filter((e) => e.group === group),
   })).filter((g) => g.items.length),
 )
@@ -194,7 +186,6 @@ function backToList() {
       <!-- Tactical ammo table per group -->
       <div v-for="group in grouped" :key="group.group" class="ammo-group">
         <h2 class="group-header">
-          <span class="group-icon">{{ group.icon }}</span>
           <span class="group-label">{{ group.label }}</span>
           <span class="group-count">[ {{ group.items.length }} ]</span>
         </h2>
@@ -344,10 +335,6 @@ function backToList() {
   background: linear-gradient(90deg, rgba(232, 149, 42, 0.12) 0%, transparent 100%);
   border-left: 3px solid var(--color-amber);
   border-bottom: 1px solid var(--color-border);
-}
-
-.group-icon {
-  font-size: 1.1rem;
 }
 
 .group-count {

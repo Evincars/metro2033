@@ -7,6 +7,8 @@ import { equipmentById } from '../data/equipment'
 import { weaponsById } from '../data/weapons'
 import { ammunitionById } from '../data/ammunition'
 import { vehiclesById } from '../data/vehicles'
+import { achievementsById } from '../data/achievements'
+import { endingsById } from '../data/endings'
 import { eventArticlesById } from '../data/eventArticles'
 import { booksById } from '../data/books'
 import { gamesById } from '../data/games'
@@ -26,6 +28,8 @@ const SECTION = {
   weapons: { label: t('nav.weapons'), to: '/weapons' },
   ammunition: { label: t('nav.ammunition'), to: '/ammunition' },
   vehicles: { label: t('nav.vehicles'), to: '/vehicles' },
+  achievements: { label: t('nav.achievements'), to: '/achievements' },
+  endings: { label: t('nav.endings'), to: '/endings' },
   games: { label: t('nav.games'), to: '/games' },
   books: { label: t('nav.books'), to: '/books' },
   about: { label: t('nav.about'), to: '/about' },
@@ -60,6 +64,10 @@ export function getBreadcrumbs(route) {
       return [SECTION.ammunition, { label: ammunitionById[id]?.title ?? t('breadcrumb.ammo') }]
     case 'vehicle-detail':
       return [SECTION.vehicles, { label: vehiclesById[id]?.title ?? t('breadcrumb.vehicle') }]
+    case 'achievement-detail':
+      return [SECTION.achievements, { label: achievementsById[id]?.title ?? t('breadcrumb.achievement') }]
+    case 'ending-detail':
+      return [SECTION.endings, { label: endingsById[id]?.title ?? t('breadcrumb.ending') }]
     case 'event-detail':
       return [SECTION.events, { label: eventArticlesById[id]?.title ?? t('breadcrumb.event') }]
     case 'book-detail':

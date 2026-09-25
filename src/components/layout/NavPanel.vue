@@ -44,9 +44,11 @@ const navItems = [
   { to: '/characters', labelKey: 'nav.characters', code: '08', icon: '☻' },
   { to: '/mutants', labelKey: 'nav.mutants', code: '09', icon: '☣' },
   { to: '/equipment', labelKey: 'nav.equipment', code: '10', icon: '⚙' },
-  { to: '/weapons', labelKey: 'nav.weapons', code: '11', icon: '⚔' },
-  { to: '/ammunition', labelKey: 'nav.ammunition', code: '12', icon: '🔩' },
-  { to: '/vehicles', labelKey: 'nav.vehicles', code: '13', icon: '🚂' },
+  { to: '/weapons', labelKey: 'nav.weapons', code: '11' },
+  { to: '/ammunition', labelKey: 'nav.ammunition', code: '12' },
+  { to: '/vehicles', labelKey: 'nav.vehicles', code: '13' },
+  { to: '/achievements', labelKey: 'nav.achievements', code: '14' },
+  { to: '/endings', labelKey: 'nav.endings', code: '15' },
 ]
 
 /* ---- live gas-mask HUD: signal strength + radiation meter ---- */
@@ -162,7 +164,8 @@ onBeforeUnmount(() => {
         @click="hideTip"
       >
         <span class="nav-code">{{ item.code }}</span>
-        <span class="nav-icon">{{ item.icon }}</span>
+        <span v-if="item.icon" class="nav-icon">{{ item.icon }}</span>
+        <span v-else class="nav-icon-spacer" />
         <span class="nav-label">{{ t(item.labelKey) }}</span>
       </RouterLink>
     </nav>
@@ -283,6 +286,11 @@ onBeforeUnmount(() => {
   width: 1.2rem;
   text-align: center;
   color: var(--color-toxic-bright);
+}
+
+.nav-icon-spacer {
+  width: 1.2rem;
+  flex-shrink: 0;
 }
 
 .nav-label {
