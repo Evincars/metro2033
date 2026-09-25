@@ -7,8 +7,19 @@ brief: A civil war between OSKOM and desperate survivors over dwindling anti-rad
 wiki: Novosibirsk_Riots
 ---
 
-# Novosibirsk Riots
-
+{{War
+|name = Novosibirsk Riots
+|image =
+|begin = April 11, 2035
+|end = September, 2035
+|place = [Novosibirsk Metro](https://metrovideogame.fandom.com/wiki/Novosibirsk_Metro)
+|result = Pyrrhic [Rioters](https://metrovideogame.fandom.com/wiki/Novosibirsk_Rioters) victory
+|side1 = *[OSKOM](https://metrovideogame.fandom.com/wiki/OSKOM)
+|side2 = *[Rioters](https://metrovideogame.fandom.com/wiki/Novosibirsk_Rioters)
+|commanders1 = * [Vinogradov](https://metrovideogame.fandom.com/wiki/Anatoly_Vinogradov)   [(KIA)](https://en.wikipedia.org/wiki/Killed_in_action)
+- [Khlebnikov](https://metrovideogame.fandom.com/wiki/Khlebnikov)  [(WIA)](https://en.wikipedia.org/wiki/Wounded_in_action)
+|commanders2 = *Unknown
+|battles=}}
 The **Novosibirsk Riots** were a series of riots that occurred in the [Novosibirsk](https://metrovideogame.fandom.com/wiki/Novosibirsk) Metro, and quickly escalated into a full-fledged civil war that wiped out most of the Metro population.
 
 ## Prelude

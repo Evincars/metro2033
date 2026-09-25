@@ -2,12 +2,10 @@
 id: vegan-war
 title: Vegan War
 order: 10
-image:
+image: 
 brief: The largest conflict in post-nuclear St. Petersburg, fought between the expansionist Vegan Empire and the Anti-Vegan Coalition.
 wiki: Vegan_War
 ---
-
-# Vegan War
 
 The **Vegan War** (started November 6, 2033) is an event of the Metro universe; the biggest conflict in post-nuclear St. Petersburg between the Vegan Empire and the Anti-Vegan Coalition.
 
@@ -82,11 +80,11 @@ On November 14, the Empire decides to strike at the rear of the coalition forces
 
 ### Underground Cemetery
 
-Having taken control of the Pushkinskaya-Zvenigorodskaya junction via a service branch, the Vegans begins its takeover of the southern section of the Purple Line, occupying the long abandoned stations one by one. On November 19, an armed clash occurs at Bukharestskaya Station. Its inhabitants, the Mortuks, have always stayed away from military conflicts, taking no sides. The outcome of the battle remains in the hands of the Empire, which has gained a vast amount of human material.
+Having taken control of the Pushkinskaya-Zvenigorodskaya junction via a service branch, the Vegans begins its takeover of the southern section of the Purple Line, occupying the long abandoned stations one by one. On  November 19, an armed clash occurs at Bukharestskaya Station. Its inhabitants, the Mortuks, have always stayed away from military conflicts, taking no sides. The outcome of the battle remains in the hands of the Empire, which has gained a vast amount of human material.
 
 ### The Ockerville Alliance
 
-The Right Bank front was of great strategic importance to the Vegan Empire - not only did the Ockerville Alliance provide substantial support to the Great Underground by sending a large force of reinforcements to the coalition's aid. This small but close-knit community could tip the scales in favour of the Emperor's enemies. On November 22, Vegan's storming units receive orders to attack the borders of Ockerville via the sagging runway to Novocherkasskaya.
+The Right Bank front was of great strategic importance to the Vegan Empire - not only did the Ockerville Alliance provide substantial support to the Great Underground by sending a large force of reinforcements to the coalition's aid. This small but close-knit community could tip the scales in favour of the Emperor's enemies. On  November 22, Vegan's storming units receive orders to attack the borders of Ockerville via the sagging runway to Novocherkasskaya.
 
 ### Mushroomers
 
@@ -94,7 +92,7 @@ The day before the offensive on Novocherkasskaya, the Imperial landing force, ha
 
 ### Military Medics
 
-The northern stations of the red line were blocked by the Empire in the early days of the war. Of great importance to the coalition was Lenin Square, a stronghold station that housed the largest amount of medicines and medical equipment in the underground in addition to the Maritime Alliance's military base. Having made a lightning raid on the surface, the Vegan groups take control of Vyborgskaya and open the way to Lenin Square on November 26.
+The northern stations of the red line were blocked by the Empire in the early days of the war. Of great importance to the coalition was Lenin Square, a stronghold station that housed the largest amount of medicines and medical equipment in the underground in addition to the Maritime Alliance's military base. Having made a lightning raid on the surface, the Vegan groups take control of Vyborgskaya and open the way to Lenin Square on November 26.
 
 ## Armistice
 

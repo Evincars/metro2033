@@ -7,9 +7,25 @@ brief: A long and bloody ideological conflict between the communist Red Line and
 wiki: Red_Line-Fourth_Reich_War
 ---
 
-# Red Line - Fourth Reich War
+{{War
+|name = Red Line - Fourth Reich War
+|image =
+|begin = Prior to 2033
+|end = *Book Canon: Red Line victory
+- Game Canon: Ongoing
+|place = [Moscow Metro](https://metrovideogame.fandom.com/wiki/Moscow_Metro)
+|battles = *Battle for the Bridge
+- 2034 Red Line Offensive
+- 2035 Reich Offensive
+|side1 = * [Fourth Reich](https://metrovideogame.fandom.com/wiki/Fourth_Reich)
+|side2 = * [Red Line](https://metrovideogame.fandom.com/wiki/Red_Line)
+|commanders1 = *[Führer](https://metrovideogame.fandom.com/wiki/Führer)
+- [Dietmar](https://metrovideogame.fandom.com/wiki/Dietmar)
+|commanders2 = *[Moskvin](https://metrovideogame.fandom.com/wiki/Maxim_Moskvin)
+- [Korbut](https://metrovideogame.fandom.com/wiki/Czeslav_Korbut)
+}}
 
-The Red Line-Fourth Reich War is a major conflict fought between forces of the [Red Line](https://metrovideogame.fandom.com/wiki/Red_Line) and the [Fourth Reich](https://metrovideogame.fandom.com/wiki/Fourth_Reich).
+The **Red Line-Fourth Reich War** is a major conflict fought between forces of the [Red Line](https://metrovideogame.fandom.com/wiki/Red_Line) and the [Fourth Reich](https://metrovideogame.fandom.com/wiki/Fourth_Reich).
 
 The result of an ideological struggle, the war has caused widespread destabilisation and economic damage across the Metro. It's possibly the longest and bloodiest conflict to ever occur in the [Metro Series](https://metrovideogame.fandom.com/wiki/Metro_Series).
 
@@ -27,7 +43,7 @@ Fighting was initially limited to numerous skirmishes and low-level violence unt
 
 ### Battle for the Bridge
 
-One major battle of the war is noted and actually experienced in [Metro 2033](https://metrovideogame.fandom.com/wiki/Metro_2033), entitled The Battle for the Bridge, which is featured on the level "[Frontline](https://metrovideogame.fandom.com/wiki/Frontline_(Level))". By 2033, the front line had become stuck in an endless stalemate with constant fighting over a large two tunnel-wide section located between the major [Lubyanka](https://metrovideogame.fandom.com/wiki/Lubyanka) and [Tverskaya](https://metrovideogame.fandom.com/wiki/Tverskaya) stations, controlled by the Red Line and Reich, respectively.
+One major battle of the war is noted and actually experienced in *[Metro 2033](https://metrovideogame.fandom.com/wiki/Metro_2033)*, entitled **The Battle for the Bridge**, which is featured on the level "[Frontline](https://metrovideogame.fandom.com/wiki/Frontline_(Level))". By 2033, the front line had become stuck in an endless stalemate with constant fighting over a large two tunnel-wide section located between the major [Lubyanka](https://metrovideogame.fandom.com/wiki/Lubyanka) and [Tverskaya](https://metrovideogame.fandom.com/wiki/Tverskaya) stations, controlled by the Red Line and Reich, respectively.
 
 The battle has become infamous among Red and Nazi troops alike, who refer to it simply as "Bridge", for the extreme amounts of violence and casualties. The Red Line often launch wave attack upon wave attack of untrained and poorly equipped troops at the Reich's defensive line, but are always slaughtered by the superiorly trained and well equipped Reich army. As one Red soldier describes it "Attack, counter-attack, attack again no end in sight". Despite the Nazis suffering very few casualties, the relentless attacks have stopped the Reich's ability to mount their own assaults, repeating the cycle.
 
@@ -61,8 +77,10 @@ The war in recent times has caused major destabilization and affected trade thro
 
 ### Casualties
 
-Both sides have suffered large amounts of military casualties throughout the war, more so the Red Line than the Reich because of their frequent use of human wave attacks. But after the failed Nazi offensive against Theatre Station and subsequent destruction of the Fourth Reich's three main stations, they sustained massive and most likely catastrophic casualties. However, in [Metro Exodus](https://metrovideogame.fandom.com/wiki/Metro_Exodus), the flooding is never mentioned and conversations between Hansa guards indicate that the Reich's military is still combat effective.
+Both sides have suffered large amounts of military casualties throughout the war, more so the Red Line than the Reich because of their frequent use of human wave attacks. But after the failed Nazi offensive against Theatre Station and subsequent destruction of the Fourth Reich's three main stations, they sustained massive and most likely catastrophic casualties. However, in *[Metro Exodus](https://metrovideogame.fandom.com/wiki/Metro_Exodus)*, the flooding is never mentioned and conversations between Hansa guards indicate that the Reich's military is still combat effective.
 
 ## Trivia
 
 - The Red Line-Fourth Reich War might be a reference to the Eastern Front in World War II, which was fought between the Soviet Union and Nazi Germany, from whom the Red Line and Fourth Reich are based off of.
+
+## Gallery

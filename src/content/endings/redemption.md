@@ -3,7 +3,7 @@ id: redemption
 title: "Redemption"
 group: Metro Last Light
 order: 4
-image: 
+image: ach-redemption.webp
 brief: "Achievement awarded for getting the good ending in Metro Last Light, where the Dark Ones save D6."
 wiki: Redemption_(Achievement/trophy)
 appearances: Metro Last Light, Metro Last Light Redux

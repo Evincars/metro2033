@@ -3,7 +3,7 @@ id: eternal-voyage
 title: "Eternal Voyage"
 group: Metro Exodus
 order: 5
-image: 
+image: ach-eternal-voyage.webp
 brief: "Achievement awarded for getting the bad ending in Metro Exodus, where Artyom dies of radiation poisoning."
 wiki: Eternal_Voyage
 appearances: Metro Exodus

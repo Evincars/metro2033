@@ -3,7 +3,7 @@ id: cest-la-vie
 title: "C'est la Vie"
 group: Metro Last Light
 order: 3
-image: 
+image: ach-cest-la-vie.webp
 brief: "Achievement awarded for getting the standard ending in Metro Last Light, where Artyom destroys D6."
 wiki: C'est_la_Vie_(Achievement)
 appearances: Metro Last Light, Metro Last Light Redux
