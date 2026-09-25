@@ -8,7 +8,11 @@ image: me-achievement-father-and-son-icon.png
 brief: "Provide guidance for Kirill in THE TWO COLONELS Chapter."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
-score: File:Bronze_Trophy_Icon.png <font color="grey">/</font> 15G
+score: Bronze / 15G
 ---
 
-Provide guidance for Kirill in THE TWO COLONELS Chapter.
+## Overview
+
+This is a story related achievement and cannot be missed. It is obtained near the end of The Two Colonels chapter.
+
+[ru:Отец и сын](https://metrovideogame.fandom.com/wiki/ru:Отец_и_сын)

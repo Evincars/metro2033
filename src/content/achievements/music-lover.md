@@ -8,7 +8,11 @@ image: me_achievement_music_lover_icon.png
 brief: "Collect all harmonica melodies in the SAM'S STORY chapter."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
-score: File:Bronze_Trophy_Icon.png <font color="grey">/</font> 20G
+score: Bronze / 20G
 ---
 
-Collect all harmonica melodies in the SAM'S STORY chapter.
+## Overview
+
+This achievement can be obtained by finding all nine harmonica melodies. The locations of these are listed [here](https://metrovideogame.fandom.com/wiki/Sam's_Story#Harmonica_Melodies).
+
+[ru:Меломан](https://metrovideogame.fandom.com/wiki/ru:Меломан)

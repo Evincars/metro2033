@@ -8,7 +8,11 @@ image: me-achievement-real-colonel-icon.png
 brief: "Complete THE TWO COLONELS Chapter."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
-score: File:Gold_Trophy_Icon.png <font color="grey">/</font> 60G
+score: Gold / 60G
 ---
 
-Complete THE TWO COLONELS Chapter.
+## Overview
+
+This achievement is received after completing the entire playthrough of The Two Colonels DLC on any [difficulty](https://metrovideogame.fandom.com/wiki/Difficulties).
+
+[ru:Настоящий полковник](https://metrovideogame.fandom.com/wiki/ru:Настоящий_полковник)
