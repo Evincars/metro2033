@@ -1,6 +1,6 @@
 <script setup>
 import { computed, nextTick, onBeforeUnmount, onMounted, ref, shallowRef, watch } from 'vue'
-import { useRouter } from 'vue-router'
+import { useRoute, useRouter } from 'vue-router'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import { t } from '../i18n'
@@ -11,6 +11,7 @@ import { locationsById, stationToLocation } from '../data/locations'
 import { charactersById } from '../data/characters'
 import { realMetroById, gameStationToRealMetro } from '../data/realMetro'
 
+const route = useRoute()
 const router = useRouter()
 
 const mapContainer = ref(null)
@@ -435,6 +436,19 @@ onMounted(() => {
   resizeObserver.observe(mapFrame.value)
 
   window.addEventListener('keydown', onKeydown)
+
+  const highlightId = route.query.station
+  if (highlightId) {
+    const station = stations.find((s) => s.id === highlightId)
+    if (station) {
+      const marker = stationMarkerMap[station.id]
+      if (marker) {
+        marker.setStyle({ fillColor: '#e8952a', fillOpacity: 0.85, color: '#e8952a', weight: 3 })
+      }
+      map.setView(toLatLng(station), 1, { animate: true })
+      nextTick(() => selectStation(station))
+    }
+  }
 })
 
 onBeforeUnmount(() => {

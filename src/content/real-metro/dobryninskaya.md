@@ -2,24 +2,24 @@
 id: dobryninskaya
 title: "Добрынинская"
 line: 5
-lineName: "Кольцевая линия"
+lineName: "Koltsevaya (Ring) Line"
 lineNameEn: "Koltsevaya (Ring) Line"
 opened: "1 января 1950"
 architects: "М. А. Зеленин, Л. Н. Павлов, М. А. Ильин, Я. В. Татаржинская"
 image: "/real-metro-imgs/dobryninskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/dobryn/0.jpg|https://www.metrowalks.com/f/msk/dobryn/151018-1108314.jpg|https://www.metrowalks.com/f/msk/dobryn/151018-1108320.jpg|https://www.metrowalks.com/f/msk/dobryn/151018-1108328.jpg"
 source: "https://www.metrowalks.com/ru/moscow/circle/dobryninskaya"
-brief: "Добрынинская — пилонная трёхсводчатая станция глубокого заложения."
+brief: "Добрынинская is a deep-level pylonic three-vault station."
 ---
 
-Добрынинская — пилонная трёхсводчатая станция глубокого заложения.
+Добрынинская is a deep-level pylonic three-vault station.
 
-Станция находится на южной окраине центра города в районе Замоскворечье на перекрёстке улиц Коровий Вал и Люсиновской, рядом с Серпуховской площадью.
+The station is located на южной окраине центра города в районе Замоскворечье на перекрёстке улиц Коровий Вал и Люсиновской, near Серпуховской площадью.
 
-Происхождение названия: Серпуховская площадь у станции в советские годы называлась Добрынинской в честь революционера и одного из организаторов Красной Гвардии П. Г. Добрынина.
+Name origin: Серпуховская площадь у станции в советские годы называлась Добрынинской в честь революционера и одного из организаторов Красной Гвардии П. Г. Добрынина.
 
 Дата открытия — 1 января 1950.
 
 Архитекторы станции — М. А. Зеленин, Л. Н. Павлов, М. А. Ильин, Я. В. Татаржинская.
 
-Станция Добрынинская является объектом культурного наследия России.
+Станция Добрынинская is a cultural heritage site of Russia.

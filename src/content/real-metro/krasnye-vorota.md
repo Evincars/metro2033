@@ -2,21 +2,21 @@
 id: krasnye-vorota
 title: "Красные Ворота"
 line: 1
-lineName: "Сокольническая линия"
+lineName: "Sokolnicheskaya Line"
 lineNameEn: "Sokolnicheskaya Line"
 opened: "15 мая 1935"
 architects: "И. А. Фомин, Н. Н. Андриканис"
 image: "/real-metro-imgs/krasnye-vorota.jpg"
 gallery: "https://www.metrowalks.com/f/msk/kvorota/0.jpg|https://www.metrowalks.com/f/msk/kvorota/090601-1053465.jpg|https://www.metrowalks.com/f/msk/kvorota/100619-1066814.jpg|https://www.metrowalks.com/f/msk/kvorota/100619-1066821.jpg"
 source: "https://www.metrowalks.com/ru/moscow/sokolnicheskaya/krasnye-vorota"
-brief: "Красные Ворота — пилонная трёхсводчатая станция глубокого заложения."
+brief: "Красные Ворота is a deep-level pylonic three-vault station."
 ---
 
-Красные Ворота — пилонная трёхсводчатая станция глубокого заложения.
+Красные Ворота is a deep-level pylonic three-vault station.
 
-Станция находится в центре Москвы на границе Басманного и Красносельского районов под площадью Красные Ворота на перекрёстке Каланчёвской и Садовой улиц.
+The station is located в центре Москвы на границе Басманного и Красносельского районов под площадью Красные Ворота на перекрёстке Каланчёвской и Садовой улиц.
 
-Происхождение названия: по площади Красные Ворота, получившей своё название от триумфальной арки-ворот, посвящённой войскам, возвращавшимся с Полтавской битвы.
+Name origin: по площади Красные Ворота, получившей своё название от триумфальной арки-ворот, посвящённой войскам, возвращавшимся с Полтавской битвы.
 
 Дата открытия — 15 мая 1935.
 

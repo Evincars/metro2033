@@ -2,21 +2,21 @@
 id: tretyakovskaya
 title: "Третьяковская"
 line: 8
-lineName: "Калининская линия"
+lineName: "Kalininskaya Line"
 lineNameEn: "Kalininskaya Line"
 opened: "3 января 1971"
 architects: "В. Г. Поликарпова, А. А. Марова (южный зал), Р. И. Погребной, В. З. Филиппов (северный зал)"
 image: "/real-metro-imgs/tretyakovskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/tretyak/0.jpg|https://www.metrowalks.com/f/msk/tretyak/220821-1136895.jpg|https://www.metrowalks.com/f/msk/tretyak/220821-1136898.jpg|https://www.metrowalks.com/f/msk/tretyak/220821-1136905.jpg"
 source: "https://www.metrowalks.com/ru/moscow/kalininskaya/tretyakovskaya"
-brief: "Третьяковская — пилонная трёхсводчатая станция глубокого заложения."
+brief: "Третьяковская is a deep-level pylonic three-vault station."
 ---
 
-Третьяковская — пилонная трёхсводчатая станция глубокого заложения.
+Третьяковская is a deep-level pylonic three-vault station.
 
-Станция находится в южной части центра Москвы в районе Замоскворечье на Климентовском переулке между улицами Большой и Малой Ордынками.
+The station is located в южной части центра Москвы в районе Замоскворечье на Климентовском переулке между улицами Большой и Малой Ордынками.
 
-Происхождение названия: недалеко от станции находится Государственная Третьяковская галерея.
+Name origin: недалеко от станции находится Государственная Третьяковская галерея.
 
 Дата открытия — 3 января 1971.
 

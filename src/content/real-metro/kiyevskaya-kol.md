@@ -2,21 +2,21 @@
 id: kiyevskaya-kol
 title: "Киевская"
 line: 5
-lineName: "Кольцевая линия"
+lineName: "Koltsevaya (Ring) Line"
 lineNameEn: "Koltsevaya (Ring) Line"
 opened: "14 марта 1954"
 architects: "Е. И. Катонин, В. К. Скугарев, Г. Е. Голубев, А. А. Марова"
 image: "/real-metro-imgs/kiyevskaya-kol.jpg"
 gallery: "https://www.metrowalks.com/f/msk/kievk/0.jpg|https://www.metrowalks.com/f/msk/kievk/220822-1137612.jpg|https://www.metrowalks.com/f/msk/kievk/220822-1137638.jpg|https://www.metrowalks.com/f/msk/kievk/220822-1137618.jpg"
 source: "https://www.metrowalks.com/ru/moscow/circle/kiyevskaya-kol"
-brief: "Киевская — пилонная трёхсводчатая станция глубокого заложения."
+brief: "Киевская is a deep-level pylonic three-vault station."
 ---
 
-Киевская — пилонная трёхсводчатая станция глубокого заложения.
+Киевская is a deep-level pylonic three-vault station.
 
-Станция находится на западной окраине центра Москвы в районе Дорогомилово под площадью Киевского вокзала.
+The station is located на западной окраине центра Москвы в районе Дорогомилово под площадью Киевского вокзала.
 
-Происхождение названия: по Киевскому железнодорожному вокзалу, находящемуся рядом со станцией, названному в честь столицы Украины, поскольку когда-то это было основное направление поездов, отправляющихся с этого вокзала.
+Name origin: по Киевскому железнодорожному вокзалу, находящемуся nearо станцией, названному в честь столицы Украины, поскольку когда-то это было основное направление поездов, отправляющихся с этого вокзала.
 
 Дата открытия — 14 марта 1954.
 

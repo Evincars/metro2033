@@ -2,24 +2,24 @@
 id: chehovskaya
 title: "Чеховская"
 line: 9
-lineName: "Серпуховско-Тимирязевская линия"
+lineName: "Serpukhovsko-Timiryazevskaya Line"
 lineNameEn: "Serpukhovsko-Timiryazevskaya Line"
 opened: "31 декабря 1987"
 architects: "В. А. Черёмин, А. Л. Вигдоров"
 image: "/real-metro-imgs/chehovskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/chehov/0.jpg|https://www.metrowalks.com/f/msk/chehov/250921-1150164.jpg|https://www.metrowalks.com/f/msk/chehov/250615-1144308.jpg|https://www.metrowalks.com/f/msk/chehov/100515-1064164.jpg"
 source: "https://www.metrowalks.com/ru/moscow/serpuhovsko-timiryazevskaya/chehovskaya"
-brief: "Чеховская — пилонная трёхсводчатая станция глубокого заложения."
+brief: "Чеховская is a deep-level pylonic three-vault station."
 ---
 
-Чеховская — пилонная трёхсводчатая станция глубокого заложения.
+Чеховская is a deep-level pylonic three-vault station.
 
-Станция находится в центре Москвы в Тверском районе на Страстном бульваре рядом с Пушкинской площадью и театром «Россия».
+The station is located в центре Москвы в Тверском районе на Страстном бульваре near Пушкинской площадью и театром «Россия».
 
-Происхождение названия: в честь знаменитого русского писателя Антона Павловича Чехова (в настоящее время название не привязано к местности, но при открытии станции от Пушкинской площади начиналась улица Чехова — ныне Малая Дмитровка).
+Name origin: в честь знаменитого русского писателя Антона Павловича Чехова (в настоящее время название не привязано к местности, но при открытии станции от Пушкинской площади начиналась улица Чехова — ныне Малая Дмитровка).
 
 Дата открытия — 31 декабря 1987.
 
 Архитекторы станции — В. А. Черёмин, А. Л. Вигдоров.
 
-Пилоны облицованы белым мрамором. Пол выложен серовато-красным гранитом. Путевые стены облицованы жёлто-розовым мрамором «газган» различных оттенков.
+The pylons are clad in white marble. The floor is laid with серовато-red granite. The track walls are clad in жёлто-розовым marble «газган» различных оттенков.

@@ -2,24 +2,24 @@
 id: belorusskaya-rad
 title: "Белорусская"
 line: 2
-lineName: "Замоскворецкая линия"
+lineName: "Zamoskvoretskaya Line"
 lineNameEn: "Zamoskvoretskaya Line"
 opened: "11 сентября 1938"
 architects: "Н. Н. Андриканис, Н. А. Быкова"
 image: "/real-metro-imgs/belorusskaya-rad.jpg"
 gallery: "https://www.metrowalks.com/f/msk/belorur/0.jpg|https://www.metrowalks.com/f/msk/belorur/151018-1108199.jpg|https://www.metrowalks.com/f/msk/belorur/151018-1108202.jpg|https://www.metrowalks.com/f/msk/belorur/151018-1108206.jpg"
 source: "https://www.metrowalks.com/ru/moscow/zamoskvoretskaya/belorusskaya-rad"
-brief: "Белорусская — пилонная трёхсводчатая станция глубокого заложения."
+brief: "Белорусская is a deep-level pylonic three-vault station."
 ---
 
-Белорусская — пилонная трёхсводчатая станция глубокого заложения.
+Белорусская is a deep-level pylonic three-vault station.
 
-Станция находится на северо-западной окраине центра Москвы в Тверском районе под площадью Тверская Застава.
+The station is located на северо-западной окраине центра Москвы в Тверском районе под площадью Тверская Застава.
 
-Происхождение названия: станция находится под Белорусским железнодорожным вокзалом; наземный вестибюль станции встроен в здание вокзала.
+Name origin: станция находится под Белорусским железнодорожным вокзалом; наземный вестибюль станции встроен в здание вокзала.
 
 Дата открытия — 11 сентября 1938.
 
 Архитекторы станции — Н. Н. Андриканис, Н. А. Быкова.
 
-Станция Белорусская является объектом культурного наследия России.
+Станция Белорусская is a cultural heritage site of Russia.

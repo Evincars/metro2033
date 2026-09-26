@@ -2,21 +2,21 @@
 id: prazhskaya
 title: "Пражская"
 line: 9
-lineName: "Серпуховско-Тимирязевская линия"
+lineName: "Serpukhovsko-Timiryazevskaya Line"
 lineNameEn: "Serpukhovsko-Timiryazevskaya Line"
 opened: "6 ноября 1985"
 architects: "Е. Кыллар, З. Холупа, Е. Бржускова, В. А. Черёмин"
 image: "/real-metro-imgs/prazhskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/prazhsk/0.jpg|https://www.metrowalks.com/f/msk/prazhsk/111204-1078784.jpg|https://www.metrowalks.com/f/msk/prazhsk/090530-1052807.jpg|https://www.metrowalks.com/f/msk/prazhsk/111204-1078781.jpg"
 source: "https://www.metrowalks.com/ru/moscow/serpuhovsko-timiryazevskaya/prazhskaya"
-brief: "Пражская — колонная трёхпролётная станция мелкого заложения."
+brief: "Пражская is a shallow column three-span station."
 ---
 
-Пражская — колонная трёхпролётная станция мелкого заложения.
+Пражская is a shallow column three-span station.
 
-Станция находится на юге города в районе Чертаново Центральное у перекрёстка Кировоградской улицы с улицей Красного Маяка недалеко от Варшавского шоссе.
+The station is located на юге города в районе Чертаново Центральное у перекрёстка Кировоградской улицы с улицей Красного Маяка недалеко от Варшавского шоссе.
 
-Происхождение названия: станция проектировалась и строилась интернациональным коллективом советских и чехословацких метростроителей (название не привязано к местности).
+Name origin: станция проектировалась и строилась интернациональным коллективом советских и чехословацких метростроителей (название не привязано к местности).
 
 Дата открытия — 6 ноября 1985.
 

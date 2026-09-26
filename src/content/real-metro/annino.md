@@ -2,25 +2,25 @@
 id: annino
 title: "Аннино"
 line: 9
-lineName: "Серпуховско-Тимирязевская линия"
+lineName: "Serpukhovsko-Timiryazevskaya Line"
 lineNameEn: "Serpukhovsko-Timiryazevskaya Line"
 opened: "12 декабря 2001"
 architects: "А. Ю. Орлов, А. В. Некрасов, В. О. Сычёва"
 image: "/real-metro-imgs/annino.jpg"
 gallery: "https://www.metrowalks.com/f/msk/annino/0.jpg|https://www.metrowalks.com/f/msk/annino/090530-1052795.jpg|https://www.metrowalks.com/f/msk/annino/111204-1078758.jpg|https://www.metrowalks.com/f/msk/annino/111204-1078753.jpg"
 source: "https://www.metrowalks.com/ru/moscow/serpuhovsko-timiryazevskaya/annino"
-brief: "Аннино — односводчатая станция мелкого заложения."
+brief: "Аннино is a shallow single-vault station."
 ---
 
-Аннино — односводчатая станция мелкого заложения.
+Аннино is a shallow single-vault station.
 
-Станция находится на южной окраине города в районе Чертаново Южное на Варшавском шоссе недалеко от выезда на МКАД.
+The station is located на южной окраине города в районе Чертаново Южное на Варшавском шоссе недалеко от выезда на МКАД.
 
-Происхождение названия: по историческому названию местности, происходящему от названия деревни, включённой в состав Москвы в 1960 году.
+Name origin: по историческому названию местности, происходящему от названия деревни, включённой в состав Москвы в 1960 году.
 
 Дата открытия — 12 декабря 2001.
 
 Архитекторы станции — А. Ю. Орлов, А. В. Некрасов, В. О. Сычёва.
 
-Путевые стены облицованы серо-голубым мрамором «уфалей» с чёрным цоколем. Пол выложен светло-серым гранитом с большими чёрными квадратами, расположенными
+The track walls are clad in серо-голубым marble «уфалей» с чёрным цоколем. The floor is laid with светло-grey granite с большими чёрными квадратами, расположенными
       по оси платформы.

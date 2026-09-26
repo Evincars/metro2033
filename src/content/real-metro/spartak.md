@@ -2,21 +2,21 @@
 id: spartak
 title: "Спартак"
 line: 7
-lineName: "Таганско-Краснопресненская линия"
+lineName: "Tagansko-Krasnopresnenskaya Line"
 lineNameEn: "Tagansko-Krasnopresnenskaya Line"
 opened: "27 августа 2014"
 architects: "С. А. Севастьянов, Е. И. Иванов, Е. Г. Куприянова, Б. В. Соколов"
 image: "/real-metro-imgs/spartak.jpg"
 gallery: "https://www.metrowalks.com/f/msk/spartak/0.jpg|https://www.metrowalks.com/f/msk/spartak/151017-1106879.jpg|https://www.metrowalks.com/f/msk/spartak/151017-1106891.jpg|https://www.metrowalks.com/f/msk/spartak/151017-1106900.jpg"
 source: "https://www.metrowalks.com/ru/moscow/tagansko-krasnopresnenskaya/spartak"
-brief: "Спартак — колонная трёхпролётная станция мелкого заложения."
+brief: "Спартак is a shallow column three-span station."
 ---
 
-Спартак — колонная трёхпролётная станция мелкого заложения.
+Спартак is a shallow column three-span station.
 
-Станция находится в северо-западной части Москвы в районе Покровское-Стрешнево на месте бывшего Тушинского аэродрома (аэрополя).
+The station is located в северо-западной части Москвы в районе Покровское-Стрешнево на месте бывшего Тушинского аэродрома (аэрополя).
 
-Происхождение названия: в честь футбольного клуба «Спартак», домашний стадион которого расположен рядом со станцией.
+Name origin: в честь футбольного клуба «Спартак», домашний стадион которого расположен nearо станцией.
 
 Дата открытия — 27 августа 2014.
 

@@ -2,21 +2,21 @@
 id: shabolovskaya
 title: "Шаболовская"
 line: 6
-lineName: "Калужско-Рижская линия"
+lineName: "Kaluzhsko-Rizhskaya Line"
 lineNameEn: "Kaluzhsko-Rizhskaya Line"
 opened: "5 ноября 1980"
 architects: "И. Г. Петухова, В. П. Качуринец"
 image: "/real-metro-imgs/shabolovskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/shabol/0.jpg|https://www.metrowalks.com/f/msk/shabol/100620-1067725.jpg|https://www.metrowalks.com/f/msk/shabol/100620-1067732.jpg|https://www.metrowalks.com/f/msk/shabol/100620-1067727.jpg"
 source: "https://www.metrowalks.com/ru/moscow/kaluzhsko-rizhskaya/shabolovskaya"
-brief: "Шаболовская — пилонная трёхсводчатая станция глубокого заложения."
+brief: "Шаболовская is a deep-level pylonic three-vault station."
 ---
 
-Шаболовская — пилонная трёхсводчатая станция глубокого заложения.
+Шаболовская is a deep-level pylonic three-vault station.
 
-Станция находится к югу от центра Москвы в Донском районе на улице Шаболовке у перекрёстка с улицей Академика Петровского.
+The station is located к югу от центра Москвы в Донском районе на улице Шаболовке у перекрёстка с улицей Академика Петровского.
 
-Происхождение названия: по улице Шаболовке, название которой унаследовано от исторического названия местности.
+Name origin: по улице Шаболовке, название которой унаследовано от исторического названия местности.
 
 Дата открытия — 5 ноября 1980.
 

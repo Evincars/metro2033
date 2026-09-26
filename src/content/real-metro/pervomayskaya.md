@@ -2,21 +2,21 @@
 id: pervomayskaya
 title: "Первомайская"
 line: 3
-lineName: "Арбатско-Покровская линия"
+lineName: "Arbatsko-Pokrovskaya Line"
 lineNameEn: "Arbatsko-Pokrovskaya Line"
 opened: "21 октября 1961"
 architects: "М. Ф. Марковский, Я. В. Татаржинская"
 image: "/real-metro-imgs/pervomayskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/pervom/0.jpg|https://www.metrowalks.com/f/msk/pervom/090531-1052869.jpg|https://www.metrowalks.com/f/msk/pervom/151018-1108038.jpg|https://www.metrowalks.com/f/msk/pervom/151018-1108033.jpg"
 source: "https://www.metrowalks.com/ru/moscow/arbatsko-pokrovskaya/pervomayskaya"
-brief: "Первомайская — колонная трёхпролётная станция мелкого заложения."
+brief: "Первомайская is a shallow column three-span station."
 ---
 
-Первомайская — колонная трёхпролётная станция мелкого заложения.
+Первомайская is a shallow column three-span station.
 
-Станция находится на востоке Москвы в районе Измайлово на 9-й Парковой улице у перекрёстка с Первомайской улицей.
+The station is located на востоке Москвы в районе Измайлово на 9-й Парковой улице у перекрёстка с Первомайской улицей.
 
-Происхождение названия: по одноимённой улице, названной в честь праздника 1 мая (название не имеет территориальных исторических корней).
+Name origin: по одноимённой улице, названной в честь праздника 1 мая (название не имеет территориальных исторических корней).
 
 Дата открытия — 21 октября 1961.
 

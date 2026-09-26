@@ -2,25 +2,25 @@
 id: skhodnenskaya
 title: "Сходненская"
 line: 7
-lineName: "Таганско-Краснопресненская линия"
+lineName: "Tagansko-Krasnopresnenskaya Line"
 lineNameEn: "Tagansko-Krasnopresnenskaya Line"
 opened: "30 декабря 1975"
 architects: "Л. Н. Попов, А. Ф. Фокина"
 image: "/real-metro-imgs/skhodnenskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/shodnen/0.jpg|https://www.metrowalks.com/f/msk/shodnen/100620-1067481.jpg|https://www.metrowalks.com/f/msk/shodnen/100620-1067482.jpg|https://www.metrowalks.com/f/msk/shodnen/100620-1067484.jpg"
 source: "https://www.metrowalks.com/ru/moscow/tagansko-krasnopresnenskaya/skhodnenskaya"
-brief: "Сходненская — односводчатая станция мелкого заложения."
+brief: "Сходненская is a shallow single-vault station."
 ---
 
-Сходненская — односводчатая станция мелкого заложения.
+Сходненская is a shallow single-vault station.
 
-Станция находится на северо-западе Москвы на границе районов Северное и Южное Тушино, у перекрёстка улиц Героев Панфиловцев и Сходненской с бульварами Яна Райниса и Химкинским.
+The station is located на северо-западе Москвы на границе районов Северное и Южное Тушино, у перекрёстка улиц Героев Панфиловцев и Сходненской с бульварами Яна Райниса и Химкинским.
 
-Происхождение названия: по Сходненской улице, название которой происходит от реки Сходни, впадающей в реку Москву в трёх километрах от станции.
+Name origin: по Сходненской улице, название которой происходит от реки Сходни, впадающей в реку Москву в трёх километрах от станции.
 
 Дата открытия — 30 декабря 1975.
 
 Архитекторы станции — Л. Н. Попов, А. Ф. Фокина.
 
-Путевые стены облицованы красным мрамором Слюдянского месторождения и украшены геометрическими рисунками из алюминиевого литья, напоминающими мишени.
-      Пол выложен серым гранитом.
+The track walls are clad in красным marble Слюдянского месторождения и украшены геометрическими рисунками из алюминиевого литья, напоминающими мишени.
+      The floor is laid with grey granite.

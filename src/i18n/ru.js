@@ -243,6 +243,10 @@ export default {
   'stations.inGame': 'В игре →',
   'stations.noMatch': 'Станции не найдены',
   'stations.noMatchHint': 'Попробуйте другой запрос или сбросьте фильтры.',
+  'stations.openLevel': 'Досье на уровень',
+  'stations.openLocation': 'Открыть локацию',
+  'stations.openRealMetro': 'Полная информация',
+  'stations.showOnMap': 'Показать на карте',
 
   'locations.backToList': '← Все локации',
   'locations.locationSuffix': 'локация',

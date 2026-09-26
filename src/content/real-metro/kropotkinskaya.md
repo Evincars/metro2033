@@ -2,21 +2,21 @@
 id: kropotkinskaya
 title: "Кропоткинская"
 line: 1
-lineName: "Сокольническая линия"
+lineName: "Sokolnicheskaya Line"
 lineNameEn: "Sokolnicheskaya Line"
 opened: "15 мая 1935"
 architects: "А. Н. Душкин, Я. Г. Лихтенберг"
 image: "/real-metro-imgs/kropotkinskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/kropot/0.jpg|https://www.metrowalks.com/f/msk/kropot/091228-1060936.jpg|https://www.metrowalks.com/f/msk/kropot/091228-1060930.jpg|https://www.metrowalks.com/f/msk/kropot/091228-1060938.jpg"
 source: "https://www.metrowalks.com/ru/moscow/sokolnicheskaya/kropotkinskaya"
-brief: "Кропоткинская — колонная трёхпролётная станция мелкого заложения."
+brief: "Кропоткинская is a shallow column three-span station."
 ---
 
-Кропоткинская — колонная трёхпролётная станция мелкого заложения.
+Кропоткинская is a shallow column three-span station.
 
-Станция находится в центре Москвы в районе Хамовники на площади Пречистенские Ворота, рядом с храмом Христа Спасителя.
+The station is located в центре Москвы в районе Хамовники на площади Пречистенские Ворота, near храмом Христа Спасителя.
 
-Происхождение названия: площадь Пречистенские Ворота и Пречистенская улица ранее назывались Кропоткинскми Воротами и Кропоткинской улицей в память о князе П. А. Кропоткине — теоретике анахро-коммунизма.
+Name origin: площадь Пречистенские Ворота и Пречистенская улица ранее назывались Кропоткинскми Воротами и Кропоткинской улицей в память о князе П. А. Кропоткине — теоретике анахро-коммунизма.
 
 Дата открытия — 15 мая 1935.
 

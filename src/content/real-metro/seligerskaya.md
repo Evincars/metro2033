@@ -2,21 +2,21 @@
 id: seligerskaya
 title: "Селигерская"
 line: 10
-lineName: "Люблинско-Дмитровская линия"
+lineName: "Lyublinsko-Dmitrovskaya Line"
 lineNameEn: "Lyublinsko-Dmitrovskaya Line"
 opened: "22 марта 2018"
 architects: "А. И. Тарасов, Д. В. Деев, Д. Ж. Полякова"
 image: "/real-metro-imgs/seligerskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/seliger/0.jpg|https://www.metrowalks.com/f/msk/seliger/210815-1133479.jpg|https://www.metrowalks.com/f/msk/seliger/210815-1133487.jpg|https://www.metrowalks.com/f/msk/seliger/250614-1144002.jpg"
 source: "https://www.metrowalks.com/ru/moscow/lyublinsko-dmitrovskaya/seligerskaya"
-brief: "Селигерская — колонная трёхпролётная станция мелкого заложения."
+brief: "Селигерская is a shallow column three-span station."
 ---
 
-Селигерская — колонная трёхпролётная станция мелкого заложения.
+Селигерская is a shallow column three-span station.
 
-Станция находится на севере Москвы в Бескудниковском районе под Дмитровским шоссе у перекрёстка с Селигерской улицей.
+The station is located на севере Москвы в Бескудниковском районе под Дмитровским шоссе у перекрёстка с Селигерской улицей.
 
-Происхождение названия: по названию пересекаемой улицы, названной по озеру Селигер на Валдайской возвышенности.
+Name origin: по названию пересекаемой улицы, названной по озеру Селигер на Валдайской возвышенности.
 
 Дата открытия — 22 марта 2018.
 

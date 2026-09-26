@@ -2,21 +2,21 @@
 id: park-pobedy
 title: "Парк Победы"
 line: 3
-lineName: "Арбатско-Покровская линия"
+lineName: "Arbatsko-Pokrovskaya Line"
 lineNameEn: "Arbatsko-Pokrovskaya Line"
 opened: "6 мая 2003"
 architects: "Н. И. Шумаков, Н. В. Шурыгина, А. В. Некрасов"
 image: "/real-metro-imgs/park-pobedy.jpg"
 gallery: "https://www.metrowalks.com/f/msk/parkpob/0.jpg|https://www.metrowalks.com/f/msk/parkpob/090529-1052141.jpg|https://www.metrowalks.com/f/msk/parkpob/111203-1078540.jpg|https://www.metrowalks.com/f/msk/parkpob/111203-1078525.jpg"
 source: "https://www.metrowalks.com/ru/moscow/arbatsko-pokrovskaya/park-pobedy"
-brief: "Парк Победы — пилонная трёхсводчатая станция глубокого заложения."
+brief: "Парк Победы is a deep-level pylonic three-vault station."
 ---
 
-Парк Победы — пилонная трёхсводчатая станция глубокого заложения.
+Парк Победы is a deep-level pylonic three-vault station.
 
-Станция находится к западу от центра Москвы в районе Дорогомилово у перекрёстка Кутузовского проспекта с улицами Барклая и Генерала Ермолова.
+The station is located к западу от центра Москвы в районе Дорогомилово у перекрёстка Кутузовского проспекта с улицами Барклая и Генерала Ермолова.
 
-Происхождение названия: станция находится рядом с главным входом в парк Победы на Поклонной горе.
+Name origin: станция находится near главным входом в парк Победы на Поклонной горе.
 
 Дата открытия — 6 мая 2003.
 

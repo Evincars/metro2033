@@ -2,25 +2,25 @@
 id: bibirevo
 title: "Бибирево"
 line: 9
-lineName: "Серпуховско-Тимирязевская линия"
+lineName: "Serpukhovsko-Timiryazevskaya Line"
 lineNameEn: "Serpukhovsko-Timiryazevskaya Line"
 opened: "31 декабря 1992"
 architects: "Л. Л. Борзенков, А. Л. Вигдоров, В. А. Черёмин"
 image: "/real-metro-imgs/bibirevo.jpg"
 gallery: "https://www.metrowalks.com/f/msk/bibirev/0.jpg|https://www.metrowalks.com/f/msk/bibirev/090530-1052650.jpg|https://www.metrowalks.com/f/msk/bibirev/090530-1052653.jpg|https://www.metrowalks.com/f/msk/bibirev/090530-1052647.jpg"
 source: "https://www.metrowalks.com/ru/moscow/serpuhovsko-timiryazevskaya/bibirevo"
-brief: "Бибирево — колонная трёхпролётная станция мелкого заложения."
+brief: "Бибирево is a shallow column three-span station."
 ---
 
-Бибирево — колонная трёхпролётная станция мелкого заложения.
+Бибирево is a shallow column three-span station.
 
-Станция находится на северной окраине Москвы в районе Бибирево, у перекрёстка Бибиревской и Костромской улиц.
+The station is located на северной окраине Москвы в районе Бибирево, у перекрёстка Бибиревской и Костромской улиц.
 
-Происхождение названия: по названию района, происходящему от села Бибирево (по старому имени Биберь — бобёр), располагавшегося ранее в этом месте.
+Name origin: по названию района, происходящему от села Бибирево (по старому имени Биберь — бобёр), располагавшегося ранее в этом месте.
 
 Дата открытия — 31 декабря 1992.
 
 Архитекторы станции — Л. Л. Борзенков, А. Л. Вигдоров, В. А. Черёмин.
 
-Путевые стены облицованы белым мрамором с серыми вертикальными полосами, цоколем и фризом. Колонны круглого сечения облицованы белым мрамором. Пол
-      выложен серым гранитом с красными контурными квадратами.
+The track walls are clad in white marble с серыми вертикальными stripes, цоколем и фризом. Колонны круглого сечения облицованы white marble. Пол
+      выложен grey granite с красными контурными квадратами.

@@ -2,21 +2,21 @@
 id: petrovsko-razumovskaya
 title: "Петровско-Разумовская"
 line: 10
-lineName: "Люблинско-Дмитровская линия"
+lineName: "Lyublinsko-Dmitrovskaya Line"
 lineNameEn: "Lyublinsko-Dmitrovskaya Line"
 opened: "1 марта 1991"
 architects: "В. З. Филиппов, С. А. Севастьянов (старый зал), Н. И. Шумаков, А. В. Некрасов, Г. С. Мун, В. З. Филиппов (новый зал)"
 image: "/real-metro-imgs/petrovsko-razumovskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/petraz/0.jpg|https://www.metrowalks.com/f/msk/petraz/210815-1133499.jpg|https://www.metrowalks.com/f/msk/petraz/090530-1052630.jpg|https://www.metrowalks.com/f/msk/petraz/210815-1133502.jpg"
 source: "https://www.metrowalks.com/ru/moscow/lyublinsko-dmitrovskaya/petrovsko-razumovskaya"
-brief: "Петровско-Разумовская — колонная трёхсводчатая станция глубокого заложения."
+brief: "Петровско-Разумовская is a deep-level column three-vault station."
 ---
 
-Петровско-Разумовская — колонная трёхсводчатая станция глубокого заложения.
+Петровско-Разумовская is a deep-level column three-vault station.
 
-Станция находится в северной части Москвы в Тимирязевском районе между Дмитровским шоссе и улицей Комдива Орлова.
+The station is located в северной части Москвы в Тимирязевском районе между Дмитровским шоссе и улицей Комдива Орлова.
 
-Происхождение названия: по историческому названию местности — здесь располагалось старинное село Петровско-Разумовское, вошедшее в состав Москвы в 1917 году.
+Name origin: по историческому названию местности — здесь располагалось старинное село Петровско-Разумовское, вошедшее в состав Москвы в 1917 году.
 
 Дата открытия — 1 марта 1991.
 

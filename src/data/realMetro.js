@@ -1,10 +1,23 @@
 import { parseFrontmatter } from '../utils/frontmatter'
+import { resolveFiles } from '../i18n/content'
 
-const files = import.meta.glob('../content/real-metro/*.md', {
+const enFiles = import.meta.glob('../content/real-metro/*.md', {
   query: '?raw',
   import: 'default',
   eager: true,
 })
+const ruFiles = import.meta.glob('../content/ru/real-metro/*.md', {
+  query: '?raw',
+  import: 'default',
+  eager: true,
+})
+const ukFiles = import.meta.glob('../content/uk/real-metro/*.md', {
+  query: '?raw',
+  import: 'default',
+  eager: true,
+})
+
+const files = resolveFiles(enFiles, ruFiles, ukFiles)
 
 export const realMetroStations = Object.values(files)
   .map((raw) => {

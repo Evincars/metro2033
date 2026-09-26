@@ -2,21 +2,21 @@
 id: belomorskaya
 title: "Беломорская"
 line: 2
-lineName: "Замоскворецкая линия"
+lineName: "Zamoskvoretskaya Line"
 lineNameEn: "Zamoskvoretskaya Line"
 opened: "20 декабря 2018"
 architects: "Г. Б. Ломоносов, Д. Поляков, Е. Климова, Е. Папоротская, А. Сойфер, Д. Фомичев"
 image: "/real-metro-imgs/belomorskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/belomor/0.jpg|https://www.metrowalks.com/f/msk/belomor/210814-1132330.jpg|https://www.metrowalks.com/f/msk/belomor/210814-1132338.jpg|https://www.metrowalks.com/f/msk/belomor/210814-1132316.jpg"
 source: "https://www.metrowalks.com/ru/moscow/zamoskvoretskaya/belomorskaya"
-brief: "Беломорская — колонная трёхпролётная станция мелкого заложения."
+brief: "Беломорская is a shallow column three-span station."
 ---
 
-Беломорская — колонная трёхпролётная станция мелкого заложения.
+Беломорская is a shallow column three-span station.
 
-Станция находится на северо-северо-западной окраине Москвы в Левобережном районе под Беломорской улицей у перекрёстка со Смольной улицей.
+The station is located на северо-северо-западной окраине Москвы в Левобережном районе под Беломорской улицей у перекрёстка со Смольной улицей.
 
-Происхождение названия: по имени улицы, проходящей над станцией, названной по Белому морю, городу Беломорску и Беломорско-Балтийскому каналу в связи с расположением на севере Москвы.
+Name origin: по имени улицы, проходящей над станцией, названной по Белому морю, городу Беломорску и Беломорско-Балтийскому каналу в связи с расположением на севере Москвы.
 
 Дата открытия — 20 декабря 2018.
 

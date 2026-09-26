@@ -2,24 +2,24 @@
 id: rizhskaya
 title: "Рижская"
 line: 6
-lineName: "Калужско-Рижская линия"
+lineName: "Kaluzhsko-Rizhskaya Line"
 lineNameEn: "Kaluzhsko-Rizhskaya Line"
 opened: "1 мая 1958"
 architects: "А. Рейнфельдс, В. Я. Апситис"
 image: "/real-metro-imgs/rizhskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/rizhsk/0.jpg|https://www.metrowalks.com/f/msk/rizhsk/111203-1078184.jpg|https://www.metrowalks.com/f/msk/rizhsk/111203-1078182.jpg|https://www.metrowalks.com/f/msk/rizhsk/111203-1078179.jpg"
 source: "https://www.metrowalks.com/ru/moscow/kaluzhsko-rizhskaya/rizhskaya"
-brief: "Рижская — пилонная трёхсводчатая станция глубокого заложения."
+brief: "Рижская is a deep-level pylonic three-vault station."
 ---
 
-Рижская — пилонная трёхсводчатая станция глубокого заложения.
+Рижская is a deep-level pylonic three-vault station.
 
-Станция находится к северу от центра города в Мещанском районе на проспекте Мира рядом с Рижской площадью и пересечением с Третьим Транспортным Кольцом.
+The station is located к северу от центра города в Мещанском районе на проспекте Мира near Рижской площадью и пересечением с Третьим Транспортным Кольцом.
 
-Происхождение названия: рядом со станцией находится Рижский железнодорожный вокзал.
+Name origin: nearо станцией находится Рижский железнодорожный вокзал.
 
 Дата открытия — 1 мая 1958.
 
 Архитекторы станции — А. Рейнфельдс, В. Я. Апситис.
 
-Станция Рижская является объектом культурного наследия России.
+Станция Рижская is a cultural heritage site of Russia.

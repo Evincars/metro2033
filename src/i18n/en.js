@@ -257,6 +257,10 @@ export default {
   'stations.inGame': 'In game →',
   'stations.noMatch': 'No stations match',
   'stations.noMatchHint': 'Try a different search term or clear the filters.',
+  'stations.openLevel': 'Open level dossier',
+  'stations.openLocation': 'Open location',
+  'stations.openRealMetro': 'Full station info',
+  'stations.showOnMap': 'Show on map',
 
   // Locations
   'locations.backToList': '← All locations',

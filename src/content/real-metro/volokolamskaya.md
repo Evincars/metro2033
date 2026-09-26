@@ -2,21 +2,21 @@
 id: volokolamskaya
 title: "Волоколамская"
 line: 3
-lineName: "Арбатско-Покровская линия"
+lineName: "Arbatsko-Pokrovskaya Line"
 lineNameEn: "Arbatsko-Pokrovskaya Line"
 opened: "26 декабря 2009"
 architects: "А. Ю. Орлов, А. В. Некрасов, В. О. Сычёва"
 image: "/real-metro-imgs/volokolamskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/volokol/0.jpg|https://www.metrowalks.com/f/msk/volokol/100515-1064665.jpg|https://www.metrowalks.com/f/msk/volokol/091226-1060312.jpg|https://www.metrowalks.com/f/msk/volokol/091227-1060660.jpg"
 source: "https://www.metrowalks.com/ru/moscow/arbatsko-pokrovskaya/volokolamskaya"
-brief: "Волоколамская — колонная трёхпролётная станция мелкого заложения."
+brief: "Волоколамская is a shallow column three-span station."
 ---
 
-Волоколамская — колонная трёхпролётная станция мелкого заложения.
+Волоколамская is a shallow column three-span station.
 
-Станция находится на северо-западной окраине города в районе Митино на Новотушинском проезде недалеко от развязки Пятницкого и Волоколамского шоссе.
+The station is located на северо-западной окраине города в районе Митино на Новотушинском проезде недалеко от развязки Пятницкого и Волоколамского шоссе.
 
-Происхождение названия: по одноимённому шоссе, ведущему в город Волоколамск на западе Московской области.
+Name origin: по одноимённому шоссе, ведущему в город Волоколамск на западе Московской области.
 
 Дата открытия — 26 декабря 2009.
 

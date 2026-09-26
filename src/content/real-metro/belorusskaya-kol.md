@@ -2,21 +2,21 @@
 id: belorusskaya-kol
 title: "Белорусская"
 line: 5
-lineName: "Кольцевая линия"
+lineName: "Koltsevaya (Ring) Line"
 lineNameEn: "Koltsevaya (Ring) Line"
 opened: "30 января 1952"
 architects: "И. Г. Таранов, Н. А. Быкова, Я. В. Татаржинская, А. А. Марова, З. Ф. Абрамова"
 image: "/real-metro-imgs/belorusskaya-kol.jpg"
 gallery: "https://www.metrowalks.com/f/msk/beloruk/0.jpg|https://www.metrowalks.com/f/msk/beloruk/151018-1108222.jpg|https://www.metrowalks.com/f/msk/beloruk/151018-1108258.jpg|https://www.metrowalks.com/f/msk/beloruk/090529-1051965.jpg"
 source: "https://www.metrowalks.com/ru/moscow/circle/belorusskaya-kol"
-brief: "Белорусская — пилонная трёхсводчатая станция глубокого заложения."
+brief: "Белорусская is a deep-level pylonic three-vault station."
 ---
 
-Белорусская — пилонная трёхсводчатая станция глубокого заложения.
+Белорусская is a deep-level pylonic three-vault station.
 
-Станция находится на северо-западной окраине центра Москвы в Тверском районе под площадью Тверская Застава.
+The station is located на северо-западной окраине центра Москвы в Тверском районе под площадью Тверская Застава.
 
-Происхождение названия: станция находится рядом с Белорусским железнодорожным вокзалом.
+Name origin: станция находится near Белорусским железнодорожным вокзалом.
 
 Дата открытия — 30 января 1952.
 

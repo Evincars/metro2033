@@ -2,21 +2,21 @@
 id: orehovo
 title: "Орехово"
 line: 2
-lineName: "Замоскворецкая линия"
+lineName: "Zamoskvoretskaya Line"
 lineNameEn: "Zamoskvoretskaya Line"
 opened: "30 декабря 1984"
 architects: "Л. Н. Попов, В. С. Волович, Г. С. Мун"
 image: "/real-metro-imgs/orehovo.jpg"
 gallery: "https://www.metrowalks.com/f/msk/orehovo/0.jpg|https://www.metrowalks.com/f/msk/orehovo/250616-1144744.jpg|https://www.metrowalks.com/f/msk/orehovo/250616-1144759.jpg|https://www.metrowalks.com/f/msk/orehovo/250616-1144740.jpg"
 source: "https://www.metrowalks.com/ru/moscow/zamoskvoretskaya/orehovo"
-brief: "Орехово — колонная трёхпролётная станция мелкого заложения."
+brief: "Орехово is a shallow column three-span station."
 ---
 
-Орехово — колонная трёхпролётная станция мелкого заложения.
+Орехово is a shallow column three-span station.
 
-Станция находится на южной окраине города в районе Орехово-Борисово Северное под перекрёстком Шипиловского проезда и улицы Баженова.
+The station is located на южной окраине города в районе Орехово-Борисово Северное под перекрёстком Шипиловского проезда и улицы Баженова.
 
-Происхождение названия: по названию района Орехово-Борисово, полученному от располагавшейся на этом месте деревне Орехово (причём территория деревни Борисово не входит в нынешний состав района, а станция Борисово не входит в Замоскворецкую линию).
+Name origin: по названию района Орехово-Борисово, полученному от располагавшейся на этом месте деревне Орехово (причём территория деревни Борисово не входит в нынешний состав района, а станция Борисово не входит в Замоскворецкую линию).
 
 Дата открытия — 30 декабря 1984.
 

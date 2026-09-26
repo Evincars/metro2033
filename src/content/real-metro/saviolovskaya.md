@@ -2,25 +2,25 @@
 id: saviolovskaya
 title: "Савёловская"
 line: 9
-lineName: "Серпуховско-Тимирязевская линия"
+lineName: "Serpukhovsko-Timiryazevskaya Line"
 lineNameEn: "Serpukhovsko-Timiryazevskaya Line"
 opened: "31 декабря 1988"
 architects: "Н. И. Шумаков, Н. В. Шурыгина"
 image: "/real-metro-imgs/saviolovskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/saviol/0.jpg|https://www.metrowalks.com/f/msk/saviol/090530-1052669.jpg|https://www.metrowalks.com/f/msk/saviol/100619-1067061.jpg|https://www.metrowalks.com/f/msk/saviol/100619-1067059.jpg"
 source: "https://www.metrowalks.com/ru/moscow/serpuhovsko-timiryazevskaya/saviolovskaya"
-brief: "Савёловская — пилонная трёхсводчатая станция глубокого заложения."
+brief: "Савёловская is a deep-level pylonic three-vault station."
 ---
 
-Савёловская — пилонная трёхсводчатая станция глубокого заложения.
+Савёловская is a deep-level pylonic three-vault station.
 
-Станция находится на северной окраине центра Москвы на границе Бутырского района с районом Марьина Роща, на Бутырской улице у площади Савёловского вокзала.
+The station is located на северной окраине центра Москвы на границе Бутырского района с районом Марьина Роща, на Бутырской улице у площади Савёловского вокзала.
 
-Происхождение названия: по одноимённым железнодорожному вокзалу и площади.
+Name origin: по одноимённым железнодорожному вокзалу и площади.
 
 Дата открытия — 31 декабря 1988.
 
 Архитекторы станции — Н. И. Шумаков, Н. В. Шурыгина.
 
-Путевые стены облицованы бежевым мрамором с серым цоколем, пилоны — белым мрамором с вертикальными полосами и цоколем из серого гранита. Пол выложен
-      серым гранитом.
+The track walls are clad in бежевым marble с серым цоколем, пилоны — white marble с вертикальными stripes и цоколем из серого гранита. The floor is laid with
+      grey granite.

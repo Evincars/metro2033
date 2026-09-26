@@ -2,25 +2,25 @@
 id: chertanovskaya
 title: "Чертановская"
 line: 9
-lineName: "Серпуховско-Тимирязевская линия"
+lineName: "Serpukhovsko-Timiryazevskaya Line"
 lineNameEn: "Serpukhovsko-Timiryazevskaya Line"
 opened: "8 ноября 1983"
 architects: "Н. А. Алёшина"
 image: "/real-metro-imgs/chertanovskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/chertan/0.jpg|https://www.metrowalks.com/f/msk/chertan/220821-1137247.jpg|https://www.metrowalks.com/f/msk/chertan/111204-1078790.jpg|https://www.metrowalks.com/f/msk/chertan/111204-1078786.jpg"
 source: "https://www.metrowalks.com/ru/moscow/serpuhovsko-timiryazevskaya/chertanovskaya"
-brief: "Чертановская — колонная трёхпролётная станция мелкого заложения."
+brief: "Чертановская is a shallow column three-span station."
 ---
 
-Чертановская — колонная трёхпролётная станция мелкого заложения.
+Чертановская is a shallow column three-span station.
 
-Станция находится на юге Москвы на границе районов Северное Чертаново и Зюзино у перекрёстка Балаклавского проспекта и Чертановской улицы.
+The station is located на юге Москвы на границе районов Северное Чертаново и Зюзино у перекрёстка Балаклавского проспекта и Чертановской улицы.
 
-Происхождение названия: по историческому названию местности: здесь ранее располагалась деревня Чертаново и протекала река Чертановка.
+Name origin: по историческому названию местности: здесь ранее располагалась деревня Чертаново и протекала река Чертановка.
 
 Дата открытия — 8 ноября 1983.
 
 Архитектор станции — Н. А. Алёшина.
 
-Путевые стены облицованы белым мрамором с серым углублённым цоколем. Колонны, облицованные также белым мрамором, имеют нетипичную форму сечения —
-      пятиконечные звёзды. Пол выложен серым гранитом с красными вставками и чёрными полосами, образующими хитросплетённый геометрический орнамент.
+The track walls are clad in white marble с серым углублённым цоколем. Колонны, облицованные также white marble, имеют нетипичную форму сечения —
+      пятиконечные звёзды. The floor is laid with grey granite с красными inlays и чёрными stripes, образующими хитросплетённый геометрический орнамент.

@@ -2,21 +2,21 @@
 id: mayakovskaya
 title: "Маяковская"
 line: 2
-lineName: "Замоскворецкая линия"
+lineName: "Zamoskvoretskaya Line"
 lineNameEn: "Zamoskvoretskaya Line"
 opened: "11 сентября 1938"
 architects: "А. Н. Душкин"
 image: "/real-metro-imgs/mayakovskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/mayak/0.jpg|https://www.metrowalks.com/f/msk/mayak/100515-1064211.jpg|https://www.metrowalks.com/f/msk/mayak/100515-1064203.jpg|https://www.metrowalks.com/f/msk/mayak/100515-1064191.jpg"
 source: "https://www.metrowalks.com/ru/moscow/zamoskvoretskaya/mayakovskaya"
-brief: "Маяковская — колонная трёхсводчатая станция глубокого заложения."
+brief: "Маяковская is a deep-level column three-vault station."
 ---
 
-Маяковская — колонная трёхсводчатая станция глубокого заложения.
+Маяковская is a deep-level column three-vault station.
 
-Станция находится в северо-западной части центра города в Тверском районе на пересечении Тверской улицы с Садовым кольцом рядом с Триумфальной площадью.
+The station is located в северо-западной части центра города в Тверском районе на пересечении Тверской улицы с Садовым кольцом near Триумфальной площадью.
 
-Происхождение названия: в честь советского поэта В. В. Маяковского (название станции сейчас не привязано к местности, а раньше Триумфальная площадь носила имя Маяковского).
+Name origin: в честь советского поэта В. В. Маяковского (название станции сейчас не привязано к местности, а раньше Триумфальная площадь носила имя Маяковского).
 
 Дата открытия — 11 сентября 1938.
 

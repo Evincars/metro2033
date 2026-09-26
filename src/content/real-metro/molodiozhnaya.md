@@ -2,21 +2,21 @@
 id: molodiozhnaya
 title: "Молодёжная"
 line: 3
-lineName: "Арбатско-Покровская линия"
+lineName: "Arbatsko-Pokrovskaya Line"
 lineNameEn: "Arbatsko-Pokrovskaya Line"
 opened: "5 июля 1965"
 architects: "Р. И. Погребной"
 image: "/real-metro-imgs/molodiozhnaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/molod/0.jpg|https://www.metrowalks.com/f/msk/molod/090529-1052106.jpg|https://www.metrowalks.com/f/msk/molod/090529-1052105.jpg|https://www.metrowalks.com/f/msk/molod/090529-1052107.jpg"
 source: "https://www.metrowalks.com/ru/moscow/arbatsko-pokrovskaya/molodiozhnaya"
-brief: "Молодёжная — колонная трёхпролётная станция мелкого заложения."
+brief: "Молодёжная is a shallow column three-span station."
 ---
 
-Молодёжная — колонная трёхпролётная станция мелкого заложения.
+Молодёжная is a shallow column three-span station.
 
-Станция находится на западной окраине города в районе Кунцево у перекрёстка Ярцевской и Ельнинской улиц.
+The station is located на западной окраине города в районе Кунцево у перекрёстка Ярцевской и Ельнинской улиц.
 
-Происхождение названия: Молодогвардейская улица, проходящая в километре от станции, до 1962 года называлась Молодёжной, исторических корней у названия нет (название неудачно, поскольку в настоящее время Молодёжная улица находится в 10 километрах к юго-востоку от станции).
+Name origin: Молодогвардейская улица, проходящая в километре от станции, до 1962 года называлась Молодёжной, исторических корней у названия нет (название неудачно, поскольку в настоящее время Молодёжная улица находится в 10 километрах к юго-востоку от станции).
 
 Дата открытия — 5 июля 1965.
 

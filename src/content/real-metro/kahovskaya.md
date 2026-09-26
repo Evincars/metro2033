@@ -2,21 +2,21 @@
 id: kahovskaya
 title: "Каховской"
 line: 2
-lineName: "Замоскворецкая линия"
+lineName: "Zamoskvoretskaya Line"
 lineNameEn: "Zamoskvoretskaya Line"
 opened: "11 августа 1969"
 architects: "Н. И. Демчинский, Ю. А. Колесникова"
 image: "/real-metro-imgs/kahovskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/kahovsk/0.jpg|https://www.metrowalks.com/f/msk/kahovsk/220821-1137303.jpg|https://www.metrowalks.com/f/msk/kahovsk/220821-1137282.jpg|https://www.metrowalks.com/f/msk/kahovsk/220821-1137280.jpg"
 source: "https://www.metrowalks.com/ru/moscow/large-circle/kahovskaya"
-brief: "Каховская — колонная трёхпролётная станция мелкого заложения."
+brief: "Каховская is a shallow column three-span station."
 ---
 
-Каховская — колонная трёхпролётная станция мелкого заложения.
+Каховская is a shallow column three-span station.
 
-Станция находится в южной части города в районе Зюзино на пересечении улицы Каховки и Чонгарского бульвара с Азовской улицей.
+The station is located в южной части города в районе Зюзино на пересечении улицы Каховки и Чонгарского бульвара с Азовской улицей.
 
-Происхождение названия: по одноимённой улице, названной по украинскому городу Каховке.
+Name origin: по одноимённой улице, названной по украинскому городу Каховке.
 
 Дата открытия — 11 августа 1969.
 

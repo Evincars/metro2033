@@ -2,21 +2,21 @@
 id: sportivnaya
 title: "Спортивная"
 line: 1
-lineName: "Сокольническая линия"
+lineName: "Sokolnicheskaya Line"
 lineNameEn: "Sokolnicheskaya Line"
 opened: "1 мая 1957"
 architects: "Н. А. Быкова, И. Г. Таранов, И. Г. Гохарь-Хармандарян, Ю. А. Черепанов"
 image: "/real-metro-imgs/sportivnaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/sportiv/0.jpg|https://www.metrowalks.com/f/msk/sportiv/111204-1078696.jpg|https://www.metrowalks.com/f/msk/sportiv/090531-1053278.jpg|https://www.metrowalks.com/f/msk/sportiv/111204-1078688.jpg"
 source: "https://www.metrowalks.com/ru/moscow/sokolnicheskaya/sportivnaya"
-brief: "Спортивная — пилонная трёхсводчатая станция глубокого заложения."
+brief: "Спортивная is a deep-level pylonic three-vault station."
 ---
 
-Спортивная — пилонная трёхсводчатая станция глубокого заложения.
+Спортивная is a deep-level pylonic three-vault station.
 
-Станция находится к юго-западу от центра города в районе Хамовники рядом с улицей Хамовнический Вал.
+The station is located к юго-западу от центра города в районе Хамовники near улицей Хамовнический Вал.
 
-Происхождение названия: рядом со станцией расположен спортивный комплекс «Лужники».
+Name origin: nearо станцией расположен спортивный комплекс «Лужники».
 
 Дата открытия — 1 мая 1957.
 
