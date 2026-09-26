@@ -1,22 +1,23 @@
 ---
 id: olhovaya
 title: "Ольховая"
+titleEn: "Olhovaya"
 line: 1
 lineName: "Sokolnicheskaya Line"
 lineNameEn: "Sokolnicheskaya Line"
-opened: "20 июня 2019"
+opened: "20 June 2019"
 architects: "ГУП «Моспромпроект»"
 image: "/real-metro-imgs/olhovaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/olhov/0.jpg|https://www.metrowalks.com/f/msk/olhov/210814-1132201.jpg|https://www.metrowalks.com/f/msk/olhov/210814-1132199.jpg|https://www.metrowalks.com/f/msk/olhov/210814-1132203.jpg"
 source: "https://www.metrowalks.com/ru/moscow/sokolnicheskaya/olhovaya"
-brief: "Ольховая — однопролётная станция мелкого заложения."
+brief: "Olhovaya — однопролётная станция мелкого заложения."
 ---
 
-Ольховая — однопролётная станция мелкого заложения.
+Olhovaya — однопролётная станция мелкого заложения.
 
 The station is located в Сосенском поселении «Новой Москвы» между деревней Сосенки и посёлком Коммунарка под Солнцево-Бутово-Варшавским шоссе у пересечения с Калужским шоссе.
 
-Name origin: в близлежащей деревне Сосенки существует Ольховая улица (название станции весьма условно привязано к местности: в деревне есть около десятка равноправных улиц с другими названиями).
+Name origin: в близлежащей деревне Сосенки существует Olhovaya улица (название станции весьма условно привязано к местности: в деревне есть около десятка равноправных улиц с другими названиями).
 
 Дата открытия — 20 июня 2019.
 

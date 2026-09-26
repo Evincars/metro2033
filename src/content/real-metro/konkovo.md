@@ -1,20 +1,21 @@
 ---
 id: konkovo
 title: "Коньково"
+titleEn: "Konkovo"
 line: 6
 lineName: "Kaluzhsko-Rizhskaya Line"
 lineNameEn: "Kaluzhsko-Rizhskaya Line"
-opened: "6 ноября 1987"
+opened: "6 November 1987"
 architects: "Н. И. Шумаков, Г. С. Мун, Н. В. Шурыгина"
 image: "/real-metro-imgs/konkovo.jpg"
 gallery: "https://www.metrowalks.com/f/msk/konkovo/0.jpg|https://www.metrowalks.com/f/msk/konkovo/220821-1137065.jpg|https://www.metrowalks.com/f/msk/konkovo/220821-1137055.jpg|https://www.metrowalks.com/f/msk/konkovo/220821-1137059.jpg"
 source: "https://www.metrowalks.com/ru/moscow/kaluzhsko-rizhskaya/konkovo"
-brief: "Коньково is a shallow single-vault station."
+brief: "Konkovo is a shallow single-vault station."
 ---
 
-Коньково is a shallow single-vault station.
+Konkovo is a shallow single-vault station.
 
-The station is located на юго-западной окраине города в районе Коньково на границе с районом Тёплый Стан под перекрёстком Профсоюзной улицы с улицей Островитянова.
+The station is located на юго-западной окраине города в районе Konkovo на границе с районом Тёплый Стан под перекрёстком Профсоюзной улицы с улицей Островитянова.
 
 Name origin: по названию района, происходящему от названия села, территория которого вошла в состав города в 1960 году.
 

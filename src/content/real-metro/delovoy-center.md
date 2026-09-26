@@ -1,18 +1,19 @@
 ---
 id: delovoy-center
 title: "Деловой центр"
+titleEn: "Delovoy Center"
 line: 4
 lineName: "Filyovskaya Line"
 lineNameEn: "Filyovskaya Line"
-opened: "10 сентября 2005"
+opened: "10 September 2005"
 architects: "А. Л. Вигдоров, Л. Л. Борзенков, О. Ю. Фарстова"
 image: "/real-metro-imgs/delovoy-center.jpg"
 gallery: "https://www.metrowalks.com/f/msk/vystav/0.jpg|https://www.metrowalks.com/f/msk/vystav/091227-1060559.jpg|https://www.metrowalks.com/f/msk/vystav/091227-1060558.jpg|https://www.metrowalks.com/f/msk/vystav/091227-1060560.jpg"
 source: "https://www.metrowalks.com/ru/moscow/filyovskaya/delovoy-center"
-brief: "Деловой центр is a shallow column three-span station."
+brief: "Delovoy Center is a shallow column three-span station."
 ---
 
-Деловой центр is a shallow column three-span station.
+Delovoy Center is a shallow column three-span station.
 
 The station is located к западу от центра города в Пресненском районе в центральном ядре Московского международного делового центра «Москва-Сити».
 

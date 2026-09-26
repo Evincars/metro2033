@@ -1,20 +1,21 @@
 ---
 id: kuzminki
 title: "Кузьминки"
+titleEn: "Kuzminki"
 line: 7
 lineName: "Tagansko-Krasnopresnenskaya Line"
 lineNameEn: "Tagansko-Krasnopresnenskaya Line"
-opened: "31 декабря 1966"
+opened: "31 December 1966"
 architects: "Л. А. Шагурина, М. Н. Корнеева"
 image: "/real-metro-imgs/kuzminki.jpg"
 gallery: "https://www.metrowalks.com/f/msk/kuzmin/0.jpg|https://www.metrowalks.com/f/msk/kuzmin/151017-1107382.jpg|https://www.metrowalks.com/f/msk/kuzmin/151017-1107385.jpg|https://www.metrowalks.com/f/msk/kuzmin/100619-1066971.jpg"
 source: "https://www.metrowalks.com/ru/moscow/tagansko-krasnopresnenskaya/kuzminki"
-brief: "Кузьминки is a shallow column three-span station."
+brief: "Kuzminki is a shallow column three-span station."
 ---
 
-Кузьминки is a shallow column three-span station.
+Kuzminki is a shallow column three-span station.
 
-The station is located в юго-восточной части Москвы в районе Кузьминки под Волгоградским проспектом между перекрёстками с Зеленодольской и Жигулёвской улицами и улицей Маршала Чуйкова.
+The station is located в юго-восточной части Москвы в районе Kuzminki под Волгоградским проспектом между перекрёстками с Зеленодольской и Жигулёвской улицами и улицей Маршала Чуйкова.
 
 Name origin: по историческому названию местности (Кузьминская мельница), известному с XVI века.
 

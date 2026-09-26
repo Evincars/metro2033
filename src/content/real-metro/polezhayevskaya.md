@@ -1,18 +1,19 @@
 ---
 id: polezhayevskaya
 title: "Полежаевская"
+titleEn: "Polezhayevskaya"
 line: 7
 lineName: "Tagansko-Krasnopresnenskaya Line"
 lineNameEn: "Tagansko-Krasnopresnenskaya Line"
-opened: "30 декабря 1972"
+opened: "30 December 1972"
 architects: "Л. Н. Попов, А. Ф. Фокина"
 image: "/real-metro-imgs/polezhayevskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/polezh/0.jpg|https://www.metrowalks.com/f/msk/polezh/091226-1060130.jpg|https://www.metrowalks.com/f/msk/polezh/090531-1053152.jpg|https://www.metrowalks.com/f/msk/polezh/090531-1053151.jpg"
 source: "https://www.metrowalks.com/ru/moscow/tagansko-krasnopresnenskaya/polezhayevskaya"
-brief: "Полежаевская is a shallow column three-span station."
+brief: "Polezhayevskaya is a shallow column three-span station."
 ---
 
-Полежаевская is a shallow column three-span station.
+Polezhayevskaya is a shallow column three-span station.
 
 The station is located к западу от центра Москвы в Хорошёвском районе под перекрёстком Хорошёвского шоссе с улицей Куусинена.
 

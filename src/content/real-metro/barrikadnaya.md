@@ -1,18 +1,19 @@
 ---
 id: barrikadnaya
 title: "Баррикадная"
+titleEn: "Barrikadnaya"
 line: 7
 lineName: "Tagansko-Krasnopresnenskaya Line"
 lineNameEn: "Tagansko-Krasnopresnenskaya Line"
-opened: "30 декабря 1972"
+opened: "30 December 1972"
 architects: "А. Ф. Стрелков, В. Г. Поликарпова"
 image: "/real-metro-imgs/barrikadnaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/barrik/0.jpg|https://www.metrowalks.com/f/msk/barrik/100516-1065074.jpg|https://www.metrowalks.com/f/msk/barrik/100516-1065066.jpg|https://www.metrowalks.com/f/msk/barrik/100516-1065064.jpg"
 source: "https://www.metrowalks.com/ru/moscow/tagansko-krasnopresnenskaya/barrikadnaya"
-brief: "Баррикадная is a deep-level pylonic three-vault station."
+brief: "Barrikadnaya is a deep-level pylonic three-vault station."
 ---
 
-Баррикадная is a deep-level pylonic three-vault station.
+Barrikadnaya is a deep-level pylonic three-vault station.
 
 The station is located на западной окраине центра города в Пресненском районе на Баррикадной улице у перекрёстка с Большой Грузинской улицей.
 

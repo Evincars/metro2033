@@ -1,18 +1,19 @@
 ---
 id: chkalovskaya
 title: "Чкаловская"
+titleEn: "Chkalovskaya"
 line: 10
 lineName: "Lyublinsko-Dmitrovskaya Line"
 lineNameEn: "Lyublinsko-Dmitrovskaya Line"
-opened: "28 декабря 1995"
+opened: "28 December 1995"
 architects: "Н. А. Алёшина, Л. Л. Борзенков, А. Л. Вигдоров"
 image: "/real-metro-imgs/chkalovskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/chkal/0.jpg|https://www.metrowalks.com/f/msk/chkal/151017-1107466.jpg|https://www.metrowalks.com/f/msk/chkal/090530-1052312.jpg|https://www.metrowalks.com/f/msk/chkal/151017-1107459.jpg"
 source: "https://www.metrowalks.com/ru/moscow/lyublinsko-dmitrovskaya/chkalovskaya"
-brief: "Чкаловская is a deep-level pylonic three-vault station."
+brief: "Chkalovskaya is a deep-level pylonic three-vault station."
 ---
 
-Чкаловская is a deep-level pylonic three-vault station.
+Chkalovskaya is a deep-level pylonic three-vault station.
 
 The station is located на восточной окраине центра города в Басманном районе под площадью Курского вокзала.
 

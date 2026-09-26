@@ -1,18 +1,19 @@
 ---
 id: fizteh
 title: "Физтех"
+titleEn: "Fizteh"
 line: 10
 lineName: "Lyublinsko-Dmitrovskaya Line"
 lineNameEn: "Lyublinsko-Dmitrovskaya Line"
-opened: "7 сентября 2023"
+opened: "7 September 2023"
 architects: "Н. И. Шумаков, Л. Л. Борзенков, А. В. Некрасов, Г. С. Мун, В. З. Филиппов, Н. В. Расстегняева, В. Ю. Молчанов, Д. В. Щучкин, П. А. Королёва, Т. А. Нагиева, С. Ф. Костиков"
 image: "/real-metro-imgs/fizteh.jpg"
 gallery: "https://www.metrowalks.com/f/msk/fizteh/0.jpg|https://www.metrowalks.com/f/msk/fizteh/250612-1142074.jpg|https://www.metrowalks.com/f/msk/fizteh/250612-1142063.jpg|https://www.metrowalks.com/f/msk/fizteh/250612-1142076.jpg"
 source: "https://www.metrowalks.com/ru/moscow/lyublinsko-dmitrovskaya/fizteh"
-brief: "Физтех is a shallow single-vault station."
+brief: "Fizteh is a shallow single-vault station."
 ---
 
-Физтех is a shallow single-vault station.
+Fizteh is a shallow single-vault station.
 
 The station is located в Северном районе Москвы за МКАД, у перекрёстка Дмитровского шоссе с бульваром Академика Ландау.
 

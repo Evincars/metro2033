@@ -1,22 +1,23 @@
 ---
 id: oktiabrskoye-pole
 title: "Октябрьское поле"
+titleEn: "Oktiabrskoye Pole"
 line: 7
 lineName: "Tagansko-Krasnopresnenskaya Line"
 lineNameEn: "Tagansko-Krasnopresnenskaya Line"
-opened: "30 декабря 1972"
+opened: "30 December 1972"
 architects: "Н. А. Алёшина, Л. Н. Зайцева"
 image: "/real-metro-imgs/oktiabrskoye-pole.jpg"
 gallery: "https://www.metrowalks.com/f/msk/oktpole/0.jpg|https://www.metrowalks.com/f/msk/oktpole/100620-1067437.jpg|https://www.metrowalks.com/f/msk/oktpole/100620-1067436.jpg|https://www.metrowalks.com/f/msk/oktpole/100620-1067439.jpg"
 source: "https://www.metrowalks.com/ru/moscow/tagansko-krasnopresnenskaya/oktiabrskoye-pole"
-brief: "Октябрьское поле is a shallow column three-span station."
+brief: "Oktiabrskoye Pole is a shallow column three-span station."
 ---
 
-Октябрьское поле is a shallow column three-span station.
+Oktiabrskoye Pole is a shallow column three-span station.
 
 The station is located в северо-западной части Москвы в районе Щукино под перекрёстком улиц Маршала Бирюзова и Народного ополчения.
 
-Name origin: раньше в этой местности располагалось Октябрьское поле (до революции — Военное поле), использовавшееся для военных учений в XIX — начале XX века.
+Name origin: раньше в этой местности располагалось Oktiabrskoye Pole (до революции — Военное поле), использовавшееся для военных учений в XIX — начале XX века.
 
 Дата открытия — 30 декабря 1972.
 

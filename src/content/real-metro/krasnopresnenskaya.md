@@ -1,18 +1,19 @@
 ---
 id: krasnopresnenskaya
 title: "Краснопресненская"
+titleEn: "Krasnopresnenskaya"
 line: 5
 lineName: "Koltsevaya (Ring) Line"
 lineNameEn: "Koltsevaya (Ring) Line"
-opened: "14 марта 1954"
+opened: "14 March 1954"
 architects: "В. С. Егерев, М. П. Константинов, Ф. А. Новиков, И. А. Покровский"
 image: "/real-metro-imgs/krasnopresnenskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/krpres/0.jpg|https://www.metrowalks.com/f/msk/krpres/100516-1065052.jpg|https://www.metrowalks.com/f/msk/krpres/100516-1065050.jpg|https://www.metrowalks.com/f/msk/krpres/100516-1065048.jpg"
 source: "https://www.metrowalks.com/ru/moscow/circle/krasnopresnenskaya"
-brief: "Краснопресненская is a deep-level pylonic three-vault station."
+brief: "Krasnopresnenskaya is a deep-level pylonic three-vault station."
 ---
 
-Краснопресненская is a deep-level pylonic three-vault station.
+Krasnopresnenskaya is a deep-level pylonic three-vault station.
 
 The station is located на западной окраине центра города в Пресненском районе на улице Красная Пресня у перекрёстка с Конюшковской улицей.
 
@@ -22,4 +23,4 @@ Name origin: по одноимённой улице, названной в ч�
 
 Архитекторы станции — В. С. Егерев, М. П. Константинов, Ф. А. Новиков, И. А. Покровский.
 
-Станция Краснопресненская является объектом культурного наследия города Москвы.
+Станция Krasnopresnenskaya является объектом культурного наследия города Москвы.

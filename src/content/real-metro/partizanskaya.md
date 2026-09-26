@@ -1,18 +1,19 @@
 ---
 id: partizanskaya
 title: "Партизанская"
+titleEn: "Partizanskaya"
 line: 3
 lineName: "Arbatsko-Pokrovskaya Line"
 lineNameEn: "Arbatsko-Pokrovskaya Line"
-opened: "18 января 1944"
+opened: "18 January 1944"
 architects: "Б. С. Виленский, Л. Д. Фишбейн"
 image: "/real-metro-imgs/partizanskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/partiz/0.jpg|https://www.metrowalks.com/f/msk/partiz/100620-1067510.jpg|https://www.metrowalks.com/f/msk/partiz/090531-1052849.jpg|https://www.metrowalks.com/f/msk/partiz/100620-1067772.jpg"
 source: "https://www.metrowalks.com/ru/moscow/arbatsko-pokrovskaya/partizanskaya"
-brief: "Партизанская is a shallow column three-span station."
+brief: "Partizanskaya is a shallow column three-span station."
 ---
 
-Партизанская is a shallow column three-span station.
+Partizanskaya is a shallow column three-span station.
 
 The station is located в восточной части города в районе Измайлово начале Измайловского шоссе near северо-западной окраиной Измайловского парка.
 
@@ -22,4 +23,4 @@ Name origin: современное название станция получи
 
 Архитекторы станции — Б. С. Виленский, Л. Д. Фишбейн.
 
-Станция Партизанская является объектом культурного наследия города Москвы.
+Станция Partizanskaya является объектом культурного наследия города Москвы.

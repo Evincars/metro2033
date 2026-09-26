@@ -24,15 +24,17 @@ export const realMetroStations = Object.values(files)
     const { meta, body } = parseFrontmatter(raw)
     return {
       id: meta.id,
-      title: meta.title ?? meta.id,
+      title: meta.titleEn || meta.title || meta.id,
+      titleRu: meta.title || meta.id,
       line: Number(meta.line ?? 0),
-      lineName: meta.lineName || '',
-      lineNameEn: meta.lineNameEn || '',
+      lineName: meta.lineNameEn || meta.lineName || '',
+      lineNameRu: meta.lineName || '',
       opened: meta.opened || '',
       architects: meta.architects || '',
       image: meta.image || '',
       gallery: meta.gallery ? meta.gallery.split('|').filter(Boolean) : [],
       source: meta.source || '',
+      brief: meta.brief || '',
       body,
     }
   })

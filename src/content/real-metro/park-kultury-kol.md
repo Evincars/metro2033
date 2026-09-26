@@ -1,18 +1,19 @@
 ---
 id: park-kultury-kol
 title: "Парк культуры"
+titleEn: "Park Kultury"
 line: 5
 lineName: "Koltsevaya (Ring) Line"
 lineNameEn: "Koltsevaya (Ring) Line"
-opened: "1 января 1950"
+opened: "1 January 1950"
 architects: "И. Е. Рожин"
 image: "/real-metro-imgs/park-kultury-kol.jpg"
 gallery: "https://www.metrowalks.com/f/msk/parkkk/0.jpg|https://www.metrowalks.com/f/msk/parkkk/151017-1106722.jpg|https://www.metrowalks.com/f/msk/parkkk/151017-1106691.jpg|https://www.metrowalks.com/f/msk/parkkk/151017-1106720.jpg"
 source: "https://www.metrowalks.com/ru/moscow/circle/park-kultury-kol"
-brief: "Парк культуры is a deep-level pylonic three-vault station."
+brief: "Park Kultury is a deep-level pylonic three-vault station."
 ---
 
-Парк культуры is a deep-level pylonic three-vault station.
+Park Kultury is a deep-level pylonic three-vault station.
 
 The station is located в центре города в районе Хамовники на перекрёстке Комсомольского проспекта и улицы Остоженки с Садовым кольцом.
 

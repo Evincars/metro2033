@@ -1,18 +1,19 @@
 ---
 id: leninskiy-pr
 title: "Ленинский проспект"
+titleEn: "Leninsky Prospekt"
 line: 6
 lineName: "Kaluzhsko-Rizhskaya Line"
 lineNameEn: "Kaluzhsko-Rizhskaya Line"
-opened: "13 октября 1962"
+opened: "13 October 1962"
 architects: "А. Ф. Стрелков, Н. А. Алёшина, Ю. В. Вдовин, В. Г. Поликарпов, А. А. Марова"
 image: "/real-metro-imgs/leninskiy-pr.jpg"
 gallery: "https://www.metrowalks.com/f/msk/leninpr/0.jpg|https://www.metrowalks.com/f/msk/leninpr/220821-1136976.jpg|https://www.metrowalks.com/f/msk/leninpr/220821-1136978.jpg|https://www.metrowalks.com/f/msk/leninpr/220821-1136955.jpg"
 source: "https://www.metrowalks.com/ru/moscow/kaluzhsko-rizhskaya/leninskiy-pr"
-brief: "Ленинский проспект is a shallow column three-span station."
+brief: "Leninsky Prospekt is a shallow column three-span station."
 ---
 
-Ленинский проспект is a shallow column three-span station.
+Leninsky Prospekt is a shallow column three-span station.
 
 The station is located к юго-западу от центра Москвы на границе Донского и Гагаринского районов у пересечения Ленинского проспекта с Третьим Транспортным Кольцом.
 
@@ -22,7 +23,7 @@ Name origin: по одноимённому проспекту (название
 
 Архитекторы станции — А. Ф. Стрелков, Н. А. Алёшина, Ю. В. Вдовин, В. Г. Поликарпов, А. А. Марова.
 
-Станция Ленинский проспект похожа на типовые колонные станции мелкого заложения (“сороконожки”), но несколько отличается: её перекрытия выполнены
+Станция Leninsky Prospekt похожа на типовые колонные станции мелкого заложения (“сороконожки”), но несколько отличается: её перекрытия выполнены
       монолитными, необычной ступенчатой формы у стен и балок колонн. Колонны трапецевидной формы облицованы светлым marble «коелга», цокольная часть
       колонн украшена разноцветным marble «газган» различных оттенков — от розового и жёлтого до серого. Путевые стены изначально были отделаны квадратной
       ceramic tile кремового цвета, уложенной нетипично — по диагонали; цоколь выложен несколькими рядами чёрной плитки. The floor is laid with grey granite

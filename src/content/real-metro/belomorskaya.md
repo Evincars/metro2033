@@ -1,18 +1,19 @@
 ---
 id: belomorskaya
 title: "Беломорская"
+titleEn: "Belomorskaya"
 line: 2
 lineName: "Zamoskvoretskaya Line"
 lineNameEn: "Zamoskvoretskaya Line"
-opened: "20 декабря 2018"
+opened: "20 December 2018"
 architects: "Г. Б. Ломоносов, Д. Поляков, Е. Климова, Е. Папоротская, А. Сойфер, Д. Фомичев"
 image: "/real-metro-imgs/belomorskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/belomor/0.jpg|https://www.metrowalks.com/f/msk/belomor/210814-1132330.jpg|https://www.metrowalks.com/f/msk/belomor/210814-1132338.jpg|https://www.metrowalks.com/f/msk/belomor/210814-1132316.jpg"
 source: "https://www.metrowalks.com/ru/moscow/zamoskvoretskaya/belomorskaya"
-brief: "Беломорская is a shallow column three-span station."
+brief: "Belomorskaya is a shallow column three-span station."
 ---
 
-Беломорская is a shallow column three-span station.
+Belomorskaya is a shallow column three-span station.
 
 The station is located на северо-северо-западной окраине Москвы в Левобережном районе под Беломорской улицей у перекрёстка со Смольной улицей.
 

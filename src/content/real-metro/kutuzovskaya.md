@@ -1,18 +1,19 @@
 ---
 id: kutuzovskaya
 title: "Кутузовская"
+titleEn: "Kutuzovskaya"
 line: 4
 lineName: "Filyovskaya Line"
 lineNameEn: "Filyovskaya Line"
-opened: "7 ноября 1958"
+opened: "7 November 1958"
 architects: "Ю. П. Зенкевич, Р. И. Погребной"
 image: "/real-metro-imgs/kutuzovskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/kutuz/0.jpg|https://www.metrowalks.com/f/msk/kutuz/220820-1135788.jpg|https://www.metrowalks.com/f/msk/kutuz/220820-1135785.jpg|https://www.metrowalks.com/f/msk/kutuz/220820-1135781.jpg"
 source: "https://www.metrowalks.com/ru/moscow/filyovskaya/kutuzovskaya"
-brief: "Кутузовская — наземная станция, открытая, с боковыми платформами."
+brief: "Kutuzovskaya — наземная станция, открытая, с боковыми платформами."
 ---
 
-Кутузовская — наземная станция, открытая, с боковыми платформами.
+Kutuzovskaya — наземная станция, открытая, с боковыми платформами.
 
 The station is located к западу от центра города в районе Дорогомилово у пересечения Кутузовского проспекта и Третьего Транспортного Кольца.
 

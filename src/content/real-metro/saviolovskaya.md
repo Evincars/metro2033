@@ -1,18 +1,19 @@
 ---
 id: saviolovskaya
 title: "Савёловская"
+titleEn: "Saviolovskaya"
 line: 9
 lineName: "Serpukhovsko-Timiryazevskaya Line"
 lineNameEn: "Serpukhovsko-Timiryazevskaya Line"
-opened: "31 декабря 1988"
+opened: "31 December 1988"
 architects: "Н. И. Шумаков, Н. В. Шурыгина"
 image: "/real-metro-imgs/saviolovskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/saviol/0.jpg|https://www.metrowalks.com/f/msk/saviol/090530-1052669.jpg|https://www.metrowalks.com/f/msk/saviol/100619-1067061.jpg|https://www.metrowalks.com/f/msk/saviol/100619-1067059.jpg"
 source: "https://www.metrowalks.com/ru/moscow/serpuhovsko-timiryazevskaya/saviolovskaya"
-brief: "Савёловская is a deep-level pylonic three-vault station."
+brief: "Saviolovskaya is a deep-level pylonic three-vault station."
 ---
 
-Савёловская is a deep-level pylonic three-vault station.
+Saviolovskaya is a deep-level pylonic three-vault station.
 
 The station is located на северной окраине центра Москвы на границе Бутырского района с районом Марьина Роща, на Бутырской улице у площади Савёловского вокзала.
 

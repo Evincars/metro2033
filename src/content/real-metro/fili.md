@@ -1,22 +1,23 @@
 ---
 id: fili
 title: "Фили"
+titleEn: "Fili"
 line: 4
 lineName: "Filyovskaya Line"
 lineNameEn: "Filyovskaya Line"
-opened: "7 ноября 1959"
+opened: "7 November 1959"
 architects: "Ю. П. Зенкевич, Р. И. Погребной"
 image: "/real-metro-imgs/fili.jpg"
 gallery: "https://www.metrowalks.com/f/msk/fili/0.jpg|https://www.metrowalks.com/f/msk/fili/220820-1135838.jpg|https://www.metrowalks.com/f/msk/fili/220820-1135839.jpg|https://www.metrowalks.com/f/msk/fili/220820-1135842.jpg"
 source: "https://www.metrowalks.com/ru/moscow/filyovskaya/fili"
-brief: "Фили — наземная станция, открытая, с боковыми платформами."
+brief: "Fili — наземная станция, открытая, с боковыми платформами."
 ---
 
-Фили — наземная станция, открытая, с боковыми платформами.
+Fili — наземная станция, открытая, с боковыми платформами.
 
 The station is located в западной части Москвы в районе Филёвский парк у Новозаводской улицы и Багратионовского проезда.
 
-Name origin: по историческому названию местности, происходящему от села Фили (изначально Хвили) и речки Фильки.
+Name origin: по историческому названию местности, происходящему от села Fili (изначально Хвили) и речки Фильки.
 
 Дата открытия — 7 ноября 1959.
 

@@ -1,20 +1,21 @@
 ---
 id: krylatskoye
 title: "Крылатское"
+titleEn: "Krylatskoye"
 line: 3
 lineName: "Arbatsko-Pokrovskaya Line"
 lineNameEn: "Arbatsko-Pokrovskaya Line"
-opened: "31 декабря 1989"
+opened: "31 December 1989"
 architects: "Н. И. Шумаков, Г. С. Мун"
 image: "/real-metro-imgs/krylatskoye.jpg"
 gallery: "https://www.metrowalks.com/f/msk/krylat/0.jpg|https://www.metrowalks.com/f/msk/krylat/091227-1060623.jpg|https://www.metrowalks.com/f/msk/krylat/091227-1060618.jpg|https://www.metrowalks.com/f/msk/krylat/151017-1107025.jpg"
 source: "https://www.metrowalks.com/ru/moscow/arbatsko-pokrovskaya/krylatskoye"
-brief: "Крылатское is a shallow single-vault station."
+brief: "Krylatskoye is a shallow single-vault station."
 ---
 
-Крылатское is a shallow single-vault station.
+Krylatskoye is a shallow single-vault station.
 
-The station is located на западной окраине города в районе Крылатское на Осеннем бульваре недалеко от Рублёвского шоссе.
+The station is located на западной окраине города в районе Krylatskoye на Осеннем бульваре недалеко от Рублёвского шоссе.
 
 Name origin: по названию района, унаследованного от бывшего села Крылатского (изначально — Крылецкое), существовавшего с XV века и включённого в состав Москвы в 1960 году.
 

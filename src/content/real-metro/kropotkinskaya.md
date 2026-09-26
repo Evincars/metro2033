@@ -1,18 +1,19 @@
 ---
 id: kropotkinskaya
 title: "Кропоткинская"
+titleEn: "Kropotkinskaya"
 line: 1
 lineName: "Sokolnicheskaya Line"
 lineNameEn: "Sokolnicheskaya Line"
-opened: "15 мая 1935"
+opened: "15 May 1935"
 architects: "А. Н. Душкин, Я. Г. Лихтенберг"
 image: "/real-metro-imgs/kropotkinskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/kropot/0.jpg|https://www.metrowalks.com/f/msk/kropot/091228-1060936.jpg|https://www.metrowalks.com/f/msk/kropot/091228-1060930.jpg|https://www.metrowalks.com/f/msk/kropot/091228-1060938.jpg"
 source: "https://www.metrowalks.com/ru/moscow/sokolnicheskaya/kropotkinskaya"
-brief: "Кропоткинская is a shallow column three-span station."
+brief: "Kropotkinskaya is a shallow column three-span station."
 ---
 
-Кропоткинская is a shallow column three-span station.
+Kropotkinskaya is a shallow column three-span station.
 
 The station is located в центре Москвы в районе Хамовники на площади Пречистенские Ворота, near храмом Христа Спасителя.
 
@@ -22,5 +23,5 @@ Name origin: площадь Пречистенские Ворота и Преч�
 
 Архитекторы станции — А. Н. Душкин, Я. Г. Лихтенберг.
 
-Станция Кропоткинская является объектом культурного наследия города Москвы. Проект станции получил Почётный диплом (Diplome d'Honeur) международной
+Станция Kropotkinskaya является объектом культурного наследия города Москвы. Проект станции получил Почётный диплом (Diplome d'Honeur) международной
       выставки в Париже (1937), Сталинскую премию за архитектуру и строительство (1941) и гран-при на международной выставке в Брюсселе (1958).

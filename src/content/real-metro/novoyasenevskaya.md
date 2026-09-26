@@ -1,18 +1,19 @@
 ---
 id: novoyasenevskaya
 title: "Новоясеневская"
+titleEn: "Novoyasenevskaya"
 line: 6
 lineName: "Kaluzhsko-Rizhskaya Line"
 lineNameEn: "Kaluzhsko-Rizhskaya Line"
-opened: "17 января 1990"
+opened: "17 January 1990"
 architects: "Н. И. Шумаков, Г. С. Мун, Н. В. Шурыгина"
 image: "/real-metro-imgs/novoyasenevskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/nyasen/0.jpg|https://www.metrowalks.com/f/msk/nyasen/090531-1053043.jpg|https://www.metrowalks.com/f/msk/nyasen/090531-1053047.jpg|https://www.metrowalks.com/f/msk/nyasen/151018-1107747.jpg"
 source: "https://www.metrowalks.com/ru/moscow/kaluzhsko-rizhskaya/novoyasenevskaya"
-brief: "Новоясеневская is a shallow column three-span station."
+brief: "Novoyasenevskaya is a shallow column three-span station."
 ---
 
-Новоясеневская is a shallow column three-span station.
+Novoyasenevskaya is a shallow column three-span station.
 
 The station is located на южной окраине Москвы в районе Ясенево на Новоясеневском проспекте near парком «Битцевский лес».
 

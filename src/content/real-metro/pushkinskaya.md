@@ -1,18 +1,19 @@
 ---
 id: pushkinskaya
 title: "Пушкинская"
+titleEn: "Pushkinskaya"
 line: 7
 lineName: "Tagansko-Krasnopresnenskaya Line"
 lineNameEn: "Tagansko-Krasnopresnenskaya Line"
-opened: "17 декабря 1975"
+opened: "17 December 1975"
 architects: "Ю. В. Вдовин, Р. В. Баженов"
 image: "/real-metro-imgs/pushkinskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/pushkin/0.jpg|https://www.metrowalks.com/f/msk/pushkin/100620-1067488.jpg|https://www.metrowalks.com/f/msk/pushkin/100620-1067486.jpg|https://www.metrowalks.com/f/msk/pushkin/100515-1064073.jpg"
 source: "https://www.metrowalks.com/ru/moscow/tagansko-krasnopresnenskaya/pushkinskaya"
-brief: "Пушкинская is a deep-level column three-vault station."
+brief: "Pushkinskaya is a deep-level column three-vault station."
 ---
 
-Пушкинская is a deep-level column three-vault station.
+Pushkinskaya is a deep-level column three-vault station.
 
 The station is located в центре города в Тверском районе на Пушкинской площади, у пересечения Бульварного кольца с Тверской улицей.
 

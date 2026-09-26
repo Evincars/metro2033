@@ -1,22 +1,23 @@
 ---
 id: maryino
 title: "Марьино"
+titleEn: "Maryino"
 line: 10
 lineName: "Lyublinsko-Dmitrovskaya Line"
 lineNameEn: "Lyublinsko-Dmitrovskaya Line"
-opened: "25 декабря 1996"
+opened: "25 December 1996"
 architects: "В. З. Филиппов, С. М. Белякова"
 image: "/real-metro-imgs/maryino.jpg"
 gallery: "https://www.metrowalks.com/f/msk/maryino/0.jpg|https://www.metrowalks.com/f/msk/maryino/111204-1078891.jpg|https://www.metrowalks.com/f/msk/maryino/111204-1078895.jpg|https://www.metrowalks.com/f/msk/maryino/111203-1078348.jpg"
 source: "https://www.metrowalks.com/ru/moscow/lyublinsko-dmitrovskaya/maryino"
-brief: "Марьино — однопролётная станция мелкого заложения."
+brief: "Maryino — однопролётная станция мелкого заложения."
 ---
 
-Марьино — однопролётная станция мелкого заложения.
+Maryino — однопролётная станция мелкого заложения.
 
-The station is located в юго-восточной части Москвы в районе Марьино под Люблинской улицей у перекрёстков с Марьинским и Новочеркасским бульварами и с Новомарьинской улицей.
+The station is located в юго-восточной части Москвы в районе Maryino под Люблинской улицей у перекрёстков с Марьинским и Новочеркасским бульварами и с Новомарьинской улицей.
 
-Name origin: по историческому названию района, происходящему от располагавшейся в этих краях деревни Марьино, названной по имени княгини Марии Ярославны, матери царя Ивана III.
+Name origin: по историческому названию района, происходящему от располагавшейся в этих краях деревни Maryino, названной по имени княгини Марии Ярославны, матери царя Ивана III.
 
 Дата открытия — 25 декабря 1996.
 

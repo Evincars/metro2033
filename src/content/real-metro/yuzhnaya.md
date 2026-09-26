@@ -1,18 +1,19 @@
 ---
 id: yuzhnaya
 title: "Южная"
+titleEn: "Yuzhnaya"
 line: 9
 lineName: "Serpukhovsko-Timiryazevskaya Line"
 lineNameEn: "Serpukhovsko-Timiryazevskaya Line"
-opened: "8 ноября 1983"
+opened: "8 November 1983"
 architects: "В. А. Черёмин, Р. Баженов"
 image: "/real-metro-imgs/yuzhnaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/yuzhn/0.jpg|https://www.metrowalks.com/f/msk/yuzhn/090530-1052811.jpg|https://www.metrowalks.com/f/msk/yuzhn/090530-1052814.jpg|https://www.metrowalks.com/f/msk/yuzhn/151018-1107891.jpg"
 source: "https://www.metrowalks.com/ru/moscow/serpuhovsko-timiryazevskaya/yuzhnaya"
-brief: "Южная is a shallow single-vault station."
+brief: "Yuzhnaya is a shallow single-vault station."
 ---
 
-Южная is a shallow single-vault station.
+Yuzhnaya is a shallow single-vault station.
 
 The station is located на юге Москвы на границе районов Чертаново Северное и Центральное между перекрёстками Кировоградской улицы с Сумской и Днепропетровской улицами недалеко от Варшавского шоссе.
 

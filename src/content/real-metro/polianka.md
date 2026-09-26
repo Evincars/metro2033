@@ -1,18 +1,19 @@
 ---
 id: polianka
 title: "Полянка"
+titleEn: "Polianka"
 line: 9
 lineName: "Serpukhovsko-Timiryazevskaya Line"
 lineNameEn: "Serpukhovsko-Timiryazevskaya Line"
-opened: "23 января 1986"
+opened: "23 January 1986"
 architects: "М. Л. Тренин, С. А. Севастьянов"
 image: "/real-metro-imgs/polianka.jpg"
 gallery: "https://www.metrowalks.com/f/msk/polian/0.jpg|https://www.metrowalks.com/f/msk/polian/220821-1137208.jpg|https://www.metrowalks.com/f/msk/polian/220821-1137205.jpg|https://www.metrowalks.com/f/msk/polian/090529-1052026.jpg"
 source: "https://www.metrowalks.com/ru/moscow/serpuhovsko-timiryazevskaya/polianka"
-brief: "Полянка is a deep-level column three-vault station."
+brief: "Polianka is a deep-level column three-vault station."
 ---
 
-Полянка is a deep-level column three-vault station.
+Polianka is a deep-level column three-vault station.
 
 The station is located в южной части центра Москвы в районе Якиманка на 2-м Полянском переулке.
 

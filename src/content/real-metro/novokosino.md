@@ -1,20 +1,21 @@
 ---
 id: novokosino
 title: "Новокосино"
+titleEn: "Novokosino"
 line: 8
 lineName: "Kalininskaya Line"
 lineNameEn: "Kalininskaya Line"
-opened: "30 августа 2012"
+opened: "30 August 2012"
 architects: "Л. Л. Борзенков, М. В. Волович, С. Ф. Костиков, Т. А. Нагиева, Н. Н. Солдатова, В. К. Уваров"
 image: "/real-metro-imgs/novokosino.jpg"
 gallery: "https://www.metrowalks.com/f/msk/nkosino/0.jpg|https://www.metrowalks.com/f/msk/nkosino/151018-1107524.jpg|https://www.metrowalks.com/f/msk/nkosino/151018-1107527.jpg|https://www.metrowalks.com/f/msk/nkosino/151018-1107510.jpg"
 source: "https://www.metrowalks.com/ru/moscow/kalininskaya/novokosino"
-brief: "Новокосино is a shallow single-vault station."
+brief: "Novokosino is a shallow single-vault station."
 ---
 
-Новокосино is a shallow single-vault station.
+Novokosino is a shallow single-vault station.
 
-The station is located на восточной окраине города в районе Новокосино за МКАД, под перекрёстком Носовихинского шоссе и Суздальской улицы с Южной и Городецкой улицами.
+The station is located на восточной окраине города в районе Novokosino за МКАД, под перекрёстком Носовихинского шоссе и Суздальской улицы с Южной и Городецкой улицами.
 
 Name origin: по названию района, происходящему от названия бывшего дачного посёлка.
 

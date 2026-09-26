@@ -1,20 +1,21 @@
 ---
 id: kotelniki
 title: "Котельники"
+titleEn: "Kotelniki"
 line: 7
 lineName: "Tagansko-Krasnopresnenskaya Line"
 lineNameEn: "Tagansko-Krasnopresnenskaya Line"
-opened: "21 сентября 2015"
+opened: "21 September 2015"
 architects: "Г. Б. Ломоносов"
 image: "/real-metro-imgs/kotelniki.jpg"
 gallery: "https://www.metrowalks.com/f/msk/kotel/0.jpg|https://www.metrowalks.com/f/msk/kotel/151017-1107284.jpg|https://www.metrowalks.com/f/msk/kotel/151017-1107235.jpg|https://www.metrowalks.com/f/msk/kotel/151017-1107258.jpg"
 source: "https://www.metrowalks.com/ru/moscow/tagansko-krasnopresnenskaya/kotelniki"
-brief: "Котельники — колонная двухпролётная станция мелкого заложения."
+brief: "Kotelniki — колонная двухпролётная станция мелкого заложения."
 ---
 
-Котельники — колонная двухпролётная станция мелкого заложения.
+Kotelniki — колонная двухпролётная станция мелкого заложения.
 
-The station is located к юго-востоку от Москвы в городе Котельники Московской области (микрорайон «Опытное Поле») на границе с городом Люберцы.
+The station is located к юго-востоку от Москвы в городе Kotelniki Московской области (микрорайон «Опытное Поле») на границе с городом Люберцы.
 
 Name origin: по названию города, в котором находится станция.
 

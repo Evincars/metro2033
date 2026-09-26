@@ -1,18 +1,19 @@
 ---
 id: cherkizovskaya
 title: "Черкизовская"
+titleEn: "Cherkizovskaya"
 line: 1
 lineName: "Sokolnicheskaya Line"
 lineNameEn: "Sokolnicheskaya Line"
-opened: "1 августа 1990"
+opened: "1 August 1990"
 architects: "В. А. Черёмин, А. Л. Вигдоров, Л. Л. Борзенков"
 image: "/real-metro-imgs/cherkizovskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/cherkiz/0.jpg|https://www.metrowalks.com/f/msk/cherkiz/091226-1060076.jpg|https://www.metrowalks.com/f/msk/cherkiz/220820-1135585.jpg|https://www.metrowalks.com/f/msk/cherkiz/220820-1135582.jpg"
 source: "https://www.metrowalks.com/ru/moscow/sokolnicheskaya/cherkizovskaya"
-brief: "Черкизовская is a shallow single-vault station."
+brief: "Cherkizovskaya is a shallow single-vault station."
 ---
 
-Черкизовская is a shallow single-vault station.
+Cherkizovskaya is a shallow single-vault station.
 
 The station is located в северо-восточной части города в районе Черкизово near the intersection of Большой Черкизовской улицы и Окружного проезда.
 

@@ -1,22 +1,23 @@
 ---
 id: borisovo
 title: "Борисово"
+titleEn: "Borisovo"
 line: 10
 lineName: "Lyublinsko-Dmitrovskaya Line"
 lineNameEn: "Lyublinsko-Dmitrovskaya Line"
-opened: "2 декабря 2011"
+opened: "2 December 2011"
 architects: "Н. И. Шумаков, В. С. Волович, Н. В. Шурыгина"
 image: "/real-metro-imgs/borisovo.jpg"
 gallery: "https://www.metrowalks.com/f/msk/boris/0.jpg|https://www.metrowalks.com/f/msk/boris/111203-1078326.jpg|https://www.metrowalks.com/f/msk/boris/111203-1078323.jpg|https://www.metrowalks.com/f/msk/boris/111203-1078297.jpg"
 source: "https://www.metrowalks.com/ru/moscow/lyublinsko-dmitrovskaya/borisovo"
-brief: "Борисово is a shallow single-vault station."
+brief: "Borisovo is a shallow single-vault station."
 ---
 
-Борисово is a shallow single-vault station.
+Borisovo is a shallow single-vault station.
 
 The station is located на юго-востоке Москвы в районе Братеево на Братеевском проезде.
 
-Name origin: по историческому названию района Орехово-Борисово, к северо-востоку от которого расположена станция, и улице Борисовские пруды (название станции неточно привязано к местности: она не находится в районе Орехово-Борисово).
+Name origin: по историческому названию района Орехово-Borisovo, к северо-востоку от которого расположена станция, и улице Борисовские пруды (название станции неточно привязано к местности: она не находится в районе Орехово-Borisovo).
 
 Дата открытия — 2 декабря 2011.
 
@@ -24,7 +25,7 @@ Name origin: по историческому названию района Ор
 
 Три станции южного участка Люблинско-Дмитровской линии объединены общим концептуальным решением дизайна: все они односводчатые (мелкого заложения),
       все они оформлены в едином стиле с использованием стекла и крашеного металла. Отличает их только форма кессонов на своде, цвет путевых стен и рисунок
-      напольного покрытия. Станция Борисово отделана metal panels коричневого цвета, по задумке архитекторов — цвета темной меди. The floor is laid with
-      светло-grey granite с тёмными разводами с узкими поперечными stripes из чёрного гранита. Главная стеклянная “фишка” станции Борисово — гигантские
+      напольного покрытия. Станция Borisovo отделана metal panels коричневого цвета, по задумке архитекторов — цвета темной меди. The floor is laid with
+      светло-grey granite с тёмными разводами с узкими поперечными stripes из чёрного гранита. Главная стеклянная “фишка” станции Borisovo — гигантские
       стеклянные светильники в виде цилиндров в нишах потолка. Для обслуживания этих нетипичных светильников внутри свода станции предусмотрены специальные
       технологические проходы.

@@ -1,20 +1,21 @@
 ---
 id: novogireevo
 title: "Новогиреево"
+titleEn: "Novogireevo"
 line: 8
 lineName: "Kalininskaya Line"
 lineNameEn: "Kalininskaya Line"
-opened: "30 декабря 1979"
+opened: "30 December 1979"
 architects: "Р. И. Погребной, И. В. Плюхин"
 image: "/real-metro-imgs/novogireevo.jpg"
 gallery: "https://www.metrowalks.com/f/msk/ngireev/0.jpg|https://www.metrowalks.com/f/msk/ngireev/151018-1107559.jpg|https://www.metrowalks.com/f/msk/ngireev/151018-1107560.jpg|https://www.metrowalks.com/f/msk/ngireev/151018-1107564.jpg"
 source: "https://www.metrowalks.com/ru/moscow/kalininskaya/novogireevo"
-brief: "Новогиреево is a shallow column three-span station."
+brief: "Novogireevo is a shallow column three-span station."
 ---
 
-Новогиреево is a shallow column three-span station.
+Novogireevo is a shallow column three-span station.
 
-The station is located на восточной окраине города в районе Новогиреево под перекрёстком Зелёного и Свободного проспектов.
+The station is located на восточной окраине города в районе Novogireevo под перекрёстком Зелёного и Свободного проспектов.
 
 Name origin: по названию района, происходящему от имени посёлка, включённого в состав Москвы в 1960 году.
 

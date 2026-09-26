@@ -1,18 +1,19 @@
 ---
 id: schiolkovskaya
 title: "Щёлковская"
+titleEn: "Schiolkovskaya"
 line: 3
 lineName: "Arbatsko-Pokrovskaya Line"
 lineNameEn: "Arbatsko-Pokrovskaya Line"
-opened: "22 июля 1963"
+opened: "22 July 1963"
 architects: "И. Г. Таранов, Н. А. Быкова"
 image: "/real-metro-imgs/schiolkovskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/schiolk/0.jpg|https://www.metrowalks.com/f/msk/schiolk/090531-1052874.jpg|https://www.metrowalks.com/f/msk/schiolk/151018-1108027.jpg|https://www.metrowalks.com/f/msk/schiolk/151018-1108026.jpg"
 source: "https://www.metrowalks.com/ru/moscow/arbatsko-pokrovskaya/schiolkovskaya"
-brief: "Щёлковская is a shallow column three-span station."
+brief: "Schiolkovskaya is a shallow column three-span station."
 ---
 
-Щёлковская is a shallow column three-span station.
+Schiolkovskaya is a shallow column three-span station.
 
 The station is located на восточной окраине города на границе районов Северное Измайлово и Гольяново на 9-й Парковой улице у перекрёстка со Щёлковским шоссе.
 

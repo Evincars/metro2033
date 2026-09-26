@@ -1,18 +1,19 @@
 ---
 id: kolomenskaya
 title: "Коломенская"
+titleEn: "Kolomenskaya"
 line: 2
 lineName: "Zamoskvoretskaya Line"
 lineNameEn: "Zamoskvoretskaya Line"
-opened: "11 августа 1969"
+opened: "11 August 1969"
 architects: "Л. А. Шагурина, В. А. Черёмин"
 image: "/real-metro-imgs/kolomenskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/kolomen/0.jpg|https://www.metrowalks.com/f/msk/kolomen/250614-1143355.jpg|https://www.metrowalks.com/f/msk/kolomen/250614-1143373.jpg|https://www.metrowalks.com/f/msk/kolomen/250614-1143358.jpg"
 source: "https://www.metrowalks.com/ru/moscow/zamoskvoretskaya/kolomenskaya"
-brief: "Коломенская is a shallow column three-span station."
+brief: "Kolomenskaya is a shallow column three-span station."
 ---
 
-Коломенская is a shallow column three-span station.
+Kolomenskaya is a shallow column three-span station.
 
 The station is located в южной части Москвы на границе районов Нагатино-Садовники и Нагатинский Затон у пересечения проспекта Андропова и Нагатинской улицы.
 
@@ -22,6 +23,6 @@ Name origin: по находящемуся вблизи музею-запове
 
 Архитекторы станции — Л. А. Шагурина, В. А. Черёмин.
 
-Коломенская (вместе с соседними Каширской,
+Kolomenskaya (вместе с соседними Каширской,
       Каховской и Варшавской) — последняя классическая хрущёвская “сороконожка”. В последующие
       годы типовой проект был изменён: расстояние между колоннами было увеличено и возросло разнообразие отделки стен вместо типовой керамической плитки.

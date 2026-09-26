@@ -1,18 +1,19 @@
 ---
 id: ulitsa-1905-goda
 title: "Улица 1905 года"
+titleEn: "Ulitsa 1905 Goda"
 line: 7
 lineName: "Tagansko-Krasnopresnenskaya Line"
 lineNameEn: "Tagansko-Krasnopresnenskaya Line"
-opened: "30 декабря 1972"
+opened: "30 December 1972"
 architects: "Р. И. Погребной"
 image: "/real-metro-imgs/ulitsa-1905-goda.jpg"
 gallery: "https://www.metrowalks.com/f/msk/ul1905g/0.jpg|https://www.metrowalks.com/f/msk/ul1905g/090531-1053163.jpg|https://www.metrowalks.com/f/msk/ul1905g/100619-1067419.jpg|https://www.metrowalks.com/f/msk/ul1905g/100619-1067423.jpg"
 source: "https://www.metrowalks.com/ru/moscow/tagansko-krasnopresnenskaya/ulitsa-1905-goda"
-brief: "Улица 1905 года is a shallow column three-span station."
+brief: "Ulitsa 1905 Goda is a shallow column three-span station."
 ---
 
-Улица 1905 года is a shallow column three-span station.
+Ulitsa 1905 Goda is a shallow column three-span station.
 
 The station is located к западу от центра Москвы в Пресненском районе под улицей 1905 года у перекрёстка с улицей Красная Пресня и Звенигородским шоссе.
 

@@ -1,18 +1,19 @@
 ---
 id: preobrazhenskaya
 title: "Преображенская площадь"
+titleEn: "Preobrazhenskaya"
 line: 1
 lineName: "Sokolnicheskaya Line"
 lineNameEn: "Sokolnicheskaya Line"
-opened: "31 декабря 1965"
+opened: "31 December 1965"
 architects: "Н. И. Демчинский"
 image: "/real-metro-imgs/preobrazhenskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/preobr/0.jpg|https://www.metrowalks.com/f/msk/preobr/220820-1135598.jpg|https://www.metrowalks.com/f/msk/preobr/091226-1060064.jpg|https://www.metrowalks.com/f/msk/preobr/220820-1135597.jpg"
 source: "https://www.metrowalks.com/ru/moscow/sokolnicheskaya/preobrazhenskaya"
-brief: "Преображенская площадь is a shallow column three-span station."
+brief: "Preobrazhenskaya is a shallow column three-span station."
 ---
 
-Преображенская площадь is a shallow column three-span station.
+Preobrazhenskaya is a shallow column three-span station.
 
 The station is located в северо-восточной части города в Преображенском районе на Преображенской площади.
 

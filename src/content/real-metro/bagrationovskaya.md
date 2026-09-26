@@ -1,18 +1,19 @@
 ---
 id: bagrationovskaya
 title: "Багратионовская"
+titleEn: "Bagrationovskaya"
 line: 4
 lineName: "Filyovskaya Line"
 lineNameEn: "Filyovskaya Line"
-opened: "13 октября 1961"
+opened: "13 October 1961"
 architects: "Р. И. Погребной, В. А. Черёмин"
 image: "/real-metro-imgs/bagrationovskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/bagrat/0.jpg|https://www.metrowalks.com/f/msk/bagrat/220820-1135872.jpg|https://www.metrowalks.com/f/msk/bagrat/220820-1135868.jpg|https://www.metrowalks.com/f/msk/bagrat/220820-1135875.jpg"
 source: "https://www.metrowalks.com/ru/moscow/filyovskaya/bagrationovskaya"
-brief: "Багратионовская — наземная станция, открытая, с островной платформой."
+brief: "Bagrationovskaya — наземная станция, открытая, с островной платформой."
 ---
 
-Багратионовская — наземная станция, открытая, с островной платформой.
+Bagrationovskaya — наземная станция, открытая, с островной платформой.
 
 The station is located в западной части города в районе Филёвский парк под улицей Барклая near Сеславинской улицей.
 

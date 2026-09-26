@@ -1,18 +1,19 @@
 ---
 id: mendeleyevskaya
 title: "Менделеевская"
+titleEn: "Mendeleyevskaya"
 line: 9
 lineName: "Serpukhovsko-Timiryazevskaya Line"
 lineNameEn: "Serpukhovsko-Timiryazevskaya Line"
-opened: "31 декабря 1988"
+opened: "31 December 1988"
 architects: "Н. А. Алёшина"
 image: "/real-metro-imgs/mendeleyevskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/mendel/0.jpg|https://www.metrowalks.com/f/msk/mendel/250615-1144275.jpg|https://www.metrowalks.com/f/msk/mendel/091227-1060883.jpg|https://www.metrowalks.com/f/msk/mendel/250615-1144274.jpg"
 source: "https://www.metrowalks.com/ru/moscow/serpuhovsko-timiryazevskaya/mendeleyevskaya"
-brief: "Менделеевская is a deep-level column three-vault station."
+brief: "Mendeleyevskaya is a deep-level column three-vault station."
 ---
 
-Менделеевская is a deep-level column three-vault station.
+Mendeleyevskaya is a deep-level column three-vault station.
 
 The station is located в северной части центра города в Тверском районе на Новослободской улице.
 

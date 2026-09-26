@@ -1,10 +1,11 @@
 ---
 id: kahovskaya
 title: "Каховской"
+titleEn: "Kahovskaya"
 line: 2
 lineName: "Zamoskvoretskaya Line"
 lineNameEn: "Zamoskvoretskaya Line"
-opened: "11 августа 1969"
+opened: "11 August 1969"
 architects: "Н. И. Демчинский, Ю. А. Колесникова"
 image: "/real-metro-imgs/kahovskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/kahovsk/0.jpg|https://www.metrowalks.com/f/msk/kahovsk/220821-1137303.jpg|https://www.metrowalks.com/f/msk/kahovsk/220821-1137282.jpg|https://www.metrowalks.com/f/msk/kahovsk/220821-1137280.jpg"

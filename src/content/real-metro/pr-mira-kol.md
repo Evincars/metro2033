@@ -1,18 +1,19 @@
 ---
 id: pr-mira-kol
 title: "Проспект Мира"
+titleEn: "Prospekt Mira"
 line: 5
 lineName: "Koltsevaya (Ring) Line"
 lineNameEn: "Koltsevaya (Ring) Line"
-opened: "30 января 1952"
+opened: "30 January 1952"
 architects: "В. Г. Гельфрейх, М. А. Минкус"
 image: "/real-metro-imgs/pr-mira-kol.jpg"
 gallery: "https://www.metrowalks.com/f/msk/prmirak/0.jpg|https://www.metrowalks.com/f/msk/prmirak/220821-1137453.jpg|https://www.metrowalks.com/f/msk/prmirak/220822-1137518.jpg|https://www.metrowalks.com/f/msk/prmirak/151017-1106587.jpg"
 source: "https://www.metrowalks.com/ru/moscow/circle/pr-mira-kol"
-brief: "Проспект Мира is a deep-level pylonic three-vault station."
+brief: "Prospekt Mira is a deep-level pylonic three-vault station."
 ---
 
-Проспект Мира is a deep-level pylonic three-vault station.
+Prospekt Mira is a deep-level pylonic three-vault station.
 
 The station is located к северу от центра Москвы в Мещанском районе в начале проспекта Мира с южной стороны от Протопоповского переулка.
 
@@ -22,4 +23,4 @@ Name origin: по одноимённому проспекту.
 
 Архитекторы станции — В. Г. Гельфрейх, М. А. Минкус.
 
-Станция Проспект Мира is a cultural heritage site of Russia.
+Станция Prospekt Mira is a cultural heritage site of Russia.

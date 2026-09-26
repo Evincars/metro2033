@@ -1,18 +1,19 @@
 ---
 id: domodedovskaya
 title: "Домодедовская"
+titleEn: "Domodedovskaya"
 line: 2
 lineName: "Zamoskvoretskaya Line"
 lineNameEn: "Zamoskvoretskaya Line"
-opened: "7 сентября 1985"
+opened: "7 September 1985"
 architects: "Н. А. Алёшина, Н. К. Самойлова"
 image: "/real-metro-imgs/domodedovskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/domoded/0.jpg|https://www.metrowalks.com/f/msk/domoded/250616-1144779.jpg|https://www.metrowalks.com/f/msk/domoded/250616-1144781.jpg|https://www.metrowalks.com/f/msk/domoded/250616-1144800.jpg"
 source: "https://www.metrowalks.com/ru/moscow/zamoskvoretskaya/domodedovskaya"
-brief: "Домодедовская is a shallow column three-span station."
+brief: "Domodedovskaya is a shallow column three-span station."
 ---
 
-Домодедовская is a shallow column three-span station.
+Domodedovskaya is a shallow column three-span station.
 
 The station is located на южной окраине города на границе районов Орехово-Борисово Северное и Южное под Ореховым бульваром у перекрёстка с Каширским шоссе.
 

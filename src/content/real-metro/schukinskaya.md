@@ -1,18 +1,19 @@
 ---
 id: schukinskaya
 title: "Щукинская"
+titleEn: "Schukinskaya"
 line: 7
 lineName: "Tagansko-Krasnopresnenskaya Line"
 lineNameEn: "Tagansko-Krasnopresnenskaya Line"
-opened: "30 декабря 1975"
+opened: "30 December 1975"
 architects: "Н. А. Алёшина, Н. К. Самойлова"
 image: "/real-metro-imgs/schukinskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/schukin/0.jpg|https://www.metrowalks.com/f/msk/schukin/100620-1067454.jpg|https://www.metrowalks.com/f/msk/schukin/100620-1067446.jpg|https://www.metrowalks.com/f/msk/schukin/100620-1067451.jpg"
 source: "https://www.metrowalks.com/ru/moscow/tagansko-krasnopresnenskaya/schukinskaya"
-brief: "Щукинская is a shallow column three-span station."
+brief: "Schukinskaya is a shallow column three-span station."
 ---
 
-Щукинская is a shallow column three-span station.
+Schukinskaya is a shallow column three-span station.
 
 The station is located в северо-западной части города в районе Щукино под улицей Маршала Василевского у перекрёстков с улицами Академика Бочвара, Щукинской, Новощукинской и Авиационной.
 

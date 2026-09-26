@@ -1,18 +1,19 @@
 ---
 id: sevastopolskaya
 title: "Севастопольская"
+titleEn: "Sevastopolskaya"
 line: 9
 lineName: "Serpukhovsko-Timiryazevskaya Line"
 lineNameEn: "Serpukhovsko-Timiryazevskaya Line"
-opened: "8 ноября 1983"
+opened: "8 November 1983"
 architects: "Н. И. Демчинский, Ю. А. Колесникова, Н. А. Алёшина"
 image: "/real-metro-imgs/sevastopolskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/sevast/0.jpg|https://www.metrowalks.com/f/msk/sevast/111204-1078591.jpg|https://www.metrowalks.com/f/msk/sevast/111204-1078593.jpg|https://www.metrowalks.com/f/msk/sevast/111204-1078560.jpg"
 source: "https://www.metrowalks.com/ru/moscow/serpuhovsko-timiryazevskaya/sevastopolskaya"
-brief: "Севастопольская is a shallow column three-span station."
+brief: "Sevastopolskaya is a shallow column three-span station."
 ---
 
-Севастопольская is a shallow column three-span station.
+Sevastopolskaya is a shallow column three-span station.
 
 The station is located в южной части города в районе Зюзино на пересечении улицы Каховки с Азовской улицей.
 

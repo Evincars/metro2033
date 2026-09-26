@@ -1,18 +1,19 @@
 ---
 id: novomoskovskaya
 title: "Новомосковская"
+titleEn: "Novomoskovskaya"
 line: 1
 lineName: "Sokolnicheskaya Line"
 lineNameEn: "Sokolnicheskaya Line"
-opened: "20 июня 2019"
+opened: "20 June 2019"
 architects: "ГУП «Моспромпроект»"
 image: "/real-metro-imgs/novomoskovskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/kmnrk/0.jpg|https://www.metrowalks.com/f/msk/kmnrk/250612-1142822.jpg|https://www.metrowalks.com/f/msk/kmnrk/210814-1132228.jpg|https://www.metrowalks.com/f/msk/kmnrk/210814-1132245.jpg"
 source: "https://www.metrowalks.com/ru/moscow/sokolnicheskaya/novomoskovskaya"
-brief: "Новомосковская is a shallow column three-span station."
+brief: "Novomoskovskaya is a shallow column three-span station."
 ---
 
-Новомосковская is a shallow column three-span station.
+Novomoskovskaya is a shallow column three-span station.
 
 The station is located в Сосенском поселении «Новой Москвы» на территории деревни Столбово недалеко от посёлка Коммунарка.
 

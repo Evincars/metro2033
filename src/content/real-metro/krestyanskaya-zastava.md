@@ -1,22 +1,23 @@
 ---
 id: krestyanskaya-zastava
 title: "Крестьянская Застава"
+titleEn: "Krestyanskaya Zastava"
 line: 10
 lineName: "Lyublinsko-Dmitrovskaya Line"
 lineNameEn: "Lyublinsko-Dmitrovskaya Line"
-opened: "28 декабря 1995"
+opened: "28 December 1995"
 architects: "Н. И. Шумаков, Н. В. Шурыгина"
 image: "/real-metro-imgs/krestyanskaya-zastava.jpg"
 gallery: "https://www.metrowalks.com/f/msk/kreszas/0.jpg|https://www.metrowalks.com/f/msk/kreszas/091227-1060909.jpg|https://www.metrowalks.com/f/msk/kreszas/091227-1060912.jpg|https://www.metrowalks.com/f/msk/kreszas/091227-1060913.jpg"
 source: "https://www.metrowalks.com/ru/moscow/lyublinsko-dmitrovskaya/krestyanskaya-zastava"
-brief: "Крестьянская Застава — колонно-стеновая трёхсводчатая станция глубокого заложения."
+brief: "Krestyanskaya Zastava — колонно-стеновая трёхсводчатая станция глубокого заложения."
 ---
 
-Крестьянская Застава — колонно-стеновая трёхсводчатая станция глубокого заложения.
+Krestyanskaya Zastava — колонно-стеновая трёхсводчатая станция глубокого заложения.
 
-The station is located к юго-востоку от центра Москвы в Таганском районе у перекрёстка Воронцовской улицы и 3-й Крутицкого переулка, near площадью Крестьянская Застава.
+The station is located к юго-востоку от центра Москвы в Таганском районе у перекрёстка Воронцовской улицы и 3-й Крутицкого переулка, near площадью Krestyanskaya Zastava.
 
-Name origin: по одноимённой площади Крестьянская Застава (до 1919 года — Спасская Застава).
+Name origin: по одноимённой площади Krestyanskaya Zastava (до 1919 года — Спасская Застава).
 
 Дата открытия — 28 декабря 1995.
 

@@ -1,18 +1,19 @@
 ---
 id: sretenskiy-bulvar
 title: "Сретенский бульвар"
+titleEn: "Sretenskiy Bulvar"
 line: 10
 lineName: "Lyublinsko-Dmitrovskaya Line"
 lineNameEn: "Lyublinsko-Dmitrovskaya Line"
-opened: "29 декабря 2007"
+opened: "29 December 2007"
 architects: "Н. И. Шумаков, Г. С. Мун, Н. В. Шурыгина, Я. В. Мун, Н. С. Трусилова"
 image: "/real-metro-imgs/sretenskiy-bulvar.jpg"
 gallery: "https://www.metrowalks.com/f/msk/sretbul/0.jpg|https://www.metrowalks.com/f/msk/sretbul/090530-1052468.jpg|https://www.metrowalks.com/f/msk/sretbul/111205-1078968.jpg|https://www.metrowalks.com/f/msk/sretbul/111205-1078966.jpg"
 source: "https://www.metrowalks.com/ru/moscow/lyublinsko-dmitrovskaya/sretenskiy-bulvar"
-brief: "Сретенский бульвар is a deep-level pylonic three-vault station."
+brief: "Sretenskiy Bulvar is a deep-level pylonic three-vault station."
 ---
 
-Сретенский бульвар is a deep-level pylonic three-vault station.
+Sretenskiy Bulvar is a deep-level pylonic three-vault station.
 
 The station is located в северной части центра города в Красносельском районе на Тургеневской площади, у пересечения Сретенского бульвара с проспектом Академика Сахарова.
 

@@ -1,18 +1,19 @@
 ---
 id: shipilovskaya
 title: "Шипиловская"
+titleEn: "Shipilovskaya"
 line: 10
 lineName: "Lyublinsko-Dmitrovskaya Line"
 lineNameEn: "Lyublinsko-Dmitrovskaya Line"
-opened: "2 декабря 2011"
+opened: "2 December 2011"
 architects: "Н. И. Шумаков, В. С. Волович, Н. В. Шурыгина"
 image: "/real-metro-imgs/shipilovskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/shipil/0.jpg|https://www.metrowalks.com/f/msk/shipil/111203-1078269.jpg|https://www.metrowalks.com/f/msk/shipil/111203-1078263.jpg|https://www.metrowalks.com/f/msk/shipil/111204-1078861.jpg"
 source: "https://www.metrowalks.com/ru/moscow/lyublinsko-dmitrovskaya/shipilovskaya"
-brief: "Шипиловская is a shallow single-vault station."
+brief: "Shipilovskaya is a shallow single-vault station."
 ---
 
-Шипиловская is a shallow single-vault station.
+Shipilovskaya is a shallow single-vault station.
 
 The station is located на юго-востоке Москвы в середине района Зябликово на пересечении улиц Мусы Джалиля и Шипиловской.
 
@@ -24,6 +25,6 @@ Name origin: по названию пересекаемой улицы, уна�
 
 Три станции южного участка Люблинско-Дмитровской линии объединены общим концептуальным решением дизайна: все они односводчатые (мелкого заложения),
       все они оформлены в едином стиле с использованием стекла и крашеного металла. Отличает их только форма кессонов на своде, цвет путевых стен и рисунок
-      напольного покрытия. Станция Шипиловская отделана metal panels коричневого цвета, по задумке архитекторов — цвета старой бронзы. Напольное
+      напольного покрытия. Станция Shipilovskaya отделана metal panels коричневого цвета, по задумке архитекторов — цвета старой бронзы. Напольное
       покрытие выполнено из гранита в виде широких чередующихся светло-серых и чёрных участков. Главная “фишка” станции Шипиловской — гигантские треугольные
       кессоны в монолитном железобетонном своде, в которых яркие треугольные светильники подсвечивают потолок и освещают станцию мягким рассеянным светом.

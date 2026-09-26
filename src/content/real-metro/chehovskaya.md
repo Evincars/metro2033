@@ -1,18 +1,19 @@
 ---
 id: chehovskaya
 title: "Чеховская"
+titleEn: "Chehovskaya"
 line: 9
 lineName: "Serpukhovsko-Timiryazevskaya Line"
 lineNameEn: "Serpukhovsko-Timiryazevskaya Line"
-opened: "31 декабря 1987"
+opened: "31 December 1987"
 architects: "В. А. Черёмин, А. Л. Вигдоров"
 image: "/real-metro-imgs/chehovskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/chehov/0.jpg|https://www.metrowalks.com/f/msk/chehov/250921-1150164.jpg|https://www.metrowalks.com/f/msk/chehov/250615-1144308.jpg|https://www.metrowalks.com/f/msk/chehov/100515-1064164.jpg"
 source: "https://www.metrowalks.com/ru/moscow/serpuhovsko-timiryazevskaya/chehovskaya"
-brief: "Чеховская is a deep-level pylonic three-vault station."
+brief: "Chehovskaya is a deep-level pylonic three-vault station."
 ---
 
-Чеховская is a deep-level pylonic three-vault station.
+Chehovskaya is a deep-level pylonic three-vault station.
 
 The station is located в центре Москвы в Тверском районе на Страстном бульваре near Пушкинской площадью и театром «Россия».
 

@@ -1,20 +1,21 @@
 ---
 id: tropariovo
 title: "Тропарёво"
+titleEn: "Tropariovo"
 line: 1
 lineName: "Sokolnicheskaya Line"
 lineNameEn: "Sokolnicheskaya Line"
-opened: "8 декабря 2014"
+opened: "8 December 2014"
 architects: "А. И. Тарасов, Д. В. Деев, Д. Ж. Полякова"
 image: "/real-metro-imgs/tropariovo.jpg"
 gallery: "https://www.metrowalks.com/f/msk/tropar/0.jpg|https://www.metrowalks.com/f/msk/tropar/151017-1106744.jpg|https://www.metrowalks.com/f/msk/tropar/151017-1106745.jpg|https://www.metrowalks.com/f/msk/tropar/151017-1106751.jpg"
 source: "https://www.metrowalks.com/ru/moscow/sokolnicheskaya/tropariovo"
-brief: "Тропарёво is a shallow single-vault station."
+brief: "Tropariovo is a shallow single-vault station."
 ---
 
-Тропарёво is a shallow single-vault station.
+Tropariovo is a shallow single-vault station.
 
-The station is located на юго-западной окраине города в районе Тропарёво-Никулино в конце Ленинского проспекта недалеко от выезда на МКАД.
+The station is located на юго-западной окраине города в районе Tropariovo-Никулино в конце Ленинского проспекта недалеко от выезда на МКАД.
 
 Name origin: по историческому названию района, происходящему от села Тропарёва, включённого в состав Москвы в 1960 году.
 

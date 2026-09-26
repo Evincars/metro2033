@@ -1,20 +1,21 @@
 ---
 id: tekstilschiki
 title: "Текстильщики"
+titleEn: "Tekstilschiki"
 line: 7
 lineName: "Tagansko-Krasnopresnenskaya Line"
 lineNameEn: "Tagansko-Krasnopresnenskaya Line"
-opened: "31 декабря 1966"
+opened: "31 December 1966"
 architects: "Р. И. Погребной"
 image: "/real-metro-imgs/tekstilschiki.jpg"
 gallery: "https://www.metrowalks.com/f/msk/tekstil/0.jpg|https://www.metrowalks.com/f/msk/tekstil/100619-1066966.jpg|https://www.metrowalks.com/f/msk/tekstil/100619-1066963.jpg|https://www.metrowalks.com/f/msk/tekstil/151017-1107169.jpg"
 source: "https://www.metrowalks.com/ru/moscow/tagansko-krasnopresnenskaya/tekstilschiki"
-brief: "Текстильщики is a shallow column three-span station."
+brief: "Tekstilschiki is a shallow column three-span station."
 ---
 
-Текстильщики is a shallow column three-span station.
+Tekstilschiki is a shallow column three-span station.
 
-The station is located в юго-восточной части Москвы на границе районов Текстильщики и Печатники под Волгоградским проспектом у перекрёстка с Люблинской улицей.
+The station is located в юго-восточной части Москвы на границе районов Tekstilschiki и Печатники под Волгоградским проспектом у перекрёстка с Люблинской улицей.
 
 Name origin: по одноимённой железнодорожной станции, название которой происходит от исторического названия местности — с 1920-х годов здесь располагался посёлок рабочих-текстильщиков, который был включён в состав Москвы в 1960 году.
 

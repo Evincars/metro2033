@@ -1,18 +1,19 @@
 ---
 id: babushkinskaya
 title: "Бабушкинская"
+titleEn: "Babushkinskaya"
 line: 6
 lineName: "Kaluzhsko-Rizhskaya Line"
 lineNameEn: "Kaluzhsko-Rizhskaya Line"
-opened: "29 сентября 1978"
+opened: "29 September 1978"
 architects: "В. И. Клоков, Л. Н. Попов"
 image: "/real-metro-imgs/babushkinskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/babushk/0.jpg|https://www.metrowalks.com/f/msk/babushk/111203-1078145.jpg|https://www.metrowalks.com/f/msk/babushk/111203-1078148.jpg|https://www.metrowalks.com/f/msk/babushk/111203-1078149.jpg"
 source: "https://www.metrowalks.com/ru/moscow/kaluzhsko-rizhskaya/babushkinskaya"
-brief: "Бабушкинская is a shallow single-vault station."
+brief: "Babushkinskaya is a shallow single-vault station."
 ---
 
-Бабушкинская is a shallow single-vault station.
+Babushkinskaya is a shallow single-vault station.
 
 The station is located на северной окраине города в Бабушкинском районе у перекрёстка Енисейской улицы с улицей Менжинского.
 

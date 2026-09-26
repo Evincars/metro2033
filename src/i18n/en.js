@@ -25,6 +25,7 @@ export default {
   'nav.vehicles': 'Vehicles',
   'nav.achievements': 'Achievements',
   'nav.endings': 'Endings',
+  'nav.realMetro': 'Real Moscow Metro',
 
   // NavPanel status
   'status.signal': 'Signal',

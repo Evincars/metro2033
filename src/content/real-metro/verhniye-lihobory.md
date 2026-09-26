@@ -1,22 +1,23 @@
 ---
 id: verhniye-lihobory
 title: "Верхние Лихоборы"
+titleEn: "Verhniye Lihobory"
 line: 10
 lineName: "Lyublinsko-Dmitrovskaya Line"
 lineNameEn: "Lyublinsko-Dmitrovskaya Line"
-opened: "22 марта 2018"
+opened: "22 March 2018"
 architects: "Н. И. Шумаков, А. В. Некрасов, Г. С. Мун, В. З. Филиппов"
 image: "/real-metro-imgs/verhniye-lihobory.jpg"
 gallery: "https://www.metrowalks.com/f/msk/vlihbor/0.jpg|https://www.metrowalks.com/f/msk/vlihbor/210815-1133440.jpg|https://www.metrowalks.com/f/msk/vlihbor/210815-1133443.jpg|https://www.metrowalks.com/f/msk/vlihbor/210815-1133448.jpg"
 source: "https://www.metrowalks.com/ru/moscow/lyublinsko-dmitrovskaya/verhniye-lihobory"
-brief: "Верхние Лихоборы is a deep-level pylonic three-vault station."
+brief: "Verhniye Lihobory is a deep-level pylonic three-vault station."
 ---
 
-Верхние Лихоборы is a deep-level pylonic three-vault station.
+Verhniye Lihobory is a deep-level pylonic three-vault station.
 
 The station is located на севере Москвы на границе Бескудниковского района с районом Западное Дегунино под Дмитровским шоссе у перекрёстка с Бескудниковским бульваром.
 
-Name origin: раньше в этом месте располагалась деревня Верхние Лихоборы, вошедшая в состав Москвы в 1960 году.
+Name origin: раньше в этом месте располагалась деревня Verhniye Lihobory, вошедшая в состав Москвы в 1960 году.
 
 Дата открытия — 22 марта 2018.
 

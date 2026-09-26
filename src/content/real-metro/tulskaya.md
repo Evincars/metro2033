@@ -1,18 +1,19 @@
 ---
 id: tulskaya
 title: "Тульская"
+titleEn: "Tulskaya"
 line: 9
 lineName: "Serpukhovsko-Timiryazevskaya Line"
 lineNameEn: "Serpukhovsko-Timiryazevskaya Line"
-opened: "8 ноября 1983"
+opened: "8 November 1983"
 architects: "И. Г. Петухова, В. П. Качуринец, Н. И. Шумаков"
 image: "/real-metro-imgs/tulskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/tulsk/0.jpg|https://www.metrowalks.com/f/msk/tulsk/090530-1052731.jpg|https://www.metrowalks.com/f/msk/tulsk/111204-1078653.jpg|https://www.metrowalks.com/f/msk/tulsk/220821-1137222.jpg"
 source: "https://www.metrowalks.com/ru/moscow/serpuhovsko-timiryazevskaya/tulskaya"
-brief: "Тульская is a shallow single-vault station."
+brief: "Tulskaya is a shallow single-vault station."
 ---
 
-Тульская is a shallow single-vault station.
+Tulskaya is a shallow single-vault station.
 
 The station is located к югу от центра города в Даниловском районе на Большой Тульской улице.
 

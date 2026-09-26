@@ -1,18 +1,19 @@
 ---
 id: chertanovskaya
 title: "Чертановская"
+titleEn: "Chertanovskaya"
 line: 9
 lineName: "Serpukhovsko-Timiryazevskaya Line"
 lineNameEn: "Serpukhovsko-Timiryazevskaya Line"
-opened: "8 ноября 1983"
+opened: "8 November 1983"
 architects: "Н. А. Алёшина"
 image: "/real-metro-imgs/chertanovskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/chertan/0.jpg|https://www.metrowalks.com/f/msk/chertan/220821-1137247.jpg|https://www.metrowalks.com/f/msk/chertan/111204-1078790.jpg|https://www.metrowalks.com/f/msk/chertan/111204-1078786.jpg"
 source: "https://www.metrowalks.com/ru/moscow/serpuhovsko-timiryazevskaya/chertanovskaya"
-brief: "Чертановская is a shallow column three-span station."
+brief: "Chertanovskaya is a shallow column three-span station."
 ---
 
-Чертановская is a shallow column three-span station.
+Chertanovskaya is a shallow column three-span station.
 
 The station is located на юге Москвы на границе районов Северное Чертаново и Зюзино у перекрёстка Балаклавского проспекта и Чертановской улицы.
 

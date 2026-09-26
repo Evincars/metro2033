@@ -1,18 +1,19 @@
 ---
 id: beliayevo
 title: "Беляево"
+titleEn: "Beliayevo"
 line: 6
 lineName: "Kaluzhsko-Rizhskaya Line"
 lineNameEn: "Kaluzhsko-Rizhskaya Line"
-opened: "12 августа 1974"
+opened: "12 August 1974"
 architects: "В. Г. Поликарпова, В. И. Клоков, Л. Н. Попов"
 image: "/real-metro-imgs/beliayevo.jpg"
 gallery: "https://www.metrowalks.com/f/msk/beliaev/0.jpg|https://www.metrowalks.com/f/msk/beliaev/100620-1067769.jpg|https://www.metrowalks.com/f/msk/beliaev/220821-1137050.jpg|https://www.metrowalks.com/f/msk/beliaev/100620-1067755.jpg"
 source: "https://www.metrowalks.com/ru/moscow/kaluzhsko-rizhskaya/beliayevo"
-brief: "Беляево is a shallow column three-span station."
+brief: "Beliayevo is a shallow column three-span station."
 ---
 
-Беляево is a shallow column three-span station.
+Beliayevo is a shallow column three-span station.
 
 The station is located на юго-западе Москвы в районе Коньково у перекрёстка Профсоюзной улицы с улицей Миклухо-Маклая.
 

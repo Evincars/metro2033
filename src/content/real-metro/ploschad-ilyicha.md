@@ -1,18 +1,19 @@
 ---
 id: ploschad-ilyicha
 title: "Площадь Ильича"
+titleEn: "Ploshchad Ilyicha"
 line: 8
 lineName: "Kalininskaya Line"
 lineNameEn: "Kalininskaya Line"
-opened: "30 декабря 1979"
+opened: "30 December 1979"
 architects: "В. А. Клоков, Л. Н. Попов"
 image: "/real-metro-imgs/ploschad-ilyicha.jpg"
 gallery: "https://www.metrowalks.com/f/msk/ilyich/0.jpg|https://www.metrowalks.com/f/msk/ilyich/090530-1052328.jpg|https://www.metrowalks.com/f/msk/ilyich/151018-1107674.jpg|https://www.metrowalks.com/f/msk/ilyich/151018-1107665.jpg"
 source: "https://www.metrowalks.com/ru/moscow/kalininskaya/ploschad-ilyicha"
-brief: "Площадь Ильича is a deep-level pylonic three-vault station."
+brief: "Ploshchad Ilyicha is a deep-level pylonic three-vault station."
 ---
 
-Площадь Ильича is a deep-level pylonic three-vault station.
+Ploshchad Ilyicha is a deep-level pylonic three-vault station.
 
 The station is located к востоку от центра города в Таганском районе на площади Рогожская Застава.
 

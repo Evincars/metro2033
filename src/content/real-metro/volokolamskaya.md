@@ -1,18 +1,19 @@
 ---
 id: volokolamskaya
 title: "Волоколамская"
+titleEn: "Volokolamskaya"
 line: 3
 lineName: "Arbatsko-Pokrovskaya Line"
 lineNameEn: "Arbatsko-Pokrovskaya Line"
-opened: "26 декабря 2009"
+opened: "26 December 2009"
 architects: "А. Ю. Орлов, А. В. Некрасов, В. О. Сычёва"
 image: "/real-metro-imgs/volokolamskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/volokol/0.jpg|https://www.metrowalks.com/f/msk/volokol/100515-1064665.jpg|https://www.metrowalks.com/f/msk/volokol/091226-1060312.jpg|https://www.metrowalks.com/f/msk/volokol/091227-1060660.jpg"
 source: "https://www.metrowalks.com/ru/moscow/arbatsko-pokrovskaya/volokolamskaya"
-brief: "Волоколамская is a shallow column three-span station."
+brief: "Volokolamskaya is a shallow column three-span station."
 ---
 
-Волоколамская is a shallow column three-span station.
+Volokolamskaya is a shallow column three-span station.
 
 The station is located на северо-западной окраине города в районе Митино на Новотушинском проезде недалеко от развязки Пятницкого и Волоколамского шоссе.
 
@@ -22,6 +23,6 @@ Name origin: по одноимённому шоссе, ведущему в г�
 
 Архитекторы станции — А. Ю. Орлов, А. В. Некрасов, В. О. Сычёва.
 
-Волоколамская — одна из самых необычных колонных станций мелкого заложения. Она построена по индивидуальному проекту из монолитного железобетона
+Volokolamskaya — одна из самых необычных колонных станций мелкого заложения. Она построена по индивидуальному проекту из монолитного железобетона
       с закруглёнными перекрытиями центрального и боковых залов, из-за чего похожа на трёхсводчатые станции глубокого заложения. Закруглённые проходы между
       колоннами образуют ажурную аркаду, совершенно непохожую визуально на другие станции метро.

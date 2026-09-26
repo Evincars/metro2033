@@ -1,20 +1,21 @@
 ---
 id: tioply-stan
 title: "Тёплый Стан"
+titleEn: "Tioply Stan"
 line: 6
 lineName: "Kaluzhsko-Rizhskaya Line"
 lineNameEn: "Kaluzhsko-Rizhskaya Line"
-opened: "6 ноября 1987"
+opened: "6 November 1987"
 architects: "Н. И. Шумаков, Г. С. Мун, Н. В. Шурыгина"
 image: "/real-metro-imgs/tioply-stan.jpg"
 gallery: "https://www.metrowalks.com/f/msk/tepstan/0.jpg|https://www.metrowalks.com/f/msk/tepstan/220821-1137083.jpg|https://www.metrowalks.com/f/msk/tepstan/220821-1137078.jpg|https://www.metrowalks.com/f/msk/tepstan/090531-1053029.jpg"
 source: "https://www.metrowalks.com/ru/moscow/kaluzhsko-rizhskaya/tioply-stan"
-brief: "Тёплый Стан is a shallow column three-span station."
+brief: "Tioply Stan is a shallow column three-span station."
 ---
 
-Тёплый Стан is a shallow column three-span station.
+Tioply Stan is a shallow column three-span station.
 
-The station is located на юго-западной окраине города на границе районов Тёплый Стан и Ясенево у перекрёстка Профсоюзной улицы с улицей Тёплый Стан.
+The station is located на юго-западной окраине города на границе районов Tioply Stan и Ясенево у перекрёстка Профсоюзной улицы с улицей Tioply Stan.
 
 Name origin: по одноимённым району и улице, названия которых происходят от деревень, располагавшихся ранее на этом месте.
 

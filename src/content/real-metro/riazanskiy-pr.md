@@ -1,18 +1,19 @@
 ---
 id: riazanskiy-pr
 title: "Рязанский проспект"
+titleEn: "Ryazansky Prospekt"
 line: 7
 lineName: "Tagansko-Krasnopresnenskaya Line"
 lineNameEn: "Tagansko-Krasnopresnenskaya Line"
-opened: "31 декабря 1966"
+opened: "31 December 1966"
 architects: "Н. А. Алёшина, Ю. В. Вдовин"
 image: "/real-metro-imgs/riazanskiy-pr.jpg"
 gallery: "https://www.metrowalks.com/f/msk/riazpr/0.jpg|https://www.metrowalks.com/f/msk/riazpr/100619-1067011.jpg|https://www.metrowalks.com/f/msk/riazpr/100619-1067013.jpg|https://www.metrowalks.com/f/msk/riazpr/100619-1067016.jpg"
 source: "https://www.metrowalks.com/ru/moscow/tagansko-krasnopresnenskaya/riazanskiy-pr"
-brief: "Рязанский проспект is a shallow column three-span station."
+brief: "Ryazansky Prospekt is a shallow column three-span station."
 ---
 
-Рязанский проспект is a shallow column three-span station.
+Ryazansky Prospekt is a shallow column three-span station.
 
 The station is located на восточной окраине Москвы в Рязанском районе под перекрёстком Рязанского проспекта с 4-м Вешняковским проездом (между улицами Академика Скрябина и Зеленодольской).
 

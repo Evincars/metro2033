@@ -1,18 +1,19 @@
 ---
 id: izmaylovskaya
 title: "Измайловская"
+titleEn: "Izmaylovskaya"
 line: 3
 lineName: "Arbatsko-Pokrovskaya Line"
 lineNameEn: "Arbatsko-Pokrovskaya Line"
-opened: "21 октября 1961"
+opened: "21 October 1961"
 architects: "И. Г. Таранов, Н. А. Быкова"
 image: "/real-metro-imgs/izmaylovskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/izmayl/0.jpg|https://www.metrowalks.com/f/msk/izmayl/090531-1052861.jpg|https://www.metrowalks.com/f/msk/izmayl/090531-1052859.jpg|https://www.metrowalks.com/f/msk/izmayl/0333.jpg"
 source: "https://www.metrowalks.com/ru/moscow/arbatsko-pokrovskaya/izmaylovskaya"
-brief: "Измайловская — наземная станция, открытая, с островной платформой."
+brief: "Izmaylovskaya — наземная станция, открытая, с островной платформой."
 ---
 
-Измайловская — наземная станция, открытая, с островной платформой.
+Izmaylovskaya — наземная станция, открытая, с островной платформой.
 
 The station is located на востоке Москвы в районе Измайлово в начале Измайловского проспекта near Измайловским лесопарком.
 
@@ -22,5 +23,5 @@ Name origin: по одноимённым проспекту и парку, на
 
 Архитекторы станции — И. Г. Таранов, Н. А. Быкова.
 
-Измайловская — одна из двух единственных наземных станций на Арбатско-Покровской линии (вторая — Кунцевская) и станция с самым примитивным архитектурным оформлением (соперничать с ней может лишь станция
+Izmaylovskaya — одна из двух единственных наземных станций на Арбатско-Покровской линии (вторая — Кунцевская) и станция с самым примитивным архитектурным оформлением (соперничать с ней может лишь станция
       Мякинино).

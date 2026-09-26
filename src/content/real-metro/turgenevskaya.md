@@ -1,18 +1,19 @@
 ---
 id: turgenevskaya
 title: "Тургеневская"
+titleEn: "Turgenevskaya"
 line: 6
 lineName: "Kaluzhsko-Rizhskaya Line"
 lineNameEn: "Kaluzhsko-Rizhskaya Line"
-opened: "5 января 1972"
+opened: "5 January 1972"
 architects: "И. Г. Таранов, Ю. В. Вдовин, И. Г. Петухова"
 image: "/real-metro-imgs/turgenevskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/turgen/0.jpg|https://www.metrowalks.com/f/msk/turgen/100620-1067714.jpg|https://www.metrowalks.com/f/msk/turgen/091227-1060917.jpg|https://www.metrowalks.com/f/msk/turgen/100620-1067716.jpg"
 source: "https://www.metrowalks.com/ru/moscow/kaluzhsko-rizhskaya/turgenevskaya"
-brief: "Тургеневская is a deep-level pylonic three-vault station."
+brief: "Turgenevskaya is a deep-level pylonic three-vault station."
 ---
 
-Тургеневская is a deep-level pylonic three-vault station.
+Turgenevskaya is a deep-level pylonic three-vault station.
 
 The station is located в северной части центра города в Красносельском районе на Тургеневской площади, у пересечения проспекта Академика Сахарова и Мясницкой улицы с Бульварным кольцом.
 

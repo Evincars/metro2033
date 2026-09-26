@@ -64,6 +64,7 @@ const LEVEL_CHARACTERS = {
 
 let map = null
 let resizeObserver = null
+let highlightedMarker = null
 const markers = shallowRef([])
 const journeyLayers = {}
 const stationMarkerMap = {}
@@ -248,9 +249,18 @@ function openLevel(id) {
   router.push({ name: 'level-detail', params: { id } })
 }
 
+function clearHighlight() {
+  if (highlightedMarker) {
+    highlightedMarker.setStyle({ fillColor: '#e8952a', fillOpacity: 0.01, color: 'transparent', weight: 3 })
+    highlightedMarker = null
+  }
+  updateStationHighlights()
+}
+
 function closeTooltip() {
   selected.value = null
   galleryOpen.value = false
+  clearHighlight()
 }
 
 function openGallery(idx) {
@@ -444,6 +454,7 @@ onMounted(() => {
       const marker = stationMarkerMap[station.id]
       if (marker) {
         marker.setStyle({ fillColor: '#e8952a', fillOpacity: 0.85, color: '#e8952a', weight: 3 })
+        highlightedMarker = marker
       }
       map.setView(toLatLng(station), 1, { animate: true })
       nextTick(() => selectStation(station))

@@ -1,22 +1,23 @@
 ---
 id: suharevskaya
 title: "Сухаревская"
+titleEn: "Suharevskaya"
 line: 6
 lineName: "Kaluzhsko-Rizhskaya Line"
 lineNameEn: "Kaluzhsko-Rizhskaya Line"
-opened: "5 января 1972"
+opened: "5 January 1972"
 architects: "Р. И. Погребной"
 image: "/real-metro-imgs/suharevskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/suharev/0.jpg|https://www.metrowalks.com/f/msk/suharev/090530-1052498.jpg|https://www.metrowalks.com/f/msk/suharev/090530-1052497.jpg|https://www.metrowalks.com/f/msk/suharev/111203-1078509.jpg"
 source: "https://www.metrowalks.com/ru/moscow/kaluzhsko-rizhskaya/suharevskaya"
-brief: "Сухаревская is a deep-level pylonic three-vault station."
+brief: "Suharevskaya is a deep-level pylonic three-vault station."
 ---
 
-Сухаревская is a deep-level pylonic three-vault station.
+Suharevskaya is a deep-level pylonic three-vault station.
 
 The station is located в северной части центра Москвы на границе Мещанского и Красносельского районов на улице Сретенке у пересечения с Садовым кольцом.
 
-Name origin: nearо станцией находятся Большая и Малая Сухаревская площади (в советские годы — Колхозная площадь), название которых происходит от стрелецкой слободы, в которой размещался полк под командованием Л. П. Сухарева в XVII веке.
+Name origin: nearо станцией находятся Большая и Малая Suharevskaya площади (в советские годы — Колхозная площадь), название которых происходит от стрелецкой слободы, в которой размещался полк под командованием Л. П. Сухарева в XVII веке.
 
 Дата открытия — 5 января 1972.
 

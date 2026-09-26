@@ -1,18 +1,19 @@
 ---
 id: bulvar-dm-donskogo
 title: "Бульвар Дмитрия Донского"
+titleEn: "Bulvar Dmitriya Donskogo"
 line: 9
 lineName: "Serpukhovsko-Timiryazevskaya Line"
 lineNameEn: "Serpukhovsko-Timiryazevskaya Line"
-opened: "26 декабря 2002"
+opened: "26 December 2002"
 architects: "В. З. Филиппов, С. М. Белякова, С. А. Петросян, И. В. Петрова, Т. А. Силакадзе"
 image: "/real-metro-imgs/bulvar-dm-donskogo.jpg"
 gallery: "https://www.metrowalks.com/f/msk/bdd/0.jpg|https://www.metrowalks.com/f/msk/bdd/111204-1078767.jpg|https://www.metrowalks.com/f/msk/bdd/111204-1078761.jpg|https://www.metrowalks.com/f/msk/bdd/111204-1078764.jpg"
 source: "https://www.metrowalks.com/ru/moscow/serpuhovsko-timiryazevskaya/bulvar-dm-donskogo"
-brief: "Бульвар Дмитрия Донского is a shallow column three-span station."
+brief: "Bulvar Dmitriya Donskogo is a shallow column three-span station."
 ---
 
-Бульвар Дмитрия Донского is a shallow column three-span station.
+Bulvar Dmitriya Donskogo is a shallow column three-span station.
 
 The station is located в районе Северное Бутово к югу от МКАД на пересечении бульвара Дмитрия Донского со Старокачаловской улицей.
 

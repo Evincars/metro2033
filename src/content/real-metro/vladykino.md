@@ -1,18 +1,19 @@
 ---
 id: vladykino
 title: "Владыкино"
+titleEn: "Vladykino"
 line: 9
 lineName: "Serpukhovsko-Timiryazevskaya Line"
 lineNameEn: "Serpukhovsko-Timiryazevskaya Line"
-opened: "1 марта 1991"
+opened: "1 March 1991"
 architects: "В. И. Клоков, И. В. Плюхин"
 image: "/real-metro-imgs/vladykino.jpg"
 gallery: "https://www.metrowalks.com/f/msk/vladyk/0.jpg|https://www.metrowalks.com/f/msk/vladyk/091227-1060871.jpg|https://www.metrowalks.com/f/msk/vladyk/100620-1067801.jpg|https://www.metrowalks.com/f/msk/vladyk/091227-1060870.jpg"
 source: "https://www.metrowalks.com/ru/moscow/serpuhovsko-timiryazevskaya/vladykino"
-brief: "Владыкино is a shallow column three-span station."
+brief: "Vladykino is a shallow column three-span station."
 ---
 
-Владыкино is a shallow column three-span station.
+Vladykino is a shallow column three-span station.
 
 The station is located в северной части города на границе районов Отрадное и Марфино на Сигнальном проезде near Алтуфьевским шоссе, к северо-западу от Главного Ботанического сада РАН.
 

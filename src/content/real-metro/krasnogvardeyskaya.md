@@ -1,18 +1,19 @@
 ---
 id: krasnogvardeyskaya
 title: "Красногвардейская"
+titleEn: "Krasnogvardeyskaya"
 line: 2
 lineName: "Zamoskvoretskaya Line"
 lineNameEn: "Zamoskvoretskaya Line"
-opened: "7 сентября 1985"
+opened: "7 September 1985"
 architects: "И. Г. Петухова, Н. И. Шумаков, Н. В. Шурыгина"
 image: "/real-metro-imgs/krasnogvardeyskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/krgvar/0.jpg|https://www.metrowalks.com/f/msk/krgvar/250616-1144843.jpg|https://www.metrowalks.com/f/msk/krgvar/250616-1144838.jpg|https://www.metrowalks.com/f/msk/krgvar/250616-1144871.jpg"
 source: "https://www.metrowalks.com/ru/moscow/zamoskvoretskaya/krasnogvardeyskaya"
-brief: "Красногвардейская is a shallow single-vault station."
+brief: "Krasnogvardeyskaya is a shallow single-vault station."
 ---
 
-Красногвардейская is a shallow single-vault station.
+Krasnogvardeyskaya is a shallow single-vault station.
 
 The station is located на юго-восточной окраине города в районе Зябликово под Ореховым бульваром у перекрёстка с улицей Мусы Джалиля и Ясеневой улицей.
 

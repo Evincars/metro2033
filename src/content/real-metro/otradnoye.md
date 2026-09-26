@@ -1,20 +1,21 @@
 ---
 id: otradnoye
 title: "Отрадное"
+titleEn: "Otradnoye"
 line: 9
 lineName: "Serpukhovsko-Timiryazevskaya Line"
 lineNameEn: "Serpukhovsko-Timiryazevskaya Line"
-opened: "1 марта 1991"
+opened: "1 March 1991"
 architects: "Л. Н. Попов, В. С. Волович"
 image: "/real-metro-imgs/otradnoye.jpg"
 gallery: "https://www.metrowalks.com/f/msk/otradn/0.jpg|https://www.metrowalks.com/f/msk/otradn/250614-1144060.jpg|https://www.metrowalks.com/f/msk/otradn/250614-1144064.jpg|https://www.metrowalks.com/f/msk/otradn/250614-1144084.jpg"
 source: "https://www.metrowalks.com/ru/moscow/serpuhovsko-timiryazevskaya/otradnoye"
-brief: "Отрадное is a shallow single-vault station."
+brief: "Otradnoye is a shallow single-vault station."
 ---
 
-Отрадное is a shallow single-vault station.
+Otradnoye is a shallow single-vault station.
 
-The station is located на севере города в районе Отрадное у перекрёстка улиц Декабристов и Хачатуряна.
+The station is located на севере города в районе Otradnoye у перекрёстка улиц Декабристов и Хачатуряна.
 
 Name origin: по названию района Москвы, происходящему от названия сельскохозяйственного совхоза, располагавшегося на этих землях до включения их в состав города.
 

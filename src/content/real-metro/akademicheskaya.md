@@ -1,18 +1,19 @@
 ---
 id: akademicheskaya
 title: "Академическая"
+titleEn: "Akademicheskaya"
 line: 6
 lineName: "Kaluzhsko-Rizhskaya Line"
 lineNameEn: "Kaluzhsko-Rizhskaya Line"
-opened: "13 октября 1962"
+opened: "13 October 1962"
 architects: "И. Г. Петухова, Ю. А. Колесникова, А. Ф. Фокина"
 image: "/real-metro-imgs/akademicheskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/akadem/0.jpg|https://www.metrowalks.com/f/msk/akadem/220821-1136990.jpg|https://www.metrowalks.com/f/msk/akadem/220821-1137003.jpg|https://www.metrowalks.com/f/msk/akadem/220821-1136996.jpg"
 source: "https://www.metrowalks.com/ru/moscow/kaluzhsko-rizhskaya/akademicheskaya"
-brief: "Академическая is a shallow column three-span station."
+brief: "Akademicheskaya is a shallow column three-span station."
 ---
 
-Академическая is a shallow column three-span station.
+Akademicheskaya is a shallow column three-span station.
 
 The station is located в юго-западной части города в Академическом районе в начале Профсоюзной улицы у перекрёстка с улицей Дмитрия Ульянова.
 

@@ -1,18 +1,19 @@
 ---
 id: alma-atinskaya
 title: "Алма-Атинская"
+titleEn: "Alma Atinskaya"
 line: 2
 lineName: "Zamoskvoretskaya Line"
 lineNameEn: "Zamoskvoretskaya Line"
-opened: "24 декабря 2012"
+opened: "24 December 2012"
 architects: "А. В. Некрасов, Г. С. Мун, В. З. Филиппов"
 image: "/real-metro-imgs/alma-atinskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/almaat/0.jpg|https://www.metrowalks.com/f/msk/almaat/151018-1107959.jpg|https://www.metrowalks.com/f/msk/almaat/151018-1107982.jpg|https://www.metrowalks.com/f/msk/almaat/151018-1107964.jpg"
 source: "https://www.metrowalks.com/ru/moscow/zamoskvoretskaya/alma-atinskaya"
-brief: "Алма-Атинская is a shallow single-vault station."
+brief: "Alma Atinskaya is a shallow single-vault station."
 ---
 
-Алма-Атинская is a shallow single-vault station.
+Alma Atinskaya is a shallow single-vault station.
 
 The station is located на юго-восточной окраине города в районе Братеево на Братеевской улице.
 

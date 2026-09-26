@@ -1,18 +1,19 @@
 ---
 id: fonvizinskaya
 title: "Фонвизинская"
+titleEn: "Fonvizinskaya"
 line: 10
 lineName: "Lyublinsko-Dmitrovskaya Line"
 lineNameEn: "Lyublinsko-Dmitrovskaya Line"
-opened: "16 сентября 2016"
+opened: "16 September 2016"
 architects: "Н. И. Шумаков, А. В. Некрасов, Г. С. Мун, В. З. Филиппов"
 image: "/real-metro-imgs/fonvizinskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/fonviz/0.jpg|https://www.metrowalks.com/f/msk/fonviz/210816-1133532.jpg|https://www.metrowalks.com/f/msk/fonviz/210816-1133534.jpg|https://www.metrowalks.com/f/msk/fonviz/210816-1133527.jpg"
 source: "https://www.metrowalks.com/ru/moscow/lyublinsko-dmitrovskaya/fonvizinskaya"
-brief: "Фонвизинская is a deep-level pylonic three-vault station."
+brief: "Fonvizinskaya is a deep-level pylonic three-vault station."
 ---
 
-Фонвизинская is a deep-level pylonic three-vault station.
+Fonvizinskaya is a deep-level pylonic three-vault station.
 
 The station is located в северной части Москвы в Бутырском районе на улице Милашенкова у перекрёстка с улицей Фонвизина.
 

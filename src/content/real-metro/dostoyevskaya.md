@@ -1,18 +1,19 @@
 ---
 id: dostoyevskaya
 title: "Достоевская"
+titleEn: "Dostoyevskaya"
 line: 10
 lineName: "Lyublinsko-Dmitrovskaya Line"
 lineNameEn: "Lyublinsko-Dmitrovskaya Line"
-opened: "19 июня 2010"
+opened: "19 June 2010"
 architects: "Л. Н. Попов, Н. В. Расстегняева"
 image: "/real-metro-imgs/dostoyevskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/dostoev/0.jpg|https://www.metrowalks.com/f/msk/dostoev/100620-1067598.jpg|https://www.metrowalks.com/f/msk/dostoev/100620-1067600.jpg|https://www.metrowalks.com/f/msk/dostoev/100620-1067604.jpg"
 source: "https://www.metrowalks.com/ru/moscow/lyublinsko-dmitrovskaya/dostoyevskaya"
-brief: "Достоевская — колонно-стеновая трёхсводчатая станция глубокого заложения."
+brief: "Dostoyevskaya — колонно-стеновая трёхсводчатая станция глубокого заложения."
 ---
 
-Достоевская — колонно-стеновая трёхсводчатая станция глубокого заложения.
+Dostoyevskaya — колонно-стеновая трёхсводчатая станция глубокого заложения.
 
 The station is located в северной части центра Москвы в Тверском районе на Селезнёвской улице около Суворовской площади.
 

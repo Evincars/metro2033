@@ -49,7 +49,7 @@ const filtered = computed(() => {
     list = list.filter((s) => s.line === Number(activeLine.value))
   }
   if (search.value) {
-    list = list.filter((s) => fuzzyMatch(search.value, s.title))
+    list = list.filter((s) => fuzzyMatch(search.value, s.title) || fuzzyMatch(search.value, s.titleRu))
   }
   return list
 })
@@ -133,6 +133,7 @@ function backToList() {
             {{ activeStation.lineName }}
           </span>
           <h1>{{ activeStation.title }}</h1>
+          <span v-if="activeStation.titleRu && activeStation.titleRu !== activeStation.title" class="detail-title-ru">{{ activeStation.titleRu }}</span>
           <div class="detail-meta" v-if="activeStation.opened || activeStation.architects">
             <span v-if="activeStation.opened" class="meta-item">{{ activeStation.opened }}</span>
             <span v-if="activeStation.architects" class="meta-item">{{ activeStation.architects }}</span>
@@ -446,6 +447,14 @@ function backToList() {
 .detail-header h1 {
   margin: 0.5rem 0;
   font-size: 1.7rem;
+}
+
+.detail-title-ru {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  color: var(--color-text-faint);
+  margin-bottom: 0.15rem;
 }
 
 .detail-meta {

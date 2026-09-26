@@ -22,6 +22,7 @@ export default {
   'nav.vehicles': 'Транспорт',
   'nav.achievements': 'Досягнення',
   'nav.endings': 'Кінцівки',
+  'nav.realMetro': 'Московське метро',
 
   'status.signal': 'Сигнал',
   'status.rad': 'Рад',

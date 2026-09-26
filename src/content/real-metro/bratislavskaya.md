@@ -1,18 +1,19 @@
 ---
 id: bratislavskaya
 title: "Братиславская"
+titleEn: "Bratislavskaya"
 line: 10
 lineName: "Lyublinsko-Dmitrovskaya Line"
 lineNameEn: "Lyublinsko-Dmitrovskaya Line"
-opened: "25 декабря 1996"
+opened: "25 December 1996"
 architects: "А. Ю. Орлов, А. В. Некрасов"
 image: "/real-metro-imgs/bratislavskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/bratisl/0.jpg|https://www.metrowalks.com/f/msk/bratisl/111204-1078910.jpg|https://www.metrowalks.com/f/msk/bratisl/111204-1078900.jpg|https://www.metrowalks.com/f/msk/bratisl/111204-1078903.jpg"
 source: "https://www.metrowalks.com/ru/moscow/lyublinsko-dmitrovskaya/bratislavskaya"
-brief: "Братиславская — однопролётная станция мелкого заложения."
+brief: "Bratislavskaya — однопролётная станция мелкого заложения."
 ---
 
-Братиславская — однопролётная станция мелкого заложения.
+Bratislavskaya — однопролётная станция мелкого заложения.
 
 The station is located на юго-востоке города в районе Марьино на улице Перерва near Братиславской улицей.
 

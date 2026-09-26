@@ -1,18 +1,19 @@
 ---
 id: filiovskiy-park
 title: "Филёвский парк"
+titleEn: "Filiovskiy Park"
 line: 4
 lineName: "Filyovskaya Line"
 lineNameEn: "Filyovskaya Line"
-opened: "13 октября 1961"
+opened: "13 October 1961"
 architects: "Р. И. Погребной, В. А. Черёмин"
 image: "/real-metro-imgs/filiovskiy-park.jpg"
 gallery: "https://www.metrowalks.com/f/msk/filpark/0.jpg|https://www.metrowalks.com/f/msk/filpark/220820-1135912.jpg|https://www.metrowalks.com/f/msk/filpark/220820-1135910.jpg|https://www.metrowalks.com/f/msk/filpark/220820-1135907.jpg"
 source: "https://www.metrowalks.com/ru/moscow/filyovskaya/filiovskiy-park"
-brief: "Филёвский парк — наземная станция, открытая, с островной платформой."
+brief: "Filiovskiy Park — наземная станция, открытая, с островной платформой."
 ---
 
-Филёвский парк — наземная станция, открытая, с островной платформой.
+Filiovskiy Park — наземная станция, открытая, с островной платформой.
 
 The station is located в западной части города на границе районов Филёвский Парк и Фили-Давыдково под Минской улицей near Сеславинской улицей.
 

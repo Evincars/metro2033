@@ -1,18 +1,19 @@
 ---
 id: trubnaya
 title: "Трубная"
+titleEn: "Trubnaya"
 line: 10
 lineName: "Lyublinsko-Dmitrovskaya Line"
 lineNameEn: "Lyublinsko-Dmitrovskaya Line"
-opened: "30 августа 2007"
+opened: "30 August 2007"
 architects: "В. З. Филиппов, С. А. Петросян, А. В. Рубан, Т. А. Силакадзе, Т. В. Петрова, С. Б. Прыткова"
 image: "/real-metro-imgs/trubnaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/trubna/0.jpg|https://www.metrowalks.com/f/msk/trubna/210816-1133618.jpg|https://www.metrowalks.com/f/msk/trubna/210816-1133647.jpg|https://www.metrowalks.com/f/msk/trubna/210816-1133644.jpg"
 source: "https://www.metrowalks.com/ru/moscow/lyublinsko-dmitrovskaya/trubnaya"
-brief: "Трубная — колонно-стеновая трёхсводчатая станция глубокого заложения."
+brief: "Trubnaya — колонно-стеновая трёхсводчатая станция глубокого заложения."
 ---
 
-Трубная — колонно-стеновая трёхсводчатая станция глубокого заложения.
+Trubnaya — колонно-стеновая трёхсводчатая станция глубокого заложения.
 
 The station is located в северной части центра Москвы в Мещанском районе под Трубной площадью, где Цветной бульвар пересекается с Бульварным кольцом.
 
@@ -23,5 +24,5 @@ Name origin: по одноимённой площади у выхода со 
 Архитекторы станции — В. З. Филиппов, С. А. Петросян, А. В. Рубан, Т. А. Силакадзе, Т. В. Петрова, С. Б. Прыткова.
 
 Путевые стены станции и некоторые колонны облицованы светлым marble тёплых оттенков. Простенки, участки путевых стен с названием станции и некоторые
-      колонны отделаны marble тёмно-зелёного цвета, из-за чего Трубная немного похожа на петербургскую Звенигородскую. The floor is laid with grey granite с чёрными и красными
+      колонны отделаны marble тёмно-зелёного цвета, из-за чего Trubnaya немного похожа на петербургскую Звенигородскую. The floor is laid with grey granite с чёрными и красными
       inlays, формирующими сложный геометрический рисунок.

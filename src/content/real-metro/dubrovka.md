@@ -1,18 +1,19 @@
 ---
 id: dubrovka
 title: "Дубровка"
+titleEn: "Dubrovka"
 line: 10
 lineName: "Lyublinsko-Dmitrovskaya Line"
 lineNameEn: "Lyublinsko-Dmitrovskaya Line"
-opened: "11 декабря 1999"
+opened: "11 December 1999"
 architects: "В. З. Филиппов, С. М. Белякова"
 image: "/real-metro-imgs/dubrovka.jpg"
 gallery: "https://www.metrowalks.com/f/msk/dubrov/0.jpg|https://www.metrowalks.com/f/msk/dubrov/090530-1052417.jpg|https://www.metrowalks.com/f/msk/dubrov/111203-1078372.jpg|https://www.metrowalks.com/f/msk/dubrov/111203-1078374.jpg"
 source: "https://www.metrowalks.com/ru/moscow/lyublinsko-dmitrovskaya/dubrovka"
-brief: "Дубровка — колонно-стеновая трёхсводчатая станция глубокого заложения."
+brief: "Dubrovka — колонно-стеновая трёхсводчатая станция глубокого заложения."
 ---
 
-Дубровка — колонно-стеновая трёхсводчатая станция глубокого заложения.
+Dubrovka — колонно-стеновая трёхсводчатая станция глубокого заложения.
 
 The station is located к юго-востоку от центра Москвы в Южнопортовом районе у перекрёстка Шарикоподшипниковской улицы и 2-й улицы Машиностроения, near Третьим транспортным кольцом.
 

@@ -1,18 +1,19 @@
 ---
 id: pr-vernadskogo
 title: "Проспект Вернадского"
+titleEn: "Prospekt Vernadskogo"
 line: 1
 lineName: "Sokolnicheskaya Line"
 lineNameEn: "Sokolnicheskaya Line"
-opened: "30 декабря 1963"
+opened: "30 December 1963"
 architects: "Н. А. Быкова, И. Г. Таранов"
 image: "/real-metro-imgs/pr-vernadskogo.jpg"
 gallery: "https://www.metrowalks.com/f/msk/vernad/0.jpg|https://www.metrowalks.com/f/msk/vernad/111204-1078715.jpg|https://www.metrowalks.com/f/msk/vernad/111204-1078712.jpg|https://www.metrowalks.com/f/msk/vernad/111204-1078713.jpg"
 source: "https://www.metrowalks.com/ru/moscow/sokolnicheskaya/pr-vernadskogo"
-brief: "Проспект Вернадского is a shallow column three-span station."
+brief: "Prospekt Vernadskogo is a shallow column three-span station."
 ---
 
-Проспект Вернадского is a shallow column three-span station.
+Prospekt Vernadskogo is a shallow column three-span station.
 
 The station is located на юго-западе города в одноимённом районе на пересечении проспекта Вернадского с улицей Удальцова.
 

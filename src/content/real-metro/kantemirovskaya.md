@@ -1,18 +1,19 @@
 ---
 id: kantemirovskaya
 title: "Кантемировская"
+titleEn: "Kantemirovskaya"
 line: 2
 lineName: "Zamoskvoretskaya Line"
 lineNameEn: "Zamoskvoretskaya Line"
-opened: "30 декабря 1984"
+opened: "30 December 1984"
 architects: "Р. И. Погребной, В. Н. Филиппов, И. В. Плюхин"
 image: "/real-metro-imgs/kantemirovskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/kantem/0.jpg|https://www.metrowalks.com/f/msk/kantem/250616-1144898.jpg|https://www.metrowalks.com/f/msk/kantem/250616-1144889.jpg|https://www.metrowalks.com/f/msk/kantem/250616-1144894.jpg"
 source: "https://www.metrowalks.com/ru/moscow/zamoskvoretskaya/kantemirovskaya"
-brief: "Кантемировская is a shallow single-vault station."
+brief: "Kantemirovskaya is a shallow single-vault station."
 ---
 
-Кантемировская is a shallow single-vault station.
+Kantemirovskaya is a shallow single-vault station.
 
 The station is located на юге города в районе Царицыно на Пролетарском проспекте у перекрёстка с Кантемировской улицей.
 

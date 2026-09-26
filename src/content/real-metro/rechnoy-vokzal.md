@@ -1,18 +1,19 @@
 ---
 id: rechnoy-vokzal
 title: "Речной вокзал"
+titleEn: "Rechnoy Vokzal"
 line: 2
 lineName: "Zamoskvoretskaya Line"
 lineNameEn: "Zamoskvoretskaya Line"
-opened: "31 декабря 1964"
+opened: "31 December 1964"
 architects: "Н. И. Демчинский"
 image: "/real-metro-imgs/rechnoy-vokzal.jpg"
 gallery: "https://www.metrowalks.com/f/msk/rechvok/0.jpg|https://www.metrowalks.com/f/msk/rechvok/151018-1108179.jpg|https://www.metrowalks.com/f/msk/rechvok/151018-1108181.jpg|https://www.metrowalks.com/f/msk/rechvok/151018-1108173.jpg"
 source: "https://www.metrowalks.com/ru/moscow/zamoskvoretskaya/rechnoy-vokzal"
-brief: "Речной вокзал is a shallow column three-span station."
+brief: "Rechnoy Vokzal is a shallow column three-span station."
 ---
 
-Речной вокзал is a shallow column three-span station.
+Rechnoy Vokzal is a shallow column three-span station.
 
 The station is located на северо-западе города в Левобережном районе на Фестивальной улице near перекрёстком с Ленинградским шоссе.
 

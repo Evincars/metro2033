@@ -1,18 +1,19 @@
 ---
 id: kaluzhskaya
 title: "Калужская"
+titleEn: "Kaluzhskaya"
 line: 6
 lineName: "Kaluzhsko-Rizhskaya Line"
 lineNameEn: "Kaluzhsko-Rizhskaya Line"
-opened: "12 августа 1974"
+opened: "12 August 1974"
 architects: "Н. И. Демчинский, Ю. А. Колесникова"
 image: "/real-metro-imgs/kaluzhskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/kaluzh/0.jpg|https://www.metrowalks.com/f/msk/kaluzh/151018-1107686.jpg|https://www.metrowalks.com/f/msk/kaluzh/151018-1107698.jpg|https://www.metrowalks.com/f/msk/kaluzh/220821-1137085.jpg"
 source: "https://www.metrowalks.com/ru/moscow/kaluzhsko-rizhskaya/kaluzhskaya"
-brief: "Калужская is a shallow column three-span station."
+brief: "Kaluzhskaya is a shallow column three-span station."
 ---
 
-Калужская is a shallow column three-span station.
+Kaluzhskaya is a shallow column three-span station.
 
 The station is located на юго-западе Москвы на границе районов Черёмушки, Коньково и Обручевского у перекрёстка Профсоюзной улицы с улицей Обручева.
 

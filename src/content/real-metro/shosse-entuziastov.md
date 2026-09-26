@@ -1,18 +1,19 @@
 ---
 id: shosse-entuziastov
 title: "Шоссе Энтузиастов"
+titleEn: "Shosse Entuziastov"
 line: 8
 lineName: "Kalininskaya Line"
 lineNameEn: "Kalininskaya Line"
-opened: "30 декабря 1979"
+opened: "30 December 1979"
 architects: "Ю. В. Вдовин, В. А. Черёмин"
 image: "/real-metro-imgs/shosse-entuziastov.jpg"
 gallery: "https://www.metrowalks.com/f/msk/entuz/0.jpg|https://www.metrowalks.com/f/msk/entuz/151018-1107619.jpg|https://www.metrowalks.com/f/msk/entuz/151018-1107632.jpg|https://www.metrowalks.com/f/msk/entuz/151018-1107630.jpg"
 source: "https://www.metrowalks.com/ru/moscow/kalininskaya/shosse-entuziastov"
-brief: "Шоссе Энтузиастов is a deep-level pylonic three-vault station."
+brief: "Shosse Entuziastov is a deep-level pylonic three-vault station."
 ---
 
-Шоссе Энтузиастов is a deep-level pylonic three-vault station.
+Shosse Entuziastov is a deep-level pylonic three-vault station.
 
 The station is located в восточной части города на границе районов Перово и Соколиная гора у перекрёстка шоссе Энтузиастов с Северо-восточной хордой и Электродным проездом.
 

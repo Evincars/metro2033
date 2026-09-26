@@ -1,18 +1,19 @@
 ---
 id: dmitrovskaya
 title: "Дмитровская"
+titleEn: "Dmitrovskaya"
 line: 10
 lineName: "Lyublinsko-Dmitrovskaya Line"
 lineNameEn: "Lyublinsko-Dmitrovskaya Line"
-opened: "1 марта 1991"
+opened: "1 March 1991"
 architects: "Р. И. Погребной, В. З. Филиппов, С. А. Севастьянов"
 image: "/real-metro-imgs/dmitrovskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/dmitr/0.jpg|https://www.metrowalks.com/f/msk/dmitr/090530-1052659.jpg|https://www.metrowalks.com/f/msk/dmitr/250615-1144205.jpg|https://www.metrowalks.com/f/msk/dmitr/250615-1144211.jpg"
 source: "https://www.metrowalks.com/ru/moscow/serpuhovsko-timiryazevskaya/dmitrovskaya"
-brief: "Дмитровская is a deep-level pylonic three-vault station."
+brief: "Dmitrovskaya is a deep-level pylonic three-vault station."
 ---
 
-Дмитровская is a deep-level pylonic three-vault station.
+Dmitrovskaya is a deep-level pylonic three-vault station.
 
 The station is located к северу от центра Москвы на границе Савёловского и Тимирязевского районов, в начале Дмитровского шоссе.
 

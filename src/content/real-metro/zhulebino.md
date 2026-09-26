@@ -1,20 +1,21 @@
 ---
 id: zhulebino
 title: "Жулебино"
+titleEn: "Zhulebino"
 line: 7
 lineName: "Tagansko-Krasnopresnenskaya Line"
 lineNameEn: "Tagansko-Krasnopresnenskaya Line"
-opened: "9 ноября 2013"
+opened: "9 November 2013"
 architects: "Л. Л. Борзенков, М. В. Волович, С. Ф. Костиков, Т. А. Нагиева, Н. Н. Солдатова, В. К. Уваров"
 image: "/real-metro-imgs/zhulebino.jpg"
 gallery: "https://www.metrowalks.com/f/msk/zhuleb/0.jpg|https://www.metrowalks.com/f/msk/zhuleb/151017-1107193.jpg|https://www.metrowalks.com/f/msk/zhuleb/151017-1107208.jpg|https://www.metrowalks.com/f/msk/zhuleb/151017-1107223.jpg"
 source: "https://www.metrowalks.com/ru/moscow/tagansko-krasnopresnenskaya/zhulebino"
-brief: "Жулебино — колонная двухпролётная станция мелкого заложения."
+brief: "Zhulebino — колонная двухпролётная станция мелкого заложения."
 ---
 
-Жулебино — колонная двухпролётная станция мелкого заложения.
+Zhulebino — колонная двухпролётная станция мелкого заложения.
 
-The station is located на восточной окраине Москвы за МКАД в районе Выхино-Жулебино перекрёстком улиц Генерала Кузнецова и Авиаконструктора Миля.
+The station is located на восточной окраине Москвы за МКАД в районе Выхино-Zhulebino перекрёстком улиц Генерала Кузнецова и Авиаконструктора Миля.
 
 Name origin: по историческому названию района, происходящему от названия бывшей деревни, известной с XVII века и включённой в состав Москвы в 1985 году (Жулеба, то есть хитрец — прозвище местного землевладельца в старинные времена).
 

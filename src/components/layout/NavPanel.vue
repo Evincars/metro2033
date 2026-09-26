@@ -49,6 +49,7 @@ const navItems = [
   { to: '/vehicles', labelKey: 'nav.vehicles', code: '13' },
   { to: '/achievements', labelKey: 'nav.achievements', code: '14' },
   { to: '/endings', labelKey: 'nav.endings', code: '15' },
+  { to: '/real-metro', labelKey: 'nav.realMetro', code: '16' },
 ]
 
 /* ---- live gas-mask HUD: signal strength + radiation meter ---- */

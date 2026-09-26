@@ -1,18 +1,19 @@
 ---
 id: petrovsko-razumovskaya
 title: "Петровско-Разумовская"
+titleEn: "Petrovsko Razumovskaya"
 line: 10
 lineName: "Lyublinsko-Dmitrovskaya Line"
 lineNameEn: "Lyublinsko-Dmitrovskaya Line"
-opened: "1 марта 1991"
+opened: "1 March 1991"
 architects: "В. З. Филиппов, С. А. Севастьянов (старый зал), Н. И. Шумаков, А. В. Некрасов, Г. С. Мун, В. З. Филиппов (новый зал)"
 image: "/real-metro-imgs/petrovsko-razumovskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/petraz/0.jpg|https://www.metrowalks.com/f/msk/petraz/210815-1133499.jpg|https://www.metrowalks.com/f/msk/petraz/090530-1052630.jpg|https://www.metrowalks.com/f/msk/petraz/210815-1133502.jpg"
 source: "https://www.metrowalks.com/ru/moscow/lyublinsko-dmitrovskaya/petrovsko-razumovskaya"
-brief: "Петровско-Разумовская is a deep-level column three-vault station."
+brief: "Petrovsko Razumovskaya is a deep-level column three-vault station."
 ---
 
-Петровско-Разумовская is a deep-level column three-vault station.
+Petrovsko Razumovskaya is a deep-level column three-vault station.
 
 The station is located в северной части Москвы в Тимирязевском районе между Дмитровским шоссе и улицей Комдива Орлова.
 
@@ -22,6 +23,6 @@ Name origin: по историческому названию местност�
 
 Архитекторы станции — В. З. Филиппов, С. А. Севастьянов (старый зал), Н. И. Шумаков, А. В. Некрасов, Г. С. Мун, В. З. Филиппов (новый зал).
 
-Петровско-Разумовская — двухзальная станция с перекоммутацией путей и кроссплатформенной пересадкой, обслуживающая одновременно две линии. Поезда
+Petrovsko Razumovskaya — двухзальная станция с перекоммутацией путей и кроссплатформенной пересадкой, обслуживающая одновременно две линии. Поезда
       попутных направлений двух линий прибывают в один зал, для пересадки в попутном направлении достаточно перейти платформу. Для следования в обратном
       направлении нужно перейти в параллельный зал по короткому переходу.

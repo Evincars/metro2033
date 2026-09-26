@@ -1,18 +1,19 @@
 ---
 id: volgogradskiy-pr
 title: "Волгоградский проспект"
+titleEn: "Volgogradsky Prospekt"
 line: 7
 lineName: "Tagansko-Krasnopresnenskaya Line"
 lineNameEn: "Tagansko-Krasnopresnenskaya Line"
-opened: "31 декабря 1966"
+opened: "31 December 1966"
 architects: "В. Г. Поликарпова, А. А. Марова"
 image: "/real-metro-imgs/volgogradskiy-pr.jpg"
 gallery: "https://www.metrowalks.com/f/msk/volgopr/0.jpg|https://www.metrowalks.com/f/msk/volgopr/151017-1107394.jpg|https://www.metrowalks.com/f/msk/volgopr/151017-1107417.jpg|https://www.metrowalks.com/f/msk/volgopr/151017-1107392.jpg"
 source: "https://www.metrowalks.com/ru/moscow/tagansko-krasnopresnenskaya/volgogradskiy-pr"
-brief: "Волгоградский проспект is a shallow column three-span station."
+brief: "Volgogradsky Prospekt is a shallow column three-span station."
 ---
 
-Волгоградский проспект is a shallow column three-span station.
+Volgogradsky Prospekt is a shallow column three-span station.
 
 The station is located в юго-восточной части Москвы в Южнопортовом районе под Волгоградским проспектом у перекрёстка с Новоостаповской улицей.
 

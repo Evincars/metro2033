@@ -1,20 +1,21 @@
 ---
 id: medvedkovo
 title: "Медведково"
+titleEn: "Medvedkovo"
 line: 6
 lineName: "Kaluzhsko-Rizhskaya Line"
 lineNameEn: "Kaluzhsko-Rizhskaya Line"
-opened: "29 сентября 1978"
+opened: "29 September 1978"
 architects: "Н. А. Алёшина, Н. К. Самойлова, В. С. Волович"
 image: "/real-metro-imgs/medvedkovo.jpg"
 gallery: "https://www.metrowalks.com/f/msk/medved/0.jpg|https://www.metrowalks.com/f/msk/medved/111203-1078113.jpg|https://www.metrowalks.com/f/msk/medved/111203-1078114.jpg|https://www.metrowalks.com/f/msk/medved/111203-1078135.jpg"
 source: "https://www.metrowalks.com/ru/moscow/kaluzhsko-rizhskaya/medvedkovo"
-brief: "Медведково is a shallow column three-span station."
+brief: "Medvedkovo is a shallow column three-span station."
 ---
 
-Медведково is a shallow column three-span station.
+Medvedkovo is a shallow column three-span station.
 
-The station is located на северной окраине города в районе Северное Медведково на улице Грекова у перекрёстка с Широкой улицей.
+The station is located на северной окраине города в районе Северное Medvedkovo на улице Грекова у перекрёстка с Широкой улицей.
 
 Name origin: по историческому названию района, происходящему от села Медведкова, располагавшегося ранее к югу от этого места (по легенде, “Медведок” — прозвище местного землевладельца в XVI веке).
 

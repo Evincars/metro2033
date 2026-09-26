@@ -1,22 +1,23 @@
 ---
 id: hovrino
 title: "Ховрино"
+titleEn: "Hovrino"
 line: 2
 lineName: "Zamoskvoretskaya Line"
 lineNameEn: "Zamoskvoretskaya Line"
-opened: "31 декабря 2017"
+opened: "31 December 2017"
 architects: "Г. Б. Ломоносов"
 image: "/real-metro-imgs/hovrino.jpg"
 gallery: "https://www.metrowalks.com/f/msk/hovrino/0.jpg|https://www.metrowalks.com/f/msk/hovrino/210814-1132346.jpg|https://www.metrowalks.com/f/msk/hovrino/210814-1132355.jpg|https://www.metrowalks.com/f/msk/hovrino/210814-1132348.jpg"
 source: "https://www.metrowalks.com/ru/moscow/zamoskvoretskaya/hovrino"
-brief: "Ховрино — колонная двухпролётная станция мелкого заложения."
+brief: "Hovrino — колонная двухпролётная станция мелкого заложения."
 ---
 
-Ховрино — колонная двухпролётная станция мелкого заложения.
+Hovrino — колонная двухпролётная станция мелкого заложения.
 
-The station is located на северо-северо-западной окраине Москвы в районе Ховрино у перекрёстка улицы Дыбенко с Зеленоградской улицей менее чем в километре к югу от МКАД.
+The station is located на северо-северо-западной окраине Москвы в районе Hovrino у перекрёстка улицы Дыбенко с Зеленоградской улицей менее чем в километре к югу от МКАД.
 
-Name origin: по историческому названию местности: на этом месте располагалось село Ховрино, известное с XVI века, связанное со старинным знатным родом Ховриных-Головиных.
+Name origin: по историческому названию местности: на этом месте располагалось село Hovrino, известное с XVI века, связанное со старинным знатным родом Ховриных-Головиных.
 
 Дата открытия — 31 декабря 2017.
 

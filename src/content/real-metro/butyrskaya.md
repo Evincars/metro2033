@@ -1,18 +1,19 @@
 ---
 id: butyrskaya
 title: "Бутырская"
+titleEn: "Butyrskaya"
 line: 10
 lineName: "Lyublinsko-Dmitrovskaya Line"
 lineNameEn: "Lyublinsko-Dmitrovskaya Line"
-opened: "16 сентября 2016"
+opened: "16 September 2016"
 architects: "Н. И. Шумаков, А. В. Некрасов, Г. С. Мун, В. З. Филиппов"
 image: "/real-metro-imgs/butyrskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/butyr/0.jpg|https://www.metrowalks.com/f/msk/butyr/210816-1133584.jpg|https://www.metrowalks.com/f/msk/butyr/210816-1133587.jpg|https://www.metrowalks.com/f/msk/butyr/210816-1133590.jpg"
 source: "https://www.metrowalks.com/ru/moscow/lyublinsko-dmitrovskaya/butyrskaya"
-brief: "Бутырская is a deep-level pylonic three-vault station."
+brief: "Butyrskaya is a deep-level pylonic three-vault station."
 ---
 
-Бутырская is a deep-level pylonic three-vault station.
+Butyrskaya is a deep-level pylonic three-vault station.
 
 The station is located в северной части Москвы в Бутырском районе на Огородном проезде near the intersection with улицей Руставели.
 

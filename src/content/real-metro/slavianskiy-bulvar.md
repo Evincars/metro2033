@@ -1,18 +1,19 @@
 ---
 id: slavianskiy-bulvar
 title: "Славянский бульвар"
+titleEn: "Slavianskiy Bulvar"
 line: 3
 lineName: "Arbatsko-Pokrovskaya Line"
 lineNameEn: "Arbatsko-Pokrovskaya Line"
-opened: "7 сентября 2008"
+opened: "7 September 2008"
 architects: "Вадим Волович, Софья Меженина, Денис Хохлов"
 image: "/real-metro-imgs/slavianskiy-bulvar.jpg"
 gallery: "https://www.metrowalks.com/f/msk/slavbul/0.jpg|https://www.metrowalks.com/f/msk/slavbul/090529-1052135.jpg|https://www.metrowalks.com/f/msk/slavbul/090529-1052125.jpg|https://www.metrowalks.com/f/msk/slavbul/090529-1052132.jpg"
 source: "https://www.metrowalks.com/ru/moscow/arbatsko-pokrovskaya/slavianskiy-bulvar"
-brief: "Славянский бульвар is a shallow single-vault station."
+brief: "Slavianskiy Bulvar is a shallow single-vault station."
 ---
 
-Славянский бульвар is a shallow single-vault station.
+Slavianskiy Bulvar is a shallow single-vault station.
 
 The station is located в западной части города в районе Фили-Давыдково у перекрёстка Кутузовского проспекта и Рублёвского шоссе.
 

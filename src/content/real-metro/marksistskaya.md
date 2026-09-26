@@ -1,18 +1,19 @@
 ---
 id: marksistskaya
 title: "Марксистская"
+titleEn: "Marksistskaya"
 line: 8
 lineName: "Kalininskaya Line"
 lineNameEn: "Kalininskaya Line"
-opened: "30 декабря 1979"
+opened: "30 December 1979"
 architects: "Н. А. Алёшина, В. С. Волович, Н. К. Самойлова, Р. П. Ткачёва"
 image: "/real-metro-imgs/marksistskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/marks/0.jpg|https://www.metrowalks.com/f/msk/marks/100619-1066915.jpg|https://www.metrowalks.com/f/msk/marks/091227-1060898.jpg|https://www.metrowalks.com/f/msk/marks/100619-1066918.jpg"
 source: "https://www.metrowalks.com/ru/moscow/kalininskaya/marksistskaya"
-brief: "Марксистская is a deep-level column three-vault station."
+brief: "Marksistskaya is a deep-level column three-vault station."
 ---
 
-Марксистская is a deep-level column three-vault station.
+Marksistskaya is a deep-level column three-vault station.
 
 The station is located на юго-восточной окраине центра Москвы в Таганском районе у перекрёстка Таганской и Марксистской улиц у Таганской площади.
 

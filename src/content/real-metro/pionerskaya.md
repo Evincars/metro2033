@@ -1,18 +1,19 @@
 ---
 id: pionerskaya
 title: "Пионерская"
+titleEn: "Pionerskaya"
 line: 4
 lineName: "Filyovskaya Line"
 lineNameEn: "Filyovskaya Line"
-opened: "13 октября 1961"
+opened: "13 October 1961"
 architects: "Р. И. Погребной, В. А. Черёмин"
 image: "/real-metro-imgs/pionerskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/pioner/0.jpg|https://www.metrowalks.com/f/msk/pioner/220820-1135954.jpg|https://www.metrowalks.com/f/msk/pioner/220820-1135938.jpg|https://www.metrowalks.com/f/msk/pioner/220820-1135941.jpg"
 source: "https://www.metrowalks.com/ru/moscow/filyovskaya/pionerskaya"
-brief: "Пионерская — наземная станция, открытая, с островной платформой."
+brief: "Pionerskaya — наземная станция, открытая, с островной платформой."
 ---
 
-Пионерская — наземная станция, открытая, с островной платформой.
+Pionerskaya — наземная станция, открытая, с островной платформой.
 
 The station is located в западной части города в районе Фили-Давыдково у перекрёстка Мазиловской и Малой Филёвской улиц.
 

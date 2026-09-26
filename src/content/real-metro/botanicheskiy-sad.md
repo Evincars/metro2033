@@ -1,22 +1,23 @@
 ---
 id: botanicheskiy-sad
 title: "Ботанический сад"
+titleEn: "Botanicheskiy Sad"
 line: 6
 lineName: "Kaluzhsko-Rizhskaya Line"
 lineNameEn: "Kaluzhsko-Rizhskaya Line"
-opened: "29 сентября 1978"
+opened: "29 September 1978"
 architects: "Н. И. Демчинский, Ю. А. Колесникова"
 image: "/real-metro-imgs/botanicheskiy-sad.jpg"
 gallery: "https://www.metrowalks.com/f/msk/botsad/0.jpg|https://www.metrowalks.com/f/msk/botsad/090530-1052529.jpg|https://www.metrowalks.com/f/msk/botsad/111203-1078444.jpg|https://www.metrowalks.com/f/msk/botsad/090530-1052531.jpg"
 source: "https://www.metrowalks.com/ru/moscow/kaluzhsko-rizhskaya/botanicheskiy-sad"
-brief: "Ботанический сад is a shallow column three-span station."
+brief: "Botanicheskiy Sad is a shallow column three-span station."
 ---
 
-Ботанический сад is a shallow column three-span station.
+Botanicheskiy Sad is a shallow column three-span station.
 
 The station is located в северной части города на границе районов Свиблово и Ростокино на проезде Серебрякова и улице Вильгельма Пика.
 
-Name origin: nearо станцией находится Главный Ботанический сад РАН, задняя сторона (название неудачно: от станции до главного входа в сад около трёх километров, а ближе ко входу расположена станция Владыкино).
+Name origin: nearо станцией находится Главный Botanicheskiy Sad РАН, задняя сторона (название неудачно: от станции до главного входа в сад около трёх километров, а ближе ко входу расположена станция Владыкино).
 
 Дата открытия — 29 сентября 1978.
 

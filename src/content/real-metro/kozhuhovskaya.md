@@ -1,18 +1,19 @@
 ---
 id: kozhuhovskaya
 title: "Кожуховская"
+titleEn: "Kozhuhovskaya"
 line: 10
 lineName: "Lyublinsko-Dmitrovskaya Line"
 lineNameEn: "Lyublinsko-Dmitrovskaya Line"
-opened: "28 декабря 1995"
+opened: "28 December 1995"
 architects: "А. Л. Вигдоров, Л. Л. Борзенков"
 image: "/real-metro-imgs/kozhuhovskaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/kozhuh/0.jpg|https://www.metrowalks.com/f/msk/kozhuh/111205-1078951.jpg|https://www.metrowalks.com/f/msk/kozhuh/111205-1078950.jpg|https://www.metrowalks.com/f/msk/kozhuh/111205-1078947.jpg"
 source: "https://www.metrowalks.com/ru/moscow/lyublinsko-dmitrovskaya/kozhuhovskaya"
-brief: "Кожуховская is a shallow single-vault station."
+brief: "Kozhuhovskaya is a shallow single-vault station."
 ---
 
-Кожуховская is a shallow single-vault station.
+Kozhuhovskaya is a shallow single-vault station.
 
 The station is located в юго-восточной части Москвы в Южнопортовом районе на Южнопортовой улице.
 

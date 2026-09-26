@@ -1,18 +1,19 @@
 ---
 id: pr-mira-rad
 title: "Проспект Мира"
+titleEn: "Prospekt Mira"
 line: 6
 lineName: "Kaluzhsko-Rizhskaya Line"
 lineNameEn: "Kaluzhsko-Rizhskaya Line"
-opened: "1 мая 1958"
+opened: "1 May 1958"
 architects: "В. В. Лебедев, П. П. Штеллер"
 image: "/real-metro-imgs/pr-mira-rad.jpg"
 gallery: "https://www.metrowalks.com/f/msk/prmirar/0.jpg|https://www.metrowalks.com/f/msk/prmirar/220821-1137428.jpg|https://www.metrowalks.com/f/msk/prmirar/220821-1137441.jpg|https://www.metrowalks.com/f/msk/prmirar/220821-1137436.jpg"
 source: "https://www.metrowalks.com/ru/moscow/kaluzhsko-rizhskaya/pr-mira-rad"
-brief: "Проспект Мира is a deep-level pylonic three-vault station."
+brief: "Prospekt Mira is a deep-level pylonic three-vault station."
 ---
 
-Проспект Мира is a deep-level pylonic three-vault station.
+Prospekt Mira is a deep-level pylonic three-vault station.
 
 The station is located к северу от центра Москвы в Мещанском районе в начале проспекта Мира с северной стороны от Протопоповского переулка.
 

@@ -1,18 +1,19 @@
 ---
 id: okruzhnaya
 title: "Окружная"
+titleEn: "Okruzhnaya"
 line: 10
 lineName: "Lyublinsko-Dmitrovskaya Line"
 lineNameEn: "Lyublinsko-Dmitrovskaya Line"
-opened: "22 марта 2018"
+opened: "22 March 2018"
 architects: "Н. И. Шумаков, А. В. Некрасов, Г. С. Мун, В. З. Филиппов"
 image: "/real-metro-imgs/okruzhnaya.jpg"
 gallery: "https://www.metrowalks.com/f/msk/okruzhn/0.jpg|https://www.metrowalks.com/f/msk/okruzhn/210815-1133427.jpg|https://www.metrowalks.com/f/msk/okruzhn/210815-1133436.jpg|https://www.metrowalks.com/f/msk/okruzhn/210815-1133431.jpg"
 source: "https://www.metrowalks.com/ru/moscow/lyublinsko-dmitrovskaya/okruzhnaya"
-brief: "Окружная is a deep-level pylonic three-vault station."
+brief: "Okruzhnaya is a deep-level pylonic three-vault station."
 ---
 
-Окружная is a deep-level pylonic three-vault station.
+Okruzhnaya is a deep-level pylonic three-vault station.
 
 The station is located на севере Москвы на границе Тимирязевского района с районом Марфино под Гостиничным и Локомотивным проездами.
 

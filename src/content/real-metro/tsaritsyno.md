@@ -1,22 +1,23 @@
 ---
 id: tsaritsyno
 title: "Царицыно"
+titleEn: "Tsaritsyno"
 line: 2
 lineName: "Zamoskvoretskaya Line"
 lineNameEn: "Zamoskvoretskaya Line"
-opened: "30 декабря 1984"
+opened: "30 December 1984"
 architects: "В. А. Черёмин, А. Л. Вигдоров"
 image: "/real-metro-imgs/tsaritsyno.jpg"
 gallery: "https://www.metrowalks.com/f/msk/tsari/0.jpg|https://www.metrowalks.com/f/msk/tsari/250615-1144720.jpg|https://www.metrowalks.com/f/msk/tsari/250615-1144724.jpg|https://www.metrowalks.com/f/msk/tsari/250615-1144664.jpg"
 source: "https://www.metrowalks.com/ru/moscow/zamoskvoretskaya/tsaritsyno"
-brief: "Царицыно is a shallow column three-span station."
+brief: "Tsaritsyno is a shallow column three-span station."
 ---
 
-Царицыно is a shallow column three-span station.
+Tsaritsyno is a shallow column three-span station.
 
-The station is located на юге города в районе Царицыно у перекрёстка Луганской и Каспийской улиц.
+The station is located на юге города в районе Tsaritsyno у перекрёстка Луганской и Каспийской улиц.
 
-Name origin: по историческому названию района и расположенному рядом Царицынскому парку и музею-заповеднику «Царицыно».
+Name origin: по историческому названию района и расположенному рядом Царицынскому парку и музею-заповеднику «Tsaritsyno».
 
 Дата открытия — 30 декабря 1984.
 

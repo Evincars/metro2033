@@ -1,18 +1,19 @@
 ---
 id: oktiabrskaya-rad
 title: "Октябрьская"
+titleEn: "Oktiabrskaya"
 line: 6
 lineName: "Kaluzhsko-Rizhskaya Line"
 lineNameEn: "Kaluzhsko-Rizhskaya Line"
-opened: "13 октября 1962"
+opened: "13 October 1962"
 architects: "А. Ф. Стрелков, Н. А. Алёшина, Ю. В. Вдовин"
 image: "/real-metro-imgs/oktiabrskaya-rad.jpg"
 gallery: "https://www.metrowalks.com/f/msk/oktr/0.jpg|https://www.metrowalks.com/f/msk/oktr/220821-1136923.jpg|https://www.metrowalks.com/f/msk/oktr/220821-1136925.jpg|https://www.metrowalks.com/f/msk/oktr/220821-1136929.jpg"
 source: "https://www.metrowalks.com/ru/moscow/kaluzhsko-rizhskaya/oktiabrskaya-rad"
-brief: "Октябрьская is a deep-level pylonic three-vault station."
+brief: "Oktiabrskaya is a deep-level pylonic three-vault station."
 ---
 
-Октябрьская is a deep-level pylonic three-vault station.
+Oktiabrskaya is a deep-level pylonic three-vault station.
 
 The station is located на южной окраине центра Москвы в районе Якиманка на улице Большой Якиманке, недалеко от Калужской площади.
 

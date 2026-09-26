@@ -1,22 +1,23 @@
 ---
 id: perovo
 title: "Перово"
+titleEn: "Perovo"
 line: 8
 lineName: "Kalininskaya Line"
 lineNameEn: "Kalininskaya Line"
-opened: "30 декабря 1979"
+opened: "30 December 1979"
 architects: "Н. А. Алёшина, В. С. Волович, Н. К. Самойлова, Р. П. Ткачёва"
 image: "/real-metro-imgs/perovo.jpg"
 gallery: "https://www.metrowalks.com/f/msk/perovo/0.jpg|https://www.metrowalks.com/f/msk/perovo/151018-1107570.jpg|https://www.metrowalks.com/f/msk/perovo/151018-1107587.jpg|https://www.metrowalks.com/f/msk/perovo/151018-1107592.jpg"
 source: "https://www.metrowalks.com/ru/moscow/kalininskaya/perovo"
-brief: "Перово is a shallow single-vault station."
+brief: "Perovo is a shallow single-vault station."
 ---
 
-Перово is a shallow single-vault station.
+Perovo is a shallow single-vault station.
 
-The station is located на востоке Москвы на границе районов Перово и Новогиреево на Зелёном проспекте между 2-й и 3-й Владимирскими улицами.
+The station is located на востоке Москвы на границе районов Perovo и Новогиреево на Зелёном проспекте между 2-й и 3-й Владимирскими улицами.
 
-Name origin: раньше здесь располагался город Перово, вошедший в состав Москвы в 1960 году; историческое название местности, происходящее от пустоши, известной с XIII века, связано с охотничьими промыслами.
+Name origin: раньше здесь располагался город Perovo, вошедший в состав Москвы в 1960 году; историческое название местности, происходящее от пустоши, известной с XIII века, связано с охотничьими промыслами.
 
 Дата открытия — 30 декабря 1979.
 
