@@ -1,7 +1,23 @@
-export const APP_VERSION = '0.3'
+export const APP_VERSION = '0.4'
 
 /** Newest first. Shown in the release-notes dialog. */
 export const releases = [
+  {
+    version: '0.4',
+    date: '2026-09-26',
+    title: 'Signals & Stone',
+    notes: [
+      'Real Moscow Metro integration — 210 station dossiers with photographs, architects and opening dates, scraped from metrowalks.com and merged into the Stations registry.',
+      'Every station card now expands to show in-game or real-metro info with tabbed switching where both exist, plus a “Show on map” button that flies to the station on the Metro Map.',
+      'Metro Map redesigned with thick journey polylines, rich tooltips showing chapters, characters and clickable level links, plus a fullscreen photo gallery for real-metro stations.',
+      'Incoming radio communications — randomised radio chatter from metro citizens buying, selling and surviving, displayed as ambient snackbar messages with a radio-signal animation.',
+      'Moral Points page with all story choices that affect the ending.',
+      'Achievements archive — 284 trophies across all Metro titles, with icons, scores and descriptions.',
+      'Endings section with video walkthroughs for every good and bad ending.',
+      'Character portrait images downloaded and linked to 40 character dossiers.',
+      'Internal wiki-link resolution now connects ∼75% of cross-references between dossiers.',
+    ],
+  },
   {
     version: '0.3',
     date: '2026-09-22',

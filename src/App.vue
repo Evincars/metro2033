@@ -3,6 +3,7 @@ import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import AppHeader from './components/layout/AppHeader.vue'
 import NavPanel from './components/layout/NavPanel.vue'
+import RadioSnackbar from './components/layout/RadioSnackbar.vue'
 import { initAmbientAudio } from './composables/useAmbientAudio'
 import { getBreadcrumbs } from './utils/breadcrumbs'
 
@@ -60,6 +61,7 @@ onBeforeUnmount(() => {
         <RouterView :key="route.path" />
       </main>
     </div>
+    <RadioSnackbar />
   </div>
 </template>
 
