@@ -350,4 +350,17 @@ export default {
   'endings.groupM2033': 'Metro 2033',
   'endings.groupMLL': 'Metro: Last Light',
   'endings.groupME': 'Metro Exodus',
+
+  // Real Moscow Metro
+  'realMetro.tag': 'Реальний світ',
+  'realMetro.title': 'Реальне Московське метро',
+  'realMetro.description': 'Справжні станції Московського метро, що надихнули творців Metro 2033 та Metro: Last Light. Архітектурні деталі, дати відкриття та фотографії реальних станцій.',
+  'realMetro.searchPlaceholder': 'Пошук станцій…',
+  'realMetro.allLines': 'Усі',
+  'realMetro.backToList': '← усі станції',
+  'realMetro.sourceLink': 'Джерело: metrowalks.com ↗',
+  'realMetro.noMatches': 'Немає збігів',
+  'realMetro.noMatchesText': 'Станцію не знайдено',
+  'realMetro.tabGame': 'У грі',
+  'realMetro.tabReal': 'Реальне метро',
 }

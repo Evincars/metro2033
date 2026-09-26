@@ -170,6 +170,18 @@ const routes = [
     meta: { label: 'Endings', leftMenu: true },
   },
   {
+    path: '/real-metro',
+    name: 'real-metro',
+    component: () => import('../views/RealMetroView.vue'),
+    meta: { label: 'Real Moscow Metro', code: '16', leftMenu: true },
+  },
+  {
+    path: '/real-metro/:id',
+    name: 'real-metro-detail',
+    component: () => import('../views/RealMetroView.vue'),
+    meta: { label: 'Real Moscow Metro', leftMenu: true },
+  },
+  {
     path: '/games',
     name: 'games',
     component: () => import('../views/GamesView.vue'),

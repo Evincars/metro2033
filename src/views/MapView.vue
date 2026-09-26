@@ -9,6 +9,7 @@ import { journeys, stationToLevel } from '../data/journey'
 import { levelsById } from '../data/levels'
 import { locationsById, stationToLocation } from '../data/locations'
 import { charactersById } from '../data/characters'
+import { realMetroById, gameStationToRealMetro } from '../data/realMetro'
 
 const router = useRouter()
 
@@ -18,6 +19,11 @@ const tooltipEl = ref(null)
 const selected = ref(null)
 const tooltipPos = ref({ x: 0, y: 0 })
 const tooltipImageBroken = ref(false)
+const tooltipTab = ref('game')
+
+const galleryOpen = ref(false)
+const galleryIndex = ref(0)
+const galleryImages = computed(() => selected.value?.realMetro?.gallery || [])
 
 const showJourney = ref({ 'metro-2033': false, 'last-light': false })
 const JOURNEY_STYLE = {
@@ -95,6 +101,11 @@ function locationForStation(station) {
   return locationId ? locationsById[locationId] : null
 }
 
+function realMetroForStation(station) {
+  const realId = gameStationToRealMetro[station.id]
+  return realId ? realMetroById[realId] : null
+}
+
 const tooltipStyle = computed(() => ({
   transform: `translate(${tooltipPos.value.x}px, ${tooltipPos.value.y}px)`,
 }))
@@ -139,12 +150,20 @@ async function selectStation(station) {
   const level = levelForStation(station)
   const location = level ? null : locationForStation(station)
   const entry = level || location
+  const realMetro = realMetroForStation(station)
 
   const journeyNodes = journeyNodesForStation(station.id)
     .filter(({ game }) => showJourney.value[game])
 
+  const hasGameInfo = !!(entry || journeyNodes.length)
+
   tooltipImageBroken.value = false
+  tooltipTab.value = hasGameInfo ? 'game' : (realMetro ? 'real' : 'game')
+
   selected.value = {
+    stationName: station.name,
+    hasGameInfo,
+    hasRealInfo: !!realMetro,
     name: entry ? entry.title : station.name,
     subtitle: level
       ? station.name
@@ -165,6 +184,18 @@ async function selectStation(station) {
       gameColor: JOURNEY_STYLE[game]?.color ?? '#e8952a',
       characters: resolveCharacters(lv.id),
     })),
+    realMetro: realMetro
+      ? {
+          id: realMetro.id,
+          title: realMetro.title,
+          lineName: realMetro.lineName,
+          opened: realMetro.opened,
+          architects: realMetro.architects,
+          image: realMetro.image,
+          brief: realMetro.brief,
+          gallery: realMetro.gallery || [],
+        }
+      : null,
     point: station,
   }
   await nextTick()
@@ -175,7 +206,11 @@ async function selectNode(node, game) {
   const level = levelsById[node.id]
   if (!level) return
   tooltipImageBroken.value = false
+  tooltipTab.value = 'game'
   selected.value = {
+    stationName: level.title,
+    hasGameInfo: true,
+    hasRealInfo: false,
     name: level.title,
     subtitle: `${JOURNEY_STYLE[game]?.label ?? ''} · ${level.chapter || ''}`,
     brief: level.brief,
@@ -185,6 +220,7 @@ async function selectNode(node, game) {
     detailId: level.id,
     characters: resolveCharacters(level.id),
     journeyLevels: [],
+    realMetro: null,
     point: node,
   }
   await nextTick()
@@ -194,6 +230,12 @@ async function selectNode(node, game) {
 function openDetail() {
   if (selected.value?.detailName && selected.value?.detailId) {
     router.push({ name: selected.value.detailName, params: { id: selected.value.detailId } })
+  }
+}
+
+function openRealMetroDetail() {
+  if (selected.value?.realMetro?.id) {
+    router.push({ name: 'real-metro-detail', params: { id: selected.value.realMetro.id } })
   }
 }
 
@@ -207,6 +249,24 @@ function openLevel(id) {
 
 function closeTooltip() {
   selected.value = null
+  galleryOpen.value = false
+}
+
+function openGallery(idx) {
+  galleryIndex.value = idx
+  galleryOpen.value = true
+}
+
+function closeGallery() {
+  galleryOpen.value = false
+}
+
+function galleryPrev() {
+  galleryIndex.value = (galleryIndex.value - 1 + galleryImages.value.length) % galleryImages.value.length
+}
+
+function galleryNext() {
+  galleryIndex.value = (galleryIndex.value + 1) % galleryImages.value.length
 }
 
 function fitWholeMap() {
@@ -217,7 +277,21 @@ function fitWholeMap() {
 }
 
 function onKeydown(event) {
-  if (event.key === 'Escape') closeTooltip()
+  if (event.key === 'Escape') {
+    if (galleryOpen.value) closeGallery()
+    else closeTooltip()
+  }
+  if (galleryOpen.value) {
+    if (event.key === 'ArrowLeft') galleryPrev()
+    if (event.key === 'ArrowRight') galleryNext()
+  }
+}
+
+async function switchTab(tab) {
+  tooltipTab.value = tab
+  tooltipImageBroken.value = false
+  await nextTick()
+  updateTooltipPosition()
 }
 
 function buildJourneyLayers() {
@@ -382,60 +456,141 @@ onBeforeUnmount(() => {
         class="station-tooltip"
         :style="tooltipStyle"
         role="dialog"
-        :aria-label="selected.name"
+        :aria-label="selected.stationName"
       >
         <button class="tooltip-close" type="button" aria-label="Close" @click="closeTooltip">×</button>
-        <span class="tooltip-tag">{{ selected.subtitle }}</span>
-        <h2 class="tooltip-title">{{ selected.name }}</h2>
-        <span v-if="selected.chapter" class="tooltip-chapter">{{ selected.chapter }}</span>
 
-        <img
-          v-if="selected.image && !tooltipImageBroken"
-          class="tooltip-image"
-          :src="selected.image"
-          :alt="selected.name"
-          referrerpolicy="no-referrer"
-          @error="tooltipImageBroken = true"
-          @load="updateTooltipPosition"
-        />
-
-        <p class="tooltip-body">{{ selected.brief || t('map.noDossier') }}</p>
-
-        <div v-if="selected.characters.length" class="tooltip-chars">
-          <span class="tooltip-chars-label">{{ t('map.characters') }}:</span>
-          <a
-            v-for="c in selected.characters"
-            :key="c.id"
-            class="tooltip-char-link"
-            href="#"
-            @click.prevent="openCharacter(c.id)"
-          >{{ c.title }}</a>
+        <!-- Tab bar when both game + real info exist -->
+        <div v-if="selected.hasGameInfo && selected.hasRealInfo" class="tooltip-tabs">
+          <button
+            class="tooltip-tab"
+            :class="{ active: tooltipTab === 'game' }"
+            @click="switchTab('game')"
+          >{{ t('realMetro.tabGame') }}</button>
+          <button
+            class="tooltip-tab"
+            :class="{ active: tooltipTab === 'real' }"
+            @click="switchTab('real')"
+          >{{ t('realMetro.tabReal') }}</button>
         </div>
 
-        <div v-if="selected.journeyLevels.length" class="tooltip-journey-levels">
-          <div v-for="jl in selected.journeyLevels" :key="jl.id" class="journey-level-entry">
-            <span class="jl-swatch" :style="{ backgroundColor: jl.gameColor }" />
-            <a class="jl-link" href="#" @click.prevent="openLevel(jl.id)">{{ jl.title }}</a>
-            <span v-if="jl.chapter" class="jl-chapter">{{ jl.chapter }}</span>
-            <span v-if="jl.characters.length" class="jl-chars">
-              <a
-                v-for="c in jl.characters"
-                :key="c.id"
-                class="tooltip-char-link"
-                href="#"
-                @click.prevent="openCharacter(c.id)"
-              >{{ c.title }}</a>
-            </span>
+        <!-- GAME tab content -->
+        <template v-if="tooltipTab === 'game' && selected.hasGameInfo">
+          <span class="tooltip-tag">{{ selected.subtitle }}</span>
+          <h2 class="tooltip-title">{{ selected.name }}</h2>
+          <span v-if="selected.chapter" class="tooltip-chapter">{{ selected.chapter }}</span>
+
+          <img
+            v-if="selected.image && !tooltipImageBroken"
+            class="tooltip-image"
+            :src="selected.image"
+            :alt="selected.name"
+            referrerpolicy="no-referrer"
+            @error="tooltipImageBroken = true"
+            @load="updateTooltipPosition"
+          />
+
+          <p class="tooltip-body">{{ selected.brief || t('map.noDossier') }}</p>
+
+          <div v-if="selected.characters.length" class="tooltip-chars">
+            <span class="tooltip-chars-label">{{ t('map.characters') }}:</span>
+            <a
+              v-for="c in selected.characters"
+              :key="c.id"
+              class="tooltip-char-link"
+              href="#"
+              @click.prevent="openCharacter(c.id)"
+            >{{ c.title }}</a>
           </div>
-        </div>
 
-        <a
-          v-if="selected.detailName"
-          class="tooltip-link"
-          href="#"
-          @click.prevent="openDetail"
-        >{{ t('map.moreDetail') }}</a>
+          <div v-if="selected.journeyLevels.length" class="tooltip-journey-levels">
+            <div v-for="jl in selected.journeyLevels" :key="jl.id" class="journey-level-entry">
+              <span class="jl-swatch" :style="{ backgroundColor: jl.gameColor }" />
+              <a class="jl-link" href="#" @click.prevent="openLevel(jl.id)">{{ jl.title }}</a>
+              <span v-if="jl.chapter" class="jl-chapter">{{ jl.chapter }}</span>
+              <span v-if="jl.characters.length" class="jl-chars">
+                <a
+                  v-for="c in jl.characters"
+                  :key="c.id"
+                  class="tooltip-char-link"
+                  href="#"
+                  @click.prevent="openCharacter(c.id)"
+                >{{ c.title }}</a>
+              </span>
+            </div>
+          </div>
+
+          <a
+            v-if="selected.detailName"
+            class="tooltip-link"
+            href="#"
+            @click.prevent="openDetail"
+          >{{ t('map.moreDetail') }}</a>
+        </template>
+
+        <!-- REAL METRO tab content -->
+        <template v-if="tooltipTab === 'real' && selected.realMetro">
+          <span class="tooltip-tag">{{ selected.realMetro.lineName }}</span>
+          <h2 class="tooltip-title">{{ selected.realMetro.title }}</h2>
+          <div class="tooltip-real-meta">
+            <span v-if="selected.realMetro.opened" class="tooltip-real-date">{{ selected.realMetro.opened }}</span>
+            <span v-if="selected.realMetro.architects" class="tooltip-real-arch">{{ selected.realMetro.architects }}</span>
+          </div>
+
+          <img
+            v-if="selected.realMetro.image && !tooltipImageBroken"
+            class="tooltip-image clickable-img"
+            :src="selected.realMetro.image"
+            :alt="selected.realMetro.title"
+            @error="tooltipImageBroken = true"
+            @load="updateTooltipPosition"
+            @click="selected.realMetro.gallery.length && openGallery(0)"
+          />
+
+          <div v-if="selected.realMetro.gallery.length > 1" class="tooltip-gallery-thumbs">
+            <img
+              v-for="(url, idx) in selected.realMetro.gallery.slice(0, 4)"
+              :key="idx"
+              :src="url"
+              class="gallery-mini-thumb"
+              referrerpolicy="no-referrer"
+              loading="lazy"
+              @click="openGallery(idx)"
+            />
+          </div>
+
+          <p class="tooltip-body">{{ selected.realMetro.brief }}</p>
+
+          <a
+            class="tooltip-link"
+            href="#"
+            @click.prevent="openRealMetroDetail"
+          >{{ t('map.moreDetail') }}</a>
+        </template>
+
+        <!-- Fallback: no game info, no real info -->
+        <template v-if="!selected.hasGameInfo && !selected.hasRealInfo">
+          <span class="tooltip-tag">{{ t('map.stationDossier') }}</span>
+          <h2 class="tooltip-title">{{ selected.stationName }}</h2>
+          <p class="tooltip-body">{{ t('map.noDossier') }}</p>
+        </template>
       </div>
+
+      <!-- Fullscreen gallery overlay -->
+      <Teleport to="body">
+        <div v-if="galleryOpen && galleryImages.length" class="gallery-overlay" @click.self="closeGallery">
+          <button class="gallery-close-btn" @click="closeGallery">×</button>
+          <button v-if="galleryImages.length > 1" class="gallery-arrow gallery-arrow-left" @click="galleryPrev">‹</button>
+          <img
+            :src="galleryImages[galleryIndex]"
+            :alt="selected?.realMetro?.title"
+            class="gallery-full-img"
+            referrerpolicy="no-referrer"
+          />
+          <button v-if="galleryImages.length > 1" class="gallery-arrow gallery-arrow-right" @click="galleryNext">›</button>
+          <span class="gallery-counter">{{ galleryIndex + 1 }} / {{ galleryImages.length }}</span>
+        </div>
+      </Teleport>
 
       <div class="journey-controls mx-panel">
         <span class="journey-heading">{{ t('map.journeyHeading') }}</span>
@@ -479,7 +634,7 @@ onBeforeUnmount(() => {
   top: 0;
   left: 0;
   z-index: 700;
-  width: min(300px, calc(100% - 2rem));
+  width: min(320px, calc(100% - 2rem));
   padding: 0.85rem 1rem 0.95rem;
   background: rgba(13, 12, 10, 0.96);
   border: 1px solid var(--color-border-strong);
@@ -497,10 +652,44 @@ onBeforeUnmount(() => {
   font-size: 1.1rem;
   line-height: 1;
   cursor: pointer;
+  z-index: 1;
 }
 
 .tooltip-close:hover {
   color: var(--color-amber-bright);
+}
+
+/* Tab bar */
+.tooltip-tabs {
+  display: flex;
+  gap: 0;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--color-border-strong);
+}
+
+.tooltip-tab {
+  flex: 1;
+  padding: 0.35rem 0.5rem;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-faint);
+  cursor: pointer;
+  text-align: center;
+  transition: color 0.12s, border-color 0.12s;
+}
+
+.tooltip-tab:hover {
+  color: var(--color-text);
+}
+
+.tooltip-tab.active {
+  color: var(--color-amber-bright);
+  border-bottom-color: var(--color-amber);
 }
 
 .tooltip-tag {
@@ -541,6 +730,43 @@ onBeforeUnmount(() => {
   object-fit: cover;
   margin: 0.5rem 0 0.6rem;
   border: 1px solid var(--color-border-strong);
+}
+
+.clickable-img {
+  cursor: pointer;
+}
+
+.tooltip-real-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 0.8rem;
+  margin-bottom: 0.3rem;
+}
+
+.tooltip-real-date,
+.tooltip-real-arch {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--color-text-faint);
+}
+
+.tooltip-gallery-thumbs {
+  display: flex;
+  gap: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.gallery-mini-thumb {
+  width: 52px;
+  height: 38px;
+  object-fit: cover;
+  border: 1px solid var(--color-border);
+  cursor: pointer;
+  transition: border-color 0.12s;
+}
+
+.gallery-mini-thumb:hover {
+  border-color: var(--color-amber);
 }
 
 .tooltip-chars {
@@ -634,6 +860,67 @@ onBeforeUnmount(() => {
   color: var(--color-amber-bright);
 }
 
+/* Gallery overlay */
+.gallery-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-full-img {
+  max-width: 90vw;
+  max-height: 85vh;
+  object-fit: contain;
+}
+
+.gallery-close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.gallery-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 3rem;
+  cursor: pointer;
+  padding: 1rem;
+  z-index: 10;
+}
+
+.gallery-arrow-left {
+  left: 1rem;
+}
+
+.gallery-arrow-right {
+  right: 1rem;
+}
+
+.gallery-counter {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Journey controls */
 .journey-controls {
   position: absolute;
   top: 1rem;

@@ -375,4 +375,17 @@ export default {
   'endings.groupM2033': 'Metro 2033',
   'endings.groupMLL': 'Metro: Last Light',
   'endings.groupME': 'Metro Exodus',
+
+  // Real Moscow Metro
+  'realMetro.tag': 'Real world',
+  'realMetro.title': 'Real Moscow Metro',
+  'realMetro.description': 'The real-world Moscow Metro stations that inspired the post-apocalyptic underground in Metro 2033 and Metro: Last Light. Architectural details, opening dates and photographs from the actual metro system.',
+  'realMetro.searchPlaceholder': 'Search stations…',
+  'realMetro.allLines': 'All',
+  'realMetro.backToList': '← all stations',
+  'realMetro.sourceLink': 'Source: metrowalks.com ↗',
+  'realMetro.noMatches': 'No matches',
+  'realMetro.noMatchesText': 'No station matches',
+  'realMetro.tabGame': 'In-game',
+  'realMetro.tabReal': 'Real metro',
 }
