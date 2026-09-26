@@ -458,6 +458,13 @@ function endingType(item) {
   margin: 1.3rem 0 0.5rem;
 }
 
+.markdown-body :deep(img) {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--color-border-strong);
+  box-shadow: var(--shadow-panel);
+}
+
 .markdown-body :deep(a) {
   color: var(--color-amber);
 }
