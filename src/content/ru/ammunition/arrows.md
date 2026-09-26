@@ -1,7 +1,7 @@
 ---
 id: arrows
 title: Стрелы
-group: Специальные боеприпасы
+group: Special Ammo
 order: 12
 image: 
 brief: Стрелы — боеприпасы для арбалета Хельсинг.

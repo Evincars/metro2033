@@ -2,10 +2,10 @@
 id: hedge-hopper
 title: Верхолаз
 group: Metro 2033
-category: Стандартні
+category: Standard
 order: 29
 image: ach-hedge-hopper.jpg
-brief: "On the level \\"Front Line\\" kill all of the enemy Red Army and Fascist Soldiers."
+brief: "На рівні «Лінія фронту» вбийте всіх солдатів Червоної Армії та фашистів."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 30G

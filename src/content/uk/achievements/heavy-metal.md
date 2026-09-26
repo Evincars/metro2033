@@ -2,10 +2,10 @@
 id: heavy-metal
 title: Важкий металл
 group: Metro 2033
-category: Стандартні
+category: Standard
 order: 27
 image: ach-heavy-metal.jpg
-brief: Kill 15 enemies using a stationary machine gun.
+brief: "Вбийте 15 ворогів, використовуючи a stationary machine gun."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 20G

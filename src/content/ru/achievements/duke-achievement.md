@@ -2,10 +2,10 @@
 id: duke-achievement
 title: Дюк
 group: Metro Exodus
-category: Секретные
+category: Secret
 order: 264
 image: me-achievement-duke-icon.png
-brief: Duke survives.
+brief: "Дюк выживает."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Silver / 40G

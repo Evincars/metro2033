@@ -2,10 +2,10 @@
 id: aurora-achievement
 title: Аврора
 group: Metro Exodus
-category: Стандартные
+category: Standard
 order: 220
 image: me_achievement_aurora_icon.png
-brief: Name the locomotive.
+brief: "Дайте имя локомотиву."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

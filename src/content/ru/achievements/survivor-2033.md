@@ -2,10 +2,10 @@
 id: survivor-2033
 title: Выживший
 group: Metro 2033 Redux
-category: Стандартные
+category: Standard
 order: 157
 image: 2033r_achievement_survivor_2033_icon.png
-brief: Complete the game in Survivor Mode.
+brief: "Пройдите игру в режиме «Выживший»."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Silver / 40G

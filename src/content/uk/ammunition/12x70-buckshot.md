@@ -1,7 +1,7 @@
 ---
 id: 12x70-buckshot
 title: 12×70 картеч
-group: Дробові набої
+group: Shotgun Shells
 order: 8
 image: 
 brief: Картеч 12×70 — стандартні дробові набої.

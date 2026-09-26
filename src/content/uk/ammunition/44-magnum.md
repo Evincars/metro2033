@@ -1,7 +1,7 @@
 ---
 id: 44-magnum
 title: .44 Магнум
-group: Пістолетні набої
+group: Pistol Rounds
 order: 6
 image: 
 brief: Набої .44 Магнум — потужні пістолетні набої для револьвера.

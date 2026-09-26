@@ -1,7 +1,7 @@
 ---
 id: vsv
 title: ВСВ
-group: Штурмовые винтовки
+group: Assault Rifles
 order: 26
 image: /weapon-imgs/vsv.png
 brief: ВСВ — бесшумная снайперская винтовка с интегрированным глушителем.

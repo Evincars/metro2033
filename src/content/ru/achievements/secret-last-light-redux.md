@@ -1,11 +1,11 @@
 ---
 id: secret-last-light-redux
 title: Секрет
-group: "Metro: Last Light Redux"
-category: Секретные
+group: Metro Last Light Redux
+category: Secret
 order: 216
 image: llr_achievement_secret_icon.png
-brief: "Find out about the Reds' plans."
+brief: "Узнайте о планах «красных»."
 wiki: Achievements and Trophies
 appearances: Metro Last Light Redux
 score: Silver / 10G

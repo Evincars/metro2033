@@ -1,11 +1,11 @@
 ---
 id: antibiotic
 title: Антибиотик
-group: "Metro: Last Light"
-category: Стандартні
+group: Metro Last Light
+category: Standard
 order: 50
 image: ll-achievement-antibiotic-icon.png
-brief: Kill 100 Mutants.
+brief: "Вбийте 100 Mutants."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 15G

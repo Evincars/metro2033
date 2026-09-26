@@ -2,10 +2,10 @@
 id: tank-buster
 title: Мисливець на танки
 group: Metro 2033
-category: Стандартні
+category: Standard
 order: 15
 image: ach-tank-buster.jpg
-brief: "Destroy Facists' Panzer."
+brief: "Знищіть «Панцер» фашистів."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 20G

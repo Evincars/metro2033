@@ -2,10 +2,10 @@
 id: sherlock
 title: Шерлок
 group: Metro 2033
-category: Секретные
+category: Secret
 order: 35
 image: ach-sher.jpg
-brief: Found all gold (MGR) ammo, hidden throughout the stations.
+brief: "Найдите все золотые (ПВО) патроны, скрытые на станциях."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 20G

@@ -5,7 +5,7 @@ group: Metro Exodus
 category: "DLC: Sam's Story"
 order: 278
 image: me_achievement_cinephile_icon.png
-brief: "Organize a documentary screening in the SAM'S STORY chapter."
+brief: "Організуйте показ документального фільму у главі «СЕМ»."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 10G

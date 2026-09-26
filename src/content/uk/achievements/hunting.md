@@ -1,11 +1,11 @@
 ---
 id: hunting
 title: Охота
-group: "Metro: Last Light"
+group: Metro Last Light
 category: "DLC: Chronicles Pack"
 order: 118
 image: ll-achievement-hunting-icon.png
-brief: Kill 20 Nosalises and the Big Momma.
+brief: "Вбийте 20 Nosalises and the Big Momma."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 15G

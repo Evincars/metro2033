@@ -2,10 +2,10 @@
 id: headhunter
 title: Мисливець за головами
 group: Metro Exodus
-category: Стандартні
+category: Standard
 order: 234
 image: me-achievement-headhunter-icon.png
-brief: Kill 300 human enemies.
+brief: "Вбийте 300 human enemies."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

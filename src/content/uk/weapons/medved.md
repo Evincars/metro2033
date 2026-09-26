@@ -1,7 +1,7 @@
 ---
 id: medved
 title: Ведмідь
-group: Важка зброя
+group: Heavy Weapons
 order: 62
 image: /weapon-imgs/medved.png
 brief: Ведмідь — потужний стаціонарний кулемет.

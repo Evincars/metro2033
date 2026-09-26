@@ -2,10 +2,10 @@
 id: realist
 title: Реалист
 group: Metro 2033
-category: Секретные
+category: Secret
 order: 34
 image: ach-realist2.jpg
-brief: A coin for a hungry kid? Get a job.
+brief: "Монетку голодному ребёнку? Иди работай."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 10G

@@ -1,7 +1,7 @@
 ---
 id: regina
 title: Регина
-group: Рельсовый транспорт
+group: Rail Vehicles
 order: 4
 image: /vehicle-imgs/regina.jpg
 brief: Регина — бронепоезд Ганзы, курсирующий по кольцевой линии.

@@ -2,10 +2,10 @@
 id: putrification
 title: Гниение
 group: Metro Exodus
-category: Стандартные
+category: Standard
 order: 248
 image: me-achievement-putrification-icon.png
-brief: Pass the putrid tunnel.
+brief: "Пройдите через гнилой тоннель."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

@@ -1,7 +1,7 @@
 ---
 id: sauls-van
 title: Фургон Саула
-group: Автомобілі
+group: Road Vehicles
 order: 13
 image: /vehicle-imgs/sauls-van.png
 brief: Фургон Саула — вантажний фургон, доданий до складу «Аврори» на Каспії.

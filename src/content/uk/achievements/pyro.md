@@ -2,10 +2,10 @@
 id: pyro
 title: Пиро
 group: Metro 2033
-category: Стандартні
+category: Standard
 order: 22
 image: ach-pyro.jpg
-brief: Kill 5 enemies with a flamethrower.
+brief: "Вбийте 5 ворогів за допомогою вогнемета."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 20G

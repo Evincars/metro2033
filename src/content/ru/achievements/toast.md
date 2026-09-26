@@ -2,10 +2,10 @@
 id: toast
 title: Тост
 group: Metro 2033 Redux
-category: Секретные
+category: Secret
 order: 167
 image: 2033r_achievement_toast_icon.png
-brief: Drink at every occasion.
+brief: "Выпейте при каждой возможности."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 15G

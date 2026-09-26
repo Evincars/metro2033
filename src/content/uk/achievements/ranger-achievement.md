@@ -2,10 +2,10 @@
 id: ranger-achievement
 title: Рейнджер
 group: Metro 2033
-category: Стандартні
+category: Standard
 order: 7
 image: ach-ranger.jpg
-brief: Find all Ranger stashes in Dead City 1 and 2.
+brief: "Знайдіть усі сховища рейнджерів у «Мертвому місті 1» та «Мертвому місті 2»."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 30G

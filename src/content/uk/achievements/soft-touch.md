@@ -2,10 +2,10 @@
 id: soft-touch
 title: Мягкая рука
 group: Metro 2033
-category: Стандартні
+category: Standard
 order: 25
 image: ach-soft-touch.jpg
-brief: Disarm 10 wire traps.
+brief: "Знешкодьте 10 дротяних пасток."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 30G

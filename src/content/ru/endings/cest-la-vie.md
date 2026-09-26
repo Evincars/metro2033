@@ -1,7 +1,7 @@
 ---
 id: cest-la-vie
 title: Такова жизнь
-group: "Metro: Last Light"
+group: Metro Last Light
 order: 3
 image: ach-cest-la-vie.webp
 brief: "Плохая концовка Metro: Last Light, в которой Д-6 уничтожается."

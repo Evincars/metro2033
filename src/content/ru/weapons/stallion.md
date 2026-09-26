@@ -1,7 +1,7 @@
 ---
 id: stallion
 title: Жеребец
-group: Пистолеты
+group: Handguns
 order: 13
 image: /weapon-imgs/stallion.png
 brief: Жеребец — самодельный пистолет-пулемёт, созданный мастерами метро.

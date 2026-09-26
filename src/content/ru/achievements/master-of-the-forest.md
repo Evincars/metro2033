@@ -2,10 +2,10 @@
 id: master-of-the-forest
 title: Хозяин леса
 group: Metro Exodus
-category: Стандартные
+category: Standard
 order: 243
 image: me-achievement-master-of-the-forest-icon.png
-brief: Stand your ground against the Bear at the first encounter.
+brief: "Выстойте против медведя при первой встрече."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

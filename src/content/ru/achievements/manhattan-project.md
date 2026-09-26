@@ -2,10 +2,10 @@
 id: manhattan-project
 title: Манхэттенский проект
 group: Metro 2033 Redux
-category: Стандартные
+category: Standard
 order: 133
 image: 2033r_achievement_manhattan_project_icon.png
-brief: Spend 60 seconds in a Radiation Hotspot
+brief: "Проведите 60 секунд в радиоактивной зоне."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 10G

@@ -1,11 +1,11 @@
 ---
 id: safe-cracker
 title: Взломщик сейфов
-group: "Metro: Last Light"
+group: Metro Last Light
 category: "DLC: Chronicles Pack"
 order: 114
 image: ll-achievement-safe-cracker-icon.png
-brief: Open 8 safe boxes on the PAVEL level.
+brief: "Откройте 8 сейфов на уровне «PAVEL»."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 15G

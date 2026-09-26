@@ -5,7 +5,7 @@ group: Metro Exodus
 category: "DLC: Sam's Story"
 order: 277
 image: me_achievement_a_man_of_principle_icon.png
-brief: "Complete the SAM'S STORY chapter earning the Captain's full trust."
+brief: "Пройдіть главу «SAM'S STORY», здобувши повну довіру Капітана."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Gold / 60G

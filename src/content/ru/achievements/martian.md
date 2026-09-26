@@ -2,10 +2,10 @@
 id: martian
 title: Марсианин
 group: Metro Exodus
-category: Стандартные
+category: Standard
 order: 241
 image: me-achievement-martian-icon.png
-brief: Patch the Gasmask.
+brief: "Почините противогаз."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 5G

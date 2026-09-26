@@ -2,10 +2,10 @@
 id: firebird
 title: Жар-птиця
 group: Metro Exodus
-category: Стандартні
+category: Standard
 order: 226
 image: me-achievement-firebird-icon.png
-brief: Kill a demon with fire.
+brief: "Вбийте демона вогнем."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

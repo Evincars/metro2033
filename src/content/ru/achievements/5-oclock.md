@@ -2,10 +2,10 @@
 id: 5-oclock
 title: Пять часов
 group: Metro Exodus
-category: Стандартные
+category: Standard
 order: 218
 image: me-achievement-5-o-clock-icon.png
-brief: "Take part in the Admiral's tea party on the TAIGA level."
+brief: "Примите участие в чаепитии Адмирала на уровне «ТАЙГА»."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

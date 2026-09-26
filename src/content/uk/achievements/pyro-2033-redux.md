@@ -2,10 +2,10 @@
 id: pyro-2033-redux
 title: Пиро
 group: Metro 2033 Redux
-category: Стандартні
+category: Standard
 order: 142
 image: 2033r_achievement_pyro_icon.png
-brief: Kill 30 enemies with a flamethrower.
+brief: "Вбийте 30 ворогів за допомогою вогнемета."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 15G

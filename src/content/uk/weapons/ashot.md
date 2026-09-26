@@ -1,7 +1,7 @@
 ---
 id: ashot
 title: Ашот
-group: Дробовики
+group: Shotguns
 order: 41
 image: /weapon-imgs/ashot.png
 brief: Ашот — саморобний одноствольний дробовик.

@@ -1,11 +1,11 @@
 ---
 id: patron-of-the-arts
 title: Покровитель искусств
-group: "Metro: Last Light"
-category: Стандартные
+group: Metro Last Light
+category: Standard
 order: 69
 image: llr-achievement-patron-of-the-arts-icon.png
-brief: Watch the entire Theater Show.
+brief: "Посмотрите всё театральное представление."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 10G

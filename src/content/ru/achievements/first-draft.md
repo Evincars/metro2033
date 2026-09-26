@@ -1,11 +1,11 @@
 ---
 id: first-draft
 title: Первый черновик
-group: "Metro: Last Light"
-category: Стандартные
+group: Metro Last Light
+category: Standard
 order: 59
 image: ll-achievement-first-draft-icon.png
-brief: "Write 10 of Artyom's hidden Diary pages."
+brief: "Найдите 10 скрытых страниц дневника Артёма."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 10G

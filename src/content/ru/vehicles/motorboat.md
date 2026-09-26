@@ -1,7 +1,7 @@
 ---
 id: motorboat
 title: Моторная лодка
-group: Водный транспорт
+group: Watercraft
 order: 15
 image: /vehicle-imgs/motorboat.png
 brief: Моторная лодка — водный транспорт с двигателем.

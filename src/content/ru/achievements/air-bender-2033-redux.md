@@ -2,10 +2,10 @@
 id: air-bender-2033-redux
 title: Повелитель воздуха
 group: Metro 2033 Redux
-category: Стандартные
+category: Standard
 order: 120
 image: 2033r_achievement_air_bender_icon.png
-brief: Kill 50 humans with pneumatic weapons.
+brief: "Убейте 50 людей с помощью пневматического оружия."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 15G

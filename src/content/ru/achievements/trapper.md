@@ -5,7 +5,7 @@ group: Metro Exodus
 category: "DLC: Sam's Story"
 order: 283
 image: me_achievement_trapper_icon.png
-brief: "Set all 5 traps in the SAM'S STORY chapter as the Captain requests."
+brief: "Установите все 5 ловушек в главе «САМ» по просьбе Капитана."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

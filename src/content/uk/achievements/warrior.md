@@ -2,10 +2,10 @@
 id: warrior
 title: Воїн
 group: Metro 2033 Redux
-category: Стандартні
+category: Standard
 order: 160
 image: 2033r_achievement_warrior_icon.png
-brief: Kill 100 Human Enemies.
+brief: "Вбийте 100 Human Enemies."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 15G

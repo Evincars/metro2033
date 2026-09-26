@@ -2,10 +2,10 @@
 id: stand-back
 title: Отойди
 group: Metro Exodus
-category: Стандартные
+category: Standard
 order: 256
 image: me-achievement-stand-back-icon.png
-brief: Kill 50 enemies at long distance.
+brief: "Убейте 50 врагов на дальней дистанции."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

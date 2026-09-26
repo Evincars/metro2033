@@ -2,10 +2,10 @@
 id: regatta
 title: Регата
 group: Metro Exodus
-category: Стандартні
+category: Standard
 order: 250
 image: me-achievement-regatta-icon.png
-brief: Get into a boat.
+brief: "Сядьте в човен."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

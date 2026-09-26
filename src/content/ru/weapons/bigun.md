@@ -1,7 +1,7 @@
 ---
 id: bigun
 title: Большой
-group: Дробовики
+group: Shotguns
 order: 42
 image: /weapon-imgs/bigun.png
 brief: Большой — мощный ручной дробовик с большим магазином.

@@ -1,7 +1,7 @@
 ---
 id: fuel
 title: Топливо
-group: Специальные боеприпасы
+group: Special Ammo
 order: 14
 image: 
 brief: Топливо — горючее для огнемёта.

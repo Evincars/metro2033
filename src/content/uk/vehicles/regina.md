@@ -1,7 +1,7 @@
 ---
 id: regina
 title: Регіна
-group: Рейковий транспорт
+group: Rail Vehicles
 order: 4
 image: /vehicle-imgs/regina.jpg
 brief: Регіна — бронепотяг Ганзи, що курсує кільцевою лінією.

@@ -1,11 +1,11 @@
 ---
 id: platinum-trophy-last-light-redux
 title: Платиновый трофей
-group: "Metro: Last Light Redux"
-category: Стандартні
+group: Metro Last Light Redux
+category: Standard
 order: 206
 image: ll_achievement_platinum_trophy_icon.png
-brief: Get all (non-DLC) trophies.
+brief: "Отримайте всі трофеї (крім DLC)."
 wiki: Achievements and Trophies
 appearances: Metro Last Light Redux
 score: Platinum

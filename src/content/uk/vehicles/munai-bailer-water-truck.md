@@ -1,7 +1,7 @@
 ---
 id: munai-bailer-water-truck
 title: Водовоз Мунай-Байлер
-group: Автомобілі
+group: Road Vehicles
 order: 14
 image: /vehicle-imgs/munai-bailer-water-truck.png
 brief: Водовоз Мунай-Байлер — вантажівка для перевезення води.

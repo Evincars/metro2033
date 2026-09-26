@@ -2,10 +2,10 @@
 id: if-its-hostile-you-kill-it
 title: Если враждебен — убей
 group: Metro 2033
-category: Секретные
+category: Secret
 order: 39
 image: "ach-if-it's-hostile,-you-kill-it.jpg"
-brief: Каноническая концовка Metro 2033, в которой ракеты уничтожают гнездо Тёмных.
+brief: "Станьте настоящим рейнджером."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 20G

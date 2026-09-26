@@ -1,11 +1,11 @@
 ---
 id: equipped
 title: Экипирован
-group: "Metro: Last Light"
-category: Стандартні
+group: Metro Last Light
+category: Standard
 order: 77
 image: ll-achievement-equipped-icon.png
-brief: Find all Equipment Stashes in the swamps.
+brief: "Знайдіть усі сховища спорядження на болотах."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 20G

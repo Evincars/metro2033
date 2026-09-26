@@ -1,7 +1,7 @@
 ---
 id: dshk
 title: ДШК
-group: Стационарное оружие
+group: Emplacement Weapons
 order: 80
 image: /weapon-imgs/dshk.png
 brief: ДШК — крупнокалиберный стационарный пулемёт калибра 12,7 мм.

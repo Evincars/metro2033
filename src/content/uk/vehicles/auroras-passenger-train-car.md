@@ -1,7 +1,7 @@
 ---
 id: auroras-passenger-train-car
 title: Пасажирський вагон «Аврори»
-group: Рейковий транспорт
+group: Rail Vehicles
 order: 7
 image: /vehicle-imgs/auroras-passenger-train-car.png
 brief: Пасажирський вагон «Аврори» — вагон для екіпажу, приєднаний на Волзі.

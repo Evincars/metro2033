@@ -2,10 +2,10 @@
 id: demolitionist
 title: Підривник
 group: Metro 2033
-category: Стандартні
+category: Standard
 order: 10
 image: ach-demolitionist.jpg
-brief: "Blow up the tunnel and airlock at \\"Cursed\\" station."
+brief: "Підірвіть тунель та шлюз на станції «Проклята»."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 30G

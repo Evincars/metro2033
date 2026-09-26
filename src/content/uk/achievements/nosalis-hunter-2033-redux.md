@@ -2,10 +2,10 @@
 id: nosalis-hunter-2033-redux
 title: Мисливець на носалисов
 group: Metro 2033 Redux
-category: Стандартні
+category: Standard
 order: 139
 image: 2033r_achievement_nosalis_hunter_icon.png
-brief: Kill 100 Nosalises
+brief: "Вбийте 100 носалісів."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 15G

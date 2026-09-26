@@ -5,7 +5,7 @@ group: Metro Exodus
 category: "DLC: Sam's Story"
 order: 280
 image: me_achievement_lord_of_war_icon.png
-brief: "Collect all the upgrades for Sammy rifle and Stallion pistol in the SAM'S STORY chapter."
+brief: "Зберіть усі the upgrades for Sammy rifle and Stallion pistol у главі «SAM'S STORY»."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 20G

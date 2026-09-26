@@ -2,10 +2,10 @@
 id: last-breath
 title: Последний вздох
 group: Metro Exodus
-category: Стандартные
+category: Standard
 order: 238
 image: me-achievement-last-breath-icon.png
-brief: After running out of filters in a hazard zone, craft a new one while suffocating.
+brief: "Исчерпав фильтры в опасной зоне, создайте новый, задыхаясь."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

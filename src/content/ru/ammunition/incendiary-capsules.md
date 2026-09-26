@@ -1,7 +1,7 @@
 ---
 id: incendiary-capsules
 title: Зажигательные капсулы
-group: Пневматические боеприпасы
+group: Pneumatic Ammo
 order: 11
 image: 
 brief: Зажигательные капсулы — боеприпасы для Тихаря с зажигательным эффектом.

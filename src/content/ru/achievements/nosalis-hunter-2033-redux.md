@@ -2,10 +2,10 @@
 id: nosalis-hunter-2033-redux
 title: Охотник на носалисов
 group: Metro 2033 Redux
-category: Стандартные
+category: Standard
 order: 139
 image: 2033r_achievement_nosalis_hunter_icon.png
-brief: Kill 100 Nosalises
+brief: "Убейте 100 носалисов."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 15G

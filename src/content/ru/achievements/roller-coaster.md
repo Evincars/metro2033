@@ -2,10 +2,10 @@
 id: roller-coaster
 title: Американские горки
 group: Metro Exodus
-category: Стандартные
+category: Standard
 order: 252
 image: me-achievement-roller-coaster-icon.png
-brief: Use the bucket lift on the CASPIAN level to reach the Oasis.
+brief: "Используйте ковшовый подъёмник на уровне «КАСПИЙ», чтобы добраться до Оазиса."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

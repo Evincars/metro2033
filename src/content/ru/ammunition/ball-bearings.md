@@ -1,7 +1,7 @@
 ---
 id: ball-bearings
 title: Шарики
-group: Пневматические боеприпасы
+group: Pneumatic Ammo
 order: 10
 image: 
 brief: Стальные шарики — боеприпасы для пневматического оружия.

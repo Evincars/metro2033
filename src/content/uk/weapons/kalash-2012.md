@@ -1,7 +1,7 @@
 ---
 id: kalash-2012
 title: Калаш 2012
-group: Штурмові гвинтівки
+group: Assault Rifles
 order: 23
 image: /weapon-imgs/kalash-2012.png
 brief: Калаш 2012 — модернізована версія Калаша.

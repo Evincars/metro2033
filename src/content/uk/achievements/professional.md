@@ -2,10 +2,10 @@
 id: professional
 title: Професіонал
 group: Metro Exodus
-category: Стандартні
+category: Standard
 order: 247
 image: me_achievement_professional_icon.png
-brief: Make at least one kill with every ranged weapon.
+brief: "Вбийте хоча б одного ворога кожною далекобійною зброєю."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

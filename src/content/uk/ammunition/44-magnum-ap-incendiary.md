@@ -1,7 +1,7 @@
 ---
 id: 44-magnum-ap-incendiary
 title: .44 Магнум БП/запальні
-group: Пістолетні набої
+group: Pistol Rounds
 order: 7
 image: 
 brief: Бронебійно-запальні набої .44 Магнум зі збільшеним пробиттям.

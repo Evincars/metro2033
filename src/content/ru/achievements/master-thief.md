@@ -1,11 +1,11 @@
 ---
 id: master-thief
 title: Мастер-вор
-group: "Metro: Last Light Redux"
-category: Стандартные
+group: Metro Last Light Redux
+category: Standard
 order: 184
 image: llr_achievement_master_thief_icon.png
-brief: Open 10 locked safe boxes.
+brief: "Откройте 10 запертых сейфов."
 wiki: Achievements and Trophies
 appearances: Metro Last Light Redux
 score: Silver / 40G

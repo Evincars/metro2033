@@ -5,7 +5,7 @@ group: Metro 2033
 category: "DLC: Ranger Mode"
 order: 46
 image: airbender.jpg
-brief: Kill 30 humans with only pneumatic weapons.
+brief: "Убейте 30 людей с помощью only pneumatic weapons."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 20G

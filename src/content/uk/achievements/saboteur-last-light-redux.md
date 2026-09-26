@@ -1,11 +1,11 @@
 ---
 id: saboteur-last-light-redux
 title: Диверсант
-group: "Metro: Last Light Redux"
-category: Стандартні
+group: Metro Last Light Redux
+category: Standard
 order: 195
 image: llr_achievement_saboteur_icon.png
-brief: Complete the SNIPER TEAM level.
+brief: "Пройдіть рівень «SNIPER TEAM»."
 wiki: Achievements and Trophies
 appearances: Metro Last Light Redux
 score: Bronze / 15G

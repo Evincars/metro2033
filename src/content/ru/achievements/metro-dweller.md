@@ -2,10 +2,10 @@
 id: metro-dweller
 title: Житель метро
 group: Metro 2033
-category: Секретные
+category: Secret
 order: 31
 image: ach-metro-dweller.jpg
-brief: A true metro citizen. You know everyone and have seen everything.
+brief: "Настоящий житель метро. Вы знаете всех и видели всё."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 20G

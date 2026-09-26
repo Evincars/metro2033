@@ -5,7 +5,7 @@ group: Metro Exodus
 category: "DLC: The Two Colonels"
 order: 276
 image: me-achievement-the-whole-picture-icon.png
-brief: Find all 9 hidden Diary pages in THE TWO COLONELS Chapter.
+brief: "Знайдіть усі 9 прихованих сторінок щоденника у главі «ДВА ПОЛКОВНИКИ»."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 20G

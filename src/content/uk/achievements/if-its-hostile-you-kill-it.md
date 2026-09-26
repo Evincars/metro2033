@@ -2,10 +2,10 @@
 id: if-its-hostile-you-kill-it
 title: Якщо ворожий — вбий
 group: Metro 2033
-category: Секретні
+category: Secret
 order: 39
 image: "ach-if-it's-hostile,-you-kill-it.jpg"
-brief: Канонічна кінцівка Metro 2033, в якій ракети знищують гніздо Темних.
+brief: "Станьте справжнім рейнджером."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 20G

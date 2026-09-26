@@ -1,11 +1,11 @@
 ---
 id: invisible-soldier-last-light-redux
 title: Невидимий солдат
-group: "Metro: Last Light Redux"
-category: Стандартні
+group: Metro Last Light Redux
+category: Standard
 order: 182
 image: llr_achievement_invisible_soldier_icon.png
-brief: Complete the REVOLUTION level without killing and raising an alarm.
+brief: "Пройдіть «REVOLUTION level without killing» та «raising an alarm»."
 wiki: Achievements and Trophies
 appearances: Metro Last Light Redux
 score: Silver / 20G

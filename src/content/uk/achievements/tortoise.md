@@ -1,11 +1,11 @@
 ---
 id: tortoise
 title: Черепаха
-group: "Metro: Last Light"
-category: Стандартні
+group: Metro Last Light
+category: Standard
 order: 67
 image: llr-achievement-tortoise-icon.png
-brief: Make 10 Spiders flip belly-up.
+brief: "Переверніть 10 павуків на спину."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 10G

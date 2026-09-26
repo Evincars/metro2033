@@ -1,11 +1,11 @@
 ---
 id: test-complete-last-light-redux
 title: Тест пройден
-group: "Metro: Last Light Redux"
-category: Стандартные
+group: Metro Last Light Redux
+category: Standard
 order: 201
 image: llr_achievement_test_complete_icon.png
-brief: Complete the TOWER level.
+brief: "Пройдите уровень «TOWER»."
 wiki: Achievements and Trophies
 appearances: Metro Last Light Redux
 score: Bronze / 15G

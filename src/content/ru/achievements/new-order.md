@@ -2,10 +2,10 @@
 id: new-order
 title: Новый порядок
 group: Metro Exodus
-category: Стандартные
+category: Standard
 order: 245
 image: me-achievement-new-order-icon.png
-brief: Complete the CASPIAN level.
+brief: "Пройдите уровень «CASPIAN»."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

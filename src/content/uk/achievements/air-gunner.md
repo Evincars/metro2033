@@ -2,10 +2,10 @@
 id: air-gunner
 title: Тирмен
 group: Metro 2033
-category: Стандартні
+category: Standard
 order: 11
 image: ach-air-gunner.jpg
-brief: Kill 30 enemies using pneumatic weapons.
+brief: "Вбийте 30 ворогів, використовуючи пневматичної зброї."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 30G

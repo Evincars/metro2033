@@ -5,7 +5,7 @@ group: Metro Exodus
 category: "DLC: Sam's Story"
 order: 282
 image: me_achievement_the_last_hero_icon.png
-brief: "Complete the SAM'S STORY chapter."
+brief: "Пройдіть главу «SAM'S STORY»."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

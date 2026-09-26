@@ -2,10 +2,10 @@
 id: fire
 title: Вогонь
 group: Metro 2033 Redux
-category: Стандартні
+category: Standard
 order: 125
 image: 2033r_achievement_fire_icon.png
-brief: Kill 30 enemies with flame grenades.
+brief: "Вбийте 30 ворогів за допомогою flame grenades."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 15G

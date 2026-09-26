@@ -2,10 +2,10 @@
 id: fugitive
 title: Втікач
 group: Metro 2033
-category: Стандартні
+category: Standard
 order: 19
 image: ach-fugitive.jpg
-brief: "Complete the level \\"Armory\\" without getting caught."
+brief: "Пройдіть рівень «Зброярня» без виявлення."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 30G

@@ -1,11 +1,11 @@
 ---
 id: cheers
 title: "За здоров'я"
-group: "Metro: Last Light Redux"
-category: Секретні
+group: Metro Last Light Redux
+category: Secret
 order: 211
 image: llr_achievement_cheers_icon.png
-brief: Drink at every occasion.
+brief: "Випийте при кожній нагоді."
 wiki: Achievements and Trophies
 appearances: Metro Last Light Redux
 score: Bronze / 15G

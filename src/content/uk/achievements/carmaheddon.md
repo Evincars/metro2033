@@ -2,10 +2,10 @@
 id: carmaheddon
 title: Кармагеддон
 group: Metro Exodus
-category: Секретні
+category: Secret
 order: 262
 image: me-achievement-carmaheddon-icon.png
-brief: Make 50 kills with the Bukhanka.
+brief: "Здійсніть 50 вбивств за допомогою «Буханки»."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

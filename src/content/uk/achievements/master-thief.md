@@ -1,11 +1,11 @@
 ---
 id: master-thief
 title: Майстер-злодій
-group: "Metro: Last Light Redux"
-category: Стандартні
+group: Metro Last Light Redux
+category: Standard
 order: 184
 image: llr_achievement_master_thief_icon.png
-brief: Open 10 locked safe boxes.
+brief: "Відкрийте 10 замкнених сейфів."
 wiki: Achievements and Trophies
 appearances: Metro Last Light Redux
 score: Silver / 40G

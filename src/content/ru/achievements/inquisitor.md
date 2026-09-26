@@ -2,10 +2,10 @@
 id: inquisitor
 title: Инквизитор
 group: Metro 2033
-category: Стандартные
+category: Standard
 order: 13
 image: ach-inquisitor.jpg
-brief: Kill 2 Demons.
+brief: "Убейте 2 Demons."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 35G

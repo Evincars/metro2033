@@ -1,7 +1,7 @@
 ---
 id: lolife
 title: Лоулайф
-group: Пістолети
+group: Handguns
 order: 11
 image: /weapon-imgs/lolife.png
 brief: Лоулайф — саморобний пістолет-кулемет, який використовують різні фракції метро.

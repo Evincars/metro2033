@@ -2,10 +2,10 @@
 id: sword-of-damocles
 title: Дамоклів меч
 group: Metro Exodus
-category: Стандартні
+category: Standard
 order: 257
 image: me-achievement-sword-of-damocles-icon.png
-brief: Complete the TAIGA level.
+brief: "Пройдіть рівень «TAIGA»."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

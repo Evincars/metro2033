@@ -1,11 +1,11 @@
 ---
 id: published-last-light-redux
 title: Опубликовано
-group: "Metro: Last Light Redux"
-category: Стандартні
+group: Metro Last Light Redux
+category: Standard
 order: 190
 image: llr_achievement_published_icon.png
-brief: "Complete all 43 of Artyom's hidden Diary pages."
+brief: "Знайдіть усі 43 прихованих сторінок щоденника Артема."
 wiki: Achievements and Trophies
 appearances: Metro Last Light Redux
 score: Silver / 30G

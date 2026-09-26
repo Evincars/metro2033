@@ -2,10 +2,10 @@
 id: eternal-voyage
 title: Вечное путешествие
 group: Metro Exodus
-category: Секретные
+category: Secret
 order: 265
 image: me-achievement-eternal-voyage-icon.png
-brief: Плохая концовка Metro Exodus, в которой Артём умирает от радиации.
+brief: "Спасите Анну, заплатив высшую цену."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Silver / 40G

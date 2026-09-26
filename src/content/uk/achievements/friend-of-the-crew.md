@@ -2,10 +2,10 @@
 id: friend-of-the-crew
 title: Друг екіпажу
 group: Metro Exodus
-category: Стандартні
+category: Standard
 order: 229
 image: me-achievement-friend-of-the-crew-icon.png
-brief: Find the guitar and teddy bear on the VOLGA level.
+brief: "Знайдіть гітару та плюшевого ведмедика на рівні «ВОЛГА»."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

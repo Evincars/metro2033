@@ -1,7 +1,7 @@
 ---
 id: valve
 title: Вентиль
-group: Снайперские винтовки
+group: Sniper Rifles
 order: 33
 image: /weapon-imgs/valve.png
 brief: Вентиль — пневматическая винтовка с оптическим прицелом.

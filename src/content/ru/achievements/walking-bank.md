@@ -1,11 +1,11 @@
 ---
 id: walking-bank
 title: Ходячий банк
-group: "Metro: Last Light"
-category: Стандартные
+group: Metro Last Light
+category: Standard
 order: 57
 image: ll-achievement-walking-bank-icon.png
-brief: Collect 1000 Military Rounds.
+brief: "Соберите 1000 патронов военного образца."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 10G

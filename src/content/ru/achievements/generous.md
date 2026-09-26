@@ -2,10 +2,10 @@
 id: generous
 title: Щедрый
 group: Metro 2033
-category: Секретные
+category: Secret
 order: 33
 image: ach-generous.jpg
-brief: Help the poor, a coin for the kid, medicine for the sick. You help everyone you see.
+brief: "Помогите бедным, подайте ребёнку монетку, лекарства больным. Помогайте всем, кого встретите."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 10G

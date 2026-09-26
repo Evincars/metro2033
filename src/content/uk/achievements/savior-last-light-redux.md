@@ -1,11 +1,11 @@
 ---
 id: savior-last-light-redux
 title: Рятівник
-group: "Metro: Last Light Redux"
-category: Секретні
+group: Metro Last Light Redux
+category: Secret
 order: 215
 image: llr_achievement_savior_icon.png
-brief: Remove your mask when Lesnitsky demands it.
+brief: "Зніміть маску, коли Лесницький вимагає."
 wiki: Achievements and Trophies
 appearances: Metro Last Light Redux
 score: Silver / 20G

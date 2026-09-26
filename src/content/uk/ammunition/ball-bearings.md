@@ -1,7 +1,7 @@
 ---
 id: ball-bearings
 title: Кульки
-group: Пневматичні боєприпаси
+group: Pneumatic Ammo
 order: 10
 image: 
 brief: Сталеві кульки — боєприпаси для пневматичної зброї.

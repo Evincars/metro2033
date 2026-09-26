@@ -1,11 +1,11 @@
 ---
 id: no-way-out-last-light-redux
 title: Виходу немає
-group: "Metro: Last Light Redux"
-category: Стандартні
+group: Metro Last Light Redux
+category: Standard
 order: 187
 image: llr_achievement_no_way_out_icon.png
-brief: Complete the KHAN level.
+brief: "Пройдіть рівень «KHAN»."
 wiki: Achievements and Trophies
 appearances: Metro Last Light Redux
 score: Bronze / 15G

@@ -2,10 +2,10 @@
 id: hardcore
 title: Хардкор
 group: Metro Exodus
-category: Стандартні
+category: Standard
 order: 233
 image: me-achievement-hardcore-icon.png
-brief: Complete the game in Ranger Hardcore mode.
+brief: "Пройдіть гру в режимі «Рейнджер Хардкор»."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Gold / 60G

@@ -2,10 +2,10 @@
 id: spoiled-dinner
 title: Испорченный ужин
 group: Metro Exodus
-category: Стандартные
+category: Standard
 order: 255
 image: me-achievement-spoiled-dinner-icon.png
-brief: Complete the YAMANTAU level.
+brief: "Пройдите уровень «YAMANTAU»."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

@@ -1,11 +1,11 @@
 ---
 id: scram
 title: Беги
-group: "Metro: Last Light"
-category: Стандартні
+group: Metro Last Light
+category: Standard
 order: 72
 image: llr-achievement-scram-icon.png
-brief: Kill all Watchmen before they reach the Railcar.
+brief: "Вбийте всіх вартових, перш ніж вони дістануться до цілі."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 20G

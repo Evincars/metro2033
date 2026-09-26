@@ -1,7 +1,7 @@
 ---
 id: river-boat
 title: Річковий катер
-group: Водний транспорт
+group: Watercraft
 order: 17
 image: 
 brief: Річковий катер — водний транспорт для пересування річками.

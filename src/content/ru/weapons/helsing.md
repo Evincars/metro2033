@@ -1,7 +1,7 @@
 ---
 id: helsing
 title: Хельсинг
-group: Пневматическое оружие
+group: Pneumatic Weapons
 order: 50
 image: /weapon-imgs/helsing.png
 brief: Хельсинг — пневматический арбалет, стреляющий стальными болтами.

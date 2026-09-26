@@ -1,11 +1,11 @@
 ---
 id: revenge
 title: Помста
-group: "Metro: Last Light"
-category: Секретні
+group: Metro Last Light
+category: Secret
 order: 94
 image: llr-achievement-revenge-icon.png
-brief: Kill Pavel.
+brief: "Вбийте Павла."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Silver / 35G

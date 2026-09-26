@@ -1,7 +1,7 @@
 ---
 id: uss-mayflower
 title: USS «Мэйфлауэр»
-group: Водный транспорт
+group: Watercraft
 order: 19
 image: /vehicle-imgs/uss-mayflower.png
 brief: USS «Мэйфлауэр» — американский военный корабль, встречающийся в DLC.

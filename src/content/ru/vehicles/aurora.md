@@ -1,7 +1,7 @@
 ---
 id: aurora
 title: Аврора
-group: Рельсовый транспорт
+group: Rail Vehicles
 order: 6
 image: /vehicle-imgs/aurora.png
 brief: Аврора — модифицированный паровоз, на котором Артём и Анна отправляются на восток в Metro Exodus.

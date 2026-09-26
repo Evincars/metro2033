@@ -2,10 +2,10 @@
 id: trigger-happy
 title: Палец на курке
 group: Metro 2033 Redux
-category: Стандартные
+category: Standard
 order: 134
 image: 2033r_achievement_trigger_happy_icon.png
-brief: Kill 100 enemies with assault rifles.
+brief: "Убейте 100 врагов с помощью assault rifles."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 15G

@@ -1,7 +1,7 @@
 ---
 id: explosive-bolts
 title: Розривні болти
-group: Спеціальні боєприпаси
+group: Special Ammo
 order: 13
 image: 
 brief: Розривні болти — спеціальні боєприпаси для Хельсинга з вибуховим ефектом.

@@ -2,10 +2,10 @@
 id: scrooge
 title: Скрудж
 group: Metro 2033
-category: Стандартні
+category: Standard
 order: 30
 image: ach-scrooge.jpg
-brief: Save 500 military grade rounds.
+brief: "Збережіть 500 набоїв військового зразка."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 30G

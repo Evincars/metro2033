@@ -1,7 +1,7 @@
 ---
 id: fuel
 title: Паливо
-group: Спеціальні боєприпаси
+group: Special Ammo
 order: 14
 image: 
 brief: Паливо — горюче для вогнемета.

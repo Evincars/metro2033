@@ -2,10 +2,10 @@
 id: wheeler-dealer-2033-redux
 title: Барыга
 group: Metro 2033 Redux
-category: Стандартні
+category: Standard
 order: 163
 image: 2033r_achievement_wheeler-dealer_icon.png
-brief: Exchange 500 Military-Grade 5.45 rounds at Exchange kiosks.
+brief: "Обміняйте 500 набоїв військового зразка 5,45 в обмінних кіосках."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 15G

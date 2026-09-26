@@ -2,10 +2,10 @@
 id: toy-seller
 title: Продавец игрушек
 group: Metro Exodus
-category: Стандартные
+category: Standard
 order: 259
 image: me-achievement-toy-seller-icon.png
-brief: "Find 3 toys in New Game+ mode: teddy bear, sun and fish."
+brief: "Найдите 3 игрушки в режиме «Новая игра+»: мишку, солнце и рыбу."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 20G

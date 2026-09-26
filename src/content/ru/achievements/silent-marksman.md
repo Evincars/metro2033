@@ -2,10 +2,10 @@
 id: silent-marksman
 title: Бесшумный стрелок
 group: Metro Exodus
-category: Стандартные
+category: Standard
 order: 254
 image: me-achievement-silent-marksman-icon.png
-brief: Kill 30 enemies with Tikhar.
+brief: "Убейте 30 врагов с помощью Tikhar."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

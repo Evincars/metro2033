@@ -1,11 +1,11 @@
 ---
 id: van-helsing
 title: Ван Хельсинг
-group: "Metro: Last Light"
-category: Стандартные
+group: Metro Last Light
+category: Standard
 order: 80
 image: ll-achievement-van-helsing-icon.png
-brief: Kill a Demon with the Helsing.
+brief: "Убейте демона из Хельсинга."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 30G

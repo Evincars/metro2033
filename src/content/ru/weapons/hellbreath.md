@@ -1,7 +1,7 @@
 ---
 id: hellbreath
 title: Адское дыхание
-group: Снайперские винтовки
+group: Sniper Rifles
 order: 31
 image: /weapon-imgs/hellbreath.png
 brief: Адское дыхание — экспериментальная рельсовая пушка, стреляющая шариками.

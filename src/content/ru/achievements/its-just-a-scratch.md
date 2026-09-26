@@ -5,7 +5,7 @@ group: Metro Exodus
 category: "DLC: The Two Colonels"
 order: 272
 image: me-achievement-its-just-a-scratch-icon.png
-brief: Complete THE TWO COLONELS Chapter without using any Medkits on Normal or higher difficulty.
+brief: "Пройдите главу «THE TWO COLONELS» без использования аптечек на нормальной сложности или выше."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 40G

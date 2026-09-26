@@ -2,10 +2,10 @@
 id: your-destination
 title: Ваш пункт назначения
 group: Metro Exodus
-category: Секретные
+category: Secret
 order: 268
 image: me-achievement-your-destination-icon.png
-brief: Хорошая концовка Metro Exodus, в которой Артём выживает благодаря переливанию крови товарищей.
+brief: "Примите командование Орденом."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Gold / 60G

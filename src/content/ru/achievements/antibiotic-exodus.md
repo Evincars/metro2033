@@ -2,10 +2,10 @@
 id: antibiotic-exodus
 title: Антибиотик
 group: Metro Exodus
-category: Стандартные
+category: Standard
 order: 219
 image: me-achievement-antibiotic-icon.png
-brief: Kill 300 mutants.
+brief: "Убейте 300 mutants."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

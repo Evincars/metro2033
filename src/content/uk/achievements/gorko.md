@@ -2,10 +2,10 @@
 id: gorko
 title: Гірко
 group: Metro Exodus
-category: Стандартні
+category: Standard
 order: 230
 image: me-achievement-gorko-icon.png
-brief: Attend the wedding on the SUMMER level.
+brief: "Відвідайте весілля на рівні «ЛІТО»."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

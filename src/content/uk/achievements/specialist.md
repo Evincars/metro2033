@@ -1,11 +1,11 @@
 ---
 id: specialist
 title: Спеціаліст
-group: "Metro: Last Light"
+group: Metro Last Light
 category: "DLC: Developer Pack"
 order: 110
 image: ll-achievement-specialist-icon.png
-brief: Complete the SHOOTING RANGE and ARENA.
+brief: "Пройдіть «SHOOTING RANGE» та «ARENA»."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 15G

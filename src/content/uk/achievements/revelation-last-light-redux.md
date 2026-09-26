@@ -1,11 +1,11 @@
 ---
 id: revelation-last-light-redux
 title: Одкровення
-group: "Metro: Last Light Redux"
-category: Секретні
+group: Metro Last Light Redux
+category: Secret
 order: 213
 image: llr_achievement_revelation_icon.png
-brief: Make Moskvin tell the truth with help from the Dark One.
+brief: "Змусіть Москвіна сказати правду за допомогою Темного."
 wiki: Achievements and Trophies
 appearances: Metro Last Light Redux
 score: Silver / 25G

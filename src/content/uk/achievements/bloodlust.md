@@ -1,11 +1,11 @@
 ---
 id: bloodlust
 title: Спрага крові
-group: "Metro: Last Light"
-category: Стандартні
+group: Metro Last Light
+category: Standard
 order: 79
 image: ll-achievement-bloodlust-icon.png
-brief: Kill all the Reds on the THE CHASE level.
+brief: "Вбийте всіх «червоних» на рівні «ПОГОНЯ»."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 10G

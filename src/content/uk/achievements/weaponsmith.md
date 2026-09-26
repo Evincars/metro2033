@@ -2,10 +2,10 @@
 id: weaponsmith
 title: Зброяр
 group: Metro 2033 Redux
-category: Стандартні
+category: Standard
 order: 162
 image: 2033r_achievement_weaponsmith_icon.png
-brief: Kill at least one enemy with each weapon available in the game.
+brief: "Встановіть модифікацію кожної категорії на одну зброю."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Silver / 30G

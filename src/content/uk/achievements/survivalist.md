@@ -1,11 +1,11 @@
 ---
 id: survivalist
 title: Виживальник
-group: "Metro: Last Light"
+group: Metro Last Light
 category: "DLC: Ranger Mode"
 order: 99
 image: ll-achievement-survivalist-icon.png
-brief: Complete the game in Ranger Hardcore.
+brief: "Пройдіть гру в режимі «Рейнджер Хардкор»."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Gold / 100G

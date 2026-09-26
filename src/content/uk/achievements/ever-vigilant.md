@@ -1,11 +1,11 @@
 ---
 id: ever-vigilant
 title: Завжди напоготові
-group: "Metro: Last Light"
-category: Стандартні
+group: Metro Last Light
+category: Standard
 order: 55
 image: llr-achievement-ever-vigilant-icon.png
-brief: Disarm 10 Traps.
+brief: "Знешкодьте 10 пасток."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 10G

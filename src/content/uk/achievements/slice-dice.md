@@ -2,10 +2,10 @@
 id: slice-dice
 title: Нарезка
 group: Metro 2033
-category: Стандартні
+category: Standard
 order: 18
 image: ach-slice-&-dice.jpg
-brief: Kill 20 enemies with the knife.
+brief: "Вбийте 20 ворогів за допомогою the knife."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 30G

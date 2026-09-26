@@ -1,7 +1,7 @@
 ---
 id: automatic-train
 title: Автоматичний потяг
-group: Рейковий транспорт
+group: Rail Vehicles
 order: 3
 image: /vehicle-imgs/automatic-train.png
 brief: Автоматичний потяг — безпілотний потяг метро.

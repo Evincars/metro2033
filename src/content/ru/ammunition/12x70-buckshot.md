@@ -1,7 +1,7 @@
 ---
 id: 12x70-buckshot
 title: 12×70 картечь
-group: Дробовые патроны
+group: Shotgun Shells
 order: 8
 image: 
 brief: Картечь 12×70 — стандартные дробовые патроны.

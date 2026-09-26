@@ -1,11 +1,11 @@
 ---
 id: edison-last-light-redux
 title: Эдисон
-group: "Metro: Last Light Redux"
-category: Стандартные
+group: Metro Last Light Redux
+category: Standard
 order: 175
 image: llr_achievement_edison_icon.png
-brief: Turn off 40 Lights without breaking them.
+brief: "Выключите 40 ламп, не разбивая их."
 wiki: Achievements and Trophies
 appearances: Metro Last Light Redux
 score: Bronze / 15G

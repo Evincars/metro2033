@@ -1,11 +1,11 @@
 ---
 id: no-way-out
 title: Выхода нет
-group: "Metro: Last Light"
+group: Metro Last Light
 category: "DLC: Chronicles Pack"
 order: 117
 image: llr-achievement-no-way-out-icon.png
-brief: Complete the KHAN level.
+brief: "Пройдите уровень «KHAN»."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 15G

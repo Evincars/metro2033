@@ -1,11 +1,11 @@
 ---
 id: true-spartan
 title: Справжній спартанець
-group: "Metro: Last Light"
-category: Стандартні
+group: Metro Last Light
+category: Standard
 order: 83
 image: ll-achievement-true-spartan-icon.png
-brief: Hold the Platform without dying.
+brief: "Утримайте платформу, не загинувши."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Silver / 50G

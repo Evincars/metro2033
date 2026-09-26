@@ -1,11 +1,11 @@
 ---
 id: gunslinger
 title: Ганслингер
-group: "Metro: Last Light"
-category: Стандартные
+group: Metro Last Light
+category: Standard
 order: 85
 image: ll-achievement-gunslinger-icon.png
-brief: Kill at least one Enemy with each Weapon available in the game.
+brief: "Убейте хотя бы одного врага каждым доступным оружием."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 15G

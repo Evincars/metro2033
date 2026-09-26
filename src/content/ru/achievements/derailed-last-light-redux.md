@@ -1,11 +1,11 @@
 ---
 id: derailed-last-light-redux
 title: Сход с рельсов
-group: "Metro: Last Light Redux"
-category: Стандартные
+group: Metro Last Light Redux
+category: Standard
 order: 173
 image: llr_achievement_derailed_icon.png
-brief: Kill all armed enemies on the REVOLUTION level, including all reinforcements.
+brief: "Убейте всех armed enemies на уровне «REVOLUTION»."
 wiki: Achievements and Trophies
 appearances: Metro Last Light Redux
 score: Bronze / 10G

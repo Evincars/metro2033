@@ -2,10 +2,10 @@
 id: heavy-reader
 title: Важкий чтец
 group: Metro 2033
-category: Стандартні
+category: Standard
 order: 5
 image: ach-heavy-reader.jpg
-brief: Kill a librarian.
+brief: "Вбийте бібліотекаря."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 20G

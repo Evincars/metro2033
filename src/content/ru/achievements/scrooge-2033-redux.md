@@ -2,10 +2,10 @@
 id: scrooge-2033-redux
 title: Скрудж
 group: Metro 2033 Redux
-category: Стандартные
+category: Standard
 order: 148
 image: 2033r_achievement_scrooge_icon.png
-brief: Save 1000 military-grade rounds.
+brief: "Сохраните 1000 патронов военного образца."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 15G

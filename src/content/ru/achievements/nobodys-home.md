@@ -1,11 +1,11 @@
 ---
 id: nobodys-home
 title: Никого нет дома
-group: "Metro: Last Light"
-category: Секретные
+group: Metro Last Light
+category: Secret
 order: 92
 image: ll-achievement-nobodys-home-icon.png
-brief: Ignore the Phone Call in the Anomaly.
+brief: "Проигнорируйте телефонный звонок в Аномалии."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Silver / 10G

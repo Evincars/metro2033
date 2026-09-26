@@ -2,10 +2,10 @@
 id: spider-hunter
 title: Охотник на пауков
 group: Metro 2033 Redux
-category: Стандартные
+category: Standard
 order: 155
 image: 2033r_achievement_spider_hunter_icon.png
-brief: Kill 10 Spiders.
+brief: "Убейте 10 Spiders."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 15G

@@ -1,7 +1,7 @@
 ---
 id: red-line-armoured-train
 title: Бронепоезд Красной Линии
-group: Рельсовый транспорт
+group: Rail Vehicles
 order: 5
 image: /vehicle-imgs/red-line-armoured-train.jpg
 brief: Бронепоезд Красной Линии — тяжелобронированный поезд, используемый коммунистами.

@@ -1,7 +1,7 @@
 ---
 id: hanza-off-road-car
 title: Позашляховик Ганзи
-group: Автомобілі
+group: Road Vehicles
 order: 12
 image: /vehicle-imgs/hanza-off-road-car.jpg
 brief: Позашляховик Ганзи — автомобіль, що використовується Ганзою.

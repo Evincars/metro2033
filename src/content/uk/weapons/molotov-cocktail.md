@@ -1,7 +1,7 @@
 ---
 id: molotov-cocktail
 title: Коктейль Молотова
-group: Метальне та вибухівка
+group: Throwables & Explosives
 order: 71
 image: /weapon-imgs/molotov-cocktail.png
 brief: Коктейль Молотова — імпровізована запальна зброя.

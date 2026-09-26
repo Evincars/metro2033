@@ -2,10 +2,10 @@
 id: metro-trader-2033-redux
 title: Торговец метро
 group: Metro 2033 Redux
-category: Стандартные
+category: Standard
 order: 136
 image: 2033r_achievement_metro_trader_icon.png
-brief: Make 30 deals in weapon shops.
+brief: "Совершите 30 сделок в оружейных магазинах."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 10G

@@ -1,7 +1,7 @@
 ---
 id: military-grade-rounds
 title: Патрони військового зразка
-group: Гвинтівкові набої
+group: Rifle Rounds
 order: 2
 image: /ammo-imgs/military-grade-rounds.jpg
 brief: Набої військового зразка — довоєнні боєприпаси високої якості, що використовуються як валюта.

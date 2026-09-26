@@ -2,10 +2,10 @@
 id: snake
 title: Змія
 group: Metro 2033 Redux
-category: Стандартні
+category: Standard
 order: 137
 image: 2033r_achievement_snake_icon.png
-brief: Stealthily kill 15 enemies
+brief: "Вбийте 15 ворогів непомітно."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 10G

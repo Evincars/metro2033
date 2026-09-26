@@ -1,7 +1,7 @@
 ---
 id: flight-76715
 title: Рейс 76715
-group: Авіація
+group: Aircraft
 order: 20
 image: /vehicle-imgs/flight-76715.jpg
 brief: Рейс 76715 — розбитий літак, виявлений на Волзі.

@@ -1,7 +1,7 @@
 ---
 id: incendiary-capsules
 title: Запальні капсули
-group: Пневматичні боєприпаси
+group: Pneumatic Ammo
 order: 11
 image: 
 brief: Запальні капсули — боєприпаси для Тихаря із запальним ефектом.

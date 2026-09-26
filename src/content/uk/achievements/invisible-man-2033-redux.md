@@ -2,10 +2,10 @@
 id: invisible-man-2033-redux
 title: Людина-невидимка
 group: Metro 2033 Redux
-category: Стандартні
+category: Standard
 order: 131
 image: 2033r_achievement_invisible_man_icon.png
-brief: Complete FRONTLINE level without killing anyone.
+brief: "Пройдіть рівень «Лінія фронту» без вбивств."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 40G

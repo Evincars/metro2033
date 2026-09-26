@@ -1,11 +1,11 @@
 ---
 id: forgotten
 title: Забутий
-group: "Metro: Last Light"
-category: Стандартні
+group: Metro Last Light
+category: Standard
 order: 78
 image: ll-achievement-forgotten-icon.png
-brief: Find the Hidden Ammo in the abandoned part of the station on the QUARANTINE level.
+brief: "Знайдіть приховані боєприпаси у покинутій частині станції на рівні «КАРАНТИН»."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 10G

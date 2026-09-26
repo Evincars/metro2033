@@ -1,11 +1,11 @@
 ---
 id: willpower
 title: Сила волі
-group: "Metro: Last Light"
+group: Metro Last Light
 category: "DLC: Tower Pack"
 order: 108
 image: ll-achievement-willpower-icon.png
-brief: Complete at least one HUGE mission.
+brief: "Пройдіть хоча б одну місію «HUGE»."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 15G

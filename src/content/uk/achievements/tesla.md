@@ -1,11 +1,11 @@
 ---
 id: tesla
 title: Тесла
-group: "Metro: Last Light"
-category: Стандартні
+group: Metro Last Light
+category: Standard
 order: 53
 image: ll-achievement-tesla-icon.png
-brief: Break 50 Lights.
+brief: "Розбийте 50 ламп."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 10G

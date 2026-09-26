@@ -1,11 +1,11 @@
 ---
 id: invisible-savior-last-light-redux
 title: Невидимий спаситель
-group: "Metro: Last Light Redux"
-category: Стандартні
+group: Metro Last Light Redux
+category: Standard
 order: 181
 image: llr_achievement_invisible_savior_icon.png
-brief: Complete the FACILITY level without killing or raising alarm.
+brief: "Пройдіть рівень «FACILITY» без вбивств."
 wiki: Achievements and Trophies
 appearances: Metro Last Light Redux
 score: Silver / 20G

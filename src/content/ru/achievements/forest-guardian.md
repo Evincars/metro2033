@@ -1,11 +1,11 @@
 ---
 id: forest-guardian
 title: Страж леса
-group: "Metro: Last Light"
-category: Секретные
+group: Metro Last Light
+category: Secret
 order: 95
 image: llr-achievement-forest-guardian-icon.png
-brief: Save the Bear from the Watchmen after the fight.
+brief: "Спасите медведя от сторожей после боя."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Silver / 20G

@@ -1,11 +1,11 @@
 ---
 id: engineer
 title: Інженер
-group: "Metro: Last Light Redux"
-category: Стандартні
+group: Metro Last Light Redux
+category: Standard
 order: 176
 image: llr_achievement_engineer_icon.png
-brief: Use 10 Lever Switches.
+brief: "Використайте 10 важільних перемикачів."
 wiki: Achievements and Trophies
 appearances: Metro Last Light Redux
 score: Bronze / 10G

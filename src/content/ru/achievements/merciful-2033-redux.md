@@ -2,10 +2,10 @@
 id: merciful-2033-redux
 title: Милосердный
 group: Metro 2033 Redux
-category: Стандартные
+category: Standard
 order: 135
 image: 2033r_achievement_merciful_icon.png
-brief: Complete the level BLACK STATION without killing or knocking out any enemies.
+brief: "Пройдите уровень «Чёрная станция» без убийств и оглушений."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 30G

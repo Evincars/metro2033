@@ -2,10 +2,10 @@
 id: cowboy-2033-redux
 title: Ковбой
 group: Metro 2033 Redux
-category: Стандартные
+category: Standard
 order: 121
 image: 2033r_achievement_cowboy_icon.png
-brief: Kill 100 enemies using revolvers.
+brief: "Убейте 100 врагов, используя revolvers."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 15G

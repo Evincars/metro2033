@@ -1,7 +1,7 @@
 ---
 id: trench-knife
 title: Окопний ніж
-group: Холодна зброя
+group: Melee
 order: 1
 image: /weapon-imgs/trench-knife.png
 brief: Стандартна холодна зброя Артема для безшумних вбивств та ближнього бою.

@@ -1,7 +1,7 @@
 ---
 id: gatling
 title: Гатлинг
-group: Тяжёлое оружие
+group: Heavy Weapons
 order: 61
 image: /weapon-imgs/gatling.png
 brief: Гатлинг — многоствольный пулемёт с вращающимся блоком стволов.

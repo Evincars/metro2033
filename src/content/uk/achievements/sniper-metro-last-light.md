@@ -1,11 +1,11 @@
 ---
 id: sniper-metro-last-light
 title: Снайпер
-group: "Metro: Last Light"
+group: Metro Last Light
 category: "DLC: Faction Pack"
 order: 104
 image: ll-achievement-sniper-icon.png
-brief: Kill 10 enemies with headshots using your sniper rifle.
+brief: "Вбийте 15 ворогів влучаннями в голову, не виходячи з прицілу."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 15G

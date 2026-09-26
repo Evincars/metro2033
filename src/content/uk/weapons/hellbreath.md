@@ -1,7 +1,7 @@
 ---
 id: hellbreath
 title: Пекельне дихання
-group: Снайперські гвинтівки
+group: Sniper Rifles
 order: 31
 image: /weapon-imgs/hellbreath.png
 brief: Пекельне дихання — експериментальна рейкова гармата.

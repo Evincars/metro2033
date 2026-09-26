@@ -2,10 +2,10 @@
 id: your-destination
 title: Ваш пункт призначення
 group: Metro Exodus
-category: Секретні
+category: Secret
 order: 268
 image: me-achievement-your-destination-icon.png
-brief: Гарна кінцівка Metro Exodus, в якій Артем виживає завдяки переливанню крові товаришів.
+brief: "Прийміть командування Орденом."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Gold / 60G

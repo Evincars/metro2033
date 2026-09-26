@@ -2,10 +2,10 @@
 id: fire-in-the-hole
 title: Вогонь в норе
 group: Metro 2033
-category: Стандартні
+category: Standard
 order: 4
 image: ach-fire-in-the-hole.jpg
-brief: Kill 20 lurkers.
+brief: "Вбийте 20 lurkers."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 30G

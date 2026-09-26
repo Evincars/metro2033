@@ -2,10 +2,10 @@
 id: tidyman
 title: Чистюля
 group: Metro Exodus
-category: Стандартные
+category: Standard
 order: 258
 image: me-achievement-tidyman-icon.png
-brief: Spend 500 chemical resources on cleaning weapons.
+brief: "Потратьте 500 химических ресурсов на чистку оружия."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

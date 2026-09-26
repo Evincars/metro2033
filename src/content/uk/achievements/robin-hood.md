@@ -2,10 +2,10 @@
 id: robin-hood
 title: Робін Гуд
 group: Metro Exodus
-category: Стандартні
+category: Standard
 order: 251
 image: me-achievement-robin-hood-icon.png
-brief: Kill 30 enemies with Crossbow.
+brief: "Вбийте 30 ворогів за допомогою Crossbow."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

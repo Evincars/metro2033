@@ -1,7 +1,7 @@
 ---
 id: tikhar
 title: Тихар
-group: Пневматична зброя
+group: Pneumatic Weapons
 order: 51
 image: /weapon-imgs/tikhar.png
 brief: Тихар — пневматична гвинтівка, що стріляє кульками та потребує ручної підкачки.

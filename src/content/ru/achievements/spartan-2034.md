@@ -1,11 +1,11 @@
 ---
 id: spartan-2034
 title: Спартанец
-group: "Metro: Last Light Redux"
-category: Стандартные
+group: Metro Last Light Redux
+category: Standard
 order: 199
 image: llr_achievement_spartan_2034_icon.png
-brief: Complete the game in Spartan Mode.
+brief: "Пройдите игру в режиме «Спартанец»."
 wiki: Achievements and Trophies
 appearances: Metro Last Light Redux
 score: Gold / 40G

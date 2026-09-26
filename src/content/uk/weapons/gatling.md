@@ -1,7 +1,7 @@
 ---
 id: gatling
 title: Гатлінг
-group: Важка зброя
+group: Heavy Weapons
 order: 61
 image: /weapon-imgs/gatling.png
 brief: Гатлінг — багатоствольний кулемет з обертовим блоком стволів.

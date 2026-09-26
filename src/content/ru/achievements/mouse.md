@@ -1,11 +1,11 @@
 ---
 id: mouse
 title: Мышь
-group: "Metro: Last Light"
-category: Стандартные
+group: Metro Last Light
+category: Standard
 order: 68
 image: llr-achievement-mouse-icon.png
-brief: Complete the ECHOES level undetected by the Watchmen.
+brief: "Пройдите уровень «ECHOES», не обнаруженным сторожами."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 10G

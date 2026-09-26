@@ -1,7 +1,7 @@
 ---
 id: medved
 title: Медведь
-group: Тяжёлое оружие
+group: Heavy Weapons
 order: 62
 image: /weapon-imgs/medved.png
 brief: Медведь — мощный стационарный пулемёт.

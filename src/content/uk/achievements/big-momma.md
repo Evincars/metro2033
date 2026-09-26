@@ -1,11 +1,11 @@
 ---
 id: big-momma
 title: Велика матуся
-group: "Metro: Last Light"
-category: Секретні
+group: Metro Last Light
+category: Secret
 order: 90
 image: llr-achievement-big-momma-icon.png
-brief: Kill the Rhino.
+brief: "Вбийте Носорога."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Silver / 20G

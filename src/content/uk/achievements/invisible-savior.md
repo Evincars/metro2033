@@ -1,11 +1,11 @@
 ---
 id: invisible-savior
 title: Невидимий спаситель
-group: "Metro: Last Light"
-category: Стандартні
+group: Metro Last Light
+category: Standard
 order: 66
 image: llr-achievement-invisible-savior-icon.png
-brief: Complete the FACILITY level without killing or raising alarm.
+brief: "Пройдіть рівень «FACILITY» без вбивств."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Silver / 20G

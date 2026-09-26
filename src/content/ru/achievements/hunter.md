@@ -2,10 +2,10 @@
 id: hunter
 title: Охотник
 group: Metro 2033 Redux
-category: Стандартные
+category: Standard
 order: 129
 image: 2033r_achievement_hunter_icon.png
-brief: Kill 200 mutants.
+brief: "Убейте 200 mutants."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 15G

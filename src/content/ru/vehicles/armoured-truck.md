@@ -1,7 +1,7 @@
 ---
 id: armoured-truck
 title: Бронегрузовик
-group: Бронетехника
+group: Armoured Vehicles
 order: 11
 image: /vehicle-imgs/armoured-truck.jpg
 brief: Бронегрузовик — бронированное транспортное средство.

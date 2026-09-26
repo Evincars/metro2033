@@ -2,7 +2,7 @@
 id: enlightened
 title: Просвітлений
 group: Metro 2033
-category: Секретні
+category: Secret
 order: 38
 image: ach-enlightened.jpg
 brief: Досягнення за порятунок Темних наприкінці Metro 2033 шляхом знищення системи наведення ракет.

@@ -1,11 +1,11 @@
 ---
 id: redemption-achievement-last-light-redux
 title: Искупление
-group: "Metro: Last Light Redux"
-category: Секретные
+group: Metro Last Light Redux
+category: Secret
 order: 212
 image: llr_achievement_redemption_icon.png
-brief: Save D6.
+brief: "Спасите Д-6."
 wiki: Achievements and Trophies
 appearances: Metro Last Light Redux
 score: Gold / 100G

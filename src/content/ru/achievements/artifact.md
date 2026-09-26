@@ -1,11 +1,11 @@
 ---
 id: artifact
 title: Артефакт
-group: "Metro: Last Light"
+group: Metro Last Light
 category: "DLC: Faction Pack"
 order: 106
 image: ll-achievement-artifact-icon.png
-brief: Find 30 artifacts.
+brief: "Найдите 30 артефактов."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 15G

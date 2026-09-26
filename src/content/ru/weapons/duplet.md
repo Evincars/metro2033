@@ -1,7 +1,7 @@
 ---
 id: duplet
 title: Дуплет
-group: Дробовики
+group: Shotguns
 order: 43
 image: /weapon-imgs/duplet.png
 brief: Дуплет — двуствольное ружьё с укороченными стволами.

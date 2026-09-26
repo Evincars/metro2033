@@ -5,7 +5,7 @@ group: Metro 2033
 category: "DLC: Ranger Mode"
 order: 44
 image: shocking.jpg
-brief: Get 50 kills with Volt Driver.
+brief: "Убейте 50 врагов из Вольт-драйвера."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 20G

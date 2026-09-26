@@ -1,11 +1,11 @@
 ---
 id: test-complete
 title: Тест пройдено
-group: "Metro: Last Light"
+group: Metro Last Light
 category: "DLC: Tower Pack"
 order: 107
 image: ll-achievement-test-complete-icon.png
-brief: Complete the TOWER level.
+brief: "Пройдіть рівень «TOWER»."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 15G

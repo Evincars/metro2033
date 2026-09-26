@@ -1,11 +1,11 @@
 ---
 id: big-momma-last-light-redux
 title: Большая мамочка
-group: "Metro: Last Light Redux"
-category: Секретные
+group: Metro Last Light Redux
+category: Secret
 order: 207
 image: llr_achievement_big_momma_icon.png
-brief: Kill the Rhino.
+brief: "Убейте Носорога."
 wiki: Achievements and Trophies
 appearances: Metro Last Light Redux
 score: Silver / 20G

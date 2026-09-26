@@ -2,10 +2,10 @@
 id: complete-road-map
 title: Полная дорожная карта
 group: Metro Exodus
-category: Стандартные
+category: Standard
 order: 221
 image: me-achievement-complete-road-map-icon.png
-brief: Find maps in the laboratory.
+brief: "Найдите карты в лаборатории."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

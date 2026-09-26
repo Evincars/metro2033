@@ -2,10 +2,10 @@
 id: railwayman
 title: Железнодорожник
 group: Metro Exodus
-category: Стандартные
+category: Standard
 order: 249
 image: me-achievement-railwayman-icon.png
-brief: Get into the Trolley.
+brief: "Сядьте на дрезину."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

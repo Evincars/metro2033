@@ -2,10 +2,10 @@
 id: full-strength
 title: На повну силу
 group: Metro Exodus
-category: Секретні
+category: Secret
 order: 266
 image: me-achievement-full-strength-icon.png
-brief: "Duke and Damir stay with the crew, Alyosha doesn't get wounded."
+brief: "Дюк і Дамір залишаються з екіпажем, Альоша не отримує поранення."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Gold / 60G

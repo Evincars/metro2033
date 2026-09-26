@@ -1,11 +1,11 @@
 ---
 id: developer-last-light-redux
 title: Разработчик
-group: "Metro: Last Light Redux"
-category: Стандартні
+group: Metro Last Light Redux
+category: Standard
 order: 174
 image: llr_achievement_developer_icon.png
-brief: Spend 3 hours on the DEVELOPER level.
+brief: "Проведіть 3 годин на рівні «DEVELOPER»."
 wiki: Achievements and Trophies
 appearances: Metro Last Light Redux
 score: Bronze / 15G

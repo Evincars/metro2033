@@ -1,11 +1,11 @@
 ---
 id: published
 title: Опубликовано
-group: "Metro: Last Light"
-category: Стандартные
+group: Metro Last Light
+category: Standard
 order: 60
 image: llr-achievement-published-icon.png
-brief: "Complete all 43 of Artyom's hidden Diary pages."
+brief: "Найдите все 43 скрытых страниц дневника Артёма."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Silver / 30G

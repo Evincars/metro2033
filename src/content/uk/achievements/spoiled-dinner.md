@@ -2,10 +2,10 @@
 id: spoiled-dinner
 title: Зіпсована вечеря
 group: Metro Exodus
-category: Стандартні
+category: Standard
 order: 255
 image: me-achievement-spoiled-dinner-icon.png
-brief: Complete the YAMANTAU level.
+brief: "Пройдіть рівень «YAMANTAU»."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

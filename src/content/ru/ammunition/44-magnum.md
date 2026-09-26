@@ -1,7 +1,7 @@
 ---
 id: 44-magnum
 title: .44 Магнум
-group: Пистолетные патроны
+group: Pistol Rounds
 order: 6
 image: 
 brief: Патроны .44 Магнум — мощные пистолетные патроны для револьвера.

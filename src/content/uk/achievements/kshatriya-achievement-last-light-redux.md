@@ -1,11 +1,11 @@
 ---
 id: kshatriya-achievement-last-light-redux
 title: Кшатрия
-group: "Metro: Last Light Redux"
-category: Стандартні
+group: Metro Last Light Redux
+category: Standard
 order: 183
 image: llr_achievement_kshatriya_icon.png
-brief: Complete the KSHATRIYA level.
+brief: "Пройдіть рівень «KSHATRIYA»."
 wiki: Achievements and Trophies
 appearances: Metro Last Light Redux
 score: Bronze / 15G

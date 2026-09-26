@@ -2,10 +2,10 @@
 id: ka-boom-2033-redux
 title: Ка-бум
 group: Metro 2033 Redux
-category: Стандартні
+category: Standard
 order: 132
 image: 2033r_achievement_ka-boom_icon.png
-brief: Explode 30 enemies.
+brief: "Підірвіть 30 ворогів."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 15G

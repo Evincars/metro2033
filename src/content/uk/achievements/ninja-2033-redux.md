@@ -2,10 +2,10 @@
 id: ninja-2033-redux
 title: Ніндзя
 group: Metro 2033 Redux
-category: Стандартні
+category: Standard
 order: 138
 image: 2033r_achievement_ninja_icon.png
-brief: Kill 30 enemies with throwing knives.
+brief: "Вбийте 30 ворогів за допомогою метальних ножів."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 10G

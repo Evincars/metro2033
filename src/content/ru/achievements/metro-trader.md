@@ -2,10 +2,10 @@
 id: metro-trader
 title: Торговец метро
 group: Metro 2033
-category: Стандартные
+category: Standard
 order: 1
 image: ach-metro-trader.jpg
-brief: Make 10 deals in weapon shops.
+brief: "Совершите 10 сделок в оружейных магазинах."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 20G

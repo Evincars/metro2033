@@ -1,11 +1,11 @@
 ---
 id: through-the-fire-last-light-redux
 title: Сквозь огонь
-group: "Metro: Last Light Redux"
-category: Стандартные
+group: Metro Last Light Redux
+category: Standard
 order: 202
 image: llr_achievement_through_the_fire_icon.png
-brief: Complete the SPIDER LAIR level.
+brief: "Пройдите уровень «SPIDER LAIR»."
 wiki: Achievements and Trophies
 appearances: Metro Last Light Redux
 score: Bronze / 15G

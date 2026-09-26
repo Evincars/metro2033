@@ -1,7 +1,7 @@
 ---
 id: trench-knife
 title: Окопный нож
-group: Холодное оружие
+group: Melee
 order: 1
 image: /weapon-imgs/trench-knife.png
 brief: Стандартное холодное оружие Артёма, используемое для бесшумных убийств и ближнего боя.

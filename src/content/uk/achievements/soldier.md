@@ -1,11 +1,11 @@
 ---
 id: soldier
 title: Солдат
-group: "Metro: Last Light"
-category: Стандартні
+group: Metro Last Light
+category: Standard
 order: 49
 image: llr-achievement-soldier-icon.png
-brief: Kill 100 Human Enemies.
+brief: "Вбийте 100 Human Enemies."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 15G

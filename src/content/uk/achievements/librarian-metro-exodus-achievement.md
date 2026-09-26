@@ -2,10 +2,10 @@
 id: librarian-metro-exodus-achievement
 title: Библиотекарь
 group: Metro Exodus
-category: Стандартні
+category: Standard
 order: 239
 image: me-achievement-librarian-icon.png
-brief: Find all 70 hidden Diary pages.
+brief: "Знайдіть усі 70 прихованих сторінок щоденника."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Silver / 40G

@@ -1,7 +1,7 @@
 ---
 id: clapper
 title: Клэппер
-group: Снайперские винтовки
+group: Sniper Rifles
 order: 30
 image: /weapon-imgs/clapper.png
 brief: Клэппер — самодельная снайперская винтовка, встречающаяся в Metro Exodus.

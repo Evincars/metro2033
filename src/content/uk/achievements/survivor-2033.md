@@ -2,10 +2,10 @@
 id: survivor-2033
 title: Той, хто вижив
 group: Metro 2033 Redux
-category: Стандартні
+category: Standard
 order: 157
 image: 2033r_achievement_survivor_2033_icon.png
-brief: Complete the game in Survivor Mode.
+brief: "Пройдіть гру в режимі «Той, хто вижив»."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Silver / 40G

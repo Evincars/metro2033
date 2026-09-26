@@ -1,11 +1,11 @@
 ---
 id: redemption-achievement
 title: Спокута
-group: "Metro: Last Light"
-category: Секретні
+group: Metro Last Light
+category: Secret
 order: 98
 image: llr-achievement-redemption-icon.png
-brief: Save D6.
+brief: "Врятуйте Д-6."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Gold / 100G

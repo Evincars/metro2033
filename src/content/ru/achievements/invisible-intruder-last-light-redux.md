@@ -1,11 +1,11 @@
 ---
 id: invisible-intruder-last-light-redux
 title: Невидимый нарушитель
-group: "Metro: Last Light Redux"
-category: Стандартные
+group: Metro Last Light Redux
+category: Standard
 order: 180
 image: llr_achievement_invisible_intruder_icon.png
-brief: Complete the SEPARATION level without killing or raising alarm.
+brief: "Пройдите уровень «SEPARATION» без убийств."
 wiki: Achievements and Trophies
 appearances: Metro Last Light Redux
 score: Bronze / 20G

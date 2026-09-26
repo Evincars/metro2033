@@ -2,10 +2,10 @@
 id: watchman-hunter
 title: Охотник на сторожей
 group: Metro 2033 Redux
-category: Стандартные
+category: Standard
 order: 161
 image: 2033r_achievement_watchman_hunter_icon.png
-brief: Kill 50 Watchmen.
+brief: "Убейте 50 сторожей."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 15G

@@ -1,11 +1,11 @@
 ---
 id: a-present
 title: Подарунок
-group: "Metro: Last Light"
-category: Стандартні
+group: Metro Last Light
+category: Standard
 order: 65
 image: ll-achievement-a-present-icon.png
-brief: Take the Custom Pistol from the Locked Box.
+brief: "Візьміть нестандартний пістолет із замкненої скриньки."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 10G

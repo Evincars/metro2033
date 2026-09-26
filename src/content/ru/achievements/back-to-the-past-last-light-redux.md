@@ -1,11 +1,11 @@
 ---
 id: back-to-the-past-last-light-redux
 title: Назад в прошлое
-group: "Metro: Last Light Redux"
-category: Стандартные
+group: Metro Last Light Redux
+category: Standard
 order: 170
 image: llr_achievement_back_to_the_past_icon.png
-brief: See all Visions in the Dead City.
+brief: "Увидьте все видения в Мёртвом городе."
 wiki: Achievements and Trophies
 appearances: Metro Last Light Redux
 score: Bronze / 20G

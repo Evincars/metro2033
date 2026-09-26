@@ -2,10 +2,10 @@
 id: saboteur-exodus
 title: Диверсант
 group: Metro Exodus
-category: Стандартні
+category: Standard
 order: 253
 image: me-achievement-saboteur-icon.png
-brief: Melee-kill or stun 50 enemies.
+brief: "Вбийте або оглушіть 50 ворогів у ближньому бою."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

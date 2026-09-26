@@ -2,10 +2,10 @@
 id: pathoanatomist
 title: Патологоанатом
 group: Metro 2033
-category: Стандартные
+category: Standard
 order: 23
 image: ach-pathoanatomist.jpg
-brief: Kill 5 ameobae.
+brief: "Убейте 5 амёб."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 20G

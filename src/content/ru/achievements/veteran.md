@@ -1,11 +1,11 @@
 ---
 id: veteran
 title: Ветеран
-group: "Metro: Last Light Redux"
-category: Стандартные
+group: Metro Last Light Redux
+category: Standard
 order: 205
 image: llr_achievement_veteran_icon.png
-brief: Choose three primary weapons that use different ammo.
+brief: "Выберите три основных оружия с разными типами боеприпасов."
 wiki: Achievements and Trophies
 appearances: Metro Last Light Redux
 score: Bronze / 15G

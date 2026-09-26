@@ -1,7 +1,7 @@
 ---
 id: lolife
 title: Лоулайф
-group: Пистолеты
+group: Handguns
 order: 11
 image: /weapon-imgs/lolife.png
 brief: Лоулайф — самодельный пистолет-пулемёт, используемый различными фракциями и бандитами в метро.

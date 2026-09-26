@@ -2,10 +2,10 @@
 id: cowboy
 title: Ковбой
 group: Metro 2033
-category: Стандартные
+category: Standard
 order: 12
 image: ach-cowboy.jpg
-brief: Kill 30 enemies using revolvers.
+brief: "Убейте 30 врагов, используя revolvers."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 30G

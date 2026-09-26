@@ -1,7 +1,7 @@
 ---
 id: rowboat
 title: Весловий човен
-group: Водний транспорт
+group: Watercraft
 order: 16
 image: /vehicle-imgs/rowboat.png
 brief: Весловий човен — простий водний транспорт без мотора.

@@ -1,7 +1,7 @@
 ---
 id: redemption
 title: Спокута
-group: "Metro: Last Light"
+group: Metro Last Light
 order: 4
 image: ach-redemption.webp
 brief: "Гарна кінцівка Metro: Last Light, в якій Маленький Темний рятує Д-6."

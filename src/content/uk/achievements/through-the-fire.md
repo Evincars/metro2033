@@ -1,11 +1,11 @@
 ---
 id: through-the-fire
 title: Сквозь вогонь
-group: "Metro: Last Light"
+group: Metro Last Light
 category: "DLC: Developer Pack"
 order: 111
 image: llr-achievement-through-the-fire-icon.png
-brief: Complete the SPIDER LAIR level.
+brief: "Пройдіть рівень «SPIDER LAIR»."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 15G

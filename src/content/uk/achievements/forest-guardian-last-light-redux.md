@@ -1,11 +1,11 @@
 ---
 id: forest-guardian-last-light-redux
 title: Вартовий лісу
-group: "Metro: Last Light Redux"
-category: Секретні
+group: Metro Last Light Redux
+category: Secret
 order: 209
 image: llr_achievement_forest_guardian_icon.png
-brief: Save the Bear from the Watchmen after the fight.
+brief: "Врятуйте ведмедя від вартових після бою."
 wiki: Achievements and Trophies
 appearances: Metro Last Light Redux
 score: Silver / 20G

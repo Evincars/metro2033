@@ -1,7 +1,7 @@
 ---
 id: valve
 title: Вентиль
-group: Снайперські гвинтівки
+group: Sniper Rifles
 order: 33
 image: /weapon-imgs/valve.png
 brief: Вентиль — пневматична гвинтівка з оптичним прицілом.

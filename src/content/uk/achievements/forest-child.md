@@ -2,10 +2,10 @@
 id: forest-child
 title: Дитя лісу
 group: Metro Exodus
-category: Стандартні
+category: Standard
 order: 228
 image: me-achievement-forest-child-icon.png
-brief: Complete the TAIGA level without attacking anyone or getting noticed.
+brief: "Пройдіть рівень «ТАЙГА» без нападів та виявлення."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

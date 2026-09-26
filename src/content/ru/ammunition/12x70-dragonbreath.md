@@ -1,7 +1,7 @@
 ---
 id: 12x70-dragonbreath
 title: 12×70 «Драконье дыхание»
-group: Дробовые патроны
+group: Shotgun Shells
 order: 9
 image: 
 brief: «Драконье дыхание» 12×70 — зажигательные дробовые патроны.

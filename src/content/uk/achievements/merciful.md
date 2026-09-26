@@ -2,10 +2,10 @@
 id: merciful
 title: Милосердний
 group: Metro 2033
-category: Стандартні
+category: Standard
 order: 21
 image: ach-merciful.jpg
-brief: "Complete the level \\"Black Station\\" without killing any Fascist soldiers."
+brief: "Пройдіть рівень «Чорна станція» без вбивств фашистських солдатів."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 30G

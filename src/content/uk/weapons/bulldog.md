@@ -1,7 +1,7 @@
 ---
 id: bulldog
 title: Бульдог
-group: Штурмові гвинтівки
+group: Assault Rifles
 order: 21
 image: /weapon-imgs/bulldog.png
 brief: Бульдог — штурмова гвинтівка з Metro Exodus.

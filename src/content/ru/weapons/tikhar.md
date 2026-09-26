@@ -1,7 +1,7 @@
 ---
 id: tikhar
 title: Тихарь
-group: Пневматическое оружие
+group: Pneumatic Weapons
 order: 51
 image: /weapon-imgs/tikhar.png
 brief: Тихарь — пневматическая винтовка, стреляющая шариками и требующая ручной подкачки.

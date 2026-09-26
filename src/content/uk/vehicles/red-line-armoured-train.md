@@ -1,7 +1,7 @@
 ---
 id: red-line-armoured-train
 title: Бронепотяг Червоної Лінії
-group: Рейковий транспорт
+group: Rail Vehicles
 order: 5
 image: /vehicle-imgs/red-line-armoured-train.jpg
 brief: Бронепотяг Червоної Лінії — важкоброньований потяг комуністів.

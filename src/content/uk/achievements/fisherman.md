@@ -2,10 +2,10 @@
 id: fisherman
 title: Рибалка
 group: Metro Exodus
-category: Стандартні
+category: Standard
 order: 227
 image: me-achievement-fisherman-icon.png
-brief: Kill the Catfish.
+brief: "Вбийте Сома."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

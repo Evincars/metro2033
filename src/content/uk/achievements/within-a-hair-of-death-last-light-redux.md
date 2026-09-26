@@ -1,11 +1,11 @@
 ---
 id: within-a-hair-of-death-last-light-redux
 title: На волосині від смерті
-group: "Metro: Last Light Redux"
-category: Секретні
+group: Metro Last Light Redux
+category: Secret
 order: 217
 image: llr_achievement_within_a_hair_of_death_icon.png
-brief: Escape from the Red Line.
+brief: "Втечіть від Червоної Лінії."
 wiki: Achievements and Trophies
 appearances: Metro Last Light Redux
 score: Bronze / 10G

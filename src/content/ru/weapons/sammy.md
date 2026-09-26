@@ -1,7 +1,7 @@
 ---
 id: sammy
 title: Сэмми
-group: Штурмовые винтовки
+group: Assault Rifles
 order: 25
 image: /weapon-imgs/sammy.png
 brief: Сэмми — полуавтоматическая винтовка калибра .44 Магнум.

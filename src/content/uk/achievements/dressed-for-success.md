@@ -2,10 +2,10 @@
 id: dressed-for-success
 title: Вдягнений для успіху
 group: Metro Exodus
-category: Стандартні
+category: Standard
 order: 223
 image: me-achievement-dressed-for-success-icon.png
-brief: "Find all upgrades for Artyom's suit."
+brief: "Знайдіть усі покращення для костюма Артема."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 20G

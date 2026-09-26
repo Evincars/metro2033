@@ -1,7 +1,7 @@
 ---
 id: shambler
 title: Шамблер
-group: Дробовики
+group: Shotguns
 order: 45
 image: /weapon-imgs/shambler.png
 brief: Шамблер — саморобний дробовик з різними режимами стрільби.

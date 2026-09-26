@@ -2,10 +2,10 @@
 id: rescue-ranger
 title: Рейнджер-спасатель
 group: Metro 2033
-category: Стандартные
+category: Standard
 order: 14
 image: ach-rescue-ranger.jpg
-brief: "Save a group of \\"Reds\\" from Fascist captivity."
+brief: "Спасите группу «красных» из фашистского плена."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 30G

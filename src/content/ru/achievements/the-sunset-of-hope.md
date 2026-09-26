@@ -1,11 +1,11 @@
 ---
 id: the-sunset-of-hope
 title: Закат надежды
-group: "Metro: Last Light"
+group: Metro Last Light
 category: "DLC: Chronicles Pack"
 order: 115
 image: llr-achievement-the-sunset-of-hope-icon.png
-brief: Complete the ANNA level.
+brief: "Пройдите уровень «ANNA»."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 15G

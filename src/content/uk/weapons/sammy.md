@@ -1,7 +1,7 @@
 ---
 id: sammy
 title: Семмі
-group: Штурмові гвинтівки
+group: Assault Rifles
 order: 25
 image: /weapon-imgs/sammy.png
 brief: Семмі — напівавтоматична гвинтівка калібру .44 Магнум.

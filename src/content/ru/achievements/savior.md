@@ -1,11 +1,11 @@
 ---
 id: savior
 title: Спаситель
-group: "Metro: Last Light"
-category: Секретные
+group: Metro Last Light
+category: Secret
 order: 91
 image: ll-achievement-savior-icon.png
-brief: Remove your mask when Lesnitsky demands it.
+brief: "Снимите маску, когда Лесницкий потребует."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Silver / 20G

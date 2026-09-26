@@ -2,10 +2,10 @@
 id: tonic-man
 title: Тоник
 group: Metro 2033 Redux
-category: Стандартные
+category: Standard
 order: 159
 image: 2033r_achievement_tonic_man_icon.png
-brief: Use a Medkit 75 times.
+brief: "Используйте аптечку 75 раз."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 10G

@@ -1,11 +1,11 @@
 ---
 id: first-draft
 title: Перший чернетка
-group: "Metro: Last Light"
-category: Стандартні
+group: Metro Last Light
+category: Standard
 order: 59
 image: ll-achievement-first-draft-icon.png
-brief: "Write 10 of Artyom's hidden Diary pages."
+brief: "Знайдіть 10 прихованих сторінок щоденника Артема."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 10G

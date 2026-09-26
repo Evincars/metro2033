@@ -2,10 +2,10 @@
 id: dj-artyom-2033-redux
 title: Диджей Артём
 group: Metro 2033 Redux
-category: Стандартные
+category: Standard
 order: 123
 image: 2033r_achievement_dj_artyom_icon.png
-brief: "On the level OUTPOST reach the radio tower and broadcast the commander's message."
+brief: "На уровне «Аванпост» доберитесь до радиовышки и передайте сообщение командира."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 30G

@@ -1,11 +1,11 @@
 ---
 id: inferno
 title: Инферно
-group: "Metro: Last Light"
-category: Стандартные
+group: Metro Last Light
+category: Standard
 order: 52
 image: ll-achievement-inferno-icon.png
-brief: Set 2 Enemies on fire at once.
+brief: "Подожгите 2 врагов одновременно."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 10G

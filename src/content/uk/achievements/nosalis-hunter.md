@@ -2,10 +2,10 @@
 id: nosalis-hunter
 title: Мисливець на носалисов
 group: Metro 2033
-category: Стандартні
+category: Standard
 order: 3
 image: ach-nosalis-hunter.jpg
-brief: Kill 30 nosalises.
+brief: "Вбийте 91 носаліса."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 30G

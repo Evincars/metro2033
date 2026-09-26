@@ -1,11 +1,11 @@
 ---
 id: kshatriya-achievement
 title: Кшатрия
-group: "Metro: Last Light"
+group: Metro Last Light
 category: "DLC: Faction Pack"
 order: 105
 image: llr-achievement-kshatriya-icon.png
-brief: Complete the KSHATRIYA level.
+brief: "Пройдіть рівень «KSHATRIYA»."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 15G

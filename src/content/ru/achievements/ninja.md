@@ -2,10 +2,10 @@
 id: ninja
 title: Ниндзя
 group: Metro 2033
-category: Стандартные
+category: Standard
 order: 17
 image: ach-ninja.jpg
-brief: Kill 10 enemies with throwing knives.
+brief: "Убейте 10 врагов с помощью метательных ножей."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 30G

@@ -2,10 +2,10 @@
 id: eternal-voyage
 title: Вічна подорож
 group: Metro Exodus
-category: Секретні
+category: Secret
 order: 265
 image: me-achievement-eternal-voyage-icon.png
-brief: Погана кінцівка Metro Exodus, в якій Артем помирає від радіації.
+brief: "Врятуйте Анну, заплативши найвищу ціну."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Silver / 40G

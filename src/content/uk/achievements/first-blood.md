@@ -2,10 +2,10 @@
 id: first-blood
 title: Перша кров
 group: Metro 2033
-category: Секретні
+category: Secret
 order: 36
 image: ach-first-blood.jpg
-brief: "What doesn't kill you, makes you stronger."
+brief: "Що нас не вбиває, робить нас сильнішими."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 5G

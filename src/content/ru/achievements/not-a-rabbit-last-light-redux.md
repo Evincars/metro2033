@@ -1,11 +1,11 @@
 ---
 id: not-a-rabbit-last-light-redux
 title: Не кролик
-group: "Metro: Last Light Redux"
-category: Стандартные
+group: Metro Last Light Redux
+category: Standard
 order: 188
 image: llr_achievement_not_a_rabbit_icon.png
-brief: Finish the ASHES level without taking a hit.
+brief: "Пройдите уровень «ПЕПЕЛ» без получения урона."
 wiki: Achievements and Trophies
 appearances: Metro Last Light Redux
 score: Bronze / 10G

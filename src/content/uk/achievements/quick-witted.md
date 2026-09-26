@@ -2,10 +2,10 @@
 id: quick-witted
 title: Кмітливий
 group: Metro 2033
-category: Секретні
+category: Secret
 order: 37
 image: ach-quick-witted.jpg
-brief: Break the support and activate the chandelier in less than 20 seconds.
+brief: "Зламайте опору та активуйте люстру менш ніж за 20 секунд."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 30G

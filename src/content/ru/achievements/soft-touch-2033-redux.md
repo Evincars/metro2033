@@ -2,10 +2,10 @@
 id: soft-touch-2033-redux
 title: Мягкая рука
 group: Metro 2033 Redux
-category: Стандартные
+category: Standard
 order: 153
 image: 2033r_achievement_soft_touch_icon.png
-brief: Disarm 15 wire traps.
+brief: "Обезвредьте 15 проволочных ловушек."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 10G

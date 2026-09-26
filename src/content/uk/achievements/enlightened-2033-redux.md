@@ -2,10 +2,10 @@
 id: enlightened-2033-redux
 title: Просвітлений
 group: Metro 2033 Redux
-category: Секретні
+category: Secret
 order: 165
 image: 2033r_achievement_enlightened_icon.png
-brief: Find the truth.
+brief: "Знайдіть істину."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Gold / 50G

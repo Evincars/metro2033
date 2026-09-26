@@ -2,10 +2,10 @@
 id: spartan-2033
 title: Спартанец
 group: Metro 2033 Redux
-category: Стандартные
+category: Standard
 order: 154
 image: 2033r_achievement_spartan_2033_icon.png
-brief: Complete the game in Spartan Mode.
+brief: "Пройдите игру в режиме «Спартанец»."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Gold / 40G

@@ -5,7 +5,7 @@ group: Metro 2033
 category: "DLC: Ranger Mode"
 order: 41
 image: lls.gif
-brief: Complete the game in Ranger Mode Hardcore.
+brief: "Пройдите игру в режиме «Рейнджер Хардкор»."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 50G

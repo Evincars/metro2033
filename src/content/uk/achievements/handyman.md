@@ -2,10 +2,10 @@
 id: handyman
 title: Майстер на всі руки
 group: Metro Exodus
-category: Стандартні
+category: Standard
 order: 232
 image: me-achievement-handyman-icon.png
-brief: Spend 500 consumable resources on crafting.
+brief: "Витратіть 500 витратних ресурсів на крафт."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

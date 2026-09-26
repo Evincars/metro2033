@@ -1,11 +1,11 @@
 ---
 id: no-shooting-allowed
 title: Стрільба заборонена
-group: "Metro: Last Light"
-category: Стандартні
+group: Metro Last Light
+category: Standard
 order: 84
 image: llr-achievement-no-shooting-allowed-icon.png
-brief: Kill 10 enemies in a row with Throwing Knives.
+brief: "Вбийте 10 enemies in a row with Throwing Knives."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 15G

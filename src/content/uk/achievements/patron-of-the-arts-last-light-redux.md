@@ -1,11 +1,11 @@
 ---
 id: patron-of-the-arts-last-light-redux
 title: Покровитель мистецтв
-group: "Metro: Last Light Redux"
-category: Стандартні
+group: Metro Last Light Redux
+category: Standard
 order: 189
 image: llr_achievement_patron_of_the_arts_icon.png
-brief: Watch the entire Theater Show.
+brief: "Подивіться все театральне шоу."
 wiki: Achievements and Trophies
 appearances: Metro Last Light Redux
 score: Bronze / 10G

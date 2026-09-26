@@ -1,11 +1,11 @@
 ---
 id: survivor-2034
 title: Выживший
-group: "Metro: Last Light Redux"
-category: Стандартные
+group: Metro Last Light Redux
+category: Standard
 order: 200
 image: llr_achievement_survivor_2034_icon.png
-brief: Complete the game in Survival Mode.
+brief: "Пройдите игру в режиме «Выживание»."
 wiki: Achievements and Trophies
 appearances: Metro Last Light Redux
 score: Gold / 50G

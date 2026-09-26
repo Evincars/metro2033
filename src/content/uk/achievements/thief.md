@@ -2,10 +2,10 @@
 id: thief
 title: Злодій
 group: Metro 2033 Redux
-category: Стандартні
+category: Standard
 order: 147
 image: 2033r_achievement_thief_icon.png
-brief: Open 15 locked safe boxes.
+brief: "Відкрийте 15 замкнених сейфів."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Silver / 40G

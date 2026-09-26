@@ -1,11 +1,11 @@
 ---
 id: reunion-last-light-redux
 title: Воссоединение
-group: "Metro: Last Light Redux"
-category: Стандартные
+group: Metro Last Light Redux
+category: Standard
 order: 194
 image: llr_achievement_reunion_icon.png
-brief: "Find and return the crying child's Teddy Bear."
+brief: "Найдите и верните плюшевого мишку плачущему ребёнку."
 wiki: Achievements and Trophies
 appearances: Metro Last Light Redux
 score: Bronze / 10G

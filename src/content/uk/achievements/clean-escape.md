@@ -1,11 +1,11 @@
 ---
 id: clean-escape
 title: Чистий втеча
-group: "Metro: Last Light"
-category: Стандартні
+group: Metro Last Light
+category: Standard
 order: 63
 image: llr-achievement-clean-escape-icon.png
-brief: Escape the chasing Nazis on the REICH level without being caught once.
+brief: "Втечіть від нацистів на рівні «РЕЙХ», не потрапивши в полон."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 10G

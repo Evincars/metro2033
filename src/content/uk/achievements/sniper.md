@@ -2,10 +2,10 @@
 id: sniper
 title: Снайпер
 group: Metro 2033 Redux
-category: Стандартні
+category: Standard
 order: 151
 image: 2033r_achievement_sniper_icon.png
-brief: Kill 30 human enemies with headshots.
+brief: "Вбийте 25 ворогів влучаннями в голову."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 10G

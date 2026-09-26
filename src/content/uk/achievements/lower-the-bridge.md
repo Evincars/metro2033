@@ -2,10 +2,10 @@
 id: lower-the-bridge
 title: Опустити міст
 group: Metro Exodus
-category: Стандартні
+category: Standard
 order: 242
 image: me-achievement-lower-the-bridge-icon.png
-brief: Complete the VOLGA level.
+brief: "Пройдіть рівень «VOLGA»."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

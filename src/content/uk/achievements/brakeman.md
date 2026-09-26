@@ -2,10 +2,10 @@
 id: brakeman
 title: Тормозной
 group: Metro Exodus
-category: Секретні
+category: Secret
 order: 261
 image: me-achievement-brakeman-icon.png
-brief: Detach all train cars on the MOSCOW level.
+brief: "Від'єднайте всі вагони на рівні «МОСКВА»."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

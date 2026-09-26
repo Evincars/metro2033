@@ -2,10 +2,10 @@
 id: raider
 title: Рейдер
 group: Metro 2033 Redux
-category: Стандартные
+category: Standard
 order: 144
 image: 2033r_achievement_raider_icon.png
-brief: On the level DEPOT silently kill the first guard and break into the Fascist station unnoticed
+brief: "На уровне «Депо» бесшумно убейте первого охранника и проникните на фашистскую станцию."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 15G

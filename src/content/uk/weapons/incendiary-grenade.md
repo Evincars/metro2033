@@ -1,7 +1,7 @@
 ---
 id: incendiary-grenade
 title: Запальна граната
-group: Метальне та вибухівка
+group: Throwables & Explosives
 order: 70
 image: /weapon-imgs/incendiary-grenade.png
 brief: Запальна граната — метальна зброя, що створює зону горіння.

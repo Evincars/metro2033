@@ -1,11 +1,11 @@
 ---
 id: developer
 title: Разработчик
-group: "Metro: Last Light"
+group: Metro Last Light
 category: "DLC: Developer Pack"
 order: 109
 image: llr-achievement-developer-icon.png
-brief: Spend 3 hours on the DEVELOPER level.
+brief: "Проведите 3 часов на уровне «DEVELOPER»."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 15G

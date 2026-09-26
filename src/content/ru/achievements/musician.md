@@ -1,11 +1,11 @@
 ---
 id: musician
 title: Музыкант
-group: "Metro: Last Light"
-category: Стандартные
+group: Metro Last Light
+category: Standard
 order: 58
 image: ll-achievement-musician-icon.png
-brief: Use all Musical Instruments in the game.
+brief: "Используйте все музыкальные инструменты в игре."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 10G

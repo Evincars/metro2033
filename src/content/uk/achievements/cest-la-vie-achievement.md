@@ -1,11 +1,11 @@
 ---
 id: cest-la-vie-achievement
 title: Таке життя
-group: "Metro: Last Light"
-category: Секретні
+group: Metro Last Light
+category: Secret
 order: 97
 image: llr-achievement-cest-la-vie-icon.png
-brief: Destroy D6.
+brief: "Знищіть Д-6."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Gold / 80G

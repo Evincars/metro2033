@@ -1,7 +1,7 @@
 ---
 id: flamethrower
 title: Вогнемет
-group: Важка зброя
+group: Heavy Weapons
 order: 60
 image: /weapon-imgs/flamethrower.png
 brief: "Вогнемет — важка зброя, що випускає струмінь полум'я."

@@ -1,11 +1,11 @@
 ---
 id: bloodlust
 title: Жажда крови
-group: "Metro: Last Light"
-category: Стандартные
+group: Metro Last Light
+category: Standard
 order: 79
 image: ll-achievement-bloodlust-icon.png
-brief: Kill all the Reds on the THE CHASE level.
+brief: "Убейте всех «красных» на уровне «ПОГОНЯ»."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 10G

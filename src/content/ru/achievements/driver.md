@@ -2,10 +2,10 @@
 id: driver
 title: Водитель
 group: Metro Exodus
-category: Стандартные
+category: Standard
 order: 224
 image: me-achievement-driver-icon.png
-brief: Drive the Bukhanka.
+brief: "Управляйте «Буханкой»."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

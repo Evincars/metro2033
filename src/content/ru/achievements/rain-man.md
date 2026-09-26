@@ -1,11 +1,11 @@
 ---
 id: rain-man
 title: Человек дождя
-group: "Metro: Last Light"
-category: Стандартные
+group: Metro Last Light
+category: Standard
 order: 81
 image: llr-achievement-rain-man-icon.png
-brief: Complete the BRIDGE level without a kill.
+brief: "Пройдите уровень «BRIDGE» без убийств."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 30G

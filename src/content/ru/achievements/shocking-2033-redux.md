@@ -2,10 +2,10 @@
 id: shocking-2033-redux
 title: Шокирующий
 group: Metro 2033 Redux
-category: Стандартные
+category: Standard
 order: 149
 image: 2033r_achievement_shocking_icon.png
-brief: Get 30 kills with Hellbreath.
+brief: "Убейте 30 врагов из «Адского дыхания»."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 15G

@@ -2,10 +2,10 @@
 id: air-bender-2033-redux
 title: Володар повітря
 group: Metro 2033 Redux
-category: Стандартні
+category: Standard
 order: 120
 image: 2033r_achievement_air_bender_icon.png
-brief: Kill 50 humans with pneumatic weapons.
+brief: "Вбийте 50 людей за допомогою пневматичної зброї."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 15G

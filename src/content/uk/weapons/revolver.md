@@ -1,7 +1,7 @@
 ---
 id: revolver
 title: Револьвер
-group: Пістолети
+group: Handguns
 order: 12
 image: /weapon-imgs/revolver.png
 brief: Револьвер — довоєнна вогнепальна зброя калібру .44 Магнум.

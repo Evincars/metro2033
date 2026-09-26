@@ -1,11 +1,11 @@
 ---
 id: heads-up-last-light-redux
 title: Берегись
-group: "Metro: Last Light Redux"
-category: Стандартные
+group: Metro Last Light Redux
+category: Standard
 order: 179
 image: llr_achievement_heads_up_icon.png
-brief: Complete the PAVEL level.
+brief: "Пройдите уровень «PAVEL»."
 wiki: Achievements and Trophies
 appearances: Metro Last Light Redux
 score: Bronze / 15G

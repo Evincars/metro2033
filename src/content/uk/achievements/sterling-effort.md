@@ -5,7 +5,7 @@ group: Metro 2033
 category: "DLC: Ranger Mode"
 order: 47
 image: sterlingeffort.jpg
-brief: Kill 50 mutants with your knife.
+brief: "Вбийте 50 мутантів за допомогою ножа."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 20G

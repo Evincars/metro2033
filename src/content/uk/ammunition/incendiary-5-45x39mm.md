@@ -1,7 +1,7 @@
 ---
 id: incendiary-5-45x39mm
 title: Запальні 5,45×39 мм
-group: Гвинтівкові набої
+group: Rifle Rounds
 order: 3
 image: 
 brief: Запальні набої 5,45×39 мм — спеціальні боєприпаси із запальним ефектом.

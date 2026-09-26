@@ -2,10 +2,10 @@
 id: thief
 title: Вор
 group: Metro 2033 Redux
-category: Стандартные
+category: Standard
 order: 147
 image: 2033r_achievement_thief_icon.png
-brief: Open 15 locked safe boxes.
+brief: "Откройте 15 запертых сейфов."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Silver / 40G

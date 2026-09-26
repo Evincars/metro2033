@@ -1,7 +1,7 @@
 ---
 id: armoured-truck
 title: Бронеавтомобіль
-group: Бронетехніка
+group: Armoured Vehicles
 order: 11
 image: /vehicle-imgs/armoured-truck.jpg
 brief: Бронеавтомобіль — броньований транспортний засіб.

@@ -1,7 +1,7 @@
 ---
 id: flamethrower
 title: Огнемёт
-group: Тяжёлое оружие
+group: Heavy Weapons
 order: 60
 image: /weapon-imgs/flamethrower.png
 brief: Огнемёт — тяжёлое оружие, выстреливающее струю пламени.

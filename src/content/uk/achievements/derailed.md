@@ -1,11 +1,11 @@
 ---
 id: derailed
 title: Зхід з рейок
-group: "Metro: Last Light"
-category: Стандартні
+group: Metro Last Light
+category: Standard
 order: 70
 image: ll-achievement-derailed-icon.png
-brief: Kill all armed enemies on the REVOLUTION level, including all reinforcements.
+brief: "Вбийте всіх armed enemies на рівні «REVOLUTION»."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 10G

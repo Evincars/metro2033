@@ -1,7 +1,7 @@
 ---
 id: panzer
 title: Панцер
-group: Бронетехніка
+group: Armoured Vehicles
 order: 8
 image: /vehicle-imgs/panzer.jpg
 brief: Панцер — саморобна бронемашина фашистів Четвертого Рейху.

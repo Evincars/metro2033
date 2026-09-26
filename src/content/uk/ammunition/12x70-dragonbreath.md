@@ -1,7 +1,7 @@
 ---
 id: 12x70-dragonbreath
 title: 12×70 «Драконяче дихання»
-group: Дробові набої
+group: Shotgun Shells
 order: 9
 image: 
 brief: «Драконяче дихання» 12×70 — запальні дробові набої.

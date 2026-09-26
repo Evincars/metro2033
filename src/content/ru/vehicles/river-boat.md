@@ -1,7 +1,7 @@
 ---
 id: river-boat
 title: Речной катер
-group: Водный транспорт
+group: Watercraft
 order: 17
 image: 
 brief: Речной катер — водный транспорт для передвижения по рекам.

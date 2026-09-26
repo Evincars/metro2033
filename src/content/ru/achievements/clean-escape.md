@@ -1,11 +1,11 @@
 ---
 id: clean-escape
 title: Чистый побег
-group: "Metro: Last Light"
-category: Стандартные
+group: Metro Last Light
+category: Standard
 order: 63
 image: llr-achievement-clean-escape-icon.png
-brief: Escape the chasing Nazis on the REICH level without being caught once.
+brief: "Сбегите от преследующих нацистов на уровне «РЕЙХ», не попавшись ни разу."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 10G

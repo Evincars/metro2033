@@ -2,10 +2,10 @@
 id: hedge-hopper-2033-redux
 title: Верхолаз
 group: Metro 2033 Redux
-category: Стандартные
+category: Standard
 order: 128
 image: 2033r_achievement_hedge-hopper_icon.png
-brief: On the level FRONTLINE kill all of the enemy Red Army and Fascist Soldiers.
+brief: "На уровне «Линия фронта» убейте всех солдатов Красной Армии и фашистов."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 30G

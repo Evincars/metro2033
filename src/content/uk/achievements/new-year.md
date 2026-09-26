@@ -5,7 +5,7 @@ group: Metro Exodus
 category: "DLC: The Two Colonels"
 order: 274
 image: me-achievement-new-year-icon.png
-brief: Celebrate the New Year in THE TWO COLONELS Chapter.
+brief: "Відсвяткуйте Новий рік у главі «ДВА ПОЛКОВНИКИ»."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

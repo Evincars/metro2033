@@ -1,11 +1,11 @@
 ---
 id: ever-vigilant-last-light-redux
 title: Завжди напоготові
-group: "Metro: Last Light Redux"
-category: Стандартні
+group: Metro Last Light Redux
+category: Standard
 order: 177
 image: llr_achievement_ever_vigilant_icon.png
-brief: Disarm 10 Traps.
+brief: "Знешкодьте 10 пасток."
 wiki: Achievements and Trophies
 appearances: Metro Last Light Redux
 score: Bronze / 10G

@@ -1,7 +1,7 @@
 ---
 id: clapper
 title: Клеппер
-group: Снайперські гвинтівки
+group: Sniper Rifles
 order: 30
 image: /weapon-imgs/clapper.png
 brief: Клеппер — саморобна снайперська гвинтівка з Metro Exodus.

@@ -1,11 +1,11 @@
 ---
 id: shadow-ranger
 title: Теневой рейнджер
-group: "Metro: Last Light"
-category: Стандартные
+group: Metro Last Light
+category: Standard
 order: 87
 image: ll-achievement-shadow-ranger-icon.png
-brief: Complete the game without killing any Humans unless forced to.
+brief: "Пройдите игру, не убивая людей без необходимости."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Silver / 70G

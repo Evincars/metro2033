@@ -1,7 +1,7 @@
 ---
 id: automatic-train
 title: Автоматический поезд
-group: Рельсовый транспорт
+group: Rail Vehicles
 order: 3
 image: /vehicle-imgs/automatic-train.png
 brief: Автоматический поезд — беспилотный поезд метро.

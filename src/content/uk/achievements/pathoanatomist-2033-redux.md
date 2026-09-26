@@ -2,10 +2,10 @@
 id: pathoanatomist-2033-redux
 title: Патологоанатом
 group: Metro 2033 Redux
-category: Стандартні
+category: Standard
 order: 140
 image: 2033r_achievement_pathoanatomist_icon.png
-brief: Kill 5 amoebas.
+brief: "Вбийте 5 амеб."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 10G

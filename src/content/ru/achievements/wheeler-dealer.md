@@ -2,10 +2,10 @@
 id: wheeler-dealer
 title: Барыга
 group: Metro 2033
-category: Стандартные
+category: Standard
 order: 2
 image: ach-wheeler-dealer.jpg
-brief: Exchange 500 Military Grade 5.45 rounds at Exchange kiosks.
+brief: "Обменяйте 500 патронов военного образца 5,45 в обменных киосках."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 25G

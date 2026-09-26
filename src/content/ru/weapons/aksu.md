@@ -1,7 +1,7 @@
 ---
 id: aksu
 title: АКСУ (АКС-74У)
-group: Штурмовые винтовки
+group: Assault Rifles
 order: 20
 image: /weapon-imgs/aksu.png
 brief: АКСУ (АКС-74У) — компактный штурмовой автомат, укороченная версия АК-74.

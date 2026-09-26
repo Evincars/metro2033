@@ -2,10 +2,10 @@
 id: exodus-achievement
 title: Вихід
 group: Metro Exodus
-category: Стандартні
+category: Standard
 order: 225
 image: me_achievement_exodus_icon.png
-brief: Complete the MOSCOW level.
+brief: "Пройдіть рівень «MOSCOW»."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

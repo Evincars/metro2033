@@ -2,10 +2,10 @@
 id: marksman
 title: Меткий стрілець
 group: Metro 2033 Redux
-category: Стандартні
+category: Standard
 order: 152
 image: 2033r_achievement_marksman_icon.png
-brief: "Kill 15 human enemies with Headshots from at least 30 meters' distance."
+brief: "Вбийте 15 human enemies with Headshots from at least 30 meters' distance."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 30G

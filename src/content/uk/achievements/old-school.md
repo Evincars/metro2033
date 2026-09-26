@@ -2,10 +2,10 @@
 id: old-school
 title: Стара школа
 group: Metro 2033
-category: Стандартні
+category: Standard
 order: 8
 image: ach-old-school.jpg
-brief: Kill 30 enemies with the double-barreled shotgun.
+brief: "Вбийте 30 ворогів за допомогою the double-barreled shotgun."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 30G

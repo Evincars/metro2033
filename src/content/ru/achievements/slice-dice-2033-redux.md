@@ -2,10 +2,10 @@
 id: slice-dice-2033-redux
 title: Нарезка
 group: Metro 2033 Redux
-category: Стандартные
+category: Standard
 order: 150
 image: 2033r_achievement_slice_n_dice_icon.png
-brief: Kill 30 human enemies in close combat.
+brief: "Убейте 30 human enemies in close combat."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 10G

@@ -1,7 +1,7 @@
 ---
 id: rpk
 title: РПК
-group: Штурмові гвинтівки
+group: Assault Rifles
 order: 24
 image: /weapon-imgs/rpk.png
 brief: РПК — ручний кулемет з високою точністю та великою ємністю магазину.

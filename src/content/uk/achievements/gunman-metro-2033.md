@@ -5,7 +5,7 @@ group: Metro 2033
 category: "DLC: Ranger Mode"
 order: 42
 image: gunman.jpg
-brief: Kill 50 enemies with Heavy Automatic Shotgun.
+brief: "Вбийте 100 ворогів."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 20G

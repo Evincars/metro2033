@@ -1,7 +1,7 @@
 ---
 id: red-line-tank
 title: Танк Червоної Лінії
-group: Бронетехніка
+group: Armoured Vehicles
 order: 10
 image: /vehicle-imgs/red-line-tank.jpg
 brief: Танк Червоної Лінії — бронетехніка комуністів.

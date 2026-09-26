@@ -2,10 +2,10 @@
 id: gunsmith
 title: Оружейник
 group: Metro Exodus
-category: Стандартные
+category: Standard
 order: 231
 image: me-achievement-gunsmith-icon.png
-brief: Install a modification of each category on a single weapon.
+brief: "Установите модификацию каждой категории на одно оружие."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 20G

@@ -1,7 +1,7 @@
 ---
 id: abzats
 title: Абзац
-group: Дробовики
+group: Shotguns
 order: 40
 image: /weapon-imgs/abzats.png
 brief: Абзац — важкий автоматичний дробовик з барабанним магазином.

@@ -1,7 +1,7 @@
 ---
 id: preved
 title: Превед
-group: Снайперские винтовки
+group: Sniper Rifles
 order: 32
 image: /weapon-imgs/preved.png
 brief: Превед — самодельная антиматериальная винтовка.

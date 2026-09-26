@@ -5,7 +5,7 @@ group: Metro 2033
 category: "DLC: Ranger Mode"
 order: 40
 image: survivor.jpg
-brief: Complete the game in Ranger Mode Easy.
+brief: "Пройдіть гру в режимі «Рейнджер Легкий»."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 30G

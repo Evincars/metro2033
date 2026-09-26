@@ -1,7 +1,7 @@
 ---
 id: military-grade-rounds
 title: Патроны военного образца
-group: Винтовочные патроны
+group: Rifle Rounds
 order: 2
 image: /ammo-imgs/military-grade-rounds.jpg
 brief: Патроны военного образца — довоенные боеприпасы высокого качества, используемые как валюта в метро.

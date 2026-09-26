@@ -2,10 +2,10 @@
 id: raider-achievement
 title: Рейдер
 group: Metro 2033
-category: Стандартные
+category: Standard
 order: 16
 image: ach-raider.jpg
-brief: "On the level \\"Depot\\" silently kill the first guard and break into the Fascist station unnoticed."
+brief: "На уровне «Депо» бесшумно убейте первого охранника и проникните на фашистскую станцию."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 30G

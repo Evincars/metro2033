@@ -2,10 +2,10 @@
 id: gunman
 title: Стрелок
 group: Metro 2033 Redux
-category: Стандартные
+category: Standard
 order: 126
 image: 2033r_achievement_gunman_icon.png
-brief: Kill 100 enemies with shotguns.
+brief: "Убейте 30 врагов из дробовиков."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 10G

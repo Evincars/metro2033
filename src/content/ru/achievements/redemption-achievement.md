@@ -1,11 +1,11 @@
 ---
 id: redemption-achievement
 title: Искупление
-group: "Metro: Last Light"
-category: Секретные
+group: Metro Last Light
+category: Secret
 order: 98
 image: llr-achievement-redemption-icon.png
-brief: Save D6.
+brief: "Спасите Д-6."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Gold / 100G

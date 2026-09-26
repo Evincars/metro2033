@@ -2,10 +2,10 @@
 id: blogger
 title: Блогер
 group: Metro 2033 Redux
-category: Стандартные
+category: Standard
 order: 141
 image: 2033r_achievement_blogger_icon.png
-brief: "Complete all 51 of Artyom's hidden Diary pages."
+brief: "Найдите все 51 скрытых страниц дневника Артёма."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Silver / 40G

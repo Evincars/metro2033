@@ -5,7 +5,7 @@ group: Metro Exodus
 category: "DLC: Sam's Story"
 order: 284
 image: me_achievement_untouchable_icon.png
-brief: "Complete SAM'S STORY on Normal or higher difficulty without dying in Batwing encounters."
+brief: "Пройдіть «SAM'S STORY» на нормальній складності або вище без смертей."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 40G

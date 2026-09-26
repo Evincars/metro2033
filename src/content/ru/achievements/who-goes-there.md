@@ -2,10 +2,10 @@
 id: who-goes-there
 title: Кто идёт?
 group: Metro 2033 Redux
-category: Стандартные
+category: Standard
 order: 164
 image: 2033r_achievement_who_goes_there_icon.png
-brief: Wipe your Gas Mask 20 times.
+brief: "Протрите противогаз 20 раз."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 10G

@@ -1,11 +1,11 @@
 ---
 id: weapon-smith-metro-last-light
 title: Оружейник
-group: "Metro: Last Light"
-category: Стандартные
+group: Metro Last Light
+category: Standard
 order: 86
 image: ll-achievement-weapon-smith-icon.png
-brief: Install all possible Customizations for a Weapon.
+brief: "Установите все возможные модификации на одно оружие."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 15G

@@ -1,11 +1,11 @@
 ---
 id: hail-reich
 title: Слава Рейху
-group: "Metro: Last Light"
+group: Metro Last Light
 category: "DLC: Faction Pack"
 order: 101
 image: llr-achievement-hail-reich-icon.png
-brief: Complete the HEAVY SQUAD level.
+brief: "Пройдіть рівень «HEAVY SQUAD»."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 15G

@@ -1,11 +1,11 @@
 ---
 id: diver
 title: Водолаз
-group: "Metro: Last Light"
-category: Стандартные
+group: Metro Last Light
+category: Standard
 order: 76
 image: ll-achievement-diver-icon.png
-brief: Fall in the Swamp 10 times.
+brief: "Упадите в болото 10 раз."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 10G

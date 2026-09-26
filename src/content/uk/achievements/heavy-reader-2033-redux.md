@@ -2,10 +2,10 @@
 id: heavy-reader-2033-redux
 title: Важкий чтец
 group: Metro 2033 Redux
-category: Стандартні
+category: Standard
 order: 127
 image: 2033r_achievement_heavy_reader_icon.png
-brief: Kill a librarian.
+brief: "Вбийте бібліотекаря."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 10G

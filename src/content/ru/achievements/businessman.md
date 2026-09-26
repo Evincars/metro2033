@@ -1,11 +1,11 @@
 ---
 id: businessman
 title: Бизнесмен
-group: "Metro: Last Light"
-category: Стандартные
+group: Metro Last Light
+category: Standard
 order: 56
 image: ll-achievement-businessman-icon.png
-brief: Make 100 Purchases.
+brief: "Совершите 100 покупок."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 10G

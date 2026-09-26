@@ -5,7 +5,7 @@ group: Metro Exodus
 category: "DLC: The Two Colonels"
 order: 273
 image: me-achievement-mind-you-its-quite-heavy-icon.png
-brief: "Kill 3 Nosalises with flamethrower's melee attack in THE TWO COLONELS Chapter."
+brief: "Убейте 3 Nosalises with flamethrower's melee attack in THE TWO COLONELS Chapter."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

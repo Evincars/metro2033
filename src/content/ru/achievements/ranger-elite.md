@@ -1,11 +1,11 @@
 ---
 id: ranger-elite
 title: Элитный рейнджер
-group: "Metro: Last Light"
+group: Metro Last Light
 category: "DLC: Ranger Mode"
 order: 100
 image: ll-achievement-ranger-elite-icon.png
-brief: Complete the game in Ranger Mode.
+brief: "Пройдите игру в режиме «Рейнджер»."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Silver / 30G

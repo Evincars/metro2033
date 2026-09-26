@@ -2,10 +2,10 @@
 id: iron-mode
 title: Железный режим
 group: Metro Exodus
-category: Стандартные
+category: Standard
 order: 235
 image: me-achievement-iron-mode-icon.png
-brief: Complete the game in Iron Mode.
+brief: "Пройдите игру в железном режиме."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 50G

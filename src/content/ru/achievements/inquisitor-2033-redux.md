@@ -2,10 +2,10 @@
 id: inquisitor-2033-redux
 title: Инквизитор
 group: Metro 2033 Redux
-category: Стандартные
+category: Standard
 order: 130
 image: 2033r_achievement_inquisitor_icon.png
-brief: Kill 2 demons.
+brief: "Убейте 2 demons."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 15G

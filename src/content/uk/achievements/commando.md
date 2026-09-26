@@ -1,11 +1,11 @@
 ---
 id: commando
 title: Коммандос
-group: "Metro: Last Light"
-category: Стандартні
+group: Metro Last Light
+category: Standard
 order: 73
 image: llr-achievement-commando-icon.png
-brief: Rescue the Women and Children on the BANDITS level without raising alarm.
+brief: "Врятуйте жінок і дітей на рівні «БАНДИТИ» без підняття тривоги."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 15G

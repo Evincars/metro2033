@@ -1,7 +1,7 @@
 ---
 id: arrows
 title: Стріли
-group: Спеціальні боєприпаси
+group: Special Ammo
 order: 12
 image: 
 brief: Стріли — боєприпаси для арбалета Хельсинг.

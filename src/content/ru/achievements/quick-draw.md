@@ -2,10 +2,10 @@
 id: quick-draw
 title: Быстрая кобура
 group: Metro 2033
-category: Стандартные
+category: Standard
 order: 24
 image: ach-quick-draw.jpg
-brief: "On the level \\"Hunter\\" kill the nosalises before they break through the ventilation grilles."
+brief: "На уровне «Охотник» убейте носалисов до того, как они прорвутся через решётки."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 30G

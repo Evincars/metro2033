@@ -1,7 +1,7 @@
 ---
 id: redemption
 title: Искупление
-group: "Metro: Last Light"
+group: Metro Last Light
 order: 4
 image: ach-redemption.webp
 brief: "Хорошая концовка Metro: Last Light, в которой Маленький Тёмный спасает Д-6."

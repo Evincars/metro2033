@@ -1,7 +1,7 @@
 ---
 id: incendiary-grenade
 title: Зажигательная граната
-group: Метательное и взрывчатка
+group: Throwables & Explosives
 order: 70
 image: /weapon-imgs/incendiary-grenade.png
 brief: Зажигательная граната — метательное оружие, создающее область горения.

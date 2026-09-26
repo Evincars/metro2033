@@ -2,10 +2,10 @@
 id: damir-achievement
 title: Дамир
 group: Metro Exodus
-category: Секретні
+category: Secret
 order: 263
 image: me-achievement-damir-icon.png
-brief: Damir stays with crew.
+brief: "Дамір залишається з екіпажем."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Silver / 40G

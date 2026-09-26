@@ -1,11 +1,11 @@
 ---
 id: shadow
 title: Тінь
-group: "Metro: Last Light"
-category: Стандартні
+group: Metro Last Light
+category: Standard
 order: 51
 image: llr-achievement-shadow-icon.png
-brief: Stealthily kill 15 Enemies.
+brief: "Вбийте 15 ворогів непомітно."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 20G

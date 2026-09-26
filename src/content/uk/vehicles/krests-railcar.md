@@ -1,7 +1,7 @@
 ---
 id: krests-railcar
 title: Дрезина Креста
-group: Рейковий транспорт
+group: Rail Vehicles
 order: 2
 image: /vehicle-imgs/krests-railcar.png
 brief: Дрезина Креста — модифікована дрезина, приєднана до «Аврори» на Волзі.

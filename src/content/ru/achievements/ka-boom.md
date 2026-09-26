@@ -2,10 +2,10 @@
 id: ka-boom
 title: Ка-бум
 group: Metro 2033
-category: Стандартные
+category: Standard
 order: 6
 image: ach-ka-boom!.jpg
-brief: Explode 10 enemies.
+brief: "Взорвите 10 врагов."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 30G

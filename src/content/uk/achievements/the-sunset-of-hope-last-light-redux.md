@@ -1,11 +1,11 @@
 ---
 id: the-sunset-of-hope-last-light-redux
 title: Захід надії
-group: "Metro: Last Light Redux"
-category: Стандартні
+group: Metro Last Light Redux
+category: Standard
 order: 204
 image: llr_achievement_the_sunset_of_hope_icon.png
-brief: Complete the ANNA level.
+brief: "Пройдіть рівень «ANNA»."
 wiki: Achievements and Trophies
 appearances: Metro Last Light Redux
 score: Bronze / 15G

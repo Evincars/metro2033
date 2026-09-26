@@ -2,10 +2,10 @@
 id: exorcist
 title: Экзорцист
 group: Metro 2033
-category: Стандартные
+category: Standard
 order: 9
 image: ach-exorcist.jpg
-brief: "Complete levels \\"Ghosts\\" and \\"Anomaly\\" without dying."
+brief: "Пройдите уровни «Призраки» и «Аномалия» без смертей."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 20G

@@ -1,7 +1,7 @@
 ---
 id: bulldog
 title: Бульдог
-group: Штурмовые винтовки
+group: Assault Rifles
 order: 21
 image: /weapon-imgs/bulldog.png
 brief: Бульдог — штурмовая винтовка, появившаяся в Metro Exodus.

@@ -5,7 +5,7 @@ group: Metro Exodus
 category: "DLC: The Two Colonels"
 order: 269
 image: me-achievement-dodge-master-icon.png
-brief: "Dodge all of the Blind One's throwing attacks in THE TWO COLONELS Chapter."
+brief: "Ухиліться від усіх кидків Сліпого у главі «ДВА ПОЛКОВНИКИ»."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 20G

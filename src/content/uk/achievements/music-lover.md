@@ -5,7 +5,7 @@ group: Metro Exodus
 category: "DLC: Sam's Story"
 order: 281
 image: me_achievement_music_lover_icon.png
-brief: "Collect all harmonica melodies in the SAM'S STORY chapter."
+brief: "Зберіть усі harmonica melodies у главі «SAM'S STORY»."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 20G

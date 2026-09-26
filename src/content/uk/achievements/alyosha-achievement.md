@@ -2,10 +2,10 @@
 id: alyosha-achievement
 title: Алёша
 group: Metro Exodus
-category: Секретні
+category: Secret
 order: 260
 image: me-achievement-alyosha-icon.png
-brief: "Alyosha doesn't get wounded."
+brief: "Альоша не отримує поранення."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Silver / 40G

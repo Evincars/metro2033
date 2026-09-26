@@ -1,7 +1,7 @@
 ---
 id: hanza-off-road-car
 title: Внедорожник Ганзы
-group: Автомобили
+group: Road Vehicles
 order: 12
 image: /vehicle-imgs/hanza-off-road-car.jpg
 brief: Внедорожник Ганзы — автомобиль, используемый Ганзой.

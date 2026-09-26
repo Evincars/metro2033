@@ -1,7 +1,7 @@
 ---
 id: kalash
 title: Калаш
-group: Штурмові гвинтівки
+group: Assault Rifles
 order: 22
 image: /weapon-imgs/kalash.png
 brief: Калаш (АК-74М) — класичний довоєнний штурмовий автомат, цінований за надійність.

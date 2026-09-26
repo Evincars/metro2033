@@ -1,7 +1,7 @@
 ---
 id: motorboat
 title: Моторний човен
-group: Водний транспорт
+group: Watercraft
 order: 15
 image: /vehicle-imgs/motorboat.png
 brief: Моторний човен — водний транспорт з двигуном.

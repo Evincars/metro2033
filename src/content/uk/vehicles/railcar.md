@@ -1,7 +1,7 @@
 ---
 id: railcar
 title: Дрезина
-group: Рейковий транспорт
+group: Rail Vehicles
 order: 1
 image: /vehicle-imgs/railcar.jpg
 brief: Дрезина — ручний рейковий транспорт для пересування тунелями метро.

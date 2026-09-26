@@ -1,11 +1,11 @@
 ---
 id: heads-up
 title: Берегись
-group: "Metro: Last Light"
+group: Metro Last Light
 category: "DLC: Chronicles Pack"
 order: 113
 image: llr-achievement-heads-up-icon.png
-brief: Complete the PAVEL level.
+brief: "Пройдите уровень «PAVEL»."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 15G

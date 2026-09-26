@@ -1,7 +1,7 @@
 ---
 id: rowboat
 title: Вёсельная лодка
-group: Водный транспорт
+group: Watercraft
 order: 16
 image: /vehicle-imgs/rowboat.png
 brief: Вёсельная лодка — простой водный транспорт без мотора.

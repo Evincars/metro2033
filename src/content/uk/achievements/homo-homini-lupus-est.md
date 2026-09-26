@@ -1,11 +1,11 @@
 ---
 id: homo-homini-lupus-est
 title: Людина человеку волк
-group: "Metro: Last Light"
+group: Metro Last Light
 category: "DLC: Faction Pack"
 order: 102
 image: ll-achievement-homo-homini-lupus-est-icon.png
-brief: Kill 100 enemies with heavy weapons.
+brief: "Вбийте 100 ворогів за допомогою heavy weapons."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 15G

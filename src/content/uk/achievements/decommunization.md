@@ -2,10 +2,10 @@
 id: decommunization
 title: Декоммунизация
 group: Metro Exodus
-category: Стандартні
+category: Standard
 order: 222
 image: me-achievement-decommunization-icon.png
-brief: "Destroy the biggest statue in front of the children's camp on the Taiga level."
+brief: "Знищіть найбільшу статую перед дитячим табором на рівні «Тайга»."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 5G

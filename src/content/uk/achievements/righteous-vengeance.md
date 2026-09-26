@@ -2,10 +2,10 @@
 id: righteous-vengeance
 title: Праведна помста
 group: Metro Exodus
-category: Секретні
+category: Secret
 order: 267
 image: me-achievement-righteous-vengeance-icon.png
-brief: Kill 90 cannibals.
+brief: "Вбийте 90 канібалів."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

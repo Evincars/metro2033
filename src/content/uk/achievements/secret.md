@@ -1,11 +1,11 @@
 ---
 id: secret
 title: Секрет
-group: "Metro: Last Light"
-category: Секретні
+group: Metro Last Light
+category: Secret
 order: 93
 image: llr-achievement-secret-icon.png
-brief: "Find out about the Reds' plans."
+brief: "Дізнайтеся про плани «червоних»."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Silver / 10G

@@ -1,7 +1,7 @@
 ---
 id: cruiser
 title: Крейсер
-group: Водний транспорт
+group: Watercraft
 order: 18
 image: /vehicle-imgs/cruiser.jpg
 brief: Крейсер — великий військовий корабель.

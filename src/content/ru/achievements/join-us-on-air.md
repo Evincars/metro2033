@@ -2,10 +2,10 @@
 id: join-us-on-air
 title: Присоединяйтесь к эфиру
 group: Metro Exodus
-category: Стандартные
+category: Standard
 order: 236
 image: me-achievement-join-us-on-air-icon.png
-brief: Find a tune on the radio.
+brief: "Найдите мелодию по радио."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 5G

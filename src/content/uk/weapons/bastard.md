@@ -1,7 +1,7 @@
 ---
 id: bastard
 title: Ублюдок
-group: Пістолети
+group: Handguns
 order: 10
 image: /weapon-imgs/bastard.png
 brief: Ублюдок — саморобний автомат метро калібру 5,45×39 мм.

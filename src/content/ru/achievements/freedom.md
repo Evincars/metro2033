@@ -1,11 +1,11 @@
 ---
 id: freedom
 title: Свобода
-group: "Metro: Last Light"
-category: Секретные
+group: Metro Last Light
+category: Secret
 order: 88
 image: llr-achievement-freedom-icon.png
-brief: Free the prisoners.
+brief: "Освободите пленников."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 10G

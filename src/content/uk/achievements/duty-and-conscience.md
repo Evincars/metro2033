@@ -5,7 +5,7 @@ group: Metro Exodus
 category: "DLC: The Two Colonels"
 order: 270
 image: me-achievement-duty-and-conscience-icon.png
-brief: Make a moral choice in THE TWO COLONELS Chapter.
+brief: "Зробіть моральний вибір."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

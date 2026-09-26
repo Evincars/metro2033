@@ -1,11 +1,11 @@
 ---
 id: rabbit-last-light-redux
 title: Кролик
-group: "Metro: Last Light Redux"
-category: Стандартные
+group: Metro Last Light Redux
+category: Standard
 order: 192
 image: llr_achievement_rabbit_icon.png
-brief: Complete training sequence.
+brief: "Пройдите тренировочную последовательность."
 wiki: Achievements and Trophies
 appearances: Metro Last Light Redux
 score: Bronze / 10G

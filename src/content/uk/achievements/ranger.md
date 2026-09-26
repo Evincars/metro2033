@@ -2,10 +2,10 @@
 id: ranger
 title: Рейнджер
 group: Metro 2033 Redux
-category: Стандартні
+category: Standard
 order: 145
 image: 2033r_achievement_ranger_icon.png
-brief: Find all Ranger stashes in Dead City.
+brief: "Знайдіть усі сховища рейнджерів у «Мертвому місті»."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 30G

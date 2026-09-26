@@ -2,10 +2,10 @@
 id: sniper-metro-2033
 title: Снайпер
 group: Metro 2033
-category: Стандартні
+category: Standard
 order: 26
 image: ach-sniper.jpg
-brief: Make 25 headshots.
+brief: "Здійсніть 75 влучань в голову."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 30G

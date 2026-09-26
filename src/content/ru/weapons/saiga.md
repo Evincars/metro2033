@@ -1,7 +1,7 @@
 ---
 id: saiga
 title: Сайга
-group: Дробовики
+group: Shotguns
 order: 44
 image: /weapon-imgs/saiga.png
 brief: Сайга — полуавтоматический дробовик, известный своей скорострельностью.

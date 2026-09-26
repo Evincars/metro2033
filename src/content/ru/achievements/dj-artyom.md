@@ -2,10 +2,10 @@
 id: dj-artyom
 title: Диджей Артём
 group: Metro 2033
-category: Стандартные
+category: Standard
 order: 20
 image: ach-dj-artyom.jpg
-brief: "On the level \\"Outpost\\" reach the radio tower and broadcast the commander's message."
+brief: "На уровне «Аванпост» доберитесь до радиовышки и передайте сообщение командира."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 30G

@@ -2,10 +2,10 @@
 id: rescue-ranger-2033-redux
 title: Рейнджер-спасатель
 group: Metro 2033 Redux
-category: Стандартні
+category: Standard
 order: 146
 image: 2033r_achievement_rescue_ranger_icon.png
-brief: Save a group of Reds from Fascist captivity
+brief: "Врятуйте групу «червоних» з фашистського полону."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Silver / 30G

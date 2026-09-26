@@ -2,10 +2,10 @@
 id: mutation
 title: Мутация
 group: Metro Exodus
-category: Стандартні
+category: Standard
 order: 244
 image: me-achievement-mutation-icon.png
-brief: Complete the game in New Game+ mode using any modification.
+brief: "Пройдіть гру в режимі «Нова гра+» з будь-якою модифікацією."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 20G

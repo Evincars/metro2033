@@ -2,10 +2,10 @@
 id: long-distance-passenger
 title: Пасажир далекого слідування
 group: Metro Exodus
-category: Стандартні
+category: Standard
 order: 240
 image: me-achievement-long-distance-passenger-icon.png
-brief: Find the passenger train car.
+brief: "Знайдіть пасажирський вагон."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

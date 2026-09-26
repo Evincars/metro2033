@@ -1,11 +1,11 @@
 ---
 id: pyromaniac
 title: Пироман
-group: "Metro: Last Light Redux"
-category: Стандартные
+group: Metro Last Light Redux
+category: Standard
 order: 191
 image: llr_achievement_pyromaniac_icon.png
-brief: Burn 50 Cobwebs.
+brief: "Сожгите 50 паутин."
 wiki: Achievements and Trophies
 appearances: Metro Last Light Redux
 score: Bronze / 10G

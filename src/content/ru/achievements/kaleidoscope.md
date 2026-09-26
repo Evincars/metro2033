@@ -2,10 +2,10 @@
 id: kaleidoscope
 title: Калейдоскоп
 group: Metro Exodus
-category: Стандартные
+category: Standard
 order: 237
 image: me-achievement-kaleidoscope-icon.png
-brief: Kill 3 enemies using sniper scope while wearing the Gas mask and using the Night Vision goggles.
+brief: "Убейте 3 врагов, используя sniper scope while wearing the Gas mask and using the Night Vision goggles."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

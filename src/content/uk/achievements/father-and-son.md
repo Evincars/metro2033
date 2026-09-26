@@ -5,7 +5,7 @@ group: Metro Exodus
 category: "DLC: The Two Colonels"
 order: 271
 image: me-achievement-father-and-son-icon.png
-brief: Provide guidance for Kirill in THE TWO COLONELS Chapter.
+brief: "Допоможіть Кирилу у главі «ДВА ПОЛКОВНИКИ»."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 15G

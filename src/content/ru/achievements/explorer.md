@@ -2,10 +2,10 @@
 id: explorer
 title: Исследователь
 group: Metro 2033
-category: Секретные
+category: Secret
 order: 32
 image: ach-explorer2.jpg
-brief: There is no place in metro you did not visit.
+brief: "В метро нет места, которое вы не посетили."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 30G

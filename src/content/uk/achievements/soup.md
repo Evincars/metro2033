@@ -1,11 +1,11 @@
 ---
 id: soup
 title: Суп
-group: "Metro: Last Light"
-category: Стандартні
+group: Metro Last Light
+category: Standard
 order: 74
 image: ll-achievement-soup-icon.png
-brief: Kill 5 Shrimp with Grenades.
+brief: "Вбийте 5 креветок гранатами."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 15G

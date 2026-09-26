@@ -1,7 +1,7 @@
 ---
 id: cest-la-vie
 title: Таке життя
-group: "Metro: Last Light"
+group: Metro Last Light
 order: 3
 image: ach-cest-la-vie.webp
 brief: "Погана кінцівка Metro: Last Light, в якій Д-6 знищується."

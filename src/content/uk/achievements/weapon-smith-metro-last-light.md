@@ -1,11 +1,11 @@
 ---
 id: weapon-smith-metro-last-light
 title: Зброяр
-group: "Metro: Last Light"
-category: Стандартні
+group: Metro Last Light
+category: Standard
 order: 86
 image: ll-achievement-weapon-smith-icon.png
-brief: Install all possible Customizations for a Weapon.
+brief: "Встановіть усі можливі модифікації на одну зброю."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 15G

@@ -2,10 +2,10 @@
 id: if-its-hostile-you-kill-it-2033-redux
 title: Если враждебен — убей
 group: Metro 2033 Redux
-category: Секретные
+category: Secret
 order: 168
 image: 2033r_achievement_if_its_hostile_you_kill_it_icon.png
-brief: Become a true ranger.
+brief: "Станьте настоящим рейнджером."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Gold / 40G

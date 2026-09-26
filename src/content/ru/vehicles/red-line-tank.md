@@ -1,7 +1,7 @@
 ---
 id: red-line-tank
 title: Танк Красной Линии
-group: Бронетехника
+group: Armoured Vehicles
 order: 10
 image: /vehicle-imgs/red-line-tank.jpg
 brief: Танк Красной Линии — бронетехника коммунистов.

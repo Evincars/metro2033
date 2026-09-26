@@ -2,10 +2,10 @@
 id: platinum-trophy
 title: Платиновый трофей
 group: Metro 2033 Redux
-category: Стандартні
+category: Standard
 order: 119
 image: 2033r_achievement_platinum_trophy_icon.png
-brief: Get all (non-DLC) trophies.
+brief: "Отримайте всі трофеї (крім DLC)."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Platinum

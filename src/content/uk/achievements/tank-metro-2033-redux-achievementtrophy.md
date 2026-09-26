@@ -2,10 +2,10 @@
 id: tank-metro-2033-redux-achievementtrophy
 title: Танк
 group: Metro 2033 Redux
-category: Стандартні
+category: Standard
 order: 158
 image: 2033r_achievement_tank_icon.png
-brief: Kill 10 Enemies without taking any damage.
+brief: "Вбийте 10 Enemies without taking any damage."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 10G

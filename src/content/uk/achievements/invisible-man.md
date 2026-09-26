@@ -2,10 +2,10 @@
 id: invisible-man
 title: Людина-невидимка
 group: Metro 2033
-category: Стандартні
+category: Standard
 order: 28
 image: ach-invisible-man.jpg
-brief: "Complete \\"Frontline\\" without killing anyone."
+brief: "Пройдіть «Лінію фронту» без вбивств."
 wiki: Achievements and Trophies
 appearances: Metro 2033
 score: 40G

@@ -2,10 +2,10 @@
 id: old-world-pictures
 title: Фотографії старого світу
 group: Metro Exodus
-category: Стандартні
+category: Standard
 order: 246
 image: me-achievement-old-world-pictures-icon.png
-brief: Find all 21 post cards.
+brief: "Знайдіть усі 21 листівку."
 wiki: Achievements and Trophies
 appearances: Metro Exodus
 score: Bronze / 20G

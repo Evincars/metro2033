@@ -1,11 +1,11 @@
 ---
 id: hail-reich-last-light-redux
 title: Слава Рейху
-group: "Metro: Last Light Redux"
-category: Стандартные
+group: Metro Last Light Redux
+category: Standard
 order: 178
 image: llr_achievement_hail_reich_icon.png
-brief: Complete the HEAVY SQUAD level.
+brief: "Пройдите уровень «HEAVY SQUAD»."
 wiki: Achievements and Trophies
 appearances: Metro Last Light Redux
 score: Bronze / 15G

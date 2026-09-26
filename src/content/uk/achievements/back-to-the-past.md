@@ -1,11 +1,11 @@
 ---
 id: back-to-the-past
 title: Назад у минуле
-group: "Metro: Last Light"
-category: Стандартні
+group: Metro Last Light
+category: Standard
 order: 82
 image: llr-achievement-back-to-the-past-icon.png
-brief: See all Visions in the Dead City.
+brief: "Побачте всі видіння у Мертвому місті."
 wiki: Achievements and Trophies
 appearances: Metro Last Light
 score: Bronze / 20G

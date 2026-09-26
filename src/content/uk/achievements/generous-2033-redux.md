@@ -2,10 +2,10 @@
 id: generous-2033-redux
 title: Щедрий
 group: Metro 2033 Redux
-category: Секретні
+category: Secret
 order: 166
 image: 2033r_achievement_generous_icon.png
-brief: Help the poor, a coin for the kid, medicine for the sick. You help everyone you see.
+brief: "Допоможіть бідним, дайте монетку дитині, ліки хворим. Допомагайте всім, кого зустрінете."
 wiki: Achievements and Trophies
 appearances: Metro 2033 Redux
 score: Bronze / 30G
