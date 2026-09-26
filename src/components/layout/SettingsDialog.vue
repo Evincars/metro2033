@@ -3,6 +3,7 @@ import { onBeforeUnmount, onMounted } from 'vue'
 import { useAmbientAudio } from '../../composables/useAmbientAudio'
 import { APP_VERSION } from '../../data/release'
 import { logoStyle } from '../../composables/useLogoStyle'
+import { radioEnabled } from '../../composables/useRadioMessages'
 import { t } from '../../i18n'
 
 const emit = defineEmits(['close'])
@@ -106,6 +107,28 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
 
           <p class="settings-hint">
             {{ t('settings.logoHint') }}
+          </p>
+        </section>
+
+        <section class="settings-group settings-group--spaced">
+          <div class="group-label">{{ t('settings.radioLabel') }}</div>
+
+          <label class="toggle-row">
+            <span class="toggle-text">{{ t('settings.radioMessages') }}</span>
+            <button
+              class="switch"
+              type="button"
+              role="switch"
+              :aria-checked="radioEnabled"
+              :class="{ 'is-on': radioEnabled }"
+              @click="radioEnabled = !radioEnabled"
+            >
+              <span class="switch-knob" />
+            </button>
+          </label>
+
+          <p class="settings-hint">
+            {{ t('settings.radioHint') }}
           </p>
         </section>
 

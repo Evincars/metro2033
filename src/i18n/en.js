@@ -328,6 +328,9 @@ export default {
   'settings.appearance': 'Appearance',
   'settings.originalLogo': 'Original Metro 2033 logo',
   'settings.logoHint': 'On: the original "Вселенная Метро 2033" shield. Off: the Metro 2033 wordmark.',
+  'settings.radioLabel': 'Radio',
+  'settings.radioMessages': 'Radio messages',
+  'settings.radioHint': 'On: random radio chatter from metro citizens appears at the bottom of the screen. Off: silence.',
   'settings.metroTerminal': 'Metro Terminal',
   'settings.version': 'version',
 

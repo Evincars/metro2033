@@ -1,6 +1,7 @@
 <script setup>
-import { onBeforeUnmount, onMounted, ref } from 'vue'
+import { onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { getRadioMessages } from '../../data/radioMessages'
+import { radioEnabled } from '../../composables/useRadioMessages'
 import { t } from '../../i18n'
 
 const visible = ref(false)
@@ -19,6 +20,7 @@ function shufflePool() {
 }
 
 function showNext() {
+  if (!radioEnabled.value) return
   if (!pool.length) shufflePool()
   const messages = getRadioMessages()
   let idx = pool.pop()
@@ -40,6 +42,7 @@ function showNext() {
 }
 
 function scheduleNext() {
+  if (!radioEnabled.value) return
   const delay = 15000 + Math.random() * 35000
   timeout = setTimeout(showNext, delay)
 }
@@ -51,10 +54,22 @@ function dismiss() {
   scheduleNext()
 }
 
+watch(radioEnabled, (on) => {
+  if (on) {
+    scheduleNext()
+  } else {
+    clearTimeout(timeout)
+    visible.value = false
+    currentMsg.value = null
+  }
+})
+
 onMounted(() => {
   shufflePool()
-  const initial = 8000 + Math.random() * 12000
-  timeout = setTimeout(showNext, initial)
+  if (radioEnabled.value) {
+    const initial = 8000 + Math.random() * 12000
+    timeout = setTimeout(showNext, initial)
+  }
 })
 
 onBeforeUnmount(() => clearTimeout(timeout))

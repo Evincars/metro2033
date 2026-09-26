@@ -308,6 +308,9 @@ export default {
   'settings.appearance': 'Зовнішній вигляд',
   'settings.originalLogo': 'Оригінальний логотип «Метро 2033»',
   'settings.logoHint': 'Увімк: оригінальний щит «Всесвіт Метро 2033». Вимк: напис Metro 2033.',
+  'settings.radioLabel': 'Радіо',
+  'settings.radioMessages': 'Радіоповідомлення',
+  'settings.radioHint': 'Увімк: випадкові радіопереговори мешканців метро з’являються внизу екрану. Вимк: тиша.',
   'settings.metroTerminal': 'Термінал Метро',
   'settings.version': 'версія',
 
