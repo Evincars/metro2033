@@ -3,7 +3,7 @@ id: incendiary-capsules
 title: "Incendiary Capsules"
 group: Pneumatic Ammo
 order: 11
-image: 
+image: /ammo-imgs/incendiary-capsules.png
 brief: "Incendiary Capsules, known in-game as incendiary ammunition are a type of special ammunition found in Metro Exodus, that can be fired from Tikhar pneumatic weapon."
 wiki: Incendiary capsules
 appearances: Metro Exodus

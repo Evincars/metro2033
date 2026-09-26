@@ -41,6 +41,7 @@ export const ammunition = Object.values(files)
       group: meta.group || 'Other',
       order: Number(meta.order ?? 0),
       image: meta.image || '',
+      hudIcon: meta.hudIcon || '',
       brief: meta.brief || '',
       wiki: meta.wiki || '',
       appearances: meta.appearances || '',

@@ -3,7 +3,8 @@ id: dirty-5-45x39mm
 title: "Dirty 5.45x39mm"
 group: Rifle Rounds
 order: 1
-image: 
+image: /ammo-imgs/dirty-5-45x39mm.png
+hudIcon: /ammo-imgs/dirty-5-45x39mm-icon.png
 brief: "Soviet 5.45×39mm are rimless bottlenecked rifle cartridges developed near the end of the 1960s for use with the new Avtomat Kalashnikova Model 1974."
 wiki: Dirty 5.45x39mm
 appearances: Metro 2033, Metro: Last Light, Metro Exodus

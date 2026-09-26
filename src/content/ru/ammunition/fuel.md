@@ -3,7 +3,8 @@ id: fuel
 title: Топливо
 group: Special Ammo
 order: 14
-image: 
+image: /ammo-imgs/fuel.png
+hudIcon: /ammo-imgs/fuel-icon.png
 brief: Топливо — горючее для огнемёта.
 wiki: Fuel
 appearances: "Metro: Last Light, Metro Exodus"

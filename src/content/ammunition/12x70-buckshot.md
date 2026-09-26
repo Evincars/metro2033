@@ -3,7 +3,8 @@ id: 12x70-buckshot
 title: "12x70 Buckshot"
 group: Shotgun Shells
 order: 8
-image: 
+image: /ammo-imgs/12x70-buckshot.png
+hudIcon: /ammo-imgs/12x70-buckshot-icon.png
 brief: "12x70 Buckshot (sometimes simply called Shotgun shells) are makeshift shotgun shells containing buckshot."
 wiki: 12x70 Buckshot
 appearances: Metro 2033, Metro: Last Light, Metro Exodus

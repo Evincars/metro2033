@@ -3,7 +3,8 @@ id: 44-magnum
 title: .44 Магнум
 group: Pistol Rounds
 order: 6
-image: 
+image: /ammo-imgs/44-magnum.png
+hudIcon: /ammo-imgs/44-magnum-icon.png
 brief: Патроны .44 Магнум — мощные пистолетные патроны для револьвера.
 wiki: .44 Magnum
 appearances: "Metro 2033, Metro: Last Light, Metro Exodus"

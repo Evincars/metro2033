@@ -3,7 +3,8 @@ id: 12x70-dragonbreath
 title: 12×70 «Драконяче дихання»
 group: Shotgun Shells
 order: 9
-image: 
+image: /ammo-imgs/12x70-dragonbreath.png
+hudIcon: /ammo-imgs/12x70-dragonbreath-icon.png
 brief: «Драконяче дихання» 12×70 — запальні дробові набої.
 wiki: 12x70 Dragonbreath
 appearances: "Metro: Last Light"

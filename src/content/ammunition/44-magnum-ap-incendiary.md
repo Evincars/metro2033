@@ -3,7 +3,8 @@ id: 44-magnum-ap-incendiary
 title: ".44 Magnum AP-Incendiary"
 group: Pistol Rounds
 order: 7
-image: 
+image: /ammo-imgs/44-magnum-ap-incendiary.png
+hudIcon: /ammo-imgs/44-magnum-ap-incendiary-icon.png
 brief: ".44 Magnum AP-Incendiary is a special type of .44 Magnum rounds, added in the Faction Pack DLC for Metro: Last Light."
 wiki: .44 Magnum AP-Incendiary
 appearances: Metro: Last Light

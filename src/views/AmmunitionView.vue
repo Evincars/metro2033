@@ -37,13 +37,22 @@ const renderedBody = computed(() =>
 )
 
 const brokenImages = ref(new Set())
+const brokenHudIcons = ref(new Set())
 function markBroken(id) {
   const next = new Set(brokenImages.value)
   next.add(id)
   brokenImages.value = next
 }
+function markHudBroken(id) {
+  const next = new Set(brokenHudIcons.value)
+  next.add(id)
+  brokenHudIcons.value = next
+}
 const showImage = computed(
   () => activeItem.value?.image && !brokenImages.value.has(activeItem.value.id),
+)
+const showHudIcon = computed(
+  () => activeItem.value?.hudIcon && !brokenHudIcons.value.has(activeItem.value.id),
 )
 
 function onBodyClick(event) {
@@ -118,15 +127,27 @@ function backToList() {
           </p>
         </header>
 
-        <figure v-if="showImage" class="detail-figure">
-          <img
-            :src="activeItem.image"
-            :alt="activeItem.title"
-            loading="lazy"
-            referrerpolicy="no-referrer"
-            @error="markBroken(activeItem.id)"
-          />
-        </figure>
+        <div v-if="showImage || showHudIcon" class="detail-images">
+          <figure v-if="showImage" class="detail-figure">
+            <img
+              :src="activeItem.image"
+              :alt="activeItem.title"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+              @error="markBroken(activeItem.id)"
+            />
+          </figure>
+          <figure v-if="showHudIcon" class="detail-hud-icon">
+            <img
+              :src="activeItem.hudIcon"
+              :alt="`${activeItem.title} HUD`"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+              @error="markHudBroken(activeItem.id)"
+            />
+            <figcaption>HUD</figcaption>
+          </figure>
+        </div>
 
         <div class="markdown-body" v-html="renderedBody" @click="onBodyClick" />
 
@@ -210,9 +231,9 @@ function backToList() {
                 <td class="td-designation">
                   <span class="ammo-indicator" />
                   <img
-                    v-if="item.image && !brokenImages.has(item.id)"
+                    v-if="(item.hudIcon || item.image) && !brokenImages.has(item.id)"
                     class="ammo-thumb"
-                    :src="item.image"
+                    :src="item.hudIcon || item.image"
                     :alt="item.title"
                     loading="lazy"
                     referrerpolicy="no-referrer"
@@ -430,10 +451,11 @@ function backToList() {
 .ammo-thumb {
   width: 36px;
   height: 36px;
-  object-fit: cover;
+  object-fit: contain;
   flex-shrink: 0;
   border: 1px solid var(--color-border);
   background: rgba(0, 0, 0, 0.3);
+  padding: 2px;
 }
 
 .ammo-thumb.placeholder {
@@ -582,8 +604,15 @@ function backToList() {
   color: var(--color-text-faint);
 }
 
-.detail-figure {
+.detail-images {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
   margin: 1.25rem 0;
+}
+
+.detail-figure {
+  margin: 0;
   max-width: 300px;
 }
 
@@ -592,6 +621,31 @@ function backToList() {
   border: 1px solid var(--color-border-strong);
   box-shadow: var(--shadow-panel);
   background: rgba(0, 0, 0, 0.25);
+}
+
+.detail-hud-icon {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.detail-hud-icon img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  border: 1px solid var(--color-border-strong);
+  background: rgba(0, 0, 0, 0.4);
+  padding: 4px;
+}
+
+.detail-hud-icon figcaption {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-text-faint);
 }
 
 .markdown-body {

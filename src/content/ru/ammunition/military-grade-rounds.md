@@ -3,7 +3,8 @@ id: military-grade-rounds
 title: Патроны военного образца
 group: Rifle Rounds
 order: 2
-image: /ammo-imgs/military-grade-rounds.jpg
+image: /ammo-imgs/military-grade-rounds.png
+hudIcon: /ammo-imgs/military-grade-rounds-icon.png
 brief: Патроны военного образца — довоенные боеприпасы высокого качества, используемые как валюта в метро.
 wiki: Military Grade Rounds
 appearances: "Metro 2033, Metro: Last Light"

@@ -3,7 +3,8 @@ id: fuel
 title: Паливо
 group: Special Ammo
 order: 14
-image: 
+image: /ammo-imgs/fuel.png
+hudIcon: /ammo-imgs/fuel-icon.png
 brief: Паливо — горюче для вогнемета.
 wiki: Fuel
 appearances: "Metro: Last Light, Metro Exodus"

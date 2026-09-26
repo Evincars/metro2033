@@ -3,7 +3,8 @@ id: fuel
 title: "Fuel"
 group: Special Ammo
 order: 14
-image: 
+image: /ammo-imgs/fuel.png
+hudIcon: /ammo-imgs/fuel-icon.png
 brief: "Fuel is a type of ammunition found during Chapter 6 of Metro 2033 Redux, in the Developer Pack DLC for Metro: Last Light (in the Spider Lair mission and the Developer Pack level), and also in the first DLC for Metro Exodus, The Two Colonels."
 wiki: Fuel
 appearances: Metro: Last Light, Metro Exodus

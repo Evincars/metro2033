@@ -3,7 +3,7 @@ id: incendiary-capsules
 title: Запальні капсули
 group: Pneumatic Ammo
 order: 11
-image: 
+image: /ammo-imgs/incendiary-capsules.png
 brief: Запальні капсули — боєприпаси для Тихаря із запальним ефектом.
 wiki: Incendiary capsules
 appearances: Metro Exodus

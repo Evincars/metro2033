@@ -3,7 +3,8 @@ id: military-grade-rounds
 title: "Military Grade Rounds"
 group: Rifle Rounds
 order: 2
-image: /ammo-imgs/military-grade-rounds.jpg
+image: /ammo-imgs/military-grade-rounds.png
+hudIcon: /ammo-imgs/military-grade-rounds-icon.png
 brief: "Military Grade Rounds, or simply MGRs, are 5.45x39mm military rounds produced before The Great War of 2013."
 wiki: Military Grade Rounds
 appearances: Metro 2033, Metro: Last Light

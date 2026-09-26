@@ -3,7 +3,8 @@ id: dirty-5-45x39mm
 title: Брудні 5,45×39 мм
 group: Rifle Rounds
 order: 1
-image: 
+image: /ammo-imgs/dirty-5-45x39mm.png
+hudIcon: /ammo-imgs/dirty-5-45x39mm-icon.png
 brief: Брудні 5,45×39 мм — саморобні набої, виготовлені після війни в метро.
 wiki: Dirty 5.45x39mm
 appearances: "Metro 2033, Metro: Last Light, Metro Exodus"

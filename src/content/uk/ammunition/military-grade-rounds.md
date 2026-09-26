@@ -3,7 +3,8 @@ id: military-grade-rounds
 title: Патрони військового зразка
 group: Rifle Rounds
 order: 2
-image: /ammo-imgs/military-grade-rounds.jpg
+image: /ammo-imgs/military-grade-rounds.png
+hudIcon: /ammo-imgs/military-grade-rounds-icon.png
 brief: Набої військового зразка — довоєнні боєприпаси високої якості, що використовуються як валюта.
 wiki: Military Grade Rounds
 appearances: "Metro 2033, Metro: Last Light"

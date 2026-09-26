@@ -3,7 +3,7 @@ id: explosive-bolts
 title: Розривні болти
 group: Special Ammo
 order: 13
-image: 
+image: /ammo-imgs/explosive-bolts.png
 brief: Розривні болти — спеціальні боєприпаси для Хельсинга з вибуховим ефектом.
 wiki: Explosive bolts
 appearances: Metro Exodus

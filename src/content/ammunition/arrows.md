@@ -3,7 +3,8 @@ id: arrows
 title: "Arrows"
 group: Special Ammo
 order: 12
-image: 
+image: /ammo-imgs/arrows.png
+hudIcon: /ammo-imgs/arrows-icon.png
 brief: "Arrows or Bolts are large steel needles made inside the Moscow Metro for use in makeshift weaponry, primarily the Helsing."
 wiki: Arrows
 appearances: Metro 2033, Metro: Last Light, Metro Exodus

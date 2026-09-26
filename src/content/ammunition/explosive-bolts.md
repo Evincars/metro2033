@@ -3,7 +3,7 @@ id: explosive-bolts
 title: "Explosive Bolts"
 group: Special Ammo
 order: 13
-image: 
+image: /ammo-imgs/explosive-bolts.png
 brief: "Explosive Bolts are a type of special ammunition found in Metro Exodus, that can be fired from the Helsing crossbow."
 wiki: Explosive bolts
 appearances: Metro Exodus

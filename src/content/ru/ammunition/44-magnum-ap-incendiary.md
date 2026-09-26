@@ -3,7 +3,8 @@ id: 44-magnum-ap-incendiary
 title: .44 Магнум БП/зажигательные
 group: Pistol Rounds
 order: 7
-image: 
+image: /ammo-imgs/44-magnum-ap-incendiary.png
+hudIcon: /ammo-imgs/44-magnum-ap-incendiary-icon.png
 brief: Бронебойно-зажигательные патроны .44 Магнум — специальные боеприпасы с повышенным пробитием.
 wiki: .44 Magnum AP-Incendiary
 appearances: "Metro: Last Light"

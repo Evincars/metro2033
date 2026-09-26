@@ -3,7 +3,8 @@ id: dirty-5-45x39mm
 title: Грязные 5,45×39 мм
 group: Rifle Rounds
 order: 1
-image: 
+image: /ammo-imgs/dirty-5-45x39mm.png
+hudIcon: /ammo-imgs/dirty-5-45x39mm-icon.png
 brief: Грязные 5,45×39 мм — самодельные патроны, произведённые после войны в метро из переснаряжённых гильз.
 wiki: Dirty 5.45x39mm
 appearances: "Metro 2033, Metro: Last Light, Metro Exodus"

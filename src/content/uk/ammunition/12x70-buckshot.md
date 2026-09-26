@@ -3,7 +3,8 @@ id: 12x70-buckshot
 title: 12×70 картеч
 group: Shotgun Shells
 order: 8
-image: 
+image: /ammo-imgs/12x70-buckshot.png
+hudIcon: /ammo-imgs/12x70-buckshot-icon.png
 brief: Картеч 12×70 — стандартні дробові набої.
 wiki: 12x70 Buckshot
 appearances: "Metro 2033, Metro: Last Light, Metro Exodus"

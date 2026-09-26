@@ -3,7 +3,8 @@ id: arrows
 title: Стрелы
 group: Special Ammo
 order: 12
-image: 
+image: /ammo-imgs/arrows.png
+hudIcon: /ammo-imgs/arrows-icon.png
 brief: Стрелы — боеприпасы для арбалета Хельсинг.
 wiki: Arrows
 appearances: "Metro 2033, Metro: Last Light, Metro Exodus"

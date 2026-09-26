@@ -3,7 +3,8 @@ id: arrows
 title: Стріли
 group: Special Ammo
 order: 12
-image: 
+image: /ammo-imgs/arrows.png
+hudIcon: /ammo-imgs/arrows-icon.png
 brief: Стріли — боєприпаси для арбалета Хельсинг.
 wiki: Arrows
 appearances: "Metro 2033, Metro: Last Light, Metro Exodus"

@@ -3,7 +3,8 @@ id: ball-bearings
 title: Шарики
 group: Pneumatic Ammo
 order: 10
-image: 
+image: /ammo-imgs/ball-bearings.png
+hudIcon: /ammo-imgs/ball-bearings-icon.png
 brief: Стальные шарики — боеприпасы для пневматического оружия.
 wiki: Ball Bearings
 appearances: "Metro 2033, Metro: Last Light, Metro Exodus"

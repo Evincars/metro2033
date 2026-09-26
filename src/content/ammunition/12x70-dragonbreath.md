@@ -3,7 +3,8 @@ id: 12x70-dragonbreath
 title: "12x70 Dragonbreath"
 group: Shotgun Shells
 order: 9
-image: 
+image: /ammo-imgs/12x70-dragonbreath.png
+hudIcon: /ammo-imgs/12x70-dragonbreath-icon.png
 brief: "12x70 Dragonbreath is a special type of shotgun shells, added in the Faction Pack DLC for Metro: Last Light."
 wiki: 12x70 Dragonbreath
 appearances: Metro: Last Light
