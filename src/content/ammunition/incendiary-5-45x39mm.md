@@ -3,7 +3,8 @@ id: incendiary-5-45x39mm
 title: "Incendiary 5.45x39mm"
 group: Rifle Rounds
 order: 3
-image: 
+image: /ammo-imgs/incendiary-5-45x39mm.png
+hudIcon: /ammo-imgs/incendiary-5-45x39mm-icon.png
 brief: "Incendiary 5.45x39mm is a special type of ammunition that is featured in Sam's Story, a DLC for Metro Exodus."
 wiki: Incendiary 5.45x39mm
 appearances: Metro Exodus

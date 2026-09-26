@@ -3,7 +3,8 @@ id: incendiary-5-45x39mm
 title: Зажигательные 5,45×39 мм
 group: Rifle Rounds
 order: 3
-image: 
+image: /ammo-imgs/incendiary-5-45x39mm.png
+hudIcon: /ammo-imgs/incendiary-5-45x39mm-icon.png
 brief: Зажигательные патроны 5,45×39 мм — специальные боеприпасы с зажигательным эффектом.
 wiki: Incendiary 5.45x39mm
 appearances: Metro Exodus
