@@ -51,7 +51,7 @@ const filtered = computed(() =>
       if (mention.value === 'out') return !row.inGame
       return true
     })
-    .filter((row) => fuzzyMatch(search.value, row.name) || (row.realMetro && fuzzyMatch(search.value, row.realMetro.title)))
+    .filter((row) => fuzzyMatch(search.value, row.name) || (row.realMetro && (fuzzyMatch(search.value, row.realMetro.title) || fuzzyMatch(search.value, row.realMetro.titleRu))))
     .sort((a, b) => (a.line ?? 99) - (b.line ?? 99) || a.name.localeCompare(b.name)),
 )
 
@@ -160,10 +160,9 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
             :style="{ backgroundColor: lineById[row.line]?.color ?? 'var(--color-border-strong)' }"
             :title="lineById[row.line]?.label ?? 'Unknown line'"
           />
-          <span class="station-name">{{ row.name }}</span>
-          <span v-if="row.realMetro" class="station-name-ru">{{ row.realMetro.title }}</span>
+          <span class="station-name">{{ row.hasRealMetro ? row.realMetro.title : row.name }}</span>
+          <span v-if="row.hasRealMetro && row.realMetro.titleRu && row.realMetro.titleRu !== row.realMetro.title" class="station-name-ru">{{ row.realMetro.titleRu }}</span>
           <span v-if="row.inGame" class="station-tag">{{ t('stations.inGame') }}</span>
-          <span v-if="row.hasRealMetro" class="station-tag real-tag">{{ t('realMetro.tabReal') }}</span>
         </button>
 
         <!-- Expanded detail panel -->
@@ -417,10 +416,6 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
   letter-spacing: 0.05em;
   color: var(--color-amber);
   white-space: nowrap;
-}
-
-.real-tag {
-  color: var(--color-text-faint);
 }
 
 /* Expanded detail panel */

@@ -246,6 +246,7 @@ export default {
   'events.gallery': 'Gallery',
 
   // Stations
+  'stations.backToList': '← All stations',
   'stations.tag': 'Station registry',
   'stations.title': 'Stations',
   'stations.descriptionTpl': '{total} stations of the Moscow Metro. {inGame} appear in the games — toggle the filters below or type to search. Stations featured in a level link to their dossier.',

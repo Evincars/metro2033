@@ -116,7 +116,7 @@ function openStation(id) {
   router.push({ name: 'real-metro-detail', params: { id } })
 }
 function backToList() {
-  router.push({ name: 'real-metro' })
+  router.push({ name: 'stations' })
 }
 </script>
 
@@ -124,7 +124,7 @@ function backToList() {
   <section class="real-metro-view">
     <!-- Detail -->
     <template v-if="activeStation">
-      <button class="back-link" type="button" @click="backToList">{{ t('realMetro.backToList') }}</button>
+      <button class="back-link" type="button" @click="backToList">{{ t('stations.backToList') }}</button>
 
       <article class="mx-panel station-detail">
         <header class="detail-header">

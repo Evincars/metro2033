@@ -31,7 +31,6 @@ const SECTION = {
   vehicles: { label: t('nav.vehicles'), to: '/vehicles' },
   achievements: { label: t('nav.achievements'), to: '/achievements' },
   endings: { label: t('nav.endings'), to: '/endings' },
-  'real-metro': { label: t('nav.realMetro'), to: '/real-metro' },
   games: { label: t('nav.games'), to: '/games' },
   books: { label: t('nav.books'), to: '/books' },
   about: { label: t('nav.about'), to: '/about' },
@@ -77,7 +76,7 @@ export function getBreadcrumbs(route) {
     case 'game-detail':
       return [SECTION.games, { label: gamesById[id]?.title ?? t('breadcrumb.game') }]
     case 'real-metro-detail':
-      return [SECTION['real-metro'], { label: realMetroById[id]?.title ?? 'Station' }]
+      return [SECTION.stations, { label: realMetroById[id]?.title ?? 'Station' }]
     default:
       return SECTION[route.name] ? [SECTION[route.name]] : []
   }

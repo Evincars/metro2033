@@ -232,6 +232,7 @@ export default {
   'events.notableSub': 'Переломные моменты саги Метро, у каждого своё досье.',
   'events.gallery': 'Галерея',
 
+  'stations.backToList': '← Все станции',
   'stations.tag': 'Реестр станций',
   'stations.title': 'Станции',
   'stations.descriptionTpl': '{total} станций Московского метро. {inGame} присутствуют в играх — используйте фильтры ниже или поиск. Станции из игровых уровней ведут к их досье.',
