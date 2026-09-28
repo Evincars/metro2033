@@ -7,6 +7,11 @@ image: /mutant-imgs/ghosts.png
 brief: Strange after-images of people or creatures that died in the metro and have not passed on.
 wiki: ghosts
 appearances: Metro 2033, Metro Last Light
+infoDescription: "Black silhouette of various shapes and sizes."
+infoAttacks: "Contact"
+infoHabitat: "The metro's darker areas"
+infoDerivedFrom: "Living things that come in contact with other ghosts"
+infoNotableFacts: "Non-hostile; Heavily damage or kill on contact"
 ---
 
 # Ghosts

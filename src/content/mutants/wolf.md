@@ -7,6 +7,10 @@ image: /mutant-imgs/wolf.png
 brief: A pack animal that has remained virtually unchanged by radiation.
 wiki: wolf
 appearances: Metro Exodus
+infoDescription: "Covered in fur; Set of sharp teeth; Travels in packs"
+infoAttacks: "Various charges and bites"
+infoHabitat: "Polish wilderness; Russian wilderness; Likely most of Eurasia and North America"
+infoDerivedFrom: "Most likely the Eurasian wolf"
 ---
 
 # Wolf

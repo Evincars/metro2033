@@ -39,6 +39,7 @@ export const CREATURE_CATEGORIES = [
 export const mutants = Object.values(files)
   .map((raw) => {
     const { meta, body } = parseFrontmatter(raw)
+    const variants = meta.variants ? meta.variants.split(';').map((v) => v.trim()).filter(Boolean) : []
     return {
       id: meta.id,
       title: meta.title ?? meta.id,
@@ -48,6 +49,21 @@ export const mutants = Object.values(files)
       brief: meta.brief || '',
       wiki: meta.wiki || '',
       appearances: meta.appearances || '',
+      infoDescription: meta.infoDescription || '',
+      infoAttacks: meta.infoAttacks || '',
+      infoHabitat: meta.infoHabitat || '',
+      infoDerivedFrom: meta.infoDerivedFrom || '',
+      infoNotableFacts: meta.infoNotableFacts || '',
+      variants,
+      variantData: variants.reduce((acc, v) => {
+        const fullKey = v.replace(/\s+/g, '')
+        const shortKey = v.replace(/\s*variant\s*/gi, '').replace(/\s+/g, '')
+        acc[v] = {
+          image: meta[`variant${shortKey}Image`] || meta[`variant${fullKey}Image`] || '',
+          description: meta[`variant${shortKey}Description`] || meta[`variant${fullKey}Description`] || '',
+        }
+        return acc
+      }, {}),
       body,
     }
   })

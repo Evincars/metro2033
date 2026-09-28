@@ -7,6 +7,16 @@ image: /mutant-imgs/worm.jpg
 brief: Giant leeches living in a flooded station of the Novosibirsk Metro.
 wiki: worm
 appearances: Metro Exodus
+infoDescription: "Giant, leech-like body"
+infoAttacks: "Acidic spit"
+infoHabitat: "Novosibirsk Metro, Vladivostok"
+infoDerivedFrom: "Earthworms or Leeches"
+infoNotableFacts: "Thrive in damp environments; Greatly vary in size"
+variants: "Large Variant; Small Variant"
+variantLargeImage: /mutant-imgs/worm-large.jpg
+variantLargeDescription: "Much bigger, spanning about 6-8 meters in length, resembles a bobbit worm. Spits acid and smaller worms at intruders, dealing significant damage."
+variantSmallImage: /mutant-imgs/worm-small.jpg
+variantSmallDescription: "About the size of a small dog. Clings to walls or ground and spits acid at intruders. Can be looted for chemicals."
 ---
 
 # Worm

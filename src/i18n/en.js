@@ -147,6 +147,11 @@ export default {
   'mutants.groupPlantLife': 'Plant Life Forms',
   'mutants.groupHumanoids': 'Humanoids',
   'mutants.groupSupernaturalPhenomena': 'Supernatural Phenomena',
+  'mutants.infoDescription': 'Description',
+  'mutants.infoAttacks': 'Attack(s)',
+  'mutants.infoHabitat': 'Habitat',
+  'mutants.infoDerivedFrom': 'Derived from',
+  'mutants.infoNotableFacts': 'Notable facts',
 
   // Weapons
   'weapons.backToList': '← All weapons',

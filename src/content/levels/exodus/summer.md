@@ -6,6 +6,7 @@ chapter: "The Caspian"
 order: 7
 image: /level-imgs/exodus/summer.jpg
 brief: "Summer is the eight level overall in Metro Exodus, and the third of the seasonal intermission levels set solely on the Aurora."
+wiki: Summer_(Metro_Exodus_Level)
 ---
 
 **Summer** is the eight [level](https://metrovideogame.fandom.com/wiki/Levels) overall in *[Metro Exodus](https://metrovideogame.fandom.com/wiki/Metro_Exodus)*, and the third of the seasonal intermission levels set solely on the [Aurora](https://metrovideogame.fandom.com/wiki/Aurora). At this point in the game, the Aurora has collected all of its additional carriages, which [Artyom](https://metrovideogame.fandom.com/wiki/Artyom) is able to freely explore.

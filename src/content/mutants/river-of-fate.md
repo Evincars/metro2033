@@ -7,6 +7,9 @@ image: /mutant-imgs/river-of-fate.png
 brief: An anomalous flow of water said to change the destiny of those who enter it.
 wiki: river-of-fate
 appearances: Metro 2033 (Novel)
+infoDescription: "Flowing water.; Odd supernatural occurrences."
+infoHabitat: "A utility tunnel of the Ring Line."
+infoNotableFacts: "Non-hostile.; Beneficial, and important on Artyom's journey."
 ---
 
 # River of Fate

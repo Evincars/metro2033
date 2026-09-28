@@ -6,6 +6,7 @@ chapter: "Moscow"
 order: 2
 image: /level-imgs/exodus/moscow.jpg
 brief: "Moscow is the second level of Metro Exodus. It serves, in part, as a tutorial for the game."
+wiki: Moscow_(Metro_Exodus_Level)
 ---
 
 **Moscow** is the second [level](https://metrovideogame.fandom.com/wiki/Levels) of *[Metro Exodus](https://metrovideogame.fandom.com/wiki/Metro_Exodus)*. It serves, in part, as a tutorial for the game.

@@ -6,6 +6,7 @@ chapter: "The Taiga"
 order: 9
 image: /level-imgs/exodus/autumn.jpg
 brief: "Autumn is the tenth level overall level in Metro Exodus, and the fourth and final of the seasonal intermission levels set solely aboard the Aurora."
+wiki: Autumn_(Metro_Exodus_Level)
 ---
 
 **Autumn** is the tenth level overall level in *[Metro Exodus](https://metrovideogame.fandom.com/wiki/Metro_Exodus)*, and the fourth and final of the seasonal intermission levels set solely aboard the [Aurora](https://metrovideogame.fandom.com/wiki/Aurora). Spirits are low as [Anna's](https://metrovideogame.fandom.com/wiki/Anna_(Character)) condition worsens and [Miller](https://metrovideogame.fandom.com/wiki/Miller) suggests they head to [Novosibirsk](https://metrovideogame.fandom.com/wiki/Novosibirsk), and the source of the experimental medicine.

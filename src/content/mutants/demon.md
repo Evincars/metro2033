@@ -7,6 +7,11 @@ image: /mutant-imgs/demon.jpg
 brief: A giant bat-like creature found only on the surface.
 wiki: demon
 appearances: Metro 2033, Metro Last Light, Metro Exodus
+infoDescription: "Large, winged, bat-like mammalian body; Complex facial basis with prominent nose and fangs; Tiger-like roar; Reptilian alteration (Metro Last Light); Anatomical features, such as elongated ears, teeth, nose, and wings resemble chiroptera (Metro Exodus)"
+infoAttacks: "Swooping bashes; Bites; Dragging and throwing"
+infoHabitat: "The Surface"
+infoDerivedFrom: "Unknown, likely bats or possibly a true chimera being"
+infoNotableFacts: "Feared surface predators"
 ---
 
 # Demon

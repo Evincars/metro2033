@@ -6,6 +6,7 @@ chapter: "The Dead City"
 order: 11
 image: /level-imgs/exodus/the-dead-city.jpg
 brief: "The Dead City is the eleventh level overall in Metro Exodus, and the final playable level within the game."
+wiki: The_Dead_City_(Metro_Exodus_Level)
 ---
 
 **The Dead City** is the eleventh level overall in *[Metro Exodus](https://metrovideogame.fandom.com/wiki/Metro_Exodus)*, and the final playable level within the game. The Culmination of the [Aurora](https://metrovideogame.fandom.com/wiki/Aurora)'s journey brings the crew to the radioactive city of [Novosibirsk](https://metrovideogame.fandom.com/wiki/Novosibirsk) in search of an experimental military drug.

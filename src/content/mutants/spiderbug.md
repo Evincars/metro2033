@@ -7,6 +7,11 @@ image: /mutant-imgs/spiderbug.png
 brief: Large scorpion and spider-like arthropods deathly vulnerable to light.
 wiki: spiderbug
 appearances: Metro 2033, Metro Last Light
+infoDescription: "Six-legged insectoids of either moderate or very small size.; Webbing around small spiders.; Large spiders armored and vulnerable to light.; Some possess scorpion-like tail stingers."
+infoAttacks: "Various slashes and bashes."
+infoHabitat: "Places of the Post-Apocalyptic Metro System normally devoid of light."
+infoDerivedFrom: "Spiders"
+infoNotableFacts: "Never have to be shot at. Afraid and weak to bright light."
 ---
 
 # Spiderbug

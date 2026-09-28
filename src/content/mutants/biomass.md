@@ -7,6 +7,11 @@ image: /mutant-imgs/biomass.jpg
 brief: A very large mass of radioactive organic material formed after the use of Ancient Weapons.
 wiki: biomass
 appearances: Metro 2033 (Novel)
+infoDescription: "Flesh-based mass; Four armed base; Multiple orifices on body as a whole"
+infoAttacks: "Spawning amoebae; Tentacles"
+infoHabitat: "D6"
+infoDerivedFrom: "Unknown, suspected biological weapons based"
+infoNotableFacts: "Boss entity of Metro 2033"
 ---
 
 # Biomass

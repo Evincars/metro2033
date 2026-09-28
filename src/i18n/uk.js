@@ -131,6 +131,11 @@ export default {
   'mutants.groupPlantLife': 'Рослини',
   'mutants.groupHumanoids': 'Гуманоїди',
   'mutants.groupSupernaturalPhenomena': 'Надприродні явища',
+  'mutants.infoDescription': 'Опис',
+  'mutants.infoAttacks': 'Атака(и)',
+  'mutants.infoHabitat': 'Середовище існування',
+  'mutants.infoDerivedFrom': 'Походить від',
+  'mutants.infoNotableFacts': 'Цікаві факти',
 
   'equipment.backToList': '← Усе спорядження',
   'equipment.fandomLink': 'Читати повну статтю на Fandom ↗',

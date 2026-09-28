@@ -7,6 +7,11 @@ image: /mutant-imgs/anomaly.jpg
 brief: Supernatural bright blue balls of light that electrify and kill everything around them.
 wiki: anomaly
 appearances: Metro 2033, Metro Last Light
+infoDescription: "Glowing blue and white ball of formless energy."
+infoAttacks: "Contact; Electrical discharges"
+infoHabitat: "Post-Apocalyptic Metro System; Russia"
+infoDerivedFrom: "Unknown type of energy (Speculated to be a variant of irradiated ball lightning)"
+infoNotableFacts: "Cannot be killed by the player"
 ---
 
 # Anomaly

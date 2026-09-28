@@ -6,6 +6,7 @@ chapter: "Yamantau"
 order: 6
 image: /level-imgs/exodus/yamantau.jpg
 brief: "Yamantau is the sixth level in Metro Exodus and reveals the true nature of the Yamantau Bunker, the Ark project, and the remnants of the Russian government."
+wiki: Yamantau_(Metro_Exodus_Level)
 ---
 
 **Yamantau** is the sixth [level](https://metrovideogame.fandom.com/wiki/Levels) in *[Metro Exodus](https://metrovideogame.fandom.com/wiki/Metro_Exodus)* and reveals the true nature of the [Yamantau Bunker](https://metrovideogame.fandom.com/wiki/The_Ark), the Ark project, and the remnants of the Russian government.

@@ -7,6 +7,10 @@ image: /mutant-imgs/humanimal.png
 brief: A humanoid mutant severely affected by decades of radiation, regressed to an animalistic state.
 wiki: humanimal
 appearances: Metro 2033 (Novel)
+infoDescription: "Heavily mutated human body; Travels in packs; Inhabits disused areas; Elongated sharp claws/teeth; Heavily mutated/decayed face with sharp teeth"
+infoAttacks: "Elongated fingernails and teeth; Uses nearby items as primitive weapons"
+infoHabitat: "Rural areas and less irradiated settlements."
+infoDerivedFrom: "Humans who were exposed to less radiation than Dark Ones."
 ---
 
 # Humanimal

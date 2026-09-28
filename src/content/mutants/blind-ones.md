@@ -7,6 +7,10 @@ image: /mutant-imgs/blind-ones.png
 brief: Giant gorilla-like mutants living in the abandoned research facility at Novosibirsk.
 wiki: blind-ones
 appearances: Metro Exodus
+infoAttacks: "Powerful strikes and claw swipes"
+infoHabitat: "The Institute, Sat-Com Centre Novosibirsk"
+infoDerivedFrom: "Presumably genetically engineered species of gorilla"
+infoNotableFacts: "Completely blind, navigate using sound and smell; Have psychic abilities; Extremely strong and durable, able to endure numerous rounds and tear their prey to shreds"
 ---
 
 # Blind Ones

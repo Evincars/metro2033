@@ -7,6 +7,9 @@ image: /mutant-imgs/dark-ones.jpg
 brief: Powerful sentient humanoids with telepathic abilities that attempt to communicate with Artyom.
 wiki: dark-ones
 appearances: Metro 2033, Metro Last Light
+infoDescription: "Bipedal with long arms and legs; Black skin; Lack of visible ears"
+infoHabitat: "Heavily-irradiated cities such as Moscow and Novosibirsk"
+infoDerivedFrom: "Humans who survived the war and were exposed to radiation/possibly experimentation on humans before the war (evident by those locked away in D6)."
 ---
 
 # Dark Ones

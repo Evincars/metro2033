@@ -7,6 +7,11 @@ image: /mutant-imgs/nosalis.jpg
 brief: A common mutant found in the metro, likely mutated from moles, with six known varieties.
 wiki: nosalis
 appearances: Metro 2033, Metro Last Light, Metro Exodus
+infoDescription: "Various shapes and sizes (see: Variants); Overall, all are moderately large mammalian predators"
+infoAttacks: "Various punches, swipes, and bites"
+infoHabitat: "Moscow Metro"
+infoDerivedFrom: "Unknown, most likely moles."
+infoNotableFacts: "Carries a boss variant: Nosalis Rhino"
 ---
 
 # Nosalis

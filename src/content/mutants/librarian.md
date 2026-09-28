@@ -7,6 +7,10 @@ image: /mutant-imgs/librarian.jpg
 brief: Quasi-intelligent beasts found only in the library, resembling grotesque gorillas.
 wiki: librarian
 appearances: Metro 2033, Metro Last Light
+infoDescription: "Sparsely-haired primate; Large, muscular arms, legs, shoulders and back; Large forehead; Large flappy nose structure that covers teeth; Long, three membered hands and feet"
+infoAttacks: "Various punches"
+infoHabitat: "The Surface"
+infoDerivedFrom: "Unknown; possibly of human origin"
 ---
 
 # Librarian

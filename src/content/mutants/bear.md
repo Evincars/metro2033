@@ -7,6 +7,10 @@ image: /mutant-imgs/bear.png
 brief: A bear affected by radiation that grew to monstrous proportions, now a powerful boss-entity.
 wiki: bear
 appearances: Metro 2033, Metro Exodus
+infoDescription: "Massive size and pronounced spine; Great muscle and bone mass; Highly deformed head with mangled jaw (Metro Last Light); Black and bloody mangled skin (Metro Last Light); Brown fur (Metro Exodus); Tremendous roar"
+infoAttacks: "Charges, pounces, and slashes"
+infoHabitat: "The Surface"
+infoDerivedFrom: "Bear"
 ---
 
 # Bear

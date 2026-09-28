@@ -6,6 +6,7 @@ chapter: "The Volga"
 order: 4
 image: /level-imgs/exodus/spring.jpg
 brief: "Spring is the fifth level overall in Metro Exodus, and the second of the seasonal intermission levels set solely on the Aurora."
+wiki: Spring_(Metro_Exodus_Level)
 ---
 
 **Spring** is the fifth [level](https://metrovideogame.fandom.com/wiki/Levels) overall in *[Metro Exodus](https://metrovideogame.fandom.com/wiki/Metro_Exodus)*, and the second of the seasonal intermission levels set solely on the [Aurora](https://metrovideogame.fandom.com/wiki/Aurora). Unlike "[Winter](https://metrovideogame.fandom.com/wiki/Winter_(Metro_Exodus_Level))", [Artyom](https://metrovideogame.fandom.com/wiki/Artyom) is able explore the newly added [sleeper carriage](https://metrovideogame.fandom.com/wiki/Aurora's_Passenger_Train_Car) and is able to listen in on much more relaxed conversations between the crew.

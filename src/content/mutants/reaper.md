@@ -7,6 +7,8 @@ image:
 brief: A creature more than three meters tall with long sickle-shaped claws.
 wiki: reaper
 appearances: Metro 2033 Universe
+infoHabitat: "Novosibirsk"
+infoDerivedFrom: "Mixture of rodent and feral cat"
 ---
 
 # Reaper

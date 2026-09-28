@@ -7,6 +7,11 @@ image:
 brief: A powerful, presumably predatory snail-like creature that leaves slimy trails in its wake.
 wiki: slimeslug
 appearances: Metro 2033 (Novel)
+infoDescription: "Trail of slime."
+infoAttacks: "Unknown methods."
+infoHabitat: "The Surface"
+infoDerivedFrom: "Slugs"
+infoNotableFacts: "Never seen"
 ---
 
 # Slimeslug

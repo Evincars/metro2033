@@ -6,6 +6,7 @@ chapter: "The Caspian"
 order: 8
 image: /level-imgs/exodus/the-caspian.jpg
 brief: "The Caspian is the seventh overall level featured in Metro Exodus, and the second of the open world levels."
+wiki: The_Caspian_(Metro_Exodus_Level)
 ---
 
 **The Caspian** is the seventh overall [level](https://metrovideogame.fandom.com/wiki/Levels) featured in *[Metro Exodus](https://metrovideogame.fandom.com/wiki/Metro_Exodus)*, and the second of the open world levels. Dealing with the fallout from [Mount Yamantau](https://metrovideogame.fandom.com/wiki/The_Ark), the [Aurora](https://metrovideogame.fandom.com/wiki/Aurora) heads south in search of the [Caspian-1](https://metrovideogame.fandom.com/wiki/Kaspik-1) facility. It also contains a possible reference to UVB 76

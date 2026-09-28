@@ -7,6 +7,10 @@ image: /mutant-imgs/giant-amoeba.jpg
 brief: A large explosive ball of protoplasm that seeks out living creatures and explodes on contact.
 wiki: giant-amoeba
 appearances: Metro Last Light
+infoDescription: "Color changing cytoplasm; Solid nucleus"
+infoAttacks: "Suicidal charges and self-destructs"
+infoHabitat: "D6"
+infoDerivedFrom: "Unknown, suspected biological weaponry"
 ---
 
 # Giant Amoeba

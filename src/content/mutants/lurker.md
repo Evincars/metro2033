@@ -7,6 +7,10 @@ image: /mutant-imgs/lurker.jpg
 brief: Small, numerous, and agile creatures likely mutated from large rodents.
 wiki: lurker
 appearances: Metro 2033, Metro Last Light, Metro Exodus
+infoDescription: "Small and hairless body; Distinctive face with odd jaw and beady eyes; Pink color; High pitched screech; Large rodent-esque appearance albeit with simian/ape-like alterations (Metro Exodus)"
+infoAttacks: "Various charges and bites"
+infoHabitat: "Post-Apocalyptic Metro System"
+infoDerivedFrom: "Muroidea/Rodentia (most likely Muscovian/Siberian rats)"
 ---
 
 # Lurker

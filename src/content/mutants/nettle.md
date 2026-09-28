@@ -7,6 +7,10 @@ image: /mutant-imgs/nettle.jpg
 brief: Poisonous bushes containing poison gas found in the Volga area.
 wiki: nettle
 appearances: Metro Exodus
+infoDescription: "Mutated shrub-like plant; Has red glowing spore sacks"
+infoAttacks: "Releases poisonous gas upon contact"
+infoHabitat: "The Surface"
+infoDerivedFrom: "Unknown plant"
 ---
 
 # Nettle

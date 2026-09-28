@@ -7,6 +7,10 @@ image: /mutant-imgs/liana.png
 brief: Large tentacles that hang from the ceilings of building interiors.
 wiki: liana
 appearances: Metro Last Light
+infoDescription: "Fleshy tentacle; Hangs from the ceiling"
+infoAttacks: "Swooping and dropping of the arm"
+infoHabitat: "The Surface"
+infoDerivedFrom: "Suspected house plant or biological weapon"
 ---
 
 # Liana

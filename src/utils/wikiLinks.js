@@ -1,17 +1,4 @@
-import { levels } from '../data/levels'
-import { locations } from '../data/locations'
-import { factions } from '../data/factions'
-import { characters } from '../data/characters'
-import { mutants } from '../data/mutants'
-import { equipment } from '../data/equipment'
-import { weapons } from '../data/weapons'
-import { ammunition } from '../data/ammunition'
-import { vehicles } from '../data/vehicles'
-import { achievements } from '../data/achievements'
-import { endings } from '../data/endings'
-import { eventArticles } from '../data/eventArticles'
-import { books } from '../data/books'
-import { games } from '../data/games'
+import { slugEntries, titleEntries } from '../data/linkIndex'
 
 function normalize(str) {
   return String(str ?? '')
@@ -22,7 +9,7 @@ function normalize(str) {
 }
 
 function normalizeSlug(str) {
-  return String(str ?? '').replace(/_/g, ' ').toLowerCase().replace(/#.*$/, '')
+  return String(str ?? '').replace(/[-_]/g, ' ').toLowerCase().replace(/#.*$/, '')
 }
 
 const slugToHref = {}
@@ -30,19 +17,8 @@ function addSlug(wiki, href) {
   const key = normalizeSlug(decodeURIComponent(wiki))
   slugToHref[key] = href
 }
-for (const f of factions) if (f.wiki) addSlug(f.wiki, `/factions/${f.id}`)
-for (const loc of locations) if (loc.wiki) addSlug(loc.wiki, `/locations/${loc.id}`)
-for (const c of characters) if (c.wiki) addSlug(c.wiki, `/characters/${c.id}`)
-for (const m of mutants) if (m.wiki) addSlug(m.wiki, `/mutants/${m.id}`)
-for (const e of equipment) if (e.wiki) addSlug(e.wiki, `/equipment/${e.id}`)
-for (const w of weapons) if (w.wiki) addSlug(w.wiki, `/weapons/${w.id}`)
-for (const a of ammunition) if (a.wiki) addSlug(a.wiki, `/ammunition/${a.id}`)
-for (const v of vehicles) if (v.wiki) addSlug(v.wiki, `/vehicles/${v.id}`)
-for (const ach of achievements) if (ach.wiki) addSlug(ach.wiki, `/achievements/${ach.id}`)
-for (const end of endings) if (end.wiki) addSlug(end.wiki, `/endings/${end.id}`)
-for (const ev of eventArticles) if (ev.wiki) addSlug(ev.wiki, `/events/${ev.id}`)
-for (const b of books) if (b.wiki) addSlug(b.wiki, `/books/${b.id}`)
-for (const g of games) if (g.wiki) addSlug(g.wiki, `/games/${g.id}`)
+for (const [wiki, href] of slugEntries) addSlug(wiki, href)
+
 const SLUG_ALIASES = {
   'Metro 2033 (Videogame)': '/games/metro-2033',
   'Metro 2033 (Video Game)': '/games/metro-2033',
@@ -58,14 +34,20 @@ const SLUG_ALIASES = {
   'Endings': '/endings',
   'Moral Points': '/events/moral-points',
   'Moral Point': '/events/moral-points',
+  'moral points': '/events/moral-points',
   'Spartan Rangers': '/factions/rangers',
   'The Rangers': '/factions/rangers',
   'Rangers': '/factions/rangers',
+  'Spartan': '/factions/rangers',
+  'The Rangers of the Order': '/factions/rangers',
   'Great War of 2013': '/events/world-war-iii',
   'World War III': '/events/world-war-iii',
   'Battle of D6': '/events/battle-for-d6',
+  'Battle for D6': '/events/battle-for-d6',
   'Hansa': '/factions/hanza',
   'Nosalises': '/mutants/nosalis',
+  'nosalises': '/mutants/nosalis',
+  'nosalis': '/mutants/nosalis',
   'Shrimps': '/mutants/shrimp',
   'shrimps': '/mutants/shrimp',
   'Demons': '/mutants/demon',
@@ -79,7 +61,14 @@ const SLUG_ALIASES = {
   'Watchers': '/mutants/watcher',
   'watchers': '/mutants/watcher',
   'Watchmen': '/mutants/watcher',
+  'watchmen': '/mutants/watcher',
+  'The Blind Ones': '/mutants/blind-ones',
+  'Blind Ones': '/mutants/blind-ones',
+  'Tsar Fish': '/mutants/tsar-fish',
+  'worm': '/mutants/worm',
+  'humanimal': '/mutants/humanimal',
   'Dark One': '/factions/dark-ones',
+  'Dark Ones': '/factions/dark-ones',
   'Nazis': '/factions/fourth-reich',
   'Nazi': '/factions/fourth-reich',
   'Communists': '/factions/red-line',
@@ -91,9 +80,104 @@ const SLUG_ALIASES = {
   'Saiga (Saiga-12)': '/weapons/saiga',
   'MGR': '/weapons/mgr',
   'Volt Driver': '/weapons/volt-driver',
+  'Uboinik (Shambler)': '/weapons/shambler',
+  'Tihar': '/weapons/tikhar',
   'VDNKh': '/locations/exhibition',
+  'VDNKh Station (Location)': '/locations/vdnkh',
   'Weapons': '/weapons',
   'Factions': '/factions',
+  'Levels': '/levels',
+  'Mutants': '/mutants',
+
+  'Armour': '/equipment/armor',
+  'Armour#Upgrades': '/equipment/armor',
+  'backpack': '/equipment/backpack',
+  'equipment': '/equipment',
+  'Gas Mask#Upgrades': '/equipment/gas-mask',
+  'gas mask': '/equipment/gas-mask',
+  'flashlight': '/equipment/flashlight',
+  'flamethrower': '/weapons/flamethrower',
+  'Electrical Equipment#Upgrades': '/equipment/electrical-equipment',
+  "Artyom's Bracer#Upgrades": '/equipment/artyoms-bracer',
+  'Incendiary 5.45x39mm': '/ammunition/incendiary-5-45x39mm',
+  'postcards': '/equipment',
+  'Difficulties': '/games/metro-exodus',
+  'Downloadable Content': '/games/metro-exodus',
+
+  'Moscow Metro': '/map',
+  'Post-Apocalyptic Metro System': '/map',
+  'the Surface': '/locations',
+  'Library (Disambiguation)': '/locations/great-library',
+  ':Category:Assault Rifles': '/weapons',
+  ':Category:Handguns': '/weapons',
+
+  "Sam's Story": '/levels/sams-story',
+  'Savage Cannibals of the Great Worm Cult': '/factions/great-worm-cult',
+  'cannibals': '/factions/great-worm-cult',
+  'Cannibals': '/factions/great-worm-cult',
+
+  'Anna Miller': '/characters/anna',
+  'Stepan (Metro 2035)': '/characters/stepan',
+  'Stepan': '/characters/stepan',
+  'motorboat': '/vehicles/motorboat',
+  'Metro': '/games',
+  'Moscow': '/levels/moscow',
+  'Anti-rad': '/equipment/radioprotector',
+  'Renergan-F': '/levels/the-dead-city',
+  'Armored Train': '/vehicles/red-line-armoured-train',
+  'Russian Armed Forces': '/factions/rangers',
+  'VDNKh Station (Location)': '/locations/vdnkh',
+  'Great Owl': '/mutants/demon',
+  'Kaspik-1': '/vehicles/cruiser',
+  'Caspian-1': '/vehicles/cruiser',
+  'Heavy Trooper': '/factions/rangers',
+  'Master of the Forest': '/mutants/bear',
+  'Forest Child': '/characters/olga',
+  'Novosibirsk Satellite Communications Center': '/levels/the-dead-city',
+  'Institute (Novosibirsk)': '/levels/the-dead-city',
+  'Volga Storage Facility': '/levels/the-volga',
+  'Sibirskaya': '/levels/the-dead-city',
+  'Danila (Vladivostok)': '/characters/danila',
+  'Saul': '/levels/sams-story',
+  'The Doctor': '/levels/the-two-colonels',
+  'The Hermit': '/levels/the-volga',
+  'The Admiral': '/levels/sams-story',
+  'The Teacher (Metro Exodus)': '/levels/the-taiga',
+  'Petrovich (Exodus)': '/levels/the-volga',
+  'Kirill (Exodus)': '/characters/kirill',
+  'Korzh': '/levels/the-volga',
+  'Klim': '/levels/the-two-colonels',
+  'Tolya': '/levels/the-dead-city',
+  'Tom': '/levels/sams-story',
+  'Mirsky': '/levels/the-dead-city',
+  'Eduard Baranov': '/levels/the-two-colonels',
+  'Khakimova': '/levels/the-two-colonels',
+  'Silantius': '/levels/the-volga',
+
+  'Moscow (Metro Exodus Level)': '/levels/moscow',
+  'Winter (Metro Exodus Level)': '/levels/winter',
+  'Spring (Metro Exodus Level)': '/levels/spring',
+  'The Volga (Metro Exodus Level)': '/levels/the-volga',
+  'Yamantau (Metro Exodus Level)': '/levels/yamantau',
+  'Summer (Metro Exodus Level)': '/levels/summer',
+  'The Caspian (Metro Exodus Level)': '/levels/the-caspian',
+  'Autumn (Metro Exodus Level)': '/levels/autumn',
+  'The Taiga (Metro Exodus Level)': '/levels/the-taiga',
+  'The Dead City (Metro Exodus Level)': '/levels/the-dead-city',
+  'Sparta (Metro Last Light Level)': '/levels/sparta',
+
+  'Volga': '/levels/the-volga',
+  'the Ark': '/levels/yamantau',
+  'The Ark': '/levels/yamantau',
+  'the Baron': '/characters/baron',
+  'The Baron': '/characters/baron',
+  'The False Baron': '/characters/baron',
+  'Valley': '/levels/the-taiga',
+  'Railway museum': '/levels/autumn',
+  'Akademgorodok': '/levels/the-dead-city',
+  'Kazakhstan': '/levels/the-caspian',
+  'Lake Baikal': '/levels/autumn',
+  'the valley': '/levels/the-taiga',
 }
 for (const [key, href] of Object.entries(SLUG_ALIASES)) slugToHref[normalizeSlug(key)] = href
 
@@ -102,35 +186,12 @@ function addAlias(text, href) {
   const key = normalize(text)
   if (key) textToHref[key] = href
 }
-for (const f of factions) addAlias(f.title, `/factions/${f.id}`)
-for (const c of characters) addAlias(c.title, `/characters/${c.id}`)
-for (const m of mutants) addAlias(m.title, `/mutants/${m.id}`)
-for (const e of equipment) addAlias(e.title, `/equipment/${e.id}`)
-for (const w of weapons) addAlias(w.title, `/weapons/${w.id}`)
-for (const a of ammunition) addAlias(a.title, `/ammunition/${a.id}`)
-for (const v of vehicles) addAlias(v.title, `/vehicles/${v.id}`)
-for (const ach of achievements) addAlias(ach.title, `/achievements/${ach.id}`)
-for (const end of endings) addAlias(end.title, `/endings/${end.id}`)
-for (const ev of eventArticles) addAlias(ev.title, `/events/${ev.id}`)
-for (const b of books) addAlias(b.title, `/books/${b.id}`)
-for (const g of games) if (g.id !== 'metro-2033') addAlias(g.title, `/games/${g.id}`)
-for (const loc of locations) {
-  const href = `/locations/${loc.id}`
-  addAlias(loc.title, href)
-  const paren = /^(.*?)\s*\((.*?)\)\s*$/.exec(loc.title)
-  if (paren) {
-    addAlias(paren[1], href)
-    addAlias(paren[2], href)
-  }
-}
-for (const level of levels) addAlias(level.title, `/levels/${level.id}`)
+for (const [title, href] of titleEntries) addAlias(title, href)
 
 function resolveBySlug(slug) {
   const key = normalizeSlug(decodeURIComponent(slug))
   if (slugToHref[key]) return slugToHref[key]
-  // Try stripping trailing 's' for plurals
   if (key.endsWith('s') && slugToHref[key.slice(0, -1)]) return slugToHref[key.slice(0, -1)]
-  // Try stripping parenthetical suffix: "Anna (Character)" -> "Anna"
   const base = key.replace(/\s*\([^)]*\)\s*$/, '')
   if (base !== key && slugToHref[base]) return slugToHref[base]
   return null

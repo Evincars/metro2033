@@ -7,6 +7,8 @@ image: /mutant-imgs/great-door.png
 brief: A seemingly hypnotic entity found in the lost catacombs, embodied by a large red door.
 wiki: great-door
 appearances: Metro 2033
+infoDescription: "Two large doors with red light behind it"
+infoAttacks: "Hypnotism; Poison Gas; Vacuum that sucks you in"
 ---
 
 # Great Door

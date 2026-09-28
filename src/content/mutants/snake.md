@@ -7,6 +7,10 @@ image: /mutant-imgs/snake.png
 brief: Reptiles that have developed bug-like legs and pincers on their tails.
 wiki: snake
 appearances: Metro Exodus
+infoDescription: "Legless, carnivorous reptiles; Sometimes venomous and aggressive; Live in tall grasses"
+infoAttacks: "Venomous bites"
+infoHabitat: "Kazakhstan; Vladivostok; Other areas"
+infoDerivedFrom: "Snake"
 ---
 
 # Snake

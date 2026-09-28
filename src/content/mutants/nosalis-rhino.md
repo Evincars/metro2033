@@ -7,6 +7,11 @@ image: /mutant-imgs/nosalis-rhino.jpg
 brief: A massive nosalis leader that acts as an alpha female to common nosalises.
 wiki: nosalis-rhino
 appearances: Metro 2033
+infoDescription: "Maw with jagged teeth; Huge size; Large armored arms; Unarmored back and chest with nine breasts"
+infoAttacks: "Charges and pounds"
+infoHabitat: "Sparta Underground"
+infoDerivedFrom: "A last stage of development of a Winged Nosalis"
+infoNotableFacts: "Boss entity"
 ---
 
 # Nosalis Rhino

@@ -7,6 +7,10 @@ image: /mutant-imgs/mutant-crow.png
 brief: Small bird-like animals living on the surface with the ability to fly.
 wiki: mutant-crow
 appearances: Metro Last Light
+infoDescription: "Small size; Winged and serpentine headed; Tail, but no feet"
+infoHabitat: "The Surface"
+infoDerivedFrom: "Crows or bats"
+infoNotableFacts: "Non-hostile"
 ---
 
 # Mutant Crow

@@ -62,6 +62,7 @@ export const levels = Object.values(files)
       order: Number(meta.order ?? 0),
       image: meta.image || '',
       brief: meta.brief || '',
+      wiki: meta.wiki || '',
       body,
     }
   })

@@ -6,6 +6,7 @@ chapter: "DLC — The Two Colonels"
 order: 12
 image: /level-imgs/exodus/the-two-colonels.jpg
 brief: "The Two Colonels is a story DLC for Metro Exodus that is part of the Expansion Pass. It takes place in the Novosibirsk Metro before the arrival of the Aurora Crew and follows the story of Colonel Khlebnikov."
+wiki: The_Two_Colonels
 ---
 
 **The Two Colonels** is a story [DLC](https://metrovideogame.fandom.com/wiki/Downloadable_Content) for [Metro Exodus](https://metrovideogame.fandom.com/wiki/Metro_Exodus) that is part of the Expansion Pass. It takes place in the [Novosibirsk](https://metrovideogame.fandom.com/wiki/Novosibirsk) [Metro](https://metrovideogame.fandom.com/wiki/Novosibirsk_Metro) before the arrival of the [Aurora](https://metrovideogame.fandom.com/wiki/Aurora) [Crew](https://metrovideogame.fandom.com/wiki/Aurora#Crew) and follows the story of [Colonel Khlebnikov](https://metrovideogame.fandom.com/wiki/Khlebnikov). The story provides more details about [the fall](https://metrovideogame.fandom.com/wiki/Novosibirsk_Riots) of Novosibirsk. The Two Colonels was released on the 20th August 2019, as announced at Gamescom a day previously.

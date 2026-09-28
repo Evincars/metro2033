@@ -7,6 +7,10 @@ image: /mutant-imgs/watcher.png
 brief: Large mutants covered with dark grey fur, known for their distinct howling.
 wiki: watcher
 appearances: Metro 2033, Metro Last Light, Metro Exodus
+infoDescription: "Large and hirsute bodies; Distinctive face with odd jaw and beady eyes; Low, droning, cries and loud howls; Distinguishing facial Deformities"
+infoAttacks: "Various charges and bites"
+infoHabitat: "The Surface"
+infoDerivedFrom: "Unknown, most likely Canine or Rodentia in origin"
 ---
 
 # Watcher

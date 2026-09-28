@@ -7,6 +7,9 @@ image: /mutant-imgs/tsar-fish.png
 brief: A large aquatic mutant inhabiting the Volga river.
 wiki: tsar-fish
 appearances: Metro Exodus
+infoDescription: "Colossal fish; Worshipped by cultists; Has amphibian-like features"
+infoHabitat: "Volga river, Russia"
+infoDerivedFrom: "Catfish"
 ---
 
 # Tsar Fish

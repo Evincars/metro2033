@@ -29,10 +29,28 @@ const CREATURE_LABELS = {
 
 const activeId = computed(() => route.params.id ?? '')
 const activeMutant = computed(() => (activeId.value ? mutantsById[activeId.value] : null))
+const activeVariant = ref('')
+const currentVariant = computed(() => {
+  const m = activeMutant.value
+  if (!m || !m.variants.length) return null
+  return m.variantData[activeVariant.value] || null
+})
 
 const renderedBody = computed(() =>
   activeMutant.value ? linkify(marked.parse(activeMutant.value.body || '')) : '',
 )
+
+const infoRows = computed(() => {
+  const m = activeMutant.value
+  if (!m) return []
+  const rows = []
+  if (m.infoDescription) rows.push({ label: t('mutants.infoDescription'), value: m.infoDescription })
+  if (m.infoAttacks) rows.push({ label: t('mutants.infoAttacks'), value: m.infoAttacks })
+  if (m.infoHabitat) rows.push({ label: t('mutants.infoHabitat'), value: m.infoHabitat })
+  if (m.infoDerivedFrom) rows.push({ label: t('mutants.infoDerivedFrom'), value: m.infoDerivedFrom })
+  if (m.infoNotableFacts) rows.push({ label: t('mutants.infoNotableFacts'), value: m.infoNotableFacts })
+  return rows
+})
 
 const brokenImages = ref(new Set())
 function markBroken(id) {
@@ -116,15 +134,45 @@ function backToList() {
           </p>
         </header>
 
-        <figure v-if="showImage" class="detail-figure">
-          <img
-            :src="activeMutant.image"
-            :alt="activeMutant.title"
-            loading="lazy"
-            referrerpolicy="no-referrer"
-            @error="markBroken(activeMutant.id)"
-          />
-        </figure>
+        <!-- Variant tabs -->
+        <div v-if="activeMutant.variants.length" class="variant-tabs">
+          <button
+            class="variant-tab"
+            :class="{ active: !activeVariant }"
+            @click="activeVariant = ''"
+          >{{ activeMutant.title }}</button>
+          <button
+            v-for="v in activeMutant.variants"
+            :key="v"
+            class="variant-tab"
+            :class="{ active: activeVariant === v }"
+            @click="activeVariant = v"
+          >{{ v }}</button>
+        </div>
+
+        <div class="detail-content-row">
+          <figure v-if="showImage" class="detail-figure">
+            <img
+              :src="currentVariant?.image || activeMutant.image"
+              :alt="activeVariant || activeMutant.title"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+              @error="markBroken(activeMutant.id)"
+            />
+          </figure>
+
+          <!-- Infobox table -->
+          <table v-if="infoRows.length" class="infobox-table">
+            <tbody>
+              <tr v-for="row in infoRows" :key="row.label">
+                <th>{{ row.label }}</th>
+                <td>{{ row.value }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p v-if="currentVariant?.description" class="variant-description">{{ currentVariant.description }}</p>
 
         <div class="markdown-body" v-html="renderedBody" @click="onBodyClick" />
 
@@ -396,7 +444,6 @@ function backToList() {
 }
 
 .detail-figure {
-  margin: 1.25rem 0;
   max-width: 300px;
 }
 
@@ -450,6 +497,91 @@ function backToList() {
 
 .markdown-body :deep(li) {
   margin-bottom: 0.3rem;
+}
+
+/* Variant tabs */
+.variant-tabs {
+  display: flex;
+  gap: 0;
+  border-bottom: 1px solid var(--color-border-strong);
+  margin-bottom: 1rem;
+}
+
+.variant-tab {
+  padding: 0.5rem 1rem;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  color: var(--color-text-dim);
+  background: transparent;
+  border: 1px solid transparent;
+  border-bottom: none;
+  cursor: pointer;
+  position: relative;
+  top: 1px;
+}
+
+.variant-tab:hover {
+  color: var(--color-amber);
+}
+
+.variant-tab.active {
+  color: var(--color-amber-bright);
+  background: var(--color-bg-alt);
+  border-color: var(--color-border-strong);
+  border-bottom: 1px solid var(--color-bg-alt);
+}
+
+/* Content row: figure + infobox side by side */
+.detail-content-row {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  margin: 1.25rem 0;
+}
+
+.detail-content-row .detail-figure {
+  margin: 0;
+  flex-shrink: 0;
+}
+
+/* Infobox table */
+.infobox-table {
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  min-width: 240px;
+  max-width: 400px;
+}
+
+.infobox-table th,
+.infobox-table td {
+  padding: 0.45rem 0.7rem;
+  border: 1px solid var(--color-border-strong);
+  text-align: left;
+  vertical-align: top;
+}
+
+.infobox-table th {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  color: var(--color-amber);
+  background: rgba(0, 0, 0, 0.2);
+  white-space: nowrap;
+  width: 1%;
+}
+
+.infobox-table td {
+  color: var(--color-text-dim);
+  line-height: 1.5;
+}
+
+.variant-description {
+  font-size: 0.88rem;
+  color: var(--color-text-dim);
+  font-style: italic;
+  margin: 0 0 1rem;
+  max-width: 72ch;
 }
 
 .fandom-link {
@@ -628,6 +760,20 @@ function backToList() {
 
   .gallery-grid {
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  }
+
+  .detail-content-row {
+    flex-direction: column;
+  }
+
+  .infobox-table {
+    min-width: unset;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .variant-tabs {
+    flex-wrap: wrap;
   }
 }
 </style>

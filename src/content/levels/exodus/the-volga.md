@@ -6,6 +6,7 @@ chapter: "The Volga"
 order: 5
 image: /level-imgs/exodus/the-volga.jpg
 brief: "The Volga is the fourth chapter overall and the first open-world level featured in Metro Exodus. It features the crew of the Aurora after their escape from Moscow and their attempts at traversing through a religious cult's territory."
+wiki: The_Volga_(Metro_Exodus_Level)
 ---
 
 **The Volga** is the fourth [chapter](https://metrovideogame.fandom.com/wiki/Levels) overall and the first open-world level featured in *[Metro Exodus](https://metrovideogame.fandom.com/wiki/Metro_Exodus)*. It features the crew of the [Aurora](https://metrovideogame.fandom.com/wiki/Aurora) after their escape from [Moscow](https://metrovideogame.fandom.com/wiki/Moscow) and their attempts at traversing through a [religious cult's](https://metrovideogame.fandom.com/wiki/Church_of_the_Water_Tsar) territory.

@@ -7,6 +7,9 @@ image: /mutant-imgs/corpse-eaters.jpg
 brief: Non-lethal scavenger mutants that feed on the corpses of all creatures.
 wiki: corpse-eaters
 appearances: Metro Last Light
+infoDescription: "Grey and saggy body; Distinctive call"
+infoHabitat: "The Surface; Abandoned stations"
+infoDerivedFrom: "Unknown; Presumably Arthropoda"
 ---
 
 # Corpse Eaters

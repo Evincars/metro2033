@@ -131,6 +131,11 @@ export default {
   'mutants.groupPlantLife': 'Растения',
   'mutants.groupHumanoids': 'Гуманоиды',
   'mutants.groupSupernaturalPhenomena': 'Сверхъестественные явления',
+  'mutants.infoDescription': 'Описание',
+  'mutants.infoAttacks': 'Атака(и)',
+  'mutants.infoHabitat': 'Среда обитания',
+  'mutants.infoDerivedFrom': 'Произошёл от',
+  'mutants.infoNotableFacts': 'Интересные факты',
 
   'equipment.backToList': '← Всё снаряжение',
   'equipment.fandomLink': 'Читать полную статью на Fandom ↗',

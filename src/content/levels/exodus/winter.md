@@ -6,6 +6,7 @@ chapter: "The Volga"
 order: 3
 image: /level-imgs/exodus/winter.jpg
 brief: "Winter is the third level in Metro Exodus, and the first of the seasonal intermission levels set solely on the Aurora."
+wiki: Winter_(Metro_Exodus_Level)
 ---
 
 **Winter** is the third [level](https://metrovideogame.fandom.com/wiki/Levels) in *[Metro Exodus](https://metrovideogame.fandom.com/wiki/Metro_Exodus)*, and the first of the seasonal intermission levels set solely on the [Aurora](https://metrovideogame.fandom.com/wiki/Aurora). This level is the shortest of the season levels and has the least amount of activities to do on the train.  

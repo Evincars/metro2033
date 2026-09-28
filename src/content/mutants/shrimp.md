@@ -7,6 +7,11 @@ image: /mutant-imgs/shrimp.png
 brief: Large chitinous marine mutants found in the underground metro river and surface swamps.
 wiki: shrimp
 appearances: Metro Last Light, Metro Exodus
+infoDescription: "Long slender bodies; Pronounced faces with either long worm-like snout, or gator-like mouth"
+infoAttacks: "Claws; Various swipes; Acid spit"
+infoHabitat: "The Surface; Unusually soaked places in the metro"
+infoDerivedFrom: "Unknown, likely some crustacean such as crayfish or shrimp"
+infoNotableFacts: "Carries boss variant: Bog Shrimp"
 ---
 
 # Shrimp

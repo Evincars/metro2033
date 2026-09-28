@@ -6,6 +6,7 @@ chapter: "DLC — Sam's Story"
 order: 13
 image: /level-imgs/exodus/sams-story.jpg
 brief: "Sam's Story is a story DLC for Metro Exodus. It takes place after the events of Metro Exodus and follows the story of Sam as he explores the tsunami-ravaged ruins of Vladivostok in hopes of finding a way to return to the United States and reunite with his family."
+wiki: Sam%27s_Story
 ---
 
 **Sam's Story** is a story [DLC](https://metrovideogame.fandom.com/wiki/Downloadable_Content) for [Metro Exodus](https://metrovideogame.fandom.com/wiki/Metro_Exodus). It takes place after the events of Metro Exodus and follows the story of [Sam](https://metrovideogame.fandom.com/wiki/Sam) as he explores the tsunami-ravaged ruins of [Vladivostok](https://metrovideogame.fandom.com/wiki/Vladivostok) in hopes of finding a way to return to the United States and reunite with his family.

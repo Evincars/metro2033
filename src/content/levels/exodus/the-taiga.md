@@ -6,6 +6,7 @@ chapter: "The Taiga"
 order: 10
 image: /level-imgs/exodus/the-taiga.jpg
 brief: "The Taiga is the ninth overall level in Metro Exodus. The level differentiates itself from The Volga and The Caspian as being a far more linear level, with stealth and survival taking priority over exploration."
+wiki: The_Taiga_(Metro_Exodus_Level)
 ---
 
 **The Taiga** is the ninth overall [level](https://metrovideogame.fandom.com/wiki/Levels) in *[Metro Exodus](https://metrovideogame.fandom.com/wiki/Metro_Exodus)*. The level differentiates itself from [The Volga](https://metrovideogame.fandom.com/wiki/The_Volga_(Metro_Exodus_Level)) and [The Caspian](https://metrovideogame.fandom.com/wiki/The_Caspian_(Metro_Exodus_Level)) as being a far more linear level, with stealth and survival taking priority over exploration.
