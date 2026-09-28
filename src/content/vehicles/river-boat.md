@@ -3,7 +3,7 @@ id: river-boat
 title: "River Boat"
 group: Watercraft
 order: 17
-image: 
+image: /vehicle-imgs/river-boat.jpg
 brief: "The River Boat is a piece of metro-made transport, used by the Nazis, Rangers, and many metro inhabitants, but none more prominent than the inhabitants of Venice station."
 wiki: River_Boat
 appearances: Metro: Last Light

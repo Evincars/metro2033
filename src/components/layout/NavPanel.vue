@@ -44,11 +44,11 @@ const navItems = [
   { to: '/characters', labelKey: 'nav.characters', code: '08', icon: '☻' },
   { to: '/mutants', labelKey: 'nav.mutants', code: '09', icon: '☣' },
   { to: '/equipment', labelKey: 'nav.equipment', code: '10', icon: '⚙' },
-  { to: '/weapons', labelKey: 'nav.weapons', code: '11' },
-  { to: '/ammunition', labelKey: 'nav.ammunition', code: '12' },
-  { to: '/vehicles', labelKey: 'nav.vehicles', code: '13' },
-  { to: '/achievements', labelKey: 'nav.achievements', code: '14' },
-  { to: '/endings', labelKey: 'nav.endings', code: '15' },
+  { to: '/weapons', labelKey: 'nav.weapons', code: '11', icon: '⚔' },
+  { to: '/ammunition', labelKey: 'nav.ammunition', code: '12', icon: '◆' },
+  { to: '/vehicles', labelKey: 'nav.vehicles', code: '13', icon: '▣' },
+  { to: '/achievements', labelKey: 'nav.achievements', code: '14', icon: '✦' },
+  { to: '/endings', labelKey: 'nav.endings', code: '15', icon: '◎' },
 ]
 
 /* ---- live gas-mask HUD: signal strength + radiation meter ---- */

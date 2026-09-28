@@ -48,6 +48,7 @@ function parseFrontmatter(raw) {
 export const GAMES = {
   'metro-2033': { id: 'metro-2033', label: 'Metro 2033', short: '2033' },
   'last-light': { id: 'last-light', label: 'Metro: Last Light', short: 'LL' },
+  'exodus': { id: 'exodus', label: 'Metro Exodus', short: 'ME' },
 }
 
 export const levels = Object.values(files)
@@ -66,7 +67,10 @@ export const levels = Object.values(files)
   })
   .filter((level) => level.id)
   .sort((a, b) => {
-    if (a.game !== b.game) return a.game === 'metro-2033' ? -1 : 1
+    if (a.game !== b.game) {
+      const order = { 'metro-2033': 0, 'last-light': 1, 'exodus': 2 }
+      return (order[a.game] ?? 9) - (order[b.game] ?? 9)
+    }
     return a.order - b.order
   })
 

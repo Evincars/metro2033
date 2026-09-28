@@ -3,7 +3,7 @@ id: river-boat
 title: Речной катер
 group: Watercraft
 order: 17
-image: 
+image: /vehicle-imgs/river-boat.jpg
 brief: Речной катер — водный транспорт для передвижения по рекам.
 wiki: River_Boat
 appearances: "Metro: Last Light"

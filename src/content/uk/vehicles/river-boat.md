@@ -3,7 +3,7 @@ id: river-boat
 title: Річковий катер
 group: Watercraft
 order: 17
-image: 
+image: /vehicle-imgs/river-boat.jpg
 brief: Річковий катер — водний транспорт для пересування річками.
 wiki: River_Boat
 appearances: "Metro: Last Light"

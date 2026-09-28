@@ -4,7 +4,7 @@ title: "USS Mayflower"
 group: Watercraft
 order: 19
 image: /vehicle-imgs/uss-mayflower.png
-brief: "The \"
+brief: "The USS Mayflower is a nuclear submarine that plays an important role in Sam's Story DLC for Metro Exodus."
 wiki: USS_Mayflower
 appearances: Metro Exodus, Sam's Story
 ---
