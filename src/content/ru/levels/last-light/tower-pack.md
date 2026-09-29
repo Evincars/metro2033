@@ -6,6 +6,7 @@ chapter: DLC — Tower Pack
 order: 36
 image: https://static.wikia.nocookie.net/metro2033/images/0/09/BSxJsKECUAAmZ49.jpg/revision/latest?cb=20130828171806
 brief: Пятиэтапный боевой симулятор внутри Д6, где капитан сражается с нарастающими волнами нацистов и мутантов, соревнуясь за очки в глобальных таблицах лидеров на самом длинном уровне игры.
+wiki: Tower_Pack_(Tower_Pack_DLC_Level)
 ---
 
 # Комплект «Башня»

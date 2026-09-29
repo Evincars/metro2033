@@ -6,6 +6,7 @@ chapter: Розділ 4 — Війна
 order: 17
 image: https://static.wikia.nocookie.net/metro2033/images/6/63/FrontlineOpening.jpg/revision/latest?cb=20110625203035
 brief: Артем має з боєм або таємно пробратися через зруйнований війною міст, що розділяє нацистів і комуністів, перш ніж потрапити в засідку на дальньому боці.
+wiki: Frontline_(Metro_2033_Level)
 ---
 
 # Лінія фронту

@@ -6,6 +6,7 @@ chapter: Розділ 6 — D6
 order: 32
 image: https://static.wikia.nocookie.net/metro2033/images/d/de/Caves.jpg/revision/latest?cb=20100617042249
 brief: Відокремлений від рейнджерів біля самих дверей D6, Артем мусить пробитися через каналізацію та печери, повні бронйованих носалісів, щоб возз'єднатися з товаришами.
+wiki: Caves_(Metro_2033_Level)
 ---
 
 # Печери

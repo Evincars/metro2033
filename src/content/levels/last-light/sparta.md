@@ -6,6 +6,7 @@ chapter: Campaign
 order: 2
 image: https://static.wikia.nocookie.net/metro2033/images/2/27/Sparta0.png
 brief: The first playable level, in which Artyom wakes from a nightmare at D6 and is sent with the sniper Anna to hunt down a surviving Dark One in the Botanical Gardens.
+wiki: Sparta_(Metro_Last_Light_Level)
 ---
 
 # Sparta

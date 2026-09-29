@@ -6,6 +6,7 @@ chapter: Campaign
 order: 26
 image: https://static.wikia.nocookie.net/metro2033/images/0/03/LL_Screenshot_Depot.jpg/revision/latest?cb=20191003170917
 brief: Artyom fights through a Red Line-held train depot on his way to Polis, confronting the traitor Lesnitsky and choosing whether to spare or kill him.
+wiki: Depot_(Metro_Last_Light_Level)
 ---
 
 # Depot

@@ -6,6 +6,7 @@ chapter: Глава 5 — Надежда
 order: 28
 image: https://static.wikia.nocookie.net/metro2033/images/5/59/RealAcrhives.jpg/revision/latest?cb=20111008033303
 brief: В глубочайших подвалах библиотеки Артём сражается с чёрными библиотекарями, чтобы найти досье с местоположением D6.
+wiki: Archives_(Metro_2033_Level)
 ---
 
 # Архивы

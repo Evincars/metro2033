@@ -6,6 +6,7 @@ chapter: Campaign
 order: 32
 image:
 brief: У Metro Last Light дві кінцівки, що визначаються очками моралі — погана «C'est la Vie», в якій Артем знищує Д6, і канонічна «Спокута», в якій чорні його рятують.
+wiki: Endings#Metro:_Last_Light
 ---
 
 # Кінцівки (Last Light)

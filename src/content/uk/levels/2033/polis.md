@@ -6,6 +6,7 @@ chapter: Розділ 5 — Надія
 order: 24
 image: https://static.wikia.nocookie.net/metro2033/images/4/4b/Polis.png/revision/latest?cb=20101014234515
 brief: Артем дістається Полісу, найбільшого поселення в метро, щоб благати Раду про допомогу, перш ніж Міллер вирішує вирушити на пошуки втраченого бункера D6.
+wiki: Polis_(Metro_2033_Level)
 ---
 
 # Поліс

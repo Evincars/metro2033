@@ -4,7 +4,7 @@ title: "Claymore Mine"
 group: Throwables & Explosives
 order: 41
 image: /equipment-imgs/claymore-mine.png
-brief: ""
+brief: "Makeshift directional anti-personnel shrapnel mine, indispensable in the narrow tunnels of Metro: Last Light."
 wiki: Claymore_Mine
 appearances: Metro 2033, Metro Last Light, Metro Exodus
 ---

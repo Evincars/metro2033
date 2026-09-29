@@ -6,6 +6,7 @@ chapter: Campaign
 order: 13
 image: https://static.wikia.nocookie.net/metro2033/images/b/b5/Chapter-12-Regina.jpg/revision/latest?cb=20130609230527
 brief: Проезжая на бронедрезине «Регина» через кишащие мутантами и населённые призраками туннели, Артём продвигается к Венеции в погоне за Павлом.
+wiki: Regina_(Metro_Last_Light_Level)
 ---
 
 # Регина

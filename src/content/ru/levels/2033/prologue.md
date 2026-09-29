@@ -6,6 +6,7 @@ chapter: Пролог
 order: 1
 image: https://static.wikia.nocookie.net/metro2033/images/a/a2/Prologue.jpg/revision/latest?cb=20110521000920
 brief: Короткий обучающий уровень и завязка истории, в которой Артём и Миллер пробиваются на поверхность с системой наведения ракет, прежде чем их одолевают сторожа.
+wiki: Prologue_(Metro_2033_Level)
 ---
 
 # Пролог

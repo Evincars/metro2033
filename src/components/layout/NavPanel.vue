@@ -230,7 +230,7 @@ onBeforeUnmount(() => {
   background: linear-gradient(180deg, var(--color-panel) 0%, var(--color-bg-alt) 100%);
   border-right: 1px solid var(--color-border);
   box-shadow: 10px 0 28px rgba(0, 0, 0, 0.6);
-  overflow-y: auto;
+  overflow: hidden;
   transform: translateX(-100%);
   transition: transform 0.25s ease;
 }
@@ -244,6 +244,33 @@ onBeforeUnmount(() => {
   display: flex;
   flex-direction: column;
   padding: 1rem 0;
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-border-strong) transparent;
+}
+
+.nav-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.nav-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.nav-list::-webkit-scrollbar-thumb {
+  background: var(--color-border-strong);
+  border-radius: 3px;
+}
+
+.nav-list:hover::-webkit-scrollbar-thumb {
+  background: var(--color-amber);
+}
+
+.is-collapsed .nav-list::-webkit-scrollbar {
+  width: 4px;
 }
 
 /* Leave room for the header's shield logo, which hangs over the menu top. */
@@ -348,6 +375,8 @@ onBeforeUnmount(() => {
 .nav-status {
   padding: 1rem;
   border-top: 1px solid var(--color-border);
+  flex-shrink: 0;
+  background: var(--color-bg-alt);
 }
 
 .status-row {

@@ -6,6 +6,7 @@ chapter: Глава 6 — D6
 order: 31
 image: https://static.wikia.nocookie.net/metro2033/images/1/1c/Io%3Bio%3B.jpg/revision/latest?cb=20110215044457
 brief: Артём и рейнджеры пробиваются через кишащий носалисами подземный комплекс к D6, защищая техника Владимира ценой жизни одного из своих.
+wiki: Dungeon_(Metro_2033_Level)
 ---
 
 # Подземелье

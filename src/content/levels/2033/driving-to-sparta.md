@@ -6,6 +6,7 @@ chapter: Chapter 5 — Hope
 order: 29
 image: https://static.wikia.nocookie.net/metro2033/images/8/8f/Gkgk.jpg/revision/latest?cb=20110215152706
 brief: A peaceful, enemy-free interlude in which Artyom is rescued outside the library and regroups with the Rangers at Sparta base before the assault on D6.
+wiki: Driving_to_Sparta_(Metro_2033_Level)
 ---
 
 # Driving to Sparta

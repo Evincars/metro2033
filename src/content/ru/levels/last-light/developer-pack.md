@@ -6,6 +6,7 @@ chapter: DLC — Developer Pack
 order: 38
 image: https://static.wikia.nocookie.net/metro2033/images/2/24/DeveloperPack0.png/revision/latest?cb=20131016010058
 brief: Песочница-хаб, включающая Арену ИИ, Музей метро и Тир, обрамлённая жуткой встречей с загадочной старухой.
+wiki: Developer_Pack_(Developer_Pack_DLC_Level)
 ---
 
 # Комплект разработчика

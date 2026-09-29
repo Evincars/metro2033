@@ -6,6 +6,7 @@ chapter: DLC — Faction Pack
 order: 33
 image: https://static.wikia.nocookie.net/metro2033/images/4/45/MetroDLCHeavy.png/revision/latest?cb=20130717162758
 brief: Playing as the Reich heavy trooper Hans, the player survives five relentless waves of Red Army attackers at the Frontline, culminating in a battle against a tank.
+wiki: Heavy_Squad_(Faction_Pack_DLC_Level)
 ---
 
 # Heavy Squad

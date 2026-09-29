@@ -6,6 +6,7 @@ chapter: Chapter 2 — Bourbon
 order: 6
 image: https://static.wikia.nocookie.net/metro2033/images/c/c6/Screenshot_224192_thumb300.jpg/revision/latest?cb=20120516004627
 brief: A short-to-medium action level in which Artyom follows Bourbon out of Riga through abandoned tunnels, facing lurkers and bandits along the way.
+wiki: Lost_Tunnel_(Metro_2033_Level)
 ---
 
 # Lost Tunnels

@@ -4,7 +4,7 @@ title: "Armor"
 group: Suit & Armor
 order: 10
 image: /equipment-imgs/armor.jpg
-brief: ""
+brief: "Protective suit worn by Artyom, offered in default, stealth and heavy variants in Metro 2033 and reworked into a customisable system by Metro Exodus."
 wiki: Armour
 appearances: Metro 2033, Metro Last Light, Metro Exodus
 ---

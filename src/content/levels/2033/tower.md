@@ -6,6 +6,7 @@ chapter: Chapter 7 — Tower
 order: 36
 image: https://static.wikia.nocookie.net/metro2033/images/c/c4/Tower.png/revision/latest?cb=20111016184043
 brief: Chapter 7 opens with Artyom and Miller fighting through a horde of watchers and demons on the frozen streets to reach the base of Ostankino Tower.
+wiki: Tower_(Metro_2033_Level)
 ---
 
 # Tower

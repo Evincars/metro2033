@@ -6,6 +6,7 @@ chapter: "Yamantau"
 order: 6
 image: /level-imgs/exodus/yamantau.jpg
 brief: "Yamantau is the sixth level in Metro Exodus and reveals the true nature of the Yamantau Bunker, the Ark project, and the remnants of the Russian government."
+map: /level-imgs/maps/yamantau.jpg
 wiki: Yamantau_(Metro_Exodus_Level)
 ---
 
@@ -24,15 +25,13 @@ As the pair enter the command center, [Miller](https://metrovideogame.fandom.com
 
 The game cuts to a few hours later, a disheartened crew sit in silence in the [Aurora](https://metrovideogame.fandom.com/wiki/Aurora) whilst [Miller](https://metrovideogame.fandom.com/wiki/Miller) curses himself for being so foolish. [Anna](https://metrovideogame.fandom.com/wiki/Anna) asks what their next course of action is, as their end goal is now in ruins. [Stepan](https://metrovideogame.fandom.com/wiki/Stepan_(Metro_2035)) considers going back to [Moscow](https://metrovideogame.fandom.com/wiki/Moscow), though Miller says they will be shot on sight. [Tokarev](https://metrovideogame.fandom.com/wiki/Tokarev) suggests settling on the [Volga](https://metrovideogame.fandom.com/wiki/Volga) and [Idiot](https://metrovideogame.fandom.com/wiki/Idiot) suggests a third option: traveling south into [Kazakhstan](https://metrovideogame.fandom.com/wiki/Kazakhstan) and to the [Caspian-1](https://metrovideogame.fandom.com/wiki/Kaspik-1) satellite center, where they can find radiation heat maps, to locate a more habitable place to settle down.
 
-## Interactive Map
-
 ## Weapon Upgrades
-*After passing through the freezer and into the weapon storage room, on a table there is a Kalash with a Standard Stock and Grip, Short Barrel and Suppressor, NV Scope, Standard Magazines, No Gadget.
-*In the first barracks section, in the last room on the right, propped up in a chair. There is a Kalash with a Standard Stock and Grip, Standard Barrel and Compensator, NV Scope, Standard Magazines, Infrared Laser.
-*After passing through pile of rubble to reach a isolated bunkroom. Climb up the stack of boxes to reach the top of the small room, there on another crate there is a Ashot with Grip and Handguard, Double Barrels, Reflex Sight, Infrared Laser.
-*There is one Armored Heavy Trooper is armed with Gatling Gun with Short Barrels and Spring Mechanism, Quadrant-Type Magazine
-*One of the Cannibals after the ambush with the Heavy Troopers is armed with a Kalash with  Standard Stock and Grip, Standard Barrel and Compensator, Iron Sights, Extended Magazine, No Gadget
-*Most of the  cannibals utilize melee weapons, but some are armed with,
+- After passing through the freezer and into the weapon storage room, on a table there is a Kalash with a Standard Stock and Grip, Short Barrel and Suppressor, NV Scope, Standard Magazines, No Gadget.
+- In the first barracks section, in the last room on the right, propped up in a chair. There is a Kalash with a Standard Stock and Grip, Standard Barrel and Compensator, NV Scope, Standard Magazines, Infrared Laser.
+- After passing through pile of rubble to reach a isolated bunkroom. Climb up the stack of boxes to reach the top of the small room, there on another crate there is a Ashot with Grip and Handguard, Double Barrels, Reflex Sight, Infrared Laser.
+- There is one Armored Heavy Trooper is armed with Gatling Gun with Short Barrels and Spring Mechanism, Quadrant-Type Magazine
+- One of the Cannibals after the ambush with the Heavy Troopers is armed with a Kalash with  Standard Stock and Grip, Standard Barrel and Compensator, Iron Sights, Extended Magazine, No Gadget
+- Most of the  cannibals utilize melee weapons, but some are armed with,
 **Ashot with Only Grip, Double Barrels, Iron Sights, No Gadget
 **Ashot with  Grip and Handguard, Short Barrels, Iron Sights, No Gadget
 **Ashot with  Grip and Handguard, Double Barrels, Iron Sights, No Gadget
@@ -45,14 +44,14 @@ The game cuts to a few hours later, a disheartened crew sit in silence in the [A
 
 ## Collectibles
 There are a total of 6 [diary entries](https://metrovideogame.fandom.com/wiki/Artyom's_Journal_(Metro_Exodus)) and 2 [postcards](https://metrovideogame.fandom.com/wiki/postcards) that can be collected on this level. Unlike the previous level, this one is very linear, so the notes and postcards must be collected in the order listed.
-***[Diary Page 1](https://metrovideogame.fandom.com/wiki/Diary_Page_1)** - After you get off the spiral elevator, go through the main door. Before you go into the next room, look to your left and pick up the page from the desk.
-***Postcard 9** - After going through the freezer you will be forced to squeeze through some shelves. On the other side, you will see a power panel. Next to it is a passage through a shelf which you can squeeze through. The postcard is nailed to one of the target boards.
-***[Diary Page 2](https://metrovideogame.fandom.com/wiki/Diary_Page_2)** - In the same room, you can find another diary page on a box. Note that the page will not appear until you turn on the lights, so be sure to flip the switches on the control panel before you squeeze through.
-***[Diary Page 3](https://metrovideogame.fandom.com/wiki/Diary_Page_3)** - After fighting your way down a long hallway, you will come upon some boxes which you will have to climb over. Instead of taking the ramp, climb on the box to your right. You will see a makeshift bedroom on the other side. The page will be on a crate next to the bed.
-***[Officer's Diary, 1](https://metrovideogame.fandom.com/wiki/Officer's_Diary_1)** - After fighting an armored Cannibal, you will enter a hallway with three rooms on each side. You will find the diary in Room 2 (second room on the right), on a table next to a hatchet.
-***Postcard 8** - As soon as you rescue [Anna](https://metrovideogame.fandom.com/wiki/Anna), you will find the postcard on the wall on left of the exit.
-***[Officer's Diary, 2](https://metrovideogame.fandom.com/wiki/Officer's_Diary_2)** - At the elevator entrance, there is a barrel to the left. The diary will be on it.
-***[Officer's Diary, 3](https://metrovideogame.fandom.com/wiki/Officer's_Diary_3)** - Right before you get onto the spiral elevator, you will see the diary sitting on a crate to your left.
+- **[Diary Page 1](https://metrovideogame.fandom.com/wiki/Diary_Page_1)** - After you get off the spiral elevator, go through the main door. Before you go into the next room, look to your left and pick up the page from the desk.
+- **Postcard 9** - After going through the freezer you will be forced to squeeze through some shelves. On the other side, you will see a power panel. Next to it is a passage through a shelf which you can squeeze through. The postcard is nailed to one of the target boards.
+- **[Diary Page 2](https://metrovideogame.fandom.com/wiki/Diary_Page_2)** - In the same room, you can find another diary page on a box. Note that the page will not appear until you turn on the lights, so be sure to flip the switches on the control panel before you squeeze through.
+- **[Diary Page 3](https://metrovideogame.fandom.com/wiki/Diary_Page_3)** - After fighting your way down a long hallway, you will come upon some boxes which you will have to climb over. Instead of taking the ramp, climb on the box to your right. You will see a makeshift bedroom on the other side. The page will be on a crate next to the bed.
+- **[Officer's Diary, 1](https://metrovideogame.fandom.com/wiki/Officer's_Diary_1)** - After fighting an armored Cannibal, you will enter a hallway with three rooms on each side. You will find the diary in Room 2 (second room on the right), on a table next to a hatchet.
+- **Postcard 8** - As soon as you rescue [Anna](https://metrovideogame.fandom.com/wiki/Anna), you will find the postcard on the wall on left of the exit.
+- **[Officer's Diary, 2](https://metrovideogame.fandom.com/wiki/Officer's_Diary_2)** - At the elevator entrance, there is a barrel to the left. The diary will be on it.
+- **[Officer's Diary, 3](https://metrovideogame.fandom.com/wiki/Officer's_Diary_3)** - Right before you get onto the spiral elevator, you will see the diary sitting on a crate to your left.
 
 ## Related Achievements
 

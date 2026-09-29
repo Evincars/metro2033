@@ -6,6 +6,7 @@ chapter: Розділ 2 — Бурбон
 order: 8
 image: https://static.wikia.nocookie.net/metro2033/images/b/b1/LostCatacombs1.png/revision/latest?cb=20120613003336
 brief: Короткий і моторошний рівень, на якому Артем і Бурбон тікають від носалісів через цвинтар, рятуються завдяки Темному біля надприродних дверей і дістаються до станції Ринок під прицілом охорони Ганзи.
+wiki: Lost_Catacombs_(Metro_2033_Level)
 ---
 
 # Загублені катакомби

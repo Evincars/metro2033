@@ -6,6 +6,7 @@ chapter: Глава 6 — D6
 order: 30
 image: https://static.wikia.nocookie.net/metro2033/images/8/83/0DarkStar.jpg/revision/latest?cb=20110815212310
 brief: Путешествие на дрезине к D6 начинается — Артём управляет огнемётом, отбиваясь от орды носалисов, спасающихся от надвигающейся Аномалии.
+wiki: Dark_Star_(Metro_2033_Level)
 ---
 
 # Тёмная звезда

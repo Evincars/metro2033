@@ -6,6 +6,7 @@ chapter: Пролог
 order: 2
 image: https://static.wikia.nocookie.net/metro2033/images/7/70/Hunterlevel.jpg/revision/latest?cb=20110521001644
 brief: Второй уровень Пролога знакомит игрока с родной станцией Артёма — Выставкой — и рейнджером Хантером, который поручает Артёму добраться до Полиса после нападения мутантов.
+wiki: Hunter_(Metro_2033_Level)
 ---
 
 # Хантер

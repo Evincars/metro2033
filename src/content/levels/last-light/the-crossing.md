@@ -6,6 +6,7 @@ chapter: Campaign
 order: 24
 image: https://static.wikia.nocookie.net/metro2033/images/8/8d/LL_Screenshot_Crossing.jpg/revision/latest?cb=20191003171811
 brief: Artyom carries the Baby Dark One across the frozen river beneath the Luzhniki Metro Bridge, braving watchmen and a massive demon on the surface.
+wiki: The_Crossing_(Metro_Last_Light_Level)
 ---
 
 # The Crossing

@@ -6,6 +6,7 @@ chapter: DLC — Chronicles Pack
 order: 41
 image: https://static.wikia.nocookie.net/metro2033/images/5/5e/Metro_Last_Light_Chronicles_-_Anna.png/revision/latest?cb=20131017121835
 brief: Пересказ миссии «Пепел» с точки зрения Анны -- игрок обеспечивает снайперское прикрытие Артёму, пока тот преследует Тёмного в ботаническом саду.
+wiki: Anna_(Chronicles_Pack_DLC_Level)
 ---
 
 # Анна

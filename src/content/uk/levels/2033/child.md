@@ -6,6 +6,7 @@ chapter: Розділ 4 — Війна
 order: 21
 image: https://static.wikia.nocookie.net/metro2033/images/5/53/Child_level_final.jpg/revision/latest?cb=20110818205259
 brief: Артем несе молодого вцілілого на ім'я Саша через кишащі люркерами тунелі, щоб возз'єднати його з біженцями, перш ніж вирушити на поверхню та до Чорної станції.
+wiki: Child_(Metro_2033_Level)
 ---
 
 # Дитина

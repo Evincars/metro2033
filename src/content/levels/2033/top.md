@@ -6,6 +6,7 @@ chapter: Chapter 7 — Tower
 order: 37
 image: https://static.wikia.nocookie.net/metro2033/images/4/44/Tower_sunrise.jpg/revision/latest?cb=20110220173228
 brief: The penultimate level of Metro 2033 sees Artyom climb the crumbling Ostankino Tower and set up the missile guidance system as the Dark Ones make their final plea.
+wiki: Top_(Metro_2033_Level)
 ---
 
 # Top

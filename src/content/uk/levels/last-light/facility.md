@@ -6,6 +6,7 @@ chapter: Campaign
 order: 7
 image: https://static.wikia.nocookie.net/metro2033/images/2/21/Factory_level.jpg
 brief: Артем проникає на фермерський об'єкт Рейху — непомітно або з боєм — щоб врятувати Павла від шибениці.
+wiki: Facility_(Metro_Last_Light_Level)
 ---
 
 # Об'єкт

@@ -1,11 +1,12 @@
 ---
-id: introduction
+id: introduction-ll
 title: Вступление
 game: last-light
 chapter: Campaign
 order: 1
 image: https://static.wikia.nocookie.net/metro2033/images/e/e6/Introduction0.png
 brief: Вступительная заставка Metro Last Light, в которой Артём вспоминает день, когда упали бомбы и человечество укрылось в метро.
+wiki: Introduction_(Metro_Last_Light_Level)
 ---
 
 # Вступление

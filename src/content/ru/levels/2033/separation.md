@@ -6,6 +6,7 @@ chapter: Глава 6 — D6
 order: 35
 image: https://static.wikia.nocookie.net/metro2033/images/b/b6/Seperation.jpg/revision/latest?cb=20110531002042
 brief: После победы над Биомассой Артём и Миллер поднимаются на лифте обратно на поверхность D6 и прощаются с Ульманом, прежде чем отправиться к Башне.
+wiki: Separation_(Metro_2033_Level)
 ---
 
 # Разделение

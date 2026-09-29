@@ -6,6 +6,7 @@ chapter: "Волга"
 order: 3
 image: /level-imgs/exodus/winter.jpg
 brief: "Зима — третий уровень в Metro Exodus и первый из сезонных промежуточных уровней, действие которых происходит исключительно на Авроре."
+wiki: Winter_(Metro_Exodus_Level)
 ---
 
 **Winter** is the third [level](https://metrovideogame.fandom.com/wiki/Levels) in *[Metro Exodus](https://metrovideogame.fandom.com/wiki/Metro_Exodus)*, and the first of the seasonal intermission levels set solely on the [Aurora](https://metrovideogame.fandom.com/wiki/Aurora). This level is the shortest of the season levels and has the least amount of activities to do on the train.  
@@ -20,10 +21,10 @@ The level begins with the fallout of the [Rangers](https://metrovideogame.fandom
 Meanwhile on the train, [Anna](https://metrovideogame.fandom.com/wiki/Anna) and [Alyosha](https://metrovideogame.fandom.com/wiki/Alyosha) discuss his injury, [Duke](https://metrovideogame.fandom.com/wiki/Duke) is shoveling coal, [Tokarev](https://metrovideogame.fandom.com/wiki/Tokarev) and [Stepan](https://metrovideogame.fandom.com/wiki/Stepan) are taking inventory and [Damir](https://metrovideogame.fandom.com/wiki/Damir), [Sam](https://metrovideogame.fandom.com/wiki/Sam) and [Idiot](https://metrovideogame.fandom.com/wiki/Idiot) are stood at the head of the train, discussing philosophy among other things. 
 
 ## Коллекционные предметы
-***[Survey Report](https://metrovideogame.fandom.com/wiki/Survey_Report)** - Downstairs on the crate.
+- **[Survey Report](https://metrovideogame.fandom.com/wiki/Survey_Report)** - Downstairs on the crate.
 
 ## Связанные [достижения/трофеи](https://metrovideogame.fandom.com/wiki/Achievements_and_Trophies)
 
 ## Интересные факты
-*One can listen into a number of radio communications but only after they find the [Ark's](https://metrovideogame.fandom.com/wiki/The_Ark) signal, these transitions will loop after a while but each frequency has about two transitions each aside from radio stations playing music.
-*[Sam](https://metrovideogame.fandom.com/wiki/Sam) is unaware of what the [Aurora's](https://metrovideogame.fandom.com/wiki/Aurora) name alludes to. This makes sense, as the [Russian Revolution](https://en.wikipedia.org/wiki/Russian_Revolution) is taught little in American schools and Sam would have had no reason to learn its importance.
+- One can listen into a number of radio communications but only after they find the [Ark's](https://metrovideogame.fandom.com/wiki/The_Ark) signal, these transitions will loop after a while but each frequency has about two transitions each aside from radio stations playing music.
+- [Sam](https://metrovideogame.fandom.com/wiki/Sam) is unaware of what the [Aurora's](https://metrovideogame.fandom.com/wiki/Aurora) name alludes to. This makes sense, as the [Russian Revolution](https://en.wikipedia.org/wiki/Russian_Revolution) is taught little in American schools and Sam would have had no reason to learn its importance.

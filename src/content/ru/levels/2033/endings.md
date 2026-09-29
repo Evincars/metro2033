@@ -6,6 +6,7 @@ chapter: Глава 7 — Башня
 order: 39
 image: https://static.wikia.nocookie.net/metro2033/images/4/4c/Artyom_badending.jpg/revision/latest?cb=20161216143318
 brief: В Metro 2033 есть две концовки, определяемые накопленными моральными выборами Артёма — концовка рейнджера, в которой он уничтожает Тёмных, и просветлённая концовка, в которой он щадит их.
+wiki: Endings#Metro_2033
 ---
 
 # Концовки (Metro 2033)

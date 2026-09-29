@@ -6,6 +6,7 @@ chapter: Campaign
 order: 7
 image: https://static.wikia.nocookie.net/metro2033/images/2/21/Factory_level.jpg
 brief: Артём проникает на фермерский объект Рейха — скрытно или с боем — чтобы спасти Павла от виселицы.
+wiki: Facility_(Metro_Last_Light_Level)
 ---
 
 # Объект

@@ -6,6 +6,7 @@ chapter: Campaign
 order: 29
 image: https://static.wikia.nocookie.net/metro2033/images/a/a7/LL_Screenshot_Garden.jpg/revision/latest?cb=20191003180848
 brief: Артём и Хан проходят через заросший Александровский сад на пути к Полису, где Артём сражается с гигантским медведем-мутантом и может спасти его от стаи стражей.
+wiki: The_Garden_(Metro_Last_Light_Level)
 ---
 
 # Сад

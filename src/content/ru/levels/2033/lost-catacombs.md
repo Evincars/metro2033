@@ -6,6 +6,7 @@ chapter: Глава 2 — Бурбон
 order: 8
 image: https://static.wikia.nocookie.net/metro2033/images/b/b1/LostCatacombs1.png/revision/latest?cb=20120613003336
 brief: Короткий и жуткий уровень, на котором Артём и Бурбон убегают от носалисов через кладбище, спасаются благодаря Тёмному у сверхъестественной двери и добираются до станции Рынок под прицелом охраны Ганзы.
+wiki: Lost_Catacombs_(Metro_2033_Level)
 ---
 
 # Потерянные катакомбы

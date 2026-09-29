@@ -6,6 +6,7 @@ chapter: DLC — Developer Pack
 order: 37
 image: https://static.wikia.nocookie.net/metro2033/images/b/b4/SpiderLair0.png/revision/latest?cb=20131016184026
 brief: Безіменний сталкер опритомнює в павутинні всередині ракетної шахти, що кишить павукоподібними, і мусить пробитися на поверхню з вогнеметом після загибелі товаришів.
+wiki: Spider_Lair_(Developer_Pack_DLC_Level)
 ---
 
 # Лігво павуків

@@ -6,6 +6,7 @@ chapter: Розділ 5 — Надія
 order: 29
 image: https://static.wikia.nocookie.net/metro2033/images/8/8f/Gkgk.jpg/revision/latest?cb=20110215152706
 brief: Мирна інтерлюдія без ворогів, у якій Артема рятують поза бібліотекою, і він перегруповується з рейнджерами на базі Спарта перед штурмом D6.
+wiki: Driving_to_Sparta_(Metro_2033_Level)
 ---
 
 # Шлях до Спарти

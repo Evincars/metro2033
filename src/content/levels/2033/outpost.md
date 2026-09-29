@@ -6,6 +6,7 @@ chapter: Chapter 4 — War
 order: 22
 image: https://static.wikia.nocookie.net/metro2033/images/b/b3/Outpost_overview.jpg/revision/latest?cb=20110220171641
 brief: On the ruined surface, Artyom battles a Nazi outpost and Demons while broadcasting a dead commander's message before descending toward Black Station.
+wiki: Outpost_(Metro_2033_Level)
 ---
 
 # Outpost

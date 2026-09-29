@@ -6,6 +6,7 @@ chapter: Campaign
 order: 22
 image: https://static.wikia.nocookie.net/metro2033/images/d/db/MetroLastLightRiverofFate.png/revision/latest?cb=20130607061959
 brief: Ведений загадковим Ханом крiзь примарнi тунелi та Рiку Долi, Артем стикається з привидами i таємницями метро.
+wiki: Khan_(Metro_Last_Light_Level)
 ---
 
 # Хан

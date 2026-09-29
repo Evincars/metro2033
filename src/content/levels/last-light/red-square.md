@@ -6,6 +6,7 @@ chapter: Campaign
 order: 28
 image: https://static.wikia.nocookie.net/metro2033/images/7/7d/MLL_Red_Square.jpg/revision/latest?cb=20130516234912
 brief: Artyom crosses Red Square toward Polis through St. Basil's Cathedral and a storm of damned souls, and must decide whether to save or abandon Pavel.
+wiki: Red_Square_(Metro_Last_Light_Level)
 ---
 
 # Red Square

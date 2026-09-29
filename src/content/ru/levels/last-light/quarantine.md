@@ -6,6 +6,7 @@ chapter: Campaign
 order: 21
 image: https://static.wikia.nocookie.net/metro2033/images/f/f2/Quarantine.jpg/revision/latest?cb=20130807072834
 brief: Потрясённый ужасами Октябрьской, Артём проходит через поражённую чумой карантинную зону и контрольно-пропускной пункт Ганзы вместе с Ханом.
+wiki: Quarantine_(Metro_Last_Light_Level)
 ---
 
 # Карантин

@@ -6,6 +6,7 @@ chapter: Campaign
 order: 11
 image: https://static.wikia.nocookie.net/metro2033/images/0/0e/Korbut.jpg
 brief: Зраджений Павлом, Артем потрапляє в полон i пiддається допиту лiдерiв Червоної Лiнiї — Максима Москвiна та генерала Корбута.
+wiki: Korbut_(Metro_Last_Light_Level)
 ---
 
 # Корбут

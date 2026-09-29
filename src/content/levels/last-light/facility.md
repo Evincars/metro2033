@@ -6,6 +6,7 @@ chapter: Campaign
 order: 7
 image: https://static.wikia.nocookie.net/metro2033/images/2/21/Factory_level.jpg
 brief: Artyom infiltrates a Reich farming facility, stealthily or by force, to rescue Pavel before he can be hanged.
+wiki: Facility_(Metro_Last_Light_Level)
 ---
 
 # Facility

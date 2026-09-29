@@ -6,6 +6,7 @@ chapter: Campaign
 order: 21
 image: https://static.wikia.nocookie.net/metro2033/images/f/f2/Quarantine.jpg/revision/latest?cb=20130807072834
 brief: Приголомшений жахіттями Октябрської, Артем проходить через уражену чумою карантинну зону та контрольно-пропускний пункт Ганзи разом із Ханом.
+wiki: Quarantine_(Metro_Last_Light_Level)
 ---
 
 # Карантин

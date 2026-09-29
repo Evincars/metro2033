@@ -6,6 +6,7 @@ chapter: Chapter 3 — Khan
 order: 16
 image: https://static.wikia.nocookie.net/metro2033/images/a/af/Tyrd.jpg/revision/latest?cb=20110214183640
 brief: Artyom reaches Armory Station, meets Andrew the Blacksmith and first encounters the Red Line before being smuggled toward the front line.
+wiki: Armory_(Metro_2033_Level)
 ---
 
 # Armory

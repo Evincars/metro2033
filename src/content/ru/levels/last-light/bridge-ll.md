@@ -6,6 +6,7 @@ chapter: Campaign
 order: 25
 image: https://static.wikia.nocookie.net/metro2033/images/9/9c/LL_Screenshot_Bridge.jpg/revision/latest?cb=20191003171408
 brief: Артём и маленький Тёмный продвигаются по Лужнецкому метромосту, отбиваясь от волн мутантов на пути вглубь разрушенного города.
+wiki: Bridge_(Metro_Last_Light_Level)
 ---
 
 # Мост

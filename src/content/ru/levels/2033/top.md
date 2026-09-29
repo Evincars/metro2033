@@ -6,6 +6,7 @@ chapter: Глава 7 — Башня
 order: 37
 image: https://static.wikia.nocookie.net/metro2033/images/4/44/Tower_sunrise.jpg/revision/latest?cb=20110220173228
 brief: Предпоследний уровень Metro 2033, на котором Артём поднимается по разрушающейся Останкинской башне и устанавливает систему наведения ракет, пока Тёмные обращаются к нему с последней мольбой.
+wiki: Top_(Metro_2033_Level)
 ---
 
 # Вершина

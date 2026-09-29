@@ -6,6 +6,7 @@ chapter: Campaign
 order: 17
 image: https://static.wikia.nocookie.net/metro2033/images/1/1f/LL_Screenshot_Sundown.jpg/revision/latest?cb=20191003173011
 brief: Artyom crosses the mutant-infested surface swamps near the Cathedral of Christ the Savior on his way to an outpost and Oktyabrskaya.
+wiki: Sundown_(Metro_Last_Light_Level)
 ---
 
 # Sundown

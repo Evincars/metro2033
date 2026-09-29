@@ -285,6 +285,9 @@ export default {
   'levels.noDataText': 'Досье на уровни появятся здесь после подключения архива кампании.',
   'levels.noMatches': 'Нет совпадений',
   'levels.noMatchesText': 'Ни один уровень не соответствует',
+  'levels.mapTitle': 'Интерактивная карта',
+  'levels.mapHint': 'Нажмите на карту, чтобы открыть её в полном размере.',
+  'levels.fandomLink': 'Читать полную статью на Fandom ↗',
 
   'map.noDossier': 'К этой станции пока не привязано досье.',
   'map.stationDossier': 'Досье на станцию',

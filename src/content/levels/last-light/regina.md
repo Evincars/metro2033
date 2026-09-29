@@ -6,6 +6,7 @@ chapter: Campaign
 order: 13
 image: https://static.wikia.nocookie.net/metro2033/images/b/b5/Chapter-12-Regina.jpg/revision/latest?cb=20130609230527
 brief: Riding the armoured railcar Regina through haunted, mutant-filled tunnels, Artyom presses on toward Venice in pursuit of Pavel.
+wiki: Regina_(Metro_Last_Light_Level)
 ---
 
 # Regina

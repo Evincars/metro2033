@@ -6,6 +6,7 @@ chapter: Campaign
 order: 19
 image: https://static.wikia.nocookie.net/metro2033/images/a/aa/LL_Screenshot_Undercity.jpg/revision/latest?cb=20191003175030
 brief: Reunited with Anna, Artyom braves nosalis-infested catacombs beneath Sparta and the supernatural Darkness to reach the Metro tunnels.
+wiki: Undercity_(Metro_Last_Light_Level)
 ---
 
 # Undercity

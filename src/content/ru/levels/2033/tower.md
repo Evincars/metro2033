@@ -6,6 +6,7 @@ chapter: Глава 7 — Башня
 order: 36
 image: https://static.wikia.nocookie.net/metro2033/images/c/c4/Tower.png/revision/latest?cb=20111016184043
 brief: Глава 7 начинается с того, как Артём и Миллер пробиваются через орду наблюдателей и демонов на замёрзших улицах, чтобы добраться до подножия Останкинской башни.
+wiki: Tower_(Metro_2033_Level)
 ---
 
 # Башня

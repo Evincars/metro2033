@@ -6,6 +6,7 @@ chapter: Campaign
 order: 10
 image: https://static.wikia.nocookie.net/metro2033/images/0/00/Bolshoi.jpg
 brief: Вернувшись под землю, Артём следует за Павлом через оживлённую Театральную станцию, контролируемую Красной Линией, по пути к Полису.
+wiki: Bolshoi_(Metro_Last_Light_Level)
 ---
 
 # Большой

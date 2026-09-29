@@ -6,6 +6,7 @@ chapter: DLC — Faction Pack
 order: 33
 image: https://static.wikia.nocookie.net/metro2033/images/4/45/MetroDLCHeavy.png/revision/latest?cb=20130717162758
 brief: Играя за тяжёлого штурмовика Рейха Ганса, игрок выдерживает пять безжалостных волн атак Красной Армии на Фронте, завершая сражением с танком.
+wiki: Heavy_Squad_(Faction_Pack_DLC_Level)
 ---
 
 # Тяжёлый отряд

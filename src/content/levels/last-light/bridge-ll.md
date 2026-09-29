@@ -6,6 +6,7 @@ chapter: Campaign
 order: 25
 image: https://static.wikia.nocookie.net/metro2033/images/9/9c/LL_Screenshot_Bridge.jpg/revision/latest?cb=20191003171408
 brief: Artyom and the Baby Dark One press on across the Luzhniki Metro Bridge, fending off waves of mutants as they push deeper into the ruined city.
+wiki: Bridge_(Metro_Last_Light_Level)
 ---
 
 # Bridge

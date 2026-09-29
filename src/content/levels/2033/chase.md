@@ -6,6 +6,7 @@ chapter: Chapter 1 — Let The Journey Begin
 order: 4
 image: https://static.wikia.nocookie.net/metro2033/images/5/53/Chase_beta_0004.jpg/revision/latest?cb=20110818044631
 brief: A short action-horror level in which Artyom's hand-cart caravan takes a decaying side tunnel toward Riga and is chased by a horde of nosalises after an encounter with anomalies and a Dark One.
+wiki: Chase_(Metro_2033_Level)
 ---
 
 # Chase

@@ -6,6 +6,7 @@ chapter: Chapter 3 — Khan
 order: 15
 image: https://static.wikia.nocookie.net/metro2033/images/a/af/Cursed.jpg/revision/latest?cb=20100417004601
 brief: Artyom and Khan reach the mutant-besieged Cursed Station and help its last defenders seal off the tunnels before Khan directs Artyom onward to the Armory.
+wiki: Cursed_(Metro_2033_Level)
 ---
 
 # Cursed

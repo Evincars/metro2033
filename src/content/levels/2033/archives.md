@@ -6,6 +6,7 @@ chapter: Chapter 5 — Hope
 order: 28
 image: https://static.wikia.nocookie.net/metro2033/images/5/59/RealAcrhives.jpg/revision/latest?cb=20111008033303
 brief: In the deepest vaults of the library, Artyom braves black Librarians to recover the dossier revealing the location of D6.
+wiki: Archives_(Metro_2033_Level)
 ---
 
 # Archives

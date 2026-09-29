@@ -6,6 +6,7 @@ chapter: Chapter 6 — D6
 order: 30
 image: https://static.wikia.nocookie.net/metro2033/images/8/83/0DarkStar.jpg/revision/latest?cb=20110815212310
 brief: The railcar journey toward D6 begins as Artyom mans a flamethrower to hold off a nosalis horde fleeing an oncoming Anomaly.
+wiki: Dark_Star_(Metro_2033_Level)
 ---
 
 # Dark Star

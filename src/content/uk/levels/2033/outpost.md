@@ -6,6 +6,7 @@ chapter: Розділ 4 — Війна
 order: 22
 image: https://static.wikia.nocookie.net/metro2033/images/b/b3/Outpost_overview.jpg/revision/latest?cb=20110220171641
 brief: На зруйнованій поверхні Артем бореться з нацистським аванпостом і демонами, передаючи повідомлення загиблого командира, перш ніж спуститися до Чорної станції.
+wiki: Outpost_(Metro_2033_Level)
 ---
 
 # Аванпост

@@ -301,6 +301,9 @@ export default {
   'levels.noDataText': 'Level dossiers will appear here once the campaign archive is connected.',
   'levels.noMatches': 'No matches',
   'levels.noMatchesText': 'No level matches',
+  'levels.mapTitle': 'Interactive Map',
+  'levels.mapHint': 'Click the map to open it full size.',
+  'levels.fandomLink': 'Read the full article on Fandom ↗',
 
   // Map
   'map.noDossier': 'No level dossier is linked to this station yet.',

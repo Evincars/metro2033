@@ -6,6 +6,7 @@ chapter: Chapter 4 — War
 order: 18
 image: https://static.wikia.nocookie.net/metro2033/images/f/fe/TrolleyCombet.jpg/revision/latest?cb=20110625201715
 brief: Saved by the Rangers Pavel and Ulman, Artyom mans a trolley's machine gun as he and Pavel fight through a Nazi outpost and bring down a pursuing Panzer.
+wiki: Trolley_Combat_(Metro_2033_Level)
 ---
 
 # Trolley Combat

@@ -6,6 +6,7 @@ chapter: DLC — Faction Pack
 order: 35
 image: https://static.wikia.nocookie.net/metro2033/images/c/c9/MetroDLCRanger.png/revision/latest?cb=20130717162825
 brief: A Polis Ranger trainee ventures to the surface around the Great Library to scavenge thirty old-world artifacts in this open-ended, exploration-driven level emulating the life of a stalker.
+wiki: Kshatriya_(Faction_Pack_DLC_Level)
 ---
 
 # Kshatriya

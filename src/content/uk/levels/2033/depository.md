@@ -6,6 +6,7 @@ chapter: Розділ 5 — Надія
 order: 27
 image: https://static.wikia.nocookie.net/metro2033/images/b/bd/Archives.png/revision/latest?cb=20111008030036
 brief: Короткий, але напружений спуск через звивисті коридори бібліотеки, де Артем повинен вижити, пройшовши через засідку бібліотекарів на шляху до Архівів.
+wiki: Depository_(Metro_2033_Level)
 ---
 
 # Депозитарій

@@ -6,6 +6,7 @@ chapter: Chapter 4 — War
 order: 20
 image: https://static.wikia.nocookie.net/metro2033/images/3/3e/Defense_Level.jpg/revision/latest?cb=20100617065203
 brief: Alone after Pavel's death, Artyom makes a doomed last stand with the Children of the Underground at Hole Station before venturing through its ravaged halls.
+wiki: Defense_(Metro_2033_Level)
 ---
 
 # Defense

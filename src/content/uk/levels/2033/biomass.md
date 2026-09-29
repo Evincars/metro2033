@@ -6,6 +6,7 @@ chapter: Розділ 6 — D6
 order: 34
 image: https://static.wikia.nocookie.net/metro2033/images/e/ea/Biomass.jpg/revision/latest?cb=20100417230642
 brief: У глибинах реакторних рівнів D6 Артем та Міллер стикаються з Біомасою — жахливою істотою, що зрослася із самим реактором.
+wiki: Biomass_(Metro_2033_Level)
 ---
 
 # Біомаса

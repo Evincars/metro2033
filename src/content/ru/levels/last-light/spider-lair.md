@@ -6,6 +6,7 @@ chapter: DLC — Developer Pack
 order: 37
 image: https://static.wikia.nocookie.net/metro2033/images/b/b4/SpiderLair0.png/revision/latest?cb=20131016184026
 brief: Безымянный сталкер приходит в себя в паутине внутри ракетной шахты, кишащей паукообразными, и должен пробиться на поверхность с огнемётом после гибели товарищей.
+wiki: Spider_Lair_(Developer_Pack_DLC_Level)
 ---
 
 # Логово пауков

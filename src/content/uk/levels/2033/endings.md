@@ -6,6 +6,7 @@ chapter: Розділ 7 — Вежа
 order: 39
 image: https://static.wikia.nocookie.net/metro2033/images/4/4c/Artyom_badending.jpg/revision/latest?cb=20161216143318
 brief: У Metro 2033 є дві кінцівки, що визначаються накопиченими моральними виборами Артема — кінцівка рейнджера, в якій він знищує Темних, і просвітлена кінцівка, в якій він щадить їх.
+wiki: Endings#Metro_2033
 ---
 
 # Кінцівки (Metro 2033)

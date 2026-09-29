@@ -1,11 +1,12 @@
 ---
-id: the-dead-city
+id: the-dead-city-ll
 title: Мертве місто
 game: last-light
 chapter: Campaign
 order: 27
 image: https://static.wikia.nocookie.net/metro2033/images/1/1d/LL_Screenshot_The_Dead_City.jpg/revision/latest?cb=20191003170046
 brief: Ведений Малим Темним, Артем перетинає примарні руїни Мертвого міста Москви, оточений привидами, вартовими та демонами на шляху до Полісу.
+wiki: The_Dead_City_(Metro_Last_Light_Level)
 ---
 
 # Мертве місто

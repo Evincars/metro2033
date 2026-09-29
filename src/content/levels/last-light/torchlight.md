@@ -6,6 +6,7 @@ chapter: Campaign
 order: 8
 image: https://static.wikia.nocookie.net/metro2033/images/6/6c/Torchlight0.png
 brief: Freed from the noose, Artyom follows Pavel through spider-infested catacombs toward Polis, relying on light to fend off the mutated Spiderbugs.
+wiki: Torchlight_(Metro_Last_Light_Level)
 ---
 
 # Torchlight

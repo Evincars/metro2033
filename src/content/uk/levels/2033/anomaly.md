@@ -6,6 +6,7 @@ chapter: Розділ 3 — Хан
 order: 14
 image: https://static.wikia.nocookie.net/metro2033/images/4/4e/Anomaly1.png/revision/latest?cb=20121209212048
 brief: Хан супроводжує Артема через примарний тунель і демонструє, що аномалії метро — це природні сили, а не ворожі сутності.
+wiki: Anomaly_(Metro_2033_Level)
 ---
 
 # Аномалія

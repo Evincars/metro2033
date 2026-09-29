@@ -6,6 +6,7 @@ chapter: Розділ 4 — Війна
 order: 19
 image: https://static.wikia.nocookie.net/metro2033/images/5/59/Depot.jpg/revision/latest?cb=20110520042955
 brief: Артем і Павло прориваються через нацистську станцію та кишаще носалісами поїзне депо, де Павло жертвує собою, а Артем ледве виживає після аварії вагонетки.
+wiki: Depot_(Metro_2033_Level)
 ---
 
 # Депо

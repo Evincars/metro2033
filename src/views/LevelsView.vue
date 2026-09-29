@@ -1,5 +1,5 @@
 <script setup>
-import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
+import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { marked } from 'marked'
 import { t } from '../i18n'
@@ -34,6 +34,17 @@ function markBroken(id) {
 const showImage = computed(
   () => activeLevel.value?.image && !brokenImages.value.has(activeLevel.value.id),
 )
+
+// ---- Interactive map lightbox ----
+const mapOpen = ref(false)
+function openMap() {
+  mapOpen.value = true
+}
+function closeMap() {
+  mapOpen.value = false
+}
+// Never carry an open map over to the next level.
+watch(activeId, closeMap)
 
 // ---- List filter ----
 const search = ref('')
@@ -102,6 +113,29 @@ function backToList() {
         </figure>
 
         <div class="markdown-body" v-html="renderedBody" @click="onBodyClick" />
+
+        <section v-if="activeLevel.map" class="map-section">
+          <h2 class="map-title">{{ t('levels.mapTitle') }}</h2>
+          <button class="map-thumb" type="button" @click="openMap">
+            <img :src="activeLevel.map" :alt="`${activeLevel.title} map`" loading="lazy" />
+          </button>
+          <p class="map-hint">{{ t('levels.mapHint') }}</p>
+        </section>
+
+        <Teleport to="body">
+          <div v-if="mapOpen" class="lightbox-overlay" @click.self="closeMap">
+            <button class="lightbox-close" @click="closeMap">&times;</button>
+            <img class="lightbox-img" :src="activeLevel.map" :alt="`${activeLevel.title} map`" />
+          </div>
+        </Teleport>
+
+        <a
+          v-if="activeLevel.wiki"
+          class="fandom-link"
+          :href="`https://metrovideogame.fandom.com/wiki/${activeLevel.wiki}`"
+          target="_blank"
+          rel="noopener"
+        >{{ t('levels.fandomLink') }}</a>
       </article>
     </template>
 
@@ -331,6 +365,93 @@ function backToList() {
   max-width: 100%;
   border: 1px solid var(--color-border-strong);
   box-shadow: var(--shadow-panel);
+}
+
+/* Interactive map */
+.map-section {
+  margin-top: 1.5rem;
+}
+
+.map-title {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  color: var(--color-amber-bright);
+  margin: 0 0 0.7rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--color-border-strong);
+}
+
+.map-thumb {
+  display: block;
+  width: 100%;
+  max-width: 560px;
+  cursor: zoom-in;
+  border: 1px solid var(--color-border);
+  background: rgba(0, 0, 0, 0.25);
+  padding: 0;
+  overflow: hidden;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.map-thumb:hover {
+  border-color: var(--color-amber);
+  box-shadow: var(--glow-amber);
+}
+
+.map-thumb img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.map-hint {
+  margin: 0.5rem 0 0;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--color-text-faint);
+}
+
+/* Lightbox */
+.lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox-img {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+  border: 1px solid var(--color-border-strong);
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 1rem;
+  right: 1.2rem;
+  font-size: 2rem;
+  color: var(--color-text);
+  background: none;
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+  z-index: 1;
+}
+
+.lightbox-close:hover {
+  color: var(--color-amber-bright);
+}
+
+.fandom-link {
+  display: inline-block;
+  margin-top: 1.25rem;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--color-amber);
 }
 
 .markdown-body {

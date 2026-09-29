@@ -6,6 +6,7 @@ chapter: Розділ 2 — Бурбон
 order: 6
 image: https://static.wikia.nocookie.net/metro2033/images/c/c6/Screenshot_224192_thumb300.jpg/revision/latest?cb=20120516004627
 brief: Короткий або середній за довжиною екшн-рівень, на якому Артем слідує за Бурбоном із Ризької через покинуті тунелі, борючись з упирями та бандитами по дорозі.
+wiki: Lost_Tunnel_(Metro_2033_Level)
 ---
 
 # Загублені тунелі

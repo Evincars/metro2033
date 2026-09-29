@@ -6,6 +6,7 @@ chapter: Глава 5 — Надежда
 order: 27
 image: https://static.wikia.nocookie.net/metro2033/images/b/bd/Archives.png/revision/latest?cb=20111008030036
 brief: Короткий, но напряжённый спуск через извилистые коридоры библиотеки, где Артём должен выжить, пройдя через засаду библиотекарей на пути к Архивам.
+wiki: Depository_(Metro_2033_Level)
 ---
 
 # Депозитарий

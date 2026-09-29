@@ -6,6 +6,7 @@ chapter: Campaign
 order: 11
 image: https://static.wikia.nocookie.net/metro2033/images/0/0e/Korbut.jpg
 brief: Преданный Павлом, Артём попадает в плен и подвергается допросу лидеров Красной Линии — Максима Москвина и генерала Корбута.
+wiki: Korbut_(Metro_Last_Light_Level)
 ---
 
 # Корбут

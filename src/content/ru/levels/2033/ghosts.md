@@ -6,6 +6,7 @@ chapter: Глава 3 — Хан
 order: 13
 image: https://static.wikia.nocookie.net/metro2033/images/1/15/Ghosts3.png/revision/latest?cb=20121014045617
 brief: Хан ведёт Артёма через призрачные тоннели, где тот становится свидетелем призраков павшего сражения, а Хан отпускает своих старых товарищей на покой.
+wiki: Ghosts_(Metro_2033_Level)
 ---
 
 # Призраки

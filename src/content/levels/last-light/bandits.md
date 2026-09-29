@@ -6,6 +6,7 @@ chapter: Campaign
 order: 14
 image: https://static.wikia.nocookie.net/metro2033/images/8/8d/LL_Screenshot_Bandits.jpg/revision/latest?cb=20191003172207
 brief: Travelling the tunnels toward Venice, Artyom encounters Red Line refugees and agrees to help them against the bandits terrorizing the line.
+wiki: Bandits_(Metro_Last_Light_Level)
 ---
 
 # Bandits

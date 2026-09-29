@@ -6,6 +6,7 @@ chapter: Chapter 6 — D6
 order: 35
 image: https://static.wikia.nocookie.net/metro2033/images/b/b6/Seperation.jpg/revision/latest?cb=20110531002042
 brief: After defeating the Biomass, Artyom and Miller ride the elevator back to the surface of D6 and part ways with Ulman before setting out for the Tower.
+wiki: Separation_(Metro_2033_Level)
 ---
 
 # Separation

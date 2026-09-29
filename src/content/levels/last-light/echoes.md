@@ -6,6 +6,7 @@ chapter: Campaign
 order: 9
 image: https://static.wikia.nocookie.net/metro2033/images/e/ec/Echoes0.png
 brief: Artyom and Pavel brave the ruined surface and the wreck of a crashed airliner to reach Theatre Station, evading roaming packs of Watchmen.
+wiki: Echoes_(Metro_Last_Light_Level)
 ---
 
 # Echoes

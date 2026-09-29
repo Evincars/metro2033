@@ -6,6 +6,7 @@ chapter: Глава 7 — Башня
 order: 38
 image: https://static.wikia.nocookie.net/metro2033/images/f/ff/Dgh.jpg/revision/latest?cb=20110215043719
 brief: Финальный уровень Metro 2033 разворачивается в сюрреалистическом психическом лабиринте, где Артём противостоит Тёмным в битве разумов на вершине Останкинской башни.
+wiki: Ethereal_(Metro_2033_Level)
 ---
 
 # Эфир

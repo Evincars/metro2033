@@ -6,6 +6,7 @@ chapter: Campaign
 order: 26
 image: https://static.wikia.nocookie.net/metro2033/images/0/03/LL_Screenshot_Depot.jpg/revision/latest?cb=20191003170917
 brief: Артем прориваєтся через залізничне депо, зайняте Червоною Лінією, на шляху до Полісу, зустрічаючи зрадника Лесницького і вирішуючи — пощадити його чи вбити.
+wiki: Depot_(Metro_Last_Light_Level)
 ---
 
 # Депо

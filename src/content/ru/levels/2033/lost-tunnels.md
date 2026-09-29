@@ -6,6 +6,7 @@ chapter: Глава 2 — Бурбон
 order: 6
 image: https://static.wikia.nocookie.net/metro2033/images/c/c6/Screenshot_224192_thumb300.jpg/revision/latest?cb=20120516004627
 brief: Короткий или средний по длине экшн-уровень, на котором Артём следует за Бурбоном из Рижской через заброшенные тоннели, сражаясь с упырями и бандитами по пути.
+wiki: Lost_Tunnel_(Metro_2033_Level)
 ---
 
 # Потерянные тоннели

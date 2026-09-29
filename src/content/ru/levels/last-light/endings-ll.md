@@ -6,6 +6,7 @@ chapter: Campaign
 order: 32
 image:
 brief: В Metro Last Light две концовки, определяемые очками морали — плохая «C'est la Vie», в которой Артём уничтожает Д6, и каноничная «Искупление», в которой чёрные его спасают.
+wiki: Endings#Metro:_Last_Light
 ---
 
 # Концовки (Last Light)

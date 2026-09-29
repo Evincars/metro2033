@@ -6,6 +6,7 @@ chapter: Chapter 7 — Tower
 order: 38
 image: https://static.wikia.nocookie.net/metro2033/images/f/ff/Dgh.jpg/revision/latest?cb=20110215043719
 brief: The final level of Metro 2033 unfolds in a dreamlike psychic maze where Artyom confronts the Dark Ones in a battle of minds atop Ostankino Tower.
+wiki: Ethereal_(Metro_2033_Level)
 ---
 
 # Ethereal

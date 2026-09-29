@@ -6,6 +6,7 @@ chapter: Розділ 3 — Хан
 order: 13
 image: https://static.wikia.nocookie.net/metro2033/images/1/15/Ghosts3.png/revision/latest?cb=20121014045617
 brief: Хан веде Артема через примарні тунелі, де той стає свідком привидів полеглої битви, а Хан відпускає своїх старих побратимів на спокій.
+wiki: Ghosts_(Metro_2033_Level)
 ---
 
 # Привиди

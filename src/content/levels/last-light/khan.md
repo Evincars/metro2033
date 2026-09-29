@@ -6,6 +6,7 @@ chapter: Campaign
 order: 22
 image: https://static.wikia.nocookie.net/metro2033/images/d/db/MetroLastLightRiverofFate.png/revision/latest?cb=20130607061959
 brief: Guided by the enigmatic Khan through the haunted tunnels and the River of Fate, Artyom confronts the ghosts and mysteries of the Metro.
+wiki: Khan_(Metro_Last_Light_Level)
 ---
 
 # Khan

@@ -6,6 +6,7 @@ chapter: Campaign
 order: 20
 image: https://static.wikia.nocookie.net/metro2033/images/2/25/.jpg/revision/latest?cb=20130719171018
 brief: Artyom navigates the burning ruins of Oktyabrskaya, where the Red Line is torching a plague-stricken station, to rescue Anna from the traitor Lesnitsky.
+wiki: Contagion_(Metro_Last_Light_Level)
 ---
 
 # Contagion

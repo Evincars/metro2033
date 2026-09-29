@@ -6,6 +6,7 @@ chapter: Розділ 6 — D6
 order: 35
 image: https://static.wikia.nocookie.net/metro2033/images/b/b6/Seperation.jpg/revision/latest?cb=20110531002042
 brief: Після перемоги над Біомасою Артем і Міллер піднімаються на ліфті назад на поверхню D6 і прощаються з Ульманом, перш ніж вирушити до Вежі.
+wiki: Separation_(Metro_2033_Level)
 ---
 
 # Розлука

@@ -6,6 +6,7 @@ chapter: Campaign
 order: 14
 image: https://static.wikia.nocookie.net/metro2033/images/8/8d/LL_Screenshot_Bandits.jpg/revision/latest?cb=20191003172207
 brief: Пробираясь по туннелям к Венеции, Артём встречает беженцев Красной Линии и соглашается помочь им в борьбе с бандитами, терроризирующими линию.
+wiki: Bandits_(Metro_Last_Light_Level)
 ---
 
 # Бандиты

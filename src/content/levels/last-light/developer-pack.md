@@ -6,6 +6,7 @@ chapter: DLC — Developer Pack
 order: 38
 image: https://static.wikia.nocookie.net/metro2033/images/2/24/DeveloperPack0.png/revision/latest?cb=20131016010058
 brief: A sandbox hub level containing the AI Arena, the Metro Museum, and the Shooting Gallery, framed by an eerie encounter with a mysterious old woman.
+wiki: Developer_Pack_(Developer_Pack_DLC_Level)
 ---
 
 # Developer Pack

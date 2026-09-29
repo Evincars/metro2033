@@ -6,6 +6,7 @@ chapter: DLC — Chronicles Pack
 order: 39
 image: https://static.wikia.nocookie.net/metro2033/images/5/54/MetroLL_2013-09-29_19-15-47-13.png/revision/latest?cb=20131001062851
 brief: Граючи за Павла, гравець тiкає з полону й пробивається через контрольовану бандитами дiлянку Венецiї, щоб дiстатися до зв'язкового, який доставить його назад на Червону Лiнiю.
+wiki: Pavel_(Chronicles_Pack_DLC_Level)
 ---
 
 # Павло

@@ -6,6 +6,7 @@ chapter: Campaign
 order: 18
 image: https://static.wikia.nocookie.net/metro2033/images/2/2b/LL_Screenshot_Nightfall.jpg/revision/latest?cb=20191003173627
 brief: Artyom pushes through the ruined, night-shrouded swamps toward the church outpost, hunted by watchmen and a bog shrimp.
+wiki: Nightfall_(Metro_Last_Light_Level)
 ---
 
 # Nightfall

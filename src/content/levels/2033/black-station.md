@@ -6,6 +6,7 @@ chapter: Chapter 4 — War
 order: 23
 image: https://static.wikia.nocookie.net/metro2033/images/4/46/BlackStation0.png/revision/latest?cb=20131003224232
 brief: Artyom sneaks or fights through the Nazi-held Black Station to reunite with Ulman and ride toward Polis, haunted along the way by visions of the Dark Ones.
+wiki: Black_Station_(Metro_2033_Level)
 ---
 
 # Black Station

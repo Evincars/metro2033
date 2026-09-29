@@ -6,6 +6,7 @@ chapter: Розділ 5 — Надія
 order: 28
 image: https://static.wikia.nocookie.net/metro2033/images/5/59/RealAcrhives.jpg/revision/latest?cb=20111008033303
 brief: У найглибших сховищах бібліотеки Артем бореться з чорними бібліотекарями, щоб здобути досьє з місцезнаходженням D6.
+wiki: Archives_(Metro_2033_Level)
 ---
 
 # Архіви

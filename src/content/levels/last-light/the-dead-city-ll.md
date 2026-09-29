@@ -1,11 +1,12 @@
 ---
-id: the-dead-city
+id: the-dead-city-ll
 title: The Dead City
 game: last-light
 chapter: Campaign
 order: 27
 image: https://static.wikia.nocookie.net/metro2033/images/1/1d/LL_Screenshot_The_Dead_City.jpg/revision/latest?cb=20191003170046
 brief: Guided by the Baby Dark One, Artyom crosses the haunted ruins of Moscow's Dead City, surrounded by ghosts, watchmen, and demons on his way to Polis.
+wiki: The_Dead_City_(Metro_Last_Light_Level)
 ---
 
 # The Dead City

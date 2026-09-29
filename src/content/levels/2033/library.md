@@ -6,6 +6,7 @@ chapter: Chapter 5 — Hope
 order: 26
 image: https://static.wikia.nocookie.net/metro2033/images/1/1d/LibraryCornerShot.png/revision/latest?cb=20111006033902
 brief: An escort mission through the Moscow State Library where Artyom, Miller and Danila must find the way to D6 while a demon and Librarians stalk the halls.
+wiki: Library_(Metro_2033_Level)
 ---
 
 # Library

@@ -6,6 +6,7 @@ chapter: Розділ 4 — Війна
 order: 18
 image: https://static.wikia.nocookie.net/metro2033/images/f/fe/TrolleyCombet.jpg/revision/latest?cb=20110625201715
 brief: Врятований рейнджерами Павлом та Ульманом, Артем сідає за кулемет на дрезині і разом з Павлом прориваються через нацистський блокпост та знищують Панцер, що їх переслідує.
+wiki: Trolley_Combat_(Metro_2033_Level)
 ---
 
 # Бій на дрезині

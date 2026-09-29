@@ -6,6 +6,7 @@ chapter: Розділ 5 — Надія
 order: 25
 image: https://static.wikia.nocookie.net/metro2033/images/8/8e/Alley_library_side.jpg/revision/latest?cb=20110220172359
 brief: Короткий перехід поверхнею, що з'єднує Поліс та Бібліотеку, де Артем бореться зі спостерігачами та демонами, перш ніж возз'єднатися з Міллером та Данилою.
+wiki: Alley_(Metro_2033_Level)
 ---
 
 # Алея

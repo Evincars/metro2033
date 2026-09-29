@@ -6,6 +6,7 @@ chapter: Розділ 7 — Вежа
 order: 36
 image: https://static.wikia.nocookie.net/metro2033/images/c/c4/Tower.png/revision/latest?cb=20111016184043
 brief: Розділ 7 починається з того, як Артем та Міллер пробиваються через орду спостерігачів і демонів на замерзлих вулицях, щоб дістатися до підніжжя Останкінської вежі.
+wiki: Tower_(Metro_2033_Level)
 ---
 
 # Вежа

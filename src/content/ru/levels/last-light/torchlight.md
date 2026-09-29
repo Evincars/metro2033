@@ -6,6 +6,7 @@ chapter: Campaign
 order: 8
 image: https://static.wikia.nocookie.net/metro2033/images/6/6c/Torchlight0.png
 brief: Спасённый от петли, Артём следует за Павлом через кишащие пауками катакомбы к Полису, используя свет для борьбы с мутировавшими паукообразными.
+wiki: Torchlight_(Metro_Last_Light_Level)
 ---
 
 # Факел

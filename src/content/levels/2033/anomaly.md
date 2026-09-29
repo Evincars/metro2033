@@ -6,6 +6,7 @@ chapter: Chapter 3 — Khan
 order: 14
 image: https://static.wikia.nocookie.net/metro2033/images/4/4e/Anomaly1.png/revision/latest?cb=20121209212048
 brief: Khan escorts Artyom through a haunted tunnel and demonstrates that the metro's anomalies are natural forces rather than hostile entities.
+wiki: Anomaly_(Metro_2033_Level)
 ---
 
 # Anomaly

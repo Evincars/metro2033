@@ -6,6 +6,7 @@ chapter: Campaign
 order: 17
 image: https://static.wikia.nocookie.net/metro2033/images/1/1f/LL_Screenshot_Sundown.jpg/revision/latest?cb=20191003173011
 brief: Артем перетинає кишащі мутантами болота на поверхні поблизу Храму Христа Спасителя на шляху до аванпосту та Жовтневої.
+wiki: Sundown_(Metro_Last_Light_Level)
 ---
 
 # Захід сонця

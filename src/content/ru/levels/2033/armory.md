@@ -6,6 +6,7 @@ chapter: Глава 3 — Хан
 order: 16
 image: https://static.wikia.nocookie.net/metro2033/images/a/af/Tyrd.jpg/revision/latest?cb=20110214183640
 brief: Артём добирается до станции Оружейная, встречает Кузнеца Андрея и впервые сталкивается с Красной Линией, после чего его тайно переправляют к линии фронта.
+wiki: Armory_(Metro_2033_Level)
 ---
 
 # Оружейная

@@ -6,6 +6,7 @@ chapter: Chapter 7 — Tower
 order: 39
 image: https://static.wikia.nocookie.net/metro2033/images/4/4c/Artyom_badending.jpg/revision/latest?cb=20161216143318
 brief: Metro 2033 has two endings determined by Artyom's accumulated moral choices — the Ranger ending where he destroys the Dark Ones, and the Enlightened ending where he spares them.
+wiki: Endings#Metro_2033
 ---
 
 # Endings (Metro 2033)

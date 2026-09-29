@@ -6,6 +6,7 @@ chapter: Chapter 4 — War
 order: 17
 image: https://static.wikia.nocookie.net/metro2033/images/6/63/FrontlineOpening.jpg/revision/latest?cb=20110625203035
 brief: Artyom must fight or sneak his way across the war-torn bridge dividing the Nazis and the Communists before being ambushed at the far side.
+wiki: Frontline_(Metro_2033_Level)
 ---
 
 # Front Line

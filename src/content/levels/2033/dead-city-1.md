@@ -6,6 +6,7 @@ chapter: Chapter 2 — Bourbon
 order: 10
 image:
 brief: A long level and Artyom's first journey across the surface, crossing the frozen ruins of Moscow from Market to Dry Station while glimpsing several Dark Ones.
+wiki: Dead_City_1_(Metro_2033_Level)
 ---
 
 # Dead City 1

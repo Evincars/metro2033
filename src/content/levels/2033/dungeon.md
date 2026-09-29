@@ -6,6 +6,7 @@ chapter: Chapter 6 — D6
 order: 31
 image: https://static.wikia.nocookie.net/metro2033/images/1/1c/Io%3Bio%3B.jpg/revision/latest?cb=20110215044457
 brief: Artyom and the Rangers fight through a nosalis-infested underground facility toward D6, protecting the technician Vladimir at the cost of one of their own.
+wiki: Dungeon_(Metro_2033_Level)
 ---
 
 # Dungeon

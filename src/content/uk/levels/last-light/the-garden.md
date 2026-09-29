@@ -6,6 +6,7 @@ chapter: Campaign
 order: 29
 image: https://static.wikia.nocookie.net/metro2033/images/a/a7/LL_Screenshot_Garden.jpg/revision/latest?cb=20191003180848
 brief: Артем і Хан проходять через зарослий Олександрівський сад на шляху до Полісу, де Артем стикається з гігантським ведмедем-мутантом і може врятувати його від зграї вартових.
+wiki: The_Garden_(Metro_Last_Light_Level)
 ---
 
 # Сад

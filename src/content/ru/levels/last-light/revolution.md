@@ -6,6 +6,7 @@ chapter: Campaign
 order: 12
 image: https://static.wikia.nocookie.net/metro2033/images/f/f3/Revolution.jpg/revision/latest?cb=20131024195742
 brief: Артём должен пробраться или пробиться через станцию Площадь Революции, удерживаемую Красной Линией, в погоне за Павлом и информацией о Чёрном.
+wiki: Revolution_(Metro_Last_Light_Level)
 ---
 
 # Революция

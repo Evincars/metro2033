@@ -6,6 +6,7 @@ chapter: Chapter 2 — Bourbon
 order: 9
 image: https://static.wikia.nocookie.net/metro2033/images/5/50/Market2.jpg/revision/latest?cb=20110510005944
 brief: A short level in which Bourbon and Artyom buy their way through the bustling Market station and slip out onto the surface just as the Hanza guards realize Bourbon is escaping his debts.
+wiki: Market_(Metro_2033_Level)
 ---
 
 # Market

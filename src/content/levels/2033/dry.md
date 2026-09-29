@@ -6,6 +6,7 @@ chapter: Chapter 3 — Khan
 order: 12
 image: https://static.wikia.nocookie.net/metro2033/images/c/cb/Hbghj.jpg/revision/latest?cb=20110214223024
 brief: Artyom and Bourbon reach the bandit-held Dry Station, where Bourbon is killed and Khan appears to guide Artyom onward toward Cursed Station.
+wiki: Dry_(Metro_2033_Level)
 ---
 
 # Dry

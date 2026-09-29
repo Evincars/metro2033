@@ -6,6 +6,7 @@ chapter: Campaign
 order: 30
 image: https://static.wikia.nocookie.net/metro2033/images/d/df/LL_Screenshot_Polis.jpg/revision/latest?cb=20191003181339
 brief: In this non-combat level Artyom brings the Baby Dark One to the Polis Peace Conference, where Moskvin's plans are exposed before the battle for D6 begins.
+wiki: Polis_(Metro_Last_Light_Level)
 ---
 
 # Polis

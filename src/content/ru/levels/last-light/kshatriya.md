@@ -6,6 +6,7 @@ chapter: DLC — Faction Pack
 order: 35
 image: https://static.wikia.nocookie.net/metro2033/images/c/c9/MetroDLCRanger.png/revision/latest?cb=20130717162825
 brief: Стажёр-рейнджер из Полиса отправляется на поверхность в окрестностях Великой Библиотеки, чтобы добыть тридцать артефактов старого мира в этом открытом исследовательском уровне, воссоздающем жизнь сталкера.
+wiki: Kshatriya_(Faction_Pack_DLC_Level)
 ---
 
 # Кшатрий

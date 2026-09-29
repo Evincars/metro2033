@@ -6,6 +6,7 @@ chapter: Розділ 3 — Хан
 order: 16
 image: https://static.wikia.nocookie.net/metro2033/images/a/af/Tyrd.jpg/revision/latest?cb=20110214183640
 brief: Артем дістається до станції Зброярня, зустрічає Коваля Андрія і вперше стикається з Червоною Лінією, після чого його таємно переправляють до лінії фронту.
+wiki: Armory_(Metro_2033_Level)
 ---
 
 # Зброярня

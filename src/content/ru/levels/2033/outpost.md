@@ -6,6 +6,7 @@ chapter: Глава 4 — Война
 order: 22
 image: https://static.wikia.nocookie.net/metro2033/images/b/b3/Outpost_overview.jpg/revision/latest?cb=20110220171641
 brief: На разрушенной поверхности Артём сражается с нацистским аванпостом и демонами, передавая сообщение погибшего командира, прежде чем спуститься к Чёрной станции.
+wiki: Outpost_(Metro_2033_Level)
 ---
 
 # Аванпост

@@ -6,6 +6,7 @@ chapter: Campaign
 order: 16
 image: https://static.wikia.nocookie.net/metro2033/images/e/e1/Venice.png/revision/latest?cb=20130821220250
 brief: Arriving at the underground trading haven of Venice, Artyom hunts for Pavel through a den of thieves, merchants, and vice.
+wiki: Venice_(Metro_Last_Light_Level)
 ---
 
 # Venice

@@ -6,6 +6,7 @@ chapter: DLC — Faction Pack
 order: 34
 image: https://static.wikia.nocookie.net/metro2033/images/6/6d/MetroDLCSniper.png/revision/latest?cb=20130717162852
 brief: A Red Line sniper and spotter infiltrate a heavily guarded Reich outpost on the surface under a radioactive storm, in a stealth-focused mission where alerting the enemy means failure.
+wiki: Sniper_Team_(Faction_Pack_DLC_Level)
 ---
 
 # Sniper Team

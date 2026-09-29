@@ -6,6 +6,7 @@ chapter: Глава 4 — Война
 order: 20
 image: https://static.wikia.nocookie.net/metro2033/images/3/3e/Defense_Level.jpg/revision/latest?cb=20100617065203
 brief: Оставшись один после гибели Павла, Артём ведёт обречённый последний бой вместе с Детьми подземелья на станции Дыра, прежде чем отправиться через её разрушенные залы.
+wiki: Defense_(Metro_2033_Level)
 ---
 
 # Оборона

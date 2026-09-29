@@ -6,6 +6,7 @@ chapter: DLC — Chronicles Pack
 order: 41
 image: https://static.wikia.nocookie.net/metro2033/images/5/5e/Metro_Last_Light_Chronicles_-_Anna.png/revision/latest?cb=20131017121835
 brief: Retelling the Ashes mission from Anna's perspective, the player provides sniper overwatch for Artyom as he hunts the Dark One through the botanical gardens.
+wiki: Anna_(Chronicles_Pack_DLC_Level)
 ---
 
 # Anna

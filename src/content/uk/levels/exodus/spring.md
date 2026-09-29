@@ -6,6 +6,7 @@ chapter: "Волга"
 order: 4
 image: /level-imgs/exodus/spring.jpg
 brief: "Весна — п'ятий рівень у Metro Exodus та другий із сезонних проміжних рівнів, дія яких відбувається виключно на Аврорі."
+wiki: Spring_(Metro_Exodus_Level)
 ---
 
 **Spring** is the fifth [level](https://metrovideogame.fandom.com/wiki/Levels) overall in *[Metro Exodus](https://metrovideogame.fandom.com/wiki/Metro_Exodus)*, and the second of the seasonal intermission levels set solely on the [Aurora](https://metrovideogame.fandom.com/wiki/Aurora). Unlike "[Winter](https://metrovideogame.fandom.com/wiki/Winter_(Metro_Exodus_Level))", [Artyom](https://metrovideogame.fandom.com/wiki/Artyom) is able explore the newly added [sleeper carriage](https://metrovideogame.fandom.com/wiki/Aurora's_Passenger_Train_Car) and is able to listen in on much more relaxed conversations between the crew.
@@ -18,4 +19,4 @@ Artyom is then free to explore the Aurora before meeting Miller. [Tokarev](https
 At the head of the train, [Miller](https://metrovideogame.fandom.com/wiki/Miller) reveals to [Artyom](https://metrovideogame.fandom.com/wiki/Artyom) that he has managed to get through to [the Ark](https://metrovideogame.fandom.com/wiki/the_Ark) project and has recorded a message between himself and a communications officer, [Major Ivanov](https://metrovideogame.fandom.com/wiki/The_Doctor). Although brief, the recorded message between the two details their expected arrival at the Ark as well as the manpower on hand. An ecstatic Miller cannot contain his joy and informs the Major that he will commit his entire force to the Ark project when they arrive.
 
 ## Колекційні предмети
-***[Nastya's Letter](https://metrovideogame.fandom.com/wiki/Nastya's_Letter)** - In between Artyom's room and Tokarev's workbench, there are two beds and a table. The letter is on the table.
+- **[Nastya's Letter](https://metrovideogame.fandom.com/wiki/Nastya's_Letter)** - In between Artyom's room and Tokarev's workbench, there are two beds and a table. The letter is on the table.

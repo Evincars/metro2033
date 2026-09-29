@@ -6,6 +6,7 @@ chapter: DLC — Faction Pack
 order: 34
 image: https://static.wikia.nocookie.net/metro2033/images/6/6d/MetroDLCSniper.png/revision/latest?cb=20130717162852
 brief: Снайпер и корректировщик Красной Линии проникают на хорошо охраняемый аванпост Рейха на поверхности во время радиоактивной бури в миссии, ориентированной на скрытность, где обнаружение означает провал.
+wiki: Sniper_Team_(Faction_Pack_DLC_Level)
 ---
 
 # Снайперская группа

@@ -6,6 +6,7 @@ chapter: Глава 3 — Хан
 order: 14
 image: https://static.wikia.nocookie.net/metro2033/images/4/4e/Anomaly1.png/revision/latest?cb=20121209212048
 brief: Хан сопровождает Артёма через призрачный тоннель и показывает, что аномалии метро — это природные силы, а не враждебные сущности.
+wiki: Anomaly_(Metro_2033_Level)
 ---
 
 # Аномалия

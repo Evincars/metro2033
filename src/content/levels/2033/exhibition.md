@@ -6,6 +6,7 @@ chapter: Chapter 1 — Let The Journey Begin
 order: 3
 image: https://static.wikia.nocookie.net/metro2033/images/a/a5/Hiok.jpg/revision/latest?cb=20120419231710
 brief: A peaceful, combat-free level covering Artyom's final moments at his home station of Exhibition as he gathers equipment and joins the caravan bound for Riga.
+wiki: Exhibition_(Metro_2033_Level)
 ---
 
 # Exhibition

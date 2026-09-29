@@ -6,6 +6,7 @@ chapter: Розділ 6 — D6
 order: 31
 image: https://static.wikia.nocookie.net/metro2033/images/1/1c/Io%3Bio%3B.jpg/revision/latest?cb=20110215044457
 brief: Артем і рейнджери пробиваються крізь кишаче носалісами підземне укріплення до D6, захищаючи техніка Володимира ціною життя одного зі своїх.
+wiki: Dungeon_(Metro_2033_Level)
 ---
 
 # Підземелля

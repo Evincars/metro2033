@@ -6,6 +6,7 @@ chapter: DLC — Tower Pack
 order: 36
 image: https://static.wikia.nocookie.net/metro2033/images/0/09/BSxJsKECUAAmZ49.jpg/revision/latest?cb=20130828171806
 brief: П'ятиетапний бойовий симулятор усередині Д6, де капітан бореться з наростаючими хвилями нацистів і мутантів, змагаючись за очки в глобальних таблицях лідерів на найдовшому рівні гри.
+wiki: Tower_Pack_(Tower_Pack_DLC_Level)
 ---
 
 # Комплект «Вежа»

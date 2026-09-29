@@ -6,6 +6,7 @@ chapter: Chapter 2 — Bourbon
 order: 8
 image: https://static.wikia.nocookie.net/metro2033/images/b/b1/LostCatacombs1.png/revision/latest?cb=20120613003336
 brief: A short, eerie level in which Artyom and Bourbon flee nosalises through a graveyard, are saved by a Dark One at a supernatural door, and reach Market Station at the gunpoint of Hansa guards.
+wiki: Lost_Catacombs_(Metro_2033_Level)
 ---
 
 # Lost Catacombs

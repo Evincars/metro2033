@@ -6,6 +6,7 @@ chapter: Глава 4 — Война
 order: 23
 image: https://static.wikia.nocookie.net/metro2033/images/4/46/BlackStation0.png/revision/latest?cb=20131003224232
 brief: Артём пробирается или прорывается через занятую нацистами Чёрную станцию, чтобы воссоединиться с Ульманом и отправиться в Полис, преследуемый по пути видениями Тёмных.
+wiki: Black_Station_(Metro_2033_Level)
 ---
 
 # Чёрная станция

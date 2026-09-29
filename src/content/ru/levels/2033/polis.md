@@ -6,6 +6,7 @@ chapter: Глава 5 — Надежда
 order: 24
 image: https://static.wikia.nocookie.net/metro2033/images/4/4b/Polis.png/revision/latest?cb=20101014234515
 brief: Артём добирается до Полиса, крупнейшего поселения в метро, чтобы обратиться к Совету за помощью, прежде чем Миллер решает отправиться на поиски потерянного бункера D6.
+wiki: Polis_(Metro_2033_Level)
 ---
 
 # Полис

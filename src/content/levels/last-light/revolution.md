@@ -6,6 +6,7 @@ chapter: Campaign
 order: 12
 image: https://static.wikia.nocookie.net/metro2033/images/f/f3/Revolution.jpg/revision/latest?cb=20131024195742
 brief: Artyom must sneak or fight his way out of the Red Line-held Ploshchad Revolutsii station in pursuit of Pavel and information on the Dark One.
+wiki: Revolution_(Metro_Last_Light_Level)
 ---
 
 # Revolution

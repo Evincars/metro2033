@@ -6,6 +6,7 @@ chapter: Chapter 5 — Hope
 order: 27
 image: https://static.wikia.nocookie.net/metro2033/images/b/bd/Archives.png/revision/latest?cb=20111008030036
 brief: A short but tense descent through the library's winding corridors where Artyom must survive a gauntlet of Librarians on his way to the Archives.
+wiki: Depository_(Metro_2033_Level)
 ---
 
 # Depository

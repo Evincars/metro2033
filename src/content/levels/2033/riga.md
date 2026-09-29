@@ -6,6 +6,7 @@ chapter: Chapter 2 — Bourbon
 order: 5
 image: https://static.wikia.nocookie.net/metro2033/images/7/7c/Rigastation.jpg/revision/latest?cb=20120502035802
 brief: Artyom's first stop after leaving Exhibition is the impoverished, locked-down station of Riga, where he meets the smuggler Bourbon and agrees to travel onward with him.
+wiki: Riga_(Metro_2033_Level)
 ---
 
 # Riga

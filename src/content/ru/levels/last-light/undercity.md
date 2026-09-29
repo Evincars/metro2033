@@ -6,6 +6,7 @@ chapter: Campaign
 order: 19
 image: https://static.wikia.nocookie.net/metro2033/images/a/aa/LL_Screenshot_Undercity.jpg/revision/latest?cb=20191003175030
 brief: Воссоединившись с Анной, Артём пробирается через кишащие носалисами катакомбы под Спартой и сверхъестественную Тьму, чтобы добраться до туннелей метро.
+wiki: Undercity_(Metro_Last_Light_Level)
 ---
 
 # Подземный город

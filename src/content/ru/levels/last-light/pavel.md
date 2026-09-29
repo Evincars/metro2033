@@ -6,6 +6,7 @@ chapter: Campaign
 order: 4
 image: https://static.wikia.nocookie.net/metro2033/images/f/f1/2013-07-28_00013.jpg
 brief: Захваченный Четвёртым Рейхом, Артём вырывается из концентрационного лагеря вместе с солдатом Красной Линии по имени Павел, попутно освобождая остальных заключённых.
+wiki: Pavel_(Metro_Last_Light_Level)
 ---
 
 # Павел

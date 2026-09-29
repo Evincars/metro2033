@@ -6,6 +6,7 @@ chapter: Campaign
 order: 10
 image: https://static.wikia.nocookie.net/metro2033/images/0/00/Bolshoi.jpg
 brief: Back underground, Artyom follows Pavel through the bustling, Red Line-controlled Theatre Station on the way to Polis.
+wiki: Bolshoi_(Metro_Last_Light_Level)
 ---
 
 # Bolshoi

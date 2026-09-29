@@ -1,13 +1,14 @@
 <script setup>
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
-import { useRoute } from 'vue-router'
+import { useRoute, useRouter } from 'vue-router'
 import AppHeader from './components/layout/AppHeader.vue'
 import NavPanel from './components/layout/NavPanel.vue'
 import RadioSnackbar from './components/layout/RadioSnackbar.vue'
 import { initAmbientAudio } from './composables/useAmbientAudio'
-import { getBreadcrumbs } from './utils/breadcrumbs'
+import { getBreadcrumbs, sectionPath } from './utils/breadcrumbs'
 
 const route = useRoute()
+const router = useRouter()
 const navCollapsed = ref(false) // desktop: collapse the sidebar to icons
 const navOpen = ref(false) // mobile: slide the sidebar in as a drawer
 
@@ -25,6 +26,21 @@ function toggleNav() {
 
 const showNav = computed(() => !!route.meta.leftMenu)
 const crumbs = computed(() => getBreadcrumbs(route))
+
+// Following an inline wiki link can jump across sections (a level into a
+// weapon, say), which the section-based trail above cannot express. Remember
+// the previous page so those jumps offer a way back without the browser button.
+const cameFrom = ref(null)
+router.afterEach((to, from) => {
+  const prev = from.name ? getBreadcrumbs(from) : []
+  cameFrom.value = prev.length
+    ? { path: from.fullPath, label: prev[prev.length - 1].label, section: sectionPath(from) }
+    : null
+})
+
+const backLink = computed(() =>
+  cameFrom.value && cameFrom.value.section !== sectionPath(route) ? cameFrom.value : null,
+)
 
 // Close the mobile drawer whenever the route changes.
 watch(() => route.fullPath, () => {
@@ -48,6 +64,14 @@ onBeforeUnmount(() => {
       <div v-if="showNav && navOpen" class="nav-backdrop" @click="navOpen = false" />
       <main class="app-main" :class="{ 'is-wide': !showNav }">
         <nav v-if="crumbs.length" class="breadcrumbs" aria-label="Breadcrumb">
+          <RouterLink
+            v-if="backLink"
+            :to="backLink.path"
+            class="crumb-back"
+            :aria-label="`Back to ${backLink.label}`"
+          >
+            <span class="crumb-back-arrow" aria-hidden="true">&#8592;</span>{{ backLink.label }}
+          </RouterLink>
           <template v-for="(crumb, i) in crumbs" :key="i">
             <RouterLink
               v-if="crumb.to && i < crumbs.length - 1"
@@ -123,6 +147,30 @@ onBeforeUnmount(() => {
 
 .crumb-sep {
   color: var(--color-text-faint);
+}
+
+.crumb-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-right: 0.35rem;
+  padding: 0.2rem 0.5rem;
+  color: var(--color-steel);
+  text-decoration: none;
+  border: 1px solid var(--color-border-strong);
+  border-radius: 2px;
+  transition: color 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.crumb-back:hover {
+  color: var(--color-steel-bright);
+  border-color: var(--color-steel);
+  background: rgba(133, 190, 214, 0.08);
+}
+
+.crumb-back-arrow {
+  font-size: 0.9em;
+  line-height: 1;
 }
 
 .app-main.is-wide {

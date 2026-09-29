@@ -6,6 +6,7 @@ chapter: Campaign
 order: 23
 image: https://static.wikia.nocookie.net/metro2033/images/1/1e/LL_Screenshot_Chase.jpg/revision/latest?cb=20191003175901
 brief: Artyom and Khan chase down a hijacked train to rescue the Baby Dark One, only for the train to explode and hurl them toward the surface.
+wiki: The_Chase_(Metro_Last_Light_Level)
 ---
 
 # The Chase

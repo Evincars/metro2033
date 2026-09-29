@@ -6,6 +6,7 @@ chapter: Розділ 6 — D6
 order: 30
 image: https://static.wikia.nocookie.net/metro2033/images/8/83/0DarkStar.jpg/revision/latest?cb=20110815212310
 brief: Подорож на дрезині до D6 починається — Артем керує вогнеметом, відбиваючись від орди носалісів, що тікають від Аномалії, яка насувається.
+wiki: Dark_Star_(Metro_2033_Level)
 ---
 
 # Темна зірка

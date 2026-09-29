@@ -6,6 +6,7 @@ chapter: Chapter 4 — War
 order: 21
 image: https://static.wikia.nocookie.net/metro2033/images/5/53/Child_level_final.jpg/revision/latest?cb=20110818205259
 brief: Artyom carries a young survivor named Sasha through lurker-infested tunnels to reunite him with the refugees before heading for the surface and Black Station.
+wiki: Child_(Metro_2033_Level)
 ---
 
 # Child

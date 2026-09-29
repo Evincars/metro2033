@@ -6,6 +6,7 @@ chapter: Campaign
 order: 20
 image: https://static.wikia.nocookie.net/metro2033/images/2/25/.jpg/revision/latest?cb=20130719171018
 brief: Артём пробирается через горящие руины Октябрьской, где Красная Линия сжигает поражённую чумой станцию, чтобы спасти Анну от предателя Лесницкого.
+wiki: Contagion_(Metro_Last_Light_Level)
 ---
 
 # Заражение

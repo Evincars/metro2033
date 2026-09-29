@@ -6,6 +6,7 @@ chapter: Глава 5 — Надежда
 order: 29
 image: https://static.wikia.nocookie.net/metro2033/images/8/8f/Gkgk.jpg/revision/latest?cb=20110215152706
 brief: Мирная интерлюдия без врагов, в которой Артёма спасают снаружи библиотеки, и он перегруппировывается с рейнджерами на базе Спарта перед штурмом D6.
+wiki: Driving_to_Sparta_(Metro_2033_Level)
 ---
 
 # Путь к Спарте

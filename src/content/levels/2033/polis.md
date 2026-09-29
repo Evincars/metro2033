@@ -6,6 +6,7 @@ chapter: Chapter 5 — Hope
 order: 24
 image: https://static.wikia.nocookie.net/metro2033/images/4/4b/Polis.png/revision/latest?cb=20101014234515
 brief: Artyom reaches Polis, the largest settlement in the Metro, to plead with the Council for aid before Miller resolves to seek out the lost bunker D6.
+wiki: Polis_(Metro_2033_Level)
 ---
 
 # Polis

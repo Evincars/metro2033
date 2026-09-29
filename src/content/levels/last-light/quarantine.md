@@ -6,6 +6,7 @@ chapter: Campaign
 order: 21
 image: https://static.wikia.nocookie.net/metro2033/images/f/f2/Quarantine.jpg/revision/latest?cb=20130807072834
 brief: Reeling from the horror of Oktyabrskaya, Artyom passes through a plague-stricken quarantine zone and a Hanza checkpoint alongside Khan.
+wiki: Quarantine_(Metro_Last_Light_Level)
 ---
 
 # Quarantine

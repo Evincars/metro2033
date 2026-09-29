@@ -6,6 +6,7 @@ chapter: Campaign
 order: 3
 image: https://static.wikia.nocookie.net/metro2033/images/3/30/MLL_Botanical_Guardens.jpg
 brief: Артём и Анна отправляются в разрушенный Ботанический сад на охоту за последним Тёмным, но Артём попадает в плен к солдатам Четвёртого Рейха после контакта с ним.
+wiki: Ashes_(Metro_Last_Light_Level)
 ---
 
 # Пепел

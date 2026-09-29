@@ -6,6 +6,7 @@ chapter: Chapter 6 — D6
 order: 32
 image: https://static.wikia.nocookie.net/metro2033/images/d/de/Caves.jpg/revision/latest?cb=20100617042249
 brief: Separated from the Rangers at the very door of D6, Artyom must fight past armor-plated nosalises through sewers and caves to rejoin his comrades.
+wiki: Caves_(Metro_2033_Level)
 ---
 
 # Caves

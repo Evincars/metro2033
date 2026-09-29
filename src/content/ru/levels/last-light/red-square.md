@@ -6,6 +6,7 @@ chapter: Campaign
 order: 28
 image: https://static.wikia.nocookie.net/metro2033/images/7/7d/MLL_Red_Square.jpg/revision/latest?cb=20130516234912
 brief: Артём пересекает Красную площадь по пути в Полис через Собор Василия Блаженного и бурю проклятых душ, и должен решить — спасти или бросить Павла.
+wiki: Red_Square_(Metro_Last_Light_Level)
 ---
 
 # Красная площадь

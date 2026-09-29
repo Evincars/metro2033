@@ -6,6 +6,7 @@ chapter: Campaign
 order: 23
 image: https://static.wikia.nocookie.net/metro2033/images/1/1e/LL_Screenshot_Chase.jpg/revision/latest?cb=20191003175901
 brief: Артём и Хан преследуют угнанный поезд, чтобы спасти Маленького Тёмного, но поезд взрывается и выбрасывает их на поверхность.
+wiki: The_Chase_(Metro_Last_Light_Level)
 ---
 
 # Погоня

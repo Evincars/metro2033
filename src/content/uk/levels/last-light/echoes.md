@@ -6,6 +6,7 @@ chapter: Campaign
 order: 9
 image: https://static.wikia.nocookie.net/metro2033/images/e/ec/Echoes0.png
 brief: Артем і Павел пробираються зруйнованою поверхнею та крізь уламки розбитого авіалайнера до Театральної, уникаючи зграй вартових.
+wiki: Echoes_(Metro_Last_Light_Level)
 ---
 
 # Відлуння

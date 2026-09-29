@@ -6,6 +6,7 @@ chapter: Campaign
 order: 5
 image: https://static.wikia.nocookie.net/metro2033/images/f/f8/2013-08-02_00002.jpg
 brief: Artyom and Pavel slip through a Fourth Reich rally and flee the station on a rail bike after Pavel blows their cover.
+wiki: Reich_(Metro_Last_Light_Level)
 ---
 
 # Reich

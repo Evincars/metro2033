@@ -6,6 +6,7 @@ chapter: Глава 5 — Надежда
 order: 25
 image: https://static.wikia.nocookie.net/metro2033/images/8/8e/Alley_library_side.jpg/revision/latest?cb=20110220172359
 brief: Короткий переход по поверхности, связывающий Полис и Библиотеку, где Артём сражается с наблюдателями и демонами, прежде чем воссоединиться с Миллером и Данилой.
+wiki: Alley_(Metro_2033_Level)
 ---
 
 # Аллея

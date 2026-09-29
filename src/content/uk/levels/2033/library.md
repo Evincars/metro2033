@@ -6,6 +6,7 @@ chapter: Розділ 5 — Надія
 order: 26
 image: https://static.wikia.nocookie.net/metro2033/images/1/1d/LibraryCornerShot.png/revision/latest?cb=20111006033902
 brief: Місія супроводу через Московську державну бібліотеку, де Артем, Міллер і Данила мають знайти шлях до D6, поки демон і бібліотекарі ринуть залами.
+wiki: Library_(Metro_2033_Level)
 ---
 
 # Бібліотека

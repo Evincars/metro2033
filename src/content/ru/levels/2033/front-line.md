@@ -6,6 +6,7 @@ chapter: Глава 4 — Война
 order: 17
 image: https://static.wikia.nocookie.net/metro2033/images/6/63/FrontlineOpening.jpg/revision/latest?cb=20110625203035
 brief: Артём должен с боем или тайком пробраться через разорённый войной мост, разделяющий нацистов и коммунистов, прежде чем попасть в засаду на дальней стороне.
+wiki: Frontline_(Metro_2033_Level)
 ---
 
 # Линия фронта

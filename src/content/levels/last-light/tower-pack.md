@@ -6,6 +6,7 @@ chapter: DLC — Tower Pack
 order: 36
 image: https://static.wikia.nocookie.net/metro2033/images/0/09/BSxJsKECUAAmZ49.jpg/revision/latest?cb=20130828171806
 brief: A five-stage combat simulator inside D6 where a captain fights escalating waves of Nazis and mutants, competing for score on global leaderboards in the longest level of the game.
+wiki: Tower_Pack_(Tower_Pack_DLC_Level)
 ---
 
 # Tower Pack

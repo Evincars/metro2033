@@ -1,11 +1,12 @@
 ---
-id: introduction
+id: introduction-ll
 title: Introduction
 game: last-light
 chapter: Campaign
 order: 1
 image: https://static.wikia.nocookie.net/metro2033/images/e/e6/Introduction0.png
 brief: The opening cutscene of Metro Last Light, narrated by Artyom as he recalls the day the bombs fell and humanity took refuge in the Metro.
+wiki: Introduction_(Metro_Last_Light_Level)
 ---
 
 # Introduction

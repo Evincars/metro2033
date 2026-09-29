@@ -6,6 +6,7 @@ chapter: Campaign
 order: 16
 image: https://static.wikia.nocookie.net/metro2033/images/e/e1/Venice.png/revision/latest?cb=20130821220250
 brief: Прибыв в подземное торговое убежище Венеция, Артём выслеживает Павла через логово воров, торговцев и порока.
+wiki: Venice_(Metro_Last_Light_Level)
 ---
 
 # Венеция

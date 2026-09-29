@@ -6,6 +6,7 @@ chapter: Глава 5 — Надежда
 order: 26
 image: https://static.wikia.nocookie.net/metro2033/images/1/1d/LibraryCornerShot.png/revision/latest?cb=20111006033902
 brief: Миссия сопровождения через Московскую государственную библиотеку, где Артём, Миллер и Данила должны найти путь к D6, пока демон и библиотекари рыскают по залам.
+wiki: Library_(Metro_2033_Level)
 ---
 
 # Библиотека

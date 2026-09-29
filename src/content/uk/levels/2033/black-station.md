@@ -6,6 +6,7 @@ chapter: Розділ 4 — Війна
 order: 23
 image: https://static.wikia.nocookie.net/metro2033/images/4/46/BlackStation0.png/revision/latest?cb=20131003224232
 brief: Артем пробирається або прориваєтья через зайняту нацистами Чорну станцію, щоб возз'єднатися з Ульманом та вирушити до Полісу, переслідуваний по дорозі видіннями Темних.
+wiki: Black_Station_(Metro_2033_Level)
 ---
 
 # Чорна станція

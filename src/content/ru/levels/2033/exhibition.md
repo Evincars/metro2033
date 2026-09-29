@@ -6,6 +6,7 @@ chapter: Глава 1 — Начало пути
 order: 3
 image: https://static.wikia.nocookie.net/metro2033/images/a/a5/Hiok.jpg/revision/latest?cb=20120419231710
 brief: Мирный уровень без боевых действий, охватывающий последние моменты Артёма на родной станции Выставка, где он собирает снаряжение и присоединяется к каравану, идущему на Рижскую.
+wiki: Exhibition_(Metro_2033_Level)
 ---
 
 # Выставка

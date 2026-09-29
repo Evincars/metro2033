@@ -6,6 +6,7 @@ chapter: Metro 2033 (Redux)
 order: 40
 image:
 brief: In the 2014 Redux remaster several of the original Metro 2033 levels were merged into longer, loading-screen-free chapters.
+wiki: Metro_2033_Redux
 ---
 
 # Metro 2033 (Redux)

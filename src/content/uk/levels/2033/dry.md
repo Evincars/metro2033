@@ -6,6 +6,7 @@ chapter: Розділ 3 — Хан
 order: 12
 image: https://static.wikia.nocookie.net/metro2033/images/c/cb/Hbghj.jpg/revision/latest?cb=20110214223024
 brief: Артем і Бурбон добираються до захопленої бандитами Сухої станції, де Бурбон гине, а Хан з'являється, щоб направити Артема далі до Проклятої станції.
+wiki: Dry_(Metro_2033_Level)
 ---
 
 # Суха

@@ -6,6 +6,7 @@ chapter: Prologue
 order: 1
 image: https://static.wikia.nocookie.net/metro2033/images/a/a2/Prologue.jpg/revision/latest?cb=20110521000920
 brief: A short tutorial and story primer in which Artyom and Miller fight their way to the surface with the missile guidance system before being overwhelmed by watchers.
+wiki: Prologue_(Metro_2033_Level)
 ---
 
 # Prologue

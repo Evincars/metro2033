@@ -6,6 +6,7 @@ chapter: Metro 2033 (Redux)
 order: 40
 image:
 brief: В ремастере Redux 2014 года несколько оригинальных уровней Metro 2033 были объединены в более длинные главы без экранов загрузки.
+wiki: Metro_2033_Redux
 ---
 
 # Metro 2033 (Redux)

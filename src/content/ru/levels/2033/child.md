@@ -6,6 +6,7 @@ chapter: Глава 4 — Война
 order: 21
 image: https://static.wikia.nocookie.net/metro2033/images/5/53/Child_level_final.jpg/revision/latest?cb=20110818205259
 brief: Артём несёт молодого выжившего по имени Саша через кишащие люркерами туннели, чтобы воссоединить его с беженцами, прежде чем отправиться на поверхность и к Чёрной станции.
+wiki: Child_(Metro_2033_Level)
 ---
 
 # Дитя

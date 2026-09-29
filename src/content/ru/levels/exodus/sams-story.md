@@ -6,6 +6,8 @@ chapter: "DLC — История Сэма"
 order: 13
 image: /level-imgs/exodus/sams-story.jpg
 brief: "История Сэма — сюжетное DLC для Metro Exodus. Действие происходит после событий Metro Exodus и рассказывает историю Сэма, исследующего разрушенные цунами руины Владивостока в надежде найти путь обратно в Соединённые Штаты и воссоединиться со своей семьёй."
+wiki: Sam%27s_Story
+map: /level-imgs/maps/sams-story.jpg
 ---
 
 **Sam's Story** is a story [DLC](https://metrovideogame.fandom.com/wiki/Downloadable_Content) for [Metro Exodus](https://metrovideogame.fandom.com/wiki/Metro_Exodus). It takes place after the events of Metro Exodus and follows the story of [Sam](https://metrovideogame.fandom.com/wiki/Sam) as he explores the tsunami-ravaged ruins of [Vladivostok](https://metrovideogame.fandom.com/wiki/Vladivostok) in hopes of finding a way to return to the United States and reunite with his family.
@@ -49,43 +51,41 @@ Sam then limps along the opening dry dock gates, attempting to reach the submari
 
 ### Концовки
 There are two endings for Sam's Story, depending on whether or not Sam decides to blow up the nuclear submarine.
-***Tom's Ending:** Sam decides not to blow up the submarine. Tom lets Sam on board, treats his wounds, and takes him to San Francisco. Sam then travels to San Diego as promised to get his father.
-***The Captain's Ending:** Sam is persuaded by the Captain to blow up the submarine to prevent Tom from gaining access to its nukes and potentially causing another nuclear war. Sam loses his means to reach the US, but does not give up and tries to find another way.
-
-## Интерактивная карта
+- **Tom's Ending:** Sam decides not to blow up the submarine. Tom lets Sam on board, treats his wounds, and takes him to San Francisco. Sam then travels to San Diego as promised to get his father.
+- **The Captain's Ending:** Sam is persuaded by the Captain to blow up the submarine to prevent Tom from gaining access to its nukes and potentially causing another nuclear war. Sam loses his means to reach the US, but does not give up and tries to find another way.
 
 ## Новое оружие
-*[Sammy](https://metrovideogame.fandom.com/wiki/Sammy) - an [assault rifle](https://metrovideogame.fandom.com/wiki/:Category:Assault_Rifles) designed specifically to fire powerful [incendiary rounds](https://metrovideogame.fandom.com/wiki/Incendiary_5.45x39mm) without sustaining damage to its gas system (which would be the case with a regular [Kalash](https://metrovideogame.fandom.com/wiki/Kalash))
-*[Stallion](https://metrovideogame.fandom.com/wiki/Stallion) - a semi-automatic [pistol](https://metrovideogame.fandom.com/wiki/:Category:Handguns) of American origin, modified and rechambered to use [.44 Magnum](https://metrovideogame.fandom.com/wiki/.44_Magnum) ammunition
+- [Sammy](https://metrovideogame.fandom.com/wiki/Sammy) - an [assault rifle](https://metrovideogame.fandom.com/wiki/:Category:Assault_Rifles) designed specifically to fire powerful [incendiary rounds](https://metrovideogame.fandom.com/wiki/Incendiary_5.45x39mm) without sustaining damage to its gas system (which would be the case with a regular [Kalash](https://metrovideogame.fandom.com/wiki/Kalash))
+- [Stallion](https://metrovideogame.fandom.com/wiki/Stallion) - a semi-automatic [pistol](https://metrovideogame.fandom.com/wiki/:Category:Handguns) of American origin, modified and rechambered to use [.44 Magnum](https://metrovideogame.fandom.com/wiki/.44_Magnum) ammunition
 
 ## Коллекционные предметы
 In Sam's Story, there are a total of 11 diary notes and 9 harmonica melodies that can be collected. Since this DLC is more open in design, these collectables can be picked up in more-or-less any order, although it is still more convenient to collect them in the order presented.
 
 ### Записки
-*[Note to Korzh](https://metrovideogame.fandom.com/wiki/Note_to_Korzh) - Found in the first building Sam comes across after leaving the sub. After disembarking from the [motorboat](https://metrovideogame.fandom.com/wiki/motorboat), go up stairs. Not far from the staircase you should find a corpse with a note next to it.
-*[Absence Note](https://metrovideogame.fandom.com/wiki/Absence_Note) - Found in the primary school on the other side of the flooded square from the cinema where a bandit group is stationed. There is a classroom right next to the barricaded staircase. The note will be sitting on the desk right next to the entrance.
-*[Survivor's Note](https://metrovideogame.fandom.com/wiki/Survivor's_Note) - Found in the building where the Captain is fighting off [humanimal](https://metrovideogame.fandom.com/wiki/humanimal)s. Right before you slide down the pipe, check the window next to it. The note should be there.
-*[A Note from Korzh](https://metrovideogame.fandom.com/wiki/A_Note_from_Korzh) - After the Captain and Sam come under sniper fire, you will have to go through a half-flooded building right after you disembark. After you climb a ladder, the note will be sitting on a sofa to your right.
-*[Company Charter](https://metrovideogame.fandom.com/wiki/Company_Charter) - To obtain this note, you must first interact with two feuding brothers. One can be found on a ship docked in front of the junkyard where you fight the Seraph, and the other in a building behind the junkyard. After you have obtained both halves of the safe code, go to their auto saloon (which is right next to the junkyard) and get the note from the safe.
-*[Engineer's Note](https://metrovideogame.fandom.com/wiki/Engineer's_Note) - After you go through a lurker-infested minefield, you will have to climb a ladder into a building. The note is located on a safe to your immediate right after you climb into the building.
-*[A Note from the Boss](https://metrovideogame.fandom.com/wiki/A_Note_from_the_Boss) - After you've raised the gate and sailed into the toxic fog, go to the worm infested building (it should be the first building you come across). The note will be sitting on a crate that you will come across as soon as you disembark.
-*[Tail's Diary](https://metrovideogame.fandom.com/wiki/Tail's_Diary) - After you leave the worm-infested building, there will be a ship to your right with a glowing pharmacy sign. On the ship, climb upstairs and find the note on a table next to the causeway (there will also be a guitar next to it).
-*[A Guard's Journal](https://metrovideogame.fandom.com/wiki/A_Guard's_Journal) - Found in a bus after you exit the toxic cloud, right across from the workbench. Be sure to grab this note and all the previous ones before you go into the fire station, as you won't be able to come back for them.
-*[Boss' Notice](https://metrovideogame.fandom.com/wiki/Boss'_Notice) - As soon as you get the suits in the fire station, head upstairs. The note will be on a desk right in front of you as you exit the staircase. Be sure to grab this note before you zipline away, as you won't be able to come back for it.
-*[Seryi's Note](https://metrovideogame.fandom.com/wiki/Seryi's_Note) - After you zipline from the fire station, go inside the ruined house. The note will be on a dresser left of the workbench. Be sure to grab it as soon as you jump off the zipline, as you won't be able to come back for it later.
+- [Note to Korzh](https://metrovideogame.fandom.com/wiki/Note_to_Korzh) - Found in the first building Sam comes across after leaving the sub. After disembarking from the [motorboat](https://metrovideogame.fandom.com/wiki/motorboat), go up stairs. Not far from the staircase you should find a corpse with a note next to it.
+- [Absence Note](https://metrovideogame.fandom.com/wiki/Absence_Note) - Found in the primary school on the other side of the flooded square from the cinema where a bandit group is stationed. There is a classroom right next to the barricaded staircase. The note will be sitting on the desk right next to the entrance.
+- [Survivor's Note](https://metrovideogame.fandom.com/wiki/Survivor's_Note) - Found in the building where the Captain is fighting off [humanimal](https://metrovideogame.fandom.com/wiki/humanimal)s. Right before you slide down the pipe, check the window next to it. The note should be there.
+- [A Note from Korzh](https://metrovideogame.fandom.com/wiki/A_Note_from_Korzh) - After the Captain and Sam come under sniper fire, you will have to go through a half-flooded building right after you disembark. After you climb a ladder, the note will be sitting on a sofa to your right.
+- [Company Charter](https://metrovideogame.fandom.com/wiki/Company_Charter) - To obtain this note, you must first interact with two feuding brothers. One can be found on a ship docked in front of the junkyard where you fight the Seraph, and the other in a building behind the junkyard. After you have obtained both halves of the safe code, go to their auto saloon (which is right next to the junkyard) and get the note from the safe.
+- [Engineer's Note](https://metrovideogame.fandom.com/wiki/Engineer's_Note) - After you go through a lurker-infested minefield, you will have to climb a ladder into a building. The note is located on a safe to your immediate right after you climb into the building.
+- [A Note from the Boss](https://metrovideogame.fandom.com/wiki/A_Note_from_the_Boss) - After you've raised the gate and sailed into the toxic fog, go to the worm infested building (it should be the first building you come across). The note will be sitting on a crate that you will come across as soon as you disembark.
+- [Tail's Diary](https://metrovideogame.fandom.com/wiki/Tail's_Diary) - After you leave the worm-infested building, there will be a ship to your right with a glowing pharmacy sign. On the ship, climb upstairs and find the note on a table next to the causeway (there will also be a guitar next to it).
+- [A Guard's Journal](https://metrovideogame.fandom.com/wiki/A_Guard's_Journal) - Found in a bus after you exit the toxic cloud, right across from the workbench. Be sure to grab this note and all the previous ones before you go into the fire station, as you won't be able to come back for them.
+- [Boss' Notice](https://metrovideogame.fandom.com/wiki/Boss'_Notice) - As soon as you get the suits in the fire station, head upstairs. The note will be on a desk right in front of you as you exit the staircase. Be sure to grab this note before you zipline away, as you won't be able to come back for it.
+- [Seryi's Note](https://metrovideogame.fandom.com/wiki/Seryi's_Note) - After you zipline from the fire station, go inside the ruined house. The note will be on a dresser left of the workbench. Be sure to grab it as soon as you jump off the zipline, as you won't be able to come back for it later.
 
 ### Мелодии гармоники
 Sam begins the DLC knowing one harmonica song, and can find the sheet music for nine more songs as he progresses through Vladivostok. These melodies can be played by sitting on special chairs found around Vladivostok.
 
-*Melody 1 - Found inside the primary school, in the same classroom where you find the "Absence note". The melody is pinned on a wall next to the piano.
-*Melody 2 - Upon approaching the cinema across from the school, you may notice a plank in the left corner spread across two windows. Climb upstairs and search for the left side window, and cross the plank to the other window when you find it. The melody is pinned on a notice board next to some balalaikas.
-*Melody 3 - After you eliminate Korzh, head downstairs, but before you board the Captain's boat, go to the end of the dock where there will be a door. Once you enter, you should see the melody pinned on a cupboard right in front of you.
-*Melody 4 - After you get drunk with the captain, go two floors down (from the rooftop), then enter a hallway, take a second right (you can place a trap here), and go through a hole in the wall to your left, then, search for a piano. The note will be pinned on a column right next to it.
-*Melody 5 - At the building where the two scouts are, the note is pinned on the left of the workbench.
-*Melody 6 - Found inside the Brothers' car saloon. After going through the garage, go into the kitchen through the door left of the exit. The melody is pinned next to the door.
-*Melody 7 - After going across a minefield and climbing a ladder, run to the end of the hallway and go through a door to your right. The melody will be pinned to your immediate right as soon as you open the door.
-*Melody 8 - On the same ship where you can find Tail's diary, go upstairs and across the causeway. The melody will be pinned on the porta potty.
-*Melody 9 - Pinned on a trailer across from the bus where you can find "A guard's journal".
+- Melody 1 - Found inside the primary school, in the same classroom where you find the "Absence note". The melody is pinned on a wall next to the piano.
+- Melody 2 - Upon approaching the cinema across from the school, you may notice a plank in the left corner spread across two windows. Climb upstairs and search for the left side window, and cross the plank to the other window when you find it. The melody is pinned on a notice board next to some balalaikas.
+- Melody 3 - After you eliminate Korzh, head downstairs, but before you board the Captain's boat, go to the end of the dock where there will be a door. Once you enter, you should see the melody pinned on a cupboard right in front of you.
+- Melody 4 - After you get drunk with the captain, go two floors down (from the rooftop), then enter a hallway, take a second right (you can place a trap here), and go through a hole in the wall to your left, then, search for a piano. The note will be pinned on a column right next to it.
+- Melody 5 - At the building where the two scouts are, the note is pinned on the left of the workbench.
+- Melody 6 - Found inside the Brothers' car saloon. After going through the garage, go into the kitchen through the door left of the exit. The melody is pinned next to the door.
+- Melody 7 - After going across a minefield and climbing a ladder, run to the end of the hallway and go through a door to your right. The melody will be pinned to your immediate right as soon as you open the door.
+- Melody 8 - On the same ship where you can find Tail's diary, go upstairs and across the causeway. The melody will be pinned on the porta potty.
+- Melody 9 - Pinned on a trailer across from the bus where you can find "A guard's journal".
 
 ## Крепления оружия
 ### Окраины

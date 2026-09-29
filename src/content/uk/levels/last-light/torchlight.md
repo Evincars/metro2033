@@ -6,6 +6,7 @@ chapter: Campaign
 order: 8
 image: https://static.wikia.nocookie.net/metro2033/images/6/6c/Torchlight0.png
 brief: Врятований від зашморгу, Артем слідує за Павлом через кишащі павуками катакомби до Полісу, покладаючись на світло для боротьби з мутованими павукоподібними.
+wiki: Torchlight_(Metro_Last_Light_Level)
 ---
 
 # Смолоскип

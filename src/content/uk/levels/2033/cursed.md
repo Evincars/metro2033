@@ -6,6 +6,7 @@ chapter: Розділ 3 — Хан
 order: 15
 image: https://static.wikia.nocookie.net/metro2033/images/a/af/Cursed.jpg/revision/latest?cb=20100417004601
 brief: Артем і Хан добираються до обложеної мутантами Проклятої станції та допомагають її останнім захисникам заблокувати тунелі, після чого Хан направляє Артема до Арсеналу.
+wiki: Cursed_(Metro_2033_Level)
 ---
 
 # Прокляте

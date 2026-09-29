@@ -6,6 +6,7 @@ chapter: Campaign
 order: 24
 image: https://static.wikia.nocookie.net/metro2033/images/8/8d/LL_Screenshot_Crossing.jpg/revision/latest?cb=20191003171811
 brief: Артём несёт Маленького Тёмного через замёрзшую реку под Лужнецким метромостом, противостоя стражам и огромному демону на поверхности.
+wiki: The_Crossing_(Metro_Last_Light_Level)
 ---
 
 # Переправа

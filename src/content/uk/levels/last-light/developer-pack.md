@@ -6,6 +6,7 @@ chapter: DLC — Developer Pack
 order: 38
 image: https://static.wikia.nocookie.net/metro2033/images/2/24/DeveloperPack0.png/revision/latest?cb=20131016010058
 brief: Пісочниця-хаб, що включає Арену ШІ, Музей метро та Тир, обрамлена моторошною зустріччю із загадковою старою.
+wiki: Developer_Pack_(Developer_Pack_DLC_Level)
 ---
 
 # Комплект розробника

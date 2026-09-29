@@ -6,6 +6,7 @@ chapter: Campaign
 order: 23
 image: https://static.wikia.nocookie.net/metro2033/images/1/1e/LL_Screenshot_Chase.jpg/revision/latest?cb=20191003175901
 brief: Артем і Хан переслідують викрадений потяг, щоб врятувати Маленького Темного, але потяг вибухає й викидає їх на поверхню.
+wiki: The_Chase_(Metro_Last_Light_Level)
 ---
 
 # Погоня

@@ -6,6 +6,7 @@ chapter: Chapter 6 — D6
 order: 34
 image: https://static.wikia.nocookie.net/metro2033/images/e/ea/Biomass.jpg/revision/latest?cb=20100417230642
 brief: Deep in the reactor levels of D6, Artyom and Miller confront the Biomass, a monstrous creature fused onto the reactor itself.
+wiki: Biomass_(Metro_2033_Level)
 ---
 
 # Biomass

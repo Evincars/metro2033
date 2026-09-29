@@ -6,6 +6,7 @@ chapter: Розділ 4 — Війна
 order: 20
 image: https://static.wikia.nocookie.net/metro2033/images/3/3e/Defense_Level.jpg/revision/latest?cb=20100617065203
 brief: Залишившись один після загибелі Павла, Артем веде приречений останній бій разом із Дітьми підземелля на станції Діра, перш ніж вирушити через її зруйновані зали.
+wiki: Defense_(Metro_2033_Level)
 ---
 
 # Оборона

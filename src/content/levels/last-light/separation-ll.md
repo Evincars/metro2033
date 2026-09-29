@@ -6,6 +6,7 @@ chapter: Campaign
 order: 6
 image: https://static.wikia.nocookie.net/metro2033/images/8/82/2013-08-02_00031.jpg
 brief: After Pavel is recaptured by the Reich, Artyom sneaks or fights through a Nazi outpost to save him and continue toward Polis.
+wiki: Separation_(Metro_Last_Light_Level)
 ---
 
 # Separation

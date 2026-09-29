@@ -4,7 +4,7 @@ title: "Throwing Knives"
 group: Throwables & Explosives
 order: 42
 image: /equipment-imgs/throwing-knives.png
-brief: ""
+brief: "Silent, reusable stealth weapon dealing extremely high damage, found almost everywhere in the Metro."
 wiki: Throwing_Knives
 appearances: Metro 2033, Metro Last Light, Metro Exodus
 ---

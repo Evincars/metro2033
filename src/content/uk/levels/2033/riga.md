@@ -6,6 +6,7 @@ chapter: Розділ 2 — Бурбон
 order: 5
 image: https://static.wikia.nocookie.net/metro2033/images/7/7c/Rigastation.jpg/revision/latest?cb=20120502035802
 brief: Перша зупинка Артема після Виставки — бідна, закрита на карантин станція Ризька, де він зустрічає контрабандиста Бурбона та погоджується подорожувати далі разом із ним.
+wiki: Riga_(Metro_2033_Level)
 ---
 
 # Ризька

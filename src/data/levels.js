@@ -10,7 +10,9 @@
  *   chapter: Chapter 1 — Let The Journey Begin
  *   order: 3
  *   image: https://…        # optional preview image
+ *   map: /level-imgs/maps/… # optional in-game interactive map
  *   brief: One or two sentences shown in the map tooltip.
+ *   wiki: Exhibition_(Metro_2033_Level)   # source page on the Fandom wiki
  *   ---
  *   # Full article body in Markdown…
  */
@@ -61,6 +63,7 @@ export const levels = Object.values(files)
       chapter: meta.chapter ?? '',
       order: Number(meta.order ?? 0),
       image: meta.image || '',
+      map: meta.map || '',
       brief: meta.brief || '',
       wiki: meta.wiki || '',
       body,

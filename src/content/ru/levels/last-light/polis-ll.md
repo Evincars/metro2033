@@ -6,6 +6,7 @@ chapter: Campaign
 order: 30
 image: https://static.wikia.nocookie.net/metro2033/images/d/df/LL_Screenshot_Polis.jpg/revision/latest?cb=20191003181339
 brief: На этом небоевом уровне Артём приводит Маленького Чёрного на мирную конференцию в Полисе, где разоблачаются планы Москвина перед битвой за Д6.
+wiki: Polis_(Metro_Last_Light_Level)
 ---
 
 # Полис

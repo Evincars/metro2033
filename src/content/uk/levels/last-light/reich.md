@@ -6,6 +6,7 @@ chapter: Campaign
 order: 5
 image: https://static.wikia.nocookie.net/metro2033/images/f/f8/2013-08-02_00002.jpg
 brief: Артем і Павел пробираються через мітинг Четвертого Рейху і тікають зі станції на дрезині після того, як Павел розкриває їхнє маскування.
+wiki: Reich_(Metro_Last_Light_Level)
 ---
 
 # Рейх

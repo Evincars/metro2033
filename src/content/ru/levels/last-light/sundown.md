@@ -6,6 +6,7 @@ chapter: Campaign
 order: 17
 image: https://static.wikia.nocookie.net/metro2033/images/1/1f/LL_Screenshot_Sundown.jpg/revision/latest?cb=20191003173011
 brief: Артём пересекает кишащие мутантами болота на поверхности возле Храма Христа Спасителя по пути к аванпосту и Октябрьской.
+wiki: Sundown_(Metro_Last_Light_Level)
 ---
 
 # Закат

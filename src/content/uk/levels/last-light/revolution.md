@@ -6,6 +6,7 @@ chapter: Campaign
 order: 12
 image: https://static.wikia.nocookie.net/metro2033/images/f/f3/Revolution.jpg/revision/latest?cb=20131024195742
 brief: Артем повинен пробратися або пробитися через станцію Площа Революції, утримувану Червоною Лінією, у погоні за Павлом та інформацією про Чорного.
+wiki: Revolution_(Metro_Last_Light_Level)
 ---
 
 # Революція

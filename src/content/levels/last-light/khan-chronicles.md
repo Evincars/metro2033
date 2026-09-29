@@ -6,6 +6,7 @@ chapter: DLC — Chronicles Pack
 order: 40
 image: https://static.wikia.nocookie.net/metro2033/images/a/a6/Khan.png/revision/latest?cb=20131017121256
 brief: Playing as Ulman and later a young Khan, the player stops a captured Hansa train and relives the tragic fall of Polyanka through Khan's eyes.
+wiki: Khan_(Chronicles_Pack_DLC_Level)
 ---
 
 # Khan

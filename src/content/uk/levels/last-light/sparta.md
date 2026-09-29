@@ -6,6 +6,7 @@ chapter: Campaign
 order: 2
 image: https://static.wikia.nocookie.net/metro2033/images/2/27/Sparta0.png
 brief: Перший ігровий рівень, на якому Артем прокидається від кошмару в Д6 і вирушає зі снайперкою Анною на полювання за Темним, який вижив, у Ботанічному саду.
+wiki: Sparta_(Metro_Last_Light_Level)
 ---
 
 # Спарта

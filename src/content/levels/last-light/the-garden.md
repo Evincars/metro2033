@@ -6,6 +6,7 @@ chapter: Campaign
 order: 29
 image: https://static.wikia.nocookie.net/metro2033/images/a/a7/LL_Screenshot_Garden.jpg/revision/latest?cb=20191003180848
 brief: Artyom and Khan pass through the overgrown Alexander Garden on the way to Polis, where Artyom faces a giant mutant bear and can choose to save it from a watchmen pack.
+wiki: The_Garden_(Metro_Last_Light_Level)
 ---
 
 # The Garden

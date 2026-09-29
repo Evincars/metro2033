@@ -6,6 +6,7 @@ chapter: Chapter 2 — Bourbon
 order: 11
 image: https://static.wikia.nocookie.net/metro2033/images/a/ac/2011-07-12_00004.jpg/revision/latest?cb=20110712211717
 brief: A short continuation of Dead City 1 in which Artyom reunites with Bourbon and the pair fight off a demon and a pack of watchers to reach the entrance of Dry Station.
+wiki: Dead_City_2_(Metro_2033_Level)
 ---
 
 # Dead City 2

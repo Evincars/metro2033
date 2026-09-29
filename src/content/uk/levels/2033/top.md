@@ -6,6 +6,7 @@ chapter: Розділ 7 — Вежа
 order: 37
 image: https://static.wikia.nocookie.net/metro2033/images/4/44/Tower_sunrise.jpg/revision/latest?cb=20110220173228
 brief: Передостанній рівень Metro 2033, на якому Артем піднімається по зруйнованій Останкінській вежі та встановлює систему наведення ракет, поки Темні звертаються до нього з останнім благанням.
+wiki: Top_(Metro_2033_Level)
 ---
 
 # Вершина

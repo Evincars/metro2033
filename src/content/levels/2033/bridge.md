@@ -6,6 +6,7 @@ chapter: Chapter 2 — Bourbon
 order: 7
 image:
 brief: A short level in which Bourbon guides Artyom across a decaying rail bridge, fending off nosalises and avoiding the guns of a Hansa railcar before descending into a side tunnel.
+wiki: Bridge_(Metro_2033_Level)
 ---
 
 # Bridge

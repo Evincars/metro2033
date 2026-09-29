@@ -6,6 +6,7 @@ chapter: Campaign
 order: 6
 image: https://static.wikia.nocookie.net/metro2033/images/8/82/2013-08-02_00031.jpg
 brief: После того как Павел схвачен Рейхом, Артём пробирается или прорывается через нацистский аванпост, чтобы спасти его и продолжить путь к Полису.
+wiki: Separation_(Metro_Last_Light_Level)
 ---
 
 # Разделение

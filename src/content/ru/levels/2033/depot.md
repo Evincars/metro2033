@@ -6,6 +6,7 @@ chapter: Глава 4 — Война
 order: 19
 image: https://static.wikia.nocookie.net/metro2033/images/5/59/Depot.jpg/revision/latest?cb=20110520042955
 brief: Артём и Павел прорываются через нацистскую станцию и кишащее носалисами поездное депо, где Павел жертвует собой, а Артём едва выживает после крушения вагонетки.
+wiki: Depot_(Metro_2033_Level)
 ---
 
 # Депо

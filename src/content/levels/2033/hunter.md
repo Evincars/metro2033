@@ -6,6 +6,7 @@ chapter: Prologue
 order: 2
 image: https://static.wikia.nocookie.net/metro2033/images/7/70/Hunterlevel.jpg/revision/latest?cb=20110521001644
 brief: The second level of the Prologue introduces Artyom's home station of Exhibition and the Ranger Hunter, who tasks Artyom with reaching Polis after a mutant attack.
+wiki: Hunter_(Metro_2033_Level)
 ---
 
 # Hunter

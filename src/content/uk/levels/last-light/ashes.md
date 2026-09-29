@@ -6,6 +6,7 @@ chapter: Campaign
 order: 3
 image: https://static.wikia.nocookie.net/metro2033/images/3/30/MLL_Botanical_Guardens.jpg
 brief: Артьом та Анна вирушають до зруйнованого Ботанічного саду на полювання за останнім Темним, але Артьом потрапляє в полон до солдатів Четвертого Рейху після контакту з ним.
+wiki: Ashes_(Metro_Last_Light_Level)
 ---
 
 # Попіл

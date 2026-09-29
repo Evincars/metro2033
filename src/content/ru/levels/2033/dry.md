@@ -6,6 +6,7 @@ chapter: Глава 3 — Хан
 order: 12
 image: https://static.wikia.nocookie.net/metro2033/images/c/cb/Hbghj.jpg/revision/latest?cb=20110214223024
 brief: Артём и Бурбон добираются до захваченной бандитами Сухой станции, где Бурбон погибает, а Хан появляется, чтобы направить Артёма дальше к Проклятой станции.
+wiki: Dry_(Metro_2033_Level)
 ---
 
 # Сухая

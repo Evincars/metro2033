@@ -6,6 +6,7 @@ chapter: Campaign
 order: 4
 image: https://static.wikia.nocookie.net/metro2033/images/f/f1/2013-07-28_00013.jpg
 brief: Захоплений Четвертим Рейхом, Артем тікає з концентраційного табору разом із солдатом Червоної Лінії на ім'я Павел, звільняючи по дорозі інших в'язнів.
+wiki: Pavel_(Metro_Last_Light_Level)
 ---
 
 # Павел

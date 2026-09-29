@@ -6,6 +6,7 @@ chapter: Campaign
 order: 4
 image: https://static.wikia.nocookie.net/metro2033/images/f/f1/2013-07-28_00013.jpg
 brief: Captured by the Fourth Reich, Artyom breaks out of a concentration camp alongside a Red Line soldier named Pavel, freeing the other prisoners along the way.
+wiki: Pavel_(Metro_Last_Light_Level)
 ---
 
 # Pavel

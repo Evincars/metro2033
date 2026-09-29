@@ -6,6 +6,7 @@ chapter: Campaign
 order: 9
 image: https://static.wikia.nocookie.net/metro2033/images/e/ec/Echoes0.png
 brief: Артём и Павел пробираются по разрушенной поверхности и через обломки разбившегося авиалайнера к Театральной, уклоняясь от стай сторожей.
+wiki: Echoes_(Metro_Last_Light_Level)
 ---
 
 # Эхо

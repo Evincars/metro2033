@@ -6,6 +6,7 @@ chapter: Campaign
 order: 30
 image: https://static.wikia.nocookie.net/metro2033/images/d/df/LL_Screenshot_Polis.jpg/revision/latest?cb=20191003181339
 brief: На цьому небойовому рівні Артем приводить Маленького Чорного на мирну конференцію в Полісі, де викриваються плани Москвіна перед битвою за Д6.
+wiki: Polis_(Metro_Last_Light_Level)
 ---
 
 # Поліс

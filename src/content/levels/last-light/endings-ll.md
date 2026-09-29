@@ -6,6 +6,7 @@ chapter: Campaign
 order: 32
 image:
 brief: Metro Last Light has two endings decided by moral points, the bad C'est la Vie ending in which Artyom destroys D6 and the canon Redemption ending in which the Dark Ones save him.
+wiki: Endings#Metro:_Last_Light
 ---
 
 # Endings (Last Light)

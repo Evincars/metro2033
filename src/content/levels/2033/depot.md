@@ -6,6 +6,7 @@ chapter: Chapter 4 — War
 order: 19
 image: https://static.wikia.nocookie.net/metro2033/images/5/59/Depot.jpg/revision/latest?cb=20110520042955
 brief: Artyom and Pavel fight through a Nazi station and a nosalis-infested train depot, where Pavel sacrifices himself and Artyom barely survives a cart crash.
+wiki: Depot_(Metro_2033_Level)
 ---
 
 # Depot

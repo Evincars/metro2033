@@ -6,6 +6,7 @@ chapter: DLC — Chronicles Pack
 order: 40
 image: https://static.wikia.nocookie.net/metro2033/images/a/a6/Khan.png/revision/latest?cb=20131017121256
 brief: Играя за Ульмана, а затем за молодого Хана, игрок останавливает захваченный поезд Ганзы и заново переживает трагическое падение Полянки глазами Хана.
+wiki: Khan_(Chronicles_Pack_DLC_Level)
 ---
 
 # Хан

@@ -6,6 +6,7 @@ chapter: Campaign
 order: 15
 image: https://static.wikia.nocookie.net/metro2033/images/f/f1/LL_Screenshot_Dark_Water.jpg/revision/latest?cb=20191003172610
 brief: Врятований рибалкою Федором, Артем пливе затопленими тунелями до Венеції, відбиваючись від нападу креветок.
+wiki: Dark_Water_(Metro_Last_Light_Level)
 ---
 
 # Темна вода

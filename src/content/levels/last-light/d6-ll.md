@@ -6,6 +6,7 @@ chapter: Campaign
 order: 31
 image: https://static.wikia.nocookie.net/metro2033/images/e/e8/LL_Screenshot_D6.jpg/revision/latest?cb=20191003182057
 brief: In the final level Artyom, Miller, and the Rangers make their last stand defending D6 against a massive Red Line assault, ending in either destruction or redemption.
+wiki: D6_(Metro_Last_Light_Level)
 ---
 
 # D6

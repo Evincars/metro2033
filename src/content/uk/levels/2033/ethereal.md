@@ -6,6 +6,7 @@ chapter: Розділ 7 — Вежа
 order: 38
 image: https://static.wikia.nocookie.net/metro2033/images/f/ff/Dgh.jpg/revision/latest?cb=20110215043719
 brief: Фінальний рівень Metro 2033 розгортається в сюрреалістичному психічному лабіринті, де Артем протистоїть Темним у битві розумів на вершині Останкінської вежі.
+wiki: Ethereal_(Metro_2033_Level)
 ---
 
 # Ефір

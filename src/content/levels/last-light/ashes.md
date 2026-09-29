@@ -6,6 +6,7 @@ chapter: Campaign
 order: 3
 image: https://static.wikia.nocookie.net/metro2033/images/3/30/MLL_Botanical_Guardens.jpg
 brief: Artyom and Anna travel to the ruined Botanical Garden to hunt the last Dark One, only for Artyom to be captured by Fourth Reich soldiers after making contact with it.
+wiki: Ashes_(Metro_Last_Light_Level)
 ---
 
 # Ashes

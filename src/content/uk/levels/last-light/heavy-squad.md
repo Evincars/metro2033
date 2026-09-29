@@ -6,6 +6,7 @@ chapter: DLC — Faction Pack
 order: 33
 image: https://static.wikia.nocookie.net/metro2033/images/4/45/MetroDLCHeavy.png/revision/latest?cb=20130717162758
 brief: Граючи за важкого штурмовика Рейху Ганса, гравець витримує п'ять нещадних хвиль атак Червоної Армії на Фронті, завершуючи боєм із танком.
+wiki: Heavy_Squad_(Faction_Pack_DLC_Level)
 ---
 
 # Важкий загін

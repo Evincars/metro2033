@@ -6,6 +6,7 @@ chapter: Chapter 3 — Khan
 order: 13
 image: https://static.wikia.nocookie.net/metro2033/images/1/15/Ghosts3.png/revision/latest?cb=20121014045617
 brief: Guided by Khan through haunted tunnels, Artyom witnesses the ghosts of a fallen battle as Khan lays his old squad to rest.
+wiki: Ghosts_(Metro_2033_Level)
 ---
 
 # Ghosts

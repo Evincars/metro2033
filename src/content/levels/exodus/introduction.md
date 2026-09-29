@@ -6,7 +6,7 @@ chapter: "Prologue"
 order: 1
 image: /level-imgs/exodus/introduction.jpg
 brief: "Introduction is the first level of Metro Exodus. It serves solely as a cut-scene with Artyom as the narrator, briefly showing the history of the Metro as and after the bombs fell."
-wiki: Introduction_(Metro_Exodus)
+wiki: Introduction_(Metro_Exodus_Level)
 ---
 
 **Introduction** is the first [level](https://metrovideogame.fandom.com/wiki/Levels) of [Metro Exodus](https://metrovideogame.fandom.com/wiki/Metro_Exodus). It serves solely as a cut-scene with [Artyom](https://metrovideogame.fandom.com/wiki/Artyom) as the narrator, briefly showing the history of the Metro as and after the bombs fell.

@@ -6,6 +6,7 @@ chapter: Розділ 1 — Початок подорожі
 order: 3
 image: https://static.wikia.nocookie.net/metro2033/images/a/a5/Hiok.jpg/revision/latest?cb=20120419231710
 brief: Мирний рівень без бойових дій, що охоплює останні моменти Артема на рідній станції Виставка, де він збирає спорядження та приєднується до каравану, що прямує до Ризької.
+wiki: Exhibition_(Metro_2033_Level)
 ---
 
 # Виставка

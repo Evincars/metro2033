@@ -6,6 +6,7 @@ chapter: Campaign
 order: 31
 image: https://static.wikia.nocookie.net/metro2033/images/e/e8/LL_Screenshot_D6.jpg/revision/latest?cb=20191003182057
 brief: На финальном уровне Артём, Миллер и рейнджеры принимают последний бой, защищая Д6 от массированного штурма Красной Линии, который заканчивается либо уничтожением, либо искуплением.
+wiki: D6_(Metro_Last_Light_Level)
 ---
 
 # Д6

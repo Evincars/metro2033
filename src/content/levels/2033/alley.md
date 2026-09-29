@@ -6,6 +6,7 @@ chapter: Chapter 5 — Hope
 order: 25
 image: https://static.wikia.nocookie.net/metro2033/images/8/8e/Alley_library_side.jpg/revision/latest?cb=20110220172359
 brief: A short surface trek that bridges Polis and the Library, where Artyom braves watchers and demons before reuniting with Miller and Danila.
+wiki: Alley_(Metro_2033_Level)
 ---
 
 # Alley

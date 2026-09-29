@@ -6,6 +6,7 @@ chapter: Глава 6 — D6
 order: 32
 image: https://static.wikia.nocookie.net/metro2033/images/d/de/Caves.jpg/revision/latest?cb=20100617042249
 brief: Отделённый от рейнджеров у самых дверей D6, Артём должен пробиться через канализацию и пещеры, полные бронированных носалисов, чтобы воссоединиться с товарищами.
+wiki: Caves_(Metro_2033_Level)
 ---
 
 # Пещеры

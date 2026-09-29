@@ -6,6 +6,7 @@ chapter: DLC — Chronicles Pack
 order: 41
 image: https://static.wikia.nocookie.net/metro2033/images/5/5e/Metro_Last_Light_Chronicles_-_Anna.png/revision/latest?cb=20131017121835
 brief: Переказ місії «Попіл» з точки зору Анни -- гравець забезпечує снайперське прикриття Артьому, поки той полює на Темного у ботанічному саду.
+wiki: Anna_(Chronicles_Pack_DLC_Level)
 ---
 
 # Анна
