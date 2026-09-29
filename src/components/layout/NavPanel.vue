@@ -304,6 +304,16 @@ onBeforeUnmount(() => {
   display: none;
 }
 
+.is-collapsed .nav-item {
+  padding: 0.7rem 0.4rem;
+  gap: 0.3rem;
+  justify-content: center;
+}
+
+.is-collapsed .status-row {
+  justify-content: center;
+}
+
 .nav-tip {
   position: fixed;
   z-index: 2000;
