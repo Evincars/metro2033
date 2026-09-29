@@ -6,6 +6,10 @@ order: 5
 image: https://static.wikia.nocookie.net/metro2033/images/6/60/Lenin%27s_body.png/revision/latest?cb=20130815224530
 brief: A crumbling pre-war monument in Red Square that can be found as an optional discovery in Metro Last Light.
 wiki: Lenin's_Mausoleum
+infoLocation: "Surface"
+infoSize: "One crumbling building in Red Square"
+infoCounterpart: "Lenin's Mausoleum"
+infoNotable: "Optional discovery"
 ---
 
 # Lenin's Mausoleum

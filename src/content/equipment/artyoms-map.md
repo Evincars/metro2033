@@ -4,7 +4,7 @@ title: "Artyom's Map"
 group: Tools & Gadgets
 order: 20
 image: /equipment-imgs/artyoms-map.jpg
-brief: "thumb|255px|Artyom holding the map."
+brief: "A leather-covered tablet with map, compass and light, replacing the lighter and notepad from previous games."
 wiki: Artyom%27s_Map
 appearances: Metro 2033, Metro Last Light, Metro Exodus
 ---

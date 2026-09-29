@@ -205,11 +205,17 @@ function resolveByText(text) {
   return null
 }
 
+function decodeHtmlEntities(str) {
+  return str.replace(/&#(\d+);/g, (_, code) => String.fromCharCode(code)).replace(/&amp;/g, '&')
+}
+
 export function linkify(html) {
   const internal = html.replace(
     /<a href="https:\/\/metrovideogame\.fandom\.com\/wiki\/([^"]*)"([^>]*)>([^<]+)<\/a>/g,
     (match, slug, attrs, text) => {
-      const href = resolveBySlug(slug) || resolveByText(text)
+      const decodedSlug = decodeHtmlEntities(slug)
+      const decodedText = decodeHtmlEntities(text)
+      const href = resolveBySlug(decodedSlug) || resolveByText(decodedText)
       return href ? `<a href="${href}" data-internal>${text}</a>` : match
     },
   )

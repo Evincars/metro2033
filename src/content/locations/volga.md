@@ -6,6 +6,12 @@ order: 47
 image: /location-imgs/volga.jpg
 brief: A river region in central Russia controlled by the Church of the Water Tsar, serving as the setting of the first open-world chapter in Metro Exodus.
 wiki: Volga
+infoLocation: "Eastern Europe"
+infoSize: "3,530 km in length"
+infoFaction: "[Church of the Water Tsar](https://metrovideogame.fandom.com/wiki/Church_of_the_Water_Tsar)"
+infoConflictingParties: "[Bandits](https://metrovideogame.fandom.com/wiki/Bandits_(Faction)), [Mutants](https://metrovideogame.fandom.com/wiki/Mutants), [Aurora Crew](https://metrovideogame.fandom.com/wiki/Aurora%23Crew) (briefly)"
+infoCounterpart: "Volga River"
+infoNotable: "A drawbridge over Volga needs to be lowered by the [Aurora](https://metrovideogame.fandom.com/wiki/Aurora) crew"
 ---
 
 **Volga** (Russian: Волга) is a river that flows through central [Russia](https://metrovideogame.fandom.com/wiki/Russia) and into the [Caspian Sea](https://metrovideogame.fandom.com/wiki/Caspian_Sea), making it the longest river on the European subcontinent. It serves as the main setting of [The Volga](https://metrovideogame.fandom.com/wiki/The_Volga_(Metro_Exodus_Level)) chapter in *[Metro Exodus](https://metrovideogame.fandom.com/wiki/Metro_Exodus)*.

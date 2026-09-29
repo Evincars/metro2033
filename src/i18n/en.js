@@ -284,6 +284,12 @@ export default {
   'locations.noMatches': 'No matches',
   'locations.noMatchesText': 'No location or line matches',
   'locations.gallery': 'Gallery',
+  'locations.infoLocation': 'Location',
+  'locations.infoSize': 'Size',
+  'locations.infoFaction': 'Faction',
+  'locations.infoConflictingParties': 'Conflicting parties',
+  'locations.infoCounterpart': 'Real-world counterpart',
+  'locations.infoNotable': 'Notable',
 
   // Levels
   'levels.backToList': '← All levels',

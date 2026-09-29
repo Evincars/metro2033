@@ -6,6 +6,9 @@ order: 7
 image: https://static.wikia.nocookie.net/metro2033/images/0/04/OstankinoTowerEdit.png/revision/latest?cb=20130816030813
 brief: A towering, dilapidated television and radio tower that serves as the climactic vantage point for the missile strike against the Dark Ones in Metro 2033.
 wiki: Ostankino_Tower_(Location)
+infoLocation: "Surface"
+infoSize: "Tower, 540 meters tall"
+infoCounterpart: "Ostankino Tower"
 ---
 
 # Ostankino Tower

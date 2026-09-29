@@ -6,6 +6,10 @@ order: 9
 image: https://static.wikia.nocookie.net/metro2033/images/4/42/Dry1.png/revision/latest?cb=20120926024136
 brief: A heavily fortified bandit stronghold built into a former Moscow station, filled with barricades, gambling dens, and armed thugs.
 wiki: Dry_Station_(Location)
+infoLocation: "Metro"
+infoSize: "One Station"
+infoFaction: "[Bandits](https://metrovideogame.fandom.com/wiki/Bandits_(Faction))"
+infoCounterpart: "Sukharevskaya"
 ---
 
 # Dry Station (Location)

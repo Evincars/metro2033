@@ -6,6 +6,10 @@ order: 9
 image: https://static.wikia.nocookie.net/metro2033/images/2/21/Sparta34.jpg/revision/latest?cb=20110518221201
 brief: A pair of fortified surface churches used by the Rangers of the Order as an outpost and re-supply point, and the only known human settlements on the surface.
 wiki: Sparta_Base_(Location)
+infoLocation: "Surface"
+infoSize: "Two separate churches with underground catacombs"
+infoFaction: "[Rangers of the Order](https://metrovideogame.fandom.com/wiki/Spartan_Rangers)"
+infoConflictingParties: "[Mutants](https://metrovideogame.fandom.com/wiki/Mutants), [Ghosts](https://metrovideogame.fandom.com/wiki/Ghosts_(Phenomenon)), [Red Line](https://metrovideogame.fandom.com/wiki/Red_Line)"
 ---
 
 # Sparta Base

@@ -7,6 +7,7 @@
   ],
   "armor": [
     "/equipment-imgs/gallery/armor/CarrierVestMetroExodus.png",
+    "/equipment-imgs/gallery/armor/Default_armor_0001.jpg",
     "/equipment-imgs/gallery/armor/Default_armor1.jpg",
     "/equipment-imgs/gallery/armor/Default_armor2.jpg",
     "/equipment-imgs/gallery/armor/Default_armor3.jpg",
@@ -44,6 +45,7 @@
     "/equipment-imgs/gallery/attachments/Uboinik_bayonet_1.png"
   ],
   "backpack": [
+    "/equipment-imgs/gallery/backpack/BackpackModsMetroExodus.png",
     "/equipment-imgs/gallery/backpack/KalashModsMetroExodus.png",
     "/equipment-imgs/gallery/backpack/ME_Render_Backpack.png",
     "/equipment-imgs/gallery/backpack/PlecakMetroExodus.png",
@@ -59,18 +61,21 @@
     "/equipment-imgs/gallery/crafting/Exodus_Workbench_Render.png"
   ],
   "decoy": [
-    "/equipment-imgs/gallery/decoy/ME_Decoy_Crafting.jpg"
+    "/equipment-imgs/gallery/decoy/ME_Decoy_Crafting.jpg",
+    "/equipment-imgs/gallery/decoy/ME_Render_Decoy.png"
   ],
   "electrical-equipment": [
     "/equipment-imgs/gallery/electrical-equipment/Electrical_Battery_Controller.png",
     "/equipment-imgs/gallery/electrical-equipment/Electrical_Bright_Flashlight.png",
     "/equipment-imgs/gallery/electrical-equipment/Electrical_Default.png",
     "/equipment-imgs/gallery/electrical-equipment/Electrical_NVD_Amplifier.png",
-    "/equipment-imgs/gallery/electrical-equipment/Exodus_Electrical_Equipment.png"
+    "/equipment-imgs/gallery/electrical-equipment/Exodus_Electrical_Equipment.png",
+    "/equipment-imgs/gallery/electrical-equipment/Upgrading_Electrical_Equipment.jpg"
   ],
   "filters": [
     "/equipment-imgs/gallery/filters/2033_Render_Filters.png",
-    "/equipment-imgs/gallery/filters/LL_Render_Filters.png"
+    "/equipment-imgs/gallery/filters/LL_Render_Filters.png",
+    "/equipment-imgs/gallery/filters/ME_Render_Filters.png"
   ],
   "flashlight": [
     "/equipment-imgs/gallery/flashlight/2012-02-26_00008.jpg",
@@ -78,6 +83,7 @@
     "/equipment-imgs/gallery/flashlight/2012-02-26_00010.jpg",
     "/equipment-imgs/gallery/flashlight/2012-02-26_00011.jpg",
     "/equipment-imgs/gallery/flashlight/2012-02-26_00012.jpg",
+    "/equipment-imgs/gallery/flashlight/2012-02-26_00013.jpg",
     "/equipment-imgs/gallery/flashlight/Arty.jpg",
     "/equipment-imgs/gallery/flashlight/MetroLL_2013-07-29_15-13-23-87.jpg",
     "/equipment-imgs/gallery/flashlight/MetroLL_2013-07-29_15-13-38-04.jpg",
@@ -88,6 +94,7 @@
   "gas-mask": [
     "/equipment-imgs/gallery/gas-mask/2014-07-14_00001.jpg",
     "/equipment-imgs/gallery/gas-mask/2014-07-26_00001.jpg",
+    "/equipment-imgs/gallery/gas-mask/Bildota_0003.jpg",
     "/equipment-imgs/gallery/gas-mask/2014-07-26_00002.jpg",
     "/equipment-imgs/gallery/gas-mask/2014-07-26_00004.jpg",
     "/equipment-imgs/gallery/gas-mask/20180208_004648.JPG",
@@ -137,6 +144,7 @@
   "grenade": [
     "/equipment-imgs/gallery/grenade/Ach-Ka-Boom_.jpg",
     "/equipment-imgs/gallery/grenade/Grenade_flare_unused_M2033.png",
+    "/equipment-imgs/gallery/grenade/Grenades_Exodus.png",
     "/equipment-imgs/gallery/grenade/Grenade_isometric_M2033.png",
     "/equipment-imgs/gallery/grenade/LL_Render_Grenade.png",
     "/equipment-imgs/gallery/grenade/ME_Diary_Grenade.jpg",
@@ -155,7 +163,8 @@
     "/equipment-imgs/gallery/medkit/Exodus_medkit.jpg",
     "/equipment-imgs/gallery/medkit/ME_Render_Medkit.png",
     "/equipment-imgs/gallery/medkit/Medkit_M2033.jpg",
-    "/equipment-imgs/gallery/medkit/Medkit_instruction.jpg"
+    "/equipment-imgs/gallery/medkit/Medkit_instruction.jpg",
+    "/equipment-imgs/gallery/medkit/Medkit_isometric_M2033.png"
   ],
   "metro-made-watch": [
     "/equipment-imgs/gallery/metro-made-watch/Artyom_watch_MLL.png",
@@ -169,12 +178,17 @@
     "/equipment-imgs/gallery/military-grade-rounds/Ach-Sher.jpg",
     "/equipment-imgs/gallery/military-grade-rounds/Ammo_5.45_gold2.png"
   ],
+  "mine": [
+    "/equipment-imgs/gallery/mine/ME_Render_Mine.png"
+  ],
   "night-vision-goggles": [
     "/equipment-imgs/gallery/night-vision-goggles/FrontlineStealth.jpg",
     "/equipment-imgs/gallery/night-vision-goggles/Metro2033_2013-01-18_22-23-07-77.png",
+    "/equipment-imgs/gallery/night-vision-goggles/Metro2033_2013-01-19_18-04-53-37.png",
     "/equipment-imgs/gallery/night-vision-goggles/Noktowizja__MLL_.jpg"
   ],
   "radioprotector": [
+    "/equipment-imgs/gallery/radioprotector/Anti_rad.png",
     "/equipment-imgs/gallery/radioprotector/ME_Radioprotector_Label.jpg",
     "/equipment-imgs/gallery/radioprotector/ME_Render_Radioprotector.png",
     "/equipment-imgs/gallery/radioprotector/ME_Render_Radioprotector_Box.png",
@@ -193,10 +207,12 @@
     "/equipment-imgs/gallery/traps/Ach-Soft_Touch.jpg",
     "/equipment-imgs/gallery/traps/Trap_spiked_log.jpg",
     "/equipment-imgs/gallery/traps/Trap_tripwire_canister.jpg",
-    "/equipment-imgs/gallery/traps/Trap_tripwire_pipebomb.jpg"
+    "/equipment-imgs/gallery/traps/Trap_tripwire_pipebomb.jpg",
+    "/equipment-imgs/gallery/traps/Trap_tripwire_shotgun.jpg"
   ],
   "universal-charger": [
     "/equipment-imgs/gallery/universal-charger/74308553_1_644x461_prodam-elektromotor-mun-2-odessa.jpg",
+    "/equipment-imgs/gallery/universal-charger/Battery_Charger.jpg",
     "/equipment-imgs/gallery/universal-charger/Diary-charger.jpg",
     "/equipment-imgs/gallery/universal-charger/Universal_Charger_Render.png",
     "/equipment-imgs/gallery/universal-charger/Universal_charger_100_.jpg"

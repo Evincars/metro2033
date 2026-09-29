@@ -6,6 +6,10 @@ order: 8
 image: https://static.wikia.nocookie.net/metro2033/images/4/4e/Satanists_Location.png/revision/latest?cb=20191017134254
 brief: Artyom's childhood home, destroyed by a horde of rats and later overrun by Satanists in the expanded Metro novels.
 wiki: Timiryazevskaya
+infoLocation: "Metro"
+infoSize: "One Station"
+infoFaction: "Independent station (formerly), [Satanists](https://metrovideogame.fandom.com/wiki/Satanists)"
+infoCounterpart: "Timiryazevskaya"
 ---
 
 # Timiryazevskaya

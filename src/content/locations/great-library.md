@@ -6,6 +6,11 @@ order: 3
 image: https://static.wikia.nocookie.net/metro2033/images/e/e1/Alley_library_front.jpg/revision/latest?cb=20110220172659
 brief: The ruined Moscow State Library above Polis, home to the deadly librarians and prized by stalkers for its priceless books and documents.
 wiki: Great_Library
+infoLocation: "Surface"
+infoSize: "One Large Building"
+infoFaction: "[Mutants](https://metrovideogame.fandom.com/wiki/Mutants)"
+infoConflictingParties: "[Stalkers](https://metrovideogame.fandom.com/wiki/Stalkers)"
+infoCounterpart: "Moscow State Library"
 ---
 
 # Great Library

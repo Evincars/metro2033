@@ -6,6 +6,11 @@ order: 50
 image: /location-imgs/vladivostok.jpg
 brief: A city in the Russian Far East that serves as the main setting of the Sam's Story DLC, home to a nuclear submarine and survivor settlement under Tom's control.
 wiki: Vladivostok
+infoLocation: "Primorski Krai, [Russia](https://metrovideogame.fandom.com/wiki/Russia)"
+infoSize: "331.16 km2"
+infoFaction: "[Tom's Army](https://metrovideogame.fandom.com/wiki/Tom%27s_Army), [Trappers](https://metrovideogame.fandom.com/wiki/Bandits_(Faction)), [Mutants](https://metrovideogame.fandom.com/wiki/Mutants)"
+infoCounterpart: "Vladivostok, Russia"
+infoNotable: "Setting of the [Sam's Story](https://metrovideogame.fandom.com/wiki/Sam%27s_Story) DLC"
 ---
 
 **Vladivostok** (Russian: Владивосток) is a [location](https://metrovideogame.fandom.com/wiki/Locations) of the [Universe of Metro 2033](https://metrovideogame.fandom.com/wiki/Universe_of_Metro_2033_(Book_Series)) that is also featured in [Metro Exodus](https://metrovideogame.fandom.com/wiki/Metro_Exodus), where it serves as the main setting of the [Sam's Story](https://metrovideogame.fandom.com/wiki/Sam%27s_Story) [DLC](https://metrovideogame.fandom.com/wiki/Downloadable_Content).

@@ -6,6 +6,11 @@ order: 1
 image: https://static.wikia.nocookie.net/metro2033/images/3/30/MLL_Botanical_Guardens.jpg/revision/latest?cb=20130517164807
 brief: The mutated Botanical Garden that was once the home of the Dark Ones, destroyed by a nuclear strike near the end of Metro 2033.
 wiki: Botanicheskiy_Sad
+infoLocation: "Surface"
+infoSize: "Several square kilometres"
+infoFaction: "[Dark Ones](https://metrovideogame.fandom.com/wiki/Dark_Ones)"
+infoConflictingParties: "[Rangers](https://metrovideogame.fandom.com/wiki/Rangers), [Fourth Reich](https://metrovideogame.fandom.com/wiki/Fourth_Reich), [Hanza](https://metrovideogame.fandom.com/wiki/Hanza), [Stalkers](https://metrovideogame.fandom.com/wiki/Stalkers)"
+infoCounterpart: "Botanichesky Sad"
 ---
 
 # Botanicheskiy Sad

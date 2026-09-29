@@ -4,18 +4,16 @@ title: "Ammunition"
 group: Other
 order: 51
 image: /equipment-imgs/ammunition.png
-brief: "Ammunition is the term given to any item that can be used by a ranged weapon, usually a firearm."
+brief: "Ammunition is the term given to any item that can be used by a ranged weapon, usually a firearm."
 wiki: Ammunition
 appearances: Metro 2033, Metro Last Light, Metro Exodus
 ---
 
 # Ammunition
 
-==
+**Ammunition** is the term given to any item that can be used by a ranged weapon, usually a firearm. Ammunition is commonly found in clips, cylindrical casings that hold cartridges (classically 6), or magazines, cartridges stacked in a line covered by a casing. Ammunition in the Metro can vary from simple ball bearings to high caliber sniper-rifle ammo. Ammunition in *Metro 2033* is used in long range combat to kill enemies.
 
-    - Ammunition** is the term given to any item that can be used by a ranged weapon, usually a firearm. Ammunition is commonly found in clips, cylindrical casings that hold cartridges (classically 6), or magazines, cartridges stacked in a line covered by a casing. Ammunition in the Metro can vary from simple ball bearings to high caliber sniper-rifle ammo. Ammunition in *Metro 2033* is used in long range combat to kill enemies.
-
-In the Moscow Metro, pre-war military grade 5.45x39mm rounds, or **MGR**, ammunition is used as currency as not only have not enough bills and coins lasted since the nuclear devastation, but when metro inhabitants are in need they can use it as ammunition itself, though this does result in the person literally "shooting money". Furthermore, they are impossible to replicate to match pre-war standards, so counterfeiting is difficult. Ammunition is uncommon and is usually found on dead humans or in caches scattered through the game, but Artyom can also gain ammunition by exchanging ammo types that they have for others at exchange kiosks for a service fee.
+In the Moscow Metro, pre-war military grade 5.45x39mm rounds, or **MGR**, ammunition is used as currency as not only have not enough bills and coins lasted since the nuclear devastation, but when metro inhabitants are in need they can use it as ammunition itself, though this does result in the person literally "shooting money". Furthermore, they are impossible to replicate to match pre-war standards, so counterfeiting is difficult. Ammunition is uncommon and is usually found on dead humans or in caches scattered through the game, but Artyom can also gain ammunition by exchanging ammo types that they have for others at exchange kiosks for a service fee.
 
 ## Types of ammunition
 The following are all ammunition types in the Metro games and their availability in individual titles.

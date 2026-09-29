@@ -33,6 +33,23 @@ function onBodyClick(event) {
   handleInternalClick(event, router)
 }
 
+const infoRows = computed(() => {
+  const loc = activeLocation.value
+  if (!loc) return []
+  const rows = []
+  if (loc.infoLocation) rows.push({ label: t('locations.infoLocation'), value: loc.infoLocation })
+  if (loc.infoSize) rows.push({ label: t('locations.infoSize'), value: loc.infoSize })
+  if (loc.infoFaction) rows.push({ label: t('locations.infoFaction'), value: loc.infoFaction })
+  if (loc.infoConflictingParties) rows.push({ label: t('locations.infoConflictingParties'), value: loc.infoConflictingParties })
+  if (loc.infoCounterpart) rows.push({ label: t('locations.infoCounterpart'), value: loc.infoCounterpart })
+  if (loc.infoNotable) rows.push({ label: t('locations.infoNotable'), value: loc.infoNotable })
+  return rows
+})
+
+function renderInfoValue(value) {
+  return linkify(marked.parseInline(value))
+}
+
 // ---- Gallery + lightbox ----
 const gallery = computed(() =>
   activeLocation.value ? (locationGallery[activeLocation.value.id] ?? []) : [],
@@ -114,15 +131,27 @@ function backToList() {
           <p v-if="activeLocation.brief" class="detail-brief">{{ activeLocation.brief }}</p>
         </header>
 
-        <figure v-if="showImage" class="detail-figure">
-          <img
-            :src="activeLocation.image"
-            :alt="activeLocation.title"
-            loading="lazy"
-            referrerpolicy="no-referrer"
-            @error="markBroken(activeLocation.id)"
-          />
-        </figure>
+        <div class="detail-content-row">
+          <figure v-if="showImage" class="detail-figure">
+            <img
+              :src="activeLocation.image"
+              :alt="activeLocation.title"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+              @error="markBroken(activeLocation.id)"
+            />
+          </figure>
+
+          <!-- Infobox table -->
+          <table v-if="infoRows.length" class="infobox-table">
+            <tbody>
+              <tr v-for="row in infoRows" :key="row.label">
+                <th>{{ row.label }}</th>
+                <td v-html="renderInfoValue(row.value)" @click="onBodyClick" />
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
         <div class="markdown-body" v-html="renderedBody" @click="onBodyClick" />
 
@@ -424,14 +453,69 @@ function backToList() {
   max-width: 72ch;
 }
 
-.detail-figure {
+/* Content row: figure + infobox side by side */
+.detail-content-row {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
   margin: 1.25rem 0;
+}
+
+.detail-content-row .detail-figure {
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.detail-figure {
+  max-width: 300px;
 }
 
 .detail-figure img {
   max-width: 100%;
   border: 1px solid var(--color-border-strong);
   box-shadow: var(--shadow-panel);
+  background: rgba(0, 0, 0, 0.25);
+}
+
+/* Infobox table */
+.infobox-table {
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  min-width: 240px;
+  max-width: 400px;
+}
+
+.infobox-table th,
+.infobox-table td {
+  padding: 0.45rem 0.7rem;
+  border: 1px solid var(--color-border-strong);
+  text-align: left;
+  vertical-align: top;
+}
+
+.infobox-table th {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  color: var(--color-amber);
+  background: rgba(0, 0, 0, 0.2);
+  white-space: nowrap;
+  width: 1%;
+}
+
+.infobox-table td {
+  color: var(--color-text-dim);
+  line-height: 1.5;
+}
+
+.infobox-table :deep(a) {
+  color: var(--color-amber);
+}
+
+.infobox-table :deep(a[data-internal]) {
+  color: var(--color-amber-bright);
+  border-bottom: 1px dashed currentColor;
+  text-decoration: none;
 }
 
 .markdown-body {
@@ -439,6 +523,7 @@ function backToList() {
   line-height: 1.6;
   color: var(--color-text);
   max-width: 78ch;
+  overflow-wrap: break-word;
 }
 
 .markdown-body :deep(h2),
@@ -593,5 +678,17 @@ function backToList() {
   font-family: var(--font-mono);
   font-size: 0.8rem;
   color: var(--color-text-dim);
+}
+
+@media (max-width: 600px) {
+  .detail-content-row {
+    flex-direction: column;
+  }
+
+  .infobox-table {
+    min-width: unset;
+    max-width: 100%;
+    width: 100%;
+  }
 }
 </style>

@@ -24,7 +24,7 @@ The stealth armour is fitted for those who prefer to go in silent and lurk in th
 
 This armour will keep Artyom undetected in some situations when the rest of the suits cannot. The watch's stealth meter shows no light when invisible to enemies. Moving at a normal pace is extremely quiet and footsteps produce little sound. Use silent weapons to maximize the effectiveness of this armour.
 
-The stealth armour costs 100 MGR in Armory. As an added bonus, Artyom gains the Night Vision Goggles with it.
+The stealth armour costs 100 MGR in Armory. As an added bonus, Artyom gains the Night Vision Goggles with it.
 
 ### Heavy Armour
 The heavy armour is fitted for those who prefer to take out their enemies face-to-face. It offers good protection, but it is not recommended for stealth since the added weight and gear produces noise. This armour is especially useful when fighting more powerful enemies, such as the demon and the librarian. It is basically the core of Ranger armour and has the MOLLE system. Despite its weight, wearing it does not affect movement speed. If you have spare MGR, consider purchasing it at Polis, as it helps in the last portion of the game.
@@ -64,9 +64,9 @@ The upgrades focus mainly on the carrying capacity of various items, with less a
 Throughout Artyom's travels, numerous suit upgrades can be found. These upgrades vary in usefulness and can be found throughout the game.
 
 ### Location of upgrades
-      - Ammo pouches:** Found in the Volga level at a bandit encampment near the bridge. If missed in the Volga, can be found in a shipping container in the central part of the Caspian, right next to 75 round drum magazine for the Kalash.
-      - Throwing weapons harness:** Also found in the Volga level, at the gas station.
-      - Consumables carrier:** Found in the Caspian, northwest from the helicopter base, in a cave.
+- **Ammo pouches** - Found in the Volga level at a bandit encampment near the bridge. If missed in the Volga, can be found in a shipping container in the central part of the Caspian, right next to 75 round drum magazine for the Kalash.
+- **Throwing weapons harness** - Also found in the Volga level, at the gas station.
+- **Consumables carrier** - Found in the Caspian, northwest from the helicopter base, in a cave.
 
 ## Trivia
 ### Metro 2033 Video Game

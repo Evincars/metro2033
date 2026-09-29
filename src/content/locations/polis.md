@@ -6,6 +6,11 @@ order: 5
 image: https://static.wikia.nocookie.net/metro2033/images/d/d9/Faction_Logo_Polis.png/revision/latest?cb=20191016185549
 brief: An independent city-state at the heart of the Metro beneath the Moscow State Library, the last bastion of pre-war knowledge and birthplace of the Rangers of the Order.
 wiki: Polis_(Location)
+infoLocation: "Metro"
+infoSize: "4 Inter-connected Stations"
+infoFaction: "Polis Faction, [Rangers](https://metrovideogame.fandom.com/wiki/Rangers), [Stalkers](https://metrovideogame.fandom.com/wiki/Stalkers)"
+infoConflictingParties: "[Fourth Reich](https://metrovideogame.fandom.com/wiki/Fourth_Reich), [Mutants](https://metrovideogame.fandom.com/wiki/Mutants)"
+infoCounterpart: "Arbatskaya, Biblioteka Imeni Lenina, Alexandrovsky Sad, Borovitskaya"
 ---
 
 # Polis

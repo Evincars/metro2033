@@ -6,6 +6,10 @@ order: 7
 image: https://static.wikia.nocookie.net/metro2033/images/6/67/TheatreLocation.png/revision/latest?cb=20130820232436
 brief: The cultural center of the Metro near the Bolshoi Theatre, nominally independent but effectively controlled by the Red Line.
 wiki: Theatre_Station
+infoLocation: "Metro"
+infoSize: "One Station"
+infoFaction: "[Red Line](https://metrovideogame.fandom.com/wiki/Red_Line)"
+infoCounterpart: "Teatralnaya"
 ---
 
 # Teatralnaya (Theatre)

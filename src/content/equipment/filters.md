@@ -42,7 +42,7 @@ The duration of the air filters can exploited by constantly putting on and takin
 - It's relatively easy for filters to run out, so use them wisely and do not waste them or take too long in areas where a gas mask is needed. In the levels where filters must be used, pass them quickly to conserve them. Also, it's recommended to purchase filters whenever possible (especially in levels like "Market" in *Metro 2033*), as some parts of the games will require the player character to spend long periods of time on the surface, where filters are essential for survival.
 - In *Metro 2033*, filters can only be bought in early parts of the game, at Riga Station and Market Station, so buying as much as you can is wise.
     - In *Metro 2033 Redux*, filters can be bought at most stations before beginning the Library stage.
-- Rangers do not use regular filters on their gas masks since their helmets have built-in cheek filters.
+- Rangers do not use regular filters on their gas masks since their helmets have built-in cheek filters.
     - In *Metro: Last Light* and *Redux*, the gas masks used by Rangers have regular filters on it.
 - The gas mask filters the player character uses appear to be very large (bigger than Artyom's hand), but the placed filters appear very small before being picked up. They are likely 60mm filters. In Metro: Last Light and the Redux version, the filters are larger, fixing this developer oversight.
 - The Nazi gas mask and the Ranger gas masks are the same, but the Nazi masks have filters and a helmet over them, while the Rangers' masks are attached to their helmets.

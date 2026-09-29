@@ -6,6 +6,10 @@ order: 46
 image: /location-imgs/caspian-sea.jpg
 brief: A desertified region around the dried-up Caspian Sea, controlled by the Munai-bailer slavers, serving as the setting of The Caspian chapter.
 wiki: Caspian_Sea
+infoLocation: "[Kazakhstan](https://metrovideogame.fandom.com/wiki/Kazakhstan), Central Asia"
+infoSize: "371,000 km2 (pre-war)"
+infoFaction: "[Munai-bailer](https://metrovideogame.fandom.com/wiki/Munai-bailer)"
+infoConflictingParties: "[Mutants](https://metrovideogame.fandom.com/wiki/Mutants), [Aurora Crew](https://metrovideogame.fandom.com/wiki/Aurora%23Crew) (briefly), Caspian Resistance"
 ---
 
 **Caspian Sea** (Russian: Каспийское море) is a [location](https://metrovideogame.fandom.com/wiki/Locations) in *[Metro Exodus](https://metrovideogame.fandom.com/wiki/Metro_Exodus)*. The desertified area around what is left of it is known as the **Caspian Desert** (Russian: Прикаспийская пустыня). It serves as the main setting of [The Caspian](https://metrovideogame.fandom.com/wiki/The_Caspian_(Metro_Exodus_Level)) chapter.

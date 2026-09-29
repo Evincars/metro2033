@@ -6,6 +6,11 @@ order: 48
 image: /location-imgs/moscow-metro.jpg
 brief: The post-apocalyptic Moscow Metro system, humanity's last refuge and the primary setting of the Metro series.
 wiki: Moscow_Metro
+infoLocation: "Metro"
+infoSize: "12 primary lines, 188 stations, 313.1 km track length"
+infoConflictingParties: "[Rangers of the Order](https://metrovideogame.fandom.com/wiki/Spartan_Rangers), [Hanza](https://metrovideogame.fandom.com/wiki/Hanza), [Red Line](https://metrovideogame.fandom.com/wiki/Red_Line), [Fourth Reich](https://metrovideogame.fandom.com/wiki/Fourth_Reich)"
+infoCounterpart: "Moscow Metro"
+infoNotable: "Primary location of the [Metro Series](https://metrovideogame.fandom.com/wiki/Metro_Series)"
 ---
 
 **Moscow Metro** (Russian: Московский метрополитен), alluded to as the **Last Refuge** and known in-universe as simply **The Metro**, is the central location and namesake of the [Metro Series](https://metrovideogame.fandom.com/wiki/Metro_Series).

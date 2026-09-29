@@ -6,6 +6,10 @@ order: 1
 image: https://static.wikia.nocookie.net/metro2033/images/c/c9/Alexeyevskaya_Location.png/revision/latest?cb=20191017174346
 brief: A poor farming station between VDNKh and Riga that grows mushrooms and breeds pigs, later joining the VDNKh Commonwealth.
 wiki: Alexeyevskaya
+infoLocation: "Metro"
+infoSize: "One station"
+infoFaction: "[VDNKh Commonwealth](https://metrovideogame.fandom.com/wiki/VDNKh_Commonwealth)"
+infoCounterpart: "Alexeyevskaya"
 ---
 
 # Alexeyevskaya

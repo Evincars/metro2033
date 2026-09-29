@@ -269,6 +269,12 @@ export default {
   'locations.noMatches': 'Немає збігів',
   'locations.noMatchesText': 'Жодна локація чи лінія не відповідає',
   'locations.gallery': 'Галерея',
+  'locations.infoLocation': 'Розташування',
+  'locations.infoSize': 'Розмір',
+  'locations.infoFaction': 'Фракція',
+  'locations.infoConflictingParties': 'Конфліктуючі сторони',
+  'locations.infoCounterpart': 'Реальний прототип',
+  'locations.infoNotable': 'Примітно',
 
   'levels.backToList': '← Усі рівні',
   'levels.tag': 'Архів кампанії',

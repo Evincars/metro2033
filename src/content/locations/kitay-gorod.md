@@ -6,6 +6,11 @@ order: 1
 image: https://static.wikia.nocookie.net/metro2033/images/5/5d/Kitai-Gorod.png/revision/latest?cb=20191017182316
 brief: A lawless transfer station divided between two rival gangs, visited by Artyom, Khan and Ace in the Metro 2033 novel.
 wiki: Kitay-gorod
+infoLocation: "Metro"
+infoSize: "Two Stations"
+infoFaction: "Bandits, Caucasians, Brother Slavs"
+infoCounterpart: "Kitay-gorod"
+infoNotable: "Divided into territories controlled by two gangs"
 ---
 
 # Kitay-gorod

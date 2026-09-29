@@ -6,6 +6,10 @@ order: 1
 image: https://static.wikia.nocookie.net/metro2033/images/5/59/Depot.jpg/revision/latest?cb=20110520042955
 brief: A ruined pre-war train storage facility that became a breeding ground for nosalises and a dangerous passage on the way to Polis.
 wiki: The_Depot_(Location)
+infoLocation: "Metro"
+infoSize: "One large underground chamber"
+infoFaction: "[Mutants](https://metrovideogame.fandom.com/wiki/Mutants) (formerly), [Stalkers](https://metrovideogame.fandom.com/wiki/Stalkers)"
+infoCounterpart: "Novokuznetskaya"
 ---
 
 # The Depot (Location)

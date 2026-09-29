@@ -433,6 +433,7 @@ function backToList() {
   line-height: 1.6;
   color: var(--color-text);
   max-width: 78ch;
+  overflow-wrap: break-word;
 }
 
 .markdown-body :deep(blockquote) {

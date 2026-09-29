@@ -6,6 +6,10 @@ order: 4
 image: https://static.wikia.nocookie.net/metro2033/images/5/50/Market2.jpg/revision/latest?cb=20110510005944
 brief: A bustling Hansa-controlled trade hub and the closest Hansa station to the VDNKh Commonwealth, where almost anything can be bought.
 wiki: Market_Station_(Location)
+infoLocation: "Metro"
+infoSize: "One station"
+infoFaction: "[Hanza](https://metrovideogame.fandom.com/wiki/Hanza)"
+infoCounterpart: "Prospekt Mira"
 ---
 
 # Prospekt Mira (Market)

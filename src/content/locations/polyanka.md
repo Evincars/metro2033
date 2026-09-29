@@ -6,6 +6,9 @@ order: 6
 image: https://static.wikia.nocookie.net/metro2033/images/c/c0/Polyanka.jpg/revision/latest?cb=20191026100005
 brief: An abandoned ghostly station south of Polis, known as Destiny Station, that projects strange visions upon those who pass through it.
 wiki: Polyanka
+infoLocation: "Metro"
+infoSize: "One station"
+infoCounterpart: "Polyanka"
 ---
 
 # Polyanka

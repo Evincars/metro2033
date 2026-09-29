@@ -6,6 +6,10 @@ order: 10
 image: https://static.wikia.nocookie.net/metro2033/images/e/e1/Venice.png/revision/latest?cb=20130821220250
 brief: A flooded, gangster-ridden independent station nicknamed after the Italian city, where organized crime thrives amid fishing and economic freedom.
 wiki: Venice_(Location)
+infoLocation: "Metro"
+infoSize: "Three Stations"
+infoFaction: "[Gangsters](https://metrovideogame.fandom.com/wiki/Bandits_(Faction))"
+infoCounterpart: "Tretyakovskaya"
 ---
 
 # Tretyakovskaya (Venice)

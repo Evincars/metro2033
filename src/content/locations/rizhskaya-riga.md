@@ -6,6 +6,10 @@ order: 6
 image: https://static.wikia.nocookie.net/metro2033/images/7/7c/Rigastation.jpg/revision/latest?cb=20120502035802
 brief: A poor, overcrowded VDNKh Commonwealth station that connects VDNKh to the rest of the Metro and once made its fortune trading dried flowers and manure.
 wiki: Riga_Station_(Location)
+infoLocation: "Metro"
+infoSize: "One station"
+infoFaction: "[VDNKh Commonwealth](https://metrovideogame.fandom.com/wiki/VDNKh_Commonwealth)"
+infoCounterpart: "Rizhskaya"
 ---
 
 # Rizhskaya (Riga)

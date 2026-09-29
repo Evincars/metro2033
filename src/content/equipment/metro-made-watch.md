@@ -4,7 +4,7 @@ title: "Metro-Made Watch"
 group: Tools & Gadgets
 order: 26
 image: /equipment-imgs/metro-made-watch.jpg
-brief: "Metro-made Watch in Last Light.|300px|right"
+brief: "A wrist-mounted watch showing gas mask filter time remaining and a stealth light meter indicating the player's visibility level."
 wiki: Metro-Made_Watch
 appearances: Metro 2033, Metro Last Light, Metro Exodus
 ---
@@ -32,10 +32,10 @@ The nixie watch from Last Light returns in *Metro Exodus*, but this time it is p
 
 ## Trivia
 ### Novel
-- In the beginning of the book, Artyom doesn't have a watch, but one is given to him by Ulman at the end. In-game, Artyom owns a watch from the start.
+- In the beginning of the book, Artyom doesn't have a watch, but one is given to him by Ulman at the end. In-game, Artyom owns a watch from the start.
 ### Video Games
 - The time that is shown on Artyom's watch is actually the time that is programmed into the system time. (E.g. the time on the system clock is 7:30 PM, Artyom's watch will show that it's around 7:30 or 19:30 in *Metro: Last Light*, and will change to filter time after the gas mask is equipped.)
 - A real replica of Artyom's watch is included in the German and French Special Editions of *Metro 2033*. Real copies of the watch are incredibly rare however and go for moderate to high selling prices.
 - The watch may be hard to see in dark areas or with low graphic settings, particularly in *Metro 2033*.
-- In *Metro: Last Light*, this watch is owned by Artyom, Hans, Anna, Red Line Sniper, Ranger Trainee, and the Captain. If not a continuity error, this may mean that it's a standard issue watch, possibly military in origin or metro-made. However, Pavel expresses his envy when he notices Artyom's watch, so it's possible that the watch is not avaliable in Red Line territories.
+- In *Metro: Last Light*, this watch is owned by Artyom, Hans, Anna, Red Line Sniper, Ranger Trainee, and the Captain. If not a continuity error, this may mean that it's a standard issue watch, possibly military in origin or metro-made. However, Pavel expresses his envy when he notices Artyom's watch, so it's possible that the watch is not avaliable in Red Line territories.
 

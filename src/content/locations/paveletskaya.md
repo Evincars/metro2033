@@ -6,6 +6,10 @@ order: 3
 image: https://static.wikia.nocookie.net/metro2033/images/3/30/Paveletskaya.png/revision/latest?cb=20191022083532
 brief: A station whose missing hermetic door lets surface mutants raid it every night, forcing its guards to defend a major entrance to the Metro.
 wiki: Paveletskaya
+infoLocation: "Metro"
+infoSize: "One Station"
+infoConflictingParties: "[Mutants](https://metrovideogame.fandom.com/wiki/Mutants)"
+infoCounterpart: "Paveletskaya"
 ---
 
 # Paveletskaya

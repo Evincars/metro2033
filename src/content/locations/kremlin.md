@@ -6,6 +6,11 @@ order: 4
 image: https://static.wikia.nocookie.net/metro2033/images/7/7d/MLL_Red_Square.jpg/revision/latest?cb=20130516234912
 brief: The abandoned fortified seat of the old Russian government, avoided by survivors due to the deadly phenomena and biomass associated with it.
 wiki: Kremlin
+infoLocation: "Surface"
+infoSize: "One large building and square"
+infoFaction: "[Mutants](https://metrovideogame.fandom.com/wiki/Mutants)"
+infoConflictingParties: "[Stalkers](https://metrovideogame.fandom.com/wiki/Stalkers), [Red Line](https://metrovideogame.fandom.com/wiki/Red_Line)"
+infoCounterpart: "Kremlin"
 ---
 
 # Kremlin

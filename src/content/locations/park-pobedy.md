@@ -6,6 +6,11 @@ order: 6
 image: https://static.wikia.nocookie.net/metro2033/images/a/a4/Pobedy.png/revision/latest?cb=20191017193939
 brief: A supposedly abandoned station that is secretly the lair of the cannibalistic Great Worm Cult, connected to Metro 2 and the Kremlin.
 wiki: Park_Pobedy
+infoLocation: "Metro"
+infoSize: "One Station"
+infoFaction: "[Great Worm Cult](https://metrovideogame.fandom.com/wiki/Savage_Cannibals_of_the_Great_Worm_Cult)"
+infoConflictingParties: "[Hanza](https://metrovideogame.fandom.com/wiki/Hanza), [Stalkers](https://metrovideogame.fandom.com/wiki/Stalkers)"
+infoCounterpart: "Park Pobedy"
 ---
 
 # Park Pobedy

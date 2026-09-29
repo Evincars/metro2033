@@ -23,6 +23,12 @@ export const locations = Object.values(files)
       image: meta.image || '',
       brief: meta.brief || '',
       wiki: meta.wiki || '',
+      infoLocation: meta.infoLocation || '',
+      infoSize: meta.infoSize || '',
+      infoFaction: meta.infoFaction || '',
+      infoConflictingParties: meta.infoConflictingParties || '',
+      infoCounterpart: meta.infoCounterpart || '',
+      infoNotable: meta.infoNotable || '',
       body,
     }
   })

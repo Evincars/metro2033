@@ -6,6 +6,10 @@ order: 9
 image: https://static.wikia.nocookie.net/metro2033/images/7/7a/Tulskaya.png/revision/latest?cb=20191017193107
 brief: A Hansa-held station struck by a plague epidemic in Metro 2034, ending in a massacre of its infected population and a catastrophic flood.
 wiki: Tulskaya
+infoLocation: "Metro"
+infoSize: "One Station"
+infoFaction: "[Hanza](https://metrovideogame.fandom.com/wiki/Hanza)"
+infoCounterpart: "Tulskaya"
 ---
 
 # Tulskaya

@@ -368,6 +368,7 @@ function backToList() {
   line-height: 1.6;
   color: var(--color-text);
   max-width: 80ch;
+  overflow-wrap: break-word;
 }
 
 .markdown-body :deep(img) {

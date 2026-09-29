@@ -4,7 +4,7 @@ title: "Crafting"
 group: Drugs & Consumables
 order: 4
 image: /equipment-imgs/crafting.jpg
-brief: "thumb|200px|A workbench, which the player can use to craft more advanced items"
+brief: "A gameplay mechanic in Metro Exodus allowing players to create ammunition and consumables using collected materials."
 wiki: Crafting
 appearances: Metro Exodus
 ---
@@ -17,10 +17,10 @@ appearances: Metro Exodus
 There are two kinds of resources the player character needs in order to craft. Some items require only one kind of crafting material to produce, but most recipes require both of them, although in different quantities. Resources can be collected when exploring abandoned buildings or vehicles, can be found in openable boxes and crates, and also can be found on corpses that are lootable. Some mutants can also be looted for resources once killed. Another way of obtaining resources is scrapping collected ammunition or consumables (see Functionality for more details). The amount of resources the player character can carry is  limited to 300 in Ranger Hardcore difficulty.
  
 ### Materials
-    - Materials** are various mechanical components or just scrap metal, required to produce all ammunition (including pneumatic ammunition) and throwables. Smaller quantities are also needed to produce medkits and filters. Materials are also used to repair a damaged gas mask. Materials are represented by an icon which shows a wrench and a bolt nut. In the game world, they usually look like various pieces of wire, empty cans, small boxes with screws, bolts or bearings, etc. They can also be obtained by scrapping parts from weapons dropped by dead enemies - if the player character disassembles a weapon with attachments that are already in their backpack, the attachments will be converted into materials.
+**Materials** are various mechanical components or just scrap metal, required to produce all ammunition (including pneumatic ammunition) and throwables. Smaller quantities are also needed to produce medkits and filters. Materials are also used to repair a damaged gas mask. Materials are represented by an icon which shows a wrench and a bolt nut. In the game world, they usually look like various pieces of wire, empty cans, small boxes with screws, bolts or bearings, etc. They can also be obtained by scrapping parts from weapons dropped by dead enemies - if the player character disassembles a weapon with attachments that are already in their backpack, the attachments will be converted into materials.
 
 ### Chemicals
-    - Chemicals** are the second crafting resource, slightly rarer than materials, but still fairly common. Chemicals are needed for crafting combustion and special ammunition, medkits, filters and explosive throwables (grenades and molotovs). They are also used for weapon cleaning. Chemicals are represented by an icon which shows an Erlenmeyer flask with a bubble-producing liquid inside. Chemicals are usually found in various bottles, canisters or other liquid containers. Another way of getting chemicals is by collecting luminescent mushrooms and nettles. Dead snakes and worms can also be looted for chemicals.
+**Chemicals** are the second crafting resource, slightly rarer than materials, but still fairly common. Chemicals are needed for crafting combustion and special ammunition, medkits, filters and explosive throwables (grenades and molotovs). They are also used for weapon cleaning. Chemicals are represented by an icon which shows an Erlenmeyer flask with a bubble-producing liquid inside. Chemicals are usually found in various bottles, canisters or other liquid containers. Another way of getting chemicals is by collecting luminescent mushrooms and nettles. Dead snakes and worms can also be looted for chemicals.
 
 ## Functionality
 ### Crafting

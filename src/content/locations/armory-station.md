@@ -6,6 +6,10 @@ order: 2
 image: https://static.wikia.nocookie.net/metro2033/images/a/af/Tyrd.jpg/revision/latest?cb=20110214183640
 brief: A major Red Line settlement that mass-produces most of the weaponry found throughout the post-apocalyptic Metro.
 wiki: Armory_Station_(Location)
+infoLocation: "Metro"
+infoSize: "One Station"
+infoFaction: "[Red Line](https://metrovideogame.fandom.com/wiki/Red_Line) (Games), Technicians (Novels)"
+infoCounterpart: "Kuznetsky Most"
 ---
 
 # Kuznetsky Most (Armory)

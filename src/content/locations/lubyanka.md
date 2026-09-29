@@ -6,6 +6,11 @@ order: 4
 image: https://static.wikia.nocookie.net/metro2033/images/e/ee/800px-Lubianka.jpg/revision/latest?cb=20100419164049
 brief: A Sokolnicheskaya Line station used by the Red Line as a dreaded political prison and gulag from which few ever return.
 wiki: Lubyanka
+infoLocation: "Metro"
+infoSize: "One Station"
+infoFaction: "[Red Line](https://metrovideogame.fandom.com/wiki/Red_Line)"
+infoConflictingParties: "[Fourth Reich](https://metrovideogame.fandom.com/wiki/Fourth_Reich)"
+infoCounterpart: "Lubyanka"
 ---
 
 # Lubyanka

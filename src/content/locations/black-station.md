@@ -6,6 +6,10 @@ order: 8
 image: https://static.wikia.nocookie.net/metro2033/images/b/b3/Outpost_overview.jpg/revision/latest?cb=20110220171641
 brief: A small Nazi-occupied station and its unique surface outpost, from which the Reich stages operations against nearby Hole Station.
 wiki: Black_Station_(Location)
+infoLocation: "Metro"
+infoSize: "One Station"
+infoFaction: "[Fourth Reich](https://metrovideogame.fandom.com/wiki/Fourth_Reich)"
+infoCounterpart: "Polyanka"
 ---
 
 # Black Station (Location)

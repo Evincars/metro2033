@@ -6,6 +6,10 @@ order: 5
 image: https://static.wikia.nocookie.net/metro2033/images/4/4f/NakhimovskyProspektNovelMapZoomOut.png/revision/latest?cb=20191017193718
 brief: An abandoned station turned into a putrid nest of corpse eaters, its floor buried in bones and piled cadavers.
 wiki: Nakhimovsky_Prospekt
+infoLocation: "Metro"
+infoSize: "One Station"
+infoFaction: "[Mutants](https://metrovideogame.fandom.com/wiki/Mutants)"
+infoCounterpart: "Nakhimovsky Prospekt"
 ---
 
 # Nakhimovsky Prospekt

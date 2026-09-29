@@ -6,6 +6,11 @@ order: 7
 image: https://static.wikia.nocookie.net/metro2033/images/2/2e/Metro_guide_eng_%282%29.jpg/revision/latest?cb=20191022083748
 brief: A militarized station whose hydroelectric plants power much of the Metro, forcing every resident to become a warrior against constant mutant attacks.
 wiki: Sevastopolskaya_Station
+infoLocation: "Metro"
+infoSize: "One Station"
+infoFaction: "[Sevastopolskaya HPP](https://metrovideogame.fandom.com/wiki/Sevastopolskaya_HPP)"
+infoConflictingParties: "[Mutants](https://metrovideogame.fandom.com/wiki/Mutants)"
+infoCounterpart: "Sevastopolskaya"
 ---
 
 # Sevastopolskaya Station

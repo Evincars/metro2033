@@ -6,6 +6,10 @@ order: 3
 image: https://static.wikia.nocookie.net/metro2033/images/c/c7/MLLOktyabrskayaLoc.png/revision/latest?cb=20130816015651
 brief: A two-part station split between Hansa and the Red Line, devastated by a deadly engineered plague during the events of Metro Last Light.
 wiki: Oktyabrskaya
+infoLocation: "Metro"
+infoSize: "Two Stations"
+infoFaction: "[Hanza](https://metrovideogame.fandom.com/wiki/Hanza), [Red Line](https://metrovideogame.fandom.com/wiki/Red_Line)"
+infoCounterpart: "Oktyabrskaya"
 ---
 
 # Oktyabrskaya

@@ -6,6 +6,9 @@ order: 10
 image: https://static.wikia.nocookie.net/metro2033/images/c/ca/LL_Vorobyovy_Gory.jpg/revision/latest?cb=20191122125306
 brief: A destroyed surface station on the Luzhniki Metro Bridge, overrun by mutants and tied to the mysterious legend of Emerald City.
 wiki: Vorobyovy_Gory
+infoLocation: "Metro"
+infoSize: "One surface station"
+infoCounterpart: "Vorobyovy Gory"
 ---
 
 # Vorobyovy Gory

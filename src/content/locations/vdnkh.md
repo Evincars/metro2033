@@ -6,6 +6,11 @@ order: 12
 image: https://static.wikia.nocookie.net/metro2033/images/d/d5/000VDNKhMarket.jpg/revision/latest?cb=20110806024355
 brief: The northernmost inhabited station of the Metro and Artyom's home, a prosperous station famed for its mushroom tea but besieged by the Dark Ones.
 wiki: Exhibition_(Location)
+infoLocation: "Metro"
+infoSize: "One station"
+infoFaction: "[VDNKh Commonwealth](https://metrovideogame.fandom.com/wiki/VDNKh_Commonwealth)"
+infoCounterpart: "VDNKh"
+infoNotable: "Home station of [Artyom](https://metrovideogame.fandom.com/wiki/Artyom)"
 ---
 
 # VDNKh (Exhibition)

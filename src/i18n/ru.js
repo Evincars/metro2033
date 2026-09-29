@@ -269,6 +269,12 @@ export default {
   'locations.noMatches': 'Нет совпадений',
   'locations.noMatchesText': 'Ни одна локация или линия не соответствует',
   'locations.gallery': 'Галерея',
+  'locations.infoLocation': 'Расположение',
+  'locations.infoSize': 'Размер',
+  'locations.infoFaction': 'Фракция',
+  'locations.infoConflictingParties': 'Конфликтующие стороны',
+  'locations.infoCounterpart': 'Реальный прототип',
+  'locations.infoNotable': 'Примечательно',
 
   'levels.backToList': '← Все уровни',
   'levels.tag': 'Архив кампании',

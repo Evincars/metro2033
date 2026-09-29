@@ -6,6 +6,10 @@ order: 2
 image: https://static.wikia.nocookie.net/metro2033/images/7/7a/Frontline11.png/revision/latest?cb=20130330224749
 brief: A brutal battleground on the Tagansko-Krasnopresnenskaya line where the Red Line and the Fourth Reich have been locked in a bloody stalemate.
 wiki: Frontline_(Location)
+infoLocation: "Metro"
+infoSize: "Undetermined length on the Tagansko-Krasnopresnenskaya line"
+infoConflictingParties: "[Red Line](https://metrovideogame.fandom.com/wiki/Red_Line), [Fourth Reich](https://metrovideogame.fandom.com/wiki/Fourth_Reich)"
+infoCounterpart: "Tagansko-Krasnopresnenskaya line, between Kuznetsky Most and Pushkinskaya"
 ---
 
 # Frontline (Location)

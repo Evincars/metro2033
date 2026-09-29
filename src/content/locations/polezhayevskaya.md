@@ -6,6 +6,10 @@ order: 5
 image: https://static.wikia.nocookie.net/metro2033/images/6/6b/Polezhaevskaya.png/revision/latest?cb=20191017192239
 brief: A destroyed and abandoned station whose entire population vanished or was massacred by a silent, unexplained threat from the northern tunnels.
 wiki: Polezhayevskaya
+infoLocation: "Metro"
+infoSize: "One Station"
+infoConflictingParties: "[Mutants](https://metrovideogame.fandom.com/wiki/Mutants)"
+infoCounterpart: "Polezhayevskaya"
 ---
 
 # Polezhayevskaya

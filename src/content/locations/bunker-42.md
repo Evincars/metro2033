@@ -6,6 +6,10 @@ order: 2
 image: https://static.wikia.nocookie.net/metro2033/images/5/54/Invisible_Watchers_Location_RUS.png/revision/latest?cb=20211106202121
 brief: A former Cold War bunker complex that serves as the secret headquarters of the Invisible Watchers in Metro 2035.
 wiki: Bunker_42
+infoSize: "Area of 7000 m2, depth of 65 meters, capacity of 3000 personnel"
+infoFaction: "[Invisible Watchers](https://metrovideogame.fandom.com/wiki/Invisible_Watchers)"
+infoConflictingParties: "[Mutants](https://metrovideogame.fandom.com/wiki/Mutants)"
+infoCounterpart: "GO-42"
 ---
 
 # Bunker 42

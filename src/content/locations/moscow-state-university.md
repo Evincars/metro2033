@@ -6,6 +6,10 @@ order: 6
 image: https://static.wikia.nocookie.net/metro2033/images/7/71/Moscow_City.jpg/revision/latest?cb=20110626144446
 brief: A surface complex tied to the half-mythical Emerald City, where the brightest minds of Moscow are rumored to still live in isolation after the war.
 wiki: Moscow_State_University
+infoLocation: "Surface"
+infoSize: "A complex of buildings"
+infoFaction: "Unknown Faction"
+infoCounterpart: "Moscow State University"
 ---
 
 # Moscow State University

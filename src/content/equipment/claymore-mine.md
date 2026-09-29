@@ -22,9 +22,9 @@ The mine is a powerful weapon thats useful against any enemy, though it is espec
 Where it excels in in combat with the boss enemies, especially on Ranger difficulties. In fights that can normally take hundreds of bullets to end, a few claymores can swiftly dispatch the boss, or at least make combat a lot easier. The Bog Shrimp can be stopped with one or two mines, triggering the scripted Demon attack, while the Big Momma can be killed with two, one in each area. The Bear is the toughest of all the bosses, but a claymore can stun it long enough for the Watchmen to jump on its back, exposing its weak-spot.
 
 ## Locations
-Artyom can buy the mines at all Metro station vendors after Bolshoi, as a part of the equipment. They can be found free on the surface in the airplane crash at the swamp, and more can be found in the level afterwards. Later on, more of them can be found in Bridge level, which can be useful against the mutants that Artyom will face. 
+Artyom can buy the mines at all Metro station vendors after Bolshoi, as a part of the equipment. They can be found free on the surface in the airplane crash at the swamp, and more can be found in the level afterwards. Later on, more of them can be found in Bridge level, which can be useful against the mutants that Artyom will face. 
 
-In the Tower Pack DLC, many levels start with Claymores already set up in strategic locations - they prove extremely helpful in thinning the numbers of enemies.
+In the Tower Pack DLC, many levels start with Claymores already set up in strategic locations - they prove extremely helpful in thinning the numbers of enemies.
 
 
 ## Trivia

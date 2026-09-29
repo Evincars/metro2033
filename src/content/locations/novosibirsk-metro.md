@@ -6,6 +6,11 @@ order: 49
 image: /location-imgs/novosibirsk-metro.jpg
 brief: The metro system beneath Novosibirsk with two lines and 13 stations, governed by OSKOM until its collapse, featured in Metro Exodus.
 wiki: Novosibirsk_Metro
+infoLocation: "[Novosibirsk](https://metrovideogame.fandom.com/wiki/Novosibirsk)"
+infoSize: "2 lines, 13 stations, 15.9 km track length"
+infoFaction: "[OSKOM](https://metrovideogame.fandom.com/wiki/OSKOM) (until 2035)"
+infoConflictingParties: "[Mutants](https://metrovideogame.fandom.com/wiki/Mutants), [Rioters](https://metrovideogame.fandom.com/wiki/Novosibirsk_Riots)"
+infoCounterpart: "Novosibirsk Metro"
 ---
 
 **Novosibirsk Metro** (Russian: Новосибирский метрополитен) is a rapid transit system that runs underneath [Russia](https://metrovideogame.fandom.com/wiki/Russia)'s third largest city, [Novosibirsk](https://metrovideogame.fandom.com/wiki/Novosibirsk), and the only Russian metro system located eastward of the Ural mountains. It is a key location in the final part of *[Metro Exodus](https://metrovideogame.fandom.com/wiki/Metro_Exodus)* and its first DLC, [The Two Colonels](https://metrovideogame.fandom.com/wiki/The_Two_Colonels).

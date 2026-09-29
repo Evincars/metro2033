@@ -6,6 +6,11 @@ order: 2
 image: https://static.wikia.nocookie.net/metro2033/images/d/da/Kievskaya.gif/revision/latest?cb=20191022082934
 brief: A station south-west of Polis, tied to legends of a collapsed tunnel and monstrous survivors, and to missing children in the novel.
 wiki: Kievskaya
+infoLocation: "Metro"
+infoSize: "Three stations"
+infoFaction: "[Hanza](https://metrovideogame.fandom.com/wiki/Hanza), [Arbat Confederation](https://metrovideogame.fandom.com/wiki/Arbat_Confederation)"
+infoConflictingParties: "[Mutants](https://metrovideogame.fandom.com/wiki/Mutants), [Great Worm Cult](https://metrovideogame.fandom.com/wiki/Savage_Cannibals_of_the_Great_Worm_Cult)"
+infoCounterpart: "Kievskaya"
 ---
 
 # Kievskaya

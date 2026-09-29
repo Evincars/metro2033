@@ -6,6 +6,11 @@ order: 4
 image: https://static.wikia.nocookie.net/metro2033/images/8/80/Defense19.png/revision/latest?cb=20130513072351
 brief: A large independent station in the game occupying Paveletskaya's location, home to the Children of the Underground and site of a devastating attack.
 wiki: Hole_Station
+infoLocation: "Metro"
+infoSize: "Two Stations"
+infoFaction: "[Children of the Underground](https://metrovideogame.fandom.com/wiki/Children_of_the_Underground)"
+infoConflictingParties: "[Mutants](https://metrovideogame.fandom.com/wiki/Mutants), [Fourth Reich](https://metrovideogame.fandom.com/wiki/Fourth_Reich)"
+infoCounterpart: "Paveletskaya"
 ---
 
 # Paveletskaya (Hole Station)

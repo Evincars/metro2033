@@ -6,6 +6,10 @@ order: 11
 image: https://static.wikia.nocookie.net/metro2033/images/a/af/Cursed.jpg/revision/latest?cb=20100417004601
 brief: A doomed station near the surface whose few survivors make a desperate last stand against an endless horde of nosalises.
 wiki: Cursed_Station_(Location)
+infoLocation: "Metro"
+infoSize: "One Station"
+infoConflictingParties: "[Mutants](https://metrovideogame.fandom.com/wiki/Mutants)"
+infoCounterpart: "Turgenevskaya"
 ---
 
 # Turgenevskaya (Cursed Station)

@@ -6,6 +6,10 @@ order: 7
 image: https://static.wikia.nocookie.net/metro2033/images/0/04/Revolution_Square.jpg/revision/latest?cb=20191122120506
 brief: A Red Line stronghold and military training camp where the communists built an armored train to spearhead their assault on D6.
 wiki: Ploshchad_Revolutsii
+infoLocation: "Metro"
+infoSize: "One station"
+infoFaction: "[Red Line](https://metrovideogame.fandom.com/wiki/Red_Line)"
+infoCounterpart: "Ploshchad Revolutsii"
 ---
 
 # Ploshchad Revolutsii

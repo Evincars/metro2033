@@ -6,6 +6,10 @@ order: 8
 image: https://static.wikia.nocookie.net/metro2033/images/4/4f/SmolenskayaMapNovel.png/revision/latest?cb=20191022083959
 brief: A peaceful but heavily militarized Arbat Confederation station Artyom reaches after the Library, possibly serving as a base for Melnik's Stalkers.
 wiki: Smolenskaya
+infoLocation: "Metro"
+infoSize: "One Station"
+infoFaction: "[Arbat Confederation](https://metrovideogame.fandom.com/wiki/Arbat_Confederation)"
+infoCounterpart: "Smolenskaya"
 ---
 
 # Smolenskaya

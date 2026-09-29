@@ -4,7 +4,7 @@ title: "Night Vision Goggles"
 group: Tools & Gadgets
 order: 28
 image: /equipment-imgs/night-vision-goggles.png
-brief: "right|255pxThe standard Night Vision Goggles (abbreviated as NVG) found in the Metro enhance the user's vision in dar..."
+brief: "Night Vision Goggles enhance the user's vision in darkness, vital for navigating the Metro's unlit tunnels."
 wiki: Night_Vision_Goggles
 appearances: Metro 2033, Metro Last Light, Metro Exodus
 ---
@@ -12,9 +12,9 @@ appearances: Metro 2033, Metro Last Light, Metro Exodus
 # Night Vision Goggles
 
 ## Overview
-Night vision goggles are used to sneak through areas or seeing traps when the player cannot risk using their flashlight. When the goggles are switched on, the player is much harder to detect than when they have the flashlight turned on. If the player uses the flashlight and the night vision together, they can extend the range of the NVG and see better. This drains the battery faster by around 40 percent, making the battery only last about 2 minutes from the original amount of about 3 minutes 20 seconds, but this makes it easier to see in very dark areas and is of great use when stealth isn't necessary. Like Artyom's watch, the 2033 version of NVG features a stealth meter at the top; red means the player is in well-lit area that easily detectable, yellow means the enemy will find you if they get close, green means you are hidden, but you will still can be seen if you are in close proximity with the enemy, finally "no light" means you are completely hidden, only noise can give your location away. 
+Night vision goggles are used to sneak through areas or seeing traps when the player cannot risk using their flashlight. When the goggles are switched on, the player is much harder to detect than when they have the flashlight turned on. If the player uses the flashlight and the night vision together, they can extend the range of the NVG and see better. This drains the battery faster by around 40 percent, making the battery only last about 2 minutes from the original amount of about 3 minutes 20 seconds, but this makes it easier to see in very dark areas and is of great use when stealth isn't necessary. Like Artyom's watch, the 2033 version of NVG features a stealth meter at the top; red means the player is in well-lit area that easily detectable, yellow means the enemy will find you if they get close, green means you are hidden, but you will still can be seen if you are in close proximity with the enemy, finally "no light" means you are completely hidden, only noise can give your location away. 
 
-One should keep in mind the drawbacks to using the goggles however. When the goggles are on, well-lit areas become difficult to manage through. The goggles obscure Artyom's peripheral vision. If the player is swarmed in an area with nosalises or lurkers, it is a good idea to take them off and use the flashlight instead. Taking them off will allow the player to see any mutants or NPCs trying to flank them.
+One should keep in mind the drawbacks to using the goggles however. When the goggles are on, well-lit areas become difficult to manage through. The goggles obscure Artyom's peripheral vision. If the player is swarmed in an area with nosalises or lurkers, it is a good idea to take them off and use the flashlight instead. Taking them off will allow the player to see any mutants or NPCs trying to flank them.
 
 In *Metro: Last Light*, the NVG return but with some slight differences; they reduce the wearers maximum visual range to some extent as any target the user may see will appear hazy and unclear. They can no longer be used in combination with a flashlight but appears to be equipped with an infrared spotlight (the infrared equivalent of a flashlight) which has the same effect as using the NVG and the flashlight together, but without the extra battery drain or revealing the user's location. The NVG in Last Light no longer obscure the player's vision, has a larger field of view, and the clearer vision means you can snipe with NVG equipped. Also, the wearing animation is removed, you will automatically equip the NVG right after pressing the N (default) key.
 
@@ -32,7 +32,7 @@ Metro: Last Light
 - If you miss the first pair of night vision goggles on the Nightfall level, you can find a pair of them on the level Contagion. The goggles can be found along with a Tihar on a table in the area where two Red soldiers are executing people.
 Metro: Exodus
 - **Volga**: Found in a locked room of confiscated goods from the Fanatics in the Terminal where players must go to find Krest's railcar. The room can be entered near the start of the level through a wooden door (if a key is obtaining from rescued fanatics at a bandit outpost) or by going through a red locked door before exiting the terminal.
-      - Caspian**: Found in the conference room in the depths of the Caspian-1 bunker, just after retrieving the maps.
+- **Caspian** - Found in the conference room in the depths of the Caspian-1 bunker, just after retrieving the maps.
 - **Taiga**: After encountering the Pirates, new NVGs can be found in the basement of the building next to the road. These replace those lost in the river during the rockslide at the start of the level. Another pair can be found at the Pioneers' Camp Base, near the Workbench located in the upper floor of the tree-house (It is possible to backtrack to this location later if missed out on).
 Sam's Story
 - **Vladivostok**: Two sets of NVGs can be found in Vladivostok before meeting with the Captain for the second time. NVGs also serve a secondary purpose as the Night Hunters, a small but well equipped Bandit gang that at one point had most of the ruins under their control, hid supply caches around the city and left clues to them that can only be seen by someone wearing NVGs. In addition to rare modifications and supplies, finding all of the Night Hunters caches awards the Great Owl Achievement.

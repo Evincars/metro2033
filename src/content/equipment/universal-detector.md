@@ -4,7 +4,7 @@ title: "Universal Detector"
 group: Tools & Gadgets
 order: 30
 image: /equipment-imgs/universal-detector.png
-brief: "thumb|241x241px|Sam obtains his Universal Detector in Tom|Tom's armory"
+brief: "A coin-sized detector device used to locate items, traps, and other things in the surrounding environment."
 wiki: Universal_Detector
 appearances: Metro Exodus
 ---

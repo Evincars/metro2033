@@ -6,6 +6,10 @@ order: 45
 image: /location-imgs/novosibirsk.jpg
 brief: Russia's third largest city, devastated by a cobalt bomb during the Great War, serving as the setting of the Dead City chapter in Metro Exodus.
 wiki: Novosibirsk
+infoSize: "502.7 km2"
+infoFaction: "[OSKOM](https://metrovideogame.fandom.com/wiki/OSKOM) (Former)"
+infoConflictingParties: "[Mutants](https://metrovideogame.fandom.com/wiki/Mutants), [Rioters](https://metrovideogame.fandom.com/wiki/Novosibirsk_Rioters) (Former)"
+infoCounterpart: "Novosibirsk, Russia"
 ---
 
 **Novosibirsk** (Russian: Новосибирск) is a [location](https://metrovideogame.fandom.com/wiki/Locations) in *[Metro Exodus](https://metrovideogame.fandom.com/wiki/Metro_Exodus)*. It serves as the main setting of the "[Dead City](https://metrovideogame.fandom.com/wiki/The_Dead_City_(Metro_Exodus_Level))" chapter, as well as [The Two Colonels](https://metrovideogame.fandom.com/wiki/The_Two_Colonels) DLC. Prior to its appearance in the game, some stories from the [Universe of Metro 2033](https://metrovideogame.fandom.com/wiki/Universe_of_Metro_2033_(Book_Series)) book series used Novosibirsk as a setting.
