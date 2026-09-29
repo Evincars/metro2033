@@ -15,43 +15,66 @@ appearances: Metro 2033, Metro Last Light, Metro Exodus
 The **Ashot** (Russian: **Ашот**) is a small, single-shot, Metro-made, 12-gauge pistol (long/large, double-barreled over/under/quadruple-barreled shotgun with the appropriate attachments) with a swing-out extractor that is introduced in *[Metro Last Light](https://metrovideogame.fandom.com/wiki/Metro_Last_Light)* and returns in *[Metro Exodus](https://metrovideogame.fandom.com/wiki/Metro_Exodus)*.
 
 ## Overview
-
 The Ashot is one of the simplest weapons found in the Metro series. A simple piece of pipe with a firing pin and a grip, the Ashot is common amongst all the poor areas of the post-apocalyptic world - from the bandits and gangsters of the [Moscow Metro](https://metrovideogame.fandom.com/wiki/Moscow_Metro) to the tribals of the [Caspian Sea](https://metrovideogame.fandom.com/wiki/Caspian_Sea). The weapon fires a single shotgun shell in its most basic format. It is also one of the most effective shotguns (only in the [Kshatriya](https://metrovideogame.fandom.com/wiki/Kshatriya_(Faction_Pack_DLC_Level))) among Nosalises in close range combat but is an absolute pain to use due to the Ashot being a single-ammo shotgun (hence the name) and not that effective among mutants that are surrounding or cornering the player.
 
 ## Last Light
-
 First introduced in *Metro: Last Light*, the Ashot is a useful weapon up until the end of the game. It is an adequate weapon for close combat. Though slow, it is very economical in ammunition when taking down mutants like the [Nosalis](https://metrovideogame.fandom.com/wiki/Nosalis)es in [Undercity](https://metrovideogame.fandom.com/wiki/Undercity). It has a higher damage output than the [Duplet](https://metrovideogame.fandom.com/wiki/Duplet), [Shambler](https://metrovideogame.fandom.com/wiki/Shambler), or [Saiga](https://metrovideogame.fandom.com/wiki/Saiga-12), which makes sense that the user only has one round before reloading; but lacks their range, rate of fire, magazine size, and versatility. While this makes the weapon evidently quite lethal at close range, it leaves [Artyom](https://metrovideogame.fandom.com/wiki/Artyom) very vulnerable - especially when under attack from multiple targets or vectors. It can be used effectively against [shrimps](https://metrovideogame.fandom.com/wiki/shrimps), as seen in use by [Fedor](https://metrovideogame.fandom.com/wiki/Fedor), but generally, the Ashot is an ineffective weapon in most situations and swapping the Ashot for another weapon is recommended whenever possible. At the beginning of the game, however, the Ashot is very common among [Nazi guards](https://metrovideogame.fandom.com/wiki/Fourth_Reich) in the early stage of the game, so Artyom may have to rely on it for a while due to the shortage of other types of ammunition.
 
 Physically the Ashot is compact, yet unremarkable. These pistols may have been inspired by flare guns, as adaptors in real life can be purchased that can turn flare guns into shotguns. A notable feature of the pistol's design is the offsetting of the barrel during the reloading of each shot, reminiscent of a revolver's cylinder.
 
 ### Kshatriya
-
 The Ashot becomes very useful in the [Faction Pack DLC](https://metrovideogame.fandom.com/wiki/Faction_Pack_DLC) mission, "[Kshatriya](https://metrovideogame.fandom.com/wiki/Kshatriya_(Level))". Even as a starting weapon, it can fire the powerful [12x70 Dragonbreath](https://metrovideogame.fandom.com/wiki/12x70_Dragonbreath) rounds, capable of killing nosalis in one shot on every difficulty. However, once again, it is outclassed by the [Duplet](https://metrovideogame.fandom.com/wiki/Duplet) and [Shambler](https://metrovideogame.fandom.com/wiki/Shambler) loading the same ammunition, as the Ashot is a poor choice during attacks by nosalis hordes or when facing a [librarian](https://metrovideogame.fandom.com/wiki/librarian). The same goes for the *[Tower Pack](https://metrovideogame.fandom.com/wiki/Tower_Pack_(DLC))* DLC, where the players may find using the Ashot risky.
 
 ## Metro Exodus
-
 The Ashot returns in *Metro Exodus* as one of two shotguns in the game. First encountered in the [Volga](https://metrovideogame.fandom.com/wiki/Volga) level, the Ashot can be customised far beyond its pistol format. The addition of a hunting stock and an over-under double barrel put the Ashot into a situation similar to the [Duplet](https://metrovideogame.fandom.com/wiki/Duplet) in *Metro: 2033* and *Metro: Last Light*. The Ashot can also be upgraded with four barrels and a heavy stock later in the game, significantly increasing the damage potential of the weapon.
 
 ## Variants and Customization
-
 ### Metro: Last Light
-
 The Ashot can equip six different [attachments](https://metrovideogame.fandom.com/wiki/attachments) in three slots. Its attachments are similar to the ones available for the [Shambler](https://metrovideogame.fandom.com/wiki/Shambler), but it can also equip a "Stock + forend" upgrade, which turns it from a pistol into a short rifle.
 
-### Metro Exodus
+**Available attachments**
 
+| **Name** | **Effect** | **Description** |
+| --- | --- | --- |
+| Reflex sight | Range **+25%** | This pre-war sight makes aiming the gun at close and medium range easier, without sacrificing much of the field of view. |
+| IR sight | Range **+50%** | A piece of pre-war military tech, this Night Vision sight allows for precisely hitting targets in the dark. |
+| Extended barrel | Range **+50%** | Makes shotguns more efficient at medium and long range by tightening buckshot spread pattern. |
+| Shotgun silencer | Range **-25%** | Hides the muzzle flash and slightly muffles the shots, decreasing shot spread. Shot speed is also decreased, leading to more damage falloff. |
+| Laser sight | Accuracy **+25%** | A pre-war laser sight facilitates aiming the weapon at close range, making precise snapshots easy to achieve. |
+| Stock + forend | Accuracy **+50%** | The stock and forend installed on the pistol essentially turn it into a short barrel carbine, reducing recoil and increasing accuracy greatly. |
+
+### Metro Exodus
 The Ashot shares the Short Barrel and Suppressor with the [Shambler](https://metrovideogame.fandom.com/wiki/Shambler).  The rest of the barrels and all of its Stocks are unique to the Ashot. The Ashot is able to equip all three laser gadgets and the Reflex Sight, NV Scope, and Closed Reflex Sight.
 
-## '''Acquisition'''
+**List of upgrades**
 
-### '''Metro Exodus'''
+| **Name** | **Effect** | **Description** |
+| --- | --- | --- |
+| Grip only | None (default) | Basic metal grip without any attachments. |
+| Grip and handguard | Stability **+1** | Basic grip and handguard combo that makes the weapon more comfortable to use. |
+| Hunting stock | Stability **+4** | Hunting stock decreases recoil with its sheer heft and makes aiming more comfortable. |
+| Heavy grip | Stability **+8** | Heavy metal grip with hand guard and additional forward grip for better recoil control. |
+| Short barrel | None (default) | Shortest possible piece of pipe that could serve as a shotgun barrel without endangering the shooter. Extremely easy to handle. |
+| Short barrel and suppressor | Damage **-2** | Barrel with an improvised suppressor mounted to it. Useful for stealth. |
+| Double barrels | Damage **+2** | Double barrels allow chambering two rounds, which can be shot in a salvo or separately. |
+| Four barrels | Damage **+4** | Significantly increases the shotgun's firepower by firing two barrels of its four at once, which leads to correspondingly increased recoil. |
+| Iron sights | Aim with iron sights | Standard sight used to assist in aiming. |
+| Reflex sight | Iron sight replaced with reflex sight | This pre-war sight makes aiming the gun at close and medium range easier, without sacrificing much of the field of view. |
+| NV scope | Iron sight replaced with night vision scope | This night-vision scope allows for accurate placement of shots even in complete darkness. |
+| Closed reflex sight | Iron sight replaced with closed reflex sight | Closed collimator sight provides a clearer view of the target. |
+| No gadget | None (default) | Less gadgets, less problems. |
+| Red laser | Crosshair replaced with red laser dot | Made from a cheap laser pointer that was heavily modified to increase power output at the cost of reliability. |
+| Green laser | Crosshair replaced with green laser dot | High visibility laser sight reassembled in a custom-made body along with a bunch of modifications. |
+| Infrared laser | Crosshair replaced with IR laser dot with NV active | The IR laser sight's invisible beam produces a very small dot on the target, which is only detectable with a night vision device. |
 
-#### '''Moscow'''
+## **Acquisition**
 
+### **Metro Exodus**
+
+#### **Moscow**
 None of the [Hanza](https://metrovideogame.fandom.com/wiki/Hanza) Guards in Jamming Outpost or on the [Cruiser](https://metrovideogame.fandom.com/wiki/Red_Line_Armoured_Train) are equipped with the Ashot, nor is there any found in the environment of [Moscow](https://metrovideogame.fandom.com/wiki/Moscow_(Metro_Exodus_Level)).
 
-#### '''The Volga'''
-
+#### **The Volga**
 The [Bandits](https://metrovideogame.fandom.com/wiki/Bandits_(Faction)), the armed [fanatics](https://metrovideogame.fandom.com/wiki/Church_of_the_Water_Tsar) and the trade caravan guards are equipped with Ashots in a variety of configurations. The Ashot is the second most commonly used weapon by the [Bandits](https://metrovideogame.fandom.com/wiki/Bandits_(Faction)), and the most commonly used weapon by the armed [fanatics](https://metrovideogame.fandom.com/wiki/Church_of_the_Water_Tsar) and trade caravan guards, along with being commonly found in the environment in the Caspian.
 
 - Nearly all of the Ashots found in the hands of the Bandits, the armed Fanatics and the trade caravan guards are equipped with **Hunting Stocks**.
@@ -71,8 +94,7 @@ The [Bandits](https://metrovideogame.fandom.com/wiki/Bandits_(Faction)), the arm
   - In the Bandit occupied compound to the north of Duke's Safe-house, on a table on the ground floor. Attached to an Ashot.
   - In the Bandit occupied Gas Station, on some metal shelving in the back room. Attached to a Bastard.
 
-#### '''Yamantau'''
-
+#### **Yamantau**
 The [Cannibals](https://metrovideogame.fandom.com/wiki/Cannibals) in [Yamantau](https://metrovideogame.fandom.com/wiki/Yamantau_(Metro_Exodus_Level)) are equipped with Ashots in a variety of configurations. The Ashot is the second most used weapon by the Cannibals in Yamantau, along with being somewhat commonly found in the environment.
 
 - The majority of the Ashots found in the hands of the Cannibals are equipped with **Grip and Handguards**.
@@ -88,8 +110,7 @@ The [Cannibals](https://metrovideogame.fandom.com/wiki/Cannibals) in [Yamantau](
   - In the first barracks section, in the last room on the right, propped up in a chair. Attached to a Kalash.
   - After passing through pile of rubble to reach a isolated bunkroom. Climb up the stack of boxes to reach the top of the small room, there on another crate. Attached to an Ashot.
 
-#### '''The Caspian'''
-
+#### **The Caspian**
 The [Munai-Bailer](https://metrovideogame.fandom.com/wiki/Munai-bailer) in [Caspian](https://metrovideogame.fandom.com/wiki/The_Caspian_(Metro_Exodus_Level)) are equipped with Ashots in a variety of configurations. The Ashot is the fifth most used weapon by the Munai-Bailer in Caspian, along with being commonly found in the environment. All directions are given in reference as though North on Artyom's map in this level is actually south. The Caspian sea should be to the south, while the rail line that the Aurora is on is to the north.
 
 - There are five **Grip and Handguards** for the Ashot that can be found in the Caspian:
@@ -144,8 +165,7 @@ The [Munai-Bailer](https://metrovideogame.fandom.com/wiki/Munai-bailer) in [Casp
   - At the central crossroads southwest of the central oil field, there is a wrecked van and to the northwest of the van, on the ground next to a dead combat slave. Attached to a Revolver.
   - In the abandon helicopter base to the northwest of the map, in the northwest corner past the hangers. There is a shack made from sheet metal, on a table to the left immediately after entering. Attached to a Revolver.
 
-#### '''The Taiga'''
-
+#### **The Taiga**
 The [Children of the Forest](https://metrovideogame.fandom.com/wiki/Children_of_the_Forest) and the Bandits in the [Taiga](https://metrovideogame.fandom.com/wiki/The_Taiga_(Metro_Exodus_Level)) are equipped with Ashots in a variety of configurations. The Ashot is the second most used weapon by both the Children of the Forest and the Bandits but it is not found in the environment.
 
 - There are seventeen **Hunting Stock** for the Ashot that can be found in the Taiga:
@@ -171,8 +191,7 @@ The [Children of the Forest](https://metrovideogame.fandom.com/wiki/Children_of_
 - There is one **Closed Reflex Sight** for the Ashot that can be found in Taiga:
   - One of the Pirates in the Swamp Camp will have **Closed Reflex Sight** as part of his load-out. Attached to an Ashot.
 
-#### '''The Dead City'''
-
+#### **The Dead City**
 There are not any human enemies in [Novosibirsk](https://metrovideogame.fandom.com/wiki/The_Dead_City_(Metro_Exodus_Level)). all Ashots or their upgrades are found in the environment.
 
 - There is one **Hunting Stock** for the Ashot that can be found in Novosibirsk:
@@ -185,21 +204,21 @@ There are not any human enemies in [Novosibirsk](https://metrovideogame.fandom.c
 - There is one **NV Scope** for the Ashot that can be found in the Novosibirsk:
   - Once you reach Kirill's room. Miller will leave his [Tikhar](https://metrovideogame.fandom.com/wiki/Tihar) with an attached **NV Scope** on a shelf near the workbench.
 
-#### '''The Two Colonels (3 Months Ago Riot Suppression)'''
-
+#### **The Two Colonels (3 Months Ago [Riot Suppression](https://metrovideogame.fandom.com/wiki/Novosibirsk_Riots))**
 In the third section of the story, after Colonel Khlebnikov talks with Kirill before sending him home. He is equipped with an Ashot with a Hunting Stock, Double Barrels, a Closed Reflex Sight, and an Infrared Laser.
 
 - The nearby workbench allows access to the following upgrades, the Grip and Handguard, the Heavy Grip, the Short Barrel and Suppressor, the Reflex Sight, the NV Scope, and a Green Laser.
 - For the rest of this section, Colonel Khlebnikov will only be able to recover ammo from the environment and will be unable to make any changes to his equipment loadout.
 
-## Related Achievements/Trophies
-
+## Related [Achievements/Trophies](https://metrovideogame.fandom.com/wiki/Achievements_and_Trophies)
 ### Metro: Last Light
 
 ### Metro Exodus
 
 ## Trivia
 
+![Metro Last Light Weapons (Ashot shotgun)](/weapon-imgs/inline/ashot/metro-last-light-weapons--ashot-shotgun-)
+Ashot variants in *Metro: Last Light*
 - In the previews of *Metro: Last Light*, [Khan](https://metrovideogame.fandom.com/wiki/Khan_(Character)) was seen as owning a special version of the Ashot featuring the pistol grip with the handguard from the rifle stock, which is unobtainable in the final game. It was planned alongside with other attachment combinations seen in concept art.
 - With the Ashot, you can aim down the sights while reloading.
 - Most Ashots acquired from enemies have stocks, however in *Metro: Last Light Redux* at the Nazi section at the start, a pistol grip version can be found.
@@ -212,6 +231,6 @@ In the third section of the story, after Colonel Khlebnikov talks with Kirill be
 - The Ashot can be seen in *[Metro 2033 Redux](https://metrovideogame.fandom.com/wiki/Metro_2033_Redux)* at [Market Station](https://metrovideogame.fandom.com/wiki/Market_Station_(Location)) on the guard who Bourbon calls Mike, but is unobtainable. A stripped down version of the Ashot also appears multiple times in the form of a [tripwire trap](https://metrovideogame.fandom.com/wiki/Traps).
 - The weapon itself appears to be loosely based on a modified [1883 Reichsrevolver](http://www.imfdb.org/images/2/23/1883_ReichsRevolver.jpg), the similarity best seen in the arrangement of the grip and the two screws holding it, on both the in-game model and in the concept art.
 
-## Gallery
-
-[ru:Ашот (оружие)](https://metrovideogame.fandom.com/wiki/ru:Ашот_(оружие))[fr:Ashot](https://metrovideogame.fandom.com/wiki/fr:Ashot)
+metro-exodus-ashot-weapon.jpg
+Metro-Exodus-Ashot-Cover.jpg
+metroexodusshot.jpg

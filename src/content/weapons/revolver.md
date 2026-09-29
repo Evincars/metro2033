@@ -15,52 +15,88 @@ appearances: Metro 2033, Metro Last Light, Metro Exodus
 The **Revolver** is a handgun (pistol-caliber carbine with the appropriate attachments) that was created from scrap by the Metro dwellers at some point after the [Great War of 2013](https://metrovideogame.fandom.com/wiki/Great_War_of_2013).
 
 ## Overview
-
 The Revolver and its variants are the only handguns available in *[Metro 2033](https://metrovideogame.fandom.com/wiki/Metro_2033_(Videogame))*, and one of the three in *[Metro: Last Light](https://metrovideogame.fandom.com/wiki/Metro:_Last_Light)*. Slow, powerful, and heavily customizable, the Revolver is the first weapon that [Artyom](https://metrovideogame.fandom.com/wiki/Artyom) obtains in the [video game series](https://metrovideogame.fandom.com/wiki/Metro_Video_Game_Series). In the late-game, it remains a powerful and versatile weapon to fall back on when an automatic weapon or shotgun doesn't suffice.
 
 ## Tactics and Use
+
+![Metro- Last Light - Revolver (Rework)](/weapon-imgs/inline/revolver/metro--last-light---revolver--rework-)
 
 Sitting in Metro 2033's sidearm slot, or placed in any slot in Metro Last Light, the revolver holds and fires [.44 Magnum](https://metrovideogame.fandom.com/wiki/.44_Magnum) cartridges that are accurate and highly damaging. The combination of accuracy and damage means the weapon excels against slow-moving and vulnerable human opponents that withdraw after each hit, especially in mid to long-range combat. With the appropriate modifications, the Revolver can also function as a low-powered sniper rifle - sitting somewhere between the automatic [VSV](https://metrovideogame.fandom.com/wiki/VSV) and the bolt-action [Valve](https://metrovideogame.fandom.com/wiki/Valve) - yet lacking the impressive fire-rate of the former and the damage output of the latter.
 
 Despite its high damage output and accuracy, the Revolver is difficult to use in close-range combat or against multiple opponents, as both the fire rate and cylinder capacity of the Revolver are mediocre at best. It is best used as a weapon for controlled and calculated shots, such as during stealth situations or when picking off enemies one-by-one, when immediate attention on multiple targets is not an issue. Because of its drawbacks; the Revolver is generally a poor choice when fighting [mutant](https://metrovideogame.fandom.com/wiki/mutant)s, especially smaller, faster ones, such as [nosalises](https://metrovideogame.fandom.com/wiki/nosalises), [watchers](https://metrovideogame.fandom.com/wiki/watchers), and [lurkers](https://metrovideogame.fandom.com/wiki/lurkers). In the early-game of Metro 2033, Artyom must use the Revolver as the ammunition for the [Bastard](https://metrovideogame.fandom.com/wiki/Bastard) is too scarce to be used against every foe. However, this weapon is powerful enough to bring down most mutants in one or two well-placed shots, which is not difficult as they tend to attack one-by-one. If used carefully, the revolver is sometimes more effective than the Bastard.
 
-Because the expensive, but very powerful, [incendiary .44 rounds](https://metrovideogame.fandom.com/wiki/.44_Magnum_AP-Incendiary) found in [Kshatriya](https://metrovideogame.fandom.com/wiki/Kshatriya) are essentially unavailable at the beginning of the mission, the Revolver is thus, a poor weapon of choice for the [Ranger Trainee](https://metrovideogame.fandom.com/wiki/Ranger_Trainee)'s first outing. At the same time though, if one is willing to sacrifice the military grade rounds for their use, said rounds can be a useful, albeit slow and hazardous, way to kill [librarians](https://metrovideogame.fandom.com/wiki/librarians).
+Because the expensive, but very powerful, [incendiary .44 rounds](https://metrovideogame.fandom.com/wiki/.44_Magnum_AP-Incendiary) found in [Kshatriya](https://metrovideogame.fandom.com/wiki/Kshatriya) are essentially unavailable at the beginning of the mission, the Revolver is thus, a poor weapon of choice for the [Ranger Trainee](https://metrovideogame.fandom.com/wiki/Ranger_Trainee)'s first outing. At the same time though, if one is willing to sacrifice the military grade rounds for their use, said rounds can be a useful, albeit slow and hazardous, way to kill [librarians](https://metrovideogame.fandom.com/wiki/librarians). 
 
 ### Metro Exodus
-
 In *Metro Exodus*, the starting configuration of the revolver comes with a manually indexing 3-round cylinder, silencer, and a single-action hammer. As this is slow to fire and reload, and has low capacity, it is of very limited and niche usefulness. It is advised to drop the starting revolver as soon as possible for a stronger offering such as a double-barrel [Ashot](https://metrovideogame.fandom.com/wiki/Ashot), or to simply find a better-modded revolver.
 
 Once upgraded however the revolver may fill a range of different combat roles; however it is best suited as a stealth-oriented weapon. When equipped with a silencer, scope and/or full stock, the revolver becomes very well-suited as a stealth weapon, especially for fighting human targets which can often be taken out with a single headshot.
-
 ## Variants and Customization
-
 ### Metro: Last Light
-
 The Revolver can equip seven different [attachments](https://metrovideogame.fandom.com/wiki/attachments), more than most other weapons in the game. The attachments are divided into three categories: Optics, Barrel and Misc. Both attachments from the Misc section can be equipped at once.
 
-### Metro Exodus
+**Available attachments**
 
+| **Name** | **Effect** | **Description** |
+| --- | --- | --- |
+| Reflex sight | Range **+25%** | This pre-war sight makes aiming the gun at close and medium range easier, without sacrificing much of the field of view. |
+| 2x sight | Range **+50%** | This pre-war optical sight facilitates weapon aiming at medium range but limits the field of view, making it hard to use in the confines of tunnels. |
+| IR sight | Range **+50%** | A piece of pre-war military tech, this Night Vision sight allows for precisely hitting targets in the dark. |
+| Extended barrel | Range **+50%** | Increases accuracy at medium and long range, but makes the weapon bulkier and heavier. |
+| Suppressor | Range **-25%** | Hides the muzzle flash and muffles the shots, decreasing spread at the same time. Projectile speed is also decreased, leading to more damage falloff. |
+| Laser sight | Accuracy **+25%** | A pre-war laser sight facilitates aiming the weapon at close range, making precise snapshots easy to achieve. |
+| Stock + forend | Recoil **-25%** | The stock and forend installed on the pistol essentially turn it into a short barrel carbine, reducing recoil and increasing accuracy greatly. |
+
+### Metro Exodus
 The Revolver shares all three of its upgradable stocks and the Suppressor Barrel with the [Bastard](https://metrovideogame.fandom.com/wiki/Bastard), the Standard Barrel with the Bastard and the [Valve](https://metrovideogame.fandom.com/wiki/Valve), and the Long Barrel with the Valve.  It is able to equip all three laser gadget and the Reflex Sight, NV Scope, and x4 Scope. All of the Revolver's Cylinders are unique to itself, and two of the available magazine upgrades change the revolver to double-action, significantly increasing rate of fire by removing the necessity to cock the weapon after each shot.
 
-## '''Acquisition'''
+**List of upgrades**
 
-### '''Metro 2033'''
+| **Name** | **Effect** | **Description** |
+| --- | --- | --- |
+| Light grip | None (default) | Light handgun grip to reduce weapon weight. |
+| Standard stock | Stability **+2** | Basic grip and wooden stock that make a weapon more comfortable to use. |
+| Sniper stock | Stability **+5** | Wooden grip and sniper wooden stock from a hunter rifle. Greatly reduces recoil. |
+| Heavy stock | Stability **+8** | Heavy metal grip and stock for better recoil control. Significantly increase weapon stability. |
+| Short barrel | None (default) | Shorter barrel makes the rifle lighter, allowing you to perform all actions with it a little faster. |
+| Suppressor | Damage **-1** | Hides the muzzle flash and muffles the shots. Projectile speed is also decreased, leading to more damage falloff. |
+| Standard barrel | Accuracy **+1** | Any steel pipe with an improvised iron sight attached to it automatically becomes a barrel. |
+| Long barrel | Damage **+3** | Longer barrel provides better rifle accuracy and damage. |
+| Iron sights | Aim with iron sights | Standard sight used to assist in aiming. |
+| Reflex sight | Iron sight replaced with reflex sight | This pre-war sight makes aiming the gun at close and medium range easier, without sacrificing much of the field of view. |
+| NV scope | Iron sight replaced with night vision scope | This night-vision scope allows for accurate placement of shots even in complete darkness. |
+| Scope 4x | Iron sight replaced with 4x scope | 4x variable zoom scope. |
+| 3-shot cylinder | **3**-round magazine | 3-chambered cylinder with a single-action mechanism. Not the best choice, but still better than nothing. |
+| 6-shot cylinder | **6**-round magazine | 6-chambered cylinder with single-action mechanism. The classic six-shooter. |
+| 6-shot double-action cylinder | **6**-round magazine | 6-chambered cylinder with double-action mechanism increasing revolver rate of fire considerably. |
+| 8-shot cylinder | **8**-round magazine | 8-chambered cylinder with double-action mechanism. Probably the best drum you can find in post-war world. |
+| No gadget | None (default) | Less gadgets, less problems. |
+| Red laser | Crosshair replaced with red laser dot | Made from a cheap laser pointer that was heavily modified to increase power output at the cost of reliability. |
+| Green laser | Crosshair replaced with green laser dot | High visibility laser sight reassembled in a custom-made body along with a bunch of modifications. |
+| Infrared laser | Crosshair replaced with IR laser dot with NV active | The IR laser sight's invisible beam produces a very small dot on the target, which is only detectable with a night vision device. |
 
-<!--
-Yo editor, use links to levels, not locations.
--->
+## **Acquisition**
+### **Metro 2033**
 
-### '''Metro Exodus'''
+| [Revolver 1 1](/weapon-imgs/inline/revolver/revolver-1-1.png) | [Revolver silencer 1](/weapon-imgs/inline/revolver/revolver-silencer-1.png) | [Revolver barrel 1](/weapon-imgs/inline/revolver/revolver-barrel-1.png) | [Revolver stock 1](/weapon-imgs/inline/revolver/revolver-stock-1.png) | [Revolver stock silencer 1](/weapon-imgs/inline/revolver/revolver-stock-silencer-1.png) | [Revolver stock optics barrel 1](/weapon-imgs/inline/revolver/revolver-stock-optics-barrel-1.png) | [Revolver stock optics silencer 1](/weapon-imgs/inline/revolver/revolver-stock-optics-silencer-1.png) |
+| --- | --- | --- | --- | --- | --- | --- |
+|  | **Revolver**: Standard revolver with iron sights. |  |  |  |  |  |
+|  | **Revolver with Silencer**: A Revolver equipped with a suppressor that cuts down the noise, reduces recoil and eliminates muzzle flash. |  |  |  |  |  |
+|  | **Revolver with Extended Barrel**: A Revolver equipped with an extended barrel which increases its accuracy. |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+|  | **Revolver with Stock and Silencer**: A Revolver equipped with a suppressor and a stock which cuts down the noise, reduces recoil and eliminates muzzle flash. |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+|  | **Revolver with Stock, Optics, Silencer and Laser dot**: A Revolver equipped with a scope, a suppressor, an extended barrel and a stock which cuts down the noise, reduce recoil, increases accuracy and eliminates muzzle flash. The laser sight is useful on higher difficulty levels or Ranger mode when firing from the hip since the crosshair is off and scope zoom is excessive for close range. |  |  |  |  |  |
 
-#### '''Moscow'''
+### **Metro Exodus**
 
+#### **Moscow**
 None of the [Hanza](https://metrovideogame.fandom.com/wiki/Hanza) Guards in Jamming Outpost or on the [Cruiser](https://metrovideogame.fandom.com/wiki/Red_Line_Armoured_Train) are equipped with the Revolver, but there are two Revolvers that can be found in the environment of [Moscow](https://metrovideogame.fandom.com/wiki/Moscow_(Metro_Exodus_Level)). The Backpack System is not yet enabled so any weapon upgrades you find are only usable by swapping weapons.
 
 - After the cut-scene with the [Mirsky](https://metrovideogame.fandom.com/wiki/Mirsky) in the Command Center at the Jamming Outpost, [Yermak](https://metrovideogame.fandom.com/wiki/Yermak) gives Artyom a Revolver with a Light Grip, a Suppressor, Iron Sights, 3-Shot Cylinder, and No Gadget.
 - After crossing the courtyard, inside the outbuilding. On the table to the right, there is a Revolver with a Light Grip, a Suppressor, Reflex Sight, 3-Shot Cylinder, and No Gadget.
 
-#### '''The Volga'''
-
+#### **The Volga**
 The [Bandits](https://metrovideogame.fandom.com/wiki/Bandits_(Faction)), the armed [fanatics](https://metrovideogame.fandom.com/wiki/Church_of_the_Water_Tsar) and the trade caravan guards are equipped with Revolvers in a variety of configurations. The Revolver is the most commonly used weapon used by the [Bandits](https://metrovideogame.fandom.com/wiki/Bandits_(Faction)), the second most commonly used weapon by the trade caravan guards, and third most commonly used weapon by the armed [fanatics](https://metrovideogame.fandom.com/wiki/Church_of_the_Water_Tsar) along with being commonly found in the environment of the Volga.
 
 - The majority of the Revolver found in the environment in the Volga are found with **Standard Stocks**.
@@ -93,8 +129,7 @@ The [Bandits](https://metrovideogame.fandom.com/wiki/Bandits_(Faction)), the arm
 - There is one **8-Shot Double-Action Cylinder** for the Revolver that can be found in the Volga:
   - At the top of the tallest fuel storage container to the southeast, you will find a demon's nest, which has a teddy bear to give to [Nastya](https://metrovideogame.fandom.com/wiki/Nastya), next the zipline leading away from the Demon nest, on a stack of wooden crates. Attached to a Revolver.
 
-#### '''Yamantau'''
-
+#### **Yamantau**
 The [Cannibals](https://metrovideogame.fandom.com/wiki/Cannibals) in [Yamantau](https://metrovideogame.fandom.com/wiki/Yamantau_(Metro_Exodus_Level)) are not equipped with the Revolver, and while .44 Magnum ammunition can be found there are no weapons using it found in the environment. There are shared sights and gadgets that can be equipped to the Revolver that can be recovered.
 - There are two **NV Scopes** for the Revolver that can be found in Yamantau:
   - After passing through the frozen morgue and into the weapon storage room, on a table. Attached to a Kalash.
@@ -103,8 +138,7 @@ The [Cannibals](https://metrovideogame.fandom.com/wiki/Cannibals) in [Yamantau](
   - In the first barracks section, in the last room on the right, propped up in a chair. Attached to a Kalash.
   - After passing through pile of rubble to reach a isolated bunkroom. Climb up the stack of boxes to reach the top of the small room, there on another crate. Attached to Ashot
 
-#### '''The Caspian'''
-
+#### **The Caspian**
 The [Munai-Bailer](https://metrovideogame.fandom.com/wiki/Munai-bailer) in [Caspian](https://metrovideogame.fandom.com/wiki/The_Caspian_(Metro_Exodus_Level)) are equipped with Revolvers in a variety of configurations. The Revolver is the sixth most weapon used by the Munai-bailer along with being commonly found in the environment in the Caspian. All directions are given in reference as though North on Artyom's map in this level is actually south. The Caspian sea should be to the south while the rail line that the Aurora is on is to the north.
 - Revolver found in the in the hands of the Munai-bailer are equally equipped with **Standard Stocks** or **Sniper Stocks**.
 - There are twelve **Heavy Stocks** for the Revolver that can be found in the Caspian:
@@ -157,11 +191,7 @@ The [Munai-Bailer](https://metrovideogame.fandom.com/wiki/Munai-bailer) in [Casp
   - One of the Munai-Bailer guards at the shipping crate camp northwest of the boat safe-house will have **6-Shot Single-Action Cylinder** as part of his load-out. Attached to a Revolver.
   - At the central crossroads southwest of the central oil field, there is a wrecked van and to the northwest of the van, on the ground next to a dead combat slave. Attached to a Revolver.
   - One of the Munai-Bailer attacking the Lighthouse will have a **6-Shot Single-Action Cylinder** as part of his load-out. Attached to a Revolver.
-  -
-  -
-  -
-  -
-  - One of the Munai-bailer guarding the Oasis will have a **6-Shot Single-Action Cylinder** as part of his load-out. Attached to a Revolver.
+  -   -   -   -   - One of the Munai-bailer guarding the Oasis will have a **6-Shot Single-Action Cylinder** as part of his load-out. Attached to a Revolver.
   - At the end of the crane arm in the port. Laying on a piece of sheet metal. Attached to a Revolver.
   - One of the Munai-bailer that will attack the crane once you reach the main cabin will have **6-Shot Single-Action Cylinder** as part of his load-out. Attached to a Revolver.
 - There are three **8-Shot Double-Action Cylinder** for the Revolver that can be found in the Caspian.
@@ -176,8 +206,7 @@ The [Munai-Bailer](https://metrovideogame.fandom.com/wiki/Munai-bailer) in [Casp
   - At the central crossroads southwest of the central oil field, there is a wrecked van and to the northwest of the van, on the ground next to a dead combat slave. Attached to a Revolver.
   - In the abandon helicopter base to the northwest of the map, in the northwest corner past the hangers. There is a shack made from sheet metal, on a table to the left immediately after entering. Attache to a Revolver.
 
-#### '''The Taiga'''
-
+#### **The Taiga**
 The [Children of the Forest](https://metrovideogame.fandom.com/wiki/Children_of_the_Forest) and the Bandits in the [Taiga](https://metrovideogame.fandom.com/wiki/The_Taiga_(Metro_Exodus_Level)) are equipped with Revolvers in a variety of configurations. The Revolver is the fifth most weapon used by the Children of Forest but the most commonly weapon used by the Bandits along with being rarely found in the environment in the Taiga.
 - There are nine **Sniper Stocks** for the Revolver that can be found in the Taiga:
   - West of the Lower Forest Tree-house, alongside of the cliff face, is the Alchemist's cave and workshop. On the wall inside the cave. Attached to the Revolver.
@@ -214,14 +243,13 @@ The [Children of the Forest](https://metrovideogame.fandom.com/wiki/Children_of_
 - There are three **6-Shot Single-Action Cylinder** for the Revolver that can be found in Taiga:
   - Three of the Bandits in the abandoned village will have **6-Shot Single-Action Cylinder** as part of their load-out. All three are attached to Revolvers.
 
-#### '''The Dead City'''
-
+#### **The Dead City**
 No Revolver can be found in the environment of [Novosibirsk](https://metrovideogame.fandom.com/wiki/The_Dead_City_(Metro_Exodus_Level)). There is only one sight that can be equipped to the Revolver that can be recovered.
 
 - There is one **NV Scope** for the Bastard that can be found in the Novosibirsk:
   - Once you reach Kirill's room. Miller will leave his [Tikhar](https://metrovideogame.fandom.com/wiki/Tihar) with an attached **NV Scope** on a shelf near the workbench.
 
-## Related Achievements/Trophies
+## Related [Achievements/Trophies](https://metrovideogame.fandom.com/wiki/Achievements_and_Trophies)
 
 ### Metro 2033
 
@@ -232,7 +260,6 @@ No Revolver can be found in the environment of [Novosibirsk](https://metrovideog
 ### Metro Exodus
 
 ## Trivia
-
 - The Revolver has the most variants of all the weapons available in *Metro 2033* and is second only to the [Lolife](https://metrovideogame.fandom.com/wiki/Lolife) in *Metro: Last Light*. While in *Metro 2033*, one must find or buy the different variants, in *Metro: Last Light*, the Revolver can be customized with any combination of attachments at the player's discretion by arms dealers. This includes an extended barrel, suppressor, buttstock, and several scopes.
 - If left idle, Artyom will look at the revolver before playfully spinning it around his index finger. If the Revolver has a stock equipped, Artyom will pitch it back and forth to each hand to crack his knuckles.
 - If one looks closely at the reload animation, Atryom is placing a rolled up strip of .44 Magnum rounds into the cylinder. Also, when the cartridges are ejected, any rounds not fired will be visible as they fall out with the bullet still in the casing.
@@ -248,7 +275,6 @@ No Revolver can be found in the environment of [Novosibirsk](https://metrovideog
 - The Revolver remains the same in *Metro: Last Light*, while most other weapons have been slightly changed in appearance or design. In Metro 2033/Last Light Redux, however, the Revolver has a slight cosmetic change, mainly the change of frame color.
 
 ### Metro 2033
-
 - The Revolver's design seems to be loosely based on the real-life [*Smith & Wesson* Model 19](https://en.wikipedia.org/wiki/Smith_%26_Wesson_Model_19).
 - Though modded revolvers are very common, no enemies will use them against Artyom in *Metro 2033*.
 - The Revolver has the most variants of any weapon in the original *Metro 2033*.
@@ -256,7 +282,6 @@ No Revolver can be found in the environment of [Novosibirsk](https://metrovideog
 - There is a continuity error regarding the revolver at the end of [Ethereal](https://metrovideogame.fandom.com/wiki/Ethereal_(Level)). [Hunter](https://metrovideogame.fandom.com/wiki/Hunter_(Ranger)) gives Arytom a standard revolver, but when Artyom has to shoot the [Dark One](https://metrovideogame.fandom.com/wiki/Dark_One), it has an extended barrel. When Arytom is awakening from the trance he is holding a standard revolver but when the player has control of him again during the [good ending](https://metrovideogame.fandom.com/wiki/Endings), the revolver has an extended barrel again. This is fixed in Redux.
 
 ### Metro: Last Light
-
 - Despite the revolver having two competitors, [Lolife](https://metrovideogame.fandom.com/wiki/Lolife) and [Ashot](https://metrovideogame.fandom.com/wiki/Ashot), it remains popular in the hands of both enemy and friendly troops. Rangers are seen training using the revolver shortly after the beginning of the game.
 - Although the Lolife has the advantage of firepower and more attachment options, the revolver enjoys higher damage-per-shot, easier ammo conservation, and commonality. Like *Metro 2033*, no enemy will use a revolver against Artyom even when they are equipped with one.
 - The revolver is no longer the standard equipment for Artyom. Due to the new equipment system, the same goes for the Redux version of both games.
@@ -277,9 +302,5 @@ No Revolver can be found in the environment of [Novosibirsk](https://metrovideog
 - Unlike in previous games, the primers on cartridges no longer show an indentation showing they've been fired.
 - The Revolver's appearance is substantially more ramshackle in *Metro Exodus* compared to previous games, where it almost seemed to be pre-war and bearing resemblance to the real-life Colt Anaconda or Smith & Wesson Model 29.
 
-## Gallery
-
-[de:Revolver](https://metrovideogame.fandom.com/wiki/de:Revolver)
-[ru:Револьвер](https://metrovideogame.fandom.com/wiki/ru:Револьвер)
-[uk:Револьвер](https://metrovideogame.fandom.com/wiki/uk:Револьвер)
-[fr:Revolver](https://metrovideogame.fandom.com/wiki/fr:Revolver)
+Ilya-tolmachev-revolver-2.jpg
+Metro-Exodus-Revolver-Weapon-Revolving-Rifle-924x520.jpg

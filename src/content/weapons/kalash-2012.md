@@ -9,13 +9,12 @@ wiki: Kalash_2012
 appearances: Metro 2033, Metro Last Light
 ---
 
-> "At the start of [[World War III"
-> — World War 3]], this was the best assault rifle used by the army. It is extremely sought after in the Metro due to its great performance.|Last Light in-game description
+> "At the start of [World War 3](https://metrovideogame.fandom.com/wiki/World_War_III), this was the best assault rifle used by the army. It is extremely sought after in the Metro due to its great performance."
+> — Last Light in-game description
 
 The **Kalash 2012**,** **or** AK-2012,** is a fictional next-generation Kalashnikov bullpup assault rifle that had been introduced by the Russian army a year before the [nuclear war](https://metrovideogame.fandom.com/wiki/Great_War_of_2013) that drove humanity underground - as such, it's fairly uncommon, as most soldiers still used the [AK-74M](https://metrovideogame.fandom.com/wiki/Kalash_(AK-74M)), with the 2012 being reserved for special forces.
 
 ## Overview
-
 Although the Kalash 2012 is substantially different to the real life next generation series of Kalashnikovs, the AK-200 series that were presented after [Metro 2033's](https://metrovideogame.fandom.com/wiki/Metro_2033_(Video_Game)) release, it bears some similarities to some existing firearms. The general shape and magazine placement are very similar to that of the FN Herstal's P90, a PDW class of weapons designed in the early 90s. While the gas system, muzzle brake and the iron sights resemble those of the AK series of rifles. It is basically a hybrid of the Kalashnikov rifle and FN Herstal's P90, based on how it looks.
 
 The Kalash 2012 is one of the weapons in the Metro that predates the war and it is highly prized. Since the Kalash 2012 is a primary weapon, it can use both dirty and MGR [5.45x39mm](https://metrovideogame.fandom.com/wiki/5.45x39mm) cartridges.
@@ -23,13 +22,14 @@ The Kalash 2012 is one of the weapons in the Metro that predates the war and it 
 The very first Kalash 2012 in the game is available for purchase in the shop located at the [Polis](https://metrovideogame.fandom.com/wiki/Polis_(Metro_2033_Level)) Station customs and is, in fact, one of the only two scoped and suppressed variants of the weapon present in the game.
 
 ## Tactics and Use
-
 The Kalash 2012 is one of the best rifle weapons in both games. It is as accurate as the [VSV](https://metrovideogame.fandom.com/wiki/VSV) while fired in bursts and its fire rate is roughly equal to that of the [Bastard](https://metrovideogame.fandom.com/wiki/Bastard). The weapon's magazine is also mounted on the top of the receiver, rather than the bottom like most weapons, making it easier to keep tabs on the ammunition count when playing without a HUD. The weapon, however, is only found during the later portions of both games.
 
 Its high rate of fire and middling accuracy makes it unsuitable for conserving ammunition, but can be alleviated by firing the weapon in short bursts outside of close combat. The weapon's reload time is also longer than that of the [Kalash](https://metrovideogame.fandom.com/wiki/Kalash). Despite this, the Kalash 2012 is still one of the best weapons to use in the confined tunnels of the metro, where its weaknesses are less of a concern.
 
 ### Metro: Last Light
 
+![Metro Last Light Weapons (AK-2012 assault rifle)](/weapon-imgs/inline/kalash-2012/metro-last-light-weapons--ak-2012-assault-rifle-)
+Kalash 2012 variants in Metro: Last Light
 Like some returning weapons, the Kalash 2012 has become one of the most versatile weapons in the player's arsenal in the sequel thanks to the new attachment system.
 
 It accepts a suppressor and is available as early as "[Sundown](https://metrovideogame.fandom.com/wiki/Sundown)", which makes it invaluable for stealth throughout the game. Although You can purchase it in  the chapter "[Undercity](https://metrovideogame.fandom.com/wiki/Undercity)" and onwards, this gun is not available in the Depot level.
@@ -39,29 +39,37 @@ It can accept [reflex, IRNV, and 2x optical sights](https://metrovideogame.fando
 Like most rifles featured in *Metro 2033*, as with all weapons that use 5.45x39mm ammo, the Kalash 2012 is loaded with MGRs capable of killing almost anything with a single shot on higher difficulties. Its high rate of fire, however, is not very useful for conserving ammunition, which means that in this game the ammunition Artyom can carry is limited, it would be wise to pick a weapon with a lower rate of fire. But in close quarters, you will have an edge over your opponents wielding a weapon with a slower fire rate. The Kalash 2012 is rare in the game, and is frequently not chosen by players. This is in part due to the comparative firepower of similar weapons like the RPK-74 and Saiga-12, which are available before the Kalash 2012 is even introduced in game. However, due to the RPK, Saiga and Abzats inability to accept the silencer, its might be a good idea to get the Kalash 2012 if the player's build is heavily based on stealth.
 
 ## Variants and Customisation
-
 The Kalash 2012 has three [attachment](https://metrovideogame.fandom.com/wiki/Attachments) slots and five available attachments in total. Unlike the regular Kalash, this weapon can't equip Extended magazine.
+
+**Available attachments**
+
+| **Name** | **Effect** | **Description** |
+| --- | --- | --- |
+| Reflex sight | Range **+25%** | This pre-war sight makes aiming the gun at close and medium range easier, without sacrificing much of the field of view. |
+| 2x sight | Range **+50%** | This pre-war optical sight facilitates weapon aiming at medium range but limits the field of view, making it hard to use in the confines of tunnels. |
+| IR sight | Range **+50%** | A piece of pre-war military tech, this Night Vision sight allows for precisely hitting targets in the dark. |
+| Suppressor | Range **-25%** | Hides the muzzle flash and muffles the shots, decreasing spread at the same time. Projectile speed is also decreased, leading to more damage falloff. |
+| Laser sight | Accuracy **+25%** | A pre-war laser sight facilitates aiming the weapon at close range, making precise snapshots easy to achieve. |
 
 ## Obtainment
 
-<!--
-Yo editor, use links to levels, not locations.
--->
+| [AK2012 sideview dirty M2033](/weapon-imgs/inline/kalash-2012/ak2012_sideview_dirty_m2033.png) | [AK2012 scope silencer laser sideview dirty M2033](/weapon-imgs/inline/kalash-2012/ak2012_scope_silencer_laser_sideview_dirty_m2033.png) |
+| --- | --- |
+|  |  |
+|  | **Kalash 2012 with Scope and Suppressor**: |
+
 In *Metro 2033 Redux*, the Kalash 2012 remains as the best assault rifle in game, although it is still not available until the later portion of the game, the new customization system allows the user to make the Kalash 2012 more suited to their play style.
 
 ### Metro: Last Light
-
 **Kalash 2012**: Although sporting a new model slightly different from *Metro 2033*, this gun has not changed much (except for a ambidextrous ejection port for spent casings). It has higher accuracy at the cost of losing the default laser sight. The weapon's lower damage output versus the other assault rifles makes this weapon less useful versus mutants, and its 40 round magazine capacity is negated by the fact that most other assault rifles can be upgraded with extended magazines. The weapon is still very effective against humans and is encountered early enough in the game to see considerable use. Because the weapons with more firepower are introduced early in the game, the Kalash 2012 is not common even among NPCs.
 - The Kalash 2012 can first be found as an uncustomized version, in "[Sundown](https://metrovideogame.fandom.com/wiki/Sundown)", in a tripwired room to the left of the map when facing the ferry. This can be useful to pick up, though it is also available for purchase two levels later, in "[Undercity](https://metrovideogame.fandom.com/wiki/Undercity)", and becomes fairly common from then on.
 
-## Related Achievements/Trophies
-
+## Related [Achievements/Trophies](https://metrovideogame.fandom.com/wiki/Achievements_and_Trophies)
 ### Metro 2033
 
 ### Metro Last Light
 
 ## Design Issues
-
 The Kalash 2012 is an interesting concept for a next generation assault rifle, but is a fairly implausible gun from an engineering standpoint. The weapon has multiple substantial design issues, which are the following:
 - In its original 2033 appearance, the weapon seems to have no clear ejection port for case extraction, unless it uses caseless ammunition, which it clearly does not. Closer inspection of the weapon while firing shows the casings eject from an area to the right of the barrel, suggesting a forward-ejecting system like the FN F2000, but no tube to divert the spent casings exists on the weapon. Casings ejecting from the front of the firearm is clearly a developer oversight, or an error.
   - This was fixed in Last Light and Redux, where an ambidextrous ejection port can be seen.
@@ -74,7 +82,6 @@ The Kalash 2012 is an interesting concept for a next generation assault rifle, b
 - The weapon's handle and trigger are too far back for comfortable use in tandem with the stock. The user would have to crook their arm to shoulder the weapon, inducing fatigue.
 
 ## Trivia
-
 - Files of *[Metro 2033](https://metrovideogame.fandom.com/wiki/Metro_2033_(Videogame))* suggest that an unsuppressed scoped and an unscoped silenced Kalash 2012 variants were originally to appear in the game, but were cut at some point in development.
 - When the weapon is swapped with another one, the ammo stays in the gun. It can be retrieved, but the ammo pickup is much smaller than the size of the magazine; especially on higher difficulties. A lot of ammo can be lost because of this.
 - Its overall design hints that the Russian military wanted to field a compact assault rifle like the AKS-74U, but in a more modern design akin to the P90, making it ideal for vehicle crews or close quarters combat without sacrificing the stopping power of the 5.45x39mm round or having the AKS-74U's inherent flaws of a high fire rate, short range, and tendency to overheat.
@@ -94,7 +101,5 @@ The Kalash 2012 is an interesting concept for a next generation assault rifle, b
 
 ## Other Images
 
-[ru:Калаш 2012](https://metrovideogame.fandom.com/wiki/ru:Калаш_2012)
-[uk:АК2012](https://metrovideogame.fandom.com/wiki/uk:АК2012)
-[fr:Kalash 2012](https://metrovideogame.fandom.com/wiki/fr:Kalash_2012)
-[de:Kalash 2012](https://metrovideogame.fandom.com/wiki/de:Kalash_2012)
+EB3QpMnUwAAU6N .jpg
+600px-Metro2 Kalash2012 1.jpg

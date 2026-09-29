@@ -12,12 +12,13 @@ appearances: Metro 2033, Metro Last Light, Metro Exodus
 The **Trench Knife** is a metro-made [weapon](https://metrovideogame.fandom.com/wiki/Weapons) that is carried by [Artyom](https://metrovideogame.fandom.com/wiki/Artyom) at all times throughout his travels.
 
 ## Overview
-
 Artyom carries his personal knife with him throughout the entire [game](https://metrovideogame.fandom.com/wiki/Metro_2033_(Videogame)). Besides its normal use, he uses it to get out of numerous situations that would have otherwise been fatal. In close combat, the knife has saved his life on quite a few occasions. Gameplay shows that Artyom seems to be well versed in knife combat. The knife can be seen in settlements, in shops, near or on corpses, and carried by certain NPCs, but in actual gameplay it is rarely used and a different variant can never be picked up. On some rare instances, an NPC can use his knife to do a finishing kill on a [mutant](https://metrovideogame.fandom.com/wiki/mutant), but usually they either shoot the mutant, or hit it with the butt of their weapon. The knife is the only weapon to be used in quick-reaction situations, since Artyom can perform an one hit knife kill when this happens.
 
 One of the few appearances of NPC usage of the knife is when [Ulman](https://metrovideogame.fandom.com/wiki/Ulman) saves Artyom by stabbing two [Nazis](https://metrovideogame.fandom.com/wiki/Nazis) during a cutscene in the beginning of "[Trolley Combat](https://metrovideogame.fandom.com/wiki/Trolly_Combat_(Level))", or when an NPC kills a mutant with it.
 
 ## Tactics and Use
+
+![Knife 2](/weapon-imgs/inline/trench-knife/knife-2.png)
 
 The knife's normal use is as a melee weapon, an alternative to wasting ammo on weak or lone enemies. Artyom can silently kill some NPCs and mutants with it, but this is not recommended as he has to be very close and can easily be detected.
 
@@ -33,8 +34,7 @@ Both of these attacks are almost impossible for enemies to detect if executed ou
 
 Knocking out an enemy does not kill but the victim will wake up soon after Artyom successfully escaped. This allows him to take [ammunition](https://metrovideogame.fandom.com/wiki/ammunition) from them without gaining negative moral points.
 
-## Related Achievements/Trophies
-
+## Related [Achievements/Trophies](https://metrovideogame.fandom.com/wiki/Achievements_and_Trophies)
 ### Metro 2033
 
 ### Metro: Last Light
@@ -44,7 +44,6 @@ Knocking out an enemy does not kill but the victim will wake up soon after Artyo
 ### Metro Exodus
 
 ## Trivia
-
 - If Artyom stands idle long enough with it equipped, he will check the sharpness of the edge and point of the blade, and then clean out the ring on the bottom.
 - An identical knife can be seen in the level "[Dry](https://metrovideogame.fandom.com/wiki/Dry)", in the room where Artyom meets [Khan](https://metrovideogame.fandom.com/wiki/Khan_(Character)) for the first time and where [Bourbon](https://metrovideogame.fandom.com/wiki/Bourbon) is killed. To the left of the door leading to the next area is a nosalis' head on the wall with the knife in its mouth.
 - Several other identical knives can be seen attached to weapons or carried by certain people throughout the game, for example Khan, who has one attached to his rifle.
@@ -52,8 +51,3 @@ Knocking out an enemy does not kill but the victim will wake up soon after Artyo
 - The knuckle duster on the knife appears to consist of bolts and nuts instead of the usual spikes, most likely due to being produced in the metro.
 - The knife is used again as a bayonet in the *Last Light* [Faction Pack](https://metrovideogame.fandom.com/wiki/Faction_Pack), by the twins [Bar](https://metrovideogame.fandom.com/wiki/Bar) and [Su](https://metrovideogame.fandom.com/wiki/Su).
 - In the [Spider Lair](https://metrovideogame.fandom.com/wiki/Spider_Lair) mission of the [Developer Pack](https://metrovideogame.fandom.com/wiki/Developer_Pack_(DLC)), the stalker can use the knife before he even acquires it, but only if he is tackled by a spider beforehand. This is most likely a developer oversight. (Or a funny theory: he could have just carried an extra knife)
-
-[de:Grabendolch](https://metrovideogame.fandom.com/wiki/de:Grabendolch)
-[fr:Couteau de combat](https://metrovideogame.fandom.com/wiki/fr:Couteau_de_combat)
-[ru:Нож](https://metrovideogame.fandom.com/wiki/ru:Нож)
-[uk:Ніж](https://metrovideogame.fandom.com/wiki/uk:Ніж)

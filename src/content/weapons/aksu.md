@@ -5,7 +5,7 @@ group: Assault Rifles
 order: 20
 image: /weapon-imgs/aksu.png
 brief: "Originally available as a limited edition bonus for Metro Last Light, and since added to Metro 2033 Redux, the AKS-74..."
-wiki: AKSU
+wiki: "AKSU_(AKS-74U)"
 appearances: Metro 2033, Metro Last Light
 ---
 
@@ -17,21 +17,32 @@ Originally available as a limited edition bonus for *[Metro Last Light](https://
 It is available at the D6 armory for free in Last Light. It is sold by the merchant in [Defense](https://metrovideogame.fandom.com/wiki/Child_(Metro_2033_Level)) in 2033 Redux, but it only appears there if youre playing on the SURVIVAL mode, and by all merchants in Last Light. It can also be equipped in a [Shooting Gallery](https://metrovideogame.fandom.com/wiki/Shooting_Gallery) if the [Developer Pack](https://metrovideogame.fandom.com/wiki/Developer_Pack) is launched on Ranger difficulty.
 
 ## Overview
-
-Like its parent rifle, the Kalash (AK-74M), the AKSU fires a [5.45x39mm](https://metrovideogame.fandom.com/wiki/5.45x39mm) cartridge. Its description is misleading as the AKSU is exactly as accurate as the Kalash. [Source](https://steamcommunity.com/sharedfiles/filedetails/?id=1209340824)(https://metrovideogame.fandom.com/wiki/https://steamcommunity.com/sharedfiles/filedetails/?id=1209340824_Source) The AKSU has a slightly higher rate-of-fire and a faster aim-down-sights time, making it an effective emergency weapon when facing enemies at close-range. When loaded with [Military Grade Rounds](https://metrovideogame.fandom.com/wiki/Military_Grade_Rounds), this weapon is capable of killing many types of enemies with one shot.
+Like its parent rifle, the Kalash (AK-74M), the AKSU fires a [5.45x39mm](https://metrovideogame.fandom.com/wiki/5.45x39mm) cartridge. Its description is misleading as the AKSU is exactly as accurate as the Kalash. [Source](https://steamcommunity.com/sharedfiles/filedetails/?id=1209340824)(https://metrovideogame.fandom.com/wiki/https://steamcommunity.com/sharedfiles/filedetails/%3Fid%3D1209340824_Source) The AKSU has a slightly higher rate-of-fire and a faster aim-down-sights time, making it an effective emergency weapon when facing enemies at close-range. When loaded with [Military Grade Rounds](https://metrovideogame.fandom.com/wiki/Military_Grade_Rounds), this weapon is capable of killing many types of enemies with one shot.
 
 Recoil is also moderately more noticeable with the AKS-74U, making the weapon harder to aim, so it is recommended that a [red dot sight](https://metrovideogame.fandom.com/wiki/Attachments) or laser sight be attached to the weapon for easier target acquisition. Avoid full-auto fire if you cannot control its recoil, burst fire is a good way to maintain accuracy. With no HUD and crosshair, Laser sight becomes important if the player needs to fire from the hip.
 
 A [suppressor](https://metrovideogame.fandom.com/wiki/Attachments) may also be added to decrease recoil, but bear in mind that it will decrease range as well. Due to the nature of this weapon, it may not be practical for Ranger Mode, mainly because of its inaccuracy and increased fire rate, making it expensive to fire fully automatic, especially with ammo being scarce. Despite the weapon only made available in Ranger mode, carrying it is only advised indoors and slower, more accurate weapons will serve the wielder better when they reach the surface.
 
 ## Variants and Customization
-
 The AKSU has the same set of upgrades as the Kalash; three [attachment](https://metrovideogame.fandom.com/wiki/Attachments) slots and six available attachments in total. Attachments in the Misc slot can be equipped both at once, so the AKSU can have four different attachments at the same time.
+
+**Available attachments**
+
+| **Name** | **Effect** | **Description** |
+| --- | --- | --- |
+| Reflex sight | Range **+25%** | This pre-war sight makes aiming the gun at close and medium range easier, without sacrificing much of the field of view. |
+| 2x sight | Range **+50%** | This pre-war optical sight facilitates weapon aiming at medium range but limits the field of view, making it hard to use in the confines of tunnels. |
+| IR sight | Range **+50%** | A piece of pre-war military tech, this Night Vision sight allows for precisely hitting targets in the dark. |
+| Suppressor | Range **-25%** | Hides the muzzle flash and muffles the shots, decreasing spread at the same time. Projectile speed is also decreased, leading to more damage falloff. |
+| Extended magazine | Mag capacity **+50%** | This light machine gun magazine is capable of holding a ranger's weekly earnings and allows for longer sustained fire with less reloads. |
+| Laser sight | Accuracy **+25%** | A pre-war laser sight facilitates aiming the weapon at close range, making precise snapshots easy to achieve. |
 
 ## Trivia
 
+![Metro Last Light Weapons (AKS-74U assault rifle)](/weapon-imgs/inline/aksu/metro-last-light-weapons--aks-74u-assault-rifle-)
+AKSU (AKS-74U) variants in Metro 2033
 - The AKSU in-game fires 10% faster than a Kalash (600 rounds/minute versus 550) and has no downsides. In the real world the AKSU would suffer from a shorter effective range and decreased accuracy compared to the AK-74M, due to the former's shorter barrel.
-- This is most likely the weapon Bourbon uses in the [Metro 2033 novel](https://metrovideogame.fandom.com/wiki/Metro_2033_(Novel)), rather than standard AK-74M in-game.
+- This is most likely the weapon Bourbon uses in the [Metro 2033 novel](https://metrovideogame.fandom.com/wiki/Metro_2033_(Novel)), rather than standard AK-74M in-game. 
 - The AKSU has the same firing sound as the [Bastard](https://metrovideogame.fandom.com/wiki/Bastard) carbine.
 - The increased recoil is due to the faster firing rate.
 - The weapon is also available in the Tower Pack and the [Developer Pack's](https://metrovideogame.fandom.com/wiki/Developer_Pack_(Level)) [AI Arena](https://metrovideogame.fandom.com/wiki/AI_Arena) and Shooting Gallery, though, again, will only appear on Ranger difficulties.
@@ -40,9 +51,3 @@ The AKSU has the same set of upgrades as the Kalash; three [attachment](https://
 - In *Metro 2033 Redux* multiple unusable AKSUs can be seen around the map, held by NPCs or as world objects.
 - In reality, AKS-74U carbines had a tendency to overheat after firing just 60 - 80 rounds in a short period of time, but this drawback is not implemented in the *Metro* games, despite the [Bastard](https://metrovideogame.fandom.com/wiki/Bastard) having an overheating mechanic.
 
-## Gallery
-
-[es:AKSU](https://metrovideogame.fandom.com/wiki/es:AKSU)
-[ru:АКСУ](https://metrovideogame.fandom.com/wiki/ru:АКСУ)
-[uk:АКСВ](https://metrovideogame.fandom.com/wiki/uk:АКСВ)
-[fr:AKSU](https://metrovideogame.fandom.com/wiki/fr:AKSU)

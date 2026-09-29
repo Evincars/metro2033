@@ -15,7 +15,6 @@ appearances: Metro 2033, Metro Last Light, Metro Exodus
 The **Tihar** (Russian: **Тихарь**), spelled **Tikhar** in *[Metro: Last Light](https://metrovideogame.fandom.com/wiki/Metro:_Last_Light)* and *[Metro Exodus](https://metrovideogame.fandom.com/wiki/Metro_Exodus)*, is a semi-automatic multi-stroke air gun that was created from scrap by the [Metro](https://metrovideogame.fandom.com/wiki/Post-Apocalyptic_Metro_System) dwellers at some point after the [Great War of 2013](https://metrovideogame.fandom.com/wiki/Great_War_of_2013).
 
 ## Overview
-
 Despite some shortcomings in comparison with conventional firearms in use, the air guns seem popular in the Metro. With pre-war laws, limitations, or regulations no longer applicable and with parts readily available, weapons such as the Tihar are a popular alternative to actual firearms.
 
 The Tihar is extremely quiet and is capable of silently bringing down enemies from surprisingly long ranges. It carries fifteen 15&nbsp;mm [ball bearings](https://metrovideogame.fandom.com/wiki/ball_bearings) in a tubular spring-fed magazine. The ammunition is propelled by a cylinder of compressed air placed inside the stock of the gun, which attains its pressure by a handpump at the end of the handguard. A pressure gauge mounted on the right side of the weapon shows how much relative stopping power and distance the next shot will have, with each shot draining a small amount of air from the reservoir.
@@ -24,15 +23,18 @@ It's possible to overpressurise the cylinder for extra stopping power or range, 
 
 In *[Metro 2033](https://metrovideogame.fandom.com/wiki/Metro_2033)*, the first Tihar is available as early as the "[Lost Tunnel](https://metrovideogame.fandom.com/wiki/Lost_Tunnel)" level. It can be looted from a corpse in the dead end side tunnel near the exit from [Riga](https://metrovideogame.fandom.com/wiki/Riga_(Level)) station.
 
+![MLL tihar side detail](/weapon-imgs/inline/tikhar/mll_tihar_side_detail.png)
+
 In *Metro: Last Light*, it appears that the Tihar is being phased out by the new version "Tihar-M" ("M" stands for модернизирован, transliteral "modernizirovan", identical to English "modernization" and commonly used in Russian weapon designations), as indicated by the production markings. All versions of the gun that Artyom comes across were produced by "Blacksmith Prokhorov" in 2030, which is stamped on the side. Tihar-M's performance remains largely unchanged in comparison with Tihar from *Metro 2033*. Its biggest improvement is the wider range of customization options.
 
 In Metro Exodus, the Tikhar is capable of firing ball bearings, including incendiary capsules that can be crafted starting in the Caspian Sea level. Unlike in *Metro 2033* and *Metro: Last Light*, it operates as fully automatic airgun.
 
 ## Tactics and Use
-
 The Tihar has a wide variety of uses and is quite effective from the moment it's picked up. While its pneumatic firing mechanism requires constant pumping and causes the Tihar's damage to often become steadily weaker in pitched firefights, it is also effective in combat situations and has little trouble picking off enemies
 
 In emergency situations, the Tihar can fire rapidly - while this depletes its comparatively small magazine, and causes it to depressurise quickly, this feature can, if fully-pumped, cause considerable damage, making it quite effective when used indoors or at close-range.
+
+![Metro Last Light Weapons (Tihar air rifle)](/weapon-imgs/inline/tikhar/metro-last-light-weapons--tihar-air-rifle-)
 
 The Tihar's damage is directly tied to its pressure; if fully-pressurised, the Tihar's shots cause heavy damage and can bring down a [watcher](https://metrovideogame.fandom.com/wiki/watcher) in a single body shot.
 
@@ -46,6 +48,8 @@ The Tihar, like the [Helsing](https://metrovideogame.fandom.com/wiki/Helsing), h
 
 One issue with the Tihar is that the glass in its scope is somewhat cloudy and may cause problems with target definition, so those looking for a sniper-esque weapon may want to reconsider using the Tihar. A weapon equipped with the [PK-AV scope](https://metrovideogame.fandom.com/wiki/Attachments) may be better. The scope is not recommended for low-performance systems, as using it is known to cause lag.
 
+![Tihar scope isometric M2033](/weapon-imgs/inline/tikhar/tihar-scope-isometric-m2033.png)
+
 The Tihar faces some competition for its role as a suppressed weapon from the [VSV](https://metrovideogame.fandom.com/wiki/VSV), [revolver](https://metrovideogame.fandom.com/wiki/revolver) with silencer, scope and stock, the [Kalash 2012](https://metrovideogame.fandom.com/wiki/Kalash_2012) with a silencer and scope, and perhaps, the [Helsing](https://metrovideogame.fandom.com/wiki/Helsing). The Tihar sets itself apart from these guns in a few ways; it is, by default quiet, does not require valuable 5.45mm rounds, has considerably better single-shot punch than the Kalash 2012 or revolver when fully charged, and is generally easier to use than the Helsing. Its ammunition is the cheapest on offer so it does not cost a lot to run one.
 
 The Helsing is the Tihar's true rival, weapon-slot wise; both guns are pneumatic. The Helsing fires arrows while the Tihar fires small pellets. Also, there is chance Helsing's arrows can be recovered. The Tihar makes up for this though as its ammunition is the cheapest to exchange at [kiosks](https://metrovideogame.fandom.com/wiki/Exchange_Kiosk). The ball bearings are also more common to find than arrows. In *Metro: Last Light*, the Tihar is similar in function, yet the gun and its ammo are not as common. Ammo for it should be purchased whenever visiting ammo vendors if intending to keep it, as it's a good weapon in stealth-based levels, without the need to purchase a silencer.
@@ -53,21 +57,56 @@ The Helsing is the Tihar's true rival, weapon-slot wise; both guns are pneumatic
 The Tihar faces some competition with [Volt Driver](https://metrovideogame.fandom.com/wiki/Volt_Driver) as well; both use the same kind of ammunition and when charged to full power, they are both lethal to most enemies. Both are capable of sniping as well, though the Tihar is more accurate by a small margin. The Volt Driver, however, is considered to be more versatile, accepts more attachments and is easier to use. The Tihar's biggest advantage over the Volt Driver is the weapon's low price tag and more common, and the fact that the Tihar is completely silent, unlike the Volt Driver.
 
 ## Variants and Customization
-
 ### Metro: Last Light
-
 The Tikhar has two [attachment](https://metrovideogame.fandom.com/wiki/Attachments) slots and five available attachments in total. Attachments in the Misc slot can be equipped both at once, so the Tikhar can have up to three different attachments at the same time.
 
-### Metro Exodus
+**Available attachments**
 
+| **Name** | **Effect** | **Description** |
+| --- | --- | --- |
+| Reflex sight | Range **+25%** | This pre-war sight makes aiming the gun at close and medium range easier, without sacrificing much of the field of view. |
+| 2x sight | Range **+50%** | This pre-war optical sight facilitates weapon aiming at medium range but limits the field of view, making it hard to use in the confines of tunnels. |
+| IR sight | Range **+50%** | A piece of pre-war military tech, this Night Vision sight allows for precisely hitting targets in the dark. |
+| Airtight valve | Doesn't lose air if overpressurized | The air bottle fitted with this high-quality valve of pre-war make does not leak air even when overpressurized. |
+| Laser sight | Accuracy **+25%** | A pre-war laser sight facilitates aiming the weapon at close range, making precise snapshots easy to achieve. |
+
+### Metro Exodus
 The Tikhar shares stock upgrades with the [Valve](https://metrovideogame.fandom.com/wiki/Valve) and the [Helsing](https://metrovideogame.fandom.com/wiki/Helsing).  It is able to equip all three laser gadgets and the Reflex Sight, NV Scope, and x6 Scope. The Mechanism and Magazine upgrades are unique to this weapon. Instead of upgrading the barrel, one can make changes to its pneumatic system, either increasing its efficiency or making it to auto-refill. It is even possible to replace the pneumatic system with a railgun mechanism, which essentially turns the weapon into a [Volt Driver](https://metrovideogame.fandom.com/wiki/Hellbreath_(Volt_Driver)) and increases the damage enormously, making most enemies a one-shot kill. With this upgrade, the Tikhar is can be a rather effective weapon, boasting huge damage, fast rate of fire and cheap ammunition that can be crafted on the go. To balance it out, this upgrade is only available in the last level, "[The Dead City](https://metrovideogame.fandom.com/wiki/The_Dead_City_(Metro_Exodus_Level)). After finishing the game, however, and starting a new playthrough in New Game +, the Railgun upgrade can be equipped right from the start.
 
+**List of upgrades**
+
+| **Name** | **Effect** | **Description** |
+| --- | --- | --- |
+| Light grip and forend | None (default) | Light grip built of readily available materials allows its user to shoot safely. |
+| Assault stock, grip and forend | Stability **+1** | Handmade light stock. Slightly reduces recoil. |
+| Sniper stock, grip and forend | Stability **+3** | Sniper wooden stock that looks like it was salvaged from a professional rifle. Greatly reduces recoil. |
+| Heavy stock | Stability **+6** | A piece of pipe fashioned into a stock. Significantly increases weapon stability. |
+| Standard pneumatic system | None (default) | Makeshift hand operated air pump. Works well, but quickly loses air if the pressure is above normal. |
+| Airtight pneumatic system | Doesn't lose air if overpressurized | Airtight pneumatic system works pretty much as standard but doesn't lose air if the pressure is above normal. |
+| Automatic pneumatic system | Automatically refills air slowly | Automatic system constantly adds air to system when pressure is below normal level. You can still use hand pump system. |
+| Railgun | Damage **+17** | Linear electromagnetic system imparting a very high acceleration to its projectiles. Has higher capacity compared to the pneumatic system. |
+| Iron sights | Aim with iron sights | Standard sight used to assist in aiming. |
+| Reflex sight | Iron sight replaced with reflex sight | This pre-war sight makes aiming the gun at close and medium range easier, without sacrificing much of the field of view. |
+| NV scope | Iron sight replaced with night vision scope | This night-vision scope allows for accurate placement of shots even in complete darkness. |
+| Scope x6 | Iron sight replaced with x6 scope | This sniper sight allows easy aiming at extremely long distances, but significantly limits the field of view. |
+| Tube magazine | **9**-round magazine / **3** capsules | This small makeshift magazine can hold up to 9 steel balls or 3 capsules. |
+| Rotor magazine | **18**-round magazine / **6** capsules | Cylindric magazine can hold 18 steel balls or 6 capsules. |
+| Horizontal magazine | **27**-round magazine / **9** capsules | Extended version of tube magazine that can hold 27 steel balls or 9 capsules. |
+| Helical magazine | **36**-round magazine / **12** capsules | Auger magazine using a rotating helical screw to hold up to 36 steel balls or 12 capsules. |
+| No gadget | None (default) | Less gadgets, less problems. |
+| Red laser | Crosshair replaced with red laser dot | Made from a cheap laser pointer that was heavily modified to increase power output at the cost of reliability. |
+| Green laser | Crosshair replaced with green laser dot | High visibility laser sight reassembled in a custom-made body along with a bunch of modifications. |
+| Infrared laser | Crosshair replaced with IR laser dot with NV active | The IR laser sight's invisible beam produces a very small dot on the target, which is only detectable with a night vision device. |
+
 ## Acquisition
+### **Metro 2033**
 
-### '''Metro 2033'''
+| [Tihar sideview M2033](/weapon-imgs/inline/tikhar/tihar-sideview-m2033.png) | [Tihar scope sideview M2033](/weapon-imgs/inline/tikhar/tihar-scope-sideview-m2033.png) |
+| --- | --- |
+|  | **Tihar**: |
+|  | **Tihar with Scope**: |
 
-### '''Metro: Last Light'''
-
+### **Metro: Last Light**
 [Facility](https://metrovideogame.fandom.com/wiki/Facility) &ndash; After entering the large room with the waterwheel, proceed to the bottom of the staircase. To the left is a set of lockers containing a Tikhar with x2 Scope attachment.
 
 [Revolution](https://metrovideogame.fandom.com/wiki/Revolution) &ndash; After the room with the armoured train, Artyom will enter a room that will become filled with gas as part of an equipment test (requires gasmask). On the right side of the room is a ladder that lets one to cross the room by walking on pipes to get to the catwalks the left side of the room. Cross over to find a Tikhar with IR scope attachment on a crate to the left.
@@ -78,14 +117,12 @@ The Tikhar shares stock upgrades with the [Valve](https://metrovideogame.fandom.
 
 In the [Chronicles Pack](https://metrovideogame.fandom.com/wiki/Chronicles_Pack) level, "[Pavel](https://metrovideogame.fandom.com/wiki/Pavel_(Chronicles_Pack_Level))", one with no attachments can be found upon entering the kitchen with the bandit practicing with his knife. Later on before/around the Firing Area, you can also find one with NV Sights.
 
-### '''Metro Exodus'''
+### **Metro Exodus**
 
-#### '''Moscow'''
-
+#### **Moscow**
 None of the [Hanza](https://metrovideogame.fandom.com/wiki/Hanza) Guards in Jamming Outpost or on the [Cruiser](https://metrovideogame.fandom.com/wiki/Red_Line_Armoured_Train) are equipped with the Tikhar, nor is there any found in the environment of [Moscow](https://metrovideogame.fandom.com/wiki/Moscow_(Metro_Exodus_Level)).
 
-#### '''The Volga'''
-
+#### **The Volga**
 None of the [Bandits](https://metrovideogame.fandom.com/wiki/Bandits_(Faction)) or the armed [fanatics](https://metrovideogame.fandom.com/wiki/Church_of_the_Water_Tsar) in the Volga are equipped with the Tikhar, nor is there any found in the environment of The Volga. The only example is given to Artyom by [Tokarev](https://metrovideogame.fandom.com/wiki/Tokarev), and further upgrades are available at the workbench in the Aurora as you progress down the story-line.
 - There is one **Sniper Stock, Grip and Forend** for the Tikhar in the Volga:
   - At the Aurora, after the briefing from [Miller](https://metrovideogame.fandom.com/wiki/Miller) to find [Krest](https://metrovideogame.fandom.com/wiki/Krest), Tokarev will give Artyom a Tikhar with a **Sniper Stock, Grip and Forend** equipped.
@@ -100,8 +137,7 @@ None of the [Bandits](https://metrovideogame.fandom.com/wiki/Bandits_(Faction)) 
 - There is one **Horizontal Magazine** for the Tikhar in the Volga:
   - After returning to the Aurora with Krests' rail-car and the passenger car, the **Horizontal Magazine** is in the workbench in the Aurora.
 
-#### '''Yamantau'''
-
+#### **Yamantau**
 None of the [Cannibals](https://metrovideogame.fandom.com/wiki/Cannibals) in [Yamantau](https://metrovideogame.fandom.com/wiki/Yamantau_(Metro_Exodus_Level)) are equipped with the Tikhar, nor is there any found in the environment of Yamantau. There are sights and gadgets that can be equipped to the Tikhar that can be recovered.
 
 - There are two **NV Scopes** for the Tikhar that can be found in the environment of Yamantau:
@@ -111,8 +147,7 @@ None of the [Cannibals](https://metrovideogame.fandom.com/wiki/Cannibals) in [Ya
   - In the first barracks section, in the last room on the right, propped up in a chair. Attached to a Kalash.
   - After passing through pile of rubble to reach a isolated bunkroom. Climb up the stack of boxes to reach the top of the small room, there on another crate. Attached to Ashot
 
-#### '''The Caspian'''
-
+#### **The Caspian**
 None of the [Munai-Bailer](https://metrovideogame.fandom.com/wiki/Munai-bailer) in the Caspian are equipped with the Tikhar, nor is there any found in the environment of Caspian. There are Stocks, Sights and gadgets that can be equipped to the Tikhar that can be recovered for use, along with further upgrades that are available at the workbench in the Aurora as you progress down the story-line. All directions are given in reference as though North on Artyom's map in this level is actually south. The Caspian sea should be to the south while the rail line that the Aurora is on is to the north.
 - There are four **Assault Stock, Grip and Forend** that can be found in the the Caspian:
   - Southwest of Saul's outpost, at the end on the exposed docks, on a leather seat next to a fire pit. Attached to a Valve.
@@ -147,8 +182,7 @@ None of the [Munai-Bailer](https://metrovideogame.fandom.com/wiki/Munai-bailer) 
   - At the central crossroads southwest of the central oil field, there is a wrecked van and to the northwest of the van, on the ground next to a dead combat slave. Attached to a Revolver.
   - In the abandon helicopter base to the northwest of the map, in the northwest corner past the hangers. There is a shack made from sheet metal, on a table to the left immediately after entering. Attache to a Revolver.
 
-#### '''The Taiga'''
-
+#### **The Taiga**
 None of the [Children of the Forest](https://metrovideogame.fandom.com/wiki/Children_of_the_Forest) or the Bandits in Taiga are equipped with the Tikhar, nor is there any found in the environment of Taiga. There are Stocks, Sights and gadgets that can be equipped to the Tikhar that can be recovered for later use.
 - There are seven **Assault Stock, Grip and Forend** for the Tikhar in the Taiga:
   - In the island cache, just east of the Forest Court settlement. Laying on a dirt filled wooden crate. Attached to a Helsing.
@@ -183,8 +217,7 @@ None of the [Children of the Forest](https://metrovideogame.fandom.com/wiki/Chil
   - Three of the Bandits in the abandoned village will have **x6 Scopes** as part of their load-out. All three are attached to Valves.
   - Four of the Pirates in the Swamp Camp will have **x6 Scopes** as part of their load-out. All four are attached to Valves.
 
-#### '''The Dead City'''
-
+#### **The Dead City**
 There is only one Tikhar that can be found in the environment of [Novosibirsk](https://metrovideogame.fandom.com/wiki/The_Dead_City_(Metro_Exodus_Level)).
 - There is one **Heavy Stock** for the Tikhar can be found in Novosibirsk:
   - Once you reach [Kirill](https://metrovideogame.fandom.com/wiki/Kirill_(Exodus))'s room. Miller will leave his Tikhar with an attached **Heavy Stock** on a shelf near the workbench.
@@ -195,7 +228,7 @@ There is only one Tikhar that can be found in the environment of [Novosibirsk](h
 - There is one **Horizontal Magazine** for the Tikhar can be found in Novosibirsk:
   - Once you reach Kirill's room. Miller will leave his Tikhar with an attached **Horizontal Magazine** on a shelf near the workbench.
 
-## Related Achievements/Trophies
+## Related [Achievements/Trophies](https://metrovideogame.fandom.com/wiki/Achievements_and_Trophies)
 
 ### Metro 2033
 
@@ -206,7 +239,6 @@ There is only one Tikhar that can be found in the environment of [Novosibirsk](h
 ### Metro Exodus
 
 ## Trivia
-
 - The word Tihar (Russian: Тихарь) means "*silent one*".
 - In *[Metro 2033](https://metrovideogame.fandom.com/wiki/Metro_2033_(Video_Game))*, it is spelled Tihar. In *Metro: Last Light* and *Metro Exodus*, however, it's spelled Tikhar. This is due to there being no literal translation of the Russian name -Тихарь, as the Cyrillic 'x' is not exactly the same as an English 'h'. Although it's common to use 'kh' as a different romanization, neither is incorrect.
 - The Tihar has a pressure gauge that is easier to check than that of the Helsing.
@@ -221,15 +253,10 @@ There is only one Tikhar that can be found in the environment of [Novosibirsk](h
 - In reality, a Tihar's ammunition would neither be particularly accurate nor possess much penetrating power against body armour - certainly not to the point that they could be considered useful sniper ammunition capable of accurately and quietly penetrating military-grade helmets at a good distance, like they can when fired from a fully-pressurized Tihar in the games. Spherical projectiles have all but disappeared from use in modern-day guns (one major exception being the spherical pellets used in shotgun ammunition, where low individual accuracy and poor armour penetration are not considered major issues), due to the fact that they cannot be effectively spin-stabilized by a gun's rifling and thus are not particularly accurate when fired. Using scavenged steel ball bearings as-is in a Tihar-like air gun would also restrict it to being a short-ranged weapon, both due to the aforementioned inaccuracy and the fact that the comparatively low density of steel, as opposed to the denser and more commonly-used lead-cored ammunition in conventional firearms, would mean that the steel ball bearings would possess low momentum and thus low effective range before losing too much velocity from air drag to be useful. These aforementioned factors, plus the subsonic firing velocity, would also make Tihar ammunition less-than-suited to penetrating body armour, as the steel balls would possess low sectional density (as opposed to a bullet- or arrow-shaped object) and thus be very hard-pressed to penetrate the metal helmets or other metallic body armour seen in the games.
 
 ## Bugs
-
 - The Tihar's scope can be hard to use at medium or lower resolutions, as the cross-hair lines are extremely thin, resulting in them "disappearing between the pixels"
 - The Tihar's scope may cause delays when used, making it very difficult to aim.
 - In *[Metro Last Light Redux](https://metrovideogame.fandom.com/wiki/Metro_Last_Light_Redux)*, if the Tikhar is equipped with a Laser Sight attachment, the laser dot will be misaligned, pointing a little bit to right and down from the center of the screen.
 
-## Gallery
+making-of-metro-exodus-weapon-detail-customization-engine-4a-games-re_feature.jpg
 
 ## References
-
-[de:Tihar](https://metrovideogame.fandom.com/wiki/de:Tihar)
-[ru:Тихарь](https://metrovideogame.fandom.com/wiki/ru:Тихарь)
-[uk:Тихар](https://metrovideogame.fandom.com/wiki/uk:Тихар)

@@ -5,23 +5,16 @@ group: Assault Rifles
 order: 22
 image: /weapon-imgs/kalash.png
 brief: "The Kalash (also known as the AK-74M, or formally the Автомат Калашникова образца 1974 года (Модернизи́рованный), Kal..."
-wiki: Kalash
+wiki: "Kalash_(AK-74M)"
 appearances: Metro 2033, Metro Last Light, Metro Exodus
 ---
-
-> "The classic pre-war assault rifle. Despite being very common, it is held in very high regard in the Metro due to its reliability and performance."
-> — Last Light in-game description
 
 The **Kalash** (also known as the **AK-74M**, or formally the **Автомат Калашникова образца 1974 года (Модернизи́рованный)**, **Kalashnikov assault rifle model 1974 (modernized)**) was the service rifle of the [Russia](https://metrovideogame.fandom.com/wiki/Russia)n army before the nuclear war that drove humanity underground.
 
 ## Overview
-
 As a pre-war weapon, it shows superior craftsmanship and manufacturing and is highly prized for its ability to keep working in even the worst climatic conditions - a reputation that it has carried through [World War III](https://metrovideogame.fandom.com/wiki/World_War_III). Considered by many to be among the finest [weapons](https://metrovideogame.fandom.com/wiki/weapons) available underground, the AK-74M's rugged reliability makes it a highly-prized weapon by many of the metro inhabitants. Since it is a primary weapon, it can use both dirty and military-grade [5.45x39mm](https://metrovideogame.fandom.com/wiki/Military_Grade_Rounds) cartridges.
 
 The very first Kalash available to [Artyom](https://metrovideogame.fandom.com/wiki/Artyom) in *[Metro](https://metrovideogame.fandom.com/wiki/Metro_2033_(Video_Game))* is provided by [Bourbon](https://metrovideogame.fandom.com/wiki/Bourbon). He offers his rifle as a reward for escorting him from [Riga](https://metrovideogame.fandom.com/wiki/Riga_Station_(Location)) to [Dry](https://metrovideogame.fandom.com/wiki/Dry_Station_(Location)). It can be found behind him at the start of the respective level.
-
-> "''Everybody calls me "Bourbon". Listen... I need to get to Dry Station, for some "business", but this rat-hole is on lockdown. I, however, know a back way - a so-called "cursed" passage - the locals are afraid to use. But I hear that the shit in the tunnels doesn't work on you. So, you help me get to Dry and I'll give you my AK when we get there. Deal?''"
-> — Bourbon
 
 After that, AK-74M's can be reliably found on most levels up until [Tower](https://metrovideogame.fandom.com/wiki/Tower).
 
@@ -30,9 +23,7 @@ The Kalash makes a return in *[Metro Last Light](https://metrovideogame.fandom.c
 The Kalash is the second weapon Artyom is given in *[Metro Exodus](https://metrovideogame.fandom.com/wiki/Metro_Exodus)*, being used with a Standard Stock and Grip, Standard Barrel and compensator, Reflex Sight, 20-Round Small Magazine, and No Gadget. The weapon is later found in use by the [Hansa](https://metrovideogame.fandom.com/wiki/Hansa) in its most simple format, with a Light Grip, Short Barrel and Flash Suppressor, Iron Sights, 20-Round Small Magazine, and No Gadget. It serves as the sole assault rifle for the first portion of the game, and stays ubiquitous through out the entire game.
 
 ## Tactics and Use
-
-### '''Metro 2033'''
-
+### **Metro 2033**
 The Kalash has the second lowest fire rate of the group and moderate accuracy. This weapon lacks a silenced version, which makes it impractical for stealth. If your playstyle is being subtle, consider getting the [VSV](https://metrovideogame.fandom.com/wiki/VSV) as your primary weapon.
 
 A slow rate of fire and high damage make it perfect for conserving ammunition, which makes it an optimal choice for levels such as "[Frontline](https://metrovideogame.fandom.com/wiki/Frontline_(Level))". As with all primary weapons, the Kalash loaded with MGRs is capable of killing almost anything with a single shot on higher difficulties. To conserve the ammo, firing bursts is recommended, except in close quarters. If Artyom is good with dirty ammo, he can keep the Kalash as his main weapon until the better [Kalash 2012](https://metrovideogame.fandom.com/wiki/Kalash_2012) becomes available.
@@ -41,16 +32,14 @@ The scoped version increases Artyom's reach, however, due to the lack of sniping
 
 This works both ways though and human opponents armed with AK-74Ms grow progressively more and more dangerous as the difficulty setting goes up. Due to that most firefights should be approached with "*who shoots first - wins*" mentality.
 
-### '''Metro: Last Light'''
-
+### **Metro: Last Light**
 In the sequel, the AK-74M has become one of the more versatile weapons in the Artyom's arsenal thanks to the new [attachment](https://metrovideogame.fandom.com/wiki/Attachments) system. This time around it can accept a silencer which makes it invaluable for stealth. It can also accept reflex, IRNV and 2x optical sights, making it useful for both close and long range combat, as well as additional attachments, including an extended 45 round RPK-styled magazine, and laser designator, useful for ranger difficulties.
 
 As with all primary weapons, the AK-74M loaded with MGRs is capable of killing almost anything with a single shot on higher difficulties. This weapon is common and used by all three major factions in the game and used by some major characters. You can also buy them at almost all shops in the game.
 
 The AK-74M is a very balanced weapon, with the correct attachments, this weapon can handle almost any firefight in the game, its one major weakness is the AK-74M performs poorly at long range combat even with optics. And the rate of fire is lower compared to VSV and Kalash 2012.
 
-### '''Metro Exodus'''
-
+### **Metro Exodus**
 The Kalash is the primary assault rifle for much of Metro Exodus. As the second weapon introduced to the character (behind the [Shambler](https://metrovideogame.fandom.com/wiki/Shambler)), the Kalash makes good use of the new attachment and customisation system to fill numerous roles, including the [AKS-74u](https://metrovideogame.fandom.com/wiki/AKS-74u), standard AK-74M and [RPK](https://metrovideogame.fandom.com/wiki/RPK).
 
 Kalash rifles can be found throughout the main story of Exodus and its DLCs, however they are not of the same gameplay value as in the base game. In [The Two Colonels](https://metrovideogame.fandom.com/wiki/The_Two_Colonels), [Colonel Khlebnikov](https://metrovideogame.fandom.com/wiki/Khlebnikov) briefly acquires a Kalash and an Ashot while defending [Sibirskaya](https://metrovideogame.fandom.com/wiki/Sibirskaya) during the [Novosibirsk Riots](https://metrovideogame.fandom.com/wiki/Novosibirsk_Riots), however after this he switches back to a [flamethrower](https://metrovideogame.fandom.com/wiki/flamethrower) for the rest of the story. In [Sam's Story](https://metrovideogame.fandom.com/wiki/Sam's_Story), the Kalash can be frequently found throughout [Vladivostok](https://metrovideogame.fandom.com/wiki/Vladivostok). It is less effective, however, as the [Sammy](https://metrovideogame.fandom.com/wiki/Sammy), an assault rifle also capable of using the new [Incendiary 5.45x39mm](https://metrovideogame.fandom.com/wiki/Incendiary_5.45x39mm) rounds, fills the slot of the pneumatic weapons from the main game, and no other weapons that use this slot can be found.
@@ -58,21 +47,57 @@ Kalash rifles can be found throughout the main story of Exodus and its DLCs, how
 The Kalash shares all three of its upgradable stocks with the [Bulldog](https://metrovideogame.fandom.com/wiki/Bulldog) and [Shambler](https://metrovideogame.fandom.com/wiki/Uboinik_(Shambler)), All three of its upgradable barrels, its 30-Round Magazine and its 45-Round Extended Magazine with the Bulldog, but it can equip a 75-round High Capacity Magazine, unique to this weapon. The Kalash is able to equip all three laser gadgets. The Kalash is able equip the Reflex Sight, NV Scope, and x4 Scope.
 
 ## Variants and Customisation
+### **Metro 2033**
 
-### '''Metro 2033'''
+| [AK-74M sideview M2033](/weapon-imgs/inline/kalash/ak-74m-sideview-m2033.png) | [AK-74M scope sideview M2033](/weapon-imgs/inline/kalash/ak-74m-scope-sideview-m2033.png) |
+| --- | --- |
+|  | **Kalash**: A standard AK-74M with iron sights. |
+|  | **Kalash with Scope and Laser Sight**: An AK-74M with a PK-AV scope. The laser sight is useful on higher difficulty levels and the ranger difficulty, when firing from the hip since the crosshair is permanently turned off. The zoom of the scope is somewhat excessive for close range combat. The laser sight is also projected on the centre of the crosshair of the scope and can be seen when zoomed with the scope. |
 
-### '''Metro: Last Light'''
-
+### **Metro: Last Light**
 The Kalash has three attachment slots and six available attachments in total. Attachments in the Misc slot can be equipped both at once, so the Kalash can have four different attachments at the same time.
 
-### '''Metro Exodus'''
+**Available attachments**
 
+| **Name** | **Effect** | **Description** |
+| --- | --- | --- |
+| Reflex sight | Range **+25%** | This pre-war sight makes aiming the gun at close and medium range easier, without sacrificing much of the field of view. |
+| 2x sight | Range **+50%** | This pre-war optical sight facilitates weapon aiming at medium range but limits the field of view, making it hard to use in the confines of tunnels. |
+| IR sight | Range **+50%** | A piece of pre-war military tech, this Night Vision sight allows for precisely hitting targets in the dark. |
+| Suppressor | Range **-25%** | Hides the muzzle flash and muffles the shots, decreasing spread at the same time. Projectile speed is also decreased, leading to more damage falloff. |
+| Extended magazine | Mag capacity **+50%** | This light machine gun magazine is capable of holding a ranger's weekly earningsand allows for longer sustained fire with less reloads. |
+| Laser sight | Accuracy **+25%** | A pre-war laser sight facilitates aiming the weapon at close range, making precise snapshots easy to achieve. |
+
+### **Metro Exodus**
 The Kalash shares all three of its upgradable stocks with the [Bulldog](https://metrovideogame.fandom.com/wiki/Bulldog) and [Shambler](https://metrovideogame.fandom.com/wiki/Uboinik_(Shambler)), All three of its upgradable barrels, its 30-Round Magazine and its 45-Round Extended Magazine with the Bulldog, but it can equip a 75-round High Capacity Magazine, unique to this weapon. The Kalash is able to equip all three laser gadgets. The Kalash is able equip the Reflex Sight, NV Scope, and x4 Scope.
 
+**List of upgrades**
+
+| **Name** | **Effect** | **Description** |
+| --- | --- | --- |
+| Light grip | None (default) | Made from a steel band with fitted plywood lining, this grip is the most practical choice for short range combat. |
+| Standard stock and grip | Stability **+2** | Wooden stock and grip. Traditional for Kalash. |
+| Semi-grip stock | Stability **+3** | Wooden stock with a steep-angle cutout provides a more comfortable hand position. |
+| Heavy stock and grip | Stability **+10** | Heavy shoulder stock with a metal grip. Army type attachment designed to significantly decrease recoil. |
+| Short barrel and flash suppressor | None (default) | Lightest barrel and muzzle attachment combo readily available for assault rifles. |
+| Short barrel and suppressor | Damage **-1** | Tries to suppress sound with mixed results, while staying a bit more compact than a full-scale barrel. |
+| Standard barrel and compensator | Damage **+1** | Provides decent accuracy while not being too cumbersome. |
+| Long barrel and compensator | Damage **+2** | Designed to increase accuracy and damage, this barrel and muzzle attachment combo is not the best choice for the more dynamic firefights. |
+| Iron sights | Aim with iron sights | Standard sight used to assist in aiming. |
+| Reflex sight | Iron sight replaced with reflex sight | This pre-war sight makes aiming the gun at close and medium range easier, without sacrificing much of the field of view. |
+| NV scope | Iron sight replaced with night vision scope | This night-vision scope allows for accurate placement of shots even in complete darkness. |
+| Scope 4x | Iron sight replaced with 4x scope | 4x variable zoom scope. |
+| Small magazine | **20**-round magazine | Small magazine holding 20 rounds of ammunition, light and compact. |
+| Magazine | **30**-round magazine | Standard magazine holding 30 rounds of ammunition. |
+| Extended magazine | **45**-round magazine | Large magazine holding up to 45 rounds of ammunition. Quite heavy. |
+| High capacity magazine | **75**-round magazine | An oversized magazine holding 75 rounds of ammunition. The heaviest possible option. |
+| No gadget | None (default) | Less gadgets, less problems. |
+| Red laser | Crosshair replaced with red laser dot | Made from a cheap laser pointer that was heavily modified to increase power output at the cost of reliability. |
+| Green laser | Crosshair replaced with green laser dot | High visibility laser sight reassembled in a custom-made body along with a bunch of modifications. |
+| Infrared laser | Crosshair replaced with IR laser dot with NV active | The IR laser sight's invisible beam produces a very small dot on the target, which is only detectable with a night vision device. |
+
 ## Acquisition
-
-### '''Metro 2033'''
-
+### **Metro 2033**
 **Kalash**:
 - Can be found during the [Prologue](https://metrovideogame.fandom.com/wiki/Prologue) level, shortly after the level begins.
 - Can be purchased in the [Armory](https://metrovideogame.fandom.com/wiki/Armory_(Level)).
@@ -86,15 +111,13 @@ The Kalash shares all three of its upgradable stocks with the [Bulldog](https://
 - Can be purchased near the end of the "[Child](https://metrovideogame.fandom.com/wiki/Child_(Level))" level.
 - Can be found during the "[Tower](https://metrovideogame.fandom.com/wiki/Tower)" level after the Demon attack, on a body of a Ranger crushed by the [truck](https://metrovideogame.fandom.com/wiki/Armored_Truck).
 
-### '''Metro Exodus'''
+### **Metro Exodus**
 
-#### '''Moscow'''
-
+#### **Moscow**
 When exploring with Anna in [Moscow](https://metrovideogame.fandom.com/wiki/Moscow_(Metro_Exodus_Level)), Artyom is equipped with a Kalash with a Standard Stock and Grip, a Standard Barrel and Compensator, a Reflex Sight, a Small Magazine, and No Gadget. These upgrades do not carry over to the rest of the game.
 After the cut-scene with the [Mirsky](https://metrovideogame.fandom.com/wiki/Mirsky), Artyom will take a Kalash with a Light Grip, a Short Barrel and Flash Suppressor, Iron Sights, a Small Magazine, and No Gadget. All of the [Hanza](https://metrovideogame.fandom.com/wiki/Hanza) Guards in Jamming Outpost and on the [Cruiser](https://metrovideogame.fandom.com/wiki/Red_Line_Armoured_Train) in [Moscow](https://metrovideogame.fandom.com/wiki/Moscow_(Metro_Exodus_Level)) are equipped with the Kalash. The Backpack System is not yet enabled so any weapon upgrades you find are only usable by swapping weapons.
 
-#### '''Volga'''
-
+#### **Volga**
 The [Bandits](https://metrovideogame.fandom.com/wiki/Bandits_(Faction)), the armed [fanatics](https://metrovideogame.fandom.com/wiki/Church_of_the_Water_Tsar) and the trade caravan guards are equipped with Kalash in a variety of configurations. The Kalash is the fourth most commonly used weapon by the [Bandits](https://metrovideogame.fandom.com/wiki/Bandits_(Faction)), the third most used weapon by the trade caravan guards, and the second most commonly used weapon by armed [fanatics](https://metrovideogame.fandom.com/wiki/Church_of_the_Water_Tsar) along with being somewhat rarely found in the environment in the Caspian.
 
 - All of the Kalashs found in the hands of the Bandits and the fanatics are equipped with **Light Grips**.
@@ -150,8 +173,7 @@ The [Bandits](https://metrovideogame.fandom.com/wiki/Bandits_(Faction)), the arm
   - Laying on top of a partially destroyed wooden crate next to a dead fanatic inside the destroyed warehouse that is Humanimals nest. Attached to a Kalash.
 
 
-#### '''Yamantau'''
-
+#### **Yamantau**
 The [Cannibals](https://metrovideogame.fandom.com/wiki/Cannibals) in [Yamantau](https://metrovideogame.fandom.com/wiki/Yamantau_(Metro_Exodus_Level)) are equipped with Kalashs in a variety of configurations. The Kalash is the most used weapon by the Cannibals in Yamantau along with being the most common weapon found in the environment.
 
 - Kalashs found in the in the hands of the Cannibals are equally equipped with **Light Grips** or **Standard Stocks and Grips**.
@@ -178,8 +200,7 @@ The [Cannibals](https://metrovideogame.fandom.com/wiki/Cannibals) in [Yamantau](
   - After passing through pile of rubble to reach a isolated bunkroom. Climb up the stack of boxes to reach the top of the small room, there on another crate. Attached to Ashot
 
 
-#### '''The Caspian'''
-
+#### **The Caspian**
 The [Munai-Bailer](https://metrovideogame.fandom.com/wiki/Munai-bailer) in [Caspian](https://metrovideogame.fandom.com/wiki/The_Caspian_(Metro_Exodus_Level)) are equipped with Kalashs in a variety of configurations. The Kalash is the most commonly used weapon by the Munai-Bailer along with being commonly found in the environment in the Caspian. All directions are given in reference as though North on Artyom's map in this level is actually south. The Caspian sea should be to the south while the rail line that the Aurora is on is to the north.
 
 - There are multiple **Standard Stock and Grips** for the Kalash that can be found in Caspian:
@@ -270,8 +291,7 @@ The [Munai-Bailer](https://metrovideogame.fandom.com/wiki/Munai-bailer) in [Casp
   - In the abandon helicopter base to the northwest of the map, in the northwest corner past the hangers. There is a shack made from sheet metal, on a table to the left immediately after entering. Attached to a Revolver.
 
 
-#### '''Taiga'''
-
+#### **Taiga**
 The [Pirates](https://metrovideogame.fandom.com/wiki/Children_of_the_Forest) of the Swamp Camp in the [Taiga](https://metrovideogame.fandom.com/wiki/The_Taiga_(Metro_Exodus_Level)) are equipped with Kalashs in a variety of configurations as it is their third most used weapon. This is the only source of the Kalash or their upgrades aside from sights in the Taiga.
 
 - There are two **Standard Stock and Grips** for the Kalash that can be found in Taiga:
@@ -302,8 +322,7 @@ The [Pirates](https://metrovideogame.fandom.com/wiki/Children_of_the_Forest) of 
   - Two of the Pirates in the Swamp Camp will have **45-Round Extended Magazines** as part of their load-out. Both are attached to Kalashs.
 
 
-#### '''Dead City'''
-
+#### **Dead City**
 There are not any human enemies in [Novosibirsk](https://metrovideogame.fandom.com/wiki/The_Dead_City_(Metro_Exodus_Level)). all Kalashs or their upgrades are found in the environment.
 
 - There is one **Standard Stock and Grips** for the Kalash that can be found in Novosibirsk:
@@ -320,16 +339,13 @@ There are not any human enemies in [Novosibirsk](https://metrovideogame.fandom.c
   - In the middle of the burned out section of Prospekt, underneath a spotlight and a pile of burned corpse. Attached to a Kalash.
   - After descending into the hole with crashed T-72B3, follow the underground hallway. On the right there is a bulkhead door which is closed. Further down the hallway is a cyan door. Inside this first room, there is a junction box, jump it with Artyom's electrical equipment. There is a crawlspace on the left side of the first room, inside the second room there is a lever to open the bulkhead door. In the space between the now open bulkhead and the gated entrance to a station, on some bedding. Attached to a Kalash.
 
-
-#### '''The Two Colonels (3 Months Ago Riot Suppression)'''
-
+#### **The Two Colonels (3 Months Ago [Riot Suppression](https://metrovideogame.fandom.com/wiki/Novosibirsk_Riots))**
 In the third section of the story, after Colonel Khlebnikov talks with Kirill before sending him home. He will pick up a [Kalash](https://metrovideogame.fandom.com/wiki/Kalash_(AK-74M)) equipped with a Standard Stock and Grip, a Short Barrel and Suppressor, a Reflex Sight, a 45-Round Extended Magazine and a Green Laser.
 
 - The nearby workbench allows access to the following upgrades, the Semi-Grip Stock, the Heavy Stock and Grip, the Standard Barrel and Compensator, the Long Barrel and Compensator, a NV Scope, the 30-Round Standard Magazine, and the 75-Round High Capacity Magazine.
 - After this leaving the armory, for the rest of this section, Colonel Khlebnikov will only be able to recover ammo from the environment and will be unable to make any changes to his equipment loadout.
 
-## Related Achievements/Trophies
-
+## Related [Achievements/Trophies](https://metrovideogame.fandom.com/wiki/Achievements_and_Trophies)
 ### Metro 2033
 
 ### Metro: Last Light
@@ -337,23 +353,18 @@ In the third section of the story, after Colonel Khlebnikov talks with Kirill be
 ### Metro Exodus
 
 ## Trivia
-
 ### Novel
-
 - In the novel, the firearms are never referred to by their exact name. Artyom and the [VDNKh](https://metrovideogame.fandom.com/wiki/VDNKh) convoy guards carry "bulky military 7.62 calibre "machine guns" with wooden butts", (AK-47s or, more likely, AKMs) and weapons carried by [Bourbon](https://metrovideogame.fandom.com/wiki/Bourbon) and [Hansa](https://metrovideogame.fandom.com/wiki/Hansa) guards are implied to be [AKS-74Us](https://metrovideogame.fandom.com/wiki/Modified_Russian_Rifle_(AKS-74U)). (*"It was also a Kalashnikov but it was cut-off like the ones held by the Hansa border guards, with a hinged butt and a short socket instead."*) In *[Metro 2035](https://metrovideogame.fandom.com/wiki/Metro_2035)*, however, the weapons used by the order are recognized by Artyom, saying they are silenced AK-74's.
 - Artyom had an old AK-74 before being captured by the [Nazis](https://metrovideogame.fandom.com/wiki/Fourth_Reich), while [Anton](https://metrovideogame.fandom.com/wiki/Anton) equipped his own AK-74 before they set out for [Park Pobedy](https://metrovideogame.fandom.com/wiki/Park_Pobedy).
 
 ### Video Games
-
 #### General
-
 - If left idle, Artyom will run his finger along the exposed cartridges in the magazine.
 - Even though the Kalash's magazines have huge slots cut into them, which would invite debris and dirt into and obstruct the feeding system, this is never a concern in any of the games. If a Kalash misfeeds, it's typically treated as something wrong with the gun rather than the magazine.
   - This modification was used extensively by the Soviet troops during the USSR/Afghanistan war in the 80s, and mostly used by Russians today. The durability of the AK line, combined with the generally cold and dry atmosphere of the metro, means this may not be as big of an issue.
 - Upon close inspection, the selector lever on all Kalash's is always set to semi-automatic, regardless of their actual operation.
 
 #### Metro 2033 and Metro: Last Light
-
 - The weapon in the game is a AK-74M. The *Metro 2033* version comes with a most likely handmade wooden handguard. The *Metro: Last Light* version comes with a cut down Mosin Nagant M1891 stock as its lower handguard and a half pipe with ventholes as its upper handguard. Alpha versions of the Kalash looked more like the real-life AK-74M with minor visual changes.
 - The Kalash has an incorrect reload animation; the magazines are inserted straight in, rather than at an angle and locked in as is standard for all AK-pattern rifles. The same can be seen on the [AKS-74u](https://metrovideogame.fandom.com/wiki/AKS-74u) and the [RPK](https://metrovideogame.fandom.com/wiki/RPK). This has been rectified in *[Metro Exodus](https://metrovideogame.fandom.com/wiki/Metro_Exodus)*.
 - In *[Metro 2033](https://metrovideogame.fandom.com/wiki/Metro_2033_(Video_Game))*, the Kalash has a woodland camouflage pattern and wrapping around the stock whereas in Metro Last Light and 2033 Redux, the Kalash is a matte black pattern.
@@ -371,7 +382,6 @@ In the third section of the story, after Colonel Khlebnikov talks with Kirill be
 - In Last Light, the upper barrel of the Kalash has a striking resemblance to the Khyber Customs Swiss Cheese Grater upper barrel.
 
 #### Metro Exodus
-
 - The gun's model in Exodus has the inscription of AK-103 on it, which is a newer derivative of the AK-74M chambered for the 7.62×39mm round, in service with various special operations groups in Russia since 2001. In-game, the firearm continues to use the 5.45x39mm round that the AK-74M uses.
 - The heavy stock option features a stock that appears to be from a PKM, but cut in half and reconnected with springs to reduce the recoil in a similar manner to that of the [Duplet](https://metrovideogame.fandom.com/wiki/Duplet).
 - The Kalash in *Metro Exodus* has two different dry reload animations depending on which magazines are attached. When using 20 or 30 round magazines, Artyom will perform an underhanded charge. If the 45 or 75 round magazines are attached, then he will pull the charging handle with his right hand. This is because the 45/75 round magazines are too large and awkward to reach around under the gun with the left hand.
@@ -379,15 +389,9 @@ In the third section of the story, after Colonel Khlebnikov talks with Kirill be
 - Although only mentioned as an implicitly exclusive mechanic on the Bastard, the Kalash does in fact possess an overheat mechanic in Metro Exodus. The easiest way to witness this is attempting to magdump a 75 round magazine, as the barrel will start to glow red hot before the gun jams shortly there after.
   - The dirtier the Kalash is, the faster the overheat mechanic will come into effect. When at full degradation even a 30 round magazine may overheat the weapon.
 
-## Gallery
 
 ## Video Gallery
 
-## Reference
+![Metro Last Light - Kalashnikov](/weapon-imgs/inline/kalash/metro-last-light---kalashnikov)
 
-[de:Kalash 74](https://metrovideogame.fandom.com/wiki/de:Kalash_74)
-[ru:Калаш](https://metrovideogame.fandom.com/wiki/ru:Калаш)
-[uk:Калаш](https://metrovideogame.fandom.com/wiki/uk:Калаш)
-[fr:Kalash](https://metrovideogame.fandom.com/wiki/fr:Kalash)
-[pl:Kałach](https://metrovideogame.fandom.com/wiki/pl:Kałach)
-[es:Kalash](https://metrovideogame.fandom.com/wiki/es:Kalash)
+## Reference

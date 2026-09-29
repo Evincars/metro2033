@@ -15,7 +15,6 @@ appearances: Metro Last Light, Metro Exodus
 The **Valve** (Russian: **Вентиль**) is a makeshift straight-pull bolt-action rifle in *[Metro: Last Light](https://metrovideogame.fandom.com/wiki/Metro:_Last_Light)* and *[Metro Exodus](https://metrovideogame.fandom.com/wiki/Metro_Exodus)*, created from older pre-war rifles by [Metro](https://metrovideogame.fandom.com/wiki/Post-Apocalyptic_Metro_System) dwellers. It's the first bolt-action rifle in the series and is one of only three true sniper rifles in the games, with the others being the [Preved](https://metrovideogame.fandom.com/wiki/Preved) and the [Clapper](https://metrovideogame.fandom.com/wiki/Clapper).
 
 ## Overview
-
 This rifle is accurate and deadly, but requires a moment in between each shot before another can be fired when Artyom pulls the bolt back. The Valve utilizes a straight-pull bolt charging system (the same as the real life Mondragón rifle). It could have also been built recycling parts (notably the barrel) from old stored Mosin Nagant rifles, PK machinegun, and Dragunov sniper rifles as well.
 
 While not as high as the rare [Preved](https://metrovideogame.fandom.com/wiki/Preved), the Valve has a high damage output - enough to kill almost all unarmored enemies in one shot - it will stagger stronger enemies too, giving Artyom a chance to find cover or fire another round. The Valve can dispatch enemies with ease at mid to long ranges, even more so with [attachments](https://metrovideogame.fandom.com/wiki/attachments) like a 4X optical scope. The rate of fire (ROF) is much faster than Preved, especially if the Preved is not upgraded. Although still slower than the semi-automatic Clapper, the Valve is just a little slower in ROF and more common than Clapper.
@@ -27,23 +26,59 @@ Its main function is obviously a sniper rifle - it can easily pick off enemies f
 Since there are not a lot of places that the player can actually snipe, and the mission that built for snipers, the [Sniper Team](https://metrovideogame.fandom.com/wiki/Sniper_Team), already has the much superior [Clapper](https://metrovideogame.fandom.com/wiki/Clapper_(VSSK_Vychlop)) for the player, thus Valve is seldom or may even never to be seen in player’s arsenal. However, some large maps, like Bridge, the Valve can be use to pick off mutants before they get close, once again, this demands accuracy as the opponent will not stand still.
 
 ## Variants and customization
-
 ### Metro: Last Light
-
 The Valve has three [attachment](https://metrovideogame.fandom.com/wiki/Attachments) slots: optics, barrel and misc. 6 different attachments are available for the Valve: three optics, one barrel and two misc. Both misc attachments can be equipped at once, other slots only take one attachment.
 
-### Metro Exodus
+**Available attachments**
 
+| **Name** | **Effect** | **Description** |
+| --- | --- | --- |
+| Reflex sight | Range **+25%** | This pre-war sight makes aiming the gun at close and medium range easier, without sacrificing much of the field of view. |
+| 4x sight | Range **+100%** | This sniper sight allows for easy target acquisition and weapon aiming at extremely long range, but limits the field of view considerably |
+| IR sight | Range **+50%** | A piece of pre-war military tech, this Night Vision sight allows for precisely hitting targets in the dark. |
+| Flash suppressor | Recoil **-50%** | Reduces recoil, improving accuracy; eliminates muzzle flash, which can be quite blinding in the dark of the tunnels. |
+| Extended magazine | Mag capacity **+100%** | The extended magazine allows for firing the rifle for twice as long but makes it much more cumbersome. |
+| Laser sight | Accuracy **+25%** | A pre-war laser sight facilitates aiming the weapon at close range, making precise snapshots easy to achieve. |
+
+### Metro Exodus
 The Valve shares stock upgrades with the [Tikhar](https://metrovideogame.fandom.com/wiki/Tihar) and the [Helsing](https://metrovideogame.fandom.com/wiki/Helsing), the Standard Barrel with the [Revolver](https://metrovideogame.fandom.com/wiki/Revolver) and the [Bastard](https://metrovideogame.fandom.com/wiki/Bastard), the Heavy Barrel with the Bastard, and the Long Barrel with the Revolver. It is able to equip the Reflex Sight, NV Scope, and x6 Scope and all three laser gadgets.
 
 All of the Valve's Magazine are unique to itself as it is the only true bolt-action, high-caliber rifle in the game. The most unique upgrade is the Extended magazine, which not only increases the ammo capacity to 15 rounds, but it also completely changes the mechanism of the weapon, making it semi-automatic, rather than bolt-action, at the cost of slightly lowering the damage per shot.
 
 In [Sam's Story](https://metrovideogame.fandom.com/wiki/Sam's_Story), a unique modification in form of a suppressor was added to the Valve, which is not available in the base game. It replaces Short barrel as the default barrel option for the Valve. The Valve is of less utility in [Vladivostok](https://metrovideogame.fandom.com/wiki/Vladivostok) however, as less stock modifications can be found there.
 
+**List of upgrades**
+
+| **Name** | **Effect** | **Description** |
+| --- | --- | --- |
+| Light grip and forend | None (default) | Light grip built of readily available materials allows its user to shoot safely. |
+| Assault stock, grip and forend | Stability **+1** | Handmade light stock. Slightly reduces recoil. |
+| Sniper stock, grip and forend | Stability **+2** | Sniper wooden stock that looks like it was salvaged from a professional rifle. Greatly reduces recoil. |
+| Heavy stock | Stability **+5** | A piece of pipe fashioned into a stock. Significantly increases weapon stability. |
+| Short barrel | None (default) | Shorter barrel makes the rifle lighter, allowing you to perform all actions with it a little faster. |
+| Suppressor | Accuracy **+2** | Hides the muzzle flash and muffles the shots. Projectile speed is also decreased, leading to a damage falloff. |
+| Standard barrel | Accuracy **+2** | Any steel pipe with an improvised iron sight attached automatically becomes a barrel. |
+| Heavy barrel | Damage **+1** | The heaviest among the barrels, this fluted pipe provides a considerable boost to firepower. |
+| Long barrel | Damage **+3** | Longer barrel provides better rifle accuracy and damage. |
+| Iron sights | Aim with iron sights | Standard sight used to assist in aiming. |
+| Reflex sight | Iron sight replaced with reflex sight | This pre-war sight makes aiming the gun at close and medium range easier, without sacrificing much of the field of view. |
+| NV scope | Iron sight replaced with night vision scope | This night-vision scope allows for accurate placement of shots even in complete darkness. |
+| Scope x6 | Iron sight replaced with x6 scope | This sniper sight allows easy aiming at extremely long distances, but significantly limits the field of view. |
+| No magazine | **1** round in chamber | Standard for old-style rifles - only one round in the chamber. |
+| Single column magazine | **5**-round magazine | Single-column magazine holding 5 rounds of ammunition. A straight-pull bolt allows the shooter to chamber a round and fire it all the while observing the target through the scope. |
+| Staggered magazine | **10**-round magazine | Extended magazine holds up to 10 staggered rounds of ammunition. A straight-pull bolt allows the shooter to chamber a round and fire it all the while observing the target through the scope. |
+| Extended magazine | **15**-round magazine | The extended magazine holds up to 15 rounds of ammunition and, paired with a semi-automatic receiver increases rate of fire considerably at the cost of decreased accuracy and damage dealt to the target. |
+| No gadget | None (default) | Less gadgets, less problems. |
+| Red laser | Crosshair replaced with red laser dot | Made from a cheap laser pointer that was heavily modified to increase power output at the cost of reliability. |
+| Green laser | Crosshair replaced with green laser dot | High visibility laser sight reassembled in a custom-made body along with a bunch of modifications. |
+| Infrared laser | Crosshair replaced with IR laser dot with NV active | The IR laser sight's invisible beam produces a very small dot on the target, which is only detectable with a night vision device. |
+
 ## Acquisition
 
-### Metro: Last Light
+![Metro Last Light Weapons (Valve sniper rifle)](/weapon-imgs/inline/valve/metro-last-light-weapons--valve-sniper-rifle-)
+Valve variants in Metro: Last Light
 
+### Metro: Last Light
 - It can first be acquired in the armory of D6, and can be used in [Ashes](https://metrovideogame.fandom.com/wiki/Ashes). It will, however, be lost unless playing on Ranger mode, where it can be reclaimed at the end of the [Pavel](https://metrovideogame.fandom.com/wiki/Pavel_(Level)) level.
 - Towards the end of "[Regina](https://metrovideogame.fandom.com/wiki/Regina_(Level))", whilst shunting the abandoned rail car, [ghosts](https://metrovideogame.fandom.com/wiki/Ghosts_(Phenomenon)) can be seen standing outside a door on the left. Inside, Artyom will experience visions of those sheltered in the makeshift hospital. At the far end of the room is an unmodified Valve.
 - Available from the merchant in [Venice](https://metrovideogame.fandom.com/wiki/Venice) for 130 [MGR](https://metrovideogame.fandom.com/wiki/MGR).
@@ -53,14 +88,11 @@ In [Sam's Story](https://metrovideogame.fandom.com/wiki/Sam's_Story), a unique m
 - In [Red Square](https://metrovideogame.fandom.com/wiki/Red_Square), after Artyom is saved from the damned souls by the [Baby Dark One](https://metrovideogame.fandom.com/wiki/Baby_Dark_One), there will be a few steps leading to the base of a monument. Leaning against the railing here is a Valve with IR Scope, flash suppressor, laser sight, and extended magazine.
 - Among the weapons available from the Ranger stockpile during the final mission, [D6](https://metrovideogame.fandom.com/wiki/D6). Can be obtained and customized for free.
 
-### '''Metro Exodus'''
-
-#### '''Moscow'''
-
+### **Metro Exodus**
+#### **Moscow**
 None of the [Hanza](https://metrovideogame.fandom.com/wiki/Hanza) Guards in Jamming Outpost or on the [Cruiser](https://metrovideogame.fandom.com/wiki/Red_Line_Armoured_Train) are equipped with the Valve, nor is there any found in the environment of [Moscow](https://metrovideogame.fandom.com/wiki/Moscow_(Metro_Exodus_Level)).
 
-#### '''The Volga'''
-
+#### **The Volga**
 Although some of the Aurora’s crew members can be seen using a Valve in this chapter, teasing the player, none of the [Bandits](https://metrovideogame.fandom.com/wiki/Bandits_(Faction)), the armed [fanatics](https://metrovideogame.fandom.com/wiki/Church_of_the_Water_Tsar), nor the trade caravan guards in the Volga are equipped with the Valve, nor is there any found in the environment of the Volga. There are Barrels, Sights and gadgets that can be equipped to the Shambler that can be recovered for later use.
 - There is one **Sniper Stock, Grip and Forend** for the Valve that can be found in the Volga:
   - At the Aurora, after the briefing from [Miller](https://metrovideogame.fandom.com/wiki/Miller) to find [Krest](https://metrovideogame.fandom.com/wiki/Krest), Tokarev will give Artyom a Tikhar with a **Sniper Stock, Grip and Forend** equipped.
@@ -70,8 +102,7 @@ Although some of the Aurora’s crew members can be seen using a Valve in this c
 - There is one **Long Barrel** for the Valve that can be found in the Volga:
   - In the Bandit occupied ruins, at the the northeast corner of exposed pylons, on the wooden plank next to a zip-line point. Attached to a Revolver.
 
-#### '''Yamantau'''
-
+#### **Yamantau**
 None of the [Cannibals](https://metrovideogame.fandom.com/wiki/Cannibals) in [Yamantau](https://metrovideogame.fandom.com/wiki/Yamantau_(Metro_Exodus_Level)) are not equipped with the Valve, nor is there any found in the environment of Yamantau. There are sights and gadgets that can be equipped to the Bastard that can be recovered.
 - There are two **NV Scopes** for the Valve that can be found in Yamantau:
   - After passing through the frozen morgue and into the weapon storage room, on a table. Attached to a Kalash.
@@ -79,9 +110,7 @@ None of the [Cannibals](https://metrovideogame.fandom.com/wiki/Cannibals) in [Ya
 - There are two **Infrared  Lasers** for the Valve that can be found in the environment of Yamantau:
   - In the first barracks section, in the last room on the right, propped up in a chair. Attached to a Kalash.
   - After passing through pile of rubble to reach a isolated bunkroom. Climb up the stack of boxes to reach the top of the small room, there on another crate. Attached to Ashot
-
-#### '''The Caspian'''
-
+#### **The Caspian**
 The [Munai-Bailer](https://metrovideogame.fandom.com/wiki/Munai-bailer) in [Caspian](https://metrovideogame.fandom.com/wiki/The_Caspian_(Metro_Exodus_Level)) are equipped with Valve in a variety of configurations. The Valve is the fourth most commonly used weapon by the Munai-Bailer along with being uncommonly found in the environment in the Caspian.
 - There are four **Assault Stocks, Grip and Forend** for the Valve that can be found in the Caspian:
   - Southwest of Saul's outpost, at the end on the exposed docks, on a leather seat next to a fire pit. Attached to a Valve.
@@ -154,8 +183,7 @@ The [Munai-Bailer](https://metrovideogame.fandom.com/wiki/Munai-bailer) in [Casp
   - At the central crossroads southwest of the central oil field, there is a wrecked van and to the northwest of the van, on the ground next to a dead combat slave. Attached to a Revolver.
   - In the abandon helicopter base to the northwest of the map, in the northwest corner past the hangers. There is a shack made from sheet metal, on a table to the left immediately after entering. Attache to a Revolver.
 
-#### '''The Taiga'''
-
+#### **The Taiga**
 Further upgrades for the Valve can be found in the [Taiga](https://metrovideogame.fandom.com/wiki/The_Taiga_(Metro_Exodus_Level)) both in the environment or in the hands of humans enemies. The Valve is the fourth most used weapon used by the Children of Forest but the third most used weapon by the Bandits in the Taiga.
 - There are seven **Assault Stocks, Grip and Forend** for the Valve that can be found in the Taiga:
   - In the island cache, just east of the Forest Court settlement. Laying on a dirt filled wooden crate. Attached to a Helsing.
@@ -210,8 +238,7 @@ Further upgrades for the Valve can be found in the [Taiga](https://metrovideogam
 - There is one **15-Round Extended Magazine and Semi-Automatic Receiver** for the Valve that can be found in the Taiga:
   - Inside the northernmost house in the bandit occupied village, on a windowsill. Attached to a Valve.
 
-#### '''The Dead City'''
-
+#### **The Dead City**
 No Valves can be found in the environment of [Novosibirsk](https://metrovideogame.fandom.com/wiki/The_Dead_City_(Metro_Exodus_Level)). Any upgrades that can be equipped to the Valve are found in the environment attached to [Miller's](https://metrovideogame.fandom.com/wiki/Miller) Tikhar.
 
 - There is one **Heavy Stock** for the Valve that can be found in Novosibirsk:
@@ -219,16 +246,13 @@ No Valves can be found in the environment of [Novosibirsk](https://metrovideogam
 - There is one **NV Scope** for the Valve that can be found in the Novosibirsk:
   - Once you reach Kirill's room. Miller will leave his Tikhar with an attached **NV Scope** on a shelf near the workbench.
 
-## Related Achievements/Trophies
-
+## Related [Achievements/Trophies](https://metrovideogame.fandom.com/wiki/Achievements_and_Trophies)
 ### Metro: Last Light
 
 ### Metro Exodus
 
 ## Trivia
-
 ### Metro: Last Light
-
 - Unlike almost every other weapon, if you empty the magazine while holding down the aim-down sight button, the game will not automatically reload the Valve. This means that those who play on Ranger Mode may be unaware that they are empty, unless they are counting the visible rounds. The same happens with the Preved and Clapper.
 - To accommodate the five extra rounds, the extended magazine staggers the rounds in the magazine, though the size of the magazine is incorrectly unchanged - it should be twice as thick to accommodate the staggering. Instead of making the magazine thicker, however, it's just twice as long.
 - This weapon is also unique in that it uses the 7.62x54mmR round, which no other weapon uses. This is a bit more common than the 12.7x108mm rounds that the Preved uses however, and the 7.62x54mmR can be bought, while the latter can only be looted outside of *Metro Redux*.
@@ -239,7 +263,6 @@ No Valves can be found in the environment of [Novosibirsk](https://metrovideogam
 - Like the Preved, without holding the aim-down sight button, the Valve is inaccurate, even with the laser sight attachment. The bullet will stray a bit from the center of screen without the aim-down sight, but the chance of the stray is not as high as in Preved, especially on the short/medium range.
 
 ### Metro Exodus
-
 - The Valve is the sole sniper rifle present in *Metro Exodus* and, according to the Weapons Trailers, is "Anna's weapon of choice". She does, indeed, wield the rifle throughout most of the game. [Idiot](https://metrovideogame.fandom.com/wiki/Idiot), however, does as well, usually with different accessories compared to hers.
 - When the Valve is first encountered in the [Caspian Sea](https://metrovideogame.fandom.com/wiki/Caspian_Sea), a new ammunition type is also added to Artyom's inventory: the [7.62x54mmR](https://metrovideogame.fandom.com/wiki/7.62x54mmR). The Valve is the only weapon to use this ammo (similar to Metro: Last Light) which means it can be broken down if the Valve is not used.
 - The stock Valve actually has a typical turn-down style bolt action; adding a magazine also upgrades the bolt to the more familiar straight-pull action seen in *Metro: Last Light*, with a new wooden bolt handle to go with it. Similarly, the Auto-Ventil configuration swaps out the whole assembly for a semi-auto receiver and charging handle.
@@ -251,9 +274,5 @@ No Valves can be found in the environment of [Novosibirsk](https://metrovideogam
 - When the Valve jams while using a magazine not paired with the semi-auto receiver the bolt simply will not cycle after the last shot leading one to have to manually cycle the bolt for the next round.
 
 ## Bugs
-
 - In *[Metro: Last Light Redux](https://metrovideogame.fandom.com/wiki/Metro:_Last_Light_Redux)*, if the Valve is equipped with a laser sight attachment, the laser dot will be misaligned, pointing a little bit to the right and down from the centre of the screen.
 
-## Gallery
-
-[ru:Вентиль](https://metrovideogame.fandom.com/wiki/ru:Вентиль)

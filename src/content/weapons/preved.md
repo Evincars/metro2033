@@ -15,7 +15,6 @@ appearances: Metro Last Light, Metro Exodus
 The **Preved** (Russian: **Превед**) is a [Metro](https://metrovideogame.fandom.com/wiki/Post-Apocalyptic_Metro_System)-made anti-materiel rifle that appears in *[Metro: Last Light](https://metrovideogame.fandom.com/wiki/Metro:_Last_Light)*. It is known for having the highest single-shot damage out of all weapons in the game (it is capable of defeating the [Bear](https://metrovideogame.fandom.com/wiki/Bear) in as few as five shots on the easier difficulties), as well as being one of the three true sniper rifles in the game - the others being the [Valve](https://metrovideogame.fandom.com/wiki/Valve) and the [Clapper](https://metrovideogame.fandom.com/wiki/Clapper).
 
 ## Overview
-
 The Preved is a high-powered, single-shot, bolt-action anti-materiel rifle which appears in *Metro: Last Light*. The Preved fires the [12.7x108mm](https://metrovideogame.fandom.com/wiki/12.7x108mm) round and has the highest damage per bullet in the game. It appears to be based on the WWII-era PTRD and its semi-auto cousin, PTRS-41 anti-tank rifle.
 
 In its basic configuration it only holds one round, but its capacity can be extended by fitting it with a 5-round detachable box magazine, as well as a 4x scope, and a flash suppressor/muzzle brake.
@@ -25,11 +24,21 @@ The Preved is able to penetrate most forms of cover, retaining more than enough 
 There are very few places in the game where you can successfully snipe, or where stealth would not be more effective. Ammunition is also rare; however, as of Redux, it is possible to purchase ammo directly from merchants available later in the game; in the older version of Last Light, purchasing 12.7x108mm rounds is not possible. Additionally, the fact that the weapon cannot be silenced means it is often less effective than a silenced [Kalash](https://metrovideogame.fandom.com/wiki/Kalash_(AK-74M)), [VSV](https://metrovideogame.fandom.com/wiki/VSV_(VSK-94)), or [Tikhar](https://metrovideogame.fandom.com/wiki/Tihar). One of the few encounters where the usage of this weapon is justified, is during [the final battle for D6](https://metrovideogame.fandom.com/wiki/The_Battle_for_D6), where its anti-materiel capabilities are used in taking out the [Tank](https://metrovideogame.fandom.com/wiki/Railcar), though it performs well afterwards in taking out the armored [Flamethrower](https://metrovideogame.fandom.com/wiki/Flamethrower) trooper and his riot-shielded guard.
 
 ## Variants and Customization
-
 The Preved has four [attachments](https://metrovideogame.fandom.com/wiki/attachments) available to it. Its upgrade pattern is similar to that of the [Valve](https://metrovideogame.fandom.com/wiki/Valve), but with less Optics to choose from. Equipping extended magazine turns the Preved, a single-shot weapon into a bolt-action rifle.
+
+**Available attachments**
+
+| **Name** | **Effect** | **Description** |
+| --- | --- | --- |
+| 4x sight | Range **+100%** | This sniper sight allows for easy target acquisition and weapon aiming at extremely long range, but limits the field of view considerably |
+| Muzzle brake | Recoil **-50%** | Reduces recoil, improving accuracy; eliminates muzzle flash, which can be quite blinding in the dark of the tunnels. |
+| Extended magazine | Mag capacity **+500%** | Makes the rifle heavier and bulkier, but increases the rate of fire substantially. |
+| Laser sight | Accuracy **+25%** | A pre-war laser sight facilitates aiming the weapon at close range, making precise snapshots easy to achieve. |
 
 ## Appearances
 
+![Metro Last Light Weapons (Preved anti-materiel rifle)-0](/weapon-imgs/inline/preved/metro-last-light-weapons--preved-anti-materiel-rifle--0)
+Preved variants in Metro: Last Light
 - A fully upgraded Preved is carried by [Anna](https://metrovideogame.fandom.com/wiki/Anna) at the end of [D6](https://metrovideogame.fandom.com/wiki/D6_(Location)) and is used to cover Artyom during the "[Ashes](https://metrovideogame.fandom.com/wiki/Ashes)" chapter.
 - It first becomes available for purchase from the gun merchant at the [Depot](https://metrovideogame.fandom.com/wiki/Depot_(Metro_Last_Light_Level)), along with all 4 of its attachments.
 - In "[The Dead City](https://metrovideogame.fandom.com/wiki/The_Dead_City_(Metro_Last_Light_Level))", halfway through the mission, after Artyom has a vision of a car about to run him over (when he was hit by a [Watcher](https://metrovideogame.fandom.com/wiki/Watchmen)), he can head upstairs through an open doorway to the left. After a flashback of a woman showering, you can find a Preved with laser sight and flash suppressor lying in the bath.
@@ -40,10 +49,9 @@ The Preved has four [attachments](https://metrovideogame.fandom.com/wiki/attachm
 - In the Chronicles Pack mission "[Anna](https://metrovideogame.fandom.com/wiki/Anna_(Chronicles_Pack_DLC_Level))", a Preved is the player's starting weapon.
 - Much like several other weapons, the Preved is present in *Metro Exodus* only as a configuration for another weapon — in this case, the [Valve](https://metrovideogame.fandom.com/wiki/Valve).
 
-## Related Achievements/Trophies
+## Related [Achievements/Trophies](https://metrovideogame.fandom.com/wiki/Achievements_and_Trophies)
 
 ## Trivia
-
 - Initially it was named "*Surprise*". At some point during development it was changed to "*Preved*", which is a transliteration of a distorted Russian word "*Privet*", which means "*Hello*". However, it can also take on the meaning of "regards" as in "Send my regards to...".
 - [Preved](https://metrovideogame.fandom.com/wiki/wikipedia:Preved) is a meme in the Russian-speaking Internet.
 - Unlike most other weapons, if the magazine is emptied while holding down the aim-down sight button, the game will not automatically reload the Preved. This means that players on Ranger Mode may be unaware that they are empty, unless they're counting the visible rounds. The same happens with the Valve and Clapper.
@@ -56,9 +64,6 @@ The Preved has four [attachments](https://metrovideogame.fandom.com/wiki/attachm
 - In the Weapons Trailers for *[Metro Exodus](https://metrovideogame.fandom.com/wiki/Metro_Exodus)*, the single shot [Valve](https://metrovideogame.fandom.com/wiki/Valve) is nicknamed the Preved.
 
 ## Bugs
-
 - If the Preved is equipped with a Laser Sight attachment, the laser dot will be misaligned, pointing to right and down from the centre of the screen.
 
-## Gallery
-
-[ru:Превед](https://metrovideogame.fandom.com/wiki/ru:Превед)
+Valve.jpg

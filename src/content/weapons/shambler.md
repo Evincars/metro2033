@@ -5,7 +5,7 @@ group: Shotguns
 order: 45
 image: /weapon-imgs/shambler.png
 brief: "The Uboinik (Russian: Убойник, a portmanteau of \"убийца\" (murderer or killer) and \"отбойник\" (jackhammer), also known..."
-wiki: Shambler
+wiki: "Uboinik_(Shambler)"
 appearances: Metro 2033, Metro Last Light, Metro Exodus
 ---
 
@@ -15,7 +15,6 @@ appearances: Metro 2033, Metro Last Light, Metro Exodus
 The **Uboinik** (Russian: **Убойник**, a portmanteau of "убийца" (murderer or killer) and "отбойник" (jackhammer), also known as the **Shambler** in the English dub of *[Metro: Last Light](https://metrovideogame.fandom.com/wiki/Metro:_Last_Light)* and *[Metro 2033 Redux](https://metrovideogame.fandom.com/wiki/Metro_2033_Redux)*, and the **Automatic Shotgun** in *[Metro 2033](https://metrovideogame.fandom.com/wiki/Metro_2033_(Video_Game))*, is a semi-automatic revolving shotgun that was created from scrap by the metro dwellers at some point after [World War III](https://metrovideogame.fandom.com/wiki/World_War_III).
 
 ## Overview
-
 The Uboinik is one of the most iconic weapons of the [Metro Series](https://metrovideogame.fandom.com/wiki/Metro_Series), featured prominently throughout the game and on numerous promotional materials. It is also one of the more useful guns in the game, being effective against virtually any opponent once up close. However, like most shotguns, it has quite a sluggish reload rate, as well as a slightly confusing reloading system.
 
 The Uboinik has a six-chamber cylinder design similar to a revolver, but utilizes spring clamps instead of solid chambers, hence the cartridges are not fired from this location, they are only temporarily held in place before they are fed into the chamber for firing.
@@ -23,18 +22,18 @@ The Uboinik has a six-chamber cylinder design similar to a revolver, but utilize
 The mechanism is a short recoil-operated toggle joint system similar to that of the [Luger P08](https://metrovideogame.fandom.com/wiki/wikipedia:Luger_P08_pistol) or its predecessor [Borchardt C-93](https://metrovideogame.fandom.com/wiki/wikipedia:Borchardt_C-93). After a shell is fired, the barrel and toggle assembly (both locked together at this point) travel rearward due to recoil. The toggle strikes a hook that rotates the cylinder, causing the knee joint to hinge and the toggle and breech assembly to unlock. At this point, the barrel stops its rearward movement, but the toggle and breech assembly continue moving (bending the knee joint) due to momentum, extracting the spent shell from the chamber and ejecting it. The toggle and breech assembly subsequently travel forward (under spring tension) and the next shell from the cylinder is loaded into the chamber.
 
 ## Metro 2033
-
 In *Metro 2033*, when tapping the "reload" button, [Artyom](https://metrovideogame.fandom.com/wiki/Artyom) loads one shell and cocks the gun. After that, he can load four more shells out of the remaining five since the lower clamp is blocked. After firing off three shells, Artyom has to manually cock the gun again and chamber the next shell to overcome the gap left by the empty clamp. Additionally, after firing once, the empty chambers are exposed and a full six shells can be loaded.
 
 When holding the "reload" button, Artyom loads four shells into available clamps, cocks the gun and loads the remaining two. Reloading can be interrupted at any point. Likewise, empty clamps can be loaded at any time unless they are blocked by the mechanism. Dropping the weapon by picking up any other secondary weapon will empty all clamps and reloading can be repeated from scratch.
 
 ## Metro: Last Light/Metro 2033 Redux
-
 The Shambler in *Metro: Last Light* functions in a similar principle to the Uboinik in 2033, though the functional design has been altered. The entire toggle action was flipped 90° clockwise, allowing the gun to eject empty cartridges to the side as opposed to straight up; the main advantage of this is that it allows the mounting of optics directly over the action without interfering with the ejection process. The framework was also altered so the bottom clamp is not blocked off, making it easier to reload.
 
-Gameplay-wise, the Uboinik's unusual reload mechanic has also been altered for easier understanding; now, it always reloads six shells when the reload button is tapped, unless the player interrupts the reloading sequence by pressing Fire which returns the gun to a ready position. This also prevents the gun from potentially chewing up ammo without firing. Also unlike the original 2033 reload, the position of the clamps no longer affects reloading, as no matter what a full six rounds can always be loaded. The melee attack and the bayonet were swapped out in favor of the standard quick melee with the knife; instead, the secondary attack binding brings up the sights.
+Gameplay-wise, the Uboinik's unusual reload mechanic has also been altered for easier understanding; now, it always reloads six shells when the reload button is tapped, unless the player interrupts the reloading sequence by pressing Fire which returns the gun to a ready position. This also prevents the gun from potentially chewing up ammo without firing. Also unlike the original 2033 reload, the position of the clamps no longer affects reloading, as no matter what a full six rounds can always be loaded. The melee attack and the bayonet were swapped out in favor of the standard quick melee with the knife; instead, the secondary attack binding brings up the sights. 
 
 ## Metro Exodus
+
+![Exodus - zmiana magazynka](/weapon-imgs/inline/shambler/exodus_-_zmiana_magazynka.jpg)
 
 In *[Metro Exodus](https://metrovideogame.fandom.com/wiki/Metro_Exodus)*, the Uboinik returns as a formidable shotgun, but it can now be customized like other weapons in the game. One feature is the option to choose between different magazine types, from drums to traditional box-style mags. Some attachments essentially turn the Shambler into the [Saiga](https://metrovideogame.fandom.com/wiki/Saiga-12) or [Abzats](https://metrovideogame.fandom.com/wiki/Heavy_Automatic_Shotgun_(Abzats)) from previous games, two weapons that are absent in *Metro Exodus*. The Shambler shares some modifications with other weapons, including optics, [Bulldog](https://metrovideogame.fandom.com/wiki/Bulldog) and [Kalash](https://metrovideogame.fandom.com/wiki/Kalash_(AK-74M)) stocks, and certain [Ashot](https://metrovideogame.fandom.com/wiki/Ashot) barrels.
 
@@ -48,41 +47,66 @@ Note: Attachments in *Metro Exodus* can be found in multiple locations and even 
 
 ## Variants and Customization
 
-<!--
-Yo editor, use links to levels, not locations.
--->
+### **Metro 2033**
 
-### '''Metro 2033'''
+| [Uboinik sideview M2033](/weapon-imgs/inline/shambler/uboinik_sideview_m2033.png) | [Uboinik bayonet sideview M2033](/weapon-imgs/inline/shambler/uboinik_bayonet_sideview_m2033.png) |
+| --- | --- |
+|  | **Uboinik**: standard shotgun, in addition, uses the stock for melee attacks. |
+|  | **Uboinik with Bayonet**: instead of attacking with the stock, Artyom attacks with the bayonet, seen only in *Metro 2033*. |
 
 ### Metro: Last Light
-
 The Shambler can equip five different [attachments](https://metrovideogame.fandom.com/wiki/attachments) that come in three attachment slots.
 
-### Metro Exodus
+**Available attachments**
 
+| **Name** | **Effect** | **Description** |
+| --- | --- | --- |
+| Reflex sight | Range **+25%** | This pre-war sight makes aiming the gun at close and medium range easier, without sacrificing much of the field of view. |
+| IR sight | Range **+50%** | A piece of pre-war military tech, this Night Vision sight allows for precisely hitting targets in the dark. |
+| Extended barrel | Range **+50%** | Makes shotguns more efficient at medium and long range by tightening buckshot spread pattern. |
+| Suppressor | Range **-25%** | Hides the muzzle flash and muffles the shots, decreasing spread at the same time. Projectile speed is also decreased, leading to more damage falloff. |
+| Laser sight | Accuracy **+25%** | A pre-war laser sight facilitates aiming the weapon at close range, making precise snapshots easy to achieve. |
+
+### Metro Exodus
 The Shambler shares all three of its upgradable stocks with the [Bulldog](https://metrovideogame.fandom.com/wiki/Bulldog) and [Kalash](https://metrovideogame.fandom.com/wiki/Kalash_(AK-74M)), and the Short Barrel and Suppressor with the [Ashot](https://metrovideogame.fandom.com/wiki/Ashot).  The rest of the barrels and all of the Shambler's Magazine are unique to itself, and it is able to equip all three laser gadgets. It is able equip the Reflex Sight, NV Scope, and Closed Reflex Sight.
+
+**List of upgrades**
+
+| **Name** | **Effect** | **Description** |
+| --- | --- | --- |
+| Light grip | None (default) | Made from a steel band with fitted plywood lining, this grip is the most practical choice for short range combat. |
+| Standard stock and grip | Stability **+2** | Wooden stock and grip. Traditional for Kalash. |
+| Semi-grip stock | Stability **+3** | Wooden stock with a steep-angle cutout provides a more comfortable hand position. |
+| Heavy stock and grip | Stability **+11** | Heavy shoulder stock with a metal grip. Army type attachment designed to significantly decrease recoil. |
+| Short barrel | None (default) | Shortest possible piece of pipe that could serve as a shotgun barrel without endangering the shooter. Extremely easy to handle. |
+| Short barrel and suppressor | Damage **-1** | Barrel with an improvised suppressor mounted to it. Useful for stealth. |
+| Standard barrel and duckbill choke | Damage **+1** | Duckbill choke changes the weapon spread pattern, diverting the pellets to the sides. |
+| Long barrel | Damage **+2** | The long barrel provides a considerable damage boost along with a small increase in accuracy at the expense of handling convenience. |
+| Iron sights | Aim with iron sights | Standard sight used to assist in aiming. |
+| Reflex sight | Iron sight replaced with reflex sight | This pre-war sight makes aiming the gun at close and medium range easier, without sacrificing much of the field of view. |
+| NV scope | Iron sight replaced with night vision scope | This night-vision scope allows for accurate placement of shots even in complete darkness. |
+| Closed reflex sight | Iron sight replaced with closed reflex sight | Closed collimator sight provides a clearer view of the target. |
+| Small cylinder | **3**-round magazine | Smaller version of the shotgun cylinder. This magazine only holds three rounds, but can be quickly replaced with a new one. |
+| Fixed cylinder | **6**-round magazine | This six-round shell holder provides the best reload speed and rate of fire a shotgun can achieve. |
+| Shotgun magazine | **10**-round magazine | Large shotgun magazine holding 10 rounds of ammunition. |
+| Box magazine | **20**-round magazine | This box magazine with 20 rounds of ammunition can be detached from the weapon and replaced by another, but this operation takes time. |
+| No gadget | None (default) | Less gadgets, less problems. |
+| Red laser | Crosshair replaced with red laser dot | Made from a cheap laser pointer that was heavily modified to increase power output at the cost of reliability. |
+| Green laser | Crosshair replaced with green laser dot | High visibility laser sight reassembled in a custom-made body along with a bunch of modifications. |
+| Infrared laser | Crosshair replaced with IR laser dot with NV active | The IR laser sight's invisible beam produces a very small dot on the target, which is only detectable with a night vision device. |
 
 ## Acquisition
 
-<!--
--------------------- hidden until cleaned up --------------------
-
-### Metro: Last Light
-
--->
-
 ### Metro Exodus
 
-#### '''Moscow'''
-
+#### **Moscow**
 When Artyom is exploring [Moscow](https://metrovideogame.fandom.com/wiki/Moscow_(Metro_Exodus_Level)) by himself, he is equipped with a Shambler with a Standard Stock and Grip, Short Barrel, Iron Sights, Small Cylinder, and No Gadget. These upgrades do not carry over to the rest of the game as this weapon is lost during the cut scene of the Watchmen attack.
 
 - There is one **10-Round Shotgun Magazine** for the Shambler that can be found in the Moscow:
   - In the first cross tunnel a **10 Round Shotgun Magazine** can be found  before the Watchmen attack. The Backpack System is not yet enabled so it is a permanent swap for the Small Cylinder.
 
 
-#### '''The Volga'''
-
+#### **The Volga**
 None of the [Bandits](https://metrovideogame.fandom.com/wiki/Bandits_(Faction)), the armed [fanatics](https://metrovideogame.fandom.com/wiki/Church_of_the_Water_Tsar), and trade caravan guards in the Volga are equipped with the Shambler, nor is there any found in the environment of the Volga. There are Stocks, Barrels, Sights and gadgets that can be equipped to the Shambler that can be recovered for later use.
 
 - There are six **Standard Stock and Grips** for the Kalash that can be found in the Volga:
@@ -104,8 +128,7 @@ None of the [Bandits](https://metrovideogame.fandom.com/wiki/Bandits_(Faction)),
   - In the Bandit occupied Gas Station, on some metal shelving in the back room. Attached to a Bastard.
 
 
-#### '''Yamantau'''
-
+#### **Yamantau**
 None of the [Cannibals](https://metrovideogame.fandom.com/wiki/Cannibals) in [Yamantau](https://metrovideogame.fandom.com/wiki/Yamantau_(Metro_Exodus_Level)) are equipped with the Shambler, nor is there any found in the environment of the Yamantau. There are Stocks, Barrels, Sights and gadgets that can be equipped to the Shambler that can be recovered for later use.
 
 - Kalashs found in the in the hands of the Cannibals are equally equipped with **Standard Stocks and Grips** that can be equipped to the Shambler.
@@ -120,8 +143,7 @@ None of the [Cannibals](https://metrovideogame.fandom.com/wiki/Cannibals) in [Ya
   - After passing through pile of rubble to reach a isolated bunkroom. Climb up the stack of boxes to reach the top of the small room, there on another crate. Attached to Ashot
 
 
-#### '''The Caspian'''
-
+#### **The Caspian**
 The [Munai-Bailer](https://metrovideogame.fandom.com/wiki/Munai-bailer) in [Caspian](https://metrovideogame.fandom.com/wiki/The_Caspian_(Metro_Exodus_Level)) are equipped with Shambler in a variety of configurations. The Shambler is the third most commonly used weapon by the Munai-Bailer along with being uncommonly found in the environment in the Caspian. All directions are given in reference as though North on Artyom's map in this level is actually south. The Caspian sea should be to the south while the rail line that the Aurora is on is to the north.
 
 - There are multiple **Standard Stocks and Grips** for the Shambler that can be found in Caspian:
@@ -185,8 +207,7 @@ The [Munai-Bailer](https://metrovideogame.fandom.com/wiki/Munai-bailer) in [Casp
   - In the abandon helicopter base to the northwest of the map, in the northwest corner past the hangers. There is a shack made from sheet metal, on a table to the left immediately after entering. Attache to a Revolver.
 
 
-#### '''The Taiga'''
-
+#### **The Taiga**
 None of the [Children of the Forest](https://metrovideogame.fandom.com/wiki/Children_of_the_Forest) or the Bandits in Taiga are not equipped with the Shambler, nor is there any found in the environment of Taiga. There are Stocks, Barrels, Sights and gadgets that can be equipped to the Shambler that can be recovered for later use.
 
 - There are two **Standard Stock and Grips** for the Shambler that can be found in Taiga:
@@ -207,8 +228,7 @@ None of the [Children of the Forest](https://metrovideogame.fandom.com/wiki/Chil
   - One of the Pirates in the Swamp Camp will have **Closed Reflex Sight** as part of his load-out. Attached to a Ashot.
 
 
-#### '''The Dead City'''
-
+#### **The Dead City**
 There are not any human enemies in [Novosibirsk](https://metrovideogame.fandom.com/wiki/The_Dead_City_(Metro_Exodus_Level)). all Shambler or their upgrades are found in the environment.
 
 - There is one **Standard Stock and Grips** for the Shambler that can be found in Novosibirsk:
@@ -222,23 +242,24 @@ There are not any human enemies in [Novosibirsk](https://metrovideogame.fandom.c
 - There is one **20-Round Box Magazine** for the Shambler that can be found in Novosibirsk:
   - Once you reach the flooded tunnel, use the rowboat to reach the way-station just before the putrid tunnel. In the partly flooded way-station after climbing up the fallen over locker and through a hole in the wall. In the next room sitting on a metal desk. Attached to a Shambler.
 
-
 ## Tactics and Use
-
 The Uboinik is one of the most reliable guns in the game for close-quarters combat. Its power is quite impressive; It quickly brings down even armored infantrymen with body shots. However, it reloads incredibly slow; each shell has to be loaded by hand, resulting in a slow reload process between volleys. While not so bad against single targets or pairs, this long process can be outright fatal if one does not fight smart. Staying mobile with this weapon is vital, as is taking advantage of the fact that it can fire while it is reloading if there is ammo in the chambers.
+
+![Metro Last Light Weapons (Shambler Uboinik automatic shotgun)-0](/weapon-imgs/inline/shambler/metro-last-light-weapons--shambler-uboinik-automatic-shotgun--0)
 
 The bayonet is an improvement for this gun; it does a fair bit of damage, has no need for ammo, and saves the need to switch weapons to melee attack to break open a door or deal with a small threat, like a [lurker](https://metrovideogame.fandom.com/wiki/lurker). This could be a good backup when you do not have time to reload this complicated weapon. It also effectively doubles the utility of the weapon; by alternating bayonet attacks and shotgun blasts, the Uboinik can quickly bring down the toughest of enemy opposition with some practice. This weapon must not be ignored due to its close-range capabilities, especially in Metro 2033, which lacks the Saiga, leaving only the Duplet and the extremely rare Abzats.
 
 It is also very effective to utilize the Uboinik as a single-shot gun. Firing the one shell of the first reload results in a quick reload of the next. This is very effective when fighting off Lurkers as one-shot will usually do them in and will not get Artyom caught up in a slow reload cycle, also, the rest of the shells in the magazine can be reserved for multiple or tough enemies. As with the [Duplet](https://metrovideogame.fandom.com/wiki/Duplet), you may want to make sure you always have the Uboinik loaded before heading to hot zone due to its very slow reload, this also applies to Shambler, though its reload speed has been increased. Like Saiga-12 and Abzats, you will normally chew out a lot of shotgun shells if you use this weapon frequently, so you may have to buy some at the weapon shop.
 
-### '''Using the melee effectively (Metro 2033 only)'''
+### **Using the melee effectively (Metro 2033 only)**
+
+![Metro 2033 (Action hardcore challenge walkthrough) Chapter 5 "Depository"-1368802787](/weapon-imgs/inline/shambler/metro-2033--action-hardcore-challenge-walkthrough--chapter-5--depository--1368802787)
 
 The [bayonet attachment](https://metrovideogame.fandom.com/wiki/Attachments) takes some getting used to. Simply pulling the trigger causes Artyom to do a quick jab forward with the weapon. Holding the fire button down causes Artyom to pull the weapon back and ready for a much more powerful thrust. The jabs are mostly used for forcing enemies back and holding the line while Artyom reloads; the power thrust is much more powerful; a single strike can prove to be fatal to an unfortunate [nosalis](https://metrovideogame.fandom.com/wiki/nosalis) or armored soldier with a lucky hit. Likewise, this can cause an instantly-fatal head-strike on many enemies with a fully-readied power-thrust. The bayonet attachment can come in handy in defense situations, which Artyom may not have time to reload his weapons.
 
 Note that the bayonet, like the [trench knife](https://metrovideogame.fandom.com/wiki/Trench_Knife), has a silent attack capability (which means that it will not alert hostiles in the area), and has unlimited uses. Making good use of it can more than double the efficiency with the Uboinik.
 
-## Related Achievements/Trophies
-
+## Related [Achievements/Trophies](https://metrovideogame.fandom.com/wiki/Achievements_and_Trophies)
 ### Metro 2033
 
 ### Metro 2033 Redux
@@ -248,9 +269,7 @@ Note that the bayonet, like the [trench knife](https://metrovideogame.fandom.com
 ### Metro Exodus
 
 ## Trivia
-
 ### Metro 2033 (Original)
-
 - The prominent rod under the Uboinik's barrel is a cleaning tool and maintenance device. Basically, it can be used to clear away debris. If Artyom is idle long enough, he will eventually eject the rod, and use it to clean the inside of the weapon's barrel.
 - Along with Kalash, the Uboinik is the most common weapon used by NPCs; Bourbon uses one, as does [Vladimir](https://metrovideogame.fandom.com/wiki/Vladimir). It is also common among the [Nazis](https://metrovideogame.fandom.com/wiki/Nazis). However, none of them ever use the bayonet.
 - If the weapon contains 1 to 4 shells and Artyom reloads it, he will only load 5 shells, but if he shoots a shell and then reloads, he loads 6 shells.
@@ -258,22 +277,15 @@ Note that the bayonet, like the [trench knife](https://metrovideogame.fandom.com
 - It's possible for the Uboinik to "consume" shells, as the shells loaded into the weapon do not appear to return to Artyom's ammo cache when the weapon is dropped. It's also possible to use up all of Artyom's shotgun shells without firing a shot, by swapping, reloading, and repeating.
 
 ### Metro: Last Light
-
 - The reload of the Shambler is faster than Uboinik, and can be always reloaded to 6 shells, unless if Artyom does not have enough ammo or the process is manually interrupted. It's possible to fire this weapon while reloading.
 - The Shambler is slightly smaller compared to *Metro 2033*, but the designs are identical.
 
 ### Metro Exodus
-
 - Artyom mentioned in his diary that he deeply distrusts the Shambler, because the gun is unreliable.
 - The Shambler has the highest variance of reload animations in the game, as each magazine upgrade completely changes how the reloading process of the gun works. The small cylinder is removed completely and replaced (unless only one shell is fired, which will be replaced in the bottom right side clamp, or you perform a full reload with only one shell remaining in your inventory, which will be loaded into the bottom left clamp, and Artyom will cycle the weapon to load the shell in the chamber.) The fixed cylinder requires that each shell be loaded individually, but the reload can be interrupted. The shotgun magazine is swapped out like a standard assault rifle or Saiga 12 style magazine, and the box magazine is similar to a belt-fed machine gun style magazine.
 
 ## Bugs/Issues
-
 - When looking at Artyom's watch with the Automatic Shotgun equipped, the screen does not focus on the watch but is instead completely blurred due to a bug. This is fixed in *Metro: Last Light* and *Metro 2033 Redux*.
 - If you zoom in and out too quickly while firing it will shoot an extra shell at seemingly very low accuracy.
 
-## Gallery
-
-[de:Ubojnik](https://metrovideogame.fandom.com/wiki/de:Ubojnik)
-[ru:Убойник](https://metrovideogame.fandom.com/wiki/ru:Убойник)
-[uk:Убойник](https://metrovideogame.fandom.com/wiki/uk:Убойник)
+Model Viewer (3).png

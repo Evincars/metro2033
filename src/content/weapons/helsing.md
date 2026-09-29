@@ -15,9 +15,7 @@ appearances: Metro 2033, Metro Last Light, Metro Exodus
 The **Helsing** (Russian: **Хельсинг**) is a semi-automatic, revolving octuple-barreled, multi-stroke, bolt-firing air gun and an actual (single-shot, repeating or semi-automatic, multi-stroke pneumatic with the appropriate attachments) crossbow that were created from scrap and the [Revolver](https://metrovideogame.fandom.com/wiki/Revolver) by the Metro dwellers at some point after the [Great War of 2013](https://metrovideogame.fandom.com/wiki/Great_War_of_2013).
 
 ## Overview
-
 ### Metro 2033 & Metro: Last Light
-
 The Helsing is one of the more effective guns available. Silent, powerful, and with ammunition that is near infinitely reusable, the Helsing can make an ideal weapon for stealth. In practice, however, it doesn't perform perfectly. It works very much in the same way the Tihar does, so the guns are frequently compared to one another, as both are stealth weapons with an emphasis on marksmanship. It hisses just like the Tihar when over-pressurized, and both use a similar pumping mechanism.
 
 The differences between the Helsing and Tihar are numerous.
@@ -27,6 +25,8 @@ Unlike the Tihar's [ball bearings](https://metrovideogame.fandom.com/wiki/ball_b
 The Helsing suffers some drawbacks at slightly longer ranges; The Helsing's arrows have a short travel distance as well as a notable dip to their trajectories at extreme range (even fully-pressurized), made worse by a tendency to drift slightly at mid-to-long-range. Hitting a man-sized target at this range is little trouble for a skilled shot with the Helsing, picking that same target at a longer range becomes a lesson in aggravation as shots that would be easily landed by the [revolver](https://metrovideogame.fandom.com/wiki/revolver), [Tihar](https://metrovideogame.fandom.com/wiki/Tihar), or [VSV](https://metrovideogame.fandom.com/wiki/VSV) are infuriating endeavors for Helsing users. A good example is the light bulb in the small alcove on [Black Station](https://metrovideogame.fandom.com/wiki/Black_Station_(Level)) - normally, this must be shot out in order to reliably get inside this area to progress, should Artyom be take the [Merciful](https://metrovideogame.fandom.com/wiki/Merciful) route. This shot is virtually impossible to take with the Helsing; the bulb is too small a target, and even with the Helsing fully-pressurized, you will find yourself habitually unable to shoot out this light with the Helsing. All in all, the Helsing is simply not very good at longer ranges, especially without the scope; up-close and out to medium range is where the Helsing is at its best.
 
 The Helsing has other drawbacks, as well. It tends to go through pressure quicker than the Tihar, and its pump is less efficient than that of its sniper rifle cousin. Due to how the pumping system on the Helsing operates and short ready-time before it can fire, it is extremely easy to accidentally discharge an arrow when trying to over-pressurize the tank. It holds about half as much ammo as the Tihar, and fires and reloads much slower, which means that the Tihar is genuinely better for rapid-firing when the situation intensifies or goes awry. Making the situation a bit more finicky, the Helsing's pressure gauge is somewhat hard to read compared to the Tihar's. It is especially prominent on 4:3 displays.
+
+![Helsing scope isometric M2033](/weapon-imgs/inline/helsing/helsing-scope-isometric-m2033.png)
 
 The biggest drawbacks are financial; arrows are extremely expensive ammo because of their re-usability; for the price of 20 [military grade rounds](https://metrovideogame.fandom.com/wiki/MGR), one get as many as 40 rounds of 12-gauge buckshot, 100 5.45mm rounds, or 160 Tihar rounds. Arrows that cannot be recovered are lost, this can happen if Artyom does not scavenge the dead body or fire the arrow to unreachable areas. Arrows are the least common ammo type encountered in *[Metro 2033](https://metrovideogame.fandom.com/wiki/Metro_2033_(Videogame))* and *Metro: Last Light*. The arrows are mostly found on walls, target ranges, or sometimes, windowsills and other Helsings. Moreover, the Helsing is also one of the most expensive weapons in the game, with only the [heavy automatic shotgun](https://metrovideogame.fandom.com/wiki/heavy_automatic_shotgun) and [Kalash 2012](https://metrovideogame.fandom.com/wiki/Kalash_2012) being worth more, should one wish to buy the scoped version - which is only available in [Armory Station](https://metrovideogame.fandom.com/wiki/Armory_Station_(Location)) in 2033.
 
@@ -38,28 +38,64 @@ It's overpowered to a point where one can reliably murder every single person in
 
 ### Metro Exodus
 
+![Exodus - kusza](/weapon-imgs/inline/helsing/exodus---kusza.jpg)
+
 The Helsing makes another appearance in *[Metro Exodus](https://metrovideogame.fandom.com/wiki/Metro_Exodus)*, where it can now be extensively modified in ways that drastically change how the rifle functions - one option allows Artyom to transform the gun into a full crossbow that can also use arrows with explosive tips.
 
 The Helsing first appears in the [Taiga](https://metrovideogame.fandom.com/wiki/The_Taiga_(Metro_Exodus_Level)) level, found attached to the back of a statue shortly after Artyom awakes following a [railcar](https://metrovideogame.fandom.com/wiki/Krest's_Railcar) crash. By default the Helsing comes in the crossbow configuration with a one bolt ammo capacity that must be reloaded and cocked after every shot. This can be upgraded with various magazines that allows 3, 6 or 8 shots respectively before reloading, however the weapon still has to be cocked after every shot. Artyom has the option of upgrading the helsing with a pneumatic system, this changes the Helsing drastically allowing it to fire in semi auto at the expense of a slight decrease in damage as well as having to regularly pump the pneumatic system to keep performance optimal. The crossbow Helsing is the weapon of choice of The [Children of the Forest](https://metrovideogame.fandom.com/wiki/Children_of_the_Forest).
 
 ## Variants and Customization
-
 ### Metro: Last Light
-
 The Helsing has two [attachment](https://metrovideogame.fandom.com/wiki/Attachments) slots and five available attachments in total. Attachments in the misc slot can be equipped both at once, so the Helsing can have up to three different attachments at the same time.
 
-### Metro Exodus
+**Available attachments**
 
+| **Name** | **Effect** | **Description** |
+| --- | --- | --- |
+| Reflex sight | Range **+25%** | This pre-war sight makes aiming the gun at close and medium range easier, without sacrificing much of the field of view. |
+| 2x sight | Range **+50%** | This pre-war optical sight facilitates weapon aiming at medium range but limits the field of view, making it hard to use in the confines of tunnels. |
+| IR sight | Range **+50%** | A piece of pre-war military tech, this Night Vision sight allows for precisely hitting targets in the dark. |
+| Airtight valve | Doesn't lose air if overpressurized | The air bottle fitted with this high-quality valve of pre-war make does not leak air even when overpressurized. |
+| Laser sight | Accuracy **+25%** | A pre-war laser sight facilitates aiming the weapon at close range, making precise snapshots easy to achieve. |
+
+### Metro Exodus
 The Helsing shares stock upgrades with the [Valve](https://metrovideogame.fandom.com/wiki/Valve) and the [Tikhar](https://metrovideogame.fandom.com/wiki/Tihar).  It is able to equip all three laser gadgets and the Reflex Sight, NV Scope, and x4 Scope. The Mechanism and Magazine upgrades are unique to this weapon. Helsing does not have a barrel upgrade, so instead the bow mechanism can be upgraded, increasing bolt damage and the range of the weapon by lowering bolt drop off over distance. The bow can even be replaced with a pneumatic system, which improves rate of fire as it removes the necessity to cock the weapon after each shot. All of the mechanisms and magazines upgrades can be found the Taiga as it is the only chapter it appears in.
 
+**List of upgrades**
+
+| **Name** | **Effect** | **Description** |
+| --- | --- | --- |
+| Light grip and forend | None (default) | Light grip built of readily available materials allows its user to shoot safely. |
+| Assault stock, grip and forend | Stability **+2** | Handmade light stock. Slightly reduces recoil. |
+| Sniper stock, grip and forend | Stability **+3** | Sniper wooden stock that looks like it was salvaged from a professional rifle. Greatly reduces recoil. |
+| Heavy stock | Stability **+6** | A piece of pipe fashioned into a stock. Significantly increases weapon stability. |
+| Recurve bow | None (default) | Recurved limbs can give greater amount of energy and speed to the arrow than the straight-bow equivalent. |
+| Compound bow | Damage **+1** | Compound bow limbs include a pulley system, providing a substantial increase in bolt speed. |
+| Twin bow | Damage **+3** | Compact and powerful pulley system ensures extremely high bolt velocities. |
+| Pneumatic bow system | Rate of fire **+3** | Pneumatic bow system speeds up the crossbow reloading process, increasing its rate of fire considerably. |
+| Iron sights | Aim with iron sights | Standard sight used to assist in aiming. |
+| Reflex sight | Iron sight replaced with reflex sight | This pre-war sight makes aiming the gun at close and medium range easier, without sacrificing much of the field of view. |
+| NV scope | Iron sight replaced with night vision scope | This night-vision scope allows for accurate placement of shots even in complete darkness. |
+| Scope 4x | Iron sight replaced with 4x scope | 4x variable zoom scope. |
+| Small magazine | **1** bolt | The simplest magazine, containing one bolt on the top of the bow, is also the lightest. |
+| Medium magazine | **3**-bolt magazine | Heavier than the small magazine, but capable of holding 3 bolts. |
+| Extended magazine | **6**-bolt magazine | Big cylindric magazine containing up to 6 bolts. Noticeably heavier. |
+| High capacity magazine | **8**-bolt magazine | Huge cylindric magazine contains 8 bolts. A lot heavier than all the other ones, but allows you to reload less often. |
+| No gadget | None (default) | Less gadgets, less problems. |
+| Red laser | Crosshair replaced with red laser dot | Made from a cheap laser pointer that was heavily modified to increase power output at the cost of reliability. |
+| Green laser | Crosshair replaced with green laser dot | High visibility laser sight reassembled in a custom-made body along with a bunch of modifications. |
+| Infrared laser | Crosshair replaced with IR laser dot with NV active | The IR laser sight's invisible beam produces a very small dot on the target, which is only detectable with a night vision device. |
+
 ## Acquisition
-
-### '''Metro 2033'''
-
+### **Metro 2033**
 There are two versions of this handy weapon that can be picked up.
 
-### '''Metro 2033 Redux:'''
+| [Helsing sideview M2033](/weapon-imgs/inline/helsing/helsing_sideview_m2033.png) | [Helsing scope sideview M2033](/weapon-imgs/inline/helsing/helsing_scope_sideview_m2033.png) |
+| --- | --- |
+|  | **Helsing**: A standard Helsing with no scope. Not sold in stores. |
+|  | **Helsing with Scope**: A standard Helsing with a scope. |
 
+### **Metro 2033 Redux:**
 The following is a list of the differences observed with original game with regards to obtaining the Helsing:
 - 3 or 4 arrows can be looted in Dry station.
 - The Helsing is still available for purchase at Armory. Though the scoped version is no longer for sale, Artyom can purchase the basic model and update it through the regular store upgrade system. Air tight valve attachments are no longer for sale at this station, neither for Helsing or Tihar.
@@ -71,8 +107,7 @@ The following is a list of the differences observed with original game with rega
 - It can still be looted in Black Station in the train car (comes with an IR sight, one arrow loaded, and 4 other arrows available on other side of train car).
 **(note this information may not be complete, if you observe anything missing please add it)**
 
-### '''Metro: Last Light'''
-
+### **Metro: Last Light**
 The Helsing returns in Last Light with a few changes to its animation and sound, but as the same weapon otherwise. It is still an instant kill on any humans, except for the heavily armored Reds during levels like Depot. This weapon is extremely rare to find, due to the fact that you can customize it yourself, the Helsing you find has little or no attachment on it. One should be very careful here, although there is no other weapon in the game that would kill them in one shot either. This still leaves it as one of the best stealth weapons in the game. If one does intend to use it, do not forget to buy some arrows as they are also hard to find.
 - The Helsing can only be bought during the "[Quarantine](https://metrovideogame.fandom.com/wiki/Quarantine_(Metro_Last_Light_Level))" level.
 - It can be found in Contagion on a table (unmodded).
@@ -80,14 +115,12 @@ The Helsing returns in Last Light with a few changes to its animation and sound,
 - One with a laser sight can be found in the room under the playground in "[The Dead City](https://metrovideogame.fandom.com/wiki/The_Dead_City_(Metro_Last_Light_Level))".
 - In the [Faction Pack DLC](https://metrovideogame.fandom.com/wiki/Faction_Pack_DLC), during "[Kshatriya](https://metrovideogame.fandom.com/wiki/Kshatriya_(Level))", one is found on the floor next to a dead body in the bathroom of the Library, near the Balaika. It's likely the crossbow that [Bar](https://metrovideogame.fandom.com/wiki/Bar) and [Su](https://metrovideogame.fandom.com/wiki/Su) mention earlier in the level, owned by the previous stalker, [Grisha](https://metrovideogame.fandom.com/wiki/Grisha).
 
-### '''Metro Exodus'''
-
+### **Metro Exodus**
 None of the [Hanza](https://metrovideogame.fandom.com/wiki/Hanza) Guards in Jamming Outpost or on the [Cruiser](https://metrovideogame.fandom.com/wiki/Red_Line_Armoured_Train) are equipped with the Helsing, nor is there any found in the environment of [Moscow](https://metrovideogame.fandom.com/wiki/Moscow_(Metro_Exodus_Level)).
 
 In a New Game Plus with the Crossbow modification: [Yermak](https://metrovideogame.fandom.com/wiki/Yermak) will also give Artyom a [Helsing](https://metrovideogame.fandom.com/wiki/Helsing) with a Light Grip, a Recurve Bow, Iron Sights, Small Magazine, and No Gadget after the the cutscene inside the Jamming Station control room.
 
-#### '''The Volga'''
-
+#### **The Volga**
 None of the [Bandits](https://metrovideogame.fandom.com/wiki/Bandits_(Faction)), the armed [fanatics](https://metrovideogame.fandom.com/wiki/Church_of_the_Water_Tsar), and trade caravan guards in the Volga are equipped with the Helsing, nor is there any found in the environment of the Volga. There are sights and gadgets that can be equipped to the Helsing that can be recovered for later use.
 - There are eight **x4 Scope** for the Helsing that can be found in the Volga:
   - After escaping the Tsar fish, go to the plane wreckage that [Duke](https://metrovideogame.fandom.com/wiki/Duke) points out. Resting against the cockpit hatch. Attached to a Kalash.
@@ -99,8 +132,7 @@ None of the [Bandits](https://metrovideogame.fandom.com/wiki/Bandits_(Faction)),
   - One of the Bandits in the train shed will have a **x4 Scope** as part of his load-out. Attached to a Kalash.
   - One of the Trade Caravan Guards will have a **x4 Scope** as part of his load-outs. Attached to a Revolver.
 
-#### '''Yamantau'''
-
+#### **Yamantau**
 None of the [Cannibals](https://metrovideogame.fandom.com/wiki/Cannibals) in [Yamantau](https://metrovideogame.fandom.com/wiki/Yamantau_(Metro_Exodus_Level)) are equipped with the Helsing, nor is there any found in the environment of Yamantau. There are sights and gadgets that can be equipped to the Helsing that can be recovered.
 - There are two **NV Scope** for the Helsing that can be found in the environment of Yamantau:
   - After passing through the frozen morgue and into the weapon storage room, laying on a table. Attached to a Kalash.
@@ -109,8 +141,7 @@ None of the [Cannibals](https://metrovideogame.fandom.com/wiki/Cannibals) in [Ya
   - In the first barracks section, in the last room on the right, propped up in a chair. Attached to a Kalash.
   - After passing through pile of rubble to reach a isolated bunkroom. Climb up the stack of boxes to reach the top of the small room, there on another crate. Attached to Ashot
 
-#### '''The Caspian'''
-
+#### **The Caspian**
 None of the [Munai-Bailer](https://metrovideogame.fandom.com/wiki/Munai-bailer) in the Caspian are equipped with the Helsing, nor is there any found in the environment of Caspian. There are Stocks, Sights and gadgets that can be equipped to the Helsing that can be recovered for use, along with further upgrades that are available at the workbench in the Aurora as you progress down the story-line.
 - There are four **Assault Stocks, Grip and Forend** for the Helsing that can be found in the Caspian:
   - Southwest of Saul's outpost, at the end on the exposed docks, on a leather seat next to a fire pit. Attached to a Valve.
@@ -139,8 +170,7 @@ None of the [Munai-Bailer](https://metrovideogame.fandom.com/wiki/Munai-bailer) 
   - At the central crossroads southwest of the central oil field, there is a wrecked van and to the northwest of the van, on the ground next to a dead combat slave. Attached to a Revolver.
   - In the abandon helicopter base to the northwest of the map, in the northwest corner past the hangers. There is a shack made from sheet metal, on a table to the left immediately after entering. Attache to a Revolver.
 
-#### '''The Taiga'''
-
+#### **The Taiga**
 The [Children of the Forest](https://metrovideogame.fandom.com/wiki/Children_of_the_Forest) in the [Taiga](https://metrovideogame.fandom.com/wiki/The_Taiga_(Metro_Exodus_Level)) are equipped with Helsings in a variety of configurations. The Helsing is the most most commonly used weapon by the Children of the Forest and is found commonly in the environment of the Taiga. It doesn't appear in any other level, but once found, it can be equipped at [Aurora](https://metrovideogame.fandom.com/wiki/Aurora)'s [workbench](https://metrovideogame.fandom.com/wiki/workbench).
 - There are **Assault Stocks, Grip and Forend** for the Helsing that can be found in the Taiga:
   - In the island cache, just east of the Forest Court settlement. Laying on a dirt filled wooden crate. Attached to a Helsing.
@@ -198,8 +228,7 @@ The [Children of the Forest](https://metrovideogame.fandom.com/wiki/Children_of_
   - In the Bridge of the wrecked boat in the Pirate Swamp Camp. Hanging on the wall. Attached to a Helsing.
   - Inside the storehouse that is in the northwest of the abandon lumber mill. On some shelving. Attached to a Helsing.
 
-#### '''The Dead City'''
-
+#### **The Dead City**
 No Helsings can be found in the environment of [Novosibirsk](https://metrovideogame.fandom.com/wiki/The_Dead_City_(Metro_Exodus_Level)). Any upgrades that can be equipped to the Helsing are found in the environment attached to Shamblers or Kalashs.
 - There is one **Pneumatic Bow System** for the Helsing that can be found in the Novosibirsk:
   - At the start of the chapter aboard the Aurora. The **Pneumatic Bow System** is in the workbench in the Aurora.
@@ -210,8 +239,7 @@ No Helsings can be found in the environment of [Novosibirsk](https://metrovideog
 - There is one **x4 Scope** for the Helsing that can be found in the Novosibirsk:
   - After descending into the hole with crashed T-72B3, follow the underground hallway. On the right there is a bulkhead door which is closed. Further down the hallway is a cyan door. Inside this first room, there is a junction box, jump it with Artyom's electrical equipment. There is a crawlspace on the left side of the first room, inside the second room there is a lever to open the bulkhead door. In the space between the now open bulkhead and the gated entrance to a station, on some bedding. Attached to a Kalash.
 
-## Related Achievements/Trophies
-
+## Related [Achievements/Trophies](https://metrovideogame.fandom.com/wiki/Achievements_and_Trophies)
 ### Metro 2033
 
 ### Metro 2033 Redux
@@ -221,7 +249,6 @@ No Helsings can be found in the environment of [Novosibirsk](https://metrovideog
 ### Metro Exodus
 
 ## Trivia
-
 - The name of this weapon is a reference to the repeating crossbow used by the protagonist in the 2004 movie *Van Helsing*, which used compressed gas to fire bolts in a similar manner.
 - [Khan](https://metrovideogame.fandom.com/wiki/Khan_(Character)) carries the scoped variant, and uses it to help Artyom in [Dry Station](https://metrovideogame.fandom.com/wiki/Dry_Station), if he chooses a stealth approach.
 - If Artyom stands idle long enough with the non-scoped version equipped, he will clean the iron sights and adjust the fittings.
@@ -229,17 +256,13 @@ No Helsings can be found in the environment of [Novosibirsk](https://metrovideog
 - It's the only weapon that can be found (and not purchased) by the player character in the Kshatriya DLC mission.
 
 ## Bugs
-
 - In survival Ranger hardcore, if carrying the Helsing during reloading a checkpoint/dying, all the spare ammo may disappear.
-
-## Gallery
 
 ### Metro 2033
 
+
 ### Metro: Last Light
+
 
 ### Metro Exodus
 
-[de:Khel'sing](https://metrovideogame.fandom.com/wiki/de:Khel'sing)
-[ru:Хельсинг](https://metrovideogame.fandom.com/wiki/ru:Хельсинг)
-[uk:Хельсинг](https://metrovideogame.fandom.com/wiki/uk:Хельсинг)

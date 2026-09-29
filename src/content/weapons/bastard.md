@@ -10,12 +10,11 @@ appearances: Metro 2033, Metro Last Light, Metro Exodus
 ---
 
 > "Submachinegun, 5.45 caliber. It's got poor accuracy and overheats like hell. That's why they call it a "Bastard gun", hahah."
-> — [[Pavel (Exhibition)|Pavel]] in Exhibition, before giving the Bastard to Artyom.
+> — [Pavel](https://metrovideogame.fandom.com/wiki/Pavel_(Exhibition)) in Exhibition, before giving the Bastard to Artyom.
 
 The **Bastard** or **Ublyudok** (Russian: **Ублюдок**) is a carbine and a machine pistol that were created from scrap by the Metro dwellers at some point after the [Great War of 2013](https://metrovideogame.fandom.com/wiki/World_War_III).
 
 ## Overview
-
 The Bastard was one of the first Metro-made weapons. It is considerably cheaper to make and maintain than other guns, needing relatively few parts to create, making it ideal for gunsmiths with few resources. This also explains the high production rates at the [Armory](https://metrovideogame.fandom.com/wiki/Armory) and why it's so widely used in the [Red Line](https://metrovideogame.fandom.com/wiki/Red_Line). This gun, like most, has its ups and downs. It has a high rate of fire and holds 30 rounds of ammunition, but fares poorly for sniping due to very poor accuracy beyond a few yards. It has very high recoil, but can be used effectively for stealth when a more effective stealth weapon is unavailable, since a silencer seems to have little to no effect on damage. The biggest downside to using the Bastard is that it jams and overheats roughly every two mags. However, it is praised for its high rate of fire, which is greater than every other weapon except for the [Gatling](https://metrovideogame.fandom.com/wiki/Gatling). Overall, the Bastard is an effective weapon at close range and should be used for counter-assaults at mid to close range, or for stealth if no better stealth weapons are available.
 
 The name comes from a combination of its tendency to spray on automatic, propensity for overheating, and finicky reloading system; these shortcomings combine to give the weapon its name: It's a real bastard to use. Humorously, the name could quite conceivably have originated from the fact that it's a hybridization of 2 or 3 different guns; the gun has a clear nod towards the Degtyarov PPD-34, but uses modern rounds ([5.45mm](https://metrovideogame.fandom.com/wiki/5.45x39mm) or [.44 Magnum](https://metrovideogame.fandom.com/wiki/.44_Magnum)). In real life, a gun like this would have problems with cycling bullets since the bullets would become dirty or moisturised from being exposed to the elements.
@@ -25,7 +24,6 @@ The Bastard is the first automatic weapon [Artyom](https://metrovideogame.fandom
 As the Bastard is a primary weapon, it can use both dirty and MGR [5.45x39mm](https://metrovideogame.fandom.com/wiki/5.45x39mm) cartridges. However, in general, other primary weapons in the game are more effective and useful. The [VSV](https://metrovideogame.fandom.com/wiki/VSV), [Kalash](https://metrovideogame.fandom.com/wiki/Kalash_(AK-74M)), and [Kalash 2012](https://metrovideogame.fandom.com/wiki/Kalash_2012) are all more accurate, generally making them more effective in a given situation, though the Bastard can do more damage per second than the VSV or Kalash with a full magazine when at close range. It should also be noted that a fully upgraded bastard (in earlier metro games) is both relatively easy to obtain and just as, if not more effective than the previously mentioned guns in most of the fighting situations the player will encounter, which is close quarters.
 
 ## Design
-
 It has a design similar to the American [M3](http://en.wikipedia.org/wiki/M3_submachine_gun) Grease Gun (especially the barrel design in Metro: Last Light'), British [Sten](https://metrovideogame.fandom.com/wiki/wikipedia:Sten), and the Japanese [Type 100](http://en.wikipedia.org/wiki/Type_100_submachine_gun), but it mainly draws (in terms of design) from the Soviet [PPD-40](http://en.wikipedia.org/wiki/PPD-40), [PPSh-41](http://en.wikipedia.org/wiki/PPSh-41), and perhaps most of all the [PPS](https://en.wikipedia.org/wiki/PPS_submachine_gun), a cheaper version of the PPSh-41; WWII-era submachine guns that were some of the first guns to be used in Russia's doctrine of providing its rank-and-file with automatic weapons. The feed system seems to be inspired from the feed strips used in the M1909 Benét-Mercié and its derivative the Type 92 machine gun.
 
 It also appears to feature the rear sight of an AKS-74U carbine. Instead of a conventional magazine the Bastard uses a clip which lacks a spring and merely holds the bullets in place while the gun's mechanism feeds the entire ammunition container through the receiver from left to right while firing. The magazine port moves up and down consecutively to align each row of cartridges with the bolt.
@@ -34,12 +32,15 @@ While in [Metro 2033](https://metrovideogame.fandom.com/wiki/Metro_2033), it has
 
 ## Universe of Metro 2033
 
-In some novels of the Universe series, survivors in other parts of [Russia](https://metrovideogame.fandom.com/wiki/Russia) and the rest of post-apocalyptic Eastern Europe have also managed to start production of their own homemade weaponry. Most of these firearms are similarly primitive like (or even more than) the Bastard. As we find out in *[The Promised Human](https://metrovideogame.fandom.com/wiki/The_Promised_Human_(Novel))*, the denizens of [Kraków](https://metrovideogame.fandom.com/wiki/Kraków) - in Southern [Poland](https://metrovideogame.fandom.com/wiki/Poland) - have crafted some musket-like creations, as well as carbines similar in description to the Bastard. The best post-war firearms are said to be made by survivors inhabiting the Polish Aviation Museum, in the eastern section of the city. However, much like in the Moscow Metro, the most experienced [stalkers](https://metrovideogame.fandom.com/wiki/Stalkers) prefer to stick to pre war weapons, as they consider these crude firearms to be ineffective and taking too long to reload and prep for firing.
+![Człowiek obiecany - polska okładka](/weapon-imgs/inline/bastard/cz-owiek_obiecany_-_polska_ok-adka.jpg)
+
+In some novels of the Universe series, survivors in other parts of [Russia](https://metrovideogame.fandom.com/wiki/Russia) and the rest of post-apocalyptic Eastern Europe have also managed to start production of their own homemade weaponry. Most of these firearms are similarly primitive like (or even more than) the Bastard. As we find out in *[The Promised Human](https://metrovideogame.fandom.com/wiki/The_Promised_Human_(Novel))*, the denizens of [Kraków](https://metrovideogame.fandom.com/wiki/Krak%C3%B3w) - in Southern [Poland](https://metrovideogame.fandom.com/wiki/Poland) - have crafted some musket-like creations, as well as carbines similar in description to the Bastard. The best post-war firearms are said to be made by survivors inhabiting the Polish Aviation Museum, in the eastern section of the city. However, much like in the Moscow Metro, the most experienced [stalkers](https://metrovideogame.fandom.com/wiki/Stalkers) prefer to stick to pre war weapons, as they consider these crude firearms to be ineffective and taking too long to reload and prep for firing.
 
 ## Tactics and Use
+### **Metro 2033**
 
-### '''Metro 2033'''
-
+![Metro 2033 (Bastard assault rifle)](/weapon-imgs/inline/bastard/metro-2033--bastard-assault-rifle-)
+Bastard variants in Metro 2033
 Despite being widely considered a low-grade piece of kit, the Bastard is far from being a bad piece of weaponry; quite the contrary, it's remarkably effective when used correctly.
 
 Doing so takes a bit more finesse than other guns, though your skills will be well-spent honing your technique. Using the Bastard carries several advantages; it's the first automatic gun you get that can be silenced, it's the first gun you get that can use military-grade rounds, and with patience and practice, the gun can easily carry you through the entire game.
@@ -50,18 +51,15 @@ On the bright side, the Bastard has a high rate of fire, and it's quite accurate
 
 In *Metro 2033* and *Metro: Last Light*, it's recommended to avoid using the Bastard unless in a tight spot, thus conserving your ammo for the better guns later on. Unless you don't want to replace the Bastard for other primary, you will want to conserve ammo.
 
-### '''Metro: Last Light'''
-
+### **Metro: Last Light**
 The Bastard makes a return in *[Metro: Last Light](https://metrovideogame.fandom.com/wiki/Metro:_Last_Light)*, becoming a somewhat uncommon choice for players to use due to the early introduction of more powerful weapons like [AK-74M](https://metrovideogame.fandom.com/wiki/Kalash_(AK-74M)) and the [RPK-74](https://metrovideogame.fandom.com/wiki/RPK-74), in non-ranger difficulty, the bastard is the first automatic weapon Artyom finds shortly after his capture by the Reich. In some DLC levels like "[Kshatriya](https://metrovideogame.fandom.com/wiki/Kshatriya)", however, player might have to rely on the Bastard for a while, because heavier weapons are not available at the beginning. The Bastard itself comes with mostly a few changes to its model and animation, yet has newfound excellence in its customisability with weapon mods, that can turn it into a weapon for various ranges and combat situations. Due to the design of the magazine, it is very easy to tell at a glance how much ammo remains and what type of ammo the player is using - making it a wise choice for those playing on the [ranger](https://metrovideogame.fandom.com/wiki/Ranger_Pack) [difficulties](https://metrovideogame.fandom.com/wiki/Difficulties). For non-ranger difficulty players, this feature is also beneficial because they are less likely to use the MGR by accident.
 
 As with all primary weapons, the Bastard loaded with MGRs is capable of killing almost anything with a single shot on higher difficulties.
 
-### '''Redux version'''
-
+### **Redux version**
 The Bastard stays largely the same as the Last Light version. In *[Metro 2033 Redux](https://metrovideogame.fandom.com/wiki/Metro_2033_Redux)*, arms dealers only sell the standard Bastard, the players have to customize the weapon with attachments themselves. Bastard carbines found in the environment tends to have more than one attachment, unlike the original version.
 
-### '''Metro Exodus'''
-
+### **Metro Exodus**
 The Bastard now shares the .44 Magnum ammunition with the [Revolver](https://metrovideogame.fandom.com/wiki/Revolver), reclassifying it as a machine pistol, so it's probably best to choose one or the other rather than carrying both, due to the fact that the Bastard has a very high rate of fire and Artyom can only carry 60 rounds of .44 Magnum ammo or 120 with the ammo pouch vest upgrade. It has been re-classed as a Handgun for this game, and in its default, unmodified state, it's actually held like a pistol rather than a rifle or carbine. In this respect, it acts as a stand-in for the [Lolife](https://metrovideogame.fandom.com/wiki/Lolife) in some of its lighter configurations.
 
 The Bastard is far less useful than in previous games due to the aforementioned ammo cap, high rate of fire, extremely low damage, and propensity to overheat very quickly (with no heat-sink attachment being available).
@@ -71,10 +69,20 @@ Despite this, the use of certain upgrades can make the Bastard one of, if not, t
 The Bastard shares all three of its upgradeable stocks with the [Revolver](https://metrovideogame.fandom.com/wiki/Revolver), the Suppressor Barrel with the Revolver, the Standard Barrel with the Revolver and the [Valve](https://metrovideogame.fandom.com/wiki/Valve), and the Heavy Barrel with the Valve. All of the Bastard's Magazine are unique to itself, and it is able to equip all three laser gadgets. It is able equip the Reflex Sight, NV Scope, and Closed Reflex Sight.
 
 ## Variants and Customization
-
-### '''Metro: Last Light'''
-
+### **Metro: Last Light**
 Bastard can equip seven different [attachments](https://metrovideogame.fandom.com/wiki/attachments), more than most other weapons in the game. The attachments are divided into three categories: Optics, Barrel and Misc. Multiple attachments from the Misc section can be equipped at once.
+
+**Available attachments**
+
+| **Name** | **Effect** | **Description** |
+| --- | --- | --- |
+| Reflex sight | Range **+25%** | This pre-war sight makes aiming the gun at close and medium range easier, without sacrificing much of the field of view. |
+| 2x sight | Range **+50%** | This pre-war optical sight facilitates weapon aiming at medium range but limits the field of view, making it hard to use in the confines of tunnels. |
+| IR sight | Range **+50%** | A piece of pre-war military tech, this Night Vision sight allows for precisely hitting targets in the dark. |
+| Suppressor | Range **-25%** | Hides the muzzle flash and muffles the shots, decreasing spread at the same time. Projectile speed is also decreased, leading to more damage falloff. |
+| Heat Sink | Overheating **-25%** | Fixes the bastard gun's main problem - its tendency to overheat - by siphoning waste heat off its barrel via thin longitudinal metal fins. |
+| Laser sight | Accuracy **+25%** | A pre-war laser sight facilitates aiming the weapon at close range, making precise snapshots easy to achieve. |
+| Stock | Recoil <font color="green"> | The anatomic stock makes the bastard gun easier to control, which is especially welcome in full auto. |
 
 The heat sink attachment cannot be purchased by [Artyom](https://metrovideogame.fandom.com/wiki/Artyom) in the Metro: Last Light campaign. It can only be found already equipped on weapons in the following levels:
 - [Facility](https://metrovideogame.fandom.com/wiki/Facility) - After passing through the room with the brutalized Nazi, there is a room of plants before the next group of enemies. To the right of the doorway is a locker that contains the first Bastard with a heat sink (and butt).
@@ -83,26 +91,47 @@ The heat sink attachment cannot be purchased by [Artyom](https://metrovideogame.
 - [Depot](https://metrovideogame.fandom.com/wiki/Depot_(Metro_Last_Light_Level)) - A highly-upgraded Bastard can be found in a dumpster near the beginning of this level next to its former user's corpse, with a heat sink, a night vision scope, and a silencer already attached.
 The Ranger trainee in [Kshatriya](https://metrovideogame.fandom.com/wiki/Kshatriya_(Level)), however, is able to buy the attachment from [Kuzmich](https://metrovideogame.fandom.com/wiki/Kuzmich). Artyom also could purchase the attachment in the Redux version of 2033 and Last Light.
 
-### '''Metro Exodus'''
-
+### **Metro Exodus**
 The Bastard shares all three of its upgradable stocks and the Suppressor Barrel with the Revolver, the Standard Barrel with the Revolver and the Valve, and the Heavy Barrel with the Valve. All of the Bastard's Magazine are unique to itself, and it is able to equip all three laser gadgets. It is able equip the Reflex Sight, NV Scope, and Closed Reflex Sight.
 
+**List of upgrades**
+
+| **Name** | **Effect** | **Description** |
+| --- | --- | --- |
+| Light grip | None (default) | Light handgun grip to reduce weapon weight. |
+| Standard stock | Stability **+1** | Basic grip and wooden stock that make a weapon more comfortable to use. |
+| Sniper stock | Stability **+5** | Wooden grip and sniper wooden stock from a hunter rifle. Greatly reduces recoil. |
+| Heavy stock | Stability **+6** | Heavy metal grip and stock for better recoil control. Significantly increase weapon stability. |
+| Short barrel | None (default) | Shorter barrel makes the rifle lighter, allowing you to perform all actions with it a little faster. |
+| Suppressor | Damage **-1** | Hides the muzzle flash and muffles the shots. Projectile speed is also decreased, leading to more damage falloff. |
+| Standard barrel | Accuracy **+2** | Any steel pipe with an improvised iron sight attached to it automatically becomes a barrel. |
+| Heavy barrel | Damage **+3** | The heaviest among the barrels, this fluted pipe provides a considerable boost to firepower. |
+| Iron sights | Aim with iron sights (default) | Standard sight used to assist in aiming. |
+| Reflex sight | Iron sight replaced with reflex sight | This pre-war sight makes aiming the gun at close and medium range easier, without sacrificing much of the field of view. |
+| NV scope | Iron sight replaced with night vision scope | This night-vision scope allows for accurate placement of shots even in complete darkness. |
+| Closed reflex sight | Iron sight replaced with closed reflex sight | Closed collimator sight provides a clearer view of the target. |
+| Small magazine | **15**-round magazine (default) | Small magazine holding 15 rounds of ammunition. The lightest possible option. |
+| Standard magazine | **30**-round magazine | Standard-size magazine holding up to 30 rounds of ammunition. |
+| Extended magazine | **50**-round magazine | Big magazine holding 50 rounds of ammunition, quite heavy. |
+| High capacity magazine | **100**-round magazine | Magazine holding up to 100 rounds of ammunition. The heaviest, which may affect your steady aim. |
+| No gadget | None (default) | Less gadgets, less problems. |
+| Red laser | Crosshair replaced with red laser dot | Made from a cheap laser pointer that was heavily modified to increase power output at the cost of reliability. |
+| Green laser | Crosshair replaced with green laser dot | High visibility laser sight reassembled in a custom-made body along with a bunch of modifications. |
+| Infrared laser | Crosshair replaced with IR laser dot with NV active | The IR laser sight's invisible beam produces a very small dot on the target, which is only detectable with a night vision device. |
+
 ## Acquisition
+### **Metro 2033**
 
-### '''Metro 2033'''
+| [Bastard sideview upper dirty M2033](/weapon-imgs/inline/bastard/bastard-sideview-upper-dirty-m2033.png) | [Bastard silencer sideview dirty M2033](/weapon-imgs/inline/bastard/bastard-silencer-sideview-dirty-m2033.png) |
+| --- | --- |
+|  | **Bastard**: A standard Bastard with iron sights. |
+|  | **Bastard with Silencer**: A Bastard equipped with a suppressor that cuts down the noise, reduces recoil and eliminates muzzle flash. |
 
-<!--
-Yo editor, use links to levels, not locations.
--->
-
-### '''Metro Exodus'''
-
-#### '''Moscow'''
-
+### **Metro Exodus**
+#### **Moscow**
 None of the [Hanza](https://metrovideogame.fandom.com/wiki/Hanza) Guards in Jamming Outpost or on the [Cruiser](https://metrovideogame.fandom.com/wiki/Red_Line_Armoured_Train) are equipped with the Bastard, nor is there any found in the environment of [Moscow](https://metrovideogame.fandom.com/wiki/Moscow_(Metro_Exodus_Level)).
 
-#### '''The Volga'''
-
+#### **The Volga**
 The [Bandits](https://metrovideogame.fandom.com/wiki/Bandits_(Faction)), the armed [fanatics](https://metrovideogame.fandom.com/wiki/Church_of_the_Water_Tsar) and the trade caravan guards are equipped with Bastards in a variety of configurations. The Bastard is the third most commonly used weapon by the Bandits and fourth most commonly used by the armed fanatics and trade caravan guardsalong with being commonly found in the environment in the Caspian.
 
 - The majority of the Bastards found in the environment in the Volga are found with **Standard Stocks**:
@@ -127,8 +156,7 @@ The [Bandits](https://metrovideogame.fandom.com/wiki/Bandits_(Faction)), the arm
   - Inside the terminal with Krests' rail-car. After the first rail car rotatory mechanism, at the end of a catwalk to the northeast, next to a a dead fanatic.
   - One of the Bandits in the train shed will have a **50-Round Extended Magazine** as part of his load-out. Attached to a Bastard.
 
-#### '''Yamantau'''
-
+#### **Yamantau**
 None of the [Cannibals](https://metrovideogame.fandom.com/wiki/Cannibals) in [Yamantau](https://metrovideogame.fandom.com/wiki/Yamantau_(Metro_Exodus_Level)) are not equipped with the Bastard, nor is there any found in the environment of Yamantau. There are sights and gadgets that can be equipped to the Bastard that can be recovered.
 
 - There are two **NV Scopes** for the Bastard that can be found in Yamantau:
@@ -138,8 +166,7 @@ None of the [Cannibals](https://metrovideogame.fandom.com/wiki/Cannibals) in [Ya
   - In the first barracks section, in the last room on the right, propped up in a chair. Attached to a Kalash.
   - After passing through pile of rubble to reach a isolated bunkroom. Climb up the stack of boxes to reach the top of the small room, there on another crate. Attached to Ashot
 
-#### '''The Caspian'''
-
+#### **The Caspian**
 The [Munai-Bailer](https://metrovideogame.fandom.com/wiki/Munai-bailer) in [Caspian](https://metrovideogame.fandom.com/wiki/The_Caspian_(Metro_Exodus_Level)) are equipped with Bastards in a variety of configurations. The Bastard is the second most commonly used weapon by the Munai-bailer along with being commonly found in the environment in the Caspian. All directions are given in reference as though North on Artyom's map in this level is actually south. The Caspian sea should be to the south while the rail line that the Aurora is on is to the north.
 
 - Bastards found in the in the hands of the Munai-bailer are equally equipped with **Standard Stocks** or **Sniper Stocks**.
@@ -210,8 +237,7 @@ The [Munai-Bailer](https://metrovideogame.fandom.com/wiki/Munai-bailer) in [Casp
   - At the central crossroads southwest of the central oil field, there is a wrecked van and to the northwest of the van, on the ground next to a dead combat slave. Attached to a Revolver.
   - In the abandon helicopter base to the northwest of the map, in the northwest corner past the hangers. There is a shack made from sheet metal, on a table to the left immediately after entering. Attache to a Revolver.
 
-#### '''The Taiga'''
-
+#### **The Taiga**
 None of the [Children of the Forest](https://metrovideogame.fandom.com/wiki/Children_of_the_Forest) or the Bandits in Taiga are not equipped with the Bastard, nor is there any found in the environment of Taiga. There are Stocks, Barrels, Sights and gadgets that can be equipped to the Bastard that can be recovered for later use.
 
 - There are nine **Sniper Stocks** for the Bastard that can be found in the Taiga:
@@ -241,15 +267,13 @@ None of the [Children of the Forest](https://metrovideogame.fandom.com/wiki/Chil
 - There is one **Closed Reflex Sight** for the Bastard that can be found in Taiga:
   - One of the Pirates in the Swamp Camp will have **Closed Reflex Sight** as part of his load-out. Attached to a Ashot.
 
-#### '''The Dead City'''
-
+#### **The Dead City**
 No Bastards can be found in the environment of [Novosibirsk](https://metrovideogame.fandom.com/wiki/The_Dead_City_(Metro_Exodus_Level)). There is only one sight that can be equipped to the Bastard that can be recovered.
 
 - There is one **NV Scope** for the Bastard that can be found in the Novosibirsk:
   - Once you reach Kirill's room. Miller will leave his [Tikhar](https://metrovideogame.fandom.com/wiki/Tihar) with an attached **NV Scope** on a shelf near the workbench.
 
-## Related Achievements/Trophies
-
+## Related [Achievements/Trophies](https://metrovideogame.fandom.com/wiki/Achievements_and_Trophies)
 ### Metro 2033
 
 ### Metro Last Light
@@ -257,7 +281,6 @@ No Bastards can be found in the environment of [Novosibirsk](https://metrovideog
 ### Metro Exodus
 
 ## Trivia
-
 - The term **ублюдок** (*ubliudok*) means "bastard" or "mongrel".
 - This is the only weapon in the game that has two [idle animations](http://www.youtube.com/watch?v=h_oSajQIH9o).
 - The *Metro 2033 Redux* version of Bastard is very similar to the one found in *Metro: Last Light*. Also, it accepts a wider variety of attachments.
@@ -279,11 +302,13 @@ No Bastards can be found in the environment of [Novosibirsk](https://metrovideog
 - The reason why the bastard uses a clip instead of a proper magazine in earlier metro games is probably because the scarcity of material resources in the metro, in which case making cheaper and much more simple clips instead of proper magazines makes sense for an automatic weapon meant to be mass produced.
 
 ## Bugs
-
 - If the player cheats and buys a silenced Bastard in the shop on [Exhibition](https://metrovideogame.fandom.com/wiki/Exhibition_(Level)) station *before* receiving one in the armory (*Which is impossible under normal conditions*), they will be indefinitely locked out of using any other primary weapons and will not receive [ammo](https://metrovideogame.fandom.com/wiki/5.45x39mm), [gas mask](https://metrovideogame.fandom.com/wiki/Gas_Mask), [filters](https://metrovideogame.fandom.com/wiki/filters), [universal charger](https://metrovideogame.fandom.com/wiki/Universal_Charger), and a [medkit](https://metrovideogame.fandom.com/wiki/medkit) from [Pavel](https://metrovideogame.fandom.com/wiki/Pavel_(Exhibition)). It's still possible to finish the game, but the player is severely crippled in the long run. This bug can only be fixed by restarting the game and visiting the armory first. Some players, however, utilize this cheat and bug to create a more challenging experience and completing the game this way is often seen as prestigious.
 
-## Gallery
+gi-leaked-screenshot-1.jpg
+metro-exodus-stanet-pervoy-igroy-s-tehnologiey-nvidia-rtx-46542.jpg
+Exodus - Bastard.jpg
+Metro-Exodus-Bastard-Gun-Weapon-Trailer.jpg
 
 ## Video Gallery
 
-[de:Bastardpistole](https://metrovideogame.fandom.com/wiki/de:Bastardpistole)[pl:Sobaka](https://metrovideogame.fandom.com/wiki/pl:Sobaka)[ru:Ублюдок](https://metrovideogame.fandom.com/wiki/ru:Ублюдок)[uk:Байстрюк](https://metrovideogame.fandom.com/wiki/uk:Байстрюк)[fr:Bâtard](https://metrovideogame.fandom.com/wiki/fr:Bâtard)
+![Metro Last Light - Bastard (Rework)](/weapon-imgs/inline/bastard/metro-last-light---bastard--rework-)

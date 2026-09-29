@@ -9,31 +9,47 @@ wiki: Bulldog
 appearances: Metro 2033, Metro Last Light, Metro Exodus
 ---
 
-> "The pinnacle of the Kalash family, this assault rifle boasts massive improvements compared to its prececessors in terms of firepower, accuracy, ergonomics and weight. It also has a lower rate of fire, making it easier to control in burst mode. The weapon's advanced design makes it hard to maintain in the postnuclear world, degrading its reliability."
-> — In-game description
-
 The **Bulldog** (Russian: **Бульдог**) is a bullpup assault rifle first introduced in *[Metro Exodus](https://metrovideogame.fandom.com/wiki/Metro_Exodus)* and essentially a bullpup configuration of the [Kalash](https://metrovideogame.fandom.com/wiki/Kalash_(AK-74M)). The origins of the Bulldog likely predate the [Great War](https://metrovideogame.fandom.com/wiki/World_War_III), but the look of the weapon suggests it was modified or extensively repaired with whatever spare parts were available after the war. Nevertheless, it is an advanced weapon design, similar in some ways to [Kalash 2012](https://metrovideogame.fandom.com/wiki/Kalash_2012).
 
 ## Overview
-
 Although at first glance its design might seem to be based on that of the Kalash, the Bulldog is significantly better than its elder brother in the amount of damage it deals, how easily it handles, how much lighter it is, and how accurate its shots are - all in part due to its bullpup configuration. Furthermore, with a lower rate of fire, each burst from the rifle is more controllable than shooting from a Kalash.
 
 The Bulldog's downside is that it is much rarer than its more traditional brethren from the Kalashnikov family, making it more difficult to find spare parts (not to mention the complex mechanics that require skillful maintenance to keep running). This usually makes the older [Kalash](https://metrovideogame.fandom.com/wiki/Kalash) more popular among survivors of [World War III](https://metrovideogame.fandom.com/wiki/World_War_III).
 
 ## Variants and Customization
-
 The Bulldog shares all three of its upgradable stocks with the Kalash and [Shambler](https://metrovideogame.fandom.com/wiki/Uboinik_(Shambler)), All three of its upgradable barrels, its 30-Round Magazine and its 45-Round Extended Magazine with the Kalash, but it can equip a 60-round High Capacity Magazine, unique to this weapon. The Bulldog is able to equip all three laser gadgets. The Bulldog is able equip the Reflex Sight, NV Scope, and x6 Scope.
 
+**List of upgrades**
+
+| **Name** | **Effect** | **Description** |
+| --- | --- | --- |
+| Light grip | None (default) | Made from a steel band with fitted plywood lining, this grip is the most practical choice for short range combat. |
+| Standard stock and grip | Stability **+2** | Wooden stock and grip. Traditional for Kalash. |
+| Semi-grip stock | Stability **+3** | Wooden stock with a steep-angle cutout provides a more comfortable hand position. |
+| Heavy stock and grip | Stability **+7** | Heavy shoulder stock with a metal grip. Army type attachment designed to significantly decrease recoil. |
+| Short barrel and flash suppressor | None (default) | Lightest barrel and muzzle attachment combo readily available for assault rifles. |
+| Short barrel and suppressor | Damage **-1** | Tries to suppress sound with mixed results, while staying a bit more compact than a full-scale barrel. |
+| Standard barrel and compensator | Damage **+1** | Provides decent accuracy while not being too cumbersome. |
+| Long barrel and compensator | Damage **+2** | Designed to increase accuracy and damage, this barrel and muzzle attachment combo is not the best choice for the more dynamic firefights. |
+| Iron sights | Aim with iron sights | Standard sight used to assist in aiming. |
+| Reflex sight | Iron sight replaced with reflex sight | This pre-war sight makes aiming the gun at close and medium range easier, without sacrificing much of the field of view. |
+| NV scope | Iron sight replaced with night vision scope | This night-vision scope allows for accurate placement of shots even in complete darkness. |
+| Scope x6 | Iron sight replaced with x6 scope | This sniper sight allows easy aiming at extremely long distances, but significantly limits the field of view. |
+| Small magazine | **20**-round magazine | Small magazine holding 20 rounds of ammunition, light and compact. |
+| Magazine | **30**-round magazine | Standard magazine holding 30 rounds of ammunition. |
+| Extended magazine | **45**-round magazine | Large magazine holding up to 45 rounds of ammunition. Quite heavy. |
+| High capacity magazine | **60**-round magazine | Huge magazine with 60 rounds of ammunition. |
+| No gadget | None (default) | Less gadgets, less problems. |
+| Red laser | Crosshair replaced with red laser dot | Made from a cheap laser pointer that was heavily modified to increase power output at the cost of reliability. |
+| Green laser | Crosshair replaced with green laser dot | High visibility laser sight reassembled in a custom-made body along with a bunch of modifications. |
+| Infrared laser | Crosshair replaced with IR laser dot with NV active | The IR laser sight's invisible beam produces a very small dot on the target, which is only detectable with a night vision device. |
+
 ## Acquisition
-
-### '''Metro Exodus'''
-
-#### '''Moscow'''
-
+### **Metro Exodus**
+#### **Moscow**
 None of the [Hanza](https://metrovideogame.fandom.com/wiki/Hanza) Guards in Jamming Outpost or on the [Cruiser](https://metrovideogame.fandom.com/wiki/Red_Line_Armoured_Train) are equipped with the Bulldog, nor is there any found in the environment of [Moscow](https://metrovideogame.fandom.com/wiki/Moscow_(Metro_Exodus_Level)).
 
-#### '''Volga'''
-
+#### **Volga**
 None of the [Bandits](https://metrovideogame.fandom.com/wiki/Bandits_(Faction)), the armed [fanatics](https://metrovideogame.fandom.com/wiki/Church_of_the_Water_Tsar), and trade caravan guards in the Volga are equipped with the Bulldog, nor is there any found in the environment of the Volga. There are Stocks, Barrels, Sights and gadgets that can be equipped to the Shambler that can be recovered for later use.
 
 - There are five **Standard Stock and Grips** for the Bulldog that can be found in the Volga:
@@ -76,10 +92,7 @@ None of the [Bandits](https://metrovideogame.fandom.com/wiki/Bandits_(Faction)),
 - There are two **45-Round Extended Magazine** for the Kalash that can be found in the Volga:
   - At the bottom of a zip-line south of the Bandit Transmission tower, laying against a pile of sandbags. Attached to a Kalash.
   - Laying on top of a partially destroyed wooden crate next to a dead fanatic inside the destroyed warehouse that is Humanimals nest. Attached to a Kalash.
-  -
-
-#### '''Yamantau'''
-
+  - ====**Yamantau**====
 None of the [Cannibals](https://metrovideogame.fandom.com/wiki/Cannibals) in [Yamantau](https://metrovideogame.fandom.com/wiki/Yamantau_(Metro_Exodus_Level)) are equipped with the Bulldog, nor is there any found in the environment of the Yamantau. There are Stocks, Barrels, Sights and gadgets that can be equipped to the Bulldog that can be recovered for later use.
 - There are two **Standard Stock and Grips** for the Bulldog that can be found in the environment of Yamantau:
   - After passing through the frozen morgue and into the weapon storage room, laying on a table. Attached to a Kalash.
@@ -100,8 +113,7 @@ None of the [Cannibals](https://metrovideogame.fandom.com/wiki/Cannibals) in [Ya
   - In the first barracks section, in the last room on the right, propped up in a chair. Attached to a Kalash.
   - After passing through pile of rubble to reach a isolated bunkroom. Climb up the stack of boxes to reach the top of the small room, there on another crate. Attached to Ashot
 
-#### '''The Caspian'''
-
+#### **The Caspian**
 The [Munai-Bailer](https://metrovideogame.fandom.com/wiki/Munai-bailer) in [Caspian](https://metrovideogame.fandom.com/wiki/The_Caspian_(Metro_Exodus_Level)) are equipped with Bulldog in a variety of configurations. The Bulldog is the seventh most used weapon by the Munai-Bailer in Caspian along with being rarely found in the environment. It doesn't appear in any other level, but once found, it can be equipped at [Aurora](https://metrovideogame.fandom.com/wiki/Aurora)'s [workbench](https://metrovideogame.fandom.com/wiki/workbench). All directions are given in reference as though North on Artyom's map in this level is actually south. The Caspian sea should be to the south while the rail line that the Aurora is on is to the north.
 
 - There are multiple **Standard Stock and Grips** for the Bulldog that can be found in the Caspian:
@@ -191,8 +203,7 @@ The [Munai-Bailer](https://metrovideogame.fandom.com/wiki/Munai-bailer) in [Casp
   - At the central crossroads southwest of the central oil field, there is a wrecked van and to the northwest of the van, on the ground next to a dead combat slave. Attached to a Revolver.
   - In the abandon helicopter base to the northwest of the map, in the northwest corner past the hangers. There is a shack made from sheet metal, on a table to the left immediately after entering. Attache to a Revolver.
 
-#### '''The Taiga'''
-
+#### **The Taiga**
 None of the [Children of the Forest](https://metrovideogame.fandom.com/wiki/Children_of_the_Forest) or the Bandits in Taiga are not equipped with the Bulldog, nor is there any found in the environment of Taiga. There are Stocks, Barrels, Sights and gadgets that can be equipped to the Bulldog that can be recovered for later use.
 - There are two **Standard Stock and Grips** for the Bulldog that can be found in the Taiga:
   - Two of the Pirates in the Swamp Camp will have **Standard Stock and Grips** as part of their load-out. Both are attached to Kalashs.
@@ -218,8 +229,7 @@ None of the [Children of the Forest](https://metrovideogame.fandom.com/wiki/Chil
 - There are two **45-Round Extended Magazine** for the Bulldog can be found in the Taiga:
   - Two of the Pirates in the Swamp Camp will have **45-Round Extended Magazines** as part of their load-out. Both are attached to Kalashs
 
-#### '''The Dead City'''
-
+#### **The Dead City**
 No Bulldogs can be found in the environment of [Novosibirsk](https://metrovideogame.fandom.com/wiki/The_Dead_City_(Metro_Exodus_Level)). Any upgrades that can be equipped to the Bulldog are found in the environment attached to Shamblers or Kalashs.
 - There is one **Standard Stock and Grips** for the Bulldog that can be found in Novosibirsk:
   - Inside the [Institute](https://metrovideogame.fandom.com/wiki/Institute_(Novosibirsk)) after dropping off of the broken crosswalk. You will come to a central cross shaped room with four smaller rooms in each corner. In the far left room, inside an open metal locker. Attached to a Shambler.
@@ -233,10 +243,9 @@ No Bulldogs can be found in the environment of [Novosibirsk](https://metrovideog
   - In the middle of the burned out section of Prospekt, underneath a spotlight and a pile of burned corpse. Attached to a Kalash.
   - After descending into the hole with crashed T-72B3, follow the underground hallway. On the right there is a bulkhead door which is closed. Further down the hallway is a cyan door. Inside this first room, there is a junction box, jump it with Artyom's electrical equipment. There is a crawlspace on the left side of the first room, inside the second room there is a lever to open the bulkhead door. In the space between the now open bulkhead and the gated entrance to a station, on some bedding. Attached to a Kalash.
 
-## Related Achievements/Trophies
+## Related [Achievements/Trophies](https://metrovideogame.fandom.com/wiki/Achievements_and_Trophies)
 
 ## Trivia
-
 - Some similarities between the [Kalash 2012](https://metrovideogame.fandom.com/wiki/Kalash_2012) from *[Metro 2033](https://metrovideogame.fandom.com/wiki/Metro_2033_(Video_Game))* and *[Metro: Last Light](https://metrovideogame.fandom.com/wiki/Metro:_Last_Light)* with the Bulldog can be seen, such as the fact that both firearms are bullpup assault rifles which build on top of the previous Kalashnikov designs. Additionally, one of the possible configurations for the Bulldog is called the "*2012*", in a fairly obvious reference.
 - The Bulldog seem to have been a pre-war prototype that was fully assembled following the war, as evident by its jury-rigged appearance and lack of fine machining on its parts, its frame having been apparently crudely braised together. Similarly, [Tokarev](https://metrovideogame.fandom.com/wiki/Tokarev) concludes after examining the weapon that it must be custom-made, while Artyom's journal calls it a prototype weapon that only saw use *after* the end of the war. However, considering that the gas block and barrel appears to be taken directly from the AK-series of assault rifles, or the gas block appears to be too tall (and due to this needs a bent or curved gas tube), it also might have been assembled from spare or scavenged parts from two or more different rifles.
 - Oddly, despite being described as the pinnacle of the Kalash family, the Bulldog doesn't actually appear to be based on the traditional Kalash/AK design.
@@ -245,6 +254,3 @@ No Bulldogs can be found in the environment of [Novosibirsk](https://metrovideog
   - The [Weapons Trailer](https://youtu.be/B0nPID4VqLE?t=132) calls the long-range configuration of the weapon the [Vychlop](https://metrovideogame.fandom.com/wiki/Clapper_(VSSK_Vychlop)), and refers to the Bulldog designation as a nickname.
 - The Bulldog's mismatched gas block and bent tube from the block to the receiver hints at the weapon being converted either to use a direct impingement gas system, or at a radical modification of its short stroke gas piston.
 
-## Gallery
-
-[ru:Бульдог](https://metrovideogame.fandom.com/wiki/ru:Бульдог)[fr:"Bulldog" (Arme)](https://metrovideogame.fandom.com/wiki/fr:"Bulldog"_(Arme))

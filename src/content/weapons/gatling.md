@@ -15,9 +15,7 @@ appearances: Metro Last Light, Metro Exodus
 The **Gatling** or **Hand-Held Minigun** is a multi-stroke pneumatic machine gun that appears in *[Metro: Last Light](https://metrovideogame.fandom.com/wiki/Metro:_Last_Light)*. A different version of this weapon, albeit with the same name, also appears in *[Metro Exodus](https://metrovideogame.fandom.com/wiki/Metro_Exodus)*.
 
 ## Overview
-
 ### Metro: Last Light
-
 The Gatling is an automatic weapon that uses [12.7x108mm](https://metrovideogame.fandom.com/wiki/12.7x108mm) rounds and has a spring mechanism that needs to wound up to fire. Because of the high value of 12.7x108mm rounds, firing at full auto will be expensive and should be used only in extreme danger.
 
 This weapon is first seen in the campaign when caught by [Andrew the Blacksmith](https://metrovideogame.fandom.com/wiki/Andrew) at the end of the "[Revolution](https://metrovideogame.fandom.com/wiki/Revolution)" level. It's only available, however, during the [last few minutes](https://metrovideogame.fandom.com/wiki/Battle_of_D6) of the game, where the [Rangers](https://metrovideogame.fandom.com/wiki/Rangers) make their final stand. [Artyom](https://metrovideogame.fandom.com/wiki/Artyom) can use this weapon to easily mow down the attacking [Red Line](https://metrovideogame.fandom.com/wiki/Red_Line) troops with 500 rounds to use. Once the ammunition belt is used up, the gun cannot be reloaded and Artyom has to kill the remaining Reds with his other weapons. The weapon will lose accuracy if it's fired fully automatically - a single bullet fired from the Gatling will do a lot of damage, so it is advised that ammunition is used sparingly; keep the barrels rotating at all times so it can be fired quickly. It is unknown why the Rangers use a makeshift Gatling when a [DShK 12.7mm Machinegun](https://metrovideogame.fandom.com/wiki/DShK_12.7mm_Machinegun) would fire the same cartridge and probably do the job just as well, if not better as it would have been made before the war.
@@ -29,7 +27,6 @@ The Gatling appears in the last stage of [The Tower Pack](https://metrovideogame
 The Gatling is also seen in the [Developer Pack](https://metrovideogame.fandom.com/wiki/Developer_Pack_(Level)) at the [Shooting Gallery](https://metrovideogame.fandom.com/wiki/Shooting_Gallery) and [AI Arena](https://metrovideogame.fandom.com/wiki/AI_Arena) with all attachments available.
 
 ### Metro Exodus
-
 Unlike its predecessor from *Metro: Last Light*, the iteration of the Gatling seen in *Metro Exodus* possesses dual fixed barrels, is spring operated rather than crank- or motor-powered, has a 75-round quadrant-type magazine and fires [5.45x39mm](https://metrovideogame.fandom.com/wiki/5.45x39mm) ammunition (same as the [Kalash](https://metrovideogame.fandom.com/wiki/Kalash) or the [Bulldog](https://metrovideogame.fandom.com/wiki/Bulldog)). It does not seem to be based on any real-life weapon and is probably custom-made in the post-apocalyptic world.
 
 The Gatling is usually seen in the hands of [heavy trooper](https://metrovideogame.fandom.com/wiki/heavy_trooper)s. These armored enemies usually walk slowly towards Artyom while firing their gun in long bursts until the line of sight with him is broken. The gun can obliterate him very quickly if caught in the open, so carefully taking down these enemies from behind cover and at longer distance is advised. When they are killed, the gun can be picked up and used by Artyom as well, however, it does not come with any upgrades.
@@ -39,27 +36,38 @@ When firing the gun, the rate of fire is fairly slow at first, but increases not
 As impressive as it might seem, the Gatling can be disadvantageous in most situations, as it is cumbersome, inaccurate (with no option to aim down sights) and burns through ammunition very quickly. It can fill in for a shotgun if the player has more 5.45x39mm ammunition than shotgun shells, as the weapon is capable of killing most mutants and human enemies in a single body hit (oddly, given the short barrels and assault rifle caliber), while tougher enemies only require a few shots at most, even on hard difficulty. Using it at close range in such a manner offsets it's poor accuracy at a distance. So, while other weapons are generally more well rounded compared to the situational Gatling, the weapon is far from useless.
 
 ## Upgrades and Customization
-
 ### Metro: Last Light
-
 The Gatling has four unique [attachments](https://metrovideogame.fandom.com/wiki/attachments) that are not available for any other weapon. They focus on increasing the rate of fire, reducing recoil and eliminating the necessity to hand-crank the weapon in order to achieve maximum fire rate.
 
-### Metro Exodus
+**Available attachments**
 
+| **Name** | **Effect** | **Description** |
+| --- | --- | --- |
+| Five-barrel assembly | Increased rate of fire with no negative impact on spring mechanism | Increases Gatling's rate of fire without additional wear. |
+| Gatling stabiliser | Decreased recoil | This gyro stabilizer makes the gatling gun easier to control while spinning barrels and firing. |
+| Gatling engine | Doesn't need to be handcranked, fires at maximum fire rate indefinitely | Replaces the spring-operated spin-up mechanism, allowing for indefinite spin time. |
+| Gatling support | Decreased recoil while moving | Makes movement easier while spinning barrels and firing. |
+
+### Metro Exodus
 The Gatling has provisions for barrel and magazine mods in Metro Exodus. There are not, however, attachments available for it.
 
-## '''Acquisition'''
+**List of upgrades**
 
-### '''Metro Exodus'''
+| **Name** | **Effect** | **Description** |
+| --- | --- | --- |
+| Short barrels and spring mechanism | None (default) | This dual short-barreled mechanical-fed system boasts fast rate of fire combined with having good damage and penetration, but its drive spring slowly loses tension over time |
+| Quadrant-type magazine | **75**-round magazine | This quadrant-shaped magazine can hold up to 75 rounds of ammunition, while staying considerably less bulky than pan-type magazines |
 
-#### '''Yamantau'''
+## **Acquisition**
 
+### **Metro Exodus**
+
+#### **Yamantau**
 There is one Gatling Gun that can be found in the [Yamantau Bunker](https://metrovideogame.fandom.com/wiki/Yamantau_(Metro_Exodus_Level)).
 
 - In the hands of an armored heavy trooper that will attack Artyom at the choke-point just before the second barracks section.
 
-#### '''The Caspian'''
-
+#### **The Caspian**
 There are seven Gatling Guns that can be found in the [Caspian](https://metrovideogame.fandom.com/wiki/The_Caspian_(Metro_Exodus_Level)).
 
 - In the Munai-bailer ship breaking camp, In the stern section of the ship, on the middle decks of the superstructure, after coming up the ladder, on a stack of wooden crates.
@@ -70,20 +78,17 @@ There are seven Gatling Guns that can be found in the [Caspian](https://metrovid
 - In the Munai-bailer prison hulk on the south side of the coastal road, in the hands of an armored heavy trooper.
 - In the hands of an armored heavy trooper, who will storm the entrance to the Baron's penthouse.
 
-## Related Achievements/Trophies
-
+## Related [Achievements/Trophies](https://metrovideogame.fandom.com/wiki/Achievements_and_Trophies)
 ### Metro: Last Light
 
 ### Metro Exodus
 
 ## Trivia
-
 ### Metro: Last Light
-
 - In real life, a Gatling, even a smaller one and especially a 12.7x108mm one, would be very difficult to operate without special equipment or mounted on vehicles. Even if it was feasible to use, it would be so unwieldy for someone such as Artyom or even Hans that targets would be difficult to hit. At the very least, both characters should have a sling to support the weapon, as they would be unable to raise the firearm for that long without proper support.
 - Modern Gatling guns are powered by an external power source in order for one to work. In game, the Gatling uses a large coil spring wound up using a purposed ratchet strap. It can also be upgraded with a small petrol engine used to run the mechanism. This engine, however, appears to be too small to have enough torque to turn the barrels and run the rest of the mechanism.
 - Ammunition is also a problem, as 500 rounds of 12.7x108mm weights about 24 kilograms, or about 53 pounds. So the ammo box linked to the weapon would be very difficult to carry, let alone fire accurately.
-- The only known Eastern Bloc 12.7 mm Gatling gun similar to the in-game Gatling is the [YakB-12.7](https://metrovideogame.fandom.com/wiki/Wikipedia:Yak-B_12.7mm_machine_gun), which has four barrels instead of three or five. The Yak-B-12.7 is the primary armament of the Mil Mi-24 Hind Attack Helicopter. The Western counterpart of the YakB-12.7 is the less popular [GAU-19/A](https://metrovideogame.fandom.com/wiki/wikipedia:GAU-19), which uses 3 or 6 rotaty barrels, fire a slightly shorter 12.7x99mm BMG, and is the primary weapon of V-22 Osprey or OH-58D Kiowa Helicopter.
+- The only known Eastern Bloc 12.7 mm Gatling gun similar to the in-game Gatling is the [YakB-12.7](https://en.wikipedia.org/wiki/Yak-B%2012.7mm%20machine%20gun), which has four barrels instead of three or five. The Yak-B-12.7 is the primary armament of the Mil Mi-24 Hind Attack Helicopter. The Western counterpart of the YakB-12.7 is the less popular [GAU-19/A](https://metrovideogame.fandom.com/wiki/wikipedia:GAU-19), which uses 3 or 6 rotaty barrels, fire a slightly shorter 12.7x99mm BMG, and is the primary weapon of V-22 Osprey or OH-58D Kiowa Helicopter.
 - Before *[Metro: Last Light](https://metrovideogame.fandom.com/wiki/Metro:_Last_Light)* was released, the Gatling could be seen outside of [D6](https://metrovideogame.fandom.com/wiki/D6). It was shown to be found in a [Reich](https://metrovideogame.fandom.com/wiki/Fourth_Reich) outpost during the first gameplay trailer, and again in the full 12-minute gameplay video, along with a [Helsing](https://metrovideogame.fandom.com/wiki/Helsing), while Artyom is battling a [rhino](https://metrovideogame.fandom.com/wiki/rhino). It also seemed the Gatling needed to be charged, as the trailer shows Artyom using a handle which fills the gauge that can be coloured green from yellow to red.
 - When left idle, Artyom will pull the handle back and forth.
 - Killing an enemy with the Gatling causes a large cloud of blood, even when the target is heavily armored. This is understandable given the large calibre round entering and exiting their body.
@@ -102,17 +107,14 @@ There are seven Gatling Guns that can be found in the [Caspian](https://metrovid
 - Despite using the biggest caliber in the metro, the Gatling's gunshot sound effects are some of the quietest in the game.
 
 ### Metro Exodus
-
 - The description at the workbench claims that the Gatling has rotating barrels, while in fact, it has dual fixed barrels. It's possible - as suggested by some concept art - that rotating barrels were intended as one of the attachments, which eventually didn't make it into the game.
 - Other attachments seen in concept art indicate that multiple magazine types, barrel assemblies, and mechanisms for spooling the weapon up were planned, with the maxed out Gatling having a 5-barrel assembly, powered with an electric motor and loaded with a belt fed magazine.
   - The reason for the downscaling of its features might likely have been that Metro Exodus rarely, if at all, presents an opportunity where a weapon like the Gatling would have a practical purpose.
 - Because this weapon does not have a set of crank-powered rotating barrels, it technically is not a Gatling gun. The name was probably chosen as most games call similar multi-barelled heavy machine guns "Gatling guns", so the players immediately know what kind of weapon they are dealing with.
   - Technically, the weapon may actually be working off a Gast Gun mechanism, meaning that the recoil / gas of the first fired barrel would charge and fire the second barrel and vice versa. While the concept has been very scarcely used in anything but novel handheld firearms since it's original inception, late soviet autocannon designs for fighter jets and SPAA make use of the design concept.
 
-## Gallery
-
 ### Metro: Last Light
+
 
 ### Metro Exodus
 
-[ru:Гатлинг](https://metrovideogame.fandom.com/wiki/ru:Гатлинг)

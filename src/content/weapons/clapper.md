@@ -5,7 +5,7 @@ group: Sniper Rifles
 order: 30
 image: /weapon-imgs/clapper.png
 brief: "The Clapper (Russian: Хлопушка), the in-game name for the real-life VKS (VSSK or Vychlop), appears only in Metro: Las..."
-wiki: Clapper
+wiki: "Clapper_(VSSK_Vychlop)"
 appearances: Metro 2033, Metro Last Light
 ---
 
@@ -15,7 +15,6 @@ appearances: Metro 2033, Metro Last Light
 The **Clapper** (Russian: **Хлопушка**), the in-game name for the real-life **VKS** (**VSSK** or **Vychlop**), appears only in *[Metro: Last Light](https://metrovideogame.fandom.com/wiki/Metro:_Last_Light)* in the [Faction Pack](https://metrovideogame.fandom.com/wiki/The_Faction_Pack) and [Developer Pack](https://metrovideogame.fandom.com/wiki/Developer_Pack_(DLC)) DLCs.
 
 ## Overview
-
 The [VSSK Vychlop](http://world.guns.ru/sniper/large-caliber-sniper-rifles/rus/vks-vssk-vychlop-e.html) is a suppressed bullpup, semi-automatic anti-materiel rifle which uses 12.7x55mm rounds in a 5-round detachable box magazine. It was developed in 2002 for the special forces units of FSB. It is meant for special operation missions which it's highly effective against combatants in heavy-body armour. At closer range, it can be used as an anti-matériel weapon.
 
 This weapon first appeared in the mission "[Sniper Team](https://metrovideogame.fandom.com/wiki/Sniper_Team)", as the [Red Line](https://metrovideogame.fandom.com/wiki/Red_Line) [sniper's](https://metrovideogame.fandom.com/wiki/Red_Line_Sniper) weapon of choice. Its uniqueness and rarity of ammunition ([12.7x108mm](https://metrovideogame.fandom.com/wiki/12.7x108mm)) means that it would only be gifted to the most deadly of snipers. In the [Developer Pack level](https://metrovideogame.fandom.com/wiki/Developer_Pack_(Level)), it's usable in both the [AI Arena](https://metrovideogame.fandom.com/wiki/AI_Arena) and the [Shooting Gallery](https://metrovideogame.fandom.com/wiki/Shooting_Gallery). The Clapper is one of only three true sniper rifles in the game, the others being the [Preved](https://metrovideogame.fandom.com/wiki/Preved) and the [Valve](https://metrovideogame.fandom.com/wiki/Valve).
@@ -23,13 +22,18 @@ This weapon first appeared in the mission "[Sniper Team](https://metrovideogame
 It's one of the better stealth weapons, with the one hit kill ability of the other sniper rifles, as well as having the silenced capabilities of the [Tihar](https://metrovideogame.fandom.com/wiki/Tihar) or [Helsing](https://metrovideogame.fandom.com/wiki/Helsing) without the need to pump after sustained firing. It also has a bullpup (shortened) design, meaning it's easy to deploy and use at a closer range, though it performs best at long ranges. Compared to other sniper rifles in game, the VSSK Vychlop is superior - in terms of magazine capacity, rate of fire, stealth capabilities, reload time and dexterity. Whilst the other rifles, especially Preved, need to purchase the attachments to match the capability of the Clapper, it has all the benefits in one package. The Clapper, however, is limited in number and only usable in the Sniper Team and Shooting Gallery mission.
 
 ## Upgrades and Customisation
-
 The Clapper only has two attachments available - a x4 scope and a laser sight. Both are equipped by default in the Sniper Team mission. The weapon also has an integrated silencer, which can not be removed.
 
-## Related Achievements/Trophies
+**Available attachments**
+
+| **Name** | **Effect** | **Description** |
+| --- | --- | --- |
+| 4x sight | Range **+100%** | This sniper sight allows for easy target acquisition and weapon aiming at extremely long range, but limits the field of view considerably |
+| Laser sight | Accuracy **+25%** | A pre-war laser sight facilitates aiming the weapon at close range, making precise snapshots easy to achieve. |
+
+## Related [Achievements/Trophies](https://metrovideogame.fandom.com/wiki/Achievements_and_Trophies)
 
 ## Trivia
-
 - Despite the weapon's nickname, it's completely silent.
   - This may be a joke by the developers to players who can understand English as the American gaming slang for a clapper is a ludicrously overpowered gun, which this rifle is the very definition of in the game.
 - The Red Line scout claims that there is only one known Clapper in the Metro by the year 2034, though considering the rarity of the weapon in real life, during the post-apocalypse, this is justified.
@@ -50,6 +54,4 @@ The Clapper only has two attachments available - a x4 scope and a laser sight. B
 - Like VSV in the original Metro 2033, the silencer is pre-attached to the Clapper and non-removable.
 - The picatinny rail on top of the Clapper is not used. Instead, the scope gets attached like other metro-made sniper rifles
 
-## Gallery
-
-[ru:Хлопушка](https://metrovideogame.fandom.com/wiki/ru:Хлопушка)
+MLL faction pack 001.jpg
