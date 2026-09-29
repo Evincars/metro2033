@@ -100,7 +100,12 @@ const SLUG_ALIASES = {
   'Electrical Equipment#Upgrades': '/equipment/electrical-equipment',
   "Artyom's Bracer#Upgrades": '/equipment/artyoms-bracer',
   'Incendiary 5.45x39mm': '/ammunition/incendiary-5-45x39mm',
-  'postcards': '/equipment',
+  // Collectibles live as one page per game, under the Levels section's second tab.
+  // normalizeSlug already folds case, %27 and #anchors, so these keys cover every spelling.
+  "Artyom's Journal (Metro 2033 Redux)": '/levels/collectibles/artyoms-journal-2033',
+  "Artyom's Journal (Metro Last Light)": '/levels/collectibles/artyoms-journal-last-light',
+  "Artyom's Journal (Metro Exodus)": '/levels/collectibles/artyoms-journal-exodus',
+  'Postcards': '/levels/collectibles/artyoms-journal-exodus',
   'Difficulties': '/games/metro-exodus',
   'Downloadable Content': '/games/metro-exodus',
 

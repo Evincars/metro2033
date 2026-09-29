@@ -50,6 +50,12 @@ const routes = [
     meta: { label: 'Levels', code: '06', leftMenu: true },
   },
   {
+    path: '/levels/collectibles/:id',
+    name: 'collectible-detail',
+    component: () => import('../views/LevelsView.vue'),
+    meta: { label: 'Levels', leftMenu: true },
+  },
+  {
     path: '/levels/:id',
     name: 'level-detail',
     component: () => import('../views/LevelsView.vue'),

@@ -281,11 +281,14 @@ export default {
   'levels.title': 'Рівні',
   'levels.description': 'Кожна місія «Метро 2033» та «Метро: Промінь надії» в сюжетному порядку. Оберіть рівень для повного досьє або відкрийте карту метро, щоб простежити шлях Артема.',
   'levels.searchPlaceholder': 'Фільтр рівнів…  (натисніть / для пошуку)',
+  'levels.tabLevels': 'Рівні',
+  'levels.tabCollectibles': 'Колекційні предмети',
+  'levels.searchCollectiblesPlaceholder': 'Фільтр предметів…  (натисніть / для пошуку)',
   'levels.noDataTitle': 'Дані рівнів не завантажено',
   'levels.noDataText': 'Досьє на рівні з\'являться тут після підключення архіву кампанії.',
   'levels.noMatches': 'Немає збігів',
   'levels.noMatchesText': 'Жоден рівень не відповідає',
-  'levels.mapTitle': 'Інтерактивна карта',
+  'levels.mapTitle': 'Карта',
   'levels.mapHint': 'Натисніть на карту, щоб відкрити її у повному розмірі.',
   'levels.fandomLink': 'Читати повну статтю на Fandom ↗',
 
@@ -331,6 +334,7 @@ export default {
   'releaseNotes.title': 'Список змін',
 
   'breadcrumb.level': 'Рівень',
+  'breadcrumb.collectible': 'Колекційні предмети',
   'breadcrumb.location': 'Локація',
   'breadcrumb.metroLine': 'Лінія метро',
   'breadcrumb.faction': 'Фракція',

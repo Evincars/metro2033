@@ -297,11 +297,14 @@ export default {
   'levels.title': 'Levels',
   'levels.description': "Every mission of Metro 2033 and Metro: Last Light, in story order. Select a level for the full dossier, or open the Metro Map to trace Artyom's journey station by station.",
   'levels.searchPlaceholder': 'Filter levels…  (press / to focus)',
+  'levels.tabLevels': 'Levels',
+  'levels.tabCollectibles': 'Collectibles',
+  'levels.searchCollectiblesPlaceholder': 'Filter collectibles…  (press / to focus)',
   'levels.noDataTitle': 'No level data loaded',
   'levels.noDataText': 'Level dossiers will appear here once the campaign archive is connected.',
   'levels.noMatches': 'No matches',
   'levels.noMatchesText': 'No level matches',
-  'levels.mapTitle': 'Interactive Map',
+  'levels.mapTitle': 'Map',
   'levels.mapHint': 'Click the map to open it full size.',
   'levels.fandomLink': 'Read the full article on Fandom ↗',
 
@@ -353,6 +356,7 @@ export default {
 
   // Breadcrumbs fallbacks
   'breadcrumb.level': 'Level',
+  'breadcrumb.collectible': 'Collectibles',
   'breadcrumb.location': 'Location',
   'breadcrumb.metroLine': 'Metro line',
   'breadcrumb.faction': 'Faction',

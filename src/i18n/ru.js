@@ -281,11 +281,14 @@ export default {
   'levels.title': 'Уровни',
   'levels.description': 'Каждая миссия «Метро 2033» и «Метро: Луч надежды» в сюжетном порядке. Выберите уровень для полного досье или откройте карту метро, чтобы проследить путь Артёма.',
   'levels.searchPlaceholder': 'Фильтр уровней…  (нажмите / для поиска)',
+  'levels.tabLevels': 'Уровни',
+  'levels.tabCollectibles': 'Коллекционные предметы',
+  'levels.searchCollectiblesPlaceholder': 'Фильтр предметов…  (нажмите / для поиска)',
   'levels.noDataTitle': 'Данные уровней не загружены',
   'levels.noDataText': 'Досье на уровни появятся здесь после подключения архива кампании.',
   'levels.noMatches': 'Нет совпадений',
   'levels.noMatchesText': 'Ни один уровень не соответствует',
-  'levels.mapTitle': 'Интерактивная карта',
+  'levels.mapTitle': 'Карта',
   'levels.mapHint': 'Нажмите на карту, чтобы открыть её в полном размере.',
   'levels.fandomLink': 'Читать полную статью на Fandom ↗',
 
@@ -331,6 +334,7 @@ export default {
   'releaseNotes.title': 'Список изменений',
 
   'breadcrumb.level': 'Уровень',
+  'breadcrumb.collectible': 'Коллекционные предметы',
   'breadcrumb.location': 'Локация',
   'breadcrumb.metroLine': 'Линия метро',
   'breadcrumb.faction': 'Фракция',

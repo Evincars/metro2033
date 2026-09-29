@@ -4,6 +4,7 @@ import { useRoute, useRouter } from 'vue-router'
 import { marked } from 'marked'
 import { t } from '../i18n'
 import { GAMES, levels, levelsById } from '../data/levels'
+import { collectibles, collectiblesById } from '../data/collectibles'
 import { fuzzyMatch } from '../utils/search'
 import { handleInternalClick, linkify } from '../utils/wikiLinks'
 
@@ -13,10 +14,14 @@ const router = useRouter()
 marked.setOptions({ breaks: false, gfm: true })
 
 const activeId = computed(() => route.params.id ?? '')
-const activeLevel = computed(() => (activeId.value ? levelsById[activeId.value] : null))
+const isCollectible = computed(() => route.name === 'collectible-detail')
+const activeEntry = computed(() => {
+  if (!activeId.value) return null
+  return isCollectible.value ? collectiblesById[activeId.value] : levelsById[activeId.value]
+})
 
 const renderedBody = computed(() =>
-  activeLevel.value ? linkify(marked.parse(activeLevel.value.body || '')) : '',
+  activeEntry.value ? linkify(marked.parse(activeEntry.value.body || '')) : '',
 )
 
 // Intercept clicks on rewritten links and route within the SPA.
@@ -32,7 +37,7 @@ function markBroken(id) {
   brokenImages.value = next
 }
 const showImage = computed(
-  () => activeLevel.value?.image && !brokenImages.value.has(activeLevel.value.id),
+  () => activeEntry.value?.image && !brokenImages.value.has(activeEntry.value.id),
 )
 
 // ---- Interactive map lightbox ----
@@ -46,12 +51,28 @@ function closeMap() {
 // Never carry an open map over to the next level.
 watch(activeId, closeMap)
 
+// ---- Tabs ----
+// Kept in the URL so a tab survives a refresh and can be linked to.
+const tab = computed(() => (route.query.tab === 'collectibles' ? 'collectibles' : 'levels'))
+function selectTab(next) {
+  search.value = ''
+  router.push({ name: 'levels', query: next === 'collectibles' ? { tab: next } : {} })
+}
+
 // ---- List filter ----
 const search = ref('')
 const searchInput = ref(null)
 
 const filteredLevels = computed(() =>
   search.value ? levels.filter((level) => fuzzyMatch(search.value, level.title)) : levels,
+)
+
+const filteredCollectibles = computed(() =>
+  search.value
+    ? collectibles.filter(
+        (entry) => fuzzyMatch(search.value, entry.title) || fuzzyMatch(search.value, entry.gameLabel),
+      )
+    : collectibles,
 )
 
 // Group filtered levels by game, then by chapter, preserving story order.
@@ -68,9 +89,17 @@ const grouped = computed(() => {
   }))
 })
 
+const visibleGames = computed(() => (tab.value === 'collectibles' ? [] : grouped.value))
+const hasData = computed(() =>
+  tab.value === 'collectibles' ? collectibles.length > 0 : levels.length > 0,
+)
+const hasMatches = computed(() =>
+  tab.value === 'collectibles' ? filteredCollectibles.value.length > 0 : grouped.value.length > 0,
+)
+
 // Press "/" to jump into the filter (unless already typing in a field).
 function onKeydown(event) {
-  if (event.key !== '/' || activeLevel.value) return
+  if (event.key !== '/' || activeEntry.value) return
   const tag = document.activeElement?.tagName
   if (tag === 'INPUT' || tag === 'TEXTAREA') return
   event.preventDefault()
@@ -84,40 +113,46 @@ function openLevel(id) {
   router.push({ name: 'level-detail', params: { id } })
 }
 
+function openCollectible(id) {
+  router.push({ name: 'collectible-detail', params: { id } })
+}
+
 function backToList() {
-  router.push({ name: 'levels' })
+  router.push({ name: 'levels', query: isCollectible.value ? { tab: 'collectibles' } : {} })
 }
 </script>
 
 <template>
   <section class="levels-view">
     <!-- Detail page -->
-    <template v-if="activeLevel">
+    <template v-if="activeEntry">
       <button class="back-link" type="button" @click="backToList">{{ t('levels.backToList') }}</button>
 
       <article class="mx-panel level-detail">
         <header class="detail-header">
-          <span class="mx-tag">{{ GAMES[activeLevel.game]?.label }} · {{ activeLevel.chapter }}</span>
-          <h1>{{ activeLevel.title }}</h1>
-          <p v-if="activeLevel.brief" class="detail-brief">{{ activeLevel.brief }}</p>
+          <span class="mx-tag">
+            {{ GAMES[activeEntry.game]?.label }}<template v-if="activeEntry.chapter"> · {{ activeEntry.chapter }}</template>
+          </span>
+          <h1>{{ activeEntry.title }}</h1>
+          <p v-if="activeEntry.brief" class="detail-brief">{{ activeEntry.brief }}</p>
         </header>
 
         <figure v-if="showImage" class="detail-figure">
           <img
-            :src="activeLevel.image"
-            :alt="activeLevel.title"
+            :src="activeEntry.image"
+            :alt="activeEntry.title"
             loading="lazy"
             referrerpolicy="no-referrer"
-            @error="markBroken(activeLevel.id)"
+            @error="markBroken(activeEntry.id)"
           />
         </figure>
 
         <div class="markdown-body" v-html="renderedBody" @click="onBodyClick" />
 
-        <section v-if="activeLevel.map" class="map-section">
+        <section v-if="activeEntry.map" class="map-section">
           <h2 class="map-title">{{ t('levels.mapTitle') }}</h2>
           <button class="map-thumb" type="button" @click="openMap">
-            <img :src="activeLevel.map" :alt="`${activeLevel.title} map`" loading="lazy" />
+            <img :src="activeEntry.map" :alt="`${activeEntry.title} map`" loading="lazy" />
           </button>
           <p class="map-hint">{{ t('levels.mapHint') }}</p>
         </section>
@@ -125,14 +160,14 @@ function backToList() {
         <Teleport to="body">
           <div v-if="mapOpen" class="lightbox-overlay" @click.self="closeMap">
             <button class="lightbox-close" @click="closeMap">&times;</button>
-            <img class="lightbox-img" :src="activeLevel.map" :alt="`${activeLevel.title} map`" />
+            <img class="lightbox-img" :src="activeEntry.map" :alt="`${activeEntry.title} map`" />
           </div>
         </Teleport>
 
         <a
-          v-if="activeLevel.wiki"
+          v-if="activeEntry.wiki"
           class="fandom-link"
-          :href="`https://metrovideogame.fandom.com/wiki/${activeLevel.wiki}`"
+          :href="`https://metrovideogame.fandom.com/wiki/${activeEntry.wiki}`"
           target="_blank"
           rel="noopener"
         >{{ t('levels.fandomLink') }}</a>
@@ -147,18 +182,52 @@ function backToList() {
         <p>{{ t('levels.description') }}</p>
       </header>
 
+      <div class="tab-bar" role="tablist">
+        <button
+          class="tab"
+          :class="{ 'is-active': tab === 'levels' }"
+          type="button"
+          role="tab"
+          :aria-selected="tab === 'levels'"
+          @click="selectTab('levels')"
+        >{{ t('levels.tabLevels') }}</button>
+        <button
+          class="tab"
+          :class="{ 'is-active': tab === 'collectibles' }"
+          type="button"
+          role="tab"
+          :aria-selected="tab === 'collectibles'"
+          @click="selectTab('collectibles')"
+        >{{ t('levels.tabCollectibles') }}</button>
+      </div>
+
       <div class="mx-panel toolbar">
         <input
           ref="searchInput"
           v-model="search"
           type="search"
           class="search-input"
-          :placeholder="t('levels.searchPlaceholder')"
-          aria-label="Filter levels"
+          :placeholder="tab === 'collectibles'
+            ? t('levels.searchCollectiblesPlaceholder')
+            : t('levels.searchPlaceholder')"
+          :aria-label="tab === 'collectibles' ? 'Filter collectibles' : 'Filter levels'"
         />
       </div>
 
-      <div v-for="game in grouped" :key="game.id" class="game-block">
+      <ul v-if="tab === 'collectibles'" class="collectible-grid">
+        <li v-for="entry in filteredCollectibles" :key="entry.id">
+          <button class="collectible-card mx-panel" type="button" @click="openCollectible(entry.id)">
+            <img v-if="entry.image" class="collectible-img" :src="entry.image" :alt="entry.title" loading="lazy" />
+            <span class="collectible-meta">
+              <span class="collectible-game">{{ entry.gameLabel }}</span>
+              <span class="collectible-name">{{ entry.title }}</span>
+              <span v-if="entry.brief" class="collectible-brief">{{ entry.brief }}</span>
+            </span>
+          </button>
+        </li>
+      </ul>
+
+      <div v-for="game in visibleGames" :key="game.id" class="game-block">
         <h2 class="game-title">{{ game.label }}</h2>
         <div v-for="chapter in game.chapters" :key="chapter.name" class="chapter-block">
           <h3 class="chapter-title">{{ chapter.name }}</h3>
@@ -176,13 +245,13 @@ function backToList() {
         </div>
       </div>
 
-      <div v-if="!levels.length" class="mx-panel empty-state">
+      <div v-if="!hasData" class="mx-panel empty-state">
         <span class="empty-icon">◉</span>
         <h2>{{ t('levels.noDataTitle') }}</h2>
         <p>{{ t('levels.noDataText') }}</p>
       </div>
 
-      <div v-else-if="!grouped.length" class="mx-panel empty-state">
+      <div v-else-if="!hasMatches" class="mx-panel empty-state">
         <span class="empty-icon">◉</span>
         <h2>{{ t('levels.noMatches') }}</h2>
         <p>{{ t('levels.noMatchesText') }} “{{ search }}”.</p>
@@ -264,6 +333,109 @@ function backToList() {
   text-transform: uppercase;
   color: var(--color-text-faint);
   margin: 0.4rem 0 0;
+}
+
+.tab-bar {
+  display: flex;
+  gap: 0.25rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.tab {
+  position: relative;
+  font-family: var(--font-metro);
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-text-dim);
+  background: transparent;
+  border: none;
+  padding: 0.65rem 1rem;
+  cursor: pointer;
+  transition: color 0.15s ease, background-color 0.15s ease;
+}
+
+.tab:hover {
+  color: var(--color-amber-bright);
+  background: rgba(232, 149, 42, 0.06);
+}
+
+.tab.is-active {
+  color: var(--color-amber-bright);
+}
+
+.tab.is-active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 2px;
+  background: var(--color-amber);
+  box-shadow: var(--glow-amber);
+}
+
+.collectible-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 0.75rem;
+}
+
+.collectible-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  padding: 0;
+  overflow: hidden;
+  cursor: pointer;
+  color: var(--color-text);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.collectible-card:hover {
+  border-color: var(--color-border-strong);
+  box-shadow: var(--glow-amber);
+  transform: translateY(-1px);
+}
+
+.collectible-img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.collectible-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 0.85rem 1rem;
+}
+
+.collectible-game {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-amber);
+}
+
+.collectible-name {
+  font-family: var(--font-metro);
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+}
+
+.collectible-brief {
+  font-size: 0.78rem;
+  line-height: 1.5;
+  color: var(--color-text-dim);
 }
 
 .level-grid {

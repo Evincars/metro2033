@@ -1,4 +1,5 @@
 import { levelsById } from '../data/levels'
+import { collectiblesById } from '../data/collectibles'
 import { locationsById, metroLineById } from '../data/locations'
 import { factionsById } from '../data/factions'
 import { charactersById } from '../data/characters'
@@ -47,6 +48,11 @@ export function getBreadcrumbs(route) {
       return []
     case 'level-detail':
       return [SECTION.levels, { label: levelsById[id]?.title ?? t('breadcrumb.level') }]
+    case 'collectible-detail':
+      return [
+        { label: t('levels.tabCollectibles'), to: '/levels?tab=collectibles' },
+        { label: collectiblesById[id]?.gameLabel ?? t('breadcrumb.collectible') },
+      ]
     case 'location-detail':
       return [SECTION.locations, { label: locationsById[id]?.title ?? t('breadcrumb.location') }]
     case 'metro-line':
@@ -84,5 +90,6 @@ export function getBreadcrumbs(route) {
 
 /** The list-route path of the section the current route belongs to. */
 export function sectionPath(route) {
-  return getBreadcrumbs(route)[0]?.to
+  // Drop any tab query so a section still matches its nav entry.
+  return getBreadcrumbs(route)[0]?.to?.split('?')[0]
 }
