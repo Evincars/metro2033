@@ -178,7 +178,7 @@ const hasLeftMenu = computed(() => !!route.meta.leftMenu)
   box-shadow: var(--shadow-panel);
 }
 
-/* flickering emergency strip light along the top edge */
+/* emergency strip light along the top edge */
 .app-header::before {
   content: '';
   position: absolute;
@@ -188,12 +188,6 @@ const hasLeftMenu = computed(() => !!route.meta.leftMenu)
   height: 2px;
   background: var(--color-amber);
   box-shadow: var(--glow-amber);
-  animation: flicker 5s infinite steps(1, end);
-}
-
-@keyframes flicker {
-  0%, 19%, 21%, 23%, 54%, 56%, 100% { opacity: 1; }
-  20%, 22%, 55% { opacity: 0.45; }
 }
 
 /* On mobile/tablet both burgers show: the left one opens the section drawer,
