@@ -1,5 +1,5 @@
 <script setup>
-import { computed, ref } from 'vue'
+import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 import { useRoute } from 'vue-router'
 import SettingsDialog from './SettingsDialog.vue'
 import ReleaseNotesDialog from './ReleaseNotesDialog.vue'
@@ -30,6 +30,13 @@ const mobileOpen = ref(false)
 function toggleMobile() {
   mobileOpen.value = !mobileOpen.value
 }
+function onDocClick(e) {
+  if (!mobileOpen.value) return
+  if (e.target.closest('.mobile-nav') || e.target.closest('.burger-mobile')) return
+  mobileOpen.value = false
+}
+onMounted(() => document.addEventListener('click', onDocClick))
+onBeforeUnmount(() => document.removeEventListener('click', onDocClick))
 
 const settingsOpen = ref(false)
 const notesOpen = ref(false)
